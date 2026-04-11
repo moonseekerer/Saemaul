@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Saemaul-SDGs [STANDALONE]</title>
+    <!-- Tailwind Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        saemaul: {
+                            green: "#009247",
+                            dark: "#007a3b",
+                            light: "#e6f4ed",
+                        },
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+        @keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+        .animate-fade-in { animation: fadeIn 0.8s ease-out; }
+        .animate-float { animation: float 3s ease-in-out infinite; }
+        .animate-scroll { animation: scroll 30s linear infinite; }
+        .glass-card { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.2); }
+        .card-3d-wrap { perspective: 1000px; }
+        .card-3d { transition: transform 0.5s; transform-style: preserve-3d; }
+        .card-3d:hover { transform: rotateY(10deg) rotateX(5deg); }
+        .btn-primary { background: #009247; color: white; border-radius: 9999px; transition: all 0.3s; box-shadow: 0 10px 15px -3px rgba(0, 146, 71, 0.3); }
+        .btn-primary:hover { background: #007a3b; transform: scale(1.05); }
+        .marquee-container { overflow: hidden; white-space: nowrap; position: relative; }
+        .marquee-content { display: flex; gap: 40px; align-items: center; width: max-content; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased">
+    <div id="root"></div>
+
+    <!-- Standalone Script -->
+    <script>
+        const translations = {
+            ko: {
+                nav: ["홈", "리더십 테스트", "리더보드", "지식 허브", "커뮤니티 가입"],
+                hero: {
+                    badge: "글로벌 디지털 마을 혁신 이니셔티브",
+                    title: "전통의 가치, <span class='text-saemaul-green'>디지털로 완성하다</span>",
+                    sub: "새마을 정신의 정수를 이어받아 지속가능발전목표(SDGs)를 실현합니다. 디지털 기술로 변화하는 글로벌 마을 공동체의 여정에 함께하세요.",
+                    start: "플랫폼 시작하기",
+                    demo: "체험 영상 보기"
+                },
+                live: ["실시간 현황", "참여 중인 글로벌 마을", "새로운 등급 달성", "디지털 새마을 리더", "SDG 17 목표 달성", "글로벌 파트너십 강화 완료", "현재 활발히 활동 중"],
+                cards: [
+                    ["새마을 리더십 유형 테스트", "데이터 기반의 문항을 통해 당신의 잠재된 리더십 스타일을 분석해 드립니다.", "user-check", "blue"],
+                    ["Global Village 랭킹", "전 세계 협력 마을의 발전 지표를 실시간으로 확인하고 비교해 보세요.", "trophy", "amber"],
+                    ["AI 새마을 지식 전문가", "지역 개발 전략부터 운영 노하우까지, 지능형 챗봇이 즉각적인 해답을 드립니다.", "message-square", "emerald"],
+                    ["새마을 디지털 아카이브", "OCR 기술로 복원된 방대한 역사적 기록과 성공 사례를 자유롭게 탐색하세요.", "book-open", "indigo"]
+                ]
+            },
+            en: {
+                nav: ["Home", "Type Test", "Ranking", "Knowledge Hub", "Join Community"],
+                hero: {
+                    badge: "Global Village Initiative",
+                    title: "Ancient Spirit, <span class='text-saemaul-green'>Modern Tools</span>",
+                    sub: "Empowering SDGs 4 & 17 through Saemaul Principles. Join a global movement of digital transformation and local development.",
+                    start: "Start Your Journey",
+                    demo: "Watch Demo"
+                },
+                live: ["Live Status", "Global Villages", "New Role Unlocked", "Digital Saemaul Leader", "SDG 17 Milestone", "Global Partnership Boosted", "Engaging Now"],
+                cards: [
+                    ["Saemaul Archetype Test", "Identify your leadership style based on Saemaul principles.", "user-check", "blue"],
+                    ["Global Village Ranking", "Track progress and compare development metrics worldwide.", "trophy", "amber"],
+                    ["AI Saemaul Chatbot", "Real-time expert guidance on local development strategies.", "message-square", "emerald"],
+                    ["OCR Knowledge Archive", "Access digitized historical records with advanced OCR search.", "book-open", "indigo"]
+                ]
+            }
+        };
+
+        let currentLang = 'ko';
+
+        function render() {
+            const t = translations[currentLang];
+            const root = document.getElementById('root');
+            
+            root.innerHTML = `
+                <!-- Nav -->
+                <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md py-4 shadow-sm">
+                    <div class="container mx-auto px-6 flex items-center justify-between">
+                        <div class="flex items-center gap-2">
+                            <div class="w-10 h-10 overflow-hidden rounded-xl bg-white flex items-center justify-center shadow-lg border border-slate-100">
+                                <img src="https://www.saemaul.or.kr/images/sub/company/ci_2img2.png" alt="Saemaul Logo" class="w-full h-full object-contain p-1">
+                            </div>
+                            <span class="text-xl font-black text-slate-800">Saemaul<span class="text-saemaul-green">-SDGs</span></span>
+                        </div>
+                        <div class="hidden md:flex items-center gap-8 text-sm font-bold text-slate-600">
+                            ${t.nav.slice(0, 4).map(n => `<a href="#" class="hover:text-saemaul-green transition-colors">${n}</a>`).join('')}
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <button onclick="toggleLang()" class="flex items-center gap-2 px-3 py-1.5 rounded-lg border text-xs font-bold uppercase transition-colors hover:bg-slate-50">
+                                <i data-lucide="languages" size="14" class="text-saemaul-green"></i>
+                                ${currentLang === 'ko' ? 'English' : '한국어'}
+                            </button>
+                            <button class="btn-primary py-2 px-5 text-sm font-bold">${t.nav[4]}</button>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- Hero -->
+                <section class="pt-48 pb-32 relative overflow-hidden">
+                    <div class="absolute inset-0 z-0">
+                        <img src="./public/assets/national-sm-map.png" alt="Map Background" class="w-full h-full object-cover opacity-40">
+                        <div class="absolute inset-0 bg-gradient-to-b from-slate-50/50 via-transparent to-slate-50"></div>
+                    </div>
+                    <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
+                        <div class="animate-fade-in">
+                            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-saemaul-light text-saemaul-green text-sm font-bold mb-6 border border-saemaul-green/20">
+                                ${t.hero.badge}
+                            </div>
+                            <h1 class="text-5xl md:text-7xl font-black text-slate-900 leading-tight mb-6">
+                                ${t.hero.title}
+                            </h1>
+                            <p class="text-slate-600 text-lg mb-10 font-medium leading-relaxed max-w-xl">
+                                ${t.hero.sub}
+                            </p>
+                            <div class="flex gap-4">
+                                <button class="btn-primary text-lg px-8 py-4 flex items-center gap-2 font-bold">${t.hero.start} <i data-lucide="arrow-right"></i></button>
+                                <button class="px-8 py-4 rounded-full font-bold border-2 text-slate-600 hover:bg-slate-100 transition-all">${t.hero.demo}</button>
+                            </div>
+                        </div>
+                        <div class="hidden lg:block card-3d-wrap">
+                            <div class="card-3d glass-card p-10 rounded-[40px] shadow-2xl relative">
+                                <div class="mb-10">
+                                    <h4 class="text-saemaul-green font-bold text-sm uppercase mb-2">${t.live[0]}</h4>
+                                    <div class="text-4xl font-black">124+ <span class="text-slate-400 text-sm font-medium ml-2">${t.live[1]}</span></div>
+                                </div>
+                                <div class="space-y-4">
+                                    <div class="bg-slate-50 p-4 rounded-2xl flex items-center gap-4">
+                                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600"><i data-lucide="user-check"></i></div>
+                                        <div><p class="font-bold text-sm">${t.live[2]}</p><p class="text-xs text-slate-400">${t.live[3]}</p></div>
+                                    </div>
+                                    <div class="bg-slate-50 p-4 rounded-2xl flex items-center gap-4">
+                                        <div class="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center text-amber-600"><i data-lucide="globe"></i></div>
+                                        <div><p class="font-bold text-sm">${t.live[4]}</p><p class="text-xs text-slate-400">${t.live[5]}</p></div>
+                                    </div>
+                                </div>
+                                <div class="mt-8 pt-6 border-t font-bold text-slate-300 text-xs uppercase text-right">${t.live[6]}</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Features -->
+                <section class="py-24 bg-white">
+                    <div class="container mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        ${t.cards.map(c => `
+                            <div class="glass-card p-8 rounded-3xl hover:-translate-y-2 transition-transform cursor-pointer">
+                                <div class="w-14 h-14 bg-${c[3]}-100 rounded-2xl flex items-center justify-center mb-6 text-${c[3]}-600">
+                                    <i data-lucide="${c[2]}" size="28"></i>
+                                </div>
+                                <h3 class="text-xl font-bold mb-3">${c[0]}</h3>
+                                <p class="text-slate-500 text-sm leading-relaxed">${c[1]}</p>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+
+                <!-- Partner Banner -->
+                <section class="py-16 bg-white border-y border-slate-100 overflow-hidden relative z-10">
+                    <div class="container mx-auto px-6 mb-10 text-center">
+                        <h4 class="text-slate-400 text-xs font-bold uppercase tracking-[0.2em] mb-2">Partnerships & Cooperation</h4>
+                        <div class="w-12 h-1 bg-saemaul-green mx-auto rounded-full opacity-20"></div>
+                    </div>
+                    <div class="relative overflow-hidden flex">
+                        <div class="flex animate-scroll whitespace-nowrap gap-24 items-center py-6">
+                            <!-- Text Logos (Repeated for loop) -->
+                            ${Array(2).fill([
+                                { name: "영남대학교 국제개발새마을학과", url: "https://intdev.yu.ac.kr/intdev/index.do" },
+                                { name: "영남대학교 박정희새마을대학원", url: "https://www.yu.ac.kr/pspsk/index.do" },
+                                { name: "유네스코한국위원회", url: "https://unesco.or.kr/%EC%83%88%EB%A7%88%EC%9D%84%EC%9A%B4%EB%8F%99-%EA%B8%B0%EB%A1%9D%EB%AC%BC/" },
+                                { name: "새마을재단", url: "https://www.smuf.or.kr/" },
+                                { name: "새마을운동중앙회", url: "https://www.saemaul.or.kr/home/?mode=main" }
+                            ]).flat().map(p => `
+                                <a href="${p.url}" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 group px-4 transition-all">
+                                    <div class="w-2 h-2 rounded-full bg-saemaul-green opacity-40 group-hover:scale-150 group-hover:opacity-100 transition-all"></div>
+                                    <span class="text-slate-500 font-extrabold text-lg tracking-tight group-hover:text-saemaul-green transition-colors">${p.name}</span>
+                                </a>
+                            `).join('')}
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Footer -->
+                <footer class="bg-slate-950 text-white py-20">
+                    <div class="container mx-auto px-6 text-center">
+                        <div class="flex items-center justify-center gap-2 mb-8">
+                            <div class="w-10 h-10 overflow-hidden rounded-xl bg-white flex items-center justify-center shadow-lg">
+                                <img src="https://www.saemaul.or.kr/images/sub/company/ci_2img2.png" alt="Saemaul Logo" class="w-full h-full object-contain p-1">
+                            </div>
+                            <span class="text-xl font-black">Saemaul<span class="text-saemaul-green">-SDGs</span></span>
+                        </div>
+                        <p class="text-slate-500 text-sm max-w-lg mx-auto mb-10">
+                            대한민국의 발전 유산과 현대의 기술을 결합하여 전 세계를 위한 지속 가능한 내일을 건설합니다.
+                        </p>
+                        <div class="pt-8 border-t border-slate-900 text-slate-500 text-xs leading-relaxed">
+                            © 2026 Global Saemaul-SDGs Platform. All rights reserved.<br>
+                            <span class="mt-2 block font-medium">Copyright by 권도경, 박문식, 윤서윤, 영남대학교</span>
+                        </div>
+                    </div>
+                </footer>
+            `;
+
+            lucide.createIcons();
+        }
+
+        function toggleLang() {
+            currentLang = currentLang === 'ko' ? 'en' : 'ko';
+            render();
+        }
+
+        render();
+    </script>
+</body>
+</html>
