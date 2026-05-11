@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>새마을 마을회관 - 스마트 커뮤니티</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="community-style.css">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script> <!-- Placeholder for icons -->
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <div class="logo-icon">🌱</div>
+                <span>새마을 마을회관</span>
+            </div>
+            <div class="search-bar">
+                <span>🔍</span>
+                <input type="text" placeholder="SDGs 및 글로벌 이슈 검색">
+            </div>
+            <div class="nav-actions">
+                <div class="icon-btn">🏠</div>
+                <div class="icon-btn">📊</div>
+                <div class="icon-btn">🌍</div>
+                <img src="farmer_profile.png" class="mini-avatar" alt="Profile" style="object-fit:cover;border: 2px solid var(--primary-green);">
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Story Bar - Emoji Avatar Style -->
+        <div class="stories-container">
+            <div class="story">
+                <div class="story-ring" style="background:linear-gradient(135deg,#00843D,#FFCD00);">
+                    <div class="story-inner">👨‍🌾</div>
+                </div>
+                <div class="story-name">행복지역 이장님</div>
+            </div>
+            <div class="story">
+                <div class="story-ring" style="background:linear-gradient(135deg,#e91e63,#ff9800);">
+                    <div class="story-inner">👩‍🍳</div>
+                </div>
+                <div class="story-name">부녀회 김회장</div>
+            </div>
+            <div class="story">
+                <div class="story-ring" style="background:linear-gradient(135deg,#2196f3,#00bcd4);">
+                    <div class="story-inner">🧑‍💼</div>
+                </div>
+                <div class="story-name">혁신지역 청년지도자</div>
+            </div>
+            <div class="story">
+                <div class="story-ring" style="background:linear-gradient(135deg,#ff9800,#8d6e63);">
+                    <div class="story-inner">🧑‍🌾</div>
+                </div>
+                <div class="story-name">미래지역 농부</div>
+            </div>
+            <div class="story">
+                <div class="story-ring" style="background:linear-gradient(135deg,#9c27b0,#3f51b5);">
+                    <div class="story-inner">🌏</div>
+                </div>
+                <div class="story-name">글로벌 파트너</div>
+            </div>
+        </div>
+
+        <main class="main-grid">
+            <!-- Left Sidebar (Everytime Model + Real-time Ranking) -->
+            <aside class="left-sidebar">
+                <nav class="sidebar-nav">
+                    <a href="#feed" class="nav-item active" onclick="showTab('feed',this)"><span>🏠</span> <span class="nav-text">홈</span></a>
+                    <a href="#" class="nav-item" onclick="showTab('sdgs',this)"><span>📈</span> <span class="nav-text">SDGs 현황판</span></a>
+                    <a href="#" class="nav-item" onclick="showTab('travel',this)"><span>🗺️</span> <span class="nav-text">새마을 여행지</span></a>
+                    <a href="#" class="nav-item" onclick="showTab('talk',this)"><span>💬</span> <span class="nav-text">협동 토론방</span></a>
+                </nav>
+
+                <div class="trending-card" style="margin-top: 20px; box-shadow: none; border: 1px solid rgba(0,0,0,0.05);">
+                    <h3>실시간 검색어</h3>
+                    <div class="trend-item">
+                        <div class="trend-name">1. 탄소중립 실천</div>
+                    </div>
+                    <div class="trend-item">
+                        <div class="trend-name">2. 스마트 팜 교육</div>
+                    </div>
+                    <div class="trend-item">
+                        <div class="trend-name">3. ODA 사업 공모</div>
+                    </div>
+                    <div class="trend-item">
+                        <div class="trend-name">4. 플라스틱 제로</div>
+                    </div>
+                    <div class="trend-item">
+                        <div class="trend-name">5. 에너지 자립마을</div>
+                    </div>
+                </div>
+
+                <div class="board-list">
+                    <h4>프로젝트 게시판</h4>
+                    <a href="#" class="nav-item">빈곤퇴치 (SDG 1)</a>
+                    <a href="#" class="nav-item">기아해방 (SDG 2)</a>
+                    <a href="#" class="nav-item">기후행동 (SDG 13)</a>
+                    <a href="#" class="nav-item">양질의 교육 (SDG 4)</a>
+                </div>
+            </aside>
+
+            <!-- Center Feed -->
+            <section class="feed" id="tab-feed">
+                <div class="create-post">
+                    <div class="create-post-top">
+                        <img src="farmer_profile.png" class="mini-avatar" alt="My Profile" style="object-fit:cover;border: 2px solid var(--primary-green);">
+                        <div class="fake-input">오늘의 글로벌 이슈나 사업 현황을 공유해주세요.</div>
+                    </div>
+                </div>
+
+                <article class="post-card">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <div class="mini-avatar" style="background:#2196f3;color:white;display:flex;align-items:center;justify-content:center;font-weight:bold;border-radius:50%;">해외</div>
+                            <div style="margin-left:10px;">
+                                <div class="username">해외지역 청년지도자</div>
+                                <div class="post-time">10분 전 · 라오스 사업장 · SDG 2</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">[현장보고] 라오스 농촌개발 새마을 프로젝트 현황입니다. 스마트 관개 시스템 덕분에 첫 수확을 마쳤습니다! 🌾🚜 #SDGs #Saemaul</div>
+                    <div class="post-image-container"><img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80" alt="Sustainable Agriculture"></div>
+                    <div class="post-actions">
+                        <div class="action-btn">❤️ 342</div><div class="action-btn">💬 45</div><div class="action-btn">🔁 89</div><div class="action-btn">🔗 공유</div>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <div class="mini-avatar" style="background:#ff9800;color:white;display:flex;align-items:center;justify-content:center;font-weight:bold;border-radius:50%;">구미</div>
+                            <div style="margin-left:10px;">
+                                <div class="username">구미지역 청년지도자</div>
+                                <div class="post-time">3시간 전 · 구미 새마을 테마공원</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">구미 새마을운동 테마공원에 다녀왔습니다. 글로벌관에서 아프리카·동남아 ODA 성과 전시를 보며 우리 운동이 세계에 미치는 영향을 실감했어요. 세미나실과 도서관도 잘 갖춰져 있어 연구 방문하기에도 좋습니다 📚🌏 #새마을테마공원 #구미</div>
+                    <div class="post-image-container"><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Gumi Theme Park"></div>
+                    <div class="post-actions">
+                        <div class="action-btn">❤️ 211</div><div class="action-btn">💬 33</div><div class="action-btn">🔁 57</div><div class="action-btn">🔗 공유</div>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <div class="mini-avatar" style="background:#4caf50;color:white;display:flex;align-items:center;justify-content:center;font-weight:bold;border-radius:50%;">희망</div>
+                            <div style="margin-left:10px;">
+                                <div class="username">희망지역 부녀회원</div>
+                                <div class="post-time">2시간 전 · 글로벌 이슈 토론</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">COP28 이후 탄소중립 이행 속도에 대한 논의가 뜨겁습니다. 새마을 정신인 '자조'와 '협동'이 개발도상국 에너지 전환 격차를 줄이는 실질적인 대안이 될 수 있을까요? 🌍💬 여러분의 생각을 댓글로 나눠주세요!</div>
+                    <div class="post-actions">
+                        <div class="action-btn">❤️ 156</div><div class="action-btn">💬 128</div><div class="action-btn">🔁 42</div><div class="action-btn">🔗 공유</div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Travel Section (hidden by default) -->
+            <section id="tab-travel" style="display:none;" class="feed">
+                <div class="post-card" style="padding:20px;">
+                    <h2 style="color:var(--primary-green);margin-bottom:4px;">🗺️ 새마을운동 주요 방문지</h2>
+                    <p style="color:var(--text-muted);font-size:0.9rem;">새마을운동의 발자취를 직접 느낄 수 있는 여행지를 소개합니다.</p>
+                </div>
+                <article class="post-card">
+                    <div class="post-image-container"><img src="https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=800&q=80" alt="청도 신도마을 한국 전통 마을"></div>
+                    <div style="padding:16px;">
+                        <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+                            <span style="background:var(--primary-green);color:white;padding:3px 10px;border-radius:20px;font-size:0.8rem;">경북 청도</span>
+                            <span style="color:var(--text-muted);font-size:0.85rem;">새마을운동 발상지</span>
+                        </div>
+                        <h3 style="margin-bottom:8px;">청도 새마을운동 발상지 기념공원</h3>
+                        <p style="color:var(--text-muted);font-size:0.9rem;">1969년 박정희 대통령이 수해 복구 현장을 보며 새마을운동의 영감을 얻은 신도마을. 새마을광장, 기념관, 당시 마을을 재현한 레트로 공간이 있어 사진 명소로도 유명합니다. 인근 레일바이크와 연계 관광 추천! 🚂📸</p>
+                        <div class="post-actions" style="padding:12px 0 0;">
+                            <div class="action-btn">❤️ 892</div><div class="action-btn">💬 64</div><div class="action-btn">🔗 공유</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <div class="post-image-container"><img src="https://images.unsplash.com/photo-1592982537447-7f226d7b3bef?auto=format&fit=crop&w=800&q=80" alt="구미 새마을 공동 농업 작업"></div>
+                    <div style="padding:16px;">
+                        <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+                            <span style="background:#1877f2;color:white;padding:3px 10px;border-radius:20px;font-size:0.8rem;">경북 구미</span>
+                            <span style="color:var(--text-muted);font-size:0.85rem;">새마을 테마공원</span>
+                        </div>
+                        <h3 style="margin-bottom:8px;">구미 새마을운동 테마공원</h3>
+                        <p style="color:var(--text-muted);font-size:0.9rem;">과거·현재·미래를 한눈에! 새마을 전시관, 글로벌관(해외 전파 사례), 체험 주택, 세미나실이 갖춰진 대규모 복합 문화공간. 연구자와 가족 방문객 모두에게 추천합니다. 🏛️🌍</p>
+                        <div class="post-actions" style="padding:12px 0 0;">
+                            <div class="action-btn">❤️ 1,204</div><div class="action-btn">💬 88</div><div class="action-btn">🔗 공유</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <div style="padding:16px;">
+                        <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+                            <span style="background:#9c27b0;color:white;padding:3px 10px;border-radius:20px;font-size:0.8rem;">경북 포항</span>
+                            <span style="color:var(--text-muted);font-size:0.85rem;">발상지 기념관</span>
+                        </div>
+                        <h3 style="margin-bottom:8px;">포항 새마을운동 발상지 기념관</h3>
+                        <p style="color:var(--text-muted);font-size:0.9rem;">문충리 새마을운동 기록물과 당시 사용하던 농기구를 전시. 청도와 함께 발상지 논의가 활발한 역사적 공간입니다. 인근 사방공원도 함께 방문하세요. 🌿🪴</p>
+                        <div class="post-actions" style="padding:12px 0 0;">
+                            <div class="action-btn">❤️ 543</div><div class="action-btn">💬 41</div><div class="action-btn">🔗 공유</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <div style="padding:16px;">
+                        <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+                            <span style="background:var(--primary-yellow);color:#333;padding:3px 10px;border-radius:20px;font-size:0.8rem;">경산 영남대</span>
+                            <span style="color:var(--text-muted);font-size:0.85rem;">박정희새마을대학원</span>
+                        </div>
+                        <h3 style="margin-bottom:8px;">영남대 박정희새마을대학원 (PSPS)</h3>
+                        <p style="color:var(--text-muted);font-size:0.9rem;">새마을운동을 학문으로! 전 세계 수십 개국 공무원과 유학생이 근면·자조·협동의 원리를 배우고 개발도상국 지역개발 전문가로 돌아갑니다. 새마을운동이 글로벌 공유 가치로 확산되는 현장입니다. 🎓🌏</p>
+                        <div class="post-actions" style="padding:12px 0 0;">
+                            <div class="action-btn">❤️ 721</div><div class="action-btn">💬 96</div><div class="action-btn">🔗 공유</div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Talk Section (hidden by default) -->
+            <section id="tab-talk" style="display:none;" class="feed">
+                <div class="post-card" style="padding:20px;">
+                    <h2 style="color:var(--primary-green);margin-bottom:4px;">💬 협동 토론방</h2>
+                    <p style="color:var(--text-muted);font-size:0.9rem;">새마을 정신 '협동'을 바탕으로 아이디어와 의견을 나눠요. 여러분의 생각이 정책이 됩니다.</p>
+                </div>
+                <div class="create-post">
+                    <div class="create-post-top">
+                        <img src="https://ui-avatars.com/api/?name=User&background=00843D&color=fff" class="mini-avatar" alt="My Profile">
+                        <div class="fake-input">토론 주제나 의견을 자유롭게 제안해보세요.</div>
+                    </div>
+                </div>
+                <article class="post-card">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <div class="mini-avatar" style="background:#00843D;color:#FFCD00;display:flex;align-items:center;justify-content:center;font-weight:bold;border-radius:50%;">🌱</div>
+                            <div style="margin-left:10px;">
+                                <div class="username">혁신지역 청년지도자</div>
+                                <div class="post-time">30분 전 · 토론 제안</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">💡 [토론] 일반 블로그/카페와 우리 마을회관의 차이점은 무엇일까요? 저는 '협동으로 아웃풋 창출'이 핵심이라고 생각합니다. 단순 정보 공유가 아닌, 우리가 논의한 내용이 실제 마을 정책에 반영되는 커뮤니티를 만들어가야 하지 않을까요? 여러분의 생각은? 🤔</div>
+                    <div class="post-actions">
+                        <div class="action-btn">❤️ 89</div><div class="action-btn">💬 47</div><div class="action-btn">🔁 22</div><div class="action-btn">🔗 공유</div>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <div class="mini-avatar" style="background:#ff9800;color:white;display:flex;align-items:center;justify-content:center;font-weight:bold;border-radius:50%;">행복</div>
+                            <div style="margin-left:10px;">
+                                <div class="username">행복지역 이장님</div>
+                                <div class="post-time">1시간 전 · 협동 제안</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-content">우리 마을 공동 작업장에 3D 프린터를 도입하자는 의견이 나왔습니다. 청년들이 농기구 부품을 직접 제작하면 비용 절감과 일자리 창출을 동시에 이룰 수 있을 것 같아요. 찬성하시는 분들 '❤️'를 눌러주세요! 함께 해결해봅시다 💪</div>
+                    <div class="post-actions">
+                        <div class="action-btn">❤️ 203</div><div class="action-btn">💬 61</div><div class="action-btn">🔁 34</div><div class="action-btn">🔗 공유</div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- SDGs Section (hidden by default) -->
+            <section id="tab-sdgs" style="display:none;" class="feed">
+                <div class="post-card" style="padding:20px;">
+                    <h2 style="color:var(--primary-green);margin-bottom:4px;">📈 SDGs 현황판</h2>
+                    <p style="color:var(--text-muted);font-size:0.9rem;">새마을운동과 연계된 SDGs 사업 진행 현황을 공유합니다.</p>
+                </div>
+                <article class="post-card" style="padding:16px;">
+                    <h3 style="margin-bottom:12px;">🌍 주요 사업 달성 현황</h3>
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+                        <div style="background:#f0f9f4;border-radius:12px;padding:14px;text-align:center;">
+                            <div style="font-size:1.8rem;font-weight:800;color:var(--primary-green);">85%</div>
+                            <div style="font-size:0.8rem;color:var(--text-muted);">동남아 스마트 농업 보급</div>
+                        </div>
+                        <div style="background:#fff8e1;border-radius:12px;padding:14px;text-align:center;">
+                            <div style="font-size:1.8rem;font-weight:800;color:#ff9800;">42개국</div>
+                            <div style="font-size:0.8rem;color:var(--text-muted);">ODA 사업 진출국</div>
+                        </div>
+                        <div style="background:#e3f2fd;border-radius:12px;padding:14px;text-align:center;">
+                            <div style="font-size:1.8rem;font-weight:800;color:#2196f3;">1,200명</div>
+                            <div style="font-size:0.8rem;color:var(--text-muted);">글로벌 리더십 수료생</div>
+                        </div>
+                        <div style="background:#f3e5f5;border-radius:12px;padding:14px;text-align:center;">
+                            <div style="font-size:1.8rem;font-weight:800;color:#9c27b0;">SDG 2·13</div>
+                            <div style="font-size:0.8rem;color:var(--text-muted);">핵심 연계 목표</div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Right Sidebar (Twitter Model) -->
+            <aside class="right-sidebar">
+                <div class="trending-card">
+                    <h3>글로벌 트렌드</h3>
+                    <div class="trend-item">
+                        <div class="trend-category">SDG 13 · 기후행동</div>
+                        <div class="trend-name">탄소중립 마을 모델</div>
+                        <div class="trend-stats">3,451개 논의 중</div>
+                    </div>
+                    <div class="trend-item">
+                        <div class="trend-category">글로벌이슈 · 화제</div>
+                        <div class="trend-name">#ODA_혁신_세미나</div>
+                        <div class="trend-stats">1,208개 포스트</div>
+                    </div>
+                    <div class="trend-item">
+                        <div class="trend-category">SDG 4 · 양질의 교육</div>
+                        <div class="trend-name">개도국 디지털 문해력</div>
+                        <div class="trend-stats">892개 보고서</div>
+                    </div>
+                </div>
+
+                <div class="trending-card">
+                    <h3>🏆 주요 사업 현황</h3>
+                    <div class="trend-item">
+                        <div class="trend-name">1. 동남아 스마트 농업 보급률 85%</div>
+                    </div>
+                    <div class="trend-item">
+                        <div class="trend-name">2. 아프리카 식수 정화 사업 보고</div>
+                    </div>
+                    <div class="trend-item">
+                        <div class="trend-name">3. 글로벌 청년 리더십 워크숍</div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+    <script>
+        // 탭 전환 기능
+        function showTab(tabId, clickedEl) {
+            // 모든 탭 숨기기
+            ['feed','travel','talk','sdgs'].forEach(id => {
+                const el = document.getElementById('tab-' + id);
+                if (el) el.style.display = 'none';
+            });
+            // 선택된 탭 보이기
+            const target = document.getElementById('tab-' + tabId);
+            if (target) target.style.display = 'flex';
+            // 네비 active 업데이트
+            document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+            if (clickedEl) clickedEl.classList.add('active');
+        }
+
+        // 공유 링크 복사 기능
+        function copyShareLink(event) {
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                const btn = event.currentTarget;
+                const orig = btn.innerHTML;
+                btn.innerHTML = "✅ 복사완료!";
+                btn.style.color = "#00843D";
+                setTimeout(() => { btn.innerHTML = orig; btn.style.color = ""; }, 2000);
+            }).catch(() => alert("링크 복사에 실패했습니다."));
+        }
+
+        // 공유 버튼 이벤트 연결
+        document.querySelectorAll('.action-btn:last-child').forEach(btn => {
+            btn.onclick = copyShareLink;
+        });
+
+        // 실시간 검색어 업데이트 애니메이션
+        const keywords = [
+            ["1. 청도 새마을 발상지", "2. 구미 테마공원", "3. ODA 사업 공모", "4. 탄소중립 실천", "5. 에너지 자립마을"],
+            ["1. 새마을 협동 정신", "2. 영남대 PSPS", "3. 포항 기념관", "4. 스마트 팜 교육", "5. 글로벌 SDGs"],
+        ];
+        let kwIdx = 0;
+        function rotateTrending() {
+            const items = document.querySelectorAll('.trending-card .trend-item .trend-name');
+            const kw = keywords[kwIdx % keywords.length];
+            items.forEach((el, i) => { if (kw[i]) el.textContent = kw[i]; });
+            kwIdx++;
+        }
+        setInterval(rotateTrending, 5000);
+    </script>
+</body>
+</html>
