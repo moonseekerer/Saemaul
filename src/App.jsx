@@ -162,8 +162,6 @@ function App() {
       setUser(currentUser);
     });
 
-
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
       unsubscribe();
