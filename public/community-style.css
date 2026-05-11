@@ -413,6 +413,20 @@ body {
     .sidebar-nav, .right-sidebar { display: none; }
 }
 
+@media (max-width: 600px) {
+    .container { padding: 0 10px; }
+    .search-bar { display: none; } /* Hide search on mobile to save space */
+    .logo span { font-size: 1.1rem; }
+    .stories-container { padding: 10px 0; gap: 8px; }
+    .story { flex: 0 0 65px; }
+    .story-avatar { width: 50px; height: 50px; }
+    .story-name { font-size: 0.65rem; }
+    .main-grid { margin-top: 10px; gap: 15px; }
+    .create-post { padding: 12px; }
+    .post-card { border-radius: 12px; }
+    .post-content { font-size: 0.9rem; }
+}
+
 /* Attendance Check Styles */
 .attendance-card {
     background: white;
