@@ -37,11 +37,11 @@ const resources = {
           desc: "데이터 기반의 문항을 통해 당신의 잠재된 리더십 스타일을 분석해 드립니다."
         },
         card2: {
-          title: "Global Village 랭킹",
-          desc: "전 세계 협력 마을의 발전 지표를 실시간으로 확인하고 비교해 보세요."
+          title: "새마을 마을회관",
+          desc: "새마을 구성원들이 함께 소통하고 활동을 공유하는 디지털 커뮤니티 공간입니다."
         },
         card3: {
-          title: "AI 새마을 지식 전문가",
+          title: "AI 새마을 챗봇",
           desc: "지역 개발 전략부터 운영 노하우까지, 지능형 챗봇이 즉각적인 해답을 드립니다."
         },
         card4: {
@@ -95,8 +95,8 @@ const resources = {
           desc: "Identify your leadership style based on Saemaul principles."
         },
         card2: {
-          title: "Global Village Ranking",
-          desc: "Track progress and compare development metrics worldwide."
+          title: "Saemaul Community Hub",
+          desc: "A digital community space where Saemaul members connect and share activities."
         },
         card3: {
           title: "AI Saemaul Chatbot",

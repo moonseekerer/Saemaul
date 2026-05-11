@@ -3,6 +3,7 @@ import { Routes, Route, Link, useNavigate } from 'react-router-dom';
 import LeadershipTest from './pages/LeadershipTest/LeadershipTest';
 import SaemaulTest from './pages/SaemaulTest/SaemaulTest';
 import DocViewer from './pages/DocViewer/DocViewer';
+import KnowledgeHub from './pages/KnowledgeHub/KnowledgeHub';
 import { 
   UserCheck, 
   Trophy, 
@@ -15,7 +16,9 @@ import {
   ExternalLink,
   ArrowRight,
   Languages,
-  MessageCircle
+  MessageCircle,
+  Bot,
+  Home
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { auth } from './firebase';
@@ -101,6 +104,63 @@ const PartnerBanner = () => {
     </section>
   );
 };
+
+const ChatbotPage = () => (
+  <div className="min-h-screen bg-slate-50 pt-20">
+    <div className="container mx-auto px-6 py-8">
+      <div className="text-center mb-6">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 text-emerald-600 text-sm font-bold mb-4 border border-emerald-200">
+          <Bot size={16} />
+          AI 새마을 지식 챗봇
+        </div>
+        <h1 className="text-3xl font-black text-slate-900 mb-2">새마을 AI 챗봇</h1>
+        <p className="text-slate-500">지역 개발 전략부터 새마을 운동 역사까지 무엇이든 물어보세요.</p>
+      </div>
+      <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white" style={{ height: '80vh' }}>
+        <iframe
+          src="/chatbot.html"
+          title="새마을 AI 챗봇"
+          className="w-full h-full border-0"
+          allow="microphone"
+        />
+      </div>
+    </div>
+  </div>
+);
+
+const CommunityPage = () => (
+  <div className="min-h-screen bg-slate-50 pt-20">
+    <div className="container mx-auto px-6 py-8">
+      <div className="text-center mb-6">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold mb-4 border border-amber-200">
+          <Home size={16} />
+          커뮤니티
+        </div>
+        <h1 className="text-3xl font-black text-slate-900 mb-2">새마을 마을회관</h1>
+        <p className="text-slate-500">새마을 구성원들이 함께 소통하고 정보를 나누는 공간입니다.</p>
+      </div>
+      <div className="max-w-2xl mx-auto glass-card rounded-3xl p-12 text-center border border-amber-100">
+        <div className="w-20 h-20 rounded-full bg-amber-100 flex items-center justify-center mx-auto mb-6">
+          <Home size={36} className="text-amber-500" />
+        </div>
+        <h2 className="text-2xl font-bold text-slate-800 mb-3">🏡 마을회관 준비 중</h2>
+        <p className="text-slate-500 mb-8 leading-relaxed">
+          새마을 마을회관 커뮤니티가 곧 오픈됩니다!<br />
+          회원들과 자유롭게 소통하고 새마을 활동을 공유할 수 있는 공간을 준비하고 있습니다.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link
+            to="/"
+            className="btn-primary py-3 px-8 flex items-center gap-2 justify-center"
+          >
+            <ArrowRight size={18} />
+            홈으로 돌아가기
+          </Link>
+        </div>
+      </div>
+    </div>
+  </div>
+);
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -190,7 +250,8 @@ function App() {
           <div className="hidden md:flex items-center gap-8">
             <NavItem label={t('nav.home')} to="/" />
             <NavItem label="새마을 테스트" to="/saemaul-test" />
-            <NavItem label={t('nav.ranking')} to="/ranking" />
+            <NavItem label="챗봇" to="/chatbot" />
+            <NavItem label="마을회관" to="/community" />
             <NavItem label={t('nav.hub')} to="/hub" />
           </div>
 
@@ -339,18 +400,18 @@ function App() {
                   to="/saemaul-test"
                 />
                 <FeatureCard 
-                  icon={Trophy}
-                  title={t('features.card2.title')}
-                  description={t('features.card2.desc')}
-                  color="amber"
-                  learnMoreText={t('features.learn_more')}
-                  to="/ranking"
-                />
-                <FeatureCard 
-                  icon={MessageSquare}
+                  icon={Bot}
                   title={t('features.card3.title')}
                   description={t('features.card3.desc')}
                   color="emerald"
+                  learnMoreText={t('features.learn_more')}
+                  to="/chatbot"
+                />
+                <FeatureCard 
+                  icon={Home}
+                  title={t('features.card2.title')}
+                  description={t('features.card2.desc')}
+                  color="amber"
                   learnMoreText={t('features.learn_more')}
                   to="/community"
                 />
@@ -373,6 +434,9 @@ function App() {
           <Route path="/saemaul-test" element={<SaemaulTest />} />
           <Route path="/test" element={<LeadershipTest />} />
           <Route path="/docs/:filename" element={<DocViewer />} />
+          <Route path="/chatbot" element={<ChatbotPage />} />
+          <Route path="/community" element={<CommunityPage />} />
+          <Route path="/hub" element={<KnowledgeHub />} />
         </Routes>
       </main>
 
