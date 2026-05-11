@@ -200,6 +200,47 @@
   .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
   @keyframes typing { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
 
+  /* API 키 모달 */
+  .api-modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+  }
+  .api-modal-overlay.show { display: flex; }
+  .api-modal {
+    background: white;
+    border-radius: 20px;
+    padding: 30px 25px;
+    width: 88%;
+    max-width: 360px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  .api-modal img { width: 80px; height: 80px; object-fit: cover; border-radius: 50%; margin-bottom: 15px; }
+  .api-modal h3 { color: var(--primary-color); margin: 0 0 8px 0; font-size: 17px; }
+  .api-modal p { color: var(--text-light); font-size: 13px; margin: 0 0 18px 0; line-height: 1.6; }
+  .api-modal input {
+    width: 100%; padding: 12px 15px;
+    border: 2px solid #e0e0e0; border-radius: 12px;
+    font-size: 14px; outline: none; box-sizing: border-box;
+    margin-bottom: 12px;
+    transition: border-color 0.2s;
+  }
+  .api-modal input:focus { border-color: var(--primary-color); }
+  .api-modal-btn {
+    width: 100%; padding: 13px;
+    background: var(--primary-color); color: white;
+    border: none; border-radius: 12px;
+    font-size: 15px; font-weight: 700; cursor: pointer;
+    transition: background 0.2s;
+  }
+  .api-modal-btn:hover { background: var(--accent-color); }
+  .api-modal-link { display: block; margin-top: 12px; font-size: 12px; color: var(--text-light); }
+
   /* 뷰 컨테이너 */
   .view-container {
     flex: 1;
@@ -256,6 +297,18 @@
 </style>
 </head>
 <body>
+
+<!-- API 키 입력 모달 -->
+<div class="api-modal-overlay" id="apiModal">
+  <div class="api-modal">
+    <img src="mascot.png" onerror="this.src='https://via.placeholder.com/80/8bc34a/ffffff?text=🌱'">
+    <h3>🤖 Groq API 키 입력</h3>
+    <p>채팅을 시작하려면 Groq API 키가 필요합니다.<br>아래에서 무료로 발급받으세요!</p>
+    <input type="password" id="apiKeyInput" placeholder="gsk_로 시작하는 API 키 입력...">
+    <button class="api-modal-btn" onclick="submitApiKey()">✅ 저장하고 시작하기</button>
+    <a class="api-modal-link" href="https://console.groq.com" target="_blank">🔗 console.groq.com 에서 무료 키 발급</a>
+  </div>
+</div>
 
 <div class="mobile-container">
   <!-- 헤더 -->
@@ -392,6 +445,28 @@ function switchTab(tabId) {
 
 let apiKey = localStorage.getItem('groq_api_key');
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
+let pendingQuestion = '';
+
+function submitApiKey() {
+    const key = document.getElementById('apiKeyInput').value.trim();
+    if (!key) { alert('API 키를 입력해주세요.'); return; }
+    apiKey = key;
+    localStorage.setItem('groq_api_key', apiKey);
+    document.getElementById('apiModal').classList.remove('show');
+    // 저장된 질문 이어서 전송
+    if (pendingQuestion) {
+        document.getElementById('userInput').value = pendingQuestion;
+        pendingQuestion = '';
+        sendMessage();
+    }
+}
+
+// Enter 키로도 제출 가능
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('apiKeyInput').addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') submitApiKey();
+    });
+});
 
 // 이전 챗봇과 동일한 문서 컨텍스트 (삼성전자금고, 부흥실업금고, 금암금고 내용)
 const documentsContext = `
@@ -453,10 +528,12 @@ async function sendMessage() {
     if (!question) return;
 
     if (!apiKey) {
-        let inputKey = prompt("🤖 Groq API Key를 입력해주세요.\n(console.groq.com 에서 무료로 발급 가능합니다)");
-        if (!inputKey) return;
-        apiKey = inputKey.trim();
-        localStorage.setItem('groq_api_key', apiKey);
+        // 메시지를 임시 저장하고 모달 표시
+        pendingQuestion = question;
+        inputField.value = question;
+        document.getElementById('apiModal').classList.add('show');
+        document.getElementById('apiKeyInput').focus();
+        return;
     }
     
     addMessage(question, 'user');
