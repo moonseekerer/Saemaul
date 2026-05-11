@@ -517,6 +517,37 @@ function getTimeString() {
     return new Date().toLocaleTimeString('ko-KR', {hour: '2-digit', minute:'2-digit'});
 }
 
+// 타이핑 애니메이션 함수
+function typeText(element, text, speed = 18) {
+    element.innerHTML = '';
+    let i = 0;
+    const lines = text.split('\n');
+    let lineIndex = 0;
+    let charIndex = 0;
+
+    function type() {
+        if (lineIndex >= lines.length) return;
+        const line = lines[lineIndex];
+        if (charIndex < line.length) {
+            element.innerHTML += line[charIndex];
+            charIndex++;
+            // 채팅창 자동 스크롤
+            const chatBox = document.getElementById('chatBox');
+            chatBox.scrollTop = chatBox.scrollHeight;
+            setTimeout(type, speed);
+        } else {
+            // 줄바꿈 처리
+            lineIndex++;
+            charIndex = 0;
+            if (lineIndex < lines.length) {
+                element.innerHTML += '<br>';
+                setTimeout(type, speed);
+            }
+        }
+    }
+    type();
+}
+
 function sendChipMessage(text) {
     document.getElementById('userInput').value = text;
     sendMessage();
@@ -594,8 +625,8 @@ async function sendMessage() {
 7. 디지털 플랫폼 접목
 
 결국 새마을금고의 본질은 “돈”이 아니라 “공동체의 자립 시스템”이다. 그리고 이는 현재 국제개발협력 분야에서 강조되는 지속가능한 지역개발, 주민참여형 개발, 사회적 금융 모델과도 매우 깊게 연결된다.`;
-            botElement.innerHTML = hardcodedText.replace(/\n/g, '<br>');
-        }, 1200); // 1.2초 후 애니메이션 끝내고 답변 출력
+            typeText(botElement, hardcodedText, 15);
+        }, 1200);
         return;
     }
     
@@ -624,7 +655,7 @@ async function sendMessage() {
         
         if (response.ok) {
             const answer = data.choices?.[0]?.message?.content || data.response || "응답을 파싱할 수 없습니다.";
-            botElement.innerHTML = answer.replace(/\\n/g, '<br>');
+            typeText(botElement, answer, 18);
         } else {
             let errorReason = data.error?.message || "알 수 없는 오류";
             if (response.status === 401) {
