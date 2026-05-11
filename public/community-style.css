@@ -130,61 +130,6 @@ body {
     background: #d8dadf;
 }
 
-/* Stories - Instagram Style */
-.stories-container {
-    display: flex;
-    gap: 12px;
-    padding: 20px 0;
-    overflow-x: auto;
-    scrollbar-width: none;
-}
-
-.story {
-    flex: 0 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    cursor: pointer;
-    animation: scaleIn 0.5s ease-out both;
-}
-
-.story:nth-child(1) { animation-delay: 0.1s; }
-.story:nth-child(2) { animation-delay: 0.15s; }
-.story:nth-child(3) { animation-delay: 0.2s; }
-.story:nth-child(4) { animation-delay: 0.25s; }
-.story:nth-child(5) { animation-delay: 0.3s; }
-
-.story-avatar {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    padding: 3px;
-    background: linear-gradient(45deg, var(--primary-green), var(--primary-yellow), #4caf50);
-    transition: var(--transition);
-}
-
-.story:hover .story-avatar {
-    transform: scale(1.05) rotate(5deg);
-}
-
-.story-avatar img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 2px solid white;
-    object-fit: cover;
-}
-
-.story-name {
-    font-size: 0.75rem;
-    font-weight: 500;
-    color: var(--text-main);
-    max-width: 70px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
 
 /* Main Layout */
 .main-grid {
@@ -414,17 +359,15 @@ body {
 }
 
 @media (max-width: 600px) {
-    .container { padding: 0 10px; }
-    .search-bar { display: none; } /* Hide search on mobile to save space */
-    .logo span { font-size: 1.1rem; }
-    .stories-container { padding: 10px 0; gap: 8px; }
-    .story { flex: 0 0 65px; }
-    .story-avatar { width: 50px; height: 50px; }
-    .story-name { font-size: 0.65rem; }
-    .main-grid { margin-top: 10px; gap: 15px; }
-    .create-post { padding: 12px; }
-    .post-card { border-radius: 12px; }
-    .post-content { font-size: 0.9rem; }
+    .container { padding: 0 5px; }
+    .search-bar { display: none; }
+    .logo span { font-size: 1rem; }
+    .main-grid { margin-top: 10px; gap: 10px; }
+    .create-post { padding: 12px; border-radius: 12px; }
+    .post-card { border-radius: 12px; margin-bottom: 5px; }
+    .post-content { font-size: 0.9rem; padding: 0 12px 10px; }
+    .attendance-card { padding: 15px; border-radius: 12px; }
+    .attendance-btn { padding: 10px; font-size: 0.9rem; }
 }
 
 /* Attendance Check Styles */

@@ -30,34 +30,16 @@
     <div class="container">
 
         <main class="main-grid">
-            <!-- Left Sidebar (Everytime Model + Real-time Ranking) -->
-            <aside class="left-sidebar">
-                <nav class="sidebar-nav">
-                    <a href="#feed" class="nav-item active" onclick="showTab('feed',this)"><span>🏠</span> <span class="nav-text">홈</span></a>
-                    <a href="#" class="nav-item" onclick="showTab('sdgs',this)"><span>📈</span> <span class="nav-text">SDGs 현황판</span></a>
-                    <a href="#" class="nav-item" onclick="showTab('travel',this)"><span>🗺️</span> <span class="nav-text">새마을 여행지</span></a>
-                    <a href="#" class="nav-item" onclick="showTab('talk',this)"><span>💬</span> <span class="nav-text">협동 토론방</span></a>
-                </nav>
-                
-                <!-- Attendance Check Section -->
-                <div class="attendance-card">
-                    <h3><span>📝</span> 오늘의 마을 출석부</h3>
-                    <button id="attendance-btn" class="attendance-btn" onclick="markAttendance()">오늘의 출석체크 하기</button>
-                    <div class="attendance-list" id="attendance-list">
-                        <div class="attendance-item">
-                            <div class="mini-avatar" style="background:#e91e63;color:white;width:24px;height:24px;font-size:0.6rem;display:flex;align-items:center;justify-content:center;border-radius:50%;">부녀</div>
-                            <span>부녀회 김회장님이 출석했습니다.</span>
-                            <span class="time">09:12</span>
-                        </div>
-                        <div class="attendance-item">
-                            <div class="mini-avatar" style="background:#2196f3;color:white;width:24px;height:24px;font-size:0.6rem;display:flex;align-items:center;justify-content:center;border-radius:50%;">지도</div>
-                            <span>혁신지역 지도자가 출석했습니다.</span>
-                            <span class="time">08:45</span>
-                        </div>
-                    </div>
-                </div>
+                <!-- Left Sidebar (Everytime Model + Real-time Ranking) -->
+                <aside class="left-sidebar">
+                    <nav class="sidebar-nav">
+                        <a href="#feed" class="nav-item active" onclick="showTab('feed',this)"><span>🏠</span> <span class="nav-text">홈</span></a>
+                        <a href="#" class="nav-item" onclick="showTab('sdgs',this)"><span>📈</span> <span class="nav-text">SDGs 현황판</span></a>
+                        <a href="#" class="nav-item" onclick="showTab('travel',this)"><span>🗺️</span> <span class="nav-text">새마을 여행지</span></a>
+                        <a href="#" class="nav-item" onclick="showTab('talk',this)"><span>💬</span> <span class="nav-text">협동 토론방</span></a>
+                    </nav>
 
-                <div class="trending-card" style="margin-top: 20px; box-shadow: none; border: 1px solid rgba(0,0,0,0.05);">
+                    <div class="trending-card" style="margin-top: 20px; box-shadow: none; border: 1px solid rgba(0,0,0,0.05);">
                     <h3>실시간 검색어</h3>
                     <div class="trend-item">
                         <div class="trend-name">1. 탄소중립 실천</div>
@@ -87,6 +69,24 @@
 
             <!-- Center Feed -->
             <section class="feed" id="tab-feed">
+                <!-- Attendance Check Section (Moved for Mobile Visibility) -->
+                <div class="attendance-card" style="margin-top: 0; margin-bottom: 20px;">
+                    <h3><span>📝</span> 오늘의 마을 출석부</h3>
+                    <button id="attendance-btn" class="attendance-btn" onclick="markAttendance()">오늘의 출석체크 하기</button>
+                    <div class="attendance-list" id="attendance-list">
+                        <div class="attendance-item">
+                            <div class="mini-avatar" style="background:#e91e63;color:white;width:24px;height:24px;font-size:0.6rem;display:flex;align-items:center;justify-content:center;border-radius:50%;">부녀</div>
+                            <span>부녀회 김회장님이 출석했습니다.</span>
+                            <span class="time">09:12</span>
+                        </div>
+                        <div class="attendance-item">
+                            <div class="mini-avatar" style="background:#2196f3;color:white;width:24px;height:24px;font-size:0.6rem;display:flex;align-items:center;justify-content:center;border-radius:50%;">지도</div>
+                            <span>혁신지역 지도자가 출석했습니다.</span>
+                            <span class="time">08:45</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="create-post">
                     <div class="create-post-top">
                         <img src="farmer_profile.png" class="mini-avatar" alt="My Profile" style="object-fit:cover;border: 2px solid var(--primary-green);">
