@@ -20,7 +20,7 @@ const DocViewer = () => {
 
   useEffect(() => {
     setLoading(true); setError(false);
-    fetch('/docs/' + filename)
+    fetch(`${import.meta.env.BASE_URL}docs/${filename}`)
       .then(r => { if (!r.ok) throw new Error(); return r.arrayBuffer(); })
       .then(buf => {
         const text = new TextDecoder('utf-8').decode(buf);

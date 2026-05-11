@@ -117,11 +117,10 @@ const ChatbotPage = () => (
         <p className="text-slate-500">지역 개발 전략부터 새마을 운동 역사까지 무엇이든 물어보세요.</p>
       </div>
       <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white" style={{ height: '80vh' }}>
-        <iframe
-          src="/chatbot.html"
-          title="새마을 AI 챗봇"
-          className="w-full h-full border-0"
-          allow="microphone"
+        <iframe 
+          src={`${import.meta.env.BASE_URL}chatbot.html`}
+          className="w-full h-full border-none"
+          title="새마을 챗봇"
         />
       </div>
     </div>
