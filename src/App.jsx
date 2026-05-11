@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+import LeadershipTest from './pages/LeadershipTest/LeadershipTest';
+import DocViewer from './pages/DocViewer/DocViewer';
 import { 
   UserCheck, 
   Trophy, 
@@ -10,46 +13,60 @@ import {
   X,
   ExternalLink,
   ArrowRight,
-  Languages
+  Languages,
+  MessageCircle
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { auth } from './firebase';
+import { 
+  GoogleAuthProvider, 
+  signInWithPopup, 
+  signOut, 
+  onAuthStateChanged 
+} from 'firebase/auth';
 
-const NavItem = ({ label }) => (
-  <a href="#!" className="nav-link flex flex-col items-start group">
+const NavItem = ({ label, to }) => (
+  <Link to={to || '#!'} className="nav-link flex flex-col items-start group">
     <span className="text-sm font-semibold">{label}</span>
-  </a>
+  </Link>
 );
 
-const FeatureCard = ({ icon: Icon, title, description, color, learnMoreText }) => (
-  <motion.div 
-    whileHover={{ y: -10 }}
-    className="glass-card p-8 rounded-3xl cursor-pointer group relative overflow-hidden h-full flex flex-col"
-  >
-    <div className={`absolute top-0 right-0 w-32 h-32 bg-${color}-500/10 rounded-full -mr-16 -mt-16 transition-transform group-hover:scale-150 duration-500`} />
-    <div className={`w-14 h-14 bg-${color}-500/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-saemaul-green group-hover:text-white transition-all duration-300`}>
-      <Icon size={28} className="transition-colors" />
+const FeatureCard = ({ icon: Icon, title, description, color, learnMoreText }) => {
+  // Pre-define color classes for Tailwind static analysis
+  const colorMap = {
+    blue: "bg-blue-500/10",
+    amber: "bg-amber-500/10",
+    emerald: "bg-emerald-500/10",
+    indigo: "bg-indigo-500/10"
+  };
+
+  return (
+    <div className="glass-card p-8 rounded-3xl cursor-pointer group relative overflow-hidden h-full flex flex-col transition-transform hover:-translate-y-2">
+      <div className={`absolute top-0 right-0 w-32 h-32 ${colorMap[color] || 'bg-slate-500/10'} rounded-full -mr-16 -mt-16 transition-transform group-hover:scale-150 duration-500`} />
+      <div className={`w-14 h-14 ${colorMap[color] || 'bg-slate-500/10'} rounded-2xl flex items-center justify-center mb-6 group-hover:bg-saemaul-green group-hover:text-white transition-all duration-300`}>
+        {Icon && <Icon size={28} className="transition-colors" />}
+      </div>
+      <h3 className="text-xl font-bold mb-3">{title}</h3>
+      <p className="text-slate-600 text-sm leading-relaxed mb-6 flex-grow">
+        {description}
+      </p>
+      <div className="flex items-center text-saemaul-green font-bold text-sm gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+        {learnMoreText} <ChevronRight size={16} />
+      </div>
     </div>
-    <h3 className="text-xl font-bold mb-3">{title}</h3>
-    <p className="text-slate-600 text-sm leading-relaxed mb-6 flex-grow">
-      {description}
-    </p>
-    <div className="flex items-center text-saemaul-green font-bold text-sm gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-      {learnMoreText} <ChevronRight size={16} />
-    </div>
-  </motion.div>
-);
+  );
+};
 
 const PartnerBanner = () => {
   const partners = [
-    { name: "영남대학교 국제개발새마을학과", url: "https://intdev.yu.ac.kr/intdev/index.do", logo: "https://intdev.yu.ac.kr/images/common/logo.png" },
-    { name: "영남대학교 박정희새마을대학원", url: "https://www.yu.ac.kr/pspsk/index.do", logo: "https://www.yu.ac.kr/pspsk/images/common/logo.png" },
-    { name: "유네스코한국위원회", url: "https://unesco.or.kr/%EC%83%88%EB%A7%88%EC%9D%84%EC%9A%B4%EB%8F%99-%EA%B8%B0%EB%A1%9D%EB%AC%BC/", logo: "https://unesco.or.kr/typetest/unesco-logo.png" },
-    { name: "새마을재단", url: "https://www.smuf.or.kr/", logo: "https://www.smuf.or.kr/img/common/logo.png" },
-    { name: "새마을운동중앙회", url: "https://www.saemaul.or.kr/home/?mode=main", logo: "https://www.saemaul.or.kr/images/common/logo.png" },
+    { name: "영남대학교 국제개발새마을학과", url: "https://intdev.yu.ac.kr/intdev/index.do" },
+    { name: "영남대학교 박정희새마을대학원", url: "https://www.yu.ac.kr/pspsk/index.do" },
+    { name: "유네스코한국위원회", url: "https://unesco.or.kr/%EC%83%88%EB%A7%88%EC%9D%84%EC%9A%B4%EB%8F%99-%EA%B8%B0%EB%A1%9D%EB%AC%BC/" },
+    { name: "새마을재단", url: "https://www.smuf.or.kr/" },
+    { name: "새마을운동중앙회", url: "https://www.saemaul.or.kr/home/?mode=main" },
   ];
 
-  const doublePartners = [...partners, ...partners]; // Match translateX(-50%) animation
+  const doublePartners = [...partners, ...partners];
 
   return (
     <section className="py-16 bg-white border-y border-slate-100 overflow-hidden relative z-10">
@@ -81,13 +98,70 @@ const PartnerBanner = () => {
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [user, setUser] = useState(null);
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+    });
+
+
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      unsubscribe();
+    };
   }, []);
+
+  const handleLogin = async () => {
+    try {
+      const provider = new GoogleAuthProvider();
+      await signInWithPopup(auth, provider);
+    } catch (error) {
+      console.error("Login failed:", error);
+      alert("로그인에 실패했습니다.");
+    }
+  };
+
+  const handleLogout = async () => {
+    try {
+      await signOut(auth);
+    } catch (error) {
+      console.error("Logout failed:", error);
+    }
+  };
+
+  const shareToKakao = () => {
+    if (window.Kakao && window.Kakao.isInitialized()) {
+      window.Kakao.Share.sendDefault({
+        objectType: 'feed',
+        content: {
+          title: 'Global Saemaul-SDGs Platform',
+          description: '전통의 가치를 디지털로 완성하다 - 글로벌 새마을-SDGs 통합 플랫폼\n궁금하면 어서 구경오세요~',
+          imageUrl: 'https://saemaul-sdgs.web.app/assets/og-image.png',
+          link: {
+            mobileWebUrl: 'https://saemaul-sdgs.web.app',
+            webUrl: 'https://saemaul-sdgs.web.app',
+          },
+        },
+        buttons: [
+          {
+            title: '구경가기 👀',
+            link: {
+              mobileWebUrl: 'https://saemaul-sdgs.web.app',
+              webUrl: 'https://saemaul-sdgs.web.app',
+            },
+          },
+        ],
+      });
+    } else {
+      alert("카카오톡 공유를 위해 설정이 필요합니다.");
+    }
+  };
 
   const toggleLang = () => {
     i18n.changeLanguage(i18n.language === 'ko' ? 'en' : 'ko');
@@ -108,10 +182,10 @@ function App() {
           </div>
 
           <div className="hidden md:flex items-center gap-8">
-            <NavItem label={t('nav.home')} />
-            <NavItem label={t('nav.test')} />
-            <NavItem label={t('nav.ranking')} />
-            <NavItem label={t('nav.hub')} />
+            <NavItem label={t('nav.home')} to="/" />
+            <NavItem label={t('nav.test')} to="/test" />
+            <NavItem label={t('nav.ranking')} to="/ranking" />
+            <NavItem label={t('nav.hub')} to="/hub" />
           </div>
 
           <div className="flex items-center gap-4">
@@ -122,23 +196,32 @@ function App() {
               <Languages size={14} className="text-saemaul-green" />
               {i18n.language === 'ko' ? 'English' : '한국어'}
             </button>
-            <button className="btn-primary py-2 px-5 text-sm">
-              {t('nav.join')}
-            </button>
+            {user ? (
+              <div className="flex items-center gap-3">
+                <img 
+                  src={user.photoURL} 
+                  alt="Profile" 
+                  className="w-8 h-8 rounded-full border-2 border-saemaul-green" 
+                />
+                <button onClick={handleLogout} className="text-xs font-bold text-slate-500 hover:text-red-500 transition-colors">
+                  {i18n.language === 'ko' ? '로그아웃' : 'Logout'}
+                </button>
+              </div>
+            ) : (
+              <button onClick={handleLogin} className="btn-primary py-2 px-5 text-sm">
+                {t('nav.join')}
+              </button>
+            )}
           </div>
         </div>
       </nav>
 
-      <AnimatePresence mode="wait">
-        <motion.main
-          key={i18n.language}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.3 }}
-        >
-          {/* Hero Section */}
-          <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+      <main>
+        <Routes>
+          <Route path="/" element={
+            <>
+              {/* Hero Section */}
+              <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img 
                 src="/assets/national-sm-map.png" 
@@ -150,11 +233,7 @@ function App() {
 
             <div className="container mx-auto px-6 relative z-10">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <motion.div 
-                  initial={{ opacity: 0, x: -50 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.8 }}
-                >
+                <div className="animate-fade-in">
                   <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-saemaul-light text-saemaul-green text-sm font-bold mb-6 border border-saemaul-green/20">
                     <span className="relative flex h-2 w-2">
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-saemaul-green opacity-75"></span>
@@ -177,14 +256,9 @@ function App() {
                       {t('hero.cta_demo')}
                     </button>
                   </div>
-                </motion.div>
+                </div>
 
-                <motion.div 
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 1, delay: 0.2 }}
-                  className="relative hidden lg:block"
-                >
+                <div className="relative hidden lg:block">
                   <div className="card-3d-wrap">
                     <div className="card-3d glass-card p-10 rounded-[40px] shadow-2xl relative overflow-hidden border-2 border-white/50">
                       <div className="absolute top-0 right-0 p-8">
@@ -230,9 +304,9 @@ function App() {
                       </div>
                     </div>
                   </div>
-                  <div className="absolute -z-10 -bottom-10 -left-10 w-64 h-64 bg-saemaul-green/20 rounded-full blur-3xl animate-float" />
+                  <div className="absolute -z-10 -bottom-10 -left-10 w-64 h-64 bg-saemaul-green/20 rounded-full blur-3xl" />
                   <div className="absolute -z-10 -top-20 -right-20 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl" />
-                </motion.div>
+                </div>
               </div>
             </div>
           </section>
@@ -282,10 +356,14 @@ function App() {
             </div>
           </section>
 
-          {/* Partner Marquee */}
-          <PartnerBanner />
-        </motion.main>
-      </AnimatePresence>
+              {/* Partner Marquee */}
+              <PartnerBanner />
+            </>
+          } />
+          <Route path="/test" element={<LeadershipTest />} />
+          <Route path="/docs/:filename" element={<DocViewer />} />
+        </Routes>
+      </main>
 
       {/* Footer */}
       <footer className="bg-slate-950 text-white py-20">
@@ -313,7 +391,11 @@ function App() {
             <div>
               <h5 className="font-bold mb-6">{t('footer.connect')}</h5>
               <div className="flex gap-4">
-                {[1,2,3,4].map(i => (
+                <button onClick={shareToKakao} aria-label="Share to Kakao" className="px-5 h-10 rounded-full bg-[#FEE500] flex items-center justify-center hover:bg-[#eacc00] transition-colors cursor-pointer text-slate-900 font-bold text-sm gap-2">
+                  <MessageCircle size={18} className="text-slate-900" />
+                  카카오 공유
+                </button>
+                {[1,2,3].map(i => (
                   <a href="#!" target="_blank" rel="noopener noreferrer" key={i} aria-label="Social media link" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-saemaul-green transition-colors cursor-pointer text-white">
                     <ExternalLink size={18} />
                   </a>

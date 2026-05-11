@@ -4,10 +4,24 @@
 
 @layer base {
   body {
-    @apply text-slate-900 antialiased bg-slate-50;
+    color: #0f172a; /* text-slate-900 */
+    background-color: #f8fafc; /* bg-slate-50 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-family: 'Inter', system-ui, sans-serif;
   }
 }
+
+@layer components {
+  .btn-primary {
+    @apply bg-saemaul-green text-white font-bold py-3 px-8 rounded-full shadow-lg shadow-saemaul-green/20 hover:bg-saemaul-dark transition-all hover:scale-105 active:scale-95 flex items-center gap-2;
+  }
+  
+  .nav-link {
+    @apply text-slate-600 font-bold text-sm hover:text-saemaul-green transition-colors relative;
+  }
+}
+
 
 @layer components {
   .glass-card {
