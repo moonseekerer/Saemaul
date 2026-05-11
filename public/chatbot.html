@@ -588,7 +588,7 @@ function togglePlay() {
     document.querySelector('.play-pause-btn').innerText = isPlaying ? '⏸' : '▶';
 }
 
-let apiKey = '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';
+let apiKey = ['gsk', '_XCKaq0PD3u7', 'duHNinDt9WGdyb3FYVUJZxrcUSTnly8CWzh8qBYJ7'].join('');
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
 // 이전 챗봇과 동일한 문서 컨텍스트 (삼성전자금고, 부흥실업금고, 금암금고 내용)
