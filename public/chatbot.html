@@ -588,18 +588,8 @@ function togglePlay() {
     document.querySelector('.play-pause-btn').innerText = isPlaying ? '⏸' : '▶';
 }
 
-let apiKey = ['gsk', '_XCKaq0PD3u7', 'duHNinDt9WGdyb3FYVUJZxrcUSTnly8CWzh8qBYJ7'].join('');
+let apiKey = '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';
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
-let pendingQuestion = '';
-
-function submitApiKey() {
-    const key = document.getElementById('apiKeyInput').value.trim();
-    if (!key) { alert('API 키를 입력해주세요.'); return; }
-    apiKey = key;
-    localStorage.setItem('groq_api_key', apiKey);
-    document.getElementById('apiModal').classList.remove('show');
-    if (pendingQuestion) { document.getElementById('userInput').value = pendingQuestion; pendingQuestion = ''; sendMessage(); }
-}
 
 // 이전 챗봇과 동일한 문서 컨텍스트 (삼성전자금고, 부흥실업금고, 금암금고 내용)
 const documentsContext = `
@@ -690,7 +680,7 @@ async function sendMessage() {
     const inputField = document.getElementById('userInput');
     const question = inputField.value.trim();
     if (!question) return;
-    // API key is already set inline
+
     addMessage(question, 'user');
     inputField.value = '';
     
