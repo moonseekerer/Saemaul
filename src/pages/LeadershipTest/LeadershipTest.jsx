@@ -223,11 +223,27 @@ const LeadershipTest = () => {
 
               {/* 설명 + 명언 */}
               <div className="text-center mb-8">
-                <p className="text-xl text-slate-800 leading-relaxed font-medium">{result.description}</p>
-                <div className="mt-6 p-5 bg-slate-50 rounded-2xl border border-slate-100">
+                {result.description.split('\n\n').map((para, i) => (
+                  <p key={i} className={`text-slate-800 leading-relaxed mb-4 ${
+                    i === 0 ? 'text-xl font-medium' : 'text-base text-slate-600'
+                  }`}>{para}</p>
+                ))}
+                <div className="mt-4 p-5 bg-slate-50 rounded-2xl border border-slate-100">
                   <p className="text-lg italic text-slate-600 font-bold">"{result.quote}"</p>
                 </div>
               </div>
+
+              {/* 역사적 실화 사례 */}
+              {result.historicalCase && (
+                <div className={`mb-8 rounded-3xl border-2 ${result.borderColor} ${result.lightColor} p-6`}>
+                  <div className="flex items-center gap-2 mb-3">
+                    <Scroll size={16} className={result.textColor} />
+                    <span className={`text-xs font-black uppercase tracking-widest ${result.textColor}`}>실제 역사 사례</span>
+                  </div>
+                  <h4 className={`font-black text-base text-slate-800 mb-3`}>{result.historicalCase.title}</h4>
+                  <p className="text-slate-600 text-sm leading-relaxed">{result.historicalCase.content}</p>
+                </div>
+              )}
 
               {/* 특성 태그 */}
               <div className="flex flex-wrap justify-center gap-3 mb-10">
@@ -283,6 +299,14 @@ const LeadershipTest = () => {
                   <p className="text-xs text-slate-500">{result.representativeContext} — 영광의 발자취 제1집</p>
                 </div>
               </div>
+
+              {/* 다시 테스트하기 */}
+              <button
+                onClick={resetTest}
+                className={`w-full mb-4 flex items-center justify-center gap-2 py-4 rounded-2xl font-bold text-white ${result.color} hover:opacity-90 transition-opacity shadow-lg`}
+              >
+                <RefreshCw size={20} /> 다시 테스트하기
+              </button>
 
               {/* 공유 버튼 */}
               <div className="grid grid-cols-2 gap-4 mb-10">
