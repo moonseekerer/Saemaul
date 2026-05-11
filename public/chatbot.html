@@ -7,443 +7,121 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --primary-color: #8bc34a; /* 연두색 */
-    --secondary-color: #f1f8e9; /* 아주 연한 연두색 배경 */
-    --accent-color: #689f38; /* 포인트 연두색 */
+    --primary-color: #8bc34a;
+    --secondary-color: #f1f8e9;
+    --accent-color: #689f38;
     --text-main: #333333;
     --text-light: #777777;
     --bg-gray: #f5f5f5;
     --white: #ffffff;
   }
-  
   * { box-sizing: border-box; }
-  
-  body, html {
-    margin: 0; padding: 0;
-    height: 100%;
-    font-family: 'Noto Sans KR', sans-serif;
-    background-color: #e9ecef;
-  }
-
-  .mobile-container {
-    width: 100%;
-    height: 100%;
-    background-color: var(--white);
-    display: flex; flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-
-  /* PC 환경에서는 스마트폰 모양으로 가운데 정렬 */
-  @media (min-width: 480px) {
-    body, html {
-      display: flex; justify-content: center; align-items: center;
-    }
-    .mobile-container {
-      width: 400px;
-      height: 850px;
-      max-height: 90vh;
-      border-radius: 30px;
-      border: 8px solid #f0f0f0;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-    }
-  }
-
-  /* 헤더 */
-  .header {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 15px 20px;
-    background-color: var(--white);
-    border-bottom: 1px solid #f0f0f0;
-    z-index: 10;
-  }
-  .header-title {
-    display: flex; align-items: center; gap: 8px;
-    font-size: 18px; font-weight: 700; color: var(--text-main);
-  }
-  .logo-icon {
-    width: 24px; height: 24px;
-    background-color: var(--primary-color);
-    border-radius: 50%;
-    display: flex; justify-content: center; align-items: center;
-    color: white; font-size: 14px;
-  }
+  body, html { margin: 0; padding: 0; height: 100%; font-family: 'Noto Sans KR', sans-serif; background-color: #e9ecef; }
+  .mobile-container { width: 100%; height: 100%; background-color: var(--white); display: flex; flex-direction: column; position: relative; overflow: hidden; margin: 0 auto; }
+  @media (min-width: 480px) { body, html { display: flex; justify-content: center; align-items: center; } .mobile-container { width: 400px; height: 850px; max-height: 90vh; border-radius: 30px; border: 8px solid #f0f0f0; box-shadow: 0 10px 40px rgba(0,0,0,0.1); } }
+  .header { display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; background-color: var(--white); border-bottom: 1px solid #f0f0f0; z-index: 10; }
+  .header-title { display: flex; align-items: center; gap: 8px; font-size: 18px; font-weight: 700; color: var(--text-main); }
+  .logo-icon { width: 24px; height: 24px; background-color: var(--primary-color); border-radius: 50%; display: flex; justify-content: center; align-items: center; color: white; font-size: 14px; }
   .menu-icon { font-size: 24px; color: var(--text-main); cursor: pointer; }
-
-  /* 챗 영역 */
-  .chat-box {
-    flex: 1; overflow-y: auto;
-    padding: 20px;
-    display: flex; flex-direction: column; gap: 16px;
-    background-color: var(--white);
-  }
-
-  /* 웰컴 메시지 & 마스코트 */
-  .welcome-section {
-    text-align: center; margin-bottom: 20px;
-  }
-  .welcome-text {
-    color: var(--accent-color); font-weight: 700; font-size: 15px; margin-bottom: 15px;
-  }
-  .mascot-image {
-    width: 150px; height: 150px;
-    object-fit: cover;
-    margin: 0 auto; display: block;
-  }
-
-  /* 메시지 공통 */
+  .chat-box { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 16px; background-color: var(--white); }
+  .welcome-section { text-align: center; margin-bottom: 20px; }
+  .welcome-text { color: var(--accent-color); font-weight: 700; font-size: 15px; margin-bottom: 15px; }
+  .mascot-image { width: 150px; height: 150px; object-fit: cover; margin: 0 auto; display: block; }
   .message-wrapper { display: flex; width: 100%; }
-  
   .message-wrapper.bot { justify-content: flex-start; }
   .message-wrapper.user { justify-content: flex-end; }
-
-  .bubble {
-    padding: 12px 16px;
-    border-radius: 20px;
-    font-size: 15px; line-height: 1.5;
-    max-width: 80%;
-    word-break: break-word;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  }
-
-  .bot .bubble {
-    background-color: var(--secondary-color);
-    color: var(--text-main);
-    border-top-left-radius: 4px;
-    border: 1px solid #e0ede5;
-  }
-
-  .user .bubble {
-    background-color: var(--primary-color);
-    color: var(--white);
-    border-top-right-radius: 4px;
-  }
-
-  .time-stamp {
-    font-size: 11px; color: var(--text-light);
-    margin-top: 5px; align-self: flex-end;
-  }
+  .bubble { padding: 12px 16px; border-radius: 20px; font-size: 15px; line-height: 1.5; max-width: 80%; word-break: break-word; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+  .bot .bubble { background-color: var(--secondary-color); color: var(--text-main); border-top-left-radius: 4px; border: 1px solid #e0ede5; }
+  .user .bubble { background-color: var(--primary-color); color: var(--white); border-top-right-radius: 4px; }
+  .time-stamp { font-size: 11px; color: var(--text-light); margin-top: 5px; align-self: flex-end; }
   .bot-msg-content { display: flex; flex-direction: column; max-width: 80%; }
   .user-msg-content { display: flex; flex-direction: column; align-items: flex-end; max-width: 80%; }
-
-  /* 퀵 리플라이 */
-  .quick-replies {
-    display: flex; gap: 10px; overflow-x: auto;
-    padding: 10px 20px;
-    background: var(--white);
-    scrollbar-width: none; /* Firefox */
-  }
-  .quick-replies::-webkit-scrollbar { display: none; /* Chrome, Safari */ }
-  
-  .chip {
-    padding: 8px 16px;
-    background-color: #f5f5f5;
-    color: var(--text-main);
-    border-radius: 20px;
-    font-size: 13px; font-weight: 500;
-    white-space: nowrap; cursor: pointer;
-    border: 1px solid #e0e0e0;
-    transition: all 0.2s;
-  }
-  .chip:active { background-color: #e0e0e0; }
-
-  /* 입력 영역 */
-  .input-area {
-    position: relative;
-    z-index: 10;
-    padding: 15px 20px;
-    background-color: var(--white);
-    border-top: 1px solid #f0f0f0;
-  }
-  .input-container {
-    display: flex; align-items: center;
-    background-color: #f8f9fa;
-    border: 1px solid #e0e0e0;
-    border-radius: 25px;
-    padding: 5px 5px 5px 15px;
-  }
-  .input-container input {
-    flex: 1; border: none; background: transparent;
-    font-size: 15px; outline: none; color: var(--text-main);
-  }
-  .send-btn {
-    width: 36px; height: 36px;
-    background-color: var(--primary-color);
-    border-radius: 50%;
-    display: flex; justify-content: center; align-items: center;
-    border: none; cursor: pointer; flex-shrink: 0;
-  }
+  .quick-replies { display: flex; gap: 10px; overflow-x: auto; padding: 10px 20px; background: var(--white); scrollbar-width: none; }
+  .quick-replies::-webkit-scrollbar { display: none; }
+  .chip { padding: 8px 16px; background-color: #f5f5f5; color: var(--text-main); border-radius: 20px; font-size: 13px; font-weight: 500; white-space: nowrap; cursor: pointer; border: 1px solid #e0e0e0; transition: all 0.2s; }
+  .input-area { position: relative; z-index: 10; padding: 15px 20px; background-color: var(--white); border-top: 1px solid #f0f0f0; }
+  .input-container { display: flex; align-items: center; background-color: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 25px; padding: 5px 5px 5px 15px; }
+  .input-container input { flex: 1; border: none; background: transparent; font-size: 15px; outline: none; color: var(--text-main); }
+  .send-btn { width: 36px; height: 36px; background-color: var(--primary-color); border-radius: 50%; display: flex; justify-content: center; align-items: center; border: none; cursor: pointer; flex-shrink: 0; }
   .send-icon { fill: white; width: 16px; height: 16px; }
-
-  /* 바텀 네비게이션 */
-  .bottom-nav {
-    display: flex; justify-content: space-around; align-items: center;
-    background-color: var(--primary-color);
-    padding: 12px 0 15px 0;
-    border-bottom-left-radius: inherit; border-bottom-right-radius: inherit;
-  }
-  .nav-item {
-    display: flex; flex-direction: column; align-items: center; gap: 4px;
-    color: rgba(255,255,255,0.5); cursor: pointer; font-size: 11px;
-  }
+  .bottom-nav { display: flex; justify-content: space-around; align-items: center; background-color: var(--primary-color); padding: 12px 0 15px 0; border-bottom-left-radius: inherit; border-bottom-right-radius: inherit; }
+  .nav-item { display: flex; flex-direction: column; align-items: center; gap: 4px; color: rgba(255,255,255,0.5); cursor: pointer; font-size: 11px; }
   .nav-item.active { color: white; font-weight: 700; }
   .nav-icon { width: 22px; height: 22px; fill: currentColor; }
-
-  /* 타이핑 애니메이션 */
   .typing-indicator { display: flex; gap: 4px; padding: 8px; }
-  .typing-indicator span {
-    width: 6px; height: 6px; background-color: var(--accent-color);
-    border-radius: 50%; animation: typing 1s infinite;
-  }
-  .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
-  .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+  .typing-indicator span { width: 6px; height: 6px; background-color: var(--accent-color); border-radius: 50%; animation: typing 1s infinite; }
   @keyframes typing { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+  .view-container { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+  .podcast-content { flex: 1; overflow-y: auto; padding: 20px; background-color: var(--bg-gray); display: flex; flex-direction: column; gap: 12px; }
+  .podcast-item { display: flex; align-items: center; gap: 15px; padding: 15px; border-radius: 12px; background-color: var(--white); box-shadow: 0 2px 5px rgba(0,0,0,0.05); cursor: pointer; transition: transform 0.2s; }
+  .podcast-item:hover { transform: translateY(-2px); }
+  .podcast-img { width: 50px; height: 50px; border-radius: 10px; background-color: var(--primary-color); display: flex; justify-content: center; align-items: center; color: white; font-size: 20px; }
+  .podcast-info { flex: 1; }
+  .podcast-title { font-weight: bold; font-size: 14px; color: var(--text-main); margin-bottom: 3px; }
+  .podcast-desc { font-size: 12px; color: var(--text-light); }
+  .podcast-player { background: white; padding: 15px 20px; border-top: 1px solid #eee; display: flex; align-items: center; gap: 15px; position: sticky; bottom: 0; box-shadow: 0 -2px 10px rgba(0,0,0,0.05); }
+  .player-info { flex: 1; }
+  .player-title { font-size: 13px; font-weight: bold; color: var(--text-main); margin-bottom: 2px; }
+  .player-status { font-size: 11px; color: var(--primary-color); }
+  .player-controls { display: flex; gap: 15px; align-items: center; }
+  .play-pause-btn { width: 35px; height: 35px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; justify-content: center; align-items: center; border: none; cursor: pointer; }
 
   /* API 키 모달 */
-  .api-modal-overlay {
-    display: none;
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.5);
-    z-index: 1000;
-    justify-content: center;
-    align-items: center;
-  }
+  .api-modal-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: center; }
   .api-modal-overlay.show { display: flex; }
-  .api-modal {
-    background: white;
-    border-radius: 20px;
-    padding: 30px 25px;
-    width: 88%;
-    max-width: 360px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-    text-align: center;
-  }
+  .api-modal { background: white; border-radius: 20px; padding: 30px 25px; width: 88%; max-width: 360px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); text-align: center; }
   .api-modal img { width: 80px; height: 80px; object-fit: cover; border-radius: 50%; margin-bottom: 15px; }
   .api-modal h3 { color: var(--primary-color); margin: 0 0 8px 0; font-size: 17px; }
   .api-modal p { color: var(--text-light); font-size: 13px; margin: 0 0 18px 0; line-height: 1.6; }
-  .api-modal input {
-    width: 100%; padding: 12px 15px;
-    border: 2px solid #e0e0e0; border-radius: 12px;
-    font-size: 14px; outline: none; box-sizing: border-box;
-    margin-bottom: 12px;
-    transition: border-color 0.2s;
-  }
-  .api-modal input:focus { border-color: var(--primary-color); }
-  .api-modal-btn {
-    width: 100%; padding: 13px;
-    background: var(--primary-color); color: white;
-    border: none; border-radius: 12px;
-    font-size: 15px; font-weight: 700; cursor: pointer;
-    transition: background 0.2s;
-  }
-  .api-modal-btn:hover { background: var(--accent-color); }
-  .api-modal-link { display: block; margin-top: 12px; font-size: 12px; color: var(--text-light); }
-
-  /* 뷰 컨테이너 */
-  .view-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
-  
-  /* 팟캐스트 전용 스타일 */
-  .podcast-content {
-    flex: 1;
-    overflow-y: auto;
-    padding: 20px;
-    background-color: var(--bg-gray);
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-  .podcast-item {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 15px;
-    border-radius: 12px;
-    background-color: var(--white);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    cursor: pointer;
-    transition: transform 0.2s;
-  }
-  .podcast-item:hover {
-    transform: translateY(-2px);
-  }
-  .podcast-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: var(--primary-color);
-    display: flex; justify-content: center; align-items: center;
-    color: white; font-size: 20px;
-  }
-  .podcast-info {
-    flex: 1;
-  }
-  .podcast-title {
-    font-weight: bold;
-    font-size: 14px;
-    color: var(--text-main);
-    margin-bottom: 3px;
-  }
-  .podcast-desc {
-    font-size: 12px;
-    color: var(--text-light);
-  }
+  .api-modal input { width: 100%; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 12px; font-size: 14px; outline: none; box-sizing: border-box; margin-bottom: 12px; }
+  .api-modal-btn { width: 100%; padding: 13px; background: var(--primary-color); color: white; border: none; border-radius: 12px; font-size: 15px; font-weight: 700; cursor: pointer; }
 </style>
 </head>
 <body>
-
-<!-- API 키 입력 모달 -->
 <div class="api-modal-overlay" id="apiModal">
   <div class="api-modal">
     <img src="mascot.png" onerror="this.src='https://via.placeholder.com/80/8bc34a/ffffff?text=🌱'">
     <h3>🤖 Groq API 키 입력</h3>
-    <p>채팅을 시작하려면 Groq API 키가 필요합니다.<br>아래에서 무료로 발급받으세요!</p>
+    <p>채팅을 시작하려면 Groq API 키가 필요합니다.</p>
     <input type="password" id="apiKeyInput" placeholder="gsk_로 시작하는 API 키 입력...">
     <button class="api-modal-btn" onclick="submitApiKey()">✅ 저장하고 시작하기</button>
-    <a class="api-modal-link" href="https://console.groq.com" target="_blank">🔗 console.groq.com 에서 무료 키 발급</a>
   </div>
 </div>
-
 <div class="mobile-container">
-  <!-- 헤더 -->
-  <div class="header">
-    <div class="header-title">
-      <div class="logo-icon">🌱</div>
-      새마을AI 챗봇
-    </div>
-    <div class="menu-icon">☰</div>
-  </div>
-  
-  <!-- 뷰 컨테이너들 -->
+  <div class="header"><div class="header-title"><div class="logo-icon">🌱</div>새마을AI 챗봇</div><div class="menu-icon">☰</div></div>
   <div id="chatView" class="view-container" style="display: flex;">
-    <!-- 채팅 박스 -->
     <div class="chat-box" id="chatBox">
-    <div class="welcome-section">
-      <div class="welcome-text">새마을운동에 대해 궁금한 것을 물어보세요!</div>
-      <!-- 마스코트 이미지 -->
-      <img src="mascot.png" alt="새마을 마스코트" class="mascot-image" onerror="this.src='https://via.placeholder.com/150/1a5c38/ffffff?text=Mascot'">
+      <div class="welcome-section"><div class="welcome-text">새마을운동에 대해 궁금한 것을 물어보세요!</div><img src="mascot.png" class="mascot-image" onerror="this.src='https://via.placeholder.com/150/1a5c38/ffffff?text=Mascot'"></div>
+      <div class="message-wrapper bot"><div class="bot-msg-content"><div class="bubble">안녕하세요! 새마을운동에 대해 무엇이든 친절하게 답변해드리는 새마을AI입니다. 😊</div><div class="time-stamp" id="initTime"></div></div></div>
     </div>
-    
-    <!-- 봇 초기 메시지 -->
-    <div class="message-wrapper bot">
-      <div class="bot-msg-content">
-        <div class="bubble">안녕하세요! 새마을운동에 대해 무엇이든 친절하게 답변해드리는 새마을AI입니다. 😊</div>
-        <div class="time-stamp" id="initTime">오전 10:30</div>
-      </div>
-    </div>
+    <div class="quick-replies"><div class="chip" onclick="sendChipMessage('새마을운동의 3대 정신은?')">새마을운동의 3대 정신은?</div><div class="chip" onclick="sendChipMessage('새마을운동의 역사')">새마을운동의 역사</div></div>
+    <div class="input-area"><div class="input-container"><input type="text" id="userInput" placeholder="메시지를 입력하세요..." onkeypress="if(event.key==='Enter') sendMessage()" /><button class="send-btn" onclick="sendMessage()"><svg class="send-icon" viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg></button></div></div>
   </div>
-
-  <!-- 퀵 리플라이 -->
-  <div class="quick-replies">
-    <div class="chip" onclick="sendChipMessage('새마을운동의 3대 정신은?')">새마을운동의 3대 정신은?</div>
-    <div class="chip" onclick="sendChipMessage('새마을운동의 역사')">새마을운동의 역사</div>
-    <div class="chip" onclick="sendChipMessage('새마을운동의 주요 활동은?')">새마을운동의 주요 활동은?</div>
-  </div>
-
-  <!-- 입력창 -->
-  <div class="input-area">
-    <div class="input-container">
-      <input type="text" id="userInput" placeholder="메시지를 입력하세요..." onkeypress="if(event.key==='Enter') sendMessage()" />
-      <button class="send-btn" onclick="sendMessage()">
-        <svg class="send-icon" viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
-      </button>
-    </div>
-  </div>
-  </div> <!-- chatView 끝 -->
-
-  <!-- 팟캐스트 뷰 -->
   <div id="podcastView" class="view-container" style="display: none;">
     <div class="podcast-content">
       <h2 style="margin:0; font-size: 18px; color: var(--primary-color);">📻 새마을 팟캐스트</h2>
-      <p style="margin:0 0 10px 0; color: var(--text-light); font-size: 13px;">새마을금고의 다양한 이야기를 오디오로 만나보세요.</p>
-      
-      <div class="podcast-item" onclick="alert('팟캐스트 재생 준비중입니다!')">
-        <div class="podcast-img">🎙️</div>
-        <div class="podcast-info">
-          <div class="podcast-title">새마을운동의 역사 1부</div>
-          <div class="podcast-desc">부흥실업새마을금고 이야기</div>
-        </div>
-        <button style="border:none; background:none; font-size:18px; color:var(--primary-color);">▶</button>
-      </div>
-
-      <div class="podcast-item" onclick="alert('팟캐스트 재생 준비중입니다!')">
-        <div class="podcast-img">🎧</div>
-        <div class="podcast-info">
-          <div class="podcast-title">마을 공동체의 기적</div>
-          <div class="podcast-desc">지역 주민들이 일군 신뢰의 금융</div>
-        </div>
-        <button style="border:none; background:none; font-size:18px; color:var(--primary-color);">▶</button>
-      </div>
-
-      <div class="podcast-item" onclick="alert('팟캐스트 재생 준비중입니다!')">
-        <div class="podcast-img">🌱</div>
-        <div class="podcast-info">
-          <div class="podcast-title">디지털 시대의 새마을</div>
-          <div class="podcast-desc">MZ세대와 함께하는 새로운 도전</div>
-        </div>
-        <button style="border:none; background:none; font-size:18px; color:var(--primary-color);">▶</button>
-      </div>
+      <div class="podcast-item" onclick="playPodcast('새마을운동의 역사 1부', '부흥실업새마을금고 이야기')"><div class="podcast-img">🎙️</div><div class="podcast-info"><div class="podcast-title">새마을운동의 역사 1부</div><div class="podcast-desc">부흥실업새마을금고 이야기</div></div><button style="border:none; background:none; font-size:18px; color:var(--primary-color);">▶</button></div>
+      <div class="podcast-item" onclick="playPodcast('마을 공동체의 기적', '지역 주민들이 일군 신뢰의 금융')"><div class="podcast-img">🎧</div><div class="podcast-info"><div class="podcast-title">마을 공동체의 기적</div><div class="podcast-desc">지역 주민들이 일군 신뢰의 금융</div></div><button style="border:none; background:none; font-size:18px; color:var(--primary-color);">▶</button></div>
     </div>
+    <div class="podcast-player" id="podcastPlayer" style="display: none;"><div class="player-info"><div class="player-title" id="currentTrackTitle">재생 중인 트랙 없음</div><div class="player-status" id="playerStatus">준비됨</div></div><div class="player-controls"><button class="play-pause-btn" onclick="togglePlay()">⏸</button></div></div>
   </div>
-
-  <!-- 홈 뷰 -->
-  <div id="homeView" class="view-container" style="display: none; justify-content: center; align-items: center; background-color: var(--secondary-color);">
-    <div style="text-align: center;">
-      <h2 style="color: var(--primary-color); margin-bottom: 20px;">새마을 AI 홈</h2>
-      <img src="mascot.png" alt="홈 마스코트" style="width: 250px; height: 250px; object-fit: cover; border-radius: 50%; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" onerror="this.src='https://via.placeholder.com/250/1a5c38/ffffff?text=Mascot'">
-      <p style="margin-top: 20px; color: var(--text-main); font-weight: 500;">반갑습니다! 하단의 탭을 선택해주세요.</p>
-    </div>
-  </div>
-
-  <!-- 하단 네비게이션 -->
-  <div class="bottom-nav" id="bottomNav">
-    <div class="nav-item" id="nav-home" onclick="switchTab('home')">
-      <svg class="nav-icon" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
-      홈
-    </div>
-    <div class="nav-item" id="nav-podcast" onclick="switchTab('podcast')">
-      <svg class="nav-icon" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
-      팟캐스트
-    </div>
-    <div class="nav-item active" id="nav-chat" onclick="switchTab('chat')">
-      <svg class="nav-icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
-      채팅
-    </div>
-    <div class="nav-item" onclick="switchTab('mypage')">
-      <svg class="nav-icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-      마이페이지
-    </div>
-  </div>
+  <div id="homeView" class="view-container" style="display: none; justify-content: center; align-items: center; background-color: var(--secondary-color);"><div style="text-align: center;"><h2 style="color: var(--primary-color); margin-bottom: 20px;">새마을 AI 홈</h2><img src="mascot.png" style="width: 250px; height: 250px; border-radius: 50%;"><p style="margin-top: 20px; font-weight: 500;">반갑습니다! 하단의 탭을 선택해주세요.</p></div></div>
+  <div class="bottom-nav"><div class="nav-item" id="nav-home" onclick="switchTab('home')">홈</div><div class="nav-item" id="nav-podcast" onclick="switchTab('podcast')">팟캐스트</div><div class="nav-item active" id="nav-chat" onclick="switchTab('chat')">채팅</div></div>
 </div>
-
 <script>
-// 초기 시간 설정
 document.getElementById('initTime').innerText = new Date().toLocaleTimeString('ko-KR', {hour: '2-digit', minute:'2-digit'});
-
-// 탭 전환 기능
 function switchTab(tabId) {
-    if(tabId === 'mypage') {
-        alert('해당 메뉴는 준비중입니다.');
-        return;
-    }
-    
-    // 네비게이션 액티브 토글
     document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
-    document.getElementById('nav-' + tabId).classList.add('active');
-    
-    // 뷰 전환
+    if(document.getElementById('nav-' + tabId)) document.getElementById('nav-' + tabId).classList.add('active');
     document.getElementById('chatView').style.display = (tabId === 'chat') ? 'flex' : 'none';
     document.getElementById('podcastView').style.display = (tabId === 'podcast') ? 'flex' : 'none';
     document.getElementById('homeView').style.display = (tabId === 'home') ? 'flex' : 'none';
 }
+let isPlaying = false;
+function playPodcast(title, desc) { document.getElementById('podcastPlayer').style.display = 'flex'; document.getElementById('currentTrackTitle').innerText = title; document.getElementById('playerStatus').innerText = '지금 재생 중...'; isPlaying = true; document.querySelector('.play-pause-btn').innerText = '⏸'; }
+function togglePlay() { isPlaying = !isPlaying; document.getElementById('playerStatus').innerText = isPlaying ? '지금 재생 중...' : '일시 중지됨'; document.querySelector('.play-pause-btn').innerText = isPlaying ? '⏸' : '▶'; }
 
-let apiKey = ['gsk', '_XCKaq0PD3u7', 'duHNinDt9WGdyb3FYVUJZxrcUSTnly8CWzh8qBYJ7'].join('');
+let apiKey = localStorage.getItem('groq_api_key');
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 let pendingQuestion = '';
 
@@ -453,245 +131,39 @@ function submitApiKey() {
     apiKey = key;
     localStorage.setItem('groq_api_key', apiKey);
     document.getElementById('apiModal').classList.remove('show');
-    // 저장된 질문 이어서 전송
-    if (pendingQuestion) {
-        document.getElementById('userInput').value = pendingQuestion;
-        pendingQuestion = '';
-        sendMessage();
-    }
-}
-
-// Enter 키로도 제출 가능
-document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('apiKeyInput').addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') submitApiKey();
-    });
-});
-
-// 이전 챗봇과 동일한 문서 컨텍스트 (삼성전자금고, 부흥실업금고, 금암금고 내용)
-const documentsContext = `
-[삼성전자금고]
-「서로 믿고 도우면서 살아온 겨레, 착하고 부지런한 우리 아닌가」
-새마을금고의 우렁찬 노래소리는 오늘도 전국방방곡곡의 농촌과 도시 그리고 직장과 단체에서 힘차게 메아리치고 있다. 그 아들격인데 회사와 사원들이 잘돼야 금고도 잘된다고 첫말문을 연다.
-우리 민족은 서로 도우면서 부지런하게 살아온 협동의 뿌리가 5천년 역사와 함께 깊이깊이 간직되어 왔으며 이 협동의 정신은 70년대에는 자조·근면·협동의 새마을운동으로 그리고 이제는 정신·경제 병진운동인 새마을금고운동으로 승화발전되어 인보협동과 근검저축 생활로개인의 경제생활이 윤택해지고 지역과 직장단체의 주민들이 상부상조함으로써 지역개발이 촉진되고 부강국력의 밑거름이 되고 있다.
-경기도 수원시 매탄벌의 허허벌판 45만평의 대지에 연건평 13만평에 달하는 세계규모의 전자산업단지를 형성하고 「기업을 통해 국가에 이바지한다」는 이념으로 69년 6월 전자입국의 꿈을 안고 첫발을 내딛은 삼전은 지난 16년간 연평균 60%의 고성장을 거듭하면서 명실상부한 한국전자산업 총아로서 선도역할을 다하고 있다.
-신장하는 사회를 바탕으로 삼성전자 직장새마을금고도 77년 5월 출자금 5백만원으로 첫발을 내디뎠다.
-특히 그룹 산하 21개기업중에서도 삼성전자는 1만 5천 4백명의 대가족에 82년수출 실적 3억 3천만달러, 총매출액 4천 3백억원을 자랑하는 주력 기업중의 하나이다.
-삼성전자금고의 김정부 이사장은 「삼성전자는 아버지요, 사원들은 어머니요, 새마을금고는 그 아들격인데 회사와 사원들이 잘돼야 금고도 잘된다」고 첫말문을 연다.
-노조가 없는 삼성전자는 성전회(사원친목단체)가 복잡한 문제들을 맡아서 해결하려 노력했고 77년 4월 성전회총회에서 새마을금고를 설립하기로 결의, 6월부터 여수신업무를 개시하였다.
-초대이사장 박경팔, 2/3대 이사장 김시균, 4대~7대 김정부 이사장이 수고하고 있다.
-삼성전자 금고는 79년 2월 구판장 개장, 79년 5월 서울지소 개설, 80년 3월 인쇄소 개소, 81년 2월 성전회관 신축개관, 우체국 개국, 81년 12월 이발관 개관, 82년 10월 세탁소를 개장하여 사원 복지증진에 기여하고 있다.
-정문앞 1천1백3평을 회사가 빌려줘 7억1천만원을 투입, 연건평 2백14평 소현대식 2층회관을 지었다.
-모든 사업장에는 에어컨, VTR 등 135대 자동판매기가 분산되어 월간 약 4천만원의 이익을 올린다.
-동금고는 총자산 10억원, 연간 7% 순익을 올리며 완전 전산화가 이뤄졌다.
-설립초에는 최고 30%의 고배당을 실시했다.
-창사기념 체육대회때 82년에 8천4백만원, 83년에 7천5백만원을 들여 트레이닝 한벌씩을 선물했다.
-여러 동호회 지원비로 도합 7천8백만원이 지원되며, 불우이웃돕기, 단체봉사 등 각종 복지사업을 벌이고 있다.
-
-[부흥실업금고]
-인천시 북구 부평동 252의 29번지에 있는 부흥실업새마을 금고가 바로 그 현장.
-동금고의 공동유대권은 진흥자유시장과 농수산물도매시장 전체를 대상으로 한다.
-71년말로 부평시장 근처 노점상 하던 6백여 영세상인들이 집단입주해 점포를 냈다.
-시장주가 보증금을 챙겨 다른 사업에 투자하느라 방치상태가 5년간 계속되어 기능이 마비되었고 공매처분 위기에 빠졌다.
-시장관리권을 인수하기 위해 부흥실업주식회사가 설립되었고, 한천길 대표이사가 시장환경정비에 착수했다.
-엄청난 이자를 무는 고리채가 문제여서 부흥실업측이 융자받아 풀었으나 큰 도움이 못되었다.
-고리채 추방을 위해 한천길씨가 새마을금고를 만들기로 결심, 76년 12월 20일 창립 (초대 이사장 한천길).
-초기 회원 36명, 자산 16만 4천원. 농수산물도매시장 보증금 7천만원을 예탁받아 싼 이자로 대출해주며 서서히 참여를 유도.
-창립 2년만인 78년 1억원의 자산을 조성하며 급성장, 85년 8월말 총자산 19억9천4백만원, 회원 1천5백명 기록.
-고리채 횡포는 자취를 감추었고 대출해간 돈으로 영세상인 대부분 내집을 마련했다.
-여름엔 오전 6시반 개시, 동전교환업무 등 상인들을 위해 최선을 다한다.
-82년부터 장학사업 시작, 연말연시 불우이웃돕기운동 등 복지사업에도 관심.
-
-[금암금고]
-전주시 금암금고는 77년 2월 9일 금암초등학교 음악실에서 첫 발기회를 가졌다. 고문 소진하, 위원장 이덕우.
-77년 3월 24일 회원 128명 출자금 180만원으로 정식출범. 현재는 회원 2,904명 자산 23억4천만원 대형금고로 성장.
-초대 이덕우 이사장은 6개 영세금고를 통합해 기틀을 다졌다.
-78년 제2차 정기총회에서 자산 1억2천만원 돌파, 24% 고율배당 실시.
-유학섭 감사(2대 이사장), 최규동 이사장(3대, 79년 취임) 등을 거치며 도내 최초 10억 돌파, 82년 도내 최초 20억 돌파 영예.
-80년 봄 슈퍼마켓 개장, 83년 2월 복지회관 기공식.
-영세회원 주택난 해소를 위해 직접 전세계약 체결 및 선융자지원, 불우이웃돕기, 환경 개선 등 이바지.
-85년 3월 12일 소진하 이사장 취임.
-`;
-
-function getTimeString() {
-    return new Date().toLocaleTimeString('ko-KR', {hour: '2-digit', minute:'2-digit'});
-}
-
-// 타이핑 애니메이션 함수
-function typeText(element, text, speed = 18) {
-    element.innerHTML = '';
-    let i = 0;
-    const lines = text.split('\n');
-    let lineIndex = 0;
-    let charIndex = 0;
-
-    function type() {
-        if (lineIndex >= lines.length) return;
-        const line = lines[lineIndex];
-        if (charIndex < line.length) {
-            element.innerHTML += line[charIndex];
-            charIndex++;
-            // 채팅창 자동 스크롤
-            const chatBox = document.getElementById('chatBox');
-            chatBox.scrollTop = chatBox.scrollHeight;
-            setTimeout(type, speed);
-        } else {
-            // 줄바꿈 처리
-            lineIndex++;
-            charIndex = 0;
-            if (lineIndex < lines.length) {
-                element.innerHTML += '<br>';
-                setTimeout(type, speed);
-            }
-        }
-    }
-    type();
-}
-
-function sendChipMessage(text) {
-    document.getElementById('userInput').value = text;
-    sendMessage();
+    if (pendingQuestion) { document.getElementById('userInput').value = pendingQuestion; pendingQuestion = ''; sendMessage(); }
 }
 
 async function sendMessage() {
     const inputField = document.getElementById('userInput');
     const question = inputField.value.trim();
     if (!question) return;
-
-    // API key is already set inline
-    
+    if (!apiKey) { pendingQuestion = question; document.getElementById('apiModal').classList.add('show'); return; }
     addMessage(question, 'user');
     inputField.value = '';
-    
-    const loadingHtml = `
-      <div class="typing-indicator">
-        <span></span><span></span><span></span>
-      </div>
-    `;
-    const loadingId = addMessage(loadingHtml, 'bot');
-    
-    // 특정 질문(베트남 사업 추진) 하드코딩 처리
-    if (question.includes("베트남에서 새마을금고 사업을 추진하고자 해") || question.includes("베트남에서 적용 가능한 사업 형태")) {
-        setTimeout(() => {
-            const botElement = document.getElementById(loadingId);
-            const hardcodedText = `베트남에서 새마을금고 사업을 추진할 때 가장 중요한 점은 단순히 ‘금융기관’을 만드는 것이 아니라, 지역 주민들의 신뢰와 자조 조직을 기반으로 공동체 금융 생태계를 구축하는 것이다. 한국의 새마을금고 역사 속에서도 이러한 원리가 잘 드러나며, 특히 부흥실업새마을금고 사례는 베트남 현지 적용 가능성이 매우 높은 모델로 볼 수 있다.
-
-부흥실업새마을금고는 단순한 저축기관이 아니었다. 당시 시장 상인들은 고리채에 의존하며 생계를 유지하고 있었고, 시장 환경 역시 붕괴 상태였다. 금고 설립 주체들은 먼저 시장 환경을 정비하고 상인 조직을 결집시켰으며, 이후 저금리 공동 금융체계를 구축해 상인들이 고리채에서 벗어나도록 만들었다. 즉, “금융”보다 먼저 “공동체 회복”과 “신뢰 형성”이 이루어졌다는 점이 핵심이다.
-
-이 사례를 통해 확인할 수 있는 새마을금고형 사업 모델은 크게 다섯 가지로 정리할 수 있다.
-
-첫째, 시장 상인 기반 협동조합 금융 모델이다.
-부흥실업금고처럼 특정 시장이나 상권을 공동유대권으로 설정하고, 상인들이 공동 출자하여 운영하는 방식이다. 초기에는 소액 저축과 저금리 운영자금 대출 중심으로 시작하며, 상인들의 금융 접근성을 높이는 것이 핵심이다.
-
-둘째, 고리채 대체형 마이크로파이낸스 모델이다.
-당시 상인들은 고금리 사채 때문에 아무리 일해도 빚에서 벗어나지 못했다. 새마을금고는 공동체 신뢰를 바탕으로 낮은 금리의 순환 금융을 제공했고, 이는 경제적 자립 기반이 되었다. 이는 현재 베트남 농촌이나 도시 빈곤지역에서도 여전히 유효한 모델이다.
-
-셋째, 생활밀착형 금융 서비스 모델이다.
-부흥실업금고는 일반 은행처럼 운영하지 않았다. 시장 거래시간에 맞춰 새벽부터 문을 열었고, 동전 교환 같은 상인 특화 서비스를 제공했다. 즉 주민 생활 패턴에 맞춘 금융 서비스가 핵심이었다. 베트남에서도 재래시장, 오토바이 기사, 노점상, 여성 자영업자 등 특정 생활집단 맞춤형 금융 서비스가 가능하다.
-
-넷째, 복지 연계형 공동체 모델이다.
-장학사업, 불우이웃 지원, 지역복지 활동을 통해 단순 금융기관이 아닌 공동체 조직으로 성장했다. 이는 새마을운동의 “근면·자조·협동” 정신이 금융을 넘어 사회적 연대로 확장된 사례다.
-
-다섯째, 신뢰 기반 참여 확대 모델이다.
-초기에는 주민들이 금고를 믿지 않았지만, 운영진이 직접 시장을 돌며 교육과 홍보를 반복했다. 결국 핵심은 자본보다 주민 신뢰와 참여였다. 이는 국제개발 분야에서 말하는 주민참여형 개발(Participatory Development)의 전형적 사례라고 볼 수 있다.
-
-이러한 사례를 바탕으로 베트남에서 적용 가능한 사업 형태는 다음과 같이 제안할 수 있다.
-
-우선 가장 현실적인 방식은 “시장 상인 협동 금융 플랫폼”구축이다. 베트남에는 전통시장과 소규모 상인 경제가 매우 활발하다. 하노이·호치민뿐 아니라 지방 도시에서도 상인들은 여전히 비공식 금융에 의존하는 경우가 많다. 따라서 특정 시장 단위를 공동체로 묶고, 상인회와 연계하여 소액 저축·소액 대출·공동 구매 시스템을 운영할 수 있다.
-
-두 번째는 여성 중심 새마을금고형 마이크로크레딧 사업이다. 베트남 농촌에서는 여성들의 경제활동 참여율이 높기 때문에 여성조합 기반 금융 모델이 효과적일 수 있다. 예를 들어 여성들이 매주 일정 금액을 공동 적립하고, 이를 창업자금·농업자금·교육비로 순환 대출하는 구조를 만들 수 있다.
-
-세 번째는 디지털 새마을금고 모델이다. 한국 새마을금고의 현대적 발전 방향처럼 모바일 기반 적립·대출·출석형 공동체 활동 시스템을 결합할 수 있다. 특히 베트남은 모바일 금융 보급 속도가 빠르기 때문에, 앱 기반 공동 저축 시스템과 지역 활동 인증 시스템을 접목하면 청년층 참여를 유도할 수 있다.
-
-네 번째는 농촌개발 연계형 모델이다. 새마을운동이 단순 금융이 아니라 마을 환경개선과 연결되었던 것처럼, 베트남 농촌에서도 공동 저축금을 활용해 마을 도로 정비, 농산물 저장시설, 공동 창고 등을 구축하는 방식이 가능하다.
-
-다만 중요한 점은 새마을금고를 단순히 “한국식 금융기관”으로 수출해서는 안 된다는 것이다. 성공 여부는 제도보다 현지 주민 조직과 신뢰 형성에 달려 있다. 부흥실업금고 사례에서도 초기 성공 요인은 거대한 자본이 아니라 시장 상인들과 함께 문제를 해결하려는 지속적인 설득과 참여였다.
-
-따라서 베트남 사업 추진 시에는 다음과 같은 단계적 접근이 필요하다.
-
-1. 특정 지역 공동체 선정
-2. 주민·상인 조직화 및 리더 발굴
-3. 금융교육 및 공동체 교육 실시
-4. 소액 공동 적립 시작
-5. 소규모 순환대출 운영
-6. 복지·교육사업으로 확대
-7. 디지털 플랫폼 접목
-
-결국 새마을금고의 본질은 “돈”이 아니라 “공동체의 자립 시스템”이다. 그리고 이는 현재 국제개발협력 분야에서 강조되는 지속가능한 지역개발, 주민참여형 개발, 사회적 금융 모델과도 매우 깊게 연결된다.`;
-            typeText(botElement, hardcodedText, 15);
-        }, 1200);
-        return;
-    }
-    
+    const loadingId = addMessage('<div class="typing-indicator"><span></span><span></span><span></span></div>', 'bot');
     try {
         const response = await fetch(GROQ_API_URL, {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': 'Bearer ' + apiKey
-            },
-            body: JSON.stringify({
-                model: 'llama-3.3-70b-versatile',
-                messages: [
-                    { 
-                      role: 'system', 
-                      content: '당신은 새마을 AI 어시스턴트입니다. 친절하고 자연스러운 카카오톡 대화 어투로 다음 문서를 바탕으로 사용자의 질문에 답변하세요. 문서에 없는 내용은 모른다고 답변하세요.\\n\\n[학습 문서 내용]\\n' + documentsContext 
-                    },
-                    { role: 'user', content: question }
-                ],
-                temperature: 0.2
-            })
+            headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + apiKey },
+            body: JSON.stringify({ model: 'llama-3.3-70b-versatile', messages: [{ role: 'system', content: '친절한 어시스턴트입니다.' }, { role: 'user', content: question }], temperature: 0.2 })
         });
-        
         const data = await response.json();
         const botElement = document.getElementById(loadingId);
-        
         if (response.ok) {
-            const answer = data.choices?.[0]?.message?.content || data.response || "응답을 파싱할 수 없습니다.";
-            typeText(botElement, answer, 18);
-        } else {
-            let errorReason = data.error?.message || "알 수 없는 오류";
-            if (response.status === 401) {
-                errorReason = "API 접근 오류 (401 Unauthorized)<br>URL과 키를 다시 확인해주세요.";
-                localStorage.removeItem('openai_api_key');
-                localStorage.removeItem('api_base_url');
-                apiKey = null;
-                apiUrl = null;
-            }
-            botElement.innerHTML = "🚫 <b>오류 발생:</b><br>" + errorReason;
-        }
-    } catch (e) {
-        document.getElementById(loadingId).innerHTML = "네트워크 오류가 발생했습니다.<br>API URL 서버가 켜져있는지 확인해주세요.";
-    }
+            const answer = data.choices?.[0]?.message?.content || "응답 오류";
+            botElement.innerText = answer;
+        } else { botElement.innerText = "오류 발생: " + (data.error?.message || "알 수 없음"); }
+    } catch (e) { document.getElementById(loadingId).innerText = "네트워크 오류"; }
 }
-
 function addMessage(text, type) {
     const chatBox = document.getElementById('chatBox');
     const msgWrapper = document.createElement('div');
     msgWrapper.className = 'message-wrapper ' + type;
-    
-    const uniqueId = 'text-content-' + Date.now();
-    const timeStr = getTimeString();
-    
-    if (type === 'user') {
-        msgWrapper.innerHTML = `
-            <div class="user-msg-content">
-                <div class="bubble">${text}</div>
-                <div class="time-stamp">${timeStr}</div>
-            </div>
-        `;
-    } else {
-        msgWrapper.innerHTML = `
-            <div class="bot-msg-content">
-                <div class="bubble" id="${uniqueId}">${text}</div>
-                <div class="time-stamp">${timeStr}</div>
-            </div>
-        `;
-    }
-    
+    const uniqueId = 'msg-' + Date.now();
+    msgWrapper.innerHTML = `<div class="bubble" id="${uniqueId}">${text}</div>`;
     chatBox.appendChild(msgWrapper);
     chatBox.scrollTop = chatBox.scrollHeight;
-    
     return uniqueId;
 }
 </script>
