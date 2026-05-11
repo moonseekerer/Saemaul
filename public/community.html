@@ -72,6 +72,24 @@
                     <a href="#" class="nav-item" onclick="showTab('travel',this)"><span>🗺️</span> <span class="nav-text">새마을 여행지</span></a>
                     <a href="#" class="nav-item" onclick="showTab('talk',this)"><span>💬</span> <span class="nav-text">협동 토론방</span></a>
                 </nav>
+                
+                <!-- Attendance Check Section -->
+                <div class="attendance-card">
+                    <h3><span>📝</span> 오늘의 마을 출석부</h3>
+                    <button id="attendance-btn" class="attendance-btn" onclick="markAttendance()">오늘의 출석체크 하기</button>
+                    <div class="attendance-list" id="attendance-list">
+                        <div class="attendance-item">
+                            <div class="mini-avatar" style="background:#e91e63;color:white;width:24px;height:24px;font-size:0.6rem;display:flex;align-items:center;justify-content:center;border-radius:50%;">부녀</div>
+                            <span>부녀회 김회장님이 출석했습니다.</span>
+                            <span class="time">09:12</span>
+                        </div>
+                        <div class="attendance-item">
+                            <div class="mini-avatar" style="background:#2196f3;color:white;width:24px;height:24px;font-size:0.6rem;display:flex;align-items:center;justify-content:center;border-radius:50%;">지도</div>
+                            <span>혁신지역 지도자가 출석했습니다.</span>
+                            <span class="time">08:45</span>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="trending-card" style="margin-top: 20px; box-shadow: none; border: 1px solid rgba(0,0,0,0.05);">
                     <h3>실시간 검색어</h3>
@@ -378,6 +396,34 @@
             kwIdx++;
         }
         setInterval(rotateTrending, 5000);
+
+        // 출석체크 기능
+        function markAttendance() {
+            const btn = document.getElementById('attendance-btn');
+            if (btn.classList.contains('checked')) return;
+
+            const now = new Date();
+            const timeStr = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+            
+            // 버튼 상태 변경
+            btn.textContent = "✅ 오늘의 출석 완료!";
+            btn.classList.add('checked');
+            
+            // 목록에 추가
+            const list = document.getElementById('attendance-list');
+            const item = document.createElement('div');
+            item.className = 'attendance-item';
+            item.innerHTML = `
+                <img src="farmer_profile.png" style="width:24px;height:24px;border-radius:50%;object-fit:cover;border:1px solid var(--primary-green);">
+                <span>나(새마을 농부)님이 출석했습니다.</span>
+                <span class="time">${timeStr}</span>
+            `;
+            list.insertBefore(item, list.firstChild);
+            
+            // 효과
+            item.style.background = "#e8f5e9";
+            setTimeout(() => { item.style.background = "#f8f9fa"; }, 2000);
+        }
     </script>
 </body>
 </html>
