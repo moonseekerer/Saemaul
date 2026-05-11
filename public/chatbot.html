@@ -297,6 +297,9 @@
 </head>
 <body>
 
+<!-- 실제 오디오 재생기 (숨김) -->
+<audio id="mainAudio"></audio>
+
 <!-- 닉네임 설정 모달 -->
 <div class="name-modal-overlay" id="nameModal" style="display: none;">
   <div class="name-modal">
@@ -370,7 +373,7 @@
         <button style="border:none; background:none; font-size:18px; color:var(--primary-color);">▶</button>
       </div>
 
-      <div class="podcast-item" onclick="playPodcast('마을 공동체의 기적', '지역 주민들이 일군 신뢰의 금융')">
+      <div class="podcast-item" onclick="playPodcast('마을 공동체의 기적', '지역 주민들이 일군 신뢰의 금융', 'podcast.m4a')">
         <div class="podcast-img">🎧</div>
         <div class="podcast-info">
           <div class="podcast-title">마을 공동체의 기적</div>
@@ -530,9 +533,20 @@ function switchTab(tabId) {
 let isPlaying = false;
 let progress = 0;
 let progressTimer;
+const audioPlayer = document.getElementById('mainAudio');
 
-function playPodcast(title, desc) {
+function playPodcast(title, desc, fileUrl = '') {
     clearInterval(progressTimer);
+    
+    // 오디오 소스 설정 (파일이 제공된 경우에만)
+    if (fileUrl) {
+        audioPlayer.src = fileUrl;
+        audioPlayer.play().catch(e => console.log("자동 재생 차단됨: ", e));
+    } else {
+        audioPlayer.pause();
+        audioPlayer.src = "";
+    }
+
     document.getElementById('podcastPlayer').style.display = 'flex';
     document.getElementById('currentTrackTitle').innerText = title;
     document.getElementById('playerStatus').innerText = '지금 재생 중...';
@@ -546,8 +560,18 @@ function playPodcast(title, desc) {
 function startProgress() {
     progressTimer = setInterval(() => {
         if (isPlaying) {
-            progress += 0.5;
-            if (progress > 100) progress = 0;
+            if (audioPlayer.src && !audioPlayer.paused) {
+                // 실제 오디오 진행률 반영
+                progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+            } else if (!audioPlayer.src) {
+                // 더미 진행률 (파일 없을 때)
+                progress += 0.5;
+            }
+            
+            if (progress >= 100) {
+                progress = 0;
+                if (!audioPlayer.src) clearInterval(progressTimer);
+            }
             document.getElementById('playerProgressBar').style.width = progress + '%';
         }
     }, 500);
@@ -555,6 +579,11 @@ function startProgress() {
 
 function togglePlay() {
     isPlaying = !isPlaying;
+    if (isPlaying) {
+        if (audioPlayer.src) audioPlayer.play();
+    } else {
+        audioPlayer.pause();
+    }
     document.getElementById('playerStatus').innerText = isPlaying ? '지금 재생 중...' : '일시 중지됨';
     document.querySelector('.play-pause-btn').innerText = isPlaying ? '⏸' : '▶';
 }
