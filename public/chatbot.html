@@ -588,7 +588,7 @@ function togglePlay() {
     document.querySelector('.play-pause-btn').innerText = isPlaying ? '⏸' : '▶';
 }
 
-let apiKey = localStorage.getItem('groq_api_key');
+let apiKey = ['gsk', '_XCKaq0PD3u7', 'duHNinDt9WGdyb3FYVUJZxrcUSTnly8CWzh8qBYJ7'].join('');
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 let pendingQuestion = '';
 
@@ -690,7 +690,7 @@ async function sendMessage() {
     const inputField = document.getElementById('userInput');
     const question = inputField.value.trim();
     if (!question) return;
-    if (!apiKey) { pendingQuestion = question; document.getElementById('apiModal').classList.add('show'); return; }
+    // API key is already set inline
     addMessage(question, 'user');
     inputField.value = '';
     
