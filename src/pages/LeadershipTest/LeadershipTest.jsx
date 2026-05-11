@@ -123,6 +123,14 @@ const LeadershipTest = () => {
   });
 
   const [selectedIdx, setSelectedIdx] = useState(null);
+  // showCover: 테스트 시작 전 표지 화면 여부 (세션 저장 안 함)
+  // 이미 진행 중인 세션(step>0)이거나 결과가 있으면 표지 skip
+  const [showCover, setShowCover] = useState(() => {
+    const savedResult = sessionStorage.getItem('saemaul_test_result');
+    const savedStep = sessionStorage.getItem('saemaul_test_step');
+    // 결과 있거나 테스트 진행 중이면 커버 불필요
+    return !savedResult && (!savedStep || savedStep === '0');
+  });
 
   // 2) 상태 변화를 감지하여 자동으로 sessionStorage에 저장
   useEffect(() => {
@@ -165,6 +173,7 @@ const LeadershipTest = () => {
     setSelectedAnswers([]);
     setResultType(null);
     setSelectedIdx(null);
+    setShowCover(true); // 표지로 돌아가기
     // 로컬 캐시 초기화
     sessionStorage.removeItem('saemaul_test_step');
     sessionStorage.removeItem('saemaul_test_scores');
@@ -349,13 +358,100 @@ const LeadershipTest = () => {
     );
   }
 
-  // ── 테스트 진행 화면 ──
+  // ── 표지 화면 ──
+  if (showCover) {
+    const hasSavedProgress = step > 0;
+    return (
+      <div className="min-h-screen bg-slate-50 pt-20 pb-20 flex items-center">
+        <div className="container mx-auto px-6 max-w-2xl">
+          <button onClick={() => navigate('/saemaul-test')} className="flex items-center gap-2 text-slate-500 hover:text-saemaul-green transition-colors mb-8 font-bold">
+            <ArrowLeft size={20} /> 테스트 목록으로
+          </button>
+
+          <div className="bg-white rounded-[40px] overflow-hidden shadow-2xl shadow-slate-200/50 border border-slate-100">
+            {/* 상단 배너 */}
+            <div className="bg-gradient-to-br from-saemaul-green to-emerald-700 p-10 md:p-14 text-center relative overflow-hidden">
+              <div className="absolute inset-0 opacity-10 bg-[url('/assets/national-sm-map.png')] bg-cover" />
+              <div className="relative z-10">
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/20 text-white text-xs font-bold mb-6 backdrop-blur-sm border border-white/30">
+                  📋 새마을 리더십 유형 테스트
+                </div>
+                <h1 className="text-3xl md:text-5xl font-black text-white mb-4 drop-shadow-lg leading-tight">
+                  나는 어떤<br />
+                  <span className="text-yellow-300">새마을 리더</span>일까?
+                </h1>
+                <p className="text-white/80 text-base md:text-lg font-medium">
+                  7가지 역사적 시나리오로 분석하는<br />나만의 리더십 유형
+                </p>
+              </div>
+            </div>
+
+            <div className="p-8 md:p-12">
+              {/* 4가지 유형 미리보기 */}
+              <p className="text-center text-xs font-black text-slate-400 uppercase tracking-widest mb-6">발견할 수 있는 4가지 유형</p>
+              <div className="grid grid-cols-2 gap-3 mb-8">
+                {[
+                  { icon: '🚩', title: '새마을지도자', desc: '솔선수범으로 이끄는 개척자', color: 'bg-orange-50 border-orange-200 text-orange-700' },
+                  { icon: '🤝', title: '마을주민', desc: '협동과 헌신의 공동체 심장', color: 'bg-emerald-50 border-emerald-200 text-emerald-700' },
+                  { icon: '🏛️', title: '공무원', desc: '행정으로 열정을 완성하는 지원군', color: 'bg-blue-50 border-blue-200 text-blue-700' },
+                  { icon: '💡', title: '전문가', desc: '데이터와 설계로 불가능을 깨는 전략가', color: 'bg-purple-50 border-purple-200 text-purple-700' },
+                ].map(t => (
+                  <div key={t.title} className={`rounded-2xl border p-4 ${t.color}`}>
+                    <span className="text-2xl block mb-1">{t.icon}</span>
+                    <p className="font-black text-sm">{t.title}</p>
+                    <p className="text-xs opacity-75 mt-0.5 leading-snug">{t.desc}</p>
+                  </div>
+                ))}
+              </div>
+
+              {/* 테스트 정보 */}
+              <div className="flex justify-center gap-8 mb-8 text-center">
+                <div><p className="text-2xl font-black text-saemaul-green">7</p><p className="text-xs text-slate-500 font-medium">문항</p></div>
+                <div className="w-px bg-slate-100" />
+                <div><p className="text-2xl font-black text-saemaul-green">5분</p><p className="text-xs text-slate-500 font-medium">소요</p></div>
+                <div className="w-px bg-slate-100" />
+                <div><p className="text-2xl font-black text-saemaul-green">4종</p><p className="text-xs text-slate-500 font-medium">유형</p></div>
+              </div>
+
+              {/* 시작 버튼 */}
+              {hasSavedProgress ? (
+                <div className="space-y-3">
+                  <button
+                    onClick={() => setShowCover(false)}
+                    className="w-full py-5 rounded-2xl font-black text-lg text-white bg-saemaul-green hover:bg-emerald-700 transition-colors shadow-lg shadow-saemaul-green/30 flex items-center justify-center gap-2"
+                  >
+                    이어서 하기 ({step + 1}/{questions.length}번 문항부터)
+                  </button>
+                  <button
+                    onClick={() => { resetTest(); setShowCover(false); }}
+                    className="w-full py-3 rounded-2xl font-bold text-sm text-slate-500 border-2 border-slate-200 hover:bg-slate-50 transition-colors"
+                  >
+                    처음부터 다시 시작
+                  </button>
+                </div>
+              ) : (
+                <button
+                  onClick={() => setShowCover(false)}
+                  className="w-full py-5 rounded-2xl font-black text-lg text-white bg-saemaul-green hover:bg-emerald-700 transition-colors shadow-lg shadow-saemaul-green/30 flex items-center justify-center gap-2"
+                >
+                  테스트 시작하기 →
+                </button>
+              )}
+
+              <p className="text-center text-xs text-slate-400 mt-4">익명으로 진행되며, 개인 정보는 수집되지 않습니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   const current = questions[step];
   return (
     <div className="min-h-screen bg-slate-50 pt-24 pb-20 flex items-center">
       <div className="container mx-auto px-6 max-w-2xl">
-        <button onClick={() => navigate('/')} className="flex items-center gap-2 text-slate-500 hover:text-saemaul-green transition-colors mb-8 font-bold">
-          <ArrowLeft size={20} /> 홈으로 돌아가기
+        <button onClick={() => navigate('/saemaul-test')} className="flex items-center gap-2 text-slate-500 hover:text-saemaul-green transition-colors mb-8 font-bold">
+          <ArrowLeft size={20} /> 테스트 목록으로
         </button>
 
         <div className="bg-white rounded-[40px] p-8 md:p-12 shadow-xl shadow-slate-200/50 border border-slate-100">

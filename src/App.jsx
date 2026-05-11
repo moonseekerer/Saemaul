@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useNavigate } from 'react-router-dom';
 import LeadershipTest from './pages/LeadershipTest/LeadershipTest';
+import SaemaulTest from './pages/SaemaulTest/SaemaulTest';
 import DocViewer from './pages/DocViewer/DocViewer';
 import { 
   UserCheck, 
@@ -188,7 +189,7 @@ function App() {
 
           <div className="hidden md:flex items-center gap-8">
             <NavItem label={t('nav.home')} to="/" />
-            <NavItem label={t('nav.test')} to="/test" />
+            <NavItem label="새마을 테스트" to="/saemaul-test" />
             <NavItem label={t('nav.ranking')} to="/ranking" />
             <NavItem label={t('nav.hub')} to="/hub" />
           </div>
@@ -254,7 +255,7 @@ function App() {
                     {t('hero.subtitle')}
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <Link to="/test" className="btn-primary text-lg px-8 py-4 flex items-center gap-2">
+                    <Link to="/saemaul-test" className="btn-primary text-lg px-8 py-4 flex items-center gap-2">
                       {t('hero.cta_start')} <ArrowRight size={20} />
                     </Link>
                     <button className="px-8 py-4 rounded-full font-bold border-2 border-slate-200 text-slate-600 hover:bg-slate-100 transition-all flex items-center gap-2">
@@ -335,7 +336,7 @@ function App() {
                   description={t('features.card1.desc')}
                   color="blue"
                   learnMoreText={t('features.learn_more')}
-                  to="/test"
+                  to="/saemaul-test"
                 />
                 <FeatureCard 
                   icon={Trophy}
@@ -369,6 +370,7 @@ function App() {
               <PartnerBanner />
             </>
           } />
+          <Route path="/saemaul-test" element={<SaemaulTest />} />
           <Route path="/test" element={<LeadershipTest />} />
           <Route path="/docs/:filename" element={<DocViewer />} />
         </Routes>
