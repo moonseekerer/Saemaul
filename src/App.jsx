@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link, useNavigate } from 'react-router-dom';
 import LeadershipTest from './pages/LeadershipTest/LeadershipTest';
 import DocViewer from './pages/DocViewer/DocViewer';
 import { 
@@ -31,7 +31,9 @@ const NavItem = ({ label, to }) => (
   </Link>
 );
 
-const FeatureCard = ({ icon: Icon, title, description, color, learnMoreText }) => {
+const FeatureCard = ({ icon: Icon, title, description, color, learnMoreText, to }) => {
+  const navigate = useNavigate();
+
   // Pre-define color classes for Tailwind static analysis
   const colorMap = {
     blue: "bg-blue-500/10",
@@ -41,7 +43,10 @@ const FeatureCard = ({ icon: Icon, title, description, color, learnMoreText }) =
   };
 
   return (
-    <div className="glass-card p-8 rounded-3xl cursor-pointer group relative overflow-hidden h-full flex flex-col transition-transform hover:-translate-y-2">
+    <div 
+      onClick={() => to && navigate(to)}
+      className="glass-card p-8 rounded-3xl cursor-pointer group relative overflow-hidden h-full flex flex-col transition-transform hover:-translate-y-2"
+    >
       <div className={`absolute top-0 right-0 w-32 h-32 ${colorMap[color] || 'bg-slate-500/10'} rounded-full -mr-16 -mt-16 transition-transform group-hover:scale-150 duration-500`} />
       <div className={`w-14 h-14 ${colorMap[color] || 'bg-slate-500/10'} rounded-2xl flex items-center justify-center mb-6 group-hover:bg-saemaul-green group-hover:text-white transition-all duration-300`}>
         {Icon && <Icon size={28} className="transition-colors" />}
@@ -172,14 +177,14 @@ function App() {
       {/* Navigation */}
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 backdrop-blur-md py-3 shadow-sm' : 'bg-transparent py-6'}`}>
         <div className="container mx-auto px-6 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 overflow-hidden rounded-xl shadow-lg shadow-saemaul-green/20 flex items-center justify-center bg-white border border-slate-100">
+          <Link to="/" className="flex items-center gap-2 group">
+            <div className="w-10 h-10 overflow-hidden rounded-xl shadow-lg shadow-saemaul-green/20 flex items-center justify-center bg-white border border-slate-100 group-hover:scale-105 transition-transform">
               <img src="https://www.saemaul.or.kr/images/sub/company/ci_2img2.png" alt="Saemaul Logo" className="w-full h-full object-contain p-1" />
             </div>
-            <span className="text-xl font-black tracking-tight text-slate-800">
+            <span className="text-xl font-black tracking-tight text-slate-800 group-hover:text-saemaul-green transition-colors">
               Saemaul<span className="text-saemaul-green">-SDGs</span>
             </span>
-          </div>
+          </Link>
 
           <div className="hidden md:flex items-center gap-8">
             <NavItem label={t('nav.home')} to="/" />
@@ -249,9 +254,9 @@ function App() {
                     {t('hero.subtitle')}
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <button className="btn-primary text-lg px-8 py-4">
+                    <Link to="/test" className="btn-primary text-lg px-8 py-4 flex items-center gap-2">
                       {t('hero.cta_start')} <ArrowRight size={20} />
-                    </button>
+                    </Link>
                     <button className="px-8 py-4 rounded-full font-bold border-2 border-slate-200 text-slate-600 hover:bg-slate-100 transition-all flex items-center gap-2">
                       {t('hero.cta_demo')}
                     </button>
@@ -330,6 +335,7 @@ function App() {
                   description={t('features.card1.desc')}
                   color="blue"
                   learnMoreText={t('features.learn_more')}
+                  to="/test"
                 />
                 <FeatureCard 
                   icon={Trophy}
@@ -337,6 +343,7 @@ function App() {
                   description={t('features.card2.desc')}
                   color="amber"
                   learnMoreText={t('features.learn_more')}
+                  to="/ranking"
                 />
                 <FeatureCard 
                   icon={MessageSquare}
@@ -344,6 +351,7 @@ function App() {
                   description={t('features.card3.desc')}
                   color="emerald"
                   learnMoreText={t('features.learn_more')}
+                  to="/community"
                 />
                 <FeatureCard 
                   icon={BookOpen}
@@ -351,6 +359,7 @@ function App() {
                   description={t('features.card4.desc')}
                   color="indigo"
                   learnMoreText={t('features.learn_more')}
+                  to="/hub"
                 />
               </div>
             </div>
@@ -370,12 +379,12 @@ function App() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-12">
             <div className="col-span-2">
-              <div className="flex items-center gap-2 mb-6">
+              <Link to="/" className="flex items-center gap-2 mb-6 hover:opacity-80 transition-opacity inline-flex">
                 <div className="w-12 h-12 overflow-hidden rounded-2xl shadow-lg flex items-center justify-center bg-white border border-slate-100">
                   <img src="https://www.saemaul.or.kr/images/sub/company/ci_2img2.png" alt="Saemaul Logo" className="w-full h-full object-contain p-1.5" />
                 </div>
                 <span className="text-2xl font-black tracking-tight">Saemaul<span className="text-saemaul-green">-SDGs</span></span>
-              </div>
+              </Link>
               <p className="text-slate-400 max-w-sm mb-8">
                 {t('footer.desc')}
               </p>

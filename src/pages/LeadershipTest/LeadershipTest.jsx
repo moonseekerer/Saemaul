@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // Link used via navigate for doc routing
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, CheckCircle, MessageCircle, BookOpen, Users, Flag, Building, Lightbulb, ChevronRight, RefreshCw, Link as LinkIcon, Scroll, BarChart2, ChevronDown } from 'lucide-react';
@@ -101,11 +101,40 @@ const StatsPanel = ({ scores, selectedAnswers }) => {
 // ── 메인 컴포넌트 ──
 const LeadershipTest = () => {
   const navigate = useNavigate();
-  const [step, setStep] = useState(0);
-  const [scores, setScores] = useState({ LEADER: 0, VILLAGER: 0, OFFICIAL: 0, EXPERT: 0 });
-  const [selectedAnswers, setSelectedAnswers] = useState([]);
-  const [resultType, setResultType] = useState(null);
+  
+  // 1) 로컬/세션 스토리지로부터 초기값 불러오기
+  const [step, setStep] = useState(() => {
+    const saved = sessionStorage.getItem('saemaul_test_step');
+    return saved ? parseInt(saved, 10) : 0;
+  });
+  
+  const [scores, setScores] = useState(() => {
+    const saved = sessionStorage.getItem('saemaul_test_scores');
+    return saved ? JSON.parse(saved) : { LEADER: 0, VILLAGER: 0, OFFICIAL: 0, EXPERT: 0 };
+  });
+  
+  const [selectedAnswers, setSelectedAnswers] = useState(() => {
+    const saved = sessionStorage.getItem('saemaul_test_answers');
+    return saved ? JSON.parse(saved) : [];
+  });
+  
+  const [resultType, setResultType] = useState(() => {
+    return sessionStorage.getItem('saemaul_test_result') || null;
+  });
+
   const [selectedIdx, setSelectedIdx] = useState(null);
+
+  // 2) 상태 변화를 감지하여 자동으로 sessionStorage에 저장
+  useEffect(() => {
+    sessionStorage.setItem('saemaul_test_step', step.toString());
+    sessionStorage.setItem('saemaul_test_scores', JSON.stringify(scores));
+    sessionStorage.setItem('saemaul_test_answers', JSON.stringify(selectedAnswers));
+    if (resultType) {
+      sessionStorage.setItem('saemaul_test_result', resultType);
+    } else {
+      sessionStorage.removeItem('saemaul_test_result');
+    }
+  }, [step, scores, selectedAnswers, resultType]);
 
   const handleOptionClick = (option, idx) => {
     if (selectedIdx !== null) return;
@@ -136,6 +165,11 @@ const LeadershipTest = () => {
     setSelectedAnswers([]);
     setResultType(null);
     setSelectedIdx(null);
+    // 로컬 캐시 초기화
+    sessionStorage.removeItem('saemaul_test_step');
+    sessionStorage.removeItem('saemaul_test_scores');
+    sessionStorage.removeItem('saemaul_test_answers');
+    sessionStorage.removeItem('saemaul_test_result');
   };
 
   const copyLink = () => {
