@@ -158,14 +158,31 @@ const CommunityPage = () => {
 const ContactPage = () => {
   const { t } = useTranslation();
   const team = [
-    { name: '권도경', role: '팀장', dept: '국제개발새마을학과', year: '3학년', id: '22321562', tel: '010-3365-0480', email: 'rnjsehrud08@naver.com' },
+    { 
+      name: '권도경', 
+      role: '팀장', 
+      dept: '국제개발새마을학과', 
+      year: '3학년', 
+      id: '22321562', 
+      tel: '010-3365-0480', 
+      email: 'rnjsehrud08@naver.com',
+      activities: [
+        '포스코비욘드 18기 인도네시아 프로젝트 (25~26)',
+        '굿네이버스 한빛 7-8기 우수활동팀 (24~25)',
+        '대구국제개발협력센터 베트남 해외활동 (25)',
+        '대꾸오다 4기 ODA 홍보 콘텐츠 기획 (25)',
+        'YU&EYE 학생 모니터링단 장려상 (25)',
+        '산격복지관 온마을어울림축제 대학생 기획단 (24)',
+        '대구세계마스터즈육상 홍보단 & 사회리더 멘티 (25)'
+      ]
+    },
     { name: '윤서윤', role: '팀원', dept: '국제개발새마을학과', year: '2학년', id: '22521411', tel: '010-5723-3567', email: 'ysy79999@naver.com' },
     { name: '박문식', role: '팀원', dept: '새마을국제개발학과', year: '박사1기', id: '22650117', tel: '010-4286-3104', email: 'plbm521@ynu.ac.kr' }
   ];
 
   return (
     <div className="min-h-screen bg-slate-50 pt-32 pb-20">
-      <div className="container mx-auto px-6 max-w-4xl">
+      <div className="container mx-auto px-6 max-w-5xl">
         <div className="text-center mb-16">
           <h1 className="text-4xl font-black text-slate-900 mb-4">Contact Us</h1>
           <p className="text-slate-500 text-lg">Global Saemaul-SDGs 플랫폼 제작팀을 소개합니다.</p>
@@ -176,32 +193,49 @@ const ContactPage = () => {
           </div>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 lg:grid-cols-3">
           {team.map((m, i) => (
-            <div key={i} className="bg-white p-6 rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 relative overflow-hidden group hover:-translate-y-1 transition-all duration-300">
+            <div key={i} className={`bg-white p-8 rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 relative overflow-hidden group hover:-translate-y-1 transition-all duration-300 flex flex-col ${m.activities ? 'lg:col-span-1' : ''}`}>
               <div className={`absolute top-0 left-0 w-full h-2 ${m.role === '팀장' ? 'bg-saemaul-green' : 'bg-slate-200'}`} />
-              <div className="mb-6 pt-2">
-                <h3 className="text-xl font-black text-slate-900 flex items-center gap-2">
-                  {m.name}
-                  {m.role === '팀장' && <span className="text-xs font-bold px-2 py-0.5 rounded bg-saemaul-light text-saemaul-green">팀장</span>}
-                </h3>
-                <p className="text-slate-400 text-xs font-medium mt-1">{m.dept}</p>
+              
+              <div className="mb-6 pt-2 flex justify-between items-start">
+                <div>
+                  <h3 className="text-xl font-black text-slate-900 flex items-center gap-2">
+                    {m.name}
+                    {m.role === '팀장' && <span className="text-xs font-bold px-2 py-0.5 rounded bg-saemaul-light text-saemaul-green">팀장</span>}
+                  </h3>
+                  <p className="text-slate-400 text-xs font-medium mt-1">{m.dept}</p>
+                </div>
               </div>
               
-              <div className="space-y-3 text-sm text-slate-600 font-medium">
-                <div className="flex items-center gap-2">
-                  <span className="text-slate-400 w-12 shrink-0 text-xs">학년/번</span>
+              <div className="space-y-3 text-sm text-slate-600 font-medium mb-8">
+                <div className="flex items-center gap-3">
+                  <span className="text-slate-400 w-12 shrink-0 text-xs uppercase">학년/번</span>
                   <span>{m.year} / {m.id}</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-slate-400 w-12 shrink-0 text-xs">전화</span>
+                <div className="flex items-center gap-3">
+                  <span className="text-slate-400 w-12 shrink-0 text-xs uppercase">전화</span>
                   <a href={`tel:${m.tel}`} className="hover:text-saemaul-green transition-colors">{m.tel}</a>
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-slate-400 w-12 shrink-0 text-xs">이메일</span>
+                <div className="flex items-center gap-3">
+                  <span className="text-slate-400 w-12 shrink-0 text-xs uppercase">이메일</span>
                   <a href={`mailto:${m.email}`} className="text-xs hover:text-saemaul-green transition-colors break-all">{m.email}</a>
                 </div>
               </div>
+
+              {m.activities && (
+                <div className="mt-auto pt-6 border-t border-slate-100">
+                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider mb-4">주요 활동 내역</h4>
+                  <ul className="space-y-2.5">
+                    {m.activities.map((act, idx) => (
+                      <li key={idx} className="flex items-start gap-2 text-xs font-medium text-slate-600 leading-relaxed">
+                        <div className="w-1 h-1 rounded-full bg-saemaul-green mt-1.5 shrink-0" />
+                        {act}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           ))}
         </div>
