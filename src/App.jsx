@@ -176,6 +176,9 @@ const TEAM_DATA = {
       { period: '2024', desc: '산격종합사회복지관 온마을어울림축제 대학생 기획단 운영' },
       { period: '2025', desc: '2026대구세계마스터즈육상경기대회 대학생 홍보단 (대회 및 SDGs 홍보)' },
       { period: '2025', desc: '제16기 사회리더 대학생 멘토링 멘티' }
+    ],
+    education: [
+      { period: '2024.3 ~ 현재', desc: '영남대학교 국제개발새마을학과 재학 (3학년)' }
     ]
   },
   yoon: {
@@ -187,7 +190,10 @@ const TEAM_DATA = {
     studentId: '22521411',
     tel: '010-5723-3567',
     email: 'ysy79999@naver.com',
-    activities: []
+    activities: [],
+    education: [
+      { period: '2025.3 ~ 현재', desc: '영남대학교 국제개발새마을학과 재학 (2학년)' }
+    ]
   },
   park: {
     id: 'park',
@@ -207,6 +213,11 @@ const TEAM_DATA = {
       { period: '2017', desc: '베트남국립농업대학(VNUA) 대학교류 및 해외새마을운동 현장 견학' },
       { period: '2017', desc: '경상북도 대학생 새마을 해외봉사단 (키르기즈스탄)' },
       { period: '2016 ~ 2018', desc: '필리핀 Enderun Colleges 등 주요 대학 교류 및 대외 활동' }
+    ],
+    education: [
+      { period: '2026.03 ~ 현재', desc: '영남대학교 대학원 새마을국제개발학과 박사과정 재학' },
+      { period: '2020.03 ~ 2026.02', desc: '영남대학교 대학원 새마을국제개발학 석사 졸업' },
+      { period: '2016.03 ~ 2020.02', desc: '영남대학교 새마을국제개발학 학사 졸업' }
     ]
   }
 };
@@ -299,11 +310,17 @@ const ProfilePage = () => {
             {/* Education Placeholder Section */}
             <section id="education" className="mb-16">
               <h2 className="text-2xl font-black text-slate-900 mb-8 pb-4 border-b-2 border-slate-900 tracking-tight">학력 사항</h2>
-              <div className="flex border-b border-slate-100 py-6 px-4">
-                <div className="w-1/4 text-sm font-bold text-slate-500">재학 중</div>
-                <div className="w-3/4 text-[15px] font-medium text-slate-800">
-                  영남대학교 {member.dept} ({member.year})
-                </div>
+              <div className="space-y-0 border-t border-slate-100">
+                {member.education.map((edu, idx) => (
+                  <div key={idx} className="flex flex-col sm:flex-row sm:items-start border-b border-slate-100 py-6 group hover:bg-slate-50 px-4 transition-colors duration-200">
+                    <div className="sm:w-1/4 text-sm font-bold text-slate-500 tracking-tight mb-2 sm:mb-0 group-hover:text-saemaul-green transition-colors">
+                      {edu.period}
+                    </div>
+                    <div className="sm:w-3/4 text-[15px] font-medium text-slate-800">
+                      {edu.desc}
+                    </div>
+                  </div>
+                ))}
               </div>
             </section>
           </div>
