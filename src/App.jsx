@@ -192,7 +192,7 @@ const TEAM_DATA = {
   park: {
     id: 'park',
     name: '박문식',
-    role: '팀원 / 연구위원',
+    role: '팀원',
     dept: '새마을국제개발학과',
     year: '박사1기',
     studentId: '22650117',
@@ -258,11 +258,6 @@ const ProfilePage = () => {
           <div className="flex items-center gap-2 text-sm">
             <span className="text-slate-400 font-black tracking-wider w-10">MAIL</span>
             <a href={`mailto:${member.email}`} className="font-medium text-slate-800 hover:text-saemaul-green hover:underline transition-all">{member.email}</a>
-          </div>
-          <div className="ml-auto flex items-center gap-2">
-            <button className="px-5 py-2 bg-[#4b2e2e] text-white text-xs font-bold rounded hover:brightness-110 transition-all flex items-center gap-2 shadow-sm">
-              <Download size={14} /> vCard 다운로드
-            </button>
           </div>
         </div>
       </div>
