@@ -155,6 +155,92 @@ const CommunityPage = () => {
   );
 };
 
+const ContactPage = () => {
+  const { t } = useTranslation();
+  const team = [
+    { name: '권도경', role: '팀장', dept: '국제개발새마을학과', year: '3학년', id: '22321562', tel: '010-3365-0480', email: 'rnjsehrud08@naver.com' },
+    { name: '윤서윤', role: '팀원', dept: '국제개발새마을학과', year: '2학년', id: '22521411', tel: '010-5723-3567', email: 'ysy79999@naver.com' },
+    { name: '박문식', role: '팀원', dept: '새마을국제개발학과', year: '박사1기', id: '22650117', tel: '010-4286-3104', email: 'plbm521@ynu.ac.kr' }
+  ];
+
+  return (
+    <div className="min-h-screen bg-slate-50 pt-32 pb-20">
+      <div className="container mx-auto px-6 max-w-4xl">
+        <div className="text-center mb-16">
+          <h1 className="text-4xl font-black text-slate-900 mb-4">Contact Us</h1>
+          <p className="text-slate-500 text-lg">Global Saemaul-SDGs 플랫폼 제작팀을 소개합니다.</p>
+          
+          <div className="mt-8 inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white shadow-sm border border-slate-200 text-slate-400 font-bold text-sm">
+            <ExternalLink size={16} />
+            <span>제작자 PR 사이트 오픈 예정 (준비 중)</span>
+          </div>
+        </div>
+
+        <div className="grid gap-8 md:grid-cols-3">
+          {team.map((m, i) => (
+            <div key={i} className="bg-white p-6 rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 relative overflow-hidden group hover:-translate-y-1 transition-all duration-300">
+              <div className={`absolute top-0 left-0 w-full h-2 ${m.role === '팀장' ? 'bg-saemaul-green' : 'bg-slate-200'}`} />
+              <div className="mb-6 pt-2">
+                <h3 className="text-xl font-black text-slate-900 flex items-center gap-2">
+                  {m.name}
+                  {m.role === '팀장' && <span className="text-xs font-bold px-2 py-0.5 rounded bg-saemaul-light text-saemaul-green">팀장</span>}
+                </h3>
+                <p className="text-slate-400 text-xs font-medium mt-1">{m.dept}</p>
+              </div>
+              
+              <div className="space-y-3 text-sm text-slate-600 font-medium">
+                <div className="flex items-center gap-2">
+                  <span className="text-slate-400 w-12 shrink-0 text-xs">학년/번</span>
+                  <span>{m.year} / {m.id}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-slate-400 w-12 shrink-0 text-xs">전화</span>
+                  <a href={`tel:${m.tel}`} className="hover:text-saemaul-green transition-colors">{m.tel}</a>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-slate-400 w-12 shrink-0 text-xs">이메일</span>
+                  <a href={`mailto:${m.email}`} className="text-xs hover:text-saemaul-green transition-colors break-all">{m.email}</a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const PrivacyPage = () => (
+  <div className="min-h-screen bg-slate-50 pt-32 pb-20">
+    <div className="container mx-auto px-6 max-w-3xl bg-white p-10 rounded-3xl shadow-sm border">
+      <h1 className="text-3xl font-black mb-8">개인정보 처리방침</h1>
+      <div className="prose prose-slate max-w-none">
+        <p>Global Saemaul-SDGs 플랫폼은 사용자의 개인정보를 중요시하며, "정보통신망 이용촉진 및 정보보호 등에 관한 법률" 등 관련 법령을 준수합니다.</p>
+        <h3 className="font-bold mt-6">1. 수집하는 개인정보 항목</h3>
+        <p>플랫폼은 원활한 서비스 제공을 위해 구글 소셜 로그인 연동 시 사용자의 프로필 사진, 닉네임, 이메일 주소를 활용하며, 이 정보는 로컬 서비스 환경 제공 이외의 목적으로 사용되지 않습니다.</p>
+        <h3 className="font-bold mt-6">2. 개인정보의 보유 및 이용기간</h3>
+        <p>수집된 정보는 사용자가 로그아웃하거나 서비스를 탈퇴할 때까지 보유하며, 법적 사유가 없는 한 즉시 파기됩니다.</p>
+      </div>
+    </div>
+  </div>
+);
+
+const TermsPage = () => (
+  <div className="min-h-screen bg-slate-50 pt-32 pb-20">
+    <div className="container mx-auto px-6 max-w-3xl bg-white p-10 rounded-3xl shadow-sm border">
+      <h1 className="text-3xl font-black mb-8">이용약관</h1>
+      <div className="prose prose-slate max-w-none">
+        <p>이 약관은 Global Saemaul-SDGs 플랫폼이 제공하는 모든 서비스의 이용 조건 및 절차에 관한 사항을 규정함을 목적으로 합니다.</p>
+        <h3 className="font-bold mt-6">1. 서비스의 제공</h3>
+        <p>플랫폼은 새마을 리더십 테스트, 마을회관 커뮤니티, AI 챗봇 등의 교육적 및 연구 목적의 콘텐츠를 무료로 제공합니다.</p>
+        <h3 className="font-bold mt-6">2. 이용자의 의무</h3>
+        <p>이용자는 본 플랫폼에서 제공하는 콘텐츠를 무단 복제, 변형, 배포하여서는 안 되며, 커뮤니티 내에서 타인의 권리를 침해하는 행위를 금지합니다.</p>
+      </div>
+    </div>
+  </div>
+);
+
+
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [user, setUser] = useState(null);
@@ -428,6 +514,9 @@ function App() {
           <Route path="/chatbot" element={<ChatbotPage />} />
           <Route path="/community" element={<CommunityPage />} />
           <Route path="/hub" element={<KnowledgeHub />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/terms" element={<TermsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
 
@@ -449,9 +538,9 @@ function App() {
             <div>
               <h5 className="font-bold mb-6">{t('footer.links')}</h5>
               <ul className="space-y-4 text-slate-400 text-sm">
-                <li><a href="#!" className="hover:text-saemaul-green transition-colors">{t('footer.p_policy')}</a></li>
-                <li><a href="#!" className="hover:text-saemaul-green transition-colors">{t('footer.terms')}</a></li>
-                <li><a href="#!" className="hover:text-saemaul-green transition-colors">{t('footer.contact')}</a></li>
+                <li><Link to="/privacy" className="hover:text-saemaul-green transition-colors">{t('footer.p_policy')}</Link></li>
+                <li><Link to="/terms" className="hover:text-saemaul-green transition-colors">{t('footer.terms')}</Link></li>
+                <li><Link to="/contact" className="hover:text-saemaul-green transition-colors">{t('footer.contact')}</Link></li>
               </ul>
             </div>
             <div>
