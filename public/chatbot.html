@@ -316,9 +316,12 @@
   <div class="header">
     <div class="header-title">
       <div class="logo-icon">🌱</div>
-      새마을AI 챗봇
+      <span id="ui-header-title">새마을AI 챗봇</span>
     </div>
-    <div class="menu-icon">☰</div>
+    <div style="display: flex; gap: 15px; align-items: center;">
+      <button id="langToggle" onclick="toggleLanguage()" style="background: var(--primary-color); color: white; border: none; padding: 5px 10px; border-radius: 15px; font-size: 12px; font-weight: bold; cursor: pointer;">EN</button>
+      <div class="menu-icon">☰</div>
+    </div>
   </div>
   
   <!-- 뷰 컨테이너들 -->
@@ -326,7 +329,7 @@
     <!-- 채팅 박스 -->
     <div class="chat-box" id="chatBox">
     <div class="welcome-section">
-      <div class="welcome-text">새마을운동에 대해 궁금한 것을 물어보세요!</div>
+      <div class="welcome-text" id="ui-welcome-text">새마을운동에 대해 궁금한 것을 물어보세요!</div>
       <!-- 마스코트 이미지 -->
       <img src="mascot.png" alt="새마을 마스코트" class="mascot-image" onerror="this.src='https://via.placeholder.com/150/1a5c38/ffffff?text=Mascot'">
     </div>
@@ -334,7 +337,7 @@
     <!-- 봇 초기 메시지 -->
     <div class="message-wrapper bot">
       <div class="bot-msg-content">
-        <div class="bubble">안녕하세요! 새마을운동에 대해 무엇이든 친절하게 답변해드리는 새마을AI입니다. 😊</div>
+        <div class="bubble" id="ui-init-bubble">안녕하세요! 새마을운동에 대해 무엇이든 친절하게 답변해드리는 새마을AI입니다. 😊</div>
         <div class="time-stamp" id="initTime">오전 10:30</div>
       </div>
     </div>
@@ -342,9 +345,9 @@
 
   <!-- 퀵 리플라이 -->
   <div class="quick-replies">
-    <div class="chip" onclick="sendChipMessage('새마을운동의 3대 정신은?')">새마을운동의 3대 정신은?</div>
-    <div class="chip" onclick="sendChipMessage('새마을운동의 역사')">새마을운동의 역사</div>
-    <div class="chip" onclick="sendChipMessage('새마을운동의 주요 활동은?')">새마을운동의 주요 활동은?</div>
+    <div class="chip" id="chip-1" onclick="sendChipMessage(this.innerText)">새마을운동의 3대 정신은?</div>
+    <div class="chip" id="chip-2" onclick="sendChipMessage(this.innerText)">새마을운동의 역사</div>
+    <div class="chip" id="chip-3" onclick="sendChipMessage(this.innerText)">새마을운동의 주요 활동은?</div>
   </div>
 
   <!-- 입력창 -->
@@ -442,19 +445,19 @@
   <div class="bottom-nav" id="bottomNav">
     <div class="nav-item" id="nav-home" onclick="switchTab('home')">
       <svg class="nav-icon" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
-      홈
+      <span id="ui-nav-home">홈</span>
     </div>
     <div class="nav-item" id="nav-podcast" onclick="switchTab('podcast')">
       <svg class="nav-icon" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
-      팟캐스트
+      <span id="ui-nav-podcast">팟캐스트</span>
     </div>
     <div class="nav-item active" id="nav-chat" onclick="switchTab('chat')">
       <svg class="nav-icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
-      채팅
+      <span id="ui-nav-chat">채팅</span>
     </div>
-    <div class="nav-item" onclick="switchTab('mypage')">
+    <div class="nav-item" id="nav-mypage" onclick="switchTab('mypage')">
       <svg class="nav-icon" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-      마이페이지
+      <span id="ui-nav-mypage">마이페이지</span>
     </div>
   </div>
 </div>
@@ -463,39 +466,200 @@
 // 데이터 관리
 let nickname = localStorage.getItem('saemaul_nickname') || '';
 let chatHistory = JSON.parse(localStorage.getItem('saemaul_chat_history')) || [];
+let currentLang = 'ko';
+
+const translations = {
+    ko: {
+        headerTitle: "새마을AI 챗봇",
+        welcomeText: "새마을운동에 대해 궁금한 것을 물어보세요!",
+        initBubble: "안녕하세요! 새마을운동에 대해 무엇이든 친절하게 답변해드리는 새마을AI입니다. 😊",
+        inputPlaceholder: "메시지를 입력하세요...",
+        chips: ["새마을운동의 3대 정신은?", "새마을운동의 역사", "새마을운동의 주요 활동은?"],
+        nav: { home: "홈", podcast: "팟캐스트", chat: "채팅", mypage: "마이페이지" },
+        systemPrompt: (nick) => `당신은 새마을 AI 어시스턴트입니다. 현재 대화 중인 사용자의 닉네임은 ${nick}입니다. 친절하고 자연스러운 카카오톡 대화 어투로 답변하세요. 답변 시 간혹 사용자의 이름을 불러주면 더 좋습니다. 한국어로 답변하세요.`,
+        langBtn: "EN",
+        modal: {
+            welcome: "반가워요! 🌱",
+            desc: "새마을AI가 당신을 어떻게 부를까요?",
+            placeholder: "닉네임을 입력해주세요...",
+            start: "시작하기"
+        },
+        home: {
+            welcome: (nick) => `안녕하세요, ${nick}님!`,
+            quote: [
+                "\"근면, 자조, 협동으로 만드는 더 나은 내일\"",
+                "\"작은 실천이 모여 큰 변화를 만듭니다.\"",
+                "\"마을이 웃으면 나라가 웃습니다.\"",
+                "\"함께하는 새마을, 행복한 우리 마을\""
+            ],
+            dateLabel: "오늘의 날짜",
+            activityLabel: "활동 지수",
+            statusLabel: "나의 상태",
+            statusValue: "🌱 새마을 꿈나무",
+            newsLabel: "오늘 새롭게 올라온 소식",
+            newsValue: "[공지] 새마을 챗봇 업데이트 완료!"
+        },
+        podcast: {
+            title: "📻 새마을 팟캐스트",
+            subtitle: "새마을금고의 다양한 이야기를 오디오로 만나보세요.",
+            tracks: [
+                { title: "새마을운동의 역사 1부", desc: "부흥실업새마을금고 이야기" },
+                { title: "마을 공동체의 기적", desc: "지역 주민들이 일군 신뢰의 금융" },
+                { title: "디지털 시대의 새마을", desc: "MZ세대와 함께하는 새로운 도전" }
+            ],
+            playing: "지금 재생 중...",
+            paused: "일시 중지됨",
+            noTrack: "재생 중인 트랙 없음",
+            ready: "준비됨"
+        },
+        greet: (nick) => `반가워요, ${nick}님! 새마을운동에 대해 무엇이든 물어보세요. 😊`
+    },
+    en: {
+        headerTitle: "Saemaul AI Chatbot",
+        welcomeText: "Ask anything about Saemaul Undong!",
+        initBubble: "Hello! I am Saemaul AI, here to answer anything about Saemaul Undong kindly. 😊",
+        inputPlaceholder: "Type your message...",
+        chips: ["What are the 3 spirits of Saemaul?", "History of Saemaul", "Major activities of Saemaul"],
+        nav: { home: "Home", podcast: "Podcast", chat: "Chat", mypage: "My Page" },
+        systemPrompt: (nick) => `You are the Saemaul AI Assistant. The nickname of the user you are talking to is ${nick}. Answer in a kind and natural conversational tone, similar to KakaoTalk. Occasionally call the user by their name. Please answer in English.`,
+        langBtn: "KO",
+        modal: {
+            welcome: "Welcome! 🌱",
+            desc: "How should Saemaul AI call you?",
+            placeholder: "Enter your nickname...",
+            start: "Get Started"
+        },
+        home: {
+            welcome: (nick) => `Hello, ${nick}!`,
+            quote: [
+                "\"Better tomorrow with Diligence, Self-help, Cooperation\"",
+                "\"Small actions make big changes.\"",
+                "\"When villages smile, the nation smiles.\"",
+                "\"Together Saemaul, Happy Village\""
+            ],
+            dateLabel: "Today's Date",
+            activityLabel: "Activity Index",
+            statusLabel: "My Status",
+            statusValue: "🌱 Saemaul Seedling",
+            newsLabel: "Today's Latest News",
+            newsValue: "[Notice] Saemaul Chatbot updated!"
+        },
+        podcast: {
+            title: "📻 Saemaul Podcast",
+            subtitle: "Meet various stories of Saemaul Credit Union in audio.",
+            tracks: [
+                { title: "History of Saemaul Part 1", desc: "The story of Buheung Industrial SCU" },
+                { title: "Miracle of Village Community", desc: "Finance of trust built by local residents" },
+                { title: "Saemaul in Digital Era", desc: "New challenges with Gen MZ" }
+            ],
+            playing: "Now Playing...",
+            paused: "Paused",
+            noTrack: "No track playing",
+            ready: "Ready"
+        },
+        greet: (nick) => `Nice to meet you, ${nick}! Ask me anything about Saemaul Undong. 😊`
+    }
+};
+
+function toggleLanguage() {
+    currentLang = currentLang === 'ko' ? 'en' : 'ko';
+    updateUILanguage();
+}
+
+function updateUILanguage() {
+    const t = translations[currentLang];
+    
+    // Header & Global
+    document.getElementById('ui-header-title').innerText = t.headerTitle;
+    document.getElementById('langToggle').innerText = t.langBtn;
+    
+    // Chat View
+    document.getElementById('ui-welcome-text').innerText = t.welcomeText;
+    document.getElementById('ui-init-bubble').innerText = t.initBubble;
+    document.getElementById('userInput').placeholder = t.inputPlaceholder;
+    document.getElementById('chip-1').innerText = t.chips[0];
+    document.getElementById('chip-2').innerText = t.chips[1];
+    document.getElementById('chip-3').innerText = t.chips[2];
+    
+    // Nav
+    document.getElementById('ui-nav-home').innerText = t.nav.home;
+    document.getElementById('ui-nav-podcast').innerText = t.nav.podcast;
+    document.getElementById('ui-nav-chat').innerText = t.nav.chat;
+    document.getElementById('ui-nav-mypage').innerText = t.nav.mypage;
+
+    // Modal
+    document.querySelector('#nameModal h2').innerText = t.modal.welcome;
+    document.querySelector('#nameModal p').innerText = t.modal.desc;
+    document.getElementById('nicknameInput').placeholder = t.modal.placeholder;
+    document.querySelector('.name-modal-btn').innerText = t.modal.start;
+
+    // Home View
+    updateHomeInfo();
+
+    // Podcast View
+    document.querySelector('#podcastView h2').innerText = t.podcast.title;
+    document.querySelector('#podcastView p').innerText = t.podcast.subtitle;
+    const podcastItems = document.querySelectorAll('.podcast-item');
+    t.podcast.tracks.forEach((track, idx) => {
+        if (podcastItems[idx]) {
+            podcastItems[idx].querySelector('.podcast-title').innerText = track.title;
+            podcastItems[idx].querySelector('.podcast-desc').innerText = track.desc;
+        }
+    });
+    if (document.getElementById('podcastPlayer').style.display === 'flex') {
+        const currentTitle = document.getElementById('currentTrackTitle').innerText;
+        // 트랙 제목도 번역본으로 업데이트 시도 (인덱스 매칭 필요)
+        const trackIdx = translations[currentLang === 'en' ? 'ko' : 'en'].podcast.tracks.findIndex(tr => tr.title === currentTitle);
+        if (trackIdx !== -1) {
+            document.getElementById('currentTrackTitle').innerText = t.podcast.tracks[trackIdx].title;
+        }
+        document.getElementById('playerStatus').innerText = isPlaying ? t.podcast.playing : t.podcast.paused;
+    } else {
+        document.getElementById('currentTrackTitle').innerText = t.podcast.noTrack;
+        document.getElementById('playerStatus').innerText = t.podcast.ready;
+    }
+
+    // Dashboard labels
+    const dashCards = document.querySelectorAll('.dash-card');
+    dashCards[0].querySelector('h4').innerText = t.home.dateLabel;
+    dashCards[1].querySelector('h4').innerText = t.home.activityLabel;
+    dashCards[2].querySelector('h4').innerText = t.home.statusLabel;
+    dashCards[2].querySelector('div').innerText = t.home.statusValue;
+    document.querySelector('#homeView div[style*="background: white"] p:nth-child(1)').innerText = t.home.newsLabel;
+    document.querySelector('#homeView div[style*="background: white"] p:nth-child(2)').innerText = t.home.newsValue;
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     // 초기 시간 및 데이터 로드
-    document.getElementById('initTime').innerText = new Date().toLocaleTimeString('ko-KR', {hour: '2-digit', minute:'2-digit'});
+    document.getElementById('initTime').innerText = new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'});
     
     if (!nickname) {
         document.getElementById('nameModal').style.display = 'flex';
+        updateUILanguage(); // 모달 번역 적용
     } else {
         updateHomeInfo();
         loadChatHistory();
+        updateUILanguage();
     }
 });
 
 function saveNickname() {
     const input = document.getElementById('nicknameInput').value.trim();
-    if (!input) return alert('닉네임을 입력해주세요!');
+    if (!input) return alert(currentLang === 'ko' ? '닉네임을 입력해주세요!' : 'Please enter your nickname!');
     nickname = input;
     localStorage.setItem('saemaul_nickname', nickname);
     document.getElementById('nameModal').style.display = 'none';
     updateHomeInfo();
     // 챗봇 첫인사 업데이트
-    addMessage(`반가워요, ${nickname}님! 새마을운동에 대해 무엇이든 물어보세요. 😊`, 'bot');
+    addMessage(translations[currentLang].greet(nickname), 'bot');
 }
 
 function updateHomeInfo() {
-    document.getElementById('welcomeTitle').innerText = `안녕하세요, ${nickname}님!`;
-    document.getElementById('dashDate').innerText = new Date().toLocaleDateString('ko-KR', {month: 'long', day: 'numeric'});
-    const quotes = [
-        "\"근면, 자조, 협동으로 만드는 더 나은 내일\"",
-        "\"작은 실천이 모여 큰 변화를 만듭니다.\"",
-        "\"마을이 웃으면 나라가 웃습니다.\"",
-        "\"함께하는 새마을, 행복한 우리 마을\""
-    ];
+    if (!nickname) return;
+    const t = translations[currentLang];
+    document.getElementById('welcomeTitle').innerText = t.home.welcome(nickname);
+    document.getElementById('dashDate').innerText = new Date().toLocaleDateString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {month: 'long', day: 'numeric'});
+    const quotes = t.home.quote;
     document.getElementById('todayQuote').innerText = quotes[Math.floor(Math.random() * quotes.length)];
     document.getElementById('dashActivity').innerText = Math.floor(Math.random() * 20 + 80) + '%';
 }
@@ -547,9 +711,10 @@ function playPodcast(title, desc, fileUrl = '') {
         audioPlayer.src = "";
     }
 
+    const t = translations[currentLang].podcast;
     document.getElementById('podcastPlayer').style.display = 'flex';
     document.getElementById('currentTrackTitle').innerText = title;
-    document.getElementById('playerStatus').innerText = '지금 재생 중...';
+    document.getElementById('playerStatus').innerText = t.playing;
     isPlaying = true;
     progress = 0;
     document.querySelector('.play-pause-btn').innerText = '⏸';
@@ -578,13 +743,14 @@ function startProgress() {
 }
 
 function togglePlay() {
+    const t = translations[currentLang].podcast;
     isPlaying = !isPlaying;
     if (isPlaying) {
         if (audioPlayer.src) audioPlayer.play();
     } else {
         audioPlayer.pause();
     }
-    document.getElementById('playerStatus').innerText = isPlaying ? '지금 재생 중...' : '일시 중지됨';
+    document.getElementById('playerStatus').innerText = isPlaying ? t.playing : t.paused;
     document.querySelector('.play-pause-btn').innerText = isPlaying ? '⏸' : '▶';
 }
 
@@ -756,7 +922,7 @@ async function sendMessage() {
                 messages: [
                     { 
                       role: 'system', 
-                      content: `당신은 새마을 AI 어시스턴트입니다. 현재 대화 중인 사용자의 닉네임은 ${nickname}입니다. 친절하고 자연스러운 카카오톡 대화 어투로 답변하세요. 답변 시 간혹 사용자의 이름을 불러주면 더 좋습니다. 다음 문서를 바탕으로 답변하세요.\\n\\n[학습 문서 내용]\\n` + documentsContext 
+                      content: translations[currentLang].systemPrompt(nickname) + `\n\n[학습 문서 내용]\n` + documentsContext 
                     },
                     { role: 'user', content: question }
                 ],

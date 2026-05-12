@@ -8,47 +8,75 @@
     background-color: #f8fafc; /* bg-slate-50 */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Outfit', 'Inter', system-ui, sans-serif;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-saemaul-green text-white font-bold py-3 px-8 rounded-full shadow-lg shadow-saemaul-green/20 hover:bg-saemaul-dark transition-all hover:scale-105 active:scale-95 flex items-center gap-2;
+    @apply bg-saemaul-green text-white font-bold py-3 px-8 rounded-full shadow-lg shadow-saemaul-green/20 hover:bg-saemaul-dark transition-all hover:scale-105 active:scale-95 flex items-center gap-2 relative overflow-hidden;
+  }
+  
+  .btn-primary::after {
+    content: '';
+    @apply absolute inset-0 bg-white/20 opacity-0 hover:opacity-100 transition-opacity;
   }
   
   .nav-link {
-    @apply text-slate-600 font-bold text-sm hover:text-saemaul-green transition-colors relative;
+    @apply text-slate-600 font-bold text-sm hover:text-saemaul-green transition-all relative py-1;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-saemaul-green transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
   }
 }
 
 
 @layer components {
   .glass-card {
-    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
-  }
-  
-  .btn-primary {
-    @apply bg-saemaul-green hover:bg-saemaul-dark text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg flex items-center gap-2;
+    @apply bg-white/70 backdrop-blur-xl border border-white/40 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)];
   }
 
-  .nav-link {
-    @apply text-slate-600 hover:text-saemaul-green font-medium transition-colors cursor-pointer;
+  .glass-card-dark {
+    @apply bg-slate-900/40 backdrop-blur-xl border border-white/10 shadow-2xl;
   }
+}
+
+.mesh-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(0, 146, 71, 0.1) 0px, transparent 50%),
+    radial-gradient(at 50% 0%, rgba(59, 130, 246, 0.05) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(0, 146, 71, 0.1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(59, 130, 246, 0.05) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(0, 146, 71, 0.1) 0px, transparent 50%);
+  filter: blur(80px);
+  animation: meshMove 15s ease-in-out infinite alternate;
 }
 
 /* Custom 3D Card Effect */
 .card-3d-wrap {
-  perspective: 1000px;
+  perspective: 2000px;
 }
 
 .card-3d {
-  transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
   transform-style: preserve-3d;
 }
 
 .card-3d:hover {
-  transform: rotateY(10deg) rotateX(5deg);
+  transform: rotateY(12deg) rotateX(8deg) translateZ(20px);
 }
 
 .glow-shimmer {
@@ -66,14 +94,14 @@
   background: linear-gradient(
     45deg,
     transparent,
-    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.2),
     transparent
   );
   transform: rotate(45deg);
-  animation: shimmer 3s infinite;
+  animation: shimmer 4s infinite;
 }
 
 @keyframes shimmer {
-  0% { transform: translateX(-100%) rotate(45deg); }
-  100% { transform: translateX(100%) rotate(45deg); }
+  0% { transform: translateX(-150%) rotate(45deg); }
+  100% { transform: translateX(150%) rotate(45deg); }
 }

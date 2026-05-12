@@ -40,29 +40,28 @@ const NavItem = ({ label, to }) => (
 const FeatureCard = ({ icon: Icon, title, description, color, learnMoreText, to }) => {
   const navigate = useNavigate();
 
-  // Pre-define color classes for Tailwind static analysis
   const colorMap = {
-    blue: "bg-blue-500/10",
-    amber: "bg-amber-500/10",
-    emerald: "bg-emerald-500/10",
-    indigo: "bg-indigo-500/10"
+    blue: "from-blue-500/20 to-indigo-500/10 text-blue-600",
+    amber: "from-amber-500/20 to-orange-500/10 text-amber-600",
+    emerald: "from-emerald-500/20 to-saemaul-green/10 text-emerald-600",
+    indigo: "from-indigo-500/20 to-purple-500/10 text-indigo-600"
   };
 
   return (
     <div 
       onClick={() => to && navigate(to)}
-      className="glass-card p-8 rounded-3xl cursor-pointer group relative overflow-hidden h-full flex flex-col transition-transform hover:-translate-y-2"
+      className="glass-card p-10 rounded-[32px] cursor-pointer group relative overflow-hidden h-full flex flex-col transition-all duration-500 hover:-translate-y-3 hover:shadow-2xl hover:shadow-saemaul-green/10"
     >
-      <div className={`absolute top-0 right-0 w-32 h-32 ${colorMap[color] || 'bg-slate-500/10'} rounded-full -mr-16 -mt-16 transition-transform group-hover:scale-150 duration-500`} />
-      <div className={`w-14 h-14 ${colorMap[color] || 'bg-slate-500/10'} rounded-2xl flex items-center justify-center mb-6 group-hover:bg-saemaul-green group-hover:text-white transition-all duration-300`}>
-        {Icon && <Icon size={28} className="transition-colors" />}
+      <div className={`absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-br ${colorMap[color] || 'from-slate-500/10 to-transparent'} rounded-full blur-2xl transition-all group-hover:scale-150 duration-700 opacity-50`} />
+      <div className={`w-16 h-16 bg-gradient-to-br ${colorMap[color] || 'from-slate-500/10 to-slate-200/10'} rounded-2xl flex items-center justify-center mb-8 group-hover:bg-saemaul-green group-hover:text-white transition-all duration-500 shadow-sm`}>
+        {Icon && <Icon size={32} className="transition-all duration-500 group-hover:scale-110" />}
       </div>
-      <h3 className="text-xl font-bold mb-3">{title}</h3>
-      <p className="text-slate-600 text-sm leading-relaxed mb-6 flex-grow">
+      <h3 className="text-2xl font-black mb-4 text-slate-800 tracking-tight">{title}</h3>
+      <p className="text-slate-500 text-base leading-relaxed mb-8 flex-grow font-medium">
         {description}
       </p>
-      <div className="flex items-center text-saemaul-green font-bold text-sm gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-        {learnMoreText} <ChevronRight size={16} />
+      <div className="flex items-center text-saemaul-green font-black text-sm gap-2 transform translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300">
+        <span className="w-6 h-px bg-saemaul-green/30" /> {learnMoreText} <ChevronRight size={18} />
       </div>
     </div>
   );
@@ -80,23 +79,23 @@ const PartnerBanner = () => {
   const doublePartners = [...partners, ...partners];
 
   return (
-    <section className="py-16 bg-white border-y border-slate-100 overflow-hidden relative z-10">
-      <div className="container mx-auto px-6 mb-10 text-center">
-        <h4 className="text-slate-400 text-xs font-bold uppercase tracking-[0.2em] mb-2">Partnerships & Cooperation</h4>
-        <div className="w-12 h-1 bg-saemaul-green mx-auto rounded-full opacity-20" />
+    <section className="py-24 bg-white/50 backdrop-blur-sm border-y border-slate-100 overflow-hidden relative z-10">
+      <div className="container mx-auto px-6 mb-12 text-center">
+        <h4 className="text-slate-400 text-[10px] font-black uppercase tracking-[0.4em] mb-4">Partnerships & Cooperation</h4>
+        <div className="w-16 h-1 bg-gradient-to-r from-transparent via-saemaul-green to-transparent mx-auto rounded-full opacity-30" />
       </div>
       <div className="relative flex overflow-hidden">
-        <div className="flex animate-scroll whitespace-nowrap gap-24 items-center py-6">
+        <div className="flex animate-scroll whitespace-nowrap gap-32 items-center py-4">
           {doublePartners.map((partner, idx) => (
             <a 
               key={idx} 
               href={partner.url} 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="flex items-center gap-3 group transition-all duration-300"
+              className="flex items-center gap-4 group transition-all duration-500"
             >
-              <div className="w-2 h-2 rounded-full bg-saemaul-green opacity-40 group-hover:scale-150 group-hover:opacity-100 transition-all" />
-              <span className="text-slate-500 font-extrabold text-lg tracking-tight group-hover:text-saemaul-green transition-colors">
+              <div className="w-3 h-3 rounded-full bg-saemaul-green opacity-20 group-hover:scale-125 group-hover:opacity-100 group-hover:shadow-[0_0_15px_rgba(0,146,71,0.5)] transition-all" />
+              <span className="text-slate-400 font-bold text-xl tracking-tight group-hover:text-saemaul-green transition-all duration-500 filter grayscale group-hover:grayscale-0">
                 {partner.name}
               </span>
             </a>
@@ -549,10 +548,10 @@ function App() {
             <NavItem label={t('nav.hub')} to="/hub" />
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-6">
             <button 
               onClick={toggleLang}
-              className="flex items-center gap-2 px-3 py-1.5 rounded-lg border border-slate-200 text-xs font-bold hover:bg-slate-50 transition-colors uppercase"
+              className="flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-200/50 text-xs font-bold hover:bg-white/50 hover:shadow-sm transition-all uppercase"
             >
               <Languages size={14} className="text-saemaul-green" />
               {i18n.language === 'ko' ? 'English' : '한국어'}
@@ -562,14 +561,14 @@ function App() {
                 <img 
                   src={user.photoURL} 
                   alt="Profile" 
-                  className="w-8 h-8 rounded-full border-2 border-saemaul-green" 
+                  className="w-9 h-9 rounded-full border-2 border-saemaul-green shadow-sm" 
                 />
                 <button onClick={handleLogout} className="text-xs font-bold text-slate-500 hover:text-red-500 transition-colors">
                   {i18n.language === 'ko' ? '로그아웃' : 'Logout'}
                 </button>
               </div>
             ) : (
-              <button onClick={handleLogin} className="btn-primary py-2 px-5 text-sm">
+              <button onClick={handleLogin} className="btn-primary py-2.5 px-6 text-sm">
                 {t('nav.join')}
               </button>
             )}
@@ -621,52 +620,54 @@ function App() {
 
                 <div className="relative hidden lg:block">
                   <div className="card-3d-wrap">
-                    <div className="card-3d glass-card p-10 rounded-[40px] shadow-2xl relative overflow-hidden border-2 border-white/50">
-                      <div className="absolute top-0 right-0 p-8">
-                         <div className="w-16 h-16 bg-saemaul-green text-white rounded-2xl flex items-center justify-center transform rotate-12 shadow-lg">
-                            <Trophy size={32} />
+                    <div className="card-3d glass-card p-12 rounded-[50px] shadow-2xl relative overflow-hidden border-2 border-white/60">
+                      <div className="absolute top-0 right-0 p-10">
+                         <div className="w-20 h-20 bg-gradient-to-br from-saemaul-green to-saemaul-vibrant text-white rounded-3xl flex items-center justify-center transform rotate-12 shadow-xl animate-float">
+                            <Trophy size={40} />
                          </div>
                       </div>
-                      <div className="mb-10">
-                        <h4 className="text-saemaul-green font-bold text-sm tracking-widest uppercase mb-2">{t('live.status')}</h4>
-                        <div className="flex items-center gap-4">
-                          <div className="text-4xl font-black">124+</div>
-                          <div className="text-slate-500 font-medium leading-tight">{t('live.villages')}</div>
+                      <div className="mb-12">
+                        <h4 className="text-saemaul-green font-bold text-sm tracking-[0.2em] uppercase mb-4 opacity-80">{t('live.status')}</h4>
+                        <div className="flex items-center gap-5">
+                          <div className="text-6xl font-black tracking-tighter text-slate-900">124<span className="text-saemaul-green">+</span></div>
+                          <div className="text-slate-500 font-bold leading-tight text-lg">{t('live.villages')}</div>
                         </div>
                       </div>
-                      <div className="space-y-6">
-                        <div className="bg-slate-50/50 p-4 rounded-2xl flex items-center gap-4 border border-slate-100">
-                          <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
-                            <UserCheck size={20} />
+                      <div className="space-y-8">
+                        <div className="bg-white/40 backdrop-blur-sm p-5 rounded-3xl flex items-center gap-5 border border-white/60 transition-transform hover:scale-[1.02]">
+                          <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-600">
+                            <UserCheck size={24} />
                           </div>
                           <div>
-                            <p className="text-sm font-bold">{t('live.role_unlock')}</p>
-                            <p className="text-xs text-slate-400">{t('live.leader')}</p>
+                            <p className="text-base font-bold text-slate-800">{t('live.role_unlock')}</p>
+                            <p className="text-xs text-slate-500 font-medium uppercase tracking-wider">{t('live.leader')}</p>
                           </div>
                         </div>
-                        <div className="bg-slate-50/50 p-4 rounded-2xl flex items-center gap-4 border border-slate-100">
-                          <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center text-amber-600">
-                            <Globe size={20} />
+                        <div className="bg-white/40 backdrop-blur-sm p-5 rounded-3xl flex items-center gap-5 border border-white/60 transition-transform hover:scale-[1.02]">
+                          <div className="w-12 h-12 rounded-2xl bg-amber-500/10 flex items-center justify-center text-amber-600">
+                            <Globe size={24} />
                           </div>
                           <div>
-                            <p className="text-sm font-bold">{t('live.milestone')}</p>
-                            <p className="text-xs text-slate-400">{t('live.partnership')}</p>
+                            <p className="text-base font-bold text-slate-800">{t('live.milestone')}</p>
+                            <p className="text-xs text-slate-500 font-medium uppercase tracking-wider">{t('live.partnership')}</p>
                           </div>
                         </div>
                       </div>
-                      <div className="mt-10 pt-8 border-t border-slate-100 flex justify-between items-center">
-                        <div className="flex -space-x-2">
+                      <div className="mt-12 pt-10 border-t border-slate-200/50 flex justify-between items-center">
+                        <div className="flex -space-x-3">
                            {[1,2,3,4].map(i => (
-                             <div key={i} className="w-8 h-8 rounded-full bg-slate-200 border-2 border-white" />
+                             <div key={i} className="w-10 h-10 rounded-full bg-slate-200 border-4 border-white shadow-sm overflow-hidden">
+                               <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${i + 10}`} alt="avatar" />
+                             </div>
                            ))}
-                           <div className="w-8 h-8 rounded-full bg-saemaul-green text-white text-[10px] flex items-center justify-center border-2 border-white">+12k</div>
+                           <div className="w-10 h-10 rounded-full bg-saemaul-green text-white text-[11px] font-bold flex items-center justify-center border-4 border-white shadow-sm">+12k</div>
                         </div>
-                        <div className="text-xs font-bold text-slate-400 uppercase tracking-tighter">{t('live.engaging')}</div>
+                        <div className="text-xs font-black text-saemaul-green/60 uppercase tracking-[0.1em]">{t('live.engaging')}</div>
                       </div>
                     </div>
                   </div>
-                  <div className="absolute -z-10 -bottom-10 -left-10 w-64 h-64 bg-saemaul-green/20 rounded-full blur-3xl" />
-                  <div className="absolute -z-10 -top-20 -right-20 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl" />
+                  <div className="absolute -z-10 -bottom-20 -left-20 w-80 h-80 bg-saemaul-green/20 rounded-full blur-[100px] animate-pulse-slow" />
+                  <div className="absolute -z-10 -top-20 -right-20 w-96 h-96 bg-blue-400/20 rounded-full blur-[120px] animate-pulse-slow" />
                 </div>
               </div>
             </div>
