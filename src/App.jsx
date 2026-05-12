@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { Routes, Route, Link, useNavigate, useParams } from 'react-router-dom';
 import LeadershipTest from './pages/LeadershipTest/LeadershipTest';
 import SaemaulTest from './pages/SaemaulTest/SaemaulTest';
 import DocViewer from './pages/DocViewer/DocViewer';
@@ -18,7 +18,9 @@ import {
   Languages,
   MessageCircle,
   Bot,
-  Home
+  Home,
+  Download,
+  ArrowRightCircle
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { auth } from './firebase';
@@ -155,48 +157,195 @@ const CommunityPage = () => {
   );
 };
 
+const TEAM_DATA = {
+  kwon: {
+    id: 'kwon',
+    name: '권도경',
+    role: '팀장',
+    dept: '국제개발새마을학과',
+    year: '3학년',
+    studentId: '22321562',
+    tel: '010-3365-0480',
+    email: 'rnjsehrud08@naver.com',
+    activities: [
+      { period: '2025 ~ 2026', desc: '포스코비욘드 18기 (인도네시아 현지 사회문제 해결 프로젝트)' },
+      { period: '2024 ~ 2025', desc: '굿네이버스 한빛 7-8기 유아 성폭력예방인형극단 (우수활동팀)' },
+      { period: '2025', desc: '대구국제개발협력센터 베트남 해외 교육봉사 프로그램 기획/활동' },
+      { period: '2025', desc: '대꾸오다 4기 ODA 홍보 콘텐츠 기획 및 전문가 교육 캠페인' },
+      { period: '2025', desc: 'YU&EYE 학생 모니터링단 교육혁신 제안 활동 (장려상 수상)' },
+      { period: '2024', desc: '산격종합사회복지관 온마을어울림축제 대학생 기획단 운영' },
+      { period: '2025', desc: '2026대구세계마스터즈육상경기대회 대학생 홍보단 (대회 및 SDGs 홍보)' },
+      { period: '2025', desc: '제16기 사회리더 대학생 멘토링 멘티' }
+    ]
+  },
+  yoon: {
+    id: 'yoon',
+    name: '윤서윤',
+    role: '팀원',
+    dept: '국제개발새마을학과',
+    year: '2학년',
+    studentId: '22521411',
+    tel: '010-5723-3567',
+    email: 'ysy79999@naver.com',
+    activities: []
+  },
+  park: {
+    id: 'park',
+    name: '박문식',
+    role: '팀원 / 연구위원',
+    dept: '새마을국제개발학과',
+    year: '박사1기',
+    studentId: '22650117',
+    tel: '010-4286-3104',
+    email: 'plbm521@ynu.ac.kr',
+    activities: [
+      { period: '2023.07 ~ 현재', desc: '경북테크노파크 글로벌협력실 전임연구원 (국제개발협력 사업 기획/실무)' },
+      { period: '2019', desc: '영국 사회적기업(Social Enterprise) 현지 조사 연구' },
+      { period: '2018', desc: 'LG전자 CSR Field Study (미얀마 현지 필드 스터디)' },
+      { period: '2018', desc: '현대자동차 해피무브 글로벌 청년봉사단 18기 (라오스 지역 봉사)' },
+      { period: '2017', desc: '인도네시아 국제개발협력 실무 인턴십 활동' },
+      { period: '2017', desc: '베트남국립농업대학(VNUA) 대학교류 및 해외새마을운동 현장 견학' },
+      { period: '2017', desc: '경상북도 대학생 새마을 해외봉사단 (키르기즈스탄)' },
+      { period: '2016 ~ 2018', desc: '필리핀 Enderun Colleges 등 주요 대학 교류 및 대외 활동' }
+    ]
+  }
+};
+
+const ProfilePage = () => {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const member = TEAM_DATA[id];
+
+  if (!member) return <div className="min-h-screen flex items-center justify-center">Member not found</div>;
+
+  return (
+    <div className="min-h-screen bg-white pt-20">
+      {/* Corporate Breadcrumb */}
+      <div className="bg-slate-50 border-b border-slate-200">
+        <div className="container mx-auto px-6 md:px-12 py-3 flex items-center gap-3 text-xs text-slate-500 font-medium">
+          <button onClick={() => navigate('/')} className="hover:text-saemaul-green">HOME</button>
+          <span>&gt;</span>
+          <button onClick={() => navigate('/contact')} className="hover:text-saemaul-green">구성원</button>
+          <span>&gt;</span>
+          <span className="text-slate-900 font-bold">{member.name}</span>
+        </div>
+      </div>
+
+      {/* Hero Section inspired by Shin & Kim */}
+      <div className="relative bg-slate-900 overflow-hidden group" style={{ height: '360px' }}>
+        {/* Abstract background decor */}
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900 to-transparent z-10" />
+        <div className="absolute right-0 top-0 h-full w-1/2 opacity-30 grayscale z-0 transition-transform duration-[10s] group-hover:scale-110" 
+             style={{ backgroundImage: "url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000')", backgroundSize: 'cover' }} 
+        />
+        
+        <div className="container mx-auto px-6 md:px-12 h-full flex flex-col justify-center relative z-20 text-white">
+          <span className="inline-block text-saemaul-green font-bold tracking-[0.2em] text-sm mb-3">{member.role.toUpperCase()}</span>
+          <h1 className="text-5xl md:text-6xl font-black tracking-tight mb-6 leading-tight">{member.name}</h1>
+          <p className="text-slate-400 text-xl max-w-xl font-medium border-l-4 border-saemaul-green pl-5">
+            {member.dept} | {member.year}
+          </p>
+        </div>
+      </div>
+
+      {/* Contact Bar */}
+      <div className="bg-[#f8f9fa] border-b border-slate-200 py-5 sticky top-20 z-30 shadow-sm">
+        <div className="container mx-auto px-6 md:px-12 flex flex-wrap items-center gap-x-12 gap-y-3">
+          <div className="flex items-center gap-2 text-sm">
+            <span className="text-slate-400 font-black tracking-wider w-10">TEL</span>
+            <a href={`tel:${member.tel}`} className="font-medium text-slate-800 hover:text-saemaul-green hover:underline transition-all">{member.tel}</a>
+          </div>
+          <div className="flex items-center gap-2 text-sm">
+            <span className="text-slate-400 font-black tracking-wider w-10">MAIL</span>
+            <a href={`mailto:${member.email}`} className="font-medium text-slate-800 hover:text-saemaul-green hover:underline transition-all">{member.email}</a>
+          </div>
+          <div className="ml-auto flex items-center gap-2">
+            <button className="px-5 py-2 bg-[#4b2e2e] text-white text-xs font-bold rounded hover:brightness-110 transition-all flex items-center gap-2 shadow-sm">
+              <Download size={14} /> vCard 다운로드
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Content Layout: 2-Column */}
+      <div className="container mx-auto px-6 md:px-12 py-16">
+        <div className="flex flex-col lg:flex-row gap-16">
+          
+          {/* Left Content (75%) */}
+          <div className="lg:w-3/4">
+            
+            {/* Intro Statement */}
+            <section id="intro" className="mb-16">
+              <h2 className="text-2xl font-black text-slate-900 mb-8 pb-4 border-b-2 border-slate-900 tracking-tight">프로필 소개</h2>
+              <p className="text-lg leading-relaxed text-slate-700 font-medium">
+                {member.name} {member.role}은 영남대학교 {member.dept}의 우수 인재로서, 다양한 글로벌 개발협력 및 사회혁신 프로젝트를 통해 지속 가능한 발전 목표(SDGs) 실현에 앞장서고 있습니다.
+              </p>
+            </section>
+
+            {/* Activities Timeline Section */}
+            {member.activities.length > 0 && (
+              <section id="activities" className="mb-16">
+                <h2 className="text-2xl font-black text-slate-900 mb-8 pb-4 border-b-2 border-slate-900 tracking-tight">경력 및 주요 활동</h2>
+                <div className="space-y-0 border-t border-slate-100">
+                  {member.activities.map((item, idx) => (
+                    <div key={idx} className="flex flex-col sm:flex-row sm:items-start border-b border-slate-100 py-6 group hover:bg-slate-50 px-4 transition-colors duration-200">
+                      <div className="sm:w-1/4 text-sm font-bold text-slate-500 tracking-tight mb-2 sm:mb-0 group-hover:text-saemaul-green transition-colors">
+                        {item.period}
+                      </div>
+                      <div className="sm:w-3/4 text-[15px] leading-relaxed text-slate-800 font-medium group-hover:font-semibold transition-all">
+                        {item.desc}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Education Placeholder Section */}
+            <section id="education" className="mb-16">
+              <h2 className="text-2xl font-black text-slate-900 mb-8 pb-4 border-b-2 border-slate-900 tracking-tight">학력 사항</h2>
+              <div className="flex border-b border-slate-100 py-6 px-4">
+                <div className="w-1/4 text-sm font-bold text-slate-500">재학 중</div>
+                <div className="w-3/4 text-[15px] font-medium text-slate-800">
+                  영남대학교 {member.dept} ({member.year})
+                </div>
+              </div>
+            </section>
+          </div>
+
+          {/* Right Floating Index (25%) */}
+          <div className="lg:w-1/4 hidden lg:block">
+            <div className="sticky top-48">
+              <h4 className="text-sm font-black text-slate-900 mb-6 border-b pb-2">TABLE OF CONTENTS</h4>
+              <nav className="relative border-l-2 border-slate-200 ml-2">
+                <div className="space-y-6">
+                  <a href="#intro" className="flex items-center group -ml-[9px]">
+                    <div className="w-4 h-4 rounded-full bg-white border-2 border-slate-300 group-hover:border-saemaul-green transition-colors z-10"></div>
+                    <span className="ml-4 text-sm font-bold text-slate-500 group-hover:text-slate-900 transition-colors">프로필 소개</span>
+                  </a>
+                  {member.activities.length > 0 && (
+                    <a href="#activities" className="flex items-center group -ml-[9px]">
+                      <div className="w-4 h-4 rounded-full bg-white border-2 border-slate-300 group-hover:border-saemaul-green transition-colors z-10"></div>
+                      <span className="ml-4 text-sm font-bold text-slate-500 group-hover:text-slate-900 transition-colors">경력 및 주요 활동</span>
+                    </a>
+                  )}
+                  <a href="#education" className="flex items-center group -ml-[9px]">
+                    <div className="w-4 h-4 rounded-full bg-white border-2 border-slate-300 group-hover:border-saemaul-green transition-colors z-10"></div>
+                    <span className="ml-4 text-sm font-bold text-slate-500 group-hover:text-slate-900 transition-colors">학력 사항</span>
+                  </a>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const ContactPage = () => {
   const { t } = useTranslation();
-  const team = [
-    { 
-      name: '권도경', 
-      role: '팀장', 
-      dept: '국제개발새마을학과', 
-      year: '3학년', 
-      id: '22321562', 
-      tel: '010-3365-0480', 
-      email: 'rnjsehrud08@naver.com',
-      activities: [
-        '포스코비욘드 18기 인도네시아 프로젝트 (25~26)',
-        '굿네이버스 한빛 7-8기 우수활동팀 (24~25)',
-        '대구국제개발협력센터 베트남 해외활동 (25)',
-        '대꾸오다 4기 ODA 홍보 콘텐츠 기획 (25)',
-        'YU&EYE 학생 모니터링단 장려상 (25)',
-        '산격복지관 온마을어울림축제 대학생 기획단 (24)',
-        '대구세계마스터즈육상 홍보단 & 사회리더 멘티 (25)'
-      ]
-    },
-    { name: '윤서윤', role: '팀원', dept: '국제개발새마을학과', year: '2학년', id: '22521411', tel: '010-5723-3567', email: 'ysy79999@naver.com' },
-    { 
-      name: '박문식', 
-      role: '팀원', 
-      dept: '새마을국제개발학과', 
-      year: '박사1기', 
-      id: '22650117', 
-      tel: '010-4286-3104', 
-      email: 'plbm521@ynu.ac.kr',
-      activities: [
-        '경북테크노파크 글로벌협력실 전임연구원 (23.7~)',
-        '영국 사회적기업(Social Enterprise) 현지조사 (19)',
-        'LG전자 CSR Field Study (미얀마, 18)',
-        '현대차 해피무브 글로벌 봉사단 18기 (라오스, 18)',
-        '인도네시아 국제개발협력 인턴십 (17)',
-        '베트남국립농업대학 해외새마을 견학 (17)',
-        '경북 대학생 새마을 해외봉사단 (키르기즈스탄, 17)',
-        '필리핀 해외 대학 교류 활동 (16, 18)'
-      ]
-    }
-  ];
+  const members = Object.values(TEAM_DATA);
 
   return (
     <div className="min-h-screen bg-slate-50 pt-32 pb-20">
@@ -204,23 +353,26 @@ const ContactPage = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-black text-slate-900 mb-4">Contact Us</h1>
           <p className="text-slate-500 text-lg">Global Saemaul-SDGs 플랫폼 제작팀을 소개합니다.</p>
-          
-          <div className="mt-8 inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white shadow-sm border border-slate-200 text-slate-400 font-bold text-sm">
-            <ExternalLink size={16} />
-            <span>제작자 PR 사이트 오픈 예정 (준비 중)</span>
-          </div>
+          <p className="text-sm text-slate-400 mt-2 font-medium">카드를 클릭하여 상세 프로필과 전문 이력을 확인하실 수 있습니다.</p>
         </div>
 
         <div className="grid gap-8 lg:grid-cols-3">
-          {team.map((m, i) => (
-            <div key={i} className={`bg-white p-8 rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 relative overflow-hidden group hover:-translate-y-1 transition-all duration-300 flex flex-col ${m.activities ? 'lg:col-span-1' : ''}`}>
-              <div className={`absolute top-0 left-0 w-full h-2 ${m.role === '팀장' ? 'bg-saemaul-green' : 'bg-slate-200'}`} />
-              
+          {members.map((m) => (
+            <Link 
+              key={m.id} 
+              to={`/profile/${m.id}`}
+              className="bg-white p-8 rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 relative overflow-hidden group hover:-translate-y-2 transition-all duration-500 flex flex-col active:scale-95 cursor-pointer"
+            >
+              <div className={`absolute top-0 left-0 w-full h-2 ${m.role.includes('팀장') ? 'bg-saemaul-green' : 'bg-slate-200'} transition-colors group-hover:bg-saemaul-green`} />
+              <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-all transform group-hover:translate-x-2">
+                <ArrowRightCircle className="text-saemaul-green" size={24} />
+              </div>
+
               <div className="mb-6 pt-2 flex justify-between items-start">
                 <div>
-                  <h3 className="text-xl font-black text-slate-900 flex items-center gap-2">
+                  <h3 className="text-2xl font-black text-slate-900 flex items-center gap-2 transition-colors group-hover:text-saemaul-green">
                     {m.name}
-                    {m.role === '팀장' && <span className="text-xs font-bold px-2 py-0.5 rounded bg-saemaul-light text-saemaul-green">팀장</span>}
+                    {m.role.includes('팀장') && <span className="text-xs font-bold px-2 py-0.5 rounded bg-saemaul-light text-saemaul-green">팀장</span>}
                   </h3>
                   <p className="text-slate-400 text-xs font-medium mt-1">{m.dept}</p>
                 </div>
@@ -229,32 +381,33 @@ const ContactPage = () => {
               <div className="space-y-3 text-sm text-slate-600 font-medium mb-8">
                 <div className="flex items-center gap-3">
                   <span className="text-slate-400 w-12 shrink-0 text-xs uppercase">학년/번</span>
-                  <span>{m.year} / {m.id}</span>
+                  <span>{m.year} / {m.studentId}</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-slate-400 w-12 shrink-0 text-xs uppercase">전화</span>
-                  <a href={`tel:${m.tel}`} className="hover:text-saemaul-green transition-colors">{m.tel}</a>
+                  <span>{m.tel}</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-slate-400 w-12 shrink-0 text-xs uppercase">이메일</span>
-                  <a href={`mailto:${m.email}`} className="text-xs hover:text-saemaul-green transition-colors break-all">{m.email}</a>
+                  <span className="text-xs truncate">{m.email}</span>
                 </div>
               </div>
 
-              {m.activities && (
+              {m.activities.length > 0 && (
                 <div className="mt-auto pt-6 border-t border-slate-100">
-                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider mb-4">주요 활동 내역</h4>
+                  <h4 className="text-xs font-black text-slate-400 uppercase tracking-wider mb-4">대표 활동</h4>
                   <ul className="space-y-2.5">
-                    {m.activities.map((act, idx) => (
-                      <li key={idx} className="flex items-start gap-2 text-xs font-medium text-slate-600 leading-relaxed">
+                    {m.activities.slice(0, 3).map((act, idx) => (
+                      <li key={idx} className="flex items-start gap-2 text-xs font-medium text-slate-600 truncate">
                         <div className="w-1 h-1 rounded-full bg-saemaul-green mt-1.5 shrink-0" />
-                        {act}
+                        {act.desc}
                       </li>
                     ))}
+                    {m.activities.length > 3 && <li className="text-[10px] text-saemaul-green font-bold mt-1">+ {m.activities.length - 3}개 더보기</li>}
                   </ul>
                 </div>
               )}
-            </div>
+            </Link>
           ))}
         </div>
       </div>
@@ -569,6 +722,7 @@ function App() {
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/profile/:id" element={<ProfilePage />} />
         </Routes>
       </main>
 
