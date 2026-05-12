@@ -3,6 +3,44 @@ import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeft, BookOpen, Loader2 } from 'lucide-react';
+import mermaid from 'mermaid';
+
+mermaid.initialize({
+  startOnLoad: false,
+  theme: 'base',
+  themeVariables: {
+    primaryColor: '#f0fdf4',
+    primaryTextColor: '#166534',
+    primaryBorderColor: '#4ade80',
+    lineColor: '#22c55e',
+    secondaryColor: '#ecfdf5',
+    tertiaryColor: '#ffffff',
+    edgeLabelBackground: '#ffffff',
+    clusterBkg: '#f8fafc'
+  }
+});
+
+const MermaidRenderer = ({ chart }) => {
+  const chartRef = React.useRef(null);
+
+  React.useEffect(() => {
+    if (chartRef.current) {
+      // Generate unique ID for render
+      const uniqueId = `mermaid-svg-${Math.random().toString(36).substr(2, 9)}`;
+      mermaid.render(uniqueId, chart).then(({ svg }) => {
+        if (chartRef.current) chartRef.current.innerHTML = svg;
+      }).catch(err => {
+        console.error('Failed to render mermaid', err);
+      });
+    }
+  }, [chart]);
+
+  return (
+    <div className="flex justify-center my-10 p-6 bg-slate-50 border border-slate-100 rounded-2xl overflow-x-auto shadow-inner group">
+      <div ref={chartRef} className="max-w-full transition-transform duration-300 group-hover:scale-[1.02]" />
+    </div>
+  );
+};
 
 const FILE_LABELS = {
   '00_서론_발간사및성과_현대어.md': '서론 — 발간사 및 7년의 성과',
@@ -42,13 +80,13 @@ const DocViewer = () => {
           <span className="text-slate-300">|</span>
           <div className="flex items-center gap-2 text-slate-400 text-sm">
             <BookOpen size={16} />
-            <span className="font-medium">영광의 발자취 제1집</span>
+            <span className="font-medium">영광의 발자취</span>
           </div>
         </div>
 
         <div className="bg-amber-50 border border-amber-200 rounded-2xl px-6 py-4 mb-8 flex items-center justify-between flex-wrap gap-3">
           <div>
-            <p className="text-amber-800 font-black text-sm">📚 영광의 발자취 — 마을 단위 새마을운동 추진사 제1집</p>
+            <p className="text-amber-800 font-black text-sm">📚 영광의 발자취 — 마을 단위 새마을운동 추진사</p>
             <p className="text-amber-600 text-xs mt-1">{label}</p>
           </div>
           <span className="px-3 py-1 bg-amber-200 text-amber-800 rounded-full text-xs font-bold">현대어 번역본</span>
@@ -79,7 +117,32 @@ const DocViewer = () => {
               prose-table:text-sm prose-th:bg-slate-50 prose-th:font-bold
               prose-code:bg-slate-100 prose-code:px-1.5 prose-code:rounded prose-code:text-sm
               prose-hr:border-slate-100">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+              <ReactMarkdown 
+                remarkPlugins={[remarkGfm]}
+                components={{
+                  code(props) {
+                    const {children, className, node, ...rest} = props
+                    const match = /language-(\w+)/.exec(className || '')
+                    return match && match[1] === 'mermaid' ? (
+                      <MermaidRenderer chart={String(children).replace(/\n$/, '')} />
+                    ) : (
+                      <code {...rest} className={className}>
+                        {children}
+                      </code>
+                    )
+                  },
+                  table: ({children}) => (
+                    <div className="overflow-x-auto my-8 w-full border border-slate-200 rounded-2xl shadow-sm">
+                      <table className="min-w-full border-collapse divide-y divide-slate-200">{children}</table>
+                    </div>
+                  ),
+                  thead: ({children}) => <thead className="bg-slate-50 font-bold text-slate-800">{children}</thead>,
+                  th: ({children}) => <th className="px-6 py-4 border-b border-slate-200 text-left text-sm font-bold tracking-wide">{children}</th>,
+                  td: ({children}) => <td className="px-6 py-4 border-b border-slate-100 text-slate-700 text-sm bg-white transition-colors hover:bg-slate-50">{children}</td>
+                }}
+              >
+                {content}
+              </ReactMarkdown>
             </div>
           )}
         </div>

@@ -6,8 +6,9 @@ const resources = {
     translation: {
       nav: {
         home: "홈",
-        test: "리더십 테스트",
-        ranking: "리더보드",
+        test: "새마을 테스트",
+        chatbot: "챗봇",
+        community: "마을회관",
         hub: "지식 허브",
         join: "커뮤니티 가입"
       },
@@ -64,8 +65,9 @@ const resources = {
     translation: {
       nav: {
         home: "Home",
-        test: "Type Test",
-        ranking: "Ranking",
+        test: "Saemaul Test",
+        chatbot: "Chatbot",
+        community: "Village Hall",
         hub: "Knowledge Hub",
         join: "Join Community"
       },

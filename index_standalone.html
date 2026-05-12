@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Saemaul-SDGs [STANDALONE]</title>
+    <!-- Open Graph / KakaoTalk & Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Global Saemaul-SDGs Platform" />
+    <meta property="og:description" content="전통의 가치를 디지털로 완성하다 - 글로벌 새마을-SDGs 통합 플랫폼" />
+    <meta property="og:image" content="https://saemaul-sdgs.web.app/assets/og-image.png" />
+    <meta property="og:url" content="https://saemaul-sdgs.web.app" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Global Saemaul-SDGs Platform" />
+    <meta property="twitter:description" content="전통의 가치를 디지털로 완성하다 - 글로벌 새마을-SDGs 통합 플랫폼" />
+    <meta property="twitter:image" content="https://saemaul-sdgs.web.app/assets/og-image.png" />
+    <!-- Kakao SDK -->
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js" integrity="sha384-TiCmbV0Xrqxky-xK7B2Ape+B77T2t02T9XF4A0OowTofFz2Xf1qV0hMOhL8Hof5Q" crossorigin="anonymous"></script>
     <!-- Tailwind Play CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts -->
@@ -52,7 +66,7 @@
     <script>
         const translations = {
             ko: {
-                nav: ["홈", "리더십 테스트", "리더보드", "지식 허브", "커뮤니티 가입"],
+                nav: ["홈", "새마을 테스트", "챗봇", "마을회관", "지식 허브", "커뮤니티 가입"],
                 hero: {
                     badge: "글로벌 디지털 마을 혁신 이니셔티브",
                     title: "전통의 가치, <span class='text-saemaul-green'>디지털로 완성하다</span>",
@@ -69,7 +83,7 @@
                 ]
             },
             en: {
-                nav: ["Home", "Type Test", "Ranking", "Knowledge Hub", "Join Community"],
+                nav: ["Home", "Saemaul Test", "Chatbot", "Village Hall", "Knowledge Hub", "Join Community"],
                 hero: {
                     badge: "Global Village Initiative",
                     title: "Ancient Spirit, <span class='text-saemaul-green'>Modern Tools</span>",
@@ -104,14 +118,14 @@
                             <span class="text-xl font-black text-slate-800">Saemaul<span class="text-saemaul-green">-SDGs</span></span>
                         </div>
                         <div class="hidden md:flex items-center gap-8 text-sm font-bold text-slate-600">
-                            ${t.nav.slice(0, 4).map(n => `<a href="#" class="hover:text-saemaul-green transition-colors">${n}</a>`).join('')}
+                            ${t.nav.slice(0, 5).map(n => `<a href="#" class="hover:text-saemaul-green transition-colors">${n}</a>`).join('')}
                         </div>
                         <div class="flex items-center gap-4">
                             <button onclick="toggleLang()" class="flex items-center gap-2 px-3 py-1.5 rounded-lg border text-xs font-bold uppercase transition-colors hover:bg-slate-50">
                                 <i data-lucide="languages" size="14" class="text-saemaul-green"></i>
                                 ${currentLang === 'ko' ? 'English' : '한국어'}
                             </button>
-                            <button class="btn-primary py-2 px-5 text-sm font-bold">${t.nav[4]}</button>
+                            <button class="btn-primary py-2 px-5 text-sm font-bold">${t.nav[5]}</button>
                         </div>
                     </div>
                 </nav>

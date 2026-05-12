@@ -105,49 +105,55 @@ const PartnerBanner = () => {
   );
 };
 
-const ChatbotPage = () => (
-  <div className="min-h-screen bg-slate-50 pt-20">
-    <div className="container mx-auto px-6 py-8">
-      <div className="text-center mb-6">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 text-emerald-600 text-sm font-bold mb-4 border border-emerald-200">
-          <Bot size={16} />
-          AI 새마을 지식 챗봇
+const ChatbotPage = () => {
+  const { t } = useTranslation();
+  return (
+    <div className="min-h-screen bg-slate-50 pt-20">
+      <div className="container mx-auto px-6 py-8">
+        <div className="text-center mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-50 text-emerald-600 text-sm font-bold mb-4 border border-emerald-200">
+            <Bot size={16} />
+            {t('features.card3.title')}
+          </div>
+          <h1 className="text-3xl font-black text-slate-900 mb-2">{t('nav.chatbot')}</h1>
+          <p className="text-slate-500">{t('features.card3.desc')}</p>
         </div>
-        <h1 className="text-3xl font-black text-slate-900 mb-2">새마을 AI 챗봇</h1>
-        <p className="text-slate-500">지역 개발 전략부터 새마을 운동 역사까지 무엇이든 물어보세요.</p>
-      </div>
-      <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white" style={{ height: '80vh' }}>
-        <iframe 
-          src={`${import.meta.env.BASE_URL}chatbot.html`}
-          className="w-full h-full border-none"
-          title="새마을 챗봇"
-        />
+        <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white" style={{ height: '80vh' }}>
+          <iframe 
+            src={`${import.meta.env.BASE_URL}chatbot.html`}
+            className="w-full h-full border-none"
+            title="AI Chatbot"
+          />
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
-const CommunityPage = () => (
-  <div className="min-h-screen bg-slate-50 pt-20">
-    <div className="container mx-auto px-6 py-8">
-      <div className="text-center mb-6">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold mb-4 border border-amber-200">
-          <Home size={16} />
-          실시간 커뮤니티
+const CommunityPage = () => {
+  const { t } = useTranslation();
+  return (
+    <div className="min-h-screen bg-slate-50 pt-20">
+      <div className="container mx-auto px-6 py-8">
+        <div className="text-center mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold mb-4 border border-amber-200">
+            <Home size={16} />
+            {t('features.card2.title')}
+          </div>
+          <h1 className="text-3xl font-black text-slate-900 mb-2">{t('nav.community')}</h1>
+          <p className="text-slate-500">{t('features.card2.desc')}</p>
         </div>
-        <h1 className="text-3xl font-black text-slate-900 mb-2">새마을 마을회관</h1>
-        <p className="text-slate-500">전 세계 새마을 리더들과 실시간으로 소통하고 SDGs 프로젝트 현황을 공유하세요.</p>
-      </div>
-      <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white" style={{ height: '85vh' }}>
-        <iframe 
-          src={`${import.meta.env.BASE_URL}community.html`}
-          className="w-full h-full border-none"
-          title="새마을 마을회관 커뮤니티"
-        />
+        <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white" style={{ height: '85vh' }}>
+          <iframe 
+            src={`${import.meta.env.BASE_URL}community.html`}
+            className="w-full h-full border-none"
+            title="Community Hub"
+          />
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -234,9 +240,9 @@ function App() {
 
           <div className="hidden md:flex items-center gap-8">
             <NavItem label={t('nav.home')} to="/" />
-            <NavItem label="새마을 테스트" to="/saemaul-test" />
-            <NavItem label="챗봇" to="/chatbot" />
-            <NavItem label="마을회관" to="/community" />
+            <NavItem label={t('nav.test')} to="/saemaul-test" />
+            <NavItem label={t('nav.chatbot')} to="/chatbot" />
+            <NavItem label={t('nav.community')} to="/community" />
             <NavItem label={t('nav.hub')} to="/hub" />
           </div>
 

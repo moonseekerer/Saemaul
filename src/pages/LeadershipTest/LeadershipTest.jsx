@@ -305,7 +305,7 @@ const LeadershipTest = () => {
                 <div>
                   <p className="text-xs text-slate-500 mb-1">📖 이 유형의 대표 인물</p>
                   <p className={`font-black text-sm ${result.textColor}`}>{result.representativeFigure}</p>
-                  <p className="text-xs text-slate-500">{result.representativeContext} — 영광의 발자취 제1집</p>
+                  <p className="text-xs text-slate-500">{result.representativeContext} — 영광의 발자취</p>
                 </div>
               </div>
 
