@@ -57,7 +57,7 @@ const resources = {
         terms: "이용약관",
         contact: "문의하기",
         connect: "소셜 미디어",
-        rights: "모든 권리 보유"
+        rights: "All rights reserved"
       }
     }
   },

@@ -28,7 +28,16 @@ const MermaidRenderer = ({ chart }) => {
       // Generate unique ID for render
       const uniqueId = `mermaid-svg-${Math.random().toString(36).substr(2, 9)}`;
       mermaid.render(uniqueId, chart).then(({ svg }) => {
-        if (chartRef.current) chartRef.current.innerHTML = svg;
+        if (chartRef.current) {
+          chartRef.current.innerHTML = svg;
+          // Find the generated SVG element and force full width scaling
+          const svgEl = chartRef.current.querySelector('svg');
+          if (svgEl) {
+            svgEl.style.width = '100%';
+            svgEl.style.maxWidth = '800px'; // Prevent excessive pixelation
+            svgEl.style.height = 'auto';
+          }
+        }
       }).catch(err => {
         console.error('Failed to render mermaid', err);
       });
@@ -36,8 +45,8 @@ const MermaidRenderer = ({ chart }) => {
   }, [chart]);
 
   return (
-    <div className="flex justify-center my-10 p-6 bg-slate-50 border border-slate-100 rounded-2xl overflow-x-auto shadow-inner group">
-      <div ref={chartRef} className="max-w-full transition-transform duration-300 group-hover:scale-[1.02]" />
+    <div className="flex justify-center my-10 p-8 bg-white border border-slate-200 rounded-2xl shadow-md group">
+      <div ref={chartRef} className="w-full flex justify-center transition-all duration-300 group-hover:scale-[1.01]" />
     </div>
   );
 };
