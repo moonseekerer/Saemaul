@@ -501,8 +501,8 @@ function App() {
       window.Kakao.Share.sendDefault({
         objectType: 'feed',
         content: {
-          title: 'Global Saemaul-SDGs Platform',
-          description: '전통의 가치를 디지털로 완성하다 - 글로벌 새마을-SDGs 통합 플랫폼\n궁금하면 어서 구경오세요~',
+          title: 'Saemaul-SDGs Platform',
+          description: 'Towards a Safer and Happier World, Saemaul-SDGs Platform',
           imageUrl: 'https://saemaul-sdgs.web.app/assets/og-image.png',
           link: {
             mobileWebUrl: 'https://saemaul-sdgs.web.app',

@@ -192,6 +192,20 @@ const SpiritTest = () => {
     }
   };
 
+  const handleBackToLastQuestion = () => {
+    if (selectedAnswers.length > 0) {
+      const lastAns = selectedAnswers[selectedAnswers.length - 1];
+      const newScores = { ...scores, [lastAns.type]: scores[lastAns.type] - 1 };
+      const newAnswers = selectedAnswers.slice(0, -1);
+      
+      setScores(newScores);
+      setSelectedAnswers(newAnswers);
+      setResultType(null);
+      setSelectedIdx(null);
+      // step was already questions.length - 1 when result triggered, so we just clear the state
+    }
+  };
+
   const resetTest = () => {
     setStep(0);
     setScores({ DILIGENCE: 0, SELF_HELP: 0, COOPERATION: 0, SHARING: 0, SERVICE: 0, CREATION: 0 });
@@ -264,13 +278,21 @@ const SpiritTest = () => {
                 </div>
               </div>
 
-              {/* 버튼 */}
-              <button
-                onClick={resetTest}
-                className={`w-full mb-4 flex items-center justify-center gap-2 py-4 rounded-2xl font-black text-white bg-gradient-to-r ${result.color} hover:opacity-90 shadow-lg transition-all active:scale-[0.98]`}
-              >
-                <RefreshCw size={20} /> 테스트 다시 시작
-              </button>
+               {/* 버튼 그룹 */}
+              <div className="space-y-3 mb-4">
+                <button
+                  onClick={handleBackToLastQuestion}
+                  className={`w-full flex items-center justify-center gap-2 py-4 rounded-2xl font-bold border-2 ${result.borderColor} ${result.textColor} bg-white hover:${result.bgLight} transition-colors shadow-sm active:scale-[0.98]`}
+                >
+                  <ArrowLeft size={20} /> 마지막 답변 수정하기
+                </button>
+                <button
+                  onClick={resetTest}
+                  className={`w-full flex items-center justify-center gap-2 py-4 rounded-2xl font-black text-white bg-gradient-to-r ${result.color} hover:opacity-90 shadow-lg transition-all active:scale-[0.98]`}
+                >
+                  <RefreshCw size={20} /> 처음부터 다시 시작하기
+                </button>
+              </div>
 
               <div className="grid grid-cols-2 gap-3">
                 <button
@@ -366,9 +388,9 @@ const SpiritTest = () => {
                 {step > 0 && (
                   <button
                     onClick={handlePrevStep}
-                    className="flex items-center gap-1 text-slate-400 hover:text-saemaul-green border border-slate-200 px-2.5 py-1.5 rounded-xl bg-white text-xs font-bold shadow-sm transition-all"
+                    className="flex items-center gap-1.5 text-slate-700 hover:text-white hover:bg-slate-800 transition-all text-xs font-black border border-slate-200 shadow-sm active:scale-95 bg-white px-3 py-2 rounded-xl"
                   >
-                    <ChevronLeft size={14} /> 이전
+                    <ChevronLeft size={14} /> 이전 문항
                   </button>
                 )}
                 <span className="text-saemaul-green text-xs font-black tracking-widest uppercase">Question {step + 1}</span>

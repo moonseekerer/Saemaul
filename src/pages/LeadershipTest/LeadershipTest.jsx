@@ -181,6 +181,19 @@ const LeadershipTest = () => {
     }
   };
 
+  const handleBackToLastQuestion = () => {
+    if (selectedAnswers.length > 0) {
+      const lastAnswer = selectedAnswers[selectedAnswers.length - 1];
+      const newScores = { ...scores, [lastAnswer.type]: scores[lastAnswer.type] - 1 };
+      const newAnswers = selectedAnswers.slice(0, -1);
+      setStep(questions.length - 1);
+      setScores(newScores);
+      setSelectedAnswers(newAnswers);
+      setResultType(null);
+      setSelectedIdx(null);
+    }
+  };
+
   const resetTest = () => {
     setStep(0);
     setScores({ LEADER: 0, VILLAGER: 0, OFFICIAL: 0, EXPERT: 0 });
@@ -323,13 +336,21 @@ const LeadershipTest = () => {
                 </div>
               </div>
 
-              {/* 다시 테스트하기 */}
-              <button
-                onClick={resetTest}
-                className={`w-full mb-4 flex items-center justify-center gap-2 py-4 rounded-2xl font-bold text-white ${result.color} hover:opacity-90 transition-opacity shadow-lg`}
-              >
-                <RefreshCw size={20} /> 다시 테스트하기
-              </button>
+              {/* 마지막 문항 수정 / 다시 테스트하기 */}
+              <div className="space-y-3 mb-4">
+                <button
+                  onClick={handleBackToLastQuestion}
+                  className={`w-full flex items-center justify-center gap-2 py-4 rounded-2xl font-bold border-2 ${result.borderColor} ${result.textColor} bg-white hover:${result.lightColor} transition-colors shadow-sm active:scale-[0.99]`}
+                >
+                  <ArrowLeft size={20} /> 마지막 답변 수정하기
+                </button>
+                <button
+                  onClick={resetTest}
+                  className={`w-full flex items-center justify-center gap-2 py-4 rounded-2xl font-black text-white ${result.color} hover:opacity-90 transition-opacity shadow-lg active:scale-[0.99]`}
+                >
+                  <RefreshCw size={20} /> 처음부터 다시 테스트하기
+                </button>
+              </div>
 
               {/* 공유 버튼 */}
               <div className="grid grid-cols-2 gap-4 mb-10">
@@ -483,7 +504,7 @@ const LeadershipTest = () => {
                 {step > 0 && (
                   <button
                     onClick={handlePrevStep}
-                    className="flex items-center gap-1 text-slate-400 hover:text-saemaul-green hover:border-saemaul-green transition-all text-xs font-bold border border-slate-200 hover:border-slate-300 px-2 py-1.5 rounded-xl bg-white shadow-sm active:scale-95"
+                    className="flex items-center gap-1.5 text-slate-700 hover:text-white hover:bg-slate-800 transition-all text-xs font-black border border-slate-200 shadow-sm active:scale-95 bg-white px-3 py-2 rounded-xl"
                   >
                     <ChevronLeft size={14} /> 이전 문항
                   </button>

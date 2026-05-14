@@ -31,7 +31,7 @@ const resources = {
       },
       features: {
         title: "핵심 서비스 둘러보기",
-        subtitle: "역사적 발자취에서 지혜를 얻고, 스마트한 기술로 공동체의 미래를 연결합니다.",
+        subtitle: "유네스코 세계기록유산에 등재된 1970년대 새마을운동을 기반으로, 스마트한 기술을 활용하여 공동체의 미래로 연결합니다.",
         learn_more: "자세히 보기",
         card1: {
           title: "나의 새마을 성향 진단",
@@ -90,7 +90,7 @@ const resources = {
       },
       features: {
         title: "Explore Our Core Features",
-        subtitle: "Gaining wisdom from footprints of glory, connecting the community future via smart technology.",
+        subtitle: "Based on the 1970s Saemaul Movement inscribed in the UNESCO Memory of the World, we connect to the community's future using smart technology.",
         learn_more: "Learn More",
         card1: {
           title: "Saemaul Archetype Diagnosis",
