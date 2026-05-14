@@ -13,10 +13,10 @@ const resources = {
         join: "커뮤니티 가입"
       },
       hero: {
-        badge: "글로벌 디지털 마을 혁신 이니셔티브",
-        title1: "전통의 가치,",
-        title2: "디지털로 완성하다",
-        subtitle: "새마을 정신의 정수를 이어받아 지속가능발전목표(SDGs)를 실현합니다. 디지털 기술로 변화하는 글로벌 마을 공동체의 여정에 함께하세요.",
+        badge: "1970년대 역사 실화부터 인터랙티브 테스트까지",
+        title1: "더 안전하고 행복한 세상을 향하여,",
+        title2: "디지털로 꽃피우다",
+        subtitle: "역사 아카이브 속 '진짜' 성공 실화들을 탐색하고, 나만의 새마을 리더십과 6대 정신 유형을 분석해 보세요. 똑똑한 AI 마스코트 새댕이, 그리고 디지털 마을회관 이웃들과 함께 더 나은 공동체의 내일을 만들어갑니다.",
         cta_start: "플랫폼 시작하기",
         cta_demo: "체험 영상 보기"
       },
@@ -31,23 +31,23 @@ const resources = {
       },
       features: {
         title: "핵심 서비스 둘러보기",
-        subtitle: "전통적 지혜와 디지털 기술의 융합을 통해 글로벌 번영을 이끕니다.",
+        subtitle: "역사적 발자취에서 지혜를 얻고, 스마트한 기술로 공동체의 미래를 연결합니다.",
         learn_more: "자세히 보기",
         card1: {
-          title: "새마을 리더십 유형 테스트",
-          desc: "데이터 기반의 문항을 통해 당신의 잠재된 리더십 스타일을 분석해 드립니다."
+          title: "나의 새마을 성향 진단",
+          desc: "\"내가 만약 70년대 마을 리더였다면?\" 역사 속 딜레마 시나리오를 풀며 나의 리더십 유형과 6대 가치관을 분석해보세요."
         },
         card2: {
-          title: "새마을 마을회관",
-          desc: "새마을 구성원들이 함께 소통하고 활동을 공유하는 디지털 커뮤니티 공간입니다."
+          title: "디지털 소통 '마을회관'",
+          desc: "전 세계 친구들과 소중한 지혜와 활동을 나누고 소통하며, 끈끈하고 따뜻한 온라인 마을 공동체를 만들어갑니다."
         },
         card3: {
-          title: "AI 새마을 챗봇",
-          desc: "지역 개발 전략부터 운영 노하우까지, 지능형 챗봇이 즉각적인 해답을 드립니다."
+          title: "AI 어드바이저 '새댕이'",
+          desc: "방대한 실제 수기 기록을 학습한 귀여운 AI 마스코트 '새댕이'가 역사적 사실부터 미래 스마트 전략까지 명쾌하게 답변해 드립니다."
         },
         card4: {
-          title: "새마을 디지털 아카이브",
-          desc: "OCR 기술로 복원된 방대한 역사적 기록과 성공 사례를 자유롭게 탐색하세요."
+          title: "새마을 지식 허브",
+          desc: "OCR과 AI 기술로 정밀하게 풀어낸 방대한 실화 현대어 번역본을 자유롭게 탐색하고 그날의 가치를 생생히 마주해보세요."
         }
       },
       footer: {
@@ -72,11 +72,11 @@ const resources = {
         join: "Join Community"
       },
       hero: {
-        badge: "Global Village Initiative",
-        title1: "Ancient Spirit,",
-        title2: "Modern Tools",
-        subtitle: "Empowering SDGs 4 & 17 through Saemaul Principles. Join a global movement of digital transformation and local development.",
-        cta_start: "Start Your Journey",
+        badge: "From 1970s historical facts to interactive tests",
+        title1: "Towards a Safer and Happier World,",
+        title2: "Blooming in digital era",
+        subtitle: "Explore real success stories in historical archives and analyze your Saemaul leadership archetype and 6 core values. Join AI mascot Saedaeng-i and neighbors in the digital village hall to build a brighter community.",
+        cta_start: "Start Platform",
         cta_demo: "Watch Demo"
       },
       live: {
@@ -89,24 +89,24 @@ const resources = {
         engaging: "Engaging Now"
       },
       features: {
-        title: "Explore Our Platform",
-        subtitle: "Transforming traditional wisdom into digital solutions for global prosperity.",
+        title: "Explore Our Core Features",
+        subtitle: "Gaining wisdom from footprints of glory, connecting the community future via smart technology.",
         learn_more: "Learn More",
         card1: {
-          title: "Saemaul Archetype Test",
-          desc: "Identify your leadership style based on Saemaul principles."
+          title: "Saemaul Archetype Diagnosis",
+          desc: "\"What if I were a 70s village leader?\" Solve real historical dilemma scenarios to analyze your leadership style and 6 core values."
         },
         card2: {
-          title: "Saemaul Community Hub",
-          desc: "A digital community space where Saemaul members connect and share activities."
+          title: "Digital Space 'Village Hall'",
+          desc: "Share valuable wisdom and activities with global friends, fostering a warmer, tighter online village community bond."
         },
         card3: {
-          title: "AI Saemaul Chatbot",
-          desc: "Real-time expert guidance on local development strategies."
+          title: "AI Advisor 'Saedaeng-i'",
+          desc: "Trained on real handwritten record books, our cute AI mascot answers everything from historical facts to future smart strategies."
         },
         card4: {
-          title: "OCR Knowledge Archive",
-          desc: "Access digitized historical records with advanced OCR search."
+          title: "Saemaul Knowledge Hub",
+          desc: "Explore modern translations of massive real-life stories, precisely restored and decoded via OCR and AI."
         }
       },
       footer: {

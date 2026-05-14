@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 // Link used via navigate for doc routing
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, CheckCircle, MessageCircle, BookOpen, Users, Flag, Building, Lightbulb, ChevronRight, RefreshCw, Link as LinkIcon, Scroll, BarChart2, ChevronDown } from 'lucide-react';
+import { ArrowLeft, CheckCircle, MessageCircle, BookOpen, Users, Flag, Building, Lightbulb, ChevronRight, RefreshCw, Link as LinkIcon, Scroll, BarChart2, ChevronDown, ChevronLeft } from 'lucide-react';
 import { questions, resultsData } from './_data.js';
 
 const TYPE_META = {
@@ -167,6 +167,20 @@ const LeadershipTest = () => {
     }, 500);
   };
 
+  const handlePrevStep = () => {
+    if (step > 0 && selectedIdx === null) {
+      const prevStep = step - 1;
+      const lastAnswer = selectedAnswers[selectedAnswers.length - 1];
+      if (lastAnswer) {
+        const newScores = { ...scores, [lastAnswer.type]: scores[lastAnswer.type] - 1 };
+        const newAnswers = selectedAnswers.slice(0, -1);
+        setStep(prevStep);
+        setScores(newScores);
+        setSelectedAnswers(newAnswers);
+      }
+    }
+  };
+
   const resetTest = () => {
     setStep(0);
     setScores({ LEADER: 0, VILLAGER: 0, OFFICIAL: 0, EXPERT: 0 });
@@ -282,7 +296,7 @@ const LeadershipTest = () => {
                             <p className="text-slate-700 text-sm leading-relaxed">"{note.quote}"</p>
                             {note.sourceFile && (
                               <button
-                                onClick={() => navigate(`/docs/${note.sourceFile}`)}
+                                onClick={() => navigate(`/archive/${note.sourceFile}`)}
                                 className={`mt-3 flex items-center gap-1.5 text-xs font-bold ${result.textColor} hover:underline`}
                               >
                                 <BookOpen size={13} /> 원문 전체 읽기 →
@@ -464,8 +478,18 @@ const LeadershipTest = () => {
 
           {/* 진행 바 */}
           <div className="mb-8">
-            <div className="flex justify-between items-end mb-3">
-              <span className="text-saemaul-green font-black tracking-wider uppercase text-sm">Question {step + 1}</span>
+            <div className="flex justify-between items-center mb-3">
+              <div className="flex items-center gap-3">
+                {step > 0 && (
+                  <button
+                    onClick={handlePrevStep}
+                    className="flex items-center gap-1 text-slate-400 hover:text-saemaul-green hover:border-saemaul-green transition-all text-xs font-bold border border-slate-200 hover:border-slate-300 px-2 py-1.5 rounded-xl bg-white shadow-sm active:scale-95"
+                  >
+                    <ChevronLeft size={14} /> 이전 문항
+                  </button>
+                )}
+                <span className="text-saemaul-green font-black tracking-wider uppercase text-sm">Question {step + 1}</span>
+              </div>
               <span className="text-slate-400 font-bold text-xs">{step + 1} / {questions.length}</span>
             </div>
             <div className="w-full bg-slate-100 h-2 rounded-full overflow-hidden">

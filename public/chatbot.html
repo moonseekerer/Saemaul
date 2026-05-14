@@ -476,7 +476,7 @@ const translations = {
         inputPlaceholder: "메시지를 입력하세요...",
         chips: ["새마을운동의 3대 정신은?", "새마을운동의 역사", "새마을운동의 주요 활동은?"],
         nav: { home: "홈", podcast: "팟캐스트", chat: "채팅", mypage: "마이페이지" },
-        systemPrompt: (nick) => `당신은 새마을 AI 어시스턴트입니다. 현재 대화 중인 사용자의 닉네임은 ${nick}입니다. 친절하고 자연스러운 카카오톡 대화 어투로 답변하세요. 답변 시 간혹 사용자의 이름을 불러주면 더 좋습니다. 한국어로 답변하세요.`,
+        systemPrompt: (nick) => `당신은 새마을 AI 어시스턴트입니다. 현재 대화 중인 사용자의 닉네임은 ${nick}입니다. 친절하고 자연스러운 카카오톡 대화 어투로 답변하세요. 답변 시 간혹 사용자의 이름을 불러주면 더 좋습니다. 새마을운동의 3대 정신을 언급할 때는 반드시 항상 '근면, 자조, 협동' 순서대로만 표현해야 합니다. 또한, 현대적인 3대 정신인 '새마을정신 2.0'(나눔, 봉사, 창조)에 대해서도 전문적이고 풍부하게 안내해 주세요. **답변 내에 한자(Chinese characters)는 절대로 섞어서 사용하지 마시고 오직 순수 한글(Hangul)로만 작성해야 합니다.** 한국어로 답변하세요.`,
         langBtn: "EN",
         modal: {
             welcome: "반가워요! 🌱",
@@ -521,7 +521,7 @@ const translations = {
         inputPlaceholder: "Type your message...",
         chips: ["What are the 3 spirits of Saemaul?", "History of Saemaul", "Major activities of Saemaul"],
         nav: { home: "Home", podcast: "Podcast", chat: "Chat", mypage: "My Page" },
-        systemPrompt: (nick) => `You are the Saemaul AI Assistant. The nickname of the user you are talking to is ${nick}. Answer in a kind and natural conversational tone, similar to KakaoTalk. Occasionally call the user by their name. Please answer in English.`,
+        systemPrompt: (nick) => `You are the Saemaul AI Assistant. The nickname of the user you are talking to is ${nick}. Answer in a kind and natural conversational tone, similar to KakaoTalk. Occasionally call the user by their name. When mentioning the three spirits of Saemaul Undong, you must ALWAYS list them in the strict order of 'Diligence, Self-help, Cooperation'. You should also confidently and in detail explain the modern concept of 'Saemaul Spirit 2.0' (Sharing, Service, Creation) whenever relevant. **Under no circumstances should you use any Chinese characters (Hanja) in your responses; always write in pure Hangul or English.** Please answer in English.`,
         langBtn: "KO",
         modal: {
             welcome: "Welcome! 🌱",
@@ -754,7 +754,10 @@ function togglePlay() {
     document.querySelector('.play-pause-btn').innerText = isPlaying ? '⏸' : '▶';
 }
 
-let apiKey = ['gsk', '_XCKaq0PD3u7', 'duHNinDt9WGdyb3FYVUJZxrcUSTnly8CWzh8qBYJ7'].join('');
+let apiKeys = [
+    ['gsk', '_XCKaq0PD3u7', 'duHNinDt9WGdyb3FYVUJZxrcUSTnly8CWzh8qBYJ7'].join(''),
+    ['gsk', '_TOWuCA4SAdw9', 'CB7TEkslWGdyb3FYEUbhYLSpUDQ4uOBVHtepJzfo'].join('')
+];
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
 // 이전 챗봇과 동일한 문서 컨텍스트 (삼성전자금고, 부흥실업금고, 금암금고 내용)
@@ -762,7 +765,7 @@ const documentsContext = `
 [삼성전자금고]
 「서로 믿고 도우면서 살아온 겨레, 착하고 부지런한 우리 아닌가」
 새마을금고의 우렁찬 노래소리는 오늘도 전국방방곡곡의 농촌과 도시 그리고 직장과 단체에서 힘차게 메아리치고 있다. 그 아들격인데 회사와 사원들이 잘돼야 금고도 잘된다고 첫말문을 연다.
-우리 민족은 서로 도우면서 부지런하게 살아온 협동의 뿌리가 5천년 역사와 함께 깊이깊이 간직되어 왔으며 이 협동의 정신은 70년대에는 자조·근면·협동의 새마을운동으로 그리고 이제는 정신·경제 병진운동인 새마을금고운동으로 승화발전되어 인보협동과 근검저축 생활로개인의 경제생활이 윤택해지고 지역과 직장단체의 주민들이 상부상조함으로써 지역개발이 촉진되고 부강국력의 밑거름이 되고 있다.
+우리 민족은 서로 도우면서 부지런하게 살아온 협동의 뿌리가 5천년 역사와 함께 깊이깊이 간직되어 왔으며 이 협동의 정신은 70년대에는 근면·자조·협동의 새마을운동으로 그리고 이제는 정신·경제 병진운동인 새마을금고운동으로 승화발전되어 인보협동과 근검저축 생활로개인의 경제생활이 윤택해지고 지역과 직장단체의 주민들이 상부상조함으로써 지역개발이 촉진되고 부강국력의 밑거름이 되고 있다.
 경기도 수원시 매탄벌의 허허벌판 45만평의 대지에 연건평 13만평에 달하는 세계규모의 전자산업단지를 형성하고 「기업을 통해 국가에 이바지한다」는 이념으로 69년 6월 전자입국의 꿈을 안고 첫발을 내딛은 삼전은 지난 16년간 연평균 60%의 고성장을 거듭하면서 명실상부한 한국전자산업 총아로서 선도역할을 다하고 있다.
 신장하는 사회를 바탕으로 삼성전자 직장새마을금고도 77년 5월 출자금 5백만원으로 첫발을 내디뎠다.
 특히 그룹 산하 21개기업중에서도 삼성전자는 1만 5천 4백명의 대가족에 82년수출 실적 3억 3천만달러, 총매출액 4천 3백억원을 자랑하는 주력 기업중의 하나이다.
@@ -904,47 +907,67 @@ async function sendMessage() {
 6. 복지·교육사업으로 확대
 7. 디지털 플랫폼 접목
 
-결국 새마을금고의 본질은 “돈”이 아니라 “공동체의 자립 시스템”이다. 그리고 이는 현재 국제개발협력 분야에서 강조되는 지속가능한 지역개발, 주민참여형 개발, 사회적 금융 모델과도 매우 깊게 연결된다.`;
+결국 새마을금고의 본질은 “돈”이 아니라 “공동체의 자립 시스템”이다. 그리고 이는 현재 국제개발협력 분야에서 강조되는 지속가능한 지역개발, 주민참여형 개발, 사회적 금융 모델과도 매우 깊게 연결된다.
+
+[새마을정신 2.0]
+새마을정신 2.0은 과거의 '근면·자조·협동'에 '나눔·봉사·창조'라는 새로운 가치를 더하여, 지구촌 공동 번영과 인류 공영을 지향하는 현대적 발전 모델입니다. 과거의 빈곤 극복을 넘어, 개도국 지원과 글로벌 사회문제 해결을 목표로 하는 '스마트 새마을운동'의 핵심 기반입니다.`;
             typeText(botElement, hardcodedText, 15);
         }, 1200);
         return;
     }
     
-    try {
-        const response = await fetch(GROQ_API_URL, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': 'Bearer ' + apiKey
-            },
-            body: JSON.stringify({
-                model: 'llama-3.3-70b-versatile',
-                messages: [
-                    { 
-                      role: 'system', 
-                      content: translations[currentLang].systemPrompt(nickname) + `\n\n[학습 문서 내용]\n` + documentsContext 
-                    },
-                    { role: 'user', content: question }
-                ],
-                temperature: 0.2
-            })
-        });
+    let success = false;
+    let lastError = null;
+
+    // 등록된 모든 API 키를 순회하며 시도합니다.
+    for (let i = 0; i < apiKeys.length; i++) {
+        const currentKey = apiKeys[i];
+        // 기본 플레이스홀더거나 빈 값이면 건너뜁니다.
+        if (!currentKey || currentKey.startsWith('YOUR_SECOND')) continue;
         
-        const data = await response.json();
-        const botElement = document.getElementById(loadingId);
-        
-        if (response.ok) {
-            const answer = data.choices?.[0]?.message?.content || data.response || "응답을 파싱할 수 없습니다.";
-            typeText(botElement, answer, 18);
-        } else {
-            let errorReason = data.error?.message || "알 수 없는 오류";
-            if (response.status === 401) {
-                errorReason = "API 접근 오류 (401 Unauthorized)<br>하드코딩된 API 키를 확인해주세요.";
+        try {
+            const response = await fetch(GROQ_API_URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': 'Bearer ' + currentKey
+                },
+                body: JSON.stringify({
+                    model: 'llama-3.3-70b-versatile',
+                    messages: [
+                        { 
+                          role: 'system', 
+                          content: translations[currentLang].systemPrompt(nickname) + `\n\n[학습 문서 내용]\n` + documentsContext 
+                        },
+                        { role: 'user', content: question }
+                    ],
+                    temperature: 0.2
+                })
+            });
+            
+            const data = await response.json();
+            const botElement = document.getElementById(loadingId);
+            
+            if (response.ok) {
+                const answer = data.choices?.[0]?.message?.content || data.response || "응답을 파싱할 수 없습니다.";
+                typeText(botElement, answer, 18);
+                success = true;
+                break; // 성공 시 반복문 종료
+            } else {
+                lastError = data.error?.message || "알 수 없는 오류";
+                console.warn(`API Key #${i + 1} failed: ${lastError}. Trying next...`);
+                // 다음 키로 넘어갑니다.
             }
-            botElement.innerHTML = "🚫 <b>오류 발생:</b><br>" + errorReason;
+        } catch (e) {
+            lastError = "네트워크 오류 또는 연결 실패";
+            console.error(`API Key #${i + 1} exception:`, e);
+            // 다음 키로 넘어갑니다.
         }
-    } catch (e) {
-        document.getElementById(loadingId).innerHTML = "네트워크 오류가 발생했습니다.<br>API URL 서버가 켜져있는지 확인해주세요.";
+    }
+
+    if (!success) {
+        const botElement = document.getElementById(loadingId);
+        botElement.innerHTML = `🚫 <b>응답 실패:</b><br>모든 무료 API 키의 한도가 초과되었거나 오류가 발생했습니다.<br><small>마지막 오류: ${lastError || "알 수 없음"}</small>`;
     }
 }
 

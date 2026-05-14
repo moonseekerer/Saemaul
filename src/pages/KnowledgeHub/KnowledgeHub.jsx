@@ -97,7 +97,7 @@ const KnowledgeHub = () => {
               {filteredDocs.map((doc) => (
                 <Link 
                   key={doc.id}
-                  to={`/docs/${doc.filename}`}
+                  to={`/archive/${doc.filename}`}
                   className="group relative flex items-start gap-5 p-6 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
                 >
                   <div className="absolute top-0 right-0 w-24 h-24 bg-indigo-500/5 rounded-full -mr-10 -mt-10 transition-transform group-hover:scale-150" />

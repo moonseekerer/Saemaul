@@ -102,6 +102,18 @@
         };
 
         let currentLang = 'ko';
+        let isMobileMenuOpen = false;
+
+        function toggleMobileMenu() {
+            isMobileMenuOpen = !isMobileMenuOpen;
+            render();
+        }
+
+        function toggleLang() {
+            currentLang = currentLang === 'ko' ? 'en' : 'ko';
+            isMobileMenuOpen = false; // 언어 전환 시 메뉴 닫기
+            render();
+        }
 
         function render() {
             const t = translations[currentLang];
@@ -109,47 +121,66 @@
             
             root.innerHTML = `
                 <!-- Nav -->
-                <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md py-4 shadow-sm">
-                    <div class="container mx-auto px-6 flex items-center justify-between">
+                <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md py-3 sm:py-4 shadow-sm">
+                    <div class="container mx-auto px-4 sm:px-6 flex items-center justify-between relative">
                         <div class="flex items-center gap-2">
-                            <div class="w-10 h-10 overflow-hidden rounded-xl bg-white flex items-center justify-center shadow-lg border border-slate-100">
+                            <div class="w-8 h-8 sm:w-10 sm:h-10 overflow-hidden rounded-xl bg-white flex items-center justify-center shadow-lg border border-slate-100">
                                 <img src="https://www.saemaul.or.kr/images/sub/company/ci_2img2.png" alt="Saemaul Logo" class="w-full h-full object-contain p-1">
                             </div>
-                            <span class="text-xl font-black text-slate-800">Saemaul<span class="text-saemaul-green">-SDGs</span></span>
+                            <span class="text-lg sm:text-xl font-black text-slate-800">Saemaul<span class="text-saemaul-green">-SDGs</span></span>
                         </div>
-                        <div class="hidden md:flex items-center gap-8 text-sm font-bold text-slate-600">
+                        
+                        <!-- Desktop Nav Links -->
+                        <div class="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-bold text-slate-600">
                             ${t.nav.slice(0, 5).map(n => `<a href="#" class="hover:text-saemaul-green transition-colors">${n}</a>`).join('')}
                         </div>
-                        <div class="flex items-center gap-4">
-                            <button onclick="toggleLang()" class="flex items-center gap-2 px-3 py-1.5 rounded-lg border text-xs font-bold uppercase transition-colors hover:bg-slate-50">
-                                <i data-lucide="languages" size="14" class="text-saemaul-green"></i>
-                                ${currentLang === 'ko' ? 'English' : '한국어'}
+                        
+                        <!-- Right Area (Lang Toggle, CTA, Hamburger) -->
+                        <div class="flex items-center gap-2 sm:gap-4">
+                            <button onclick="toggleLang()" class="flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-lg border text-[10px] sm:text-xs font-bold uppercase transition-colors hover:bg-slate-50 bg-white">
+                                <i data-lucide="languages" class="text-saemaul-green w-3 h-3 sm:w-3.5 sm:h-3.5"></i>
+                                ${currentLang === 'ko' ? 'EN' : 'KO'}
                             </button>
-                            <button class="btn-primary py-2 px-5 text-sm font-bold">${t.nav[5]}</button>
+                            <button class="hidden sm:block btn-primary py-2 px-4 sm:px-5 text-xs sm:text-sm font-bold transition-all">${t.nav[5]}</button>
+                            
+                            <!-- Hamburger Button for Mobile -->
+                            <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-slate-600 hover:bg-slate-50 rounded-lg transition-colors focus:outline-none">
+                                <i data-lucide="${isMobileMenuOpen ? 'x' : 'menu'}" class="w-6 h-6"></i>
+                            </button>
+                        </div>
+
+                        <!-- Mobile Menu Panel -->
+                        <div class="${isMobileMenuOpen ? 'flex' : 'hidden'} md:hidden flex-col absolute top-[100%] left-0 w-full bg-white border-t border-slate-100 shadow-xl py-6 px-6 z-50 animate-fade-in">
+                            <div class="flex flex-col gap-4 text-center font-bold text-slate-600 mb-6">
+                                ${t.nav.slice(0, 5).map(n => `<a href="#" onclick="toggleMobileMenu()" class="py-2.5 hover:bg-slate-50 hover:text-saemaul-green rounded-xl transition-all text-base">${n}</a>`).join('')}
+                            </div>
+                            <div class="pt-4 border-t border-slate-100">
+                                <button class="btn-primary py-3.5 w-full text-base font-bold shadow-lg transition-all">${t.nav[5]}</button>
+                            </div>
                         </div>
                     </div>
                 </nav>
 
                 <!-- Hero -->
-                <section class="pt-48 pb-32 relative overflow-hidden">
+                <section class="pt-32 pb-16 sm:pt-40 sm:pb-24 lg:pt-48 lg:pb-32 relative overflow-hidden min-h-[80vh] flex items-center">
                     <div class="absolute inset-0 z-0">
-                        <img src="./public/assets/national-sm-map.png" alt="Map Background" class="w-full h-full object-cover opacity-40">
+                        <img src="./public/assets/national-sm-map.png" alt="Map Background" class="w-full h-full object-cover opacity-30 sm:opacity-40">
                         <div class="absolute inset-0 bg-gradient-to-b from-slate-50/50 via-transparent to-slate-50"></div>
                     </div>
-                    <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
-                        <div class="animate-fade-in">
-                            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-saemaul-light text-saemaul-green text-sm font-bold mb-6 border border-saemaul-green/20">
+                    <div class="container mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
+                        <div class="animate-fade-in flex flex-col items-center lg:items-start text-center lg:text-left">
+                            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-saemaul-light text-saemaul-green text-[11px] sm:text-sm font-bold mb-5 border border-saemaul-green/20 shadow-sm">
                                 ${t.hero.badge}
                             </div>
-                            <h1 class="text-5xl md:text-7xl font-black text-slate-900 leading-tight mb-6">
+                            <h1 class="text-3xl sm:text-5xl md:text-6xl xl:text-7xl font-black text-slate-900 leading-[1.2] sm:leading-tight mb-5 tracking-tight break-keep">
                                 ${t.hero.title}
                             </h1>
-                            <p class="text-slate-600 text-lg mb-10 font-medium leading-relaxed max-w-xl">
+                            <p class="text-slate-600 text-sm sm:text-base md:text-lg mb-8 font-medium leading-relaxed max-w-xl break-keep">
                                 ${t.hero.sub}
                             </p>
-                            <div class="flex gap-4">
-                                <button class="btn-primary text-lg px-8 py-4 flex items-center gap-2 font-bold">${t.hero.start} <i data-lucide="arrow-right"></i></button>
-                                <button class="px-8 py-4 rounded-full font-bold border-2 text-slate-600 hover:bg-slate-100 transition-all">${t.hero.demo}</button>
+                            <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                                <button class="btn-primary text-base px-7 py-3.5 sm:py-4 flex items-center justify-center gap-2 font-bold shadow-lg shadow-saemaul-green/30 transition-all">${t.hero.start} <i data-lucide="arrow-right" class="w-5 h-5"></i></button>
+                                <button class="px-7 py-3.5 sm:py-4 rounded-full font-bold border-2 border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 transition-all bg-white/50 backdrop-blur-sm">${t.hero.demo}</button>
                             </div>
                         </div>
                         <div class="hidden lg:block card-3d-wrap">
@@ -160,11 +191,11 @@
                                 </div>
                                 <div class="space-y-4">
                                     <div class="bg-slate-50 p-4 rounded-2xl flex items-center gap-4">
-                                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600"><i data-lucide="user-check"></i></div>
+                                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600"><i data-lucide="user-check" class="w-5 h-5"></i></div>
                                         <div><p class="font-bold text-sm">${t.live[2]}</p><p class="text-xs text-slate-400">${t.live[3]}</p></div>
                                     </div>
                                     <div class="bg-slate-50 p-4 rounded-2xl flex items-center gap-4">
-                                        <div class="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center text-amber-600"><i data-lucide="globe"></i></div>
+                                        <div class="w-10 h-10 bg-amber-100 rounded-full flex items-center justify-center text-amber-600"><i data-lucide="globe" class="w-5 h-5"></i></div>
                                         <div><p class="font-bold text-sm">${t.live[4]}</p><p class="text-xs text-slate-400">${t.live[5]}</p></div>
                                     </div>
                                 </div>
@@ -175,15 +206,15 @@
                 </section>
 
                 <!-- Features -->
-                <section class="py-24 bg-white">
-                    <div class="container mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <section class="py-16 md:py-24 bg-white">
+                    <div class="container mx-auto px-4 sm:px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
                         ${t.cards.map(c => `
-                            <div class="glass-card p-8 rounded-3xl hover:-translate-y-2 transition-transform cursor-pointer">
-                                <div class="w-14 h-14 bg-${c[3]}-100 rounded-2xl flex items-center justify-center mb-6 text-${c[3]}-600">
-                                    <i data-lucide="${c[2]}" size="28"></i>
+                            <div class="glass-card p-6 sm:p-8 rounded-3xl hover:-translate-y-2 transition-transform cursor-pointer border border-slate-100 shadow-sm hover:shadow-xl hover:border-saemaul-green/20 flex flex-col items-center lg:items-start text-center lg:text-left">
+                                <div class="w-14 h-14 bg-${c[3]}-100 rounded-2xl flex items-center justify-center mb-6 text-${c[3]}-600 shadow-inner">
+                                    <i data-lucide="${c[2]}" class="w-7 h-7"></i>
                                 </div>
-                                <h3 class="text-xl font-bold mb-3">${c[0]}</h3>
-                                <p class="text-slate-500 text-sm leading-relaxed">${c[1]}</p>
+                                <h3 class="text-lg sm:text-xl font-black mb-3 text-slate-800 break-keep">${c[0]}</h3>
+                                <p class="text-slate-500 text-xs sm:text-sm leading-relaxed break-keep">${c[1]}</p>
                             </div>
                         `).join('')}
                     </div>
@@ -235,11 +266,6 @@
             `;
 
             lucide.createIcons();
-        }
-
-        function toggleLang() {
-            currentLang = currentLang === 'ko' ? 'en' : 'ko';
-            render();
         }
 
         render();

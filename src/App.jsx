@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useNavigate, useParams } from 'react-router-dom';
 import LeadershipTest from './pages/LeadershipTest/LeadershipTest';
 import SaemaulTest from './pages/SaemaulTest/SaemaulTest';
+import SpiritTest from './pages/SaemaulTest/SpiritTest';
 import DocViewer from './pages/DocViewer/DocViewer';
 import KnowledgeHub from './pages/KnowledgeHub/KnowledgeHub';
 import { 
@@ -367,7 +368,7 @@ const ContactPage = () => {
           <p className="text-sm text-slate-400 mt-2 font-medium">카드를 클릭하여 상세 프로필과 전문 이력을 확인하실 수 있습니다.</p>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {members.map((m) => (
             <Link 
               key={m.id} 
@@ -460,6 +461,7 @@ const TermsPage = () => (
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [user, setUser] = useState(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // 모바일 메뉴 토글 상태
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
@@ -529,9 +531,10 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-50 overflow-x-hidden">
       {/* Navigation */}
-      <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 backdrop-blur-md py-3 shadow-sm' : 'bg-transparent py-6'}`}>
-        <div className="container mx-auto px-6 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2 group">
+      {/* Navigation */}
+      <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled || isMenuOpen ? 'bg-white py-3 shadow-sm' : 'bg-transparent py-6'}`}>
+        <div className="container mx-auto px-6 flex items-center justify-between relative">
+          <Link to="/" onClick={() => setIsMenuOpen(false)} className="flex items-center gap-2 group z-50">
             <div className="w-10 h-10 overflow-hidden rounded-xl shadow-lg shadow-saemaul-green/20 flex items-center justify-center bg-white border border-slate-100 group-hover:scale-105 transition-transform">
               <img src="https://www.saemaul.or.kr/images/sub/company/ci_2img2.png" alt="Saemaul Logo" className="w-full h-full object-contain p-1" />
             </div>
@@ -548,30 +551,92 @@ function App() {
             <NavItem label={t('nav.hub')} to="/hub" />
           </div>
 
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-4 sm:gap-6">
             <button 
               onClick={toggleLang}
-              className="flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-200/50 text-xs font-bold hover:bg-white/50 hover:shadow-sm transition-all uppercase"
+              className="flex items-center gap-1.5 sm:gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-xl border border-slate-200/50 text-xs font-bold hover:bg-white/50 hover:shadow-sm transition-all uppercase bg-white z-50"
             >
               <Languages size={14} className="text-saemaul-green" />
-              {i18n.language === 'ko' ? 'English' : '한국어'}
+              <span className="hidden sm:inline">{i18n.language === 'ko' ? 'English' : '한국어'}</span>
+              <span className="sm:hidden">{i18n.language === 'ko' ? 'EN' : 'KO'}</span>
             </button>
-            {user ? (
-              <div className="flex items-center gap-3">
-                <img 
-                  src={user.photoURL} 
-                  alt="Profile" 
-                  className="w-9 h-9 rounded-full border-2 border-saemaul-green shadow-sm" 
-                />
-                <button onClick={handleLogout} className="text-xs font-bold text-slate-500 hover:text-red-500 transition-colors">
-                  {i18n.language === 'ko' ? '로그아웃' : 'Logout'}
+            
+            <div className="hidden sm:block">
+              {user ? (
+                <div className="flex items-center gap-3">
+                  <img 
+                    src={user.photoURL} 
+                    alt="Profile" 
+                    className="w-9 h-9 rounded-full border-2 border-saemaul-green shadow-sm" 
+                  />
+                  <button onClick={handleLogout} className="text-xs font-bold text-slate-500 hover:text-red-500 transition-colors">
+                    {i18n.language === 'ko' ? '로그아웃' : 'Logout'}
+                  </button>
+                </div>
+              ) : (
+                <button onClick={handleLogin} className="btn-primary py-2.5 px-6 text-sm">
+                  {t('nav.join')}
                 </button>
-              </div>
-            ) : (
-              <button onClick={handleLogin} className="btn-primary py-2.5 px-6 text-sm">
-                {t('nav.join')}
-              </button>
-            )}
+              )}
+            </div>
+
+            {/* Hamburger Menu Button */}
+            <button 
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="md:hidden p-2 rounded-xl hover:bg-slate-100 transition-colors text-slate-700 focus:outline-none z-50"
+              aria-label="Toggle navigation menu"
+            >
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
+
+          {/* Mobile Dropdown Menu Panel */}
+          <div className={`absolute top-[100%] left-0 w-full bg-white border-t border-slate-100 shadow-2xl flex-col py-6 px-6 md:hidden z-40 transition-all duration-300 ${isMenuOpen ? 'flex opacity-100 translate-y-0' : 'hidden opacity-0 -translate-y-4'}`}>
+            <div className="flex flex-col gap-2 font-bold text-slate-600 mb-6">
+              {[
+                { label: t('nav.home'), to: "/" },
+                { label: t('nav.test'), to: "/saemaul-test" },
+                { label: t('nav.chatbot'), to: "/chatbot" },
+                { label: t('nav.community'), to: "/community" },
+                { label: t('nav.hub'), to: "/hub" }
+              ].map((item, idx) => (
+                <Link 
+                  key={idx} 
+                  to={item.to} 
+                  onClick={() => setIsMenuOpen(false)}
+                  className="py-3.5 px-4 hover:bg-slate-50 hover:text-saemaul-green rounded-xl transition-all flex items-center justify-between group"
+                >
+                  <span className="text-base">{item.label}</span>
+                  <ChevronRight size={18} className="opacity-0 group-hover:opacity-100 text-saemaul-green transition-all transform translate-x-[-10px] group-hover:translate-x-0" />
+                </Link>
+              ))}
+            </div>
+            <div className="pt-6 border-t border-slate-100">
+              {user ? (
+                <div className="flex flex-col gap-4">
+                  <div className="flex items-center gap-3 px-4 py-2 bg-slate-50 rounded-2xl">
+                    <img src={user.photoURL} alt="Profile" className="w-10 h-10 rounded-full border-2 border-saemaul-green shadow-sm" />
+                    <div>
+                      <p className="font-bold text-slate-800 text-sm">{user.displayName}</p>
+                      <p className="text-slate-400 text-xs">{user.email}</p>
+                    </div>
+                  </div>
+                  <button 
+                    onClick={() => { handleLogout(); setIsMenuOpen(false); }} 
+                    className="w-full py-3.5 rounded-xl bg-red-50 text-red-500 font-bold text-sm hover:bg-red-100 transition-all"
+                  >
+                    {i18n.language === 'ko' ? '로그아웃' : 'Logout'}
+                  </button>
+                </div>
+              ) : (
+                <button 
+                  onClick={() => { handleLogin(); setIsMenuOpen(false); }} 
+                  className="btn-primary w-full py-3.5 text-base font-bold shadow-lg shadow-saemaul-green/20"
+                >
+                  {t('nav.join')}
+                </button>
+              )}
+            </div>
           </div>
         </div>
       </nav>
@@ -581,93 +646,29 @@ function App() {
           <Route path="/" element={
             <>
               {/* Hero Section */}
-              <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+              <section className="relative pt-32 pb-16 sm:pt-40 sm:pb-24 lg:pt-48 lg:pb-32 overflow-hidden min-h-[80vh] flex items-center">
             <div className="absolute inset-0 z-0">
               <img 
                 src="/assets/national-sm-map.png" 
                 alt="Global Connection Map" 
-                className="w-full h-full object-cover opacity-40"
+                className="w-full h-full object-cover opacity-30 sm:opacity-40"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-slate-50 via-transparent to-slate-50" />
             </div>
 
             <div className="container mx-auto px-6 relative z-10">
-              <div className="grid lg:grid-cols-2 gap-12 items-center">
-                <div className="animate-fade-in">
-                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-saemaul-light text-saemaul-green text-sm font-bold mb-6 border border-saemaul-green/20">
-                    <span className="relative flex h-2 w-2">
-                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-saemaul-green opacity-75"></span>
-                      <span className="relative inline-flex rounded-full h-2 w-2 bg-saemaul-green"></span>
-                    </span>
-                    {t('hero.badge')}
-                  </div>
-                  <h1 className="text-5xl md:text-7xl font-black text-slate-900 leading-tight mb-6">
-                    {t('hero.title1')} <br />
-                    <span className="text-saemaul-green">{t('hero.title2')}</span>
-                  </h1>
-                  <p className="text-slate-600 text-lg md:text-xl max-w-xl mb-10 leading-relaxed font-medium">
-                    {t('hero.subtitle')}
-                  </p>
-                  <div className="flex flex-wrap gap-4">
-                    <Link to="/saemaul-test" className="btn-primary text-lg px-8 py-4 flex items-center gap-2">
-                      {t('hero.cta_start')} <ArrowRight size={20} />
-                    </Link>
-                    <button className="px-8 py-4 rounded-full font-bold border-2 border-slate-200 text-slate-600 hover:bg-slate-100 transition-all flex items-center gap-2">
-                      {t('hero.cta_demo')}
-                    </button>
-                  </div>
-                </div>
-
-                <div className="relative hidden lg:block">
-                  <div className="card-3d-wrap">
-                    <div className="card-3d glass-card p-12 rounded-[50px] shadow-2xl relative overflow-hidden border-2 border-white/60">
-                      <div className="absolute top-0 right-0 p-10">
-                         <div className="w-20 h-20 bg-gradient-to-br from-saemaul-green to-saemaul-vibrant text-white rounded-3xl flex items-center justify-center transform rotate-12 shadow-xl animate-float">
-                            <Trophy size={40} />
-                         </div>
-                      </div>
-                      <div className="mb-12">
-                        <h4 className="text-saemaul-green font-bold text-sm tracking-[0.2em] uppercase mb-4 opacity-80">{t('live.status')}</h4>
-                        <div className="flex items-center gap-5">
-                          <div className="text-6xl font-black tracking-tighter text-slate-900">124<span className="text-saemaul-green">+</span></div>
-                          <div className="text-slate-500 font-bold leading-tight text-lg">{t('live.villages')}</div>
-                        </div>
-                      </div>
-                      <div className="space-y-8">
-                        <div className="bg-white/40 backdrop-blur-sm p-5 rounded-3xl flex items-center gap-5 border border-white/60 transition-transform hover:scale-[1.02]">
-                          <div className="w-12 h-12 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-600">
-                            <UserCheck size={24} />
-                          </div>
-                          <div>
-                            <p className="text-base font-bold text-slate-800">{t('live.role_unlock')}</p>
-                            <p className="text-xs text-slate-500 font-medium uppercase tracking-wider">{t('live.leader')}</p>
-                          </div>
-                        </div>
-                        <div className="bg-white/40 backdrop-blur-sm p-5 rounded-3xl flex items-center gap-5 border border-white/60 transition-transform hover:scale-[1.02]">
-                          <div className="w-12 h-12 rounded-2xl bg-amber-500/10 flex items-center justify-center text-amber-600">
-                            <Globe size={24} />
-                          </div>
-                          <div>
-                            <p className="text-base font-bold text-slate-800">{t('live.milestone')}</p>
-                            <p className="text-xs text-slate-500 font-medium uppercase tracking-wider">{t('live.partnership')}</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="mt-12 pt-10 border-t border-slate-200/50 flex justify-between items-center">
-                        <div className="flex -space-x-3">
-                           {[1,2,3,4].map(i => (
-                             <div key={i} className="w-10 h-10 rounded-full bg-slate-200 border-4 border-white shadow-sm overflow-hidden">
-                               <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${i + 10}`} alt="avatar" />
-                             </div>
-                           ))}
-                           <div className="w-10 h-10 rounded-full bg-saemaul-green text-white text-[11px] font-bold flex items-center justify-center border-4 border-white shadow-sm">+12k</div>
-                        </div>
-                        <div className="text-xs font-black text-saemaul-green/60 uppercase tracking-[0.1em]">{t('live.engaging')}</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute -z-10 -bottom-20 -left-20 w-80 h-80 bg-saemaul-green/20 rounded-full blur-[100px] animate-pulse-slow" />
-                  <div className="absolute -z-10 -top-20 -right-20 w-96 h-96 bg-blue-400/20 rounded-full blur-[120px] animate-pulse-slow" />
+              <div className="max-w-4xl mx-auto text-center animate-fade-in flex flex-col items-center">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-black text-slate-900 leading-[1.2] sm:leading-tight mb-6 tracking-tight break-keep">
+                  {t('hero.title1')} <br />
+                  <span className="text-saemaul-green">{t('hero.title2')}</span>
+                </h1>
+                <p className="text-slate-600 text-sm sm:text-base md:text-lg max-w-2xl mb-10 leading-relaxed font-medium break-keep mx-auto">
+                  {t('hero.subtitle')}
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto justify-center">
+                  <button className="px-8 py-3.5 sm:py-4 rounded-full font-bold border-2 border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 bg-white/50 backdrop-blur-sm transition-all flex items-center justify-center gap-2">
+                    {t('hero.cta_demo')}
+                  </button>
                 </div>
               </div>
             </div>
@@ -685,15 +686,7 @@ function App() {
                 </p>
               </div>
 
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <FeatureCard 
-                  icon={UserCheck}
-                  title={t('features.card1.title')}
-                  description={t('features.card1.desc')}
-                  color="blue"
-                  learnMoreText={t('features.learn_more')}
-                  to="/saemaul-test"
-                />
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
                 <FeatureCard 
                   icon={Bot}
                   title={t('features.card3.title')}
@@ -709,6 +702,14 @@ function App() {
                   color="amber"
                   learnMoreText={t('features.learn_more')}
                   to="/community"
+                />
+                <FeatureCard 
+                  icon={UserCheck}
+                  title={t('features.card1.title')}
+                  description={t('features.card1.desc')}
+                  color="blue"
+                  learnMoreText={t('features.learn_more')}
+                  to="/saemaul-test"
                 />
                 <FeatureCard 
                   icon={BookOpen}
@@ -728,7 +729,8 @@ function App() {
           } />
           <Route path="/saemaul-test" element={<SaemaulTest />} />
           <Route path="/test" element={<LeadershipTest />} />
-          <Route path="/docs/:filename" element={<DocViewer />} />
+          <Route path="/spirit-test" element={<SpiritTest />} />
+          <Route path="/archive/:filename" element={<DocViewer />} />
           <Route path="/chatbot" element={<ChatbotPage />} />
           <Route path="/community" element={<CommunityPage />} />
           <Route path="/hub" element={<KnowledgeHub />} />
@@ -740,10 +742,10 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-slate-950 text-white py-20">
+      <footer className="bg-slate-950 text-white py-16 sm:py-20">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-12">
-            <div className="col-span-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+            <div className="sm:col-span-2 flex flex-col items-center sm:items-start text-center sm:text-left">
               <Link to="/" className="flex items-center gap-2 mb-6 hover:opacity-80 transition-opacity inline-flex">
                 <div className="w-12 h-12 overflow-hidden rounded-2xl shadow-lg flex items-center justify-center bg-white border border-slate-100">
                   <img src="https://www.saemaul.or.kr/images/sub/company/ci_2img2.png" alt="Saemaul Logo" className="w-full h-full object-contain p-1.5" />
@@ -754,7 +756,7 @@ function App() {
                 {t('footer.desc')}
               </p>
             </div>
-            <div>
+            <div className="text-center sm:text-left">
               <h5 className="font-bold mb-6">{t('footer.links')}</h5>
               <ul className="space-y-4 text-slate-400 text-sm">
                 <li><Link to="/privacy" className="hover:text-saemaul-green transition-colors">{t('footer.p_policy')}</Link></li>
@@ -762,7 +764,7 @@ function App() {
                 <li><Link to="/contact" className="hover:text-saemaul-green transition-colors">{t('footer.contact')}</Link></li>
               </ul>
             </div>
-            <div>
+            <div className="text-center sm:text-left flex flex-col items-center sm:items-start">
               <h5 className="font-bold mb-6">{t('footer.connect')}</h5>
               <div className="flex gap-4">
                 <button onClick={shareToKakao} aria-label="Share to Kakao" className="px-5 h-10 rounded-full bg-[#FEE500] flex items-center justify-center hover:bg-[#eacc00] transition-colors cursor-pointer text-slate-900 font-bold text-sm gap-2">

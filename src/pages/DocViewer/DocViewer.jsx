@@ -70,7 +70,17 @@ const DocViewer = () => {
     fetch(`${import.meta.env.BASE_URL}docs/${filename}`)
       .then(r => { if (!r.ok) throw new Error(); return r.arrayBuffer(); })
       .then(buf => {
-        const text = new TextDecoder('utf-8').decode(buf);
+        let text = new TextDecoder('utf-8').decode(buf);
+        
+        // 1) 마크다운 헤더 전후에 공백 라인을 확실하게 강제하여 단락 뭉침 방지
+        text = text.replace(/^(#{1,6}\s+.*)$/gm, '\n\n$1\n\n');
+        
+        // 2) 한국어 조사 접합 시 볼드(**) 처리 버그 방지 -> 닫기 볼드 뒤에 보이지 않는 제로 너비 공간(\u200B) 삽입
+        text = text.replace(/\*\*([^\*]+?)\*\*/g, '**$1**\u200B');
+        
+        // 3) 불필요하게 반복된 3회 이상의 줄바꿈 정리
+        text = text.replace(/\n{3,}/g, '\n\n');
+
         setContent(text);
         setLoading(false);
       })
@@ -115,27 +125,26 @@ const DocViewer = () => {
             </div>
           )}
           {!loading && !error && (
-            <div className="p-8 md:p-14 prose prose-slate max-w-none
-              prose-h1:text-3xl prose-h1:font-black prose-h1:text-slate-900
-              prose-h2:text-2xl prose-h2:font-black prose-h2:text-slate-800 prose-h2:mt-12 prose-h2:border-b prose-h2:border-slate-100 prose-h2:pb-3
-              prose-h3:text-xl prose-h3:font-bold prose-h3:text-slate-700
-              prose-p:text-slate-700 prose-p:leading-8
-              prose-li:text-slate-700 prose-li:leading-7
-              prose-strong:text-slate-900 prose-strong:font-black
-              prose-blockquote:border-l-4 prose-blockquote:border-saemaul-green prose-blockquote:bg-emerald-50 prose-blockquote:px-6 prose-blockquote:py-4 prose-blockquote:rounded-r-2xl prose-blockquote:not-italic
-              prose-table:text-sm prose-th:bg-slate-50 prose-th:font-bold
-              prose-code:bg-slate-100 prose-code:px-1.5 prose-code:rounded prose-code:text-sm
-              prose-hr:border-slate-100">
+            <div className="p-8 md:p-14 max-w-none">
               <ReactMarkdown 
                 remarkPlugins={[remarkGfm]}
                 components={{
+                  h1: ({children}) => <h1 className="text-3xl md:text-4xl font-black text-slate-900 mb-10 leading-tight tracking-tight">{children}</h1>,
+                  h2: ({children}) => <h2 className="text-2xl md:text-3xl font-black text-emerald-800 mt-16 mb-8 border-b-2 border-emerald-200 pb-4">{children}</h2>,
+                  h3: ({children}) => <h3 className="text-xl md:text-2xl font-black text-slate-800 mt-12 mb-6 pl-4 border-l-4 border-emerald-500">{children}</h3>,
+                  p: ({children}) => <p className="text-slate-700 leading-8 mb-6 break-keep text-base md:text-[17px] font-medium">{children}</p>,
+                  strong: ({children}) => <strong className="text-slate-900 font-black bg-amber-100/40 px-1 rounded">{children}</strong>,
+                  blockquote: ({children}) => <blockquote className="border-l-4 border-emerald-500 bg-emerald-50/60 px-6 py-5 rounded-r-2xl not-italic my-8 text-slate-700 font-medium italic">{children}</blockquote>,
+                  ul: ({children}) => <ul className="list-disc pl-6 space-y-3 mb-8 text-slate-700">{children}</ul>,
+                  ol: ({children}) => <ol className="list-decimal pl-6 space-y-3 mb-8 text-slate-700">{children}</ol>,
+                  li: ({children}) => <li className="text-slate-700 leading-7 pl-1">{children}</li>,
                   code(props) {
                     const {children, className, node, ...rest} = props
                     const match = /language-(\w+)/.exec(className || '')
                     return match && match[1] === 'mermaid' ? (
                       <MermaidRenderer chart={String(children).replace(/\n$/, '')} />
                     ) : (
-                      <code {...rest} className={className}>
+                      <code {...rest} className="bg-slate-100 px-1.5 py-0.5 rounded text-sm font-mono text-slate-800">
                         {children}
                       </code>
                     )
