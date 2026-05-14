@@ -852,6 +852,8 @@ async function sendMessage() {
 
     addMessage(question, 'user');
     inputField.value = '';
+    // 한국어 IME 입력(조합형 문자) 상태에서 Enter 입력 시 브라우저가 값을 덮어쓰는 현상 방지
+    setTimeout(() => { inputField.value = ''; }, 0);
     
     const loadingHtml = `
       <div class="typing-indicator">
