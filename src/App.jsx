@@ -5,6 +5,7 @@ import SaemaulTest from './pages/SaemaulTest/SaemaulTest';
 import SpiritTest from './pages/SaemaulTest/SpiritTest';
 import DocViewer from './pages/DocViewer/DocViewer';
 import KnowledgeHub from './pages/KnowledgeHub/KnowledgeHub';
+import Community from './pages/Community/Community';
 import { 
   UserCheck, 
   Trophy, 
@@ -132,30 +133,7 @@ const ChatbotPage = () => {
   );
 };
 
-const CommunityPage = () => {
-  const { t } = useTranslation();
-  return (
-    <div className="min-h-screen bg-slate-50 pt-20">
-      <div className="container mx-auto px-6 py-8">
-        <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold mb-4 border border-amber-200">
-            <Home size={16} />
-            {t('features.card2.title')}
-          </div>
-          <h1 className="text-3xl font-black text-slate-900 mb-2">{t('nav.community')}</h1>
-          <p className="text-slate-500">{t('features.card2.desc')}</p>
-        </div>
-        <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white" style={{ height: '85vh' }}>
-          <iframe 
-            src={`${import.meta.env.BASE_URL}community.html`}
-            className="w-full h-full border-none"
-            title="Community Hub"
-          />
-        </div>
-      </div>
-    </div>
-  );
-};
+
 
 const TEAM_DATA = {
   kwon: {
@@ -732,7 +710,7 @@ function App() {
           <Route path="/spirit-test" element={<SpiritTest />} />
           <Route path="/archive/:filename" element={<DocViewer />} />
           <Route path="/chatbot" element={<ChatbotPage />} />
-          <Route path="/community" element={<CommunityPage />} />
+          <Route path="/community" element={<Community />} />
           <Route path="/hub" element={<KnowledgeHub />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
