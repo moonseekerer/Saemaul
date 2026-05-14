@@ -1,0 +1,23 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. 게시물 규칙 (Posts)
+    match /posts/{postId} {
+      allow read: if true;
+      allow create: if request.auth != null;
+      // 작성자 본인이거나 총관리자인 경우에만 수정/삭제 가능
+      allow update, delete: if request.auth != null && 
+        (request.auth.uid == resource.data.uid || request.auth.token.email == 'anstlr6665@gmail.com');
+    }
+
+    // 2. 출석부 규칙 (Attendance)
+    match /attendance/{attendanceId} {
+      allow read: if true;
+      allow create: if request.auth != null;
+      
+      // 🔥 관리자(anstlr6665@gmail.com)에게 수정 및 삭제(delete) 권한 부여!
+      allow update, delete: if request.auth != null && 
+        (request.auth.token.email == 'anstlr6665@gmail.com');
+    }
+  }
+}
