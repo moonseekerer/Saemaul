@@ -22,7 +22,7 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['Outfit', 'Inter', 'Roboto', 'sans-serif'],
+        sans: ['Presentation', 'Outfit', 'Inter', 'Roboto', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
