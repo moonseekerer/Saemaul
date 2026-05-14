@@ -306,7 +306,7 @@ const SpiritTest = () => {
 
               {/* 분석 분포 바 */}
               <div className="mb-10">
-                <h3 className="text-xs font-black text-slate-400 tracking-widest uppercase mb-6 text-center">나의 6대 정신 분석 차트</h3>
+                <h3 className="text-xs font-black text-slate-400 tracking-widest uppercase mb-6 text-center">나의 6대 정신(근면·자조·협동·나눔·봉사·창조) 분석 차트</h3>
                 <div className="space-y-4">
                   {Object.keys(SPIRIT_META).map((key) => {
                     const m = SPIRIT_META[key];
@@ -393,7 +393,7 @@ const SpiritTest = () => {
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md text-white text-xs font-bold border border-white/30 mb-6">
                   <Sparkles size={12} /> 새마을정신 가치관 측정 (초안)
                 </div>
-                <h1 className="text-3xl md:text-5xl font-black drop-shadow-lg mb-4">내 안에 숨겨진<br /><span className="text-yellow-300">새마을 정신 6대 가치</span></h1>
+                <h1 className="text-3xl md:text-5xl font-black drop-shadow-lg mb-4">내 안에 숨겨진<br /><span className="text-yellow-300 text-2xl md:text-4xl block mt-1">새마을 정신 6대 가치</span><span className="text-yellow-100/80 text-base md:text-xl font-bold block mt-2">(근면·자조·협동·나눔·봉사·창조)</span></h1>
                 <p className="text-white/80 text-sm md:text-base">근면·자조·협동의 전통적 가치 위에,<br />현대 사회의 나눔·봉사·창조를 더한 나의 성향 파악</p>
               </div>
             </div>
