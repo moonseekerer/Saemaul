@@ -18,7 +18,8 @@ import {
   CalendarCheck,
   MessageCircle,
   Camera,
-  Tag
+  Tag,
+  ArrowRight
 } from 'lucide-react';
 import { db, auth } from '../../firebase';
 import { 
