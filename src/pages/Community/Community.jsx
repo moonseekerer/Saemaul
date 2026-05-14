@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { 
   Home, 
   BarChart3, 
@@ -19,7 +19,10 @@ import {
   MessageCircle,
   Camera,
   Tag,
-  ArrowRight
+  ArrowRight,
+  Trash2,
+  XCircle,
+  Loader2
 } from 'lucide-react';
 import { db, auth } from '../../firebase';
 import { 
@@ -35,11 +38,15 @@ import {
   getDocs,
   where,
   limit,
-  Timestamp
+  Timestamp,
+  deleteDoc
 } from 'firebase/firestore';
 import { onAuthStateChanged, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
-// Pre-defined Mock Posts to show if database is empty
+// Admin check variable
+const ADMIN_EMAIL = 'anstlr6665@gmail.com';
+
+// Pre-defined Mock Posts to show at the bottom of the feed
 const fallbackPosts = [
   {
     id: 'mock1',
@@ -76,7 +83,6 @@ const fallbackPosts = [
   }
 ];
 
-// Mock Travel Destinations
 const travelDestinations = [
   {
     id: 1,
@@ -119,6 +125,11 @@ const Community = () => {
   const [selectedCategory, setSelectedCategory] = useState('일반');
   const [locationInput, setLocationInput] = useState('');
   const [isWriting, setIsWriting] = useState(false);
+  
+  // Image Upload States (Base64 inline direct method)
+  const [attachedImage, setAttachedImage] = useState(null);
+  const [isCompressing, setIsCompressing] = useState(false);
+  const fileInputRef = useRef(null);
   
   // UI State
   const [copiedId, setCopiedId] = useState(null);
@@ -234,6 +245,61 @@ const Community = () => {
     }
   };
 
+  // Image Compression & Loader Handler (Converts to compact Base64 Data URL)
+  const handleImageSelection = (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    
+    setIsCompressing(true);
+    const reader = new FileReader();
+    
+    reader.onload = (evt) => {
+      const img = new Image();
+      img.onload = () => {
+        const canvas = document.createElement('canvas');
+        let width = img.width;
+        let height = img.height;
+        
+        // Bound to max 800px dimension for fast cloud saves & reads
+        const MAX_SIZE = 800;
+        if (width > height) {
+          if (width > MAX_SIZE) {
+            height = Math.round(height * (MAX_SIZE / width));
+            width = MAX_SIZE;
+          }
+        } else {
+          if (height > MAX_SIZE) {
+            width = Math.round(width * (MAX_SIZE / height));
+            height = MAX_SIZE;
+          }
+        }
+        
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, width, height);
+        
+        // Standard JPEG 0.6 quality usually outputs perfect-looking web ~60-150kb images
+        const compressedDataUrl = canvas.toDataURL('image/jpeg', 0.6);
+        setAttachedImage(compressedDataUrl);
+        setIsCompressing(false);
+      };
+      img.onerror = () => {
+        setIsCompressing(false);
+        alert("이미지 처리 중 에러가 발생했습니다.");
+      };
+      img.src = evt.target.result;
+    };
+    reader.readAsDataURL(file);
+  };
+
+  const handleRemoveImage = () => {
+    setAttachedImage(null);
+    if (fileInputRef.current) {
+      fileInputRef.current.value = "";
+    }
+  };
+
   // Post Submit Action
   const handleSubmitPost = async (e) => {
     e.preventDefault();
@@ -248,20 +314,34 @@ const Community = () => {
         uid: user.uid,
         displayName: user.displayName,
         photoURL: user.photoURL,
+        email: user.email || '',
         content: postText,
         timestamp: serverTimestamp(),
         likes: 0,
-        likedUsers: [], // To track who liked what
+        likedUsers: [],
         category: selectedCategory,
         location: locationInput || '새마을 스마트빌리지',
-        image: null
+        image: attachedImage || null // Store the base64 string
       });
       setPostText('');
       setLocationInput('');
+      setAttachedImage(null);
       setIsWriting(false);
     } catch (e) {
       console.error("Error submitting post:", e);
       alert("글 등록 중 오류가 발생했습니다.");
+    }
+  };
+
+  // Post Delete Action (Handles both creator & Admin deletion)
+  const handleDeletePost = async (postId) => {
+    if (!window.confirm("이 게시물을 정말 삭제하시겠습니까?")) return;
+    
+    try {
+      await deleteDoc(doc(db, 'posts', postId));
+    } catch (e) {
+      console.error("Error deleting post:", e);
+      alert("삭제 권한이 없거나 서버 에러가 발생했습니다.");
     }
   };
 
@@ -273,7 +353,6 @@ const Community = () => {
         likes: increment(1)
       });
     } catch (e) {
-      // If firestore update fails (due to permission/mock post), just silent error
       console.warn("Couldn't increment like on Cloud Firestore.", e);
     }
   };
@@ -305,7 +384,8 @@ const Community = () => {
     return `${date.getMonth() + 1}월 ${date.getDate()}일`;
   };
 
-  const displayedPosts = posts.length > 0 ? posts : fallbackPosts;
+  // Combines Live database posts on top with Pre-defined mock examples below
+  const displayedPosts = [...posts, ...fallbackPosts];
 
   return (
     <div className="min-h-screen bg-slate-50/60 pt-24 pb-20 font-sans">
@@ -434,13 +514,51 @@ const Community = () => {
                               placeholder="지금 일어나는 마을의 혁신적인 변화나 SDGs 소식을 적어주세요..."
                               className="w-full bg-slate-50 focus:bg-white border border-slate-100 focus:border-emerald-500 outline-none rounded-2xl p-4 text-sm font-medium resize-none h-28 transition-all text-slate-700"
                             />
+
+                            {/* Embedded Picture Preview Area */}
+                            {isCompressing && (
+                              <div className="flex items-center justify-center py-4 bg-slate-50 border border-slate-100 rounded-xl text-emerald-600 gap-2 font-bold text-xs animate-pulse">
+                                <Loader2 className="animate-spin" size={16} />
+                                <span>이미지 압축 변환 중...</span>
+                              </div>
+                            )}
+
+                            {attachedImage && !isCompressing && (
+                              <div className="relative w-full max-h-48 rounded-xl overflow-hidden border border-slate-100 bg-slate-50 group">
+                                <img src={attachedImage} alt="Preview" className="w-full h-full object-contain" />
+                                <button 
+                                  type="button"
+                                  onClick={handleRemoveImage}
+                                  className="absolute top-2 right-2 text-slate-800/60 hover:text-red-500 bg-white/80 hover:bg-white rounded-full p-1 shadow-md transition-all"
+                                >
+                                  <XCircle size={18} />
+                                </button>
+                              </div>
+                            )}
                             
                             <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-50/50 p-2.5 rounded-xl border border-slate-100">
                               <div className="flex flex-wrap items-center gap-2">
+                                {/* Hidden file input for Camera Trigger */}
+                                <input 
+                                  type="file" 
+                                  accept="image/*" 
+                                  ref={fileInputRef} 
+                                  className="hidden" 
+                                  onChange={handleImageSelection}
+                                />
+                                <button 
+                                  type="button"
+                                  onClick={() => fileInputRef.current && fileInputRef.current.click()}
+                                  title="사진 첨부"
+                                  className="bg-white border border-slate-200 rounded-lg p-2 text-slate-500 hover:text-emerald-600 hover:border-emerald-200 transition-all shadow-sm"
+                                >
+                                  <Camera size={15} />
+                                </button>
+
                                 <select
                                   value={selectedCategory}
                                   onChange={(e) => setSelectedCategory(e.target.value)}
-                                  className="bg-white border border-slate-200 text-[11px] font-bold rounded-lg py-1.5 px-2.5 outline-none focus:border-emerald-500 text-slate-600 cursor-pointer"
+                                  className="bg-white border border-slate-200 text-[11px] font-bold rounded-lg py-1.5 px-2.5 outline-none focus:border-emerald-500 text-slate-600 cursor-pointer h-[33px]"
                                 >
                                   <option value="일반">일반 소식</option>
                                   <option value="SDG 1">빈곤퇴치 (SDG1)</option>
@@ -451,7 +569,7 @@ const Community = () => {
                                   <option value="정보공유">자료 정보공유</option>
                                 </select>
 
-                                <div className="flex items-center bg-white border border-slate-200 rounded-lg py-1 px-2 text-slate-500 shrink-0 focus-within:border-emerald-500">
+                                <div className="flex items-center bg-white border border-slate-200 rounded-lg px-2 text-slate-500 shrink-0 focus-within:border-emerald-500 h-[33px]">
                                   <MapPin size={12} />
                                   <input 
                                     type="text" 
@@ -466,15 +584,15 @@ const Community = () => {
                               <div className="flex items-center gap-2 ml-auto">
                                 <button 
                                   type="button"
-                                  onClick={() => { setIsWriting(false); setPostText(''); }}
+                                  onClick={() => { setIsWriting(false); setPostText(''); setAttachedImage(null); }}
                                   className="text-slate-400 hover:text-slate-600 font-bold text-[11px] px-3 py-1.5"
                                 >
                                   취소
                                 </button>
                                 <button 
                                   type="submit"
-                                  disabled={!postText.trim()}
-                                  className="bg-emerald-600 disabled:bg-slate-300 text-white text-[11px] font-black px-4 py-1.5 rounded-lg shadow-sm flex items-center gap-1.5 transition-all active:scale-95"
+                                  disabled={!postText.trim() || isCompressing}
+                                  className="bg-emerald-600 disabled:bg-slate-300 text-white text-[11px] font-black px-4 py-1.5 rounded-lg shadow-sm flex items-center gap-1.5 transition-all active:scale-95 h-[30px]"
                                 >
                                   <Send size={11} />
                                   발행하기
@@ -490,80 +608,105 @@ const Community = () => {
 
                 {/* Posts List */}
                 <div className="space-y-5">
-                  {displayedPosts.map((post) => (
-                    <article 
-                      key={post.id}
-                      className="bg-white rounded-[24px] border border-slate-100 shadow-sm overflow-hidden transition-all hover:-translate-y-1 hover:shadow-md animate-scaleUp"
-                    >
-                      {/* Author Header */}
-                      <div className="p-5 pb-3 flex items-center justify-between">
-                        <div className="flex items-center gap-3">
-                          <img 
-                            src={post.photoURL || `https://ui-avatars.com/api/?name=${encodeURIComponent(post.displayName || 'User')}`} 
-                            alt={post.displayName} 
-                            className="w-9 h-9 rounded-full object-cover border border-slate-100 p-0.5 shadow-sm shrink-0" 
-                          />
-                          <div>
-                            <div className="flex items-center gap-1.5">
-                              <h4 className="font-bold text-[13px] text-slate-800 leading-none">{post.displayName}</h4>
-                              {post.category && post.category !== '일반' && (
-                                <span className="bg-emerald-50 text-emerald-600 font-black text-[9px] px-2 py-0.5 rounded-full border border-emerald-100 leading-none">
-                                  {post.category}
-                                </span>
-                              )}
-                            </div>
-                            <div className="flex items-center gap-1.5 text-[10px] text-slate-400 font-semibold mt-1">
-                              <span>{formatTime(post.timestamp)}</span>
-                              <span>•</span>
-                              <div className="flex items-center gap-0.5">
-                                <MapPin size={10} />
-                                <span>{post.location || '공동체 지구'}</span>
+                  {displayedPosts.map((post) => {
+                    // Authorization Check: Post Creator OR specified Admin OR (email matched mock-users which shouldn't happen)
+                    // Mock items do NOT show the delete button
+                    const canDelete = user && 
+                                      !post.id.startsWith('mock') && 
+                                      (user.uid === post.uid || user.email === ADMIN_EMAIL);
+                    
+                    return (
+                      <article 
+                        key={post.id}
+                        className={`bg-white rounded-[24px] border border-slate-100 shadow-sm overflow-hidden transition-all hover:-translate-y-1 hover:shadow-md animate-scaleUp ${post.id.startsWith('mock') ? 'opacity-90 select-none' : ''}`}
+                      >
+                        {/* Author Header */}
+                        <div className="p-5 pb-3 flex items-center justify-between">
+                          <div className="flex items-center gap-3 flex-1 min-w-0">
+                            <img 
+                              src={post.photoURL || `https://ui-avatars.com/api/?name=${encodeURIComponent(post.displayName || 'User')}`} 
+                              alt={post.displayName} 
+                              className="w-9 h-9 rounded-full object-cover border border-slate-100 p-0.5 shadow-sm shrink-0" 
+                            />
+                            <div className="flex-1 min-w-0">
+                              <div className="flex items-center gap-1.5 flex-wrap">
+                                <h4 className="font-bold text-[13px] text-slate-800 leading-none flex items-center gap-1 truncate">
+                                  {post.displayName}
+                                  {/* Explicit Visual Indicator for Designated Admin */}
+                                  {post.email === ADMIN_EMAIL && (
+                                    <span className="text-[8px] bg-red-50 text-red-600 px-1.5 py-0.5 rounded font-black uppercase border border-red-100">관리자</span>
+                                  )}
+                                </h4>
+                                {post.category && post.category !== '일반' && (
+                                  <span className="bg-emerald-50 text-emerald-600 font-black text-[9px] px-2 py-0.5 rounded-full border border-emerald-100 leading-none">
+                                    {post.category}
+                                  </span>
+                                )}
+                              </div>
+                              <div className="flex items-center gap-1.5 text-[10px] text-slate-400 font-semibold mt-1">
+                                <span>{formatTime(post.timestamp)}</span>
+                                <span>•</span>
+                                <div className="flex items-center gap-0.5">
+                                  <MapPin size={10} />
+                                  <span className="truncate">{post.location || '공동체 지구'}</span>
+                                </div>
                               </div>
                             </div>
                           </div>
+
+                          {/* Admin / Self Post Deletion Button */}
+                          {canDelete && (
+                            <button 
+                              onClick={() => handleDeletePost(post.id)}
+                              className="text-slate-300 hover:text-red-500 hover:bg-red-50 rounded-full p-1.5 transition-all shrink-0"
+                              title="게시물 삭제"
+                            >
+                              <Trash2 size={15} />
+                            </button>
+                          )}
                         </div>
-                      </div>
 
-                      {/* Post Body */}
-                      <div className="px-5 pb-3 text-[13.5px] leading-relaxed font-medium text-slate-700 whitespace-pre-wrap break-words">
-                        {post.content}
-                      </div>
+                        {/* Post Body */}
+                        <div className="px-5 pb-3 text-[13.5px] leading-relaxed font-medium text-slate-700 whitespace-pre-wrap break-words">
+                          {post.content}
+                        </div>
 
-                      {/* Post Image (if exists) */}
-                      {post.image && (
-                        <div className="px-5 pb-3">
-                          <div className="rounded-2xl overflow-hidden border border-slate-50 max-h-[360px]">
-                            <img src={post.image} alt="Content" className="w-full h-full object-cover" />
+                        {/* Attached Post Image (Displays base64 embedded or standard URL) */}
+                        {post.image && (
+                          <div className="px-5 pb-3">
+                            <div className="rounded-2xl overflow-hidden border border-slate-100 bg-slate-50 shadow-inner flex justify-center max-h-[420px]">
+                              <img src={post.image} alt="Post attachments" className="max-w-full h-auto object-contain" />
+                            </div>
                           </div>
-                        </div>
-                      )}
+                        )}
 
-                      {/* Post Footer Interaction */}
-                      <div className="px-5 pb-4 pt-2 flex items-center justify-between border-t border-slate-50 mt-1">
-                        <div className="flex items-center gap-4 text-[11px] font-bold text-slate-500">
+                        {/* Post Footer Interaction */}
+                        <div className="px-5 pb-4 pt-2 flex items-center justify-between border-t border-slate-50 mt-1">
+                          <div className="flex items-center gap-4 text-[11px] font-bold text-slate-500">
+                            <button 
+                              onClick={() => !post.id.startsWith('mock') && handleLikePost(post.id, post.likes)}
+                              className={`flex items-center gap-1.5 px-2 py-1 rounded-lg transition-all ${post.id.startsWith('mock') ? 'cursor-not-allowed' : 'hover:text-red-500 hover:bg-red-50'}`}
+                            >
+                              <Heart size={14} className={post.likes > 0 ? "fill-red-500 text-red-500" : "text-slate-400"} />
+                              <span>{post.likes || 0}</span>
+                            </button>
+                            <button className="flex items-center gap-1.5 hover:text-emerald-600 hover:bg-emerald-50 px-2 py-1 rounded-lg transition-all cursor-not-allowed opacity-60">
+                              <MessageSquare size={14} className="text-slate-400" />
+                              <span>댓글</span>
+                            </button>
+                          </div>
+                          
                           <button 
-                            onClick={() => handleLikePost(post.id, post.likes)}
-                            className="flex items-center gap-1.5 hover:text-red-500 hover:bg-red-50 px-2 py-1 rounded-lg transition-all"
+                            onClick={() => handleShare(post.id)}
+                            className="flex items-center gap-1 text-[11px] font-bold text-slate-500 hover:text-indigo-600 hover:bg-indigo-50 px-2.5 py-1 rounded-lg transition-all"
                           >
-                            <Heart size={14} className={post.likes > 0 ? "fill-red-500 text-red-500" : "text-slate-400"} />
-                            <span>{post.likes || 0}</span>
-                          </button>
-                          <button className="flex items-center gap-1.5 hover:text-emerald-600 hover:bg-emerald-50 px-2 py-1 rounded-lg transition-all cursor-not-allowed opacity-60">
-                            <MessageSquare size={14} className="text-slate-400" />
-                            <span>댓글</span>
+                            <Share2 size={14} />
+                            <span>{copiedId === post.id ? '복사완료!' : '공유'}</span>
                           </button>
                         </div>
-                        
-                        <button 
-                          onClick={() => handleShare(post.id)}
-                          className="flex items-center gap-1 text-[11px] font-bold text-slate-500 hover:text-indigo-600 hover:bg-indigo-50 px-2.5 py-1 rounded-lg transition-all"
-                        >
-                          <Share2 size={14} />
-                          <span>{copiedId === post.id ? '복사완료!' : '공유'}</span>
-                        </button>
-                      </div>
-                    </article>
-                  ))}
+                      </article>
+                    );
+                  })}
                 </div>
               </>
             )}
@@ -748,7 +891,6 @@ const Community = () => {
                     </div>
                   ))
                 ) : (
-                  // Standard fallback if empty
                   <>
                     <div className="flex items-center gap-2.5 bg-slate-50 border border-dashed rounded-xl p-3 text-center">
                       <span className="text-[11px] font-bold text-slate-400 w-full">첫 출석체크의 주인공이 되세요!</span>
