@@ -72,6 +72,15 @@ const SPIRIT_META = {
   },
 };
 
+const SPIRIT_ANALYZING_FACTS = {
+  DILIGENCE: "아침 6시마다 동네 곳곳에 쩌렁쩌렁하게 울려 퍼진 '새벽종'을 아시나요? 이 종소리는 잠들어 있던 마을을 깨우고 한국인의 가슴 속에 깊은 근면의 싹을 틔워냈답니다!",
+  SELF_HELP: "1970년대 초, 정부가 시멘트 335포대씩만 지급하자 주민들은 자발적으로 모금을 보태고 삽을 들며 수십 배의 기적(큰 교량 건설 등)을 빚어냈습니다. 스스로 돕는 힘이 가장 크네요!",
+  COOPERATION: "'백지장도 맞들면 낫다'는 말처럼, 황무지를 옥토로 바꾸고 마을 안길을 넓힌 일등 공신은 주민 전체가 합심해 함께 땀 흘린 '울력'과 협동의 시너지였답니다.",
+  SHARING: "옛 조상들이 흉년이나 어려운 이웃을 돕던 온정이 1970년대 저축과 절미(쌀 아끼기) 운동으로 계승되었고, 이는 전 세계와 온기를 나누는 현대적 나눔 정신으로 진화했어요!",
+  SERVICE: "이권이나 직함도 없이 새벽부터 비질을 시작하며 묵묵히 동네를 청소했던 새마을부녀회의 자발적 헌신이 있었습니다. 대가 없는 이타심이 바로 우리 사회의 가장 아름다운 윤활유죠.",
+  CREATION: "단순히 시키는 노동에 그치지 않고, 비닐하우스 재배법이나 보온 절충 못자리 같은 최신 스마트 영농 기법을 창의적으로 연구하고 재빨리 보급하여 4계절 농업 신화를 만들었답니다!"
+};
+
 // ── 6대 정신 질문 데이터 ──
 const questions = [
   {
@@ -157,6 +166,8 @@ const SpiritTest = () => {
   const [resultType, setResultType] = useState(null);
   const [selectedIdx, setSelectedIdx] = useState(null);
   const [showCover, setShowCover] = useState(true);
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [pendingResult, setPendingResult] = useState(null);
 
   const handleOptionClick = (option, idx) => {
     if (selectedIdx !== null) return;
@@ -165,16 +176,25 @@ const SpiritTest = () => {
       const newScores = { ...scores, [option.type]: scores[option.type] + 1 };
       const newAnswers = [...selectedAnswers, { type: option.type, text: option.text }];
 
-      setScores(newScores);
-      setSelectedAnswers(newAnswers);
       setSelectedIdx(null);
 
       if (step < questions.length - 1) {
+        setScores(newScores);
+        setSelectedAnswers(newAnswers);
         setStep(step + 1);
       } else {
-        // 가장 높은 점수 추출
+        // 마지막 질문 완료 -> 분석 화면 가동!
         const maxType = Object.keys(newScores).reduce((a, b) => (newScores[a] > newScores[b] ? a : b));
-        setResultType(maxType);
+        setPendingResult(maxType);
+        setIsAnalyzing(true);
+        
+        // 4초 후 최종 커밋
+        setTimeout(() => {
+          setScores(newScores);
+          setSelectedAnswers(newAnswers);
+          setResultType(maxType);
+          setIsAnalyzing(false);
+        }, 4000);
       }
     }, 400);
   };
@@ -214,6 +234,46 @@ const SpiritTest = () => {
     setSelectedIdx(null);
     setShowCover(true);
   };
+
+  // ── 분석 대기 화면 ──
+  if (isAnalyzing) {
+    const factText = SPIRIT_ANALYZING_FACTS[pendingResult] || "당신의 소중한 답변을 종합하여 대표정신을 탐색하고 있어요!";
+    return (
+      <div className="min-h-screen bg-slate-50 pt-24 pb-20 flex items-center justify-center">
+        <div className="container mx-auto px-6 max-w-lg text-center">
+          <div className="bg-white rounded-[40px] p-10 md:p-14 shadow-2xl border border-slate-100 relative overflow-hidden flex flex-col items-center">
+            
+            {/* 백그라운드 글로우 효과 */}
+            <div className="absolute -top-24 -left-24 w-48 h-48 bg-emerald-500/10 rounded-full blur-3xl animate-pulse" />
+            <div className="absolute -bottom-24 -right-24 w-48 h-48 bg-teal-500/10 rounded-full blur-3xl animate-pulse" />
+
+            {/* 뱅글뱅글 로더 */}
+            <div className="relative mb-8 flex items-center justify-center">
+              <div className="w-28 h-28 rounded-full border-4 border-slate-100 flex items-center justify-center relative z-10 shadow-md bg-white">
+                <img src="/mascot.png" alt="Saedaeng-i Mascot" className="w-20 h-20 object-contain" />
+              </div>
+              <div className="absolute inset-0 w-32 h-32 -ml-2 -mt-2 border-4 border-t-emerald-600 border-r-emerald-600/30 border-b-transparent border-l-transparent rounded-full animate-spin" />
+            </div>
+
+            <h2 className="text-2xl font-black text-slate-900 mb-2 flex items-center gap-2">
+              <span className="animate-bounce">✨</span> 분석 중입니다...
+            </h2>
+            <p className="text-sm text-slate-500 font-bold mb-8 tracking-tight">새댕이가 당신의 소중한 정신 가치들을 진단하는 중이에요!</p>
+
+            {/* 새댕이 말풍선 */}
+            <div className="w-full bg-emerald-50 border border-emerald-100 rounded-3xl p-6 relative animate-fade-in">
+              <div className="absolute -top-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-emerald-50 border-t border-l border-emerald-100 rotate-45" />
+              <span className="inline-block bg-emerald-600 text-white text-xs font-black px-2.5 py-1 rounded-full mb-3">💡 새댕이의 한마디</span>
+              <p className="text-slate-800 text-[15px] font-bold leading-relaxed break-keep">
+                "{factText}"
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   // ── 결과 화면 ──
   if (resultType) {

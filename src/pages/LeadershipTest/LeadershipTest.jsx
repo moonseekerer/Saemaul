@@ -11,6 +11,13 @@ const TYPE_META = {
   EXPERT:   { label: '전문가',       color: 'bg-purple-500',  light: 'bg-purple-50',  text: 'text-purple-600',  border: 'border-purple-200' },
 };
 
+const LEADERSHIP_ANALYZING_FACTS = {
+  LEADER: "1970년대 새마을지도자들은 오직 '우리 마을도 잘 살아보세'라는 신념으로 급여 없이 밤낮으로 헌신하며 마을 자립을 최전선에서 일구어냈답니다! 당신도 이런 투철한 솔선수범 정신을 지녔군요.",
+  VILLAGER: "당시 주민들이 협동하여 손수 넓힌 진입로 총 길이는 무려 43,000km나 됩니다! 지구 한 바퀴를 돌고도 남는 이 엄청난 기적이 오직 '협동'과 단합의 힘으로 일어났다는 사실이 놀랍지 않나요?",
+  OFFICIAL: "당시 새마을 담당 공무원들은 권위를 벗어던지고 현장에서 마을 사람들과 부대끼며 밤낮없이 시멘트를 나르고 자재 조달을 도왔답니다. 현장에서 완성되는 꼼꼼한 밀착 지원 정신을 닮았어요!",
+  EXPERT: "새마을운동은 막연한 노동을 넘어 학계 연구진과 전문가들이 대거 결합하여 과학적 주택 설계, 정밀 농업 지도, 수자원 개발을 접목한 고도의 '지식형 농촌 스마트 혁신'이었답니다."
+};
+
 // ── 점수 분석 패널 ──
 const StatsPanel = ({ scores, selectedAnswers }) => {
   const [open, setOpen] = useState(false);
@@ -123,6 +130,9 @@ const LeadershipTest = () => {
   });
 
   const [selectedIdx, setSelectedIdx] = useState(null);
+  const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [pendingResult, setPendingResult] = useState(null);
+  
   // showCover: 테스트 시작 전 표지 화면 여부 (세션 저장 안 함)
   // 이미 진행 중인 세션(step>0)이거나 결과가 있으면 표지 skip
   const [showCover, setShowCover] = useState(() => {
@@ -154,15 +164,27 @@ const LeadershipTest = () => {
         text: option.text,
         historicalNote: option.historicalNote,
       }];
-      setScores(newScores);
-      setSelectedAnswers(newAnswers);
+      
       setSelectedIdx(null);
+      
       if (step < questions.length - 1) {
+        setScores(newScores);
+        setSelectedAnswers(newAnswers);
         setStep(step + 1);
       } else {
-        const maxType = Object.keys(newScores).reduce((a, b) => newScores[a] > newScores[b] ? a : b);
-        setResultType(maxType);
-        setStep(questions.length);
+        // 마지막 질문 완료 -> 분석 로딩 가동!
+        const maxType = Object.keys(newScores).reduce((a, b) => (newScores[a] > newScores[b] ? a : b));
+        setPendingResult(maxType);
+        setIsAnalyzing(true);
+        
+        // 4초 대기 후 결과 세팅 및 분석종료
+        setTimeout(() => {
+          setScores(newScores);
+          setSelectedAnswers(newAnswers);
+          setResultType(maxType);
+          setStep(questions.length);
+          setIsAnalyzing(false);
+        }, 4000);
       }
     }, 500);
   };
@@ -230,6 +252,46 @@ const LeadershipTest = () => {
       alert('카카오톡 공유 기능이 초기화되지 않았습니다.');
     }
   };
+
+  // ── 분석 대기 화면 ──
+  if (isAnalyzing) {
+    const factText = LEADERSHIP_ANALYZING_FACTS[pendingResult] || "당신의 탁월한 선택을 통해 리더십 유형을 분석하고 있어요!";
+    return (
+      <div className="min-h-screen bg-slate-50 pt-24 pb-20 flex items-center justify-center">
+        <div className="container mx-auto px-6 max-w-lg text-center">
+          <div className="bg-white rounded-[40px] p-10 md:p-14 shadow-2xl border border-slate-100 relative overflow-hidden flex flex-col items-center">
+            
+            {/* 백그라운드 글로우 효과 */}
+            <div className="absolute -top-24 -left-24 w-48 h-48 bg-saemaul-green/10 rounded-full blur-3xl animate-pulse" />
+            <div className="absolute -bottom-24 -right-24 w-48 h-48 bg-amber-400/10 rounded-full blur-3xl animate-pulse" />
+
+            {/* 뱅글뱅글 로더 */}
+            <div className="relative mb-8 flex items-center justify-center">
+              <div className="w-28 h-28 rounded-full border-4 border-slate-100 flex items-center justify-center relative z-10 shadow-md bg-white">
+                <img src="/mascot.png" alt="Saedaeng-i Mascot" className="w-20 h-20 object-contain" />
+              </div>
+              <div className="absolute inset-0 w-32 h-32 -ml-2 -mt-2 border-4 border-t-saemaul-green border-r-saemaul-green/30 border-b-transparent border-l-transparent rounded-full animate-spin" />
+            </div>
+
+            <h2 className="text-2xl font-black text-slate-900 mb-2 flex items-center gap-2">
+              <span className="animate-bounce">🌱</span> 분석 중입니다...
+            </h2>
+            <p className="text-sm text-slate-500 font-bold mb-8 tracking-tight">새댕이가 당신의 선택지를 꼼꼼히 읽어보는 중이에요!</p>
+
+            {/* 새댕이 말풍선 */}
+            <div className="w-full bg-emerald-50 border border-emerald-100 rounded-3xl p-6 relative animate-fade-in">
+              <div className="absolute -top-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-emerald-50 border-t border-l border-emerald-100 rotate-45" />
+              <span className="inline-block bg-emerald-600 text-white text-xs font-black px-2.5 py-1 rounded-full mb-3">💡 새댕이의 한마디</span>
+              <p className="text-slate-800 text-[15px] font-bold leading-relaxed break-keep">
+                "{factText}"
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   // ── 결과 화면 ──
   if (resultType) {
