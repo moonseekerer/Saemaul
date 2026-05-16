@@ -121,6 +121,45 @@ const fallbackPosts = [
   }
 ];
 
+const discussionTopics = [
+  {
+    id: 1,
+    title: '스마트 팜 기술 도입을 통한 마을 소득 증대 방안',
+    author: '김마을 이장',
+    date: '2026-05-15',
+    participants: 24,
+    status: '진행중',
+    category: '기술혁신'
+  },
+  {
+    id: 2,
+    title: '탄소 중립 실천을 위한 마을 쓰레기 분리수거함 현대화',
+    author: '이협동 부녀회장',
+    date: '2026-05-14',
+    participants: 18,
+    status: '투표중',
+    category: '환경보호'
+  },
+  {
+    id: 3,
+    title: '청년 세대의 새마을운동 참여 확대를 위한 디지털 소통 전략',
+    author: '박청년 청년회장',
+    date: '2026-05-13',
+    participants: 32,
+    status: '진행중',
+    category: '세대통합'
+  },
+  {
+    id: 4,
+    title: '마을 회관 유휴 공간을 활용한 실버 정보화 교육 센터 구축',
+    author: '최자조 노인회장',
+    date: '2026-05-12',
+    participants: 15,
+    status: '검토완료',
+    category: '교육복지'
+  }
+];
+
 const travelDestinations = [
   {
     id: 1,
@@ -1192,15 +1231,48 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
 
             {/* TALK TAB */}
             {activeTab === 'talk' && (
-              <div className="flex flex-col gap-5 animate-fadeIn">
-                <div className="flex flex-col gap-1 pb-1 border-b border-[#e4e6eb]">
+              <div className="flex flex-col gap-6 animate-fadeIn">
+                <div className="flex flex-col gap-1 pb-1 border-b border-[#e4e6eb] relative">
                   <h2 className="text-2xl font-black text-[#1c1e21] tracking-tight flex items-center gap-2">💬 협동 토론방</h2>
                   <p className="text-[#65676b] text-[12px] font-bold">공동체의 문제를 함께 제안하고 논의하는 소통창구입니다.</p>
+                  <button className="absolute right-0 bottom-1 bg-[#00843D] text-white text-[10px] font-black px-3 py-1.5 rounded-lg shadow-sm hover:bg-[#006b31] transition-all flex items-center gap-1">
+                    <PlusCircle size={12} /> 새 토론 제안
+                  </button>
                 </div>
-                <div className="bg-white rounded-2xl border border-black/5 shadow-[0_8px_32px_rgba(0,0,0,0.05)] p-8 text-center flex flex-col items-center gap-3">
-                  <MessageCircle size={30} className="text-[#00843D]/30" />
-                  <h4 className="font-bold text-[#1c1e21] text-[14px]">아직 활성화된 토론방이 없습니다.</h4>
-                  <p className="text-[#65676b] text-[12px] max-w-sm leading-relaxed font-medium">피드에 자유로운 아이디어를 개진하여 활발한 토론의 초석을 다져보세요!</p>
+                
+                <div className="grid grid-cols-1 gap-4">
+                  {discussionTopics.map(topic => (
+                    <div key={topic.id} className="bg-white rounded-2xl p-5 border border-black/5 shadow-sm hover:shadow-md hover:border-[#00843D]/20 transition-all group cursor-pointer relative overflow-hidden">
+                       <div className="absolute top-0 left-0 w-1 h-full bg-[#00843D] opacity-0 group-hover:opacity-100 transition-opacity" />
+                       <div className="flex items-center justify-between mb-2">
+                          <div className="flex items-center gap-2">
+                             <span className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full font-black">{topic.category}</span>
+                             <span className={`text-[10px] px-2 py-0.5 rounded-full font-black ${
+                               topic.status === '진행중' ? 'bg-emerald-50 text-[#00843D]' : 
+                               topic.status === '투표중' ? 'bg-amber-50 text-amber-600' : 'bg-slate-50 text-slate-400'
+                             }`}>{topic.status}</span>
+                          </div>
+                          <span className="text-[10px] font-bold text-slate-400">{topic.date}</span>
+                       </div>
+                       <h3 className="text-base font-bold text-[#1c1e21] mb-3 group-hover:text-[#00843D] transition-colors leading-snug">{topic.title}</h3>
+                       <div className="flex items-center justify-between mt-auto pt-3 border-t border-[#f0f2f5]">
+                          <div className="flex items-center gap-2">
+                             <div className="w-6 h-6 rounded-full bg-[#00843D]/10 flex items-center justify-center text-[#00843D] text-[10px] font-black">{topic.author[0]}</div>
+                             <span className="text-[11.5px] font-bold text-[#65676b]">{topic.author}</span>
+                          </div>
+                          <div className="flex items-center gap-3 text-[11px] font-black text-slate-400">
+                             <span className="flex items-center gap-1"><MessageCircle size={12} /> {topic.participants} 참여중</span>
+                             <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+                          </div>
+                       </div>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="bg-emerald-50/50 border border-dashed border-[#00843D]/30 rounded-2xl p-8 text-center flex flex-col items-center gap-3">
+                  <Sparkles size={24} className="text-[#00843D]/40" />
+                  <h4 className="font-bold text-[#1c1e21] text-[14px]">더 많은 아이디어를 들려주세요!</h4>
+                  <p className="text-[#65676b] text-[12px] max-w-sm leading-relaxed font-medium">우리 마을의 발전과 SDGs 달성을 위한 어떤 작은 의견도 소중한 토론의 시작이 됩니다.</p>
                 </div>
               </div>
             )}
