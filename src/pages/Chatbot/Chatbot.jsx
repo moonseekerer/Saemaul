@@ -457,11 +457,17 @@ const Chatbot = () => {
             tempHistory = [...tempHistory, newChunkMsg];
             setChatHistory(tempHistory);
             
-            // 타이핑 시간에 따른 대기 (최소 500ms ~ 최대 2000ms 사이 조절)
-            const waitTime = Math.min(Math.max(chunk.length * 30, 800), 2500);
-            await new Promise(resolve => setTimeout(resolve, waitTime));
+            // 타이핑 속도(15ms) + 문단 간 여유 시간(800ms)을 고려하여 대기
+            // 캡(2500ms)을 제거하여 긴 문장도 타이핑이 끝날 때까지 기다림
+            const typingDuration = chunk.length * 18; // 15ms speed + extra buffer
+            const pauseBetweenChunks = 800; 
+            await new Promise(resolve => setTimeout(resolve, typingDuration + pauseBetweenChunks));
             
-            // Firestore 저장 (개별 조각이 아닌 전체 답변으로 저장할 수도 있지만, 여기서는 조각별 저장)
+            // 타이핑 완료 후 isNew 상태를 false로 변경 (재렌더링 시 다시 타이핑 방지)
+            tempHistory = tempHistory.map(m => m.id === chunkId ? { ...m, isNew: false } : m);
+            setChatHistory(tempHistory);
+            
+            // Firestore 저장
             if (user) await saveMessageToFirestore({ text: chunk, type: 'bot', time: botTime });
           }
           
