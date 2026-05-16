@@ -383,10 +383,10 @@ const Community = () => {
   const handleTranslatePost = async (postId, content, userSelectedCode) => {
     if (isTranslatingMap[postId]) return;
 
-    // 단시간 내 반복 요청 제한 (10초 쿨타임)
+    // 단시간 내 반복 요청 제한 (로그인하지 않은 게스트만 10초 쿨타임 적용)
     const now = Date.now();
-    if (now - lastTranslateTime < 10000) {
-      alert("AI 번역은 10초에 한 번만 요청할 수 있습니다. 잠시 후 다시 시도해 주세요!");
+    if (!user && (now - lastTranslateTime < 10000)) {
+      alert("게스트는 AI 번역을 10초에 한 번만 요청할 수 있습니다. 로그인을 하시면 제한 없이 이용 가능합니다! 😊");
       return;
     }
     setLastTranslateTime(now);
