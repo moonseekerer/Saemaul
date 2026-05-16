@@ -1,8 +1,20 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { auth } from '../../firebase';
+import { auth, db } from '../../firebase';
 import { onAuthStateChanged } from 'firebase/auth';
+import { 
+  collection, 
+  addDoc, 
+  serverTimestamp, 
+  query, 
+  where, 
+  orderBy, 
+  getDocs, 
+  doc, 
+  setDoc,
+  limit
+} from 'firebase/firestore';
 import './Chatbot.css';
 import { Bot, Trash2 } from 'lucide-react';
 
@@ -191,6 +203,8 @@ const Chatbot = () => {
   const [user, setUser] = useState(null);
   const [showNameModal, setShowNameModal] = useState(false);
   const [tempNickname, setTempNickname] = useState('');
+  const [consent, setConsent] = useState(false);
+  const [isDbLoading, setIsDbLoading] = useState(false);
   
   // Use Firebase user name if available, otherwise default to "Guest" or stored nickname
   const defaultNickname = localStorage.getItem('saemaul_nickname') || '';
@@ -212,10 +226,11 @@ const Chatbot = () => {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
-      if (currentUser?.displayName) {
-        setNickname(currentUser.displayName);
-        localStorage.setItem('saemaul_nickname', currentUser.displayName);
+      if (currentUser) {
+        setNickname(currentUser.displayName || 'Guest');
+        localStorage.setItem('saemaul_nickname', currentUser.displayName || 'Guest');
         setShowNameModal(false);
+        loadChatFromFirestore(currentUser.uid);
       } else {
         const stored = localStorage.getItem('saemaul_nickname');
         if (!stored) {
@@ -227,6 +242,29 @@ const Chatbot = () => {
     });
     return () => unsubscribe();
   }, []);
+
+  const loadChatFromFirestore = async (uid) => {
+    setIsDbLoading(true);
+    try {
+      const q = query(
+        collection(db, `users/${uid}/messages`),
+        orderBy('timestamp', 'asc'),
+        limit(50)
+      );
+      const querySnapshot = await getDocs(q);
+      const history = [];
+      querySnapshot.forEach((doc) => {
+        history.push({ id: doc.id, ...doc.data() });
+      });
+      if (history.length > 0) {
+        setChatHistory(history);
+      }
+    } catch (e) {
+      console.error("Error loading chat history from Firestore: ", e);
+    } finally {
+      setIsDbLoading(false);
+    }
+  };
 
   useEffect(() => {
     // Load chat history from local storage on mount
@@ -255,9 +293,43 @@ const Chatbot = () => {
       alert(currentLang === 'ko' ? '닉네임을 입력해주세요!' : 'Please enter your nickname!');
       return;
     }
+    if (!consent) {
+      alert(currentLang === 'ko' ? '데이터 수집 및 이용에 동의해주세요.' : 'Please consent to data collection.');
+      return;
+    }
     setNickname(tempNickname.trim());
     localStorage.setItem('saemaul_nickname', tempNickname.trim());
+    localStorage.setItem('saemaul_consent', 'true');
     setShowNameModal(false);
+  };
+
+  const saveMessageToFirestore = async (msgData) => {
+    if (!user) return;
+    try {
+      await addDoc(collection(db, `users/${user.uid}/messages`), {
+        ...msgData,
+        timestamp: serverTimestamp()
+      });
+    } catch (e) {
+      console.error("Error adding document: ", e);
+    }
+  };
+
+  const collectQuestionForAdmin = async (question) => {
+    // 동의한 경우에만 수집
+    const hasConsent = localStorage.getItem('saemaul_consent') === 'true' || user;
+    if (!hasConsent) return;
+
+    try {
+      await addDoc(collection(db, 'collected_questions'), {
+        question,
+        uid: user ? user.uid : 'guest',
+        nickname: nickname,
+        timestamp: serverTimestamp()
+      });
+    } catch (e) {
+      console.error("Error collecting question: ", e);
+    }
   };
 
   const handleClearChat = () => {
@@ -290,16 +362,20 @@ const Chatbot = () => {
 
     const timeStr = new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'});
     
-    const newUserMsg = { id: Date.now().toString(), text: text, type: 'user', time: timeStr };
-    const newHistory = [...chatHistory, newUserMsg];
+    const newUserMsg = { text: text, type: 'user', time: timeStr };
+    const newHistory = [...chatHistory, { id: Date.now().toString(), ...newUserMsg }];
     
     setChatHistory(newHistory);
     setInputMessage('');
     setIsLoading(true);
     
-    // Save to local storage
+    // Save locally
     if (newHistory.length > 50) newHistory.shift();
     localStorage.setItem('saemaul_chat_history', JSON.stringify(newHistory));
+
+    // Save to Firestore and Collect
+    if (user) await saveMessageToFirestore(newUserMsg);
+    await collectQuestionForAdmin(text);
 
     let success = false;
     let lastError = null;
@@ -334,12 +410,15 @@ const Chatbot = () => {
           const answer = data.choices?.[0]?.message?.content || data.response || "응답을 파싱할 수 없습니다.";
           const botTime = new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'});
           
-          const newBotMsg = { id: (Date.now()+1).toString(), text: answer, type: 'bot', time: botTime };
-          const finalHistory = [...newHistory, newBotMsg];
+          const newBotMsg = { text: answer, type: 'bot', time: botTime };
+          const finalHistory = [...newHistory, { id: (Date.now()+1).toString(), ...newBotMsg }];
           
           setChatHistory(finalHistory);
           if (finalHistory.length > 50) finalHistory.shift();
           localStorage.setItem('saemaul_chat_history', JSON.stringify(finalHistory));
+          
+          // Save Bot response to Firestore
+          if (user) await saveMessageToFirestore(newBotMsg);
           
           success = true;
           break;
@@ -570,6 +649,18 @@ const Chatbot = () => {
               onKeyDown={(e) => e.key === 'Enter' && handleSaveNickname()}
               placeholder={t.modal?.placeholder || (currentLang === 'ko' ? '닉네임을 입력해주세요...' : 'Enter your nickname...')}
             />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '15px', justifyContent: 'center', fontSize: '12px', color: '#666' }}>
+              <input 
+                type="checkbox" 
+                id="consent" 
+                checked={consent} 
+                onChange={(e) => setConsent(e.target.checked)}
+                style={{ width: 'auto', margin: '0' }}
+              />
+              <label htmlFor="consent" style={{ cursor: 'pointer' }}>
+                {currentLang === 'ko' ? '서비스 개선을 위한 대화 내용 수집에 동의합니다. (필수)' : 'Consent to data collection for service improvement. (Required)'}
+              </label>
+            </div>
             <button className="chatbot-name-modal-btn" onClick={handleSaveNickname}>
               {t.modal?.start || (currentLang === 'ko' ? '시작하기' : 'Get Started')}
             </button>
