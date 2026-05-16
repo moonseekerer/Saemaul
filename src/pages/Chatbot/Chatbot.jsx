@@ -4,7 +4,7 @@ import remarkGfm from 'remark-gfm';
 import { auth } from '../../firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import './Chatbot.css';
-import { Bot } from 'lucide-react';
+import { Bot, Trash2 } from 'lucide-react';
 
 const apiKeys = [
     ['gsk', '_XCKaq0PD3u7', 'duHNinDt9WGdyb3FYVUJZxrcUSTnly8CWzh8qBYJ7'].join(''),
@@ -189,9 +189,11 @@ You are informed by the 'Knowledge Hub' available on this platform. When answeri
 
 const Chatbot = () => {
   const [user, setUser] = useState(null);
+  const [showNameModal, setShowNameModal] = useState(false);
+  const [tempNickname, setTempNickname] = useState('');
   
   // Use Firebase user name if available, otherwise default to "Guest" or stored nickname
-  const defaultNickname = localStorage.getItem('saemaul_nickname') || 'Guest';
+  const defaultNickname = localStorage.getItem('saemaul_nickname') || '';
   
   const [nickname, setNickname] = useState(defaultNickname);
   const [currentLang, setCurrentLang] = useState('ko');
@@ -213,6 +215,14 @@ const Chatbot = () => {
       if (currentUser?.displayName) {
         setNickname(currentUser.displayName);
         localStorage.setItem('saemaul_nickname', currentUser.displayName);
+        setShowNameModal(false);
+      } else {
+        const stored = localStorage.getItem('saemaul_nickname');
+        if (!stored) {
+          setShowNameModal(true);
+        } else {
+          setNickname(stored);
+        }
       }
     });
     return () => unsubscribe();
@@ -228,15 +238,40 @@ const Chatbot = () => {
         console.error("Failed to parse chat history");
       }
     } else {
-      // Add initial greeting
-      setChatHistory([{
+      // Add initial greeting only if we have a nickname
+      if (nickname) {
+        setChatHistory([{
+          id: Date.now().toString(),
+          text: t.greet(nickname),
+          type: 'bot',
+          time: new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'})
+        }]);
+      }
+    }
+  }, [nickname]);
+
+  const handleSaveNickname = () => {
+    if (!tempNickname.trim()) {
+      alert(currentLang === 'ko' ? '닉네임을 입력해주세요!' : 'Please enter your nickname!');
+      return;
+    }
+    setNickname(tempNickname.trim());
+    localStorage.setItem('saemaul_nickname', tempNickname.trim());
+    setShowNameModal(false);
+  };
+
+  const handleClearChat = () => {
+    if (window.confirm(currentLang === 'ko' ? '정말 대화 내용을 모두 지우시겠습니까?' : 'Are you sure you want to clear chat history?')) {
+      const initialHistory = [{
         id: Date.now().toString(),
-        text: t.greet(nickname),
+        text: t.greet(nickname || 'Guest'),
         type: 'bot',
         time: new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'})
-      }]);
+      }];
+      setChatHistory(initialHistory);
+      localStorage.setItem('saemaul_chat_history', JSON.stringify(initialHistory));
     }
-  }, []);
+  };
 
   useEffect(() => {
     // Scroll to bottom on new message
@@ -351,6 +386,15 @@ const Chatbot = () => {
           <span>{t.headerTitle}</span>
         </div>
         <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
+          {activeTab === 'chat' && (
+            <button 
+              onClick={handleClearChat}
+              style={{ background: 'transparent', color: 'var(--text-light)', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', padding: '0' }}
+              title={currentLang === 'ko' ? '대화 초기화' : 'Clear Chat'}
+            >
+              <Trash2 size={18} />
+            </button>
+          )}
           <button 
             onClick={toggleLanguage} 
             style={{ background: 'var(--primary-color)', color: 'white', border: 'none', padding: '5px 10px', borderRadius: '15px', fontSize: '12px', fontWeight: 'bold', cursor: 'pointer' }}
@@ -511,6 +555,27 @@ const Chatbot = () => {
           <span>{t.nav.mypage}</span>
         </div>
       </div>
+
+      {/* Name Modal */}
+      {showNameModal && (
+        <div className="chatbot-name-modal-overlay">
+          <div className="chatbot-name-modal">
+            <img src={`${import.meta.env.BASE_URL}mascot.png`} alt="Mascot" style={{ width: '80px', height: '80px', borderRadius: '50%', marginBottom: '15px' }} />
+            <h2>{t.modal?.welcome || (currentLang === 'ko' ? '반가워요! 🌱' : 'Welcome! 🌱')}</h2>
+            <p>{t.modal?.desc || (currentLang === 'ko' ? '새마을AI가 당신을 어떻게 부를까요?' : 'How should Saemaul AI call you?')}</p>
+            <input 
+              type="text" 
+              value={tempNickname}
+              onChange={(e) => setTempNickname(e.target.value)}
+              onKeyDown={(e) => e.key === 'Enter' && handleSaveNickname()}
+              placeholder={t.modal?.placeholder || (currentLang === 'ko' ? '닉네임을 입력해주세요...' : 'Enter your nickname...')}
+            />
+            <button className="chatbot-name-modal-btn" onClick={handleSaveNickname}>
+              {t.modal?.start || (currentLang === 'ko' ? '시작하기' : 'Get Started')}
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
