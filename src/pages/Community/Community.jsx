@@ -182,6 +182,7 @@ const Community = () => {
   const [isTranslatingMap, setIsTranslatingMap] = useState({}); // { [postId]: boolean }
   const [postTargetLang, setPostTargetLang] = useState({}); // { [postId]: "lang_code" }
   const [lastTranslateTime, setLastTranslateTime] = useState(0);
+  const [userLikedPosts, setUserLikedPosts] = useState(new Set()); // 유저가 좋아요 누른 포스트 ID 셋
 
   // Clipboard
   const [copiedId, setCopiedId] = useState(null);
@@ -306,9 +307,24 @@ const Community = () => {
         return acc;
       }, {});
       setCommentsMap(grouped);
-    }, (error) => console.error(error));
+    }, (error) => console.error("Comments fetch error:", error));
     return unsubscribe;
   }, []);
+
+  // 좋아요 상태 추적
+  useEffect(() => {
+    if (user) {
+      const q = query(collection(db, 'post_likes'), where('uid', '==', user.uid));
+      const unsubscribe = onSnapshot(q, (snapshot) => {
+        const likedIds = new Set(snapshot.docs.map(doc => doc.data().postId));
+        setUserLikedPosts(likedIds);
+      }, (error) => console.error("Likes fetch error:", error));
+      return unsubscribe;
+    } else {
+      const saved = JSON.parse(localStorage.getItem('saemaul_guest_likes') || '[]');
+      setUserLikedPosts(new Set(saved));
+    }
+  }, [user]);
 
   const checkTodayAttendance = async (currentUser) => {
     try {
@@ -535,10 +551,46 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
   };
 
   const handleLikePost = async (postId) => {
+    // 게스트 처리
+    if (!user) {
+      const currentLikes = new Set(userLikedPosts);
+      const postRef = doc(db, 'posts', postId);
+      try {
+        if (currentLikes.has(postId)) {
+          currentLikes.delete(postId);
+          await updateDoc(postRef, { likes: increment(-1) });
+        } else {
+          currentLikes.add(postId);
+          await updateDoc(postRef, { likes: increment(1) });
+        }
+        setUserLikedPosts(currentLikes);
+        localStorage.setItem('saemaul_guest_likes', JSON.stringify([...currentLikes]));
+      } catch (e) { console.error("Guest like error:", e); }
+      return;
+    }
+
+    // 로그인 유저 처리 (토글)
     try {
       const postRef = doc(db, 'posts', postId);
-      await updateDoc(postRef, { likes: increment(1) });
-    } catch (e) {}
+      const likeQuery = query(collection(db, 'post_likes'), where('postId', '==', postId), where('uid', '==', user.uid));
+      const likeSnap = await getDocs(likeQuery);
+
+      if (!likeSnap.empty) {
+        // 이미 좋아요를 누름 -> 취소
+        await deleteDoc(doc(db, 'post_likes', likeSnap.docs[0].id));
+        await updateDoc(postRef, { likes: increment(-1) });
+      } else {
+        // 안 눌렀음 -> 추가
+        await addDoc(collection(db, 'post_likes'), {
+          postId,
+          uid: user.uid,
+          timestamp: serverTimestamp()
+        });
+        await updateDoc(postRef, { likes: increment(1) });
+      }
+    } catch (e) {
+      console.error("Auth user like error:", e);
+    }
   };
 
   const handleShare = (id) => {
@@ -557,17 +609,20 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
     
     setIsSubmittingComment(true);
     try {
-      await addDoc(collection(db, 'comments'), {
-        postId,
+      const commentData = {
+        postId: postId,
         uid: user.uid,
-        displayName: user.displayName || '익명 주민',
+        displayName: user.displayName || nickname || '익명 주민',
         photoURL: user.photoURL || '',
         content: commentTexts[postId],
         timestamp: serverTimestamp()
-      });
+      };
+      
+      await addDoc(collection(db, 'comments'), commentData);
       setCommentTexts(prev => ({ ...prev, [postId]: '' }));
     } catch (e) {
-      alert("댓글 작성 중 오류가 발생했습니다.");
+      console.error("Comment submit error:", e);
+      alert(`댓글 작성 중 오류가 발생했습니다: ${e.message}`);
     } finally {
       setIsSubmittingComment(false);
     }
@@ -878,10 +933,15 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
                         {/* Image Attachment */}
                         {post.image && (<div className="w-full border-y border-[#f0f2f5] bg-[#f8f9fa] overflow-hidden flex justify-center max-h-[480px]"><img src={post.image} alt="Post media" className="w-full h-auto object-cover block" /></div>)}
                         
-                        {/* FOOTER INTERACTIONS */}
                         <div className="px-4 py-3 flex flex-wrap items-center gap-x-5 gap-y-3 border-t border-[#f0f2f5] text-[12.5px] font-bold text-[#65676b]">
                           <div className="flex items-center gap-5 shrink-0">
-                            <button onClick={() => !post.id.startsWith('mock') && handleLikePost(post.id)} className={`flex items-center gap-1.5 hover:text-red-500 transition-colors ${post.id.startsWith('mock') ? 'cursor-default opacity-80' : ''}`}><Heart size={14} className={post.likes > 0 ? "fill-red-500 text-red-500" : ""} /><span>{post.likes || 0}</span></button>
+                            <button 
+                              onClick={() => !post.id.startsWith('mock') && handleLikePost(post.id)} 
+                              className={`flex items-center gap-1.5 hover:text-red-500 transition-colors ${post.id.startsWith('mock') ? 'cursor-default opacity-80' : ''} ${userLikedPosts.has(post.id) ? 'text-red-500' : ''}`}
+                            >
+                              <Heart size={14} className={userLikedPosts.has(post.id) ? "fill-red-500 text-red-500" : ""} />
+                              <span>{post.likes || 0}</span>
+                            </button>
                             <button 
                               onClick={() => handleToggleComments(post.id)}
                               className={`flex items-center gap-1.5 hover:text-[#00843D] transition-colors ${expandedComments[post.id] ? 'text-[#00843D]' : ''}`}
