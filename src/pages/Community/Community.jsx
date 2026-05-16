@@ -263,13 +263,29 @@ const Community = () => {
       setMyAttendances([]);
       return;
     }
-    const myPostsQ = query(collection(db, 'posts'), where('uid', '==', user.uid), orderBy('timestamp', 'desc'));
+    // 색인(Index) 없이도 즉시 반영되도록 orderBy 제거 후 클라이언트에서 정렬
+    const myPostsQ = query(collection(db, 'posts'), where('uid', '==', user.uid));
     const unsubMyPosts = onSnapshot(myPostsQ, (snap) => {
-      setMyPosts(snap.docs.map(d => ({ id: d.id, ...d.data() })));
+      const sortedPosts = snap.docs
+        .map(d => ({ id: d.id, ...d.data() }))
+        .sort((a, b) => {
+          const t1 = a.timestamp?.seconds || Date.now() / 1000;
+          const t2 = b.timestamp?.seconds || Date.now() / 1000;
+          return t2 - t1;
+        });
+      setMyPosts(sortedPosts);
     });
-    const myAttQ = query(collection(db, 'attendance'), where('uid', '==', user.uid), orderBy('timestamp', 'desc'));
+
+    const myAttQ = query(collection(db, 'attendance'), where('uid', '==', user.uid));
     const unsubMyAtt = onSnapshot(myAttQ, (snap) => {
-      setMyAttendances(snap.docs.map(d => ({ id: d.id, ...d.data() })));
+      const sortedAtt = snap.docs
+        .map(d => ({ id: d.id, ...d.data() }))
+        .sort((a, b) => {
+          const t1 = a.timestamp?.seconds || Date.now() / 1000;
+          const t2 = b.timestamp?.seconds || Date.now() / 1000;
+          return t2 - t1;
+        });
+      setMyAttendances(sortedAtt);
     });
     return () => {
       unsubMyPosts();
