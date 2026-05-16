@@ -24,6 +24,29 @@ const apiKeys = [
 ];
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
+const Typewriter = ({ text, speed = 20, onComplete }) => {
+  const [displayedText, setDisplayedText] = useState('');
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayedText((prev) => prev + text.charAt(index));
+        setIndex((prev) => prev + 1);
+      }, speed);
+      return () => clearTimeout(timeout);
+    } else if (onComplete) {
+      onComplete();
+    }
+  }, [index, text, speed, onComplete]);
+
+  return (
+    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+      {displayedText}
+    </ReactMarkdown>
+  );
+};
+
 const documentsContext = `
 [삼성전자금고]
 「서로 믿고 도우면서 살아온 겨레, 착하고 부지런한 우리 아닌가」
@@ -410,16 +433,31 @@ const Chatbot = () => {
           const answer = data.choices?.[0]?.message?.content || data.response || "응답을 파싱할 수 없습니다.";
           const botTime = new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'});
           
-          const newBotMsg = { text: answer, type: 'bot', time: botTime };
-          const finalHistory = [...newHistory, { id: (Date.now()+1).toString(), ...newBotMsg }];
+          setIsLoading(false); // 로딩 종료
+
+          // 문단 단위로 메시지 분할 (\n\n 기준)
+          const chunks = answer.split('\n\n').filter(c => c.trim());
           
-          setChatHistory(finalHistory);
-          if (finalHistory.length > 50) finalHistory.shift();
-          localStorage.setItem('saemaul_chat_history', JSON.stringify(finalHistory));
+          let tempHistory = [...newHistory];
           
-          // Save Bot response to Firestore
-          if (user) await saveMessageToFirestore(newBotMsg);
+          for (let i = 0; i < chunks.length; i++) {
+            const chunk = chunks[i];
+            const chunkId = (Date.now() + i + 1).toString();
+            const newChunkMsg = { id: chunkId, text: chunk, type: 'bot', time: botTime, isNew: true };
+            
+            // 말풍선 추가
+            tempHistory = [...tempHistory, newChunkMsg];
+            setChatHistory(tempHistory);
+            
+            // 타이핑 시간에 따른 대기 (최소 500ms ~ 최대 2000ms 사이 조절)
+            const waitTime = Math.min(Math.max(chunk.length * 30, 800), 2500);
+            await new Promise(resolve => setTimeout(resolve, waitTime));
+            
+            // Firestore 저장 (개별 조각이 아닌 전체 답변으로 저장할 수도 있지만, 여기서는 조각별 저장)
+            if (user) await saveMessageToFirestore({ text: chunk, type: 'bot', time: botTime });
+          }
           
+          localStorage.setItem('saemaul_chat_history', JSON.stringify(tempHistory));
           success = true;
           break;
         } else {
@@ -497,9 +535,13 @@ const Chatbot = () => {
               <div key={msg.id} className={`chatbot-message-wrapper ${msg.type}`}>
                 <div className={`${msg.type === 'bot' ? 'chatbot-bot-msg-content' : 'chatbot-user-msg-content'}`}>
                   <div className="chatbot-bubble">
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                      {msg.text}
-                    </ReactMarkdown>
+                    {msg.type === 'bot' && msg.isNew ? (
+                      <Typewriter text={msg.text} speed={15} />
+                    ) : (
+                      <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                        {msg.text}
+                      </ReactMarkdown>
+                    )}
                   </div>
                   <div className="chatbot-time-stamp">{msg.time}</div>
                 </div>
