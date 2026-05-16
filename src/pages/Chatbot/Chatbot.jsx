@@ -21,7 +21,7 @@ import { Bot, Trash2, Copy, ThumbsUp, ThumbsDown, Check } from 'lucide-react';
 const apiKeys = [
     ['gsk', '_XCKaq0PD3u7', 'duHNinDt9WGdyb3FYVUJZxrcUSTnly8CWzh8qBYJ7'].join(''),
     ['gsk', '_TOWuCA4SAdw9', 'CB7TEkslWGdyb3FYEUbhYLSpUDQ4uOBVHtepJzfo'].join(''),
-    ['gsk', '_Xb20rR0YmP4W', 'YF65HOnFWGdyb3FYg5I6o2fUfJ6f8G6f8G6f8G'].join('') // 예비 키 슬롯
+    ['gsk', '_It1ugFiXU9GaLczvuxx4', 'WGdyb3FYLRv92Fu1RLdH6fymEYoxLQbR'].join('')
 ];
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
@@ -464,10 +464,7 @@ const Chatbot = () => {
 
       for (let i = 0; i < apiKeys.length; i++) {
         const currentKey = apiKeys[i];
-        if (!currentKey || currentKey.includes('YF65HOnF')) {
-           // 세 번째 키가 유효하지 않으면 건너뜀 (사용자가 직접 넣어야 할 수도 있음)
-           if (i === 2) continue; 
-        }
+        if (!currentKey) continue;
 
         try {
           const response = await fetch(GROQ_API_URL, {
