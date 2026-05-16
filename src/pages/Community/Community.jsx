@@ -235,6 +235,13 @@ const Community = () => {
   const [newTalkCategory, setNewTalkCategory] = useState('기술혁신');
   const [isSubmittingTalk, setIsSubmittingTalk] = useState(false);
 
+  // Missing States for Comments and UI
+  const [commentsMap, setCommentsMap] = useState({});
+  const [commentTexts, setCommentTexts] = useState({});
+  const [expandedComments, setExpandedComments] = useState({});
+  const [nickname, setNickname] = useState('');
+
+
   const defaultTrends = [
     '1. 탄소중립 실천',
     '2. 스마트 팜 교육',
