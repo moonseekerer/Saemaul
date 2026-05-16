@@ -34,7 +34,7 @@ import {
 } from 'firebase/auth';
 
 const NavItem = ({ label, to }) => (
-  <Link to={to || '#!'} className="nav-link flex flex-col items-start group">
+  <Link to={to || '#!'} className="nav-link flex flex-col items-start group whitespace-nowrap">
     <span className="text-sm font-semibold">{label}</span>
   </Link>
 );
@@ -521,7 +521,7 @@ function App() {
             </span>
           </Link>
 
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-8">
             <NavItem label={t('nav.home')} to="/" />
             <NavItem label={t('nav.test')} to="/saemaul-test" />
             <NavItem label={t('nav.chatbot')} to="/chatbot" />
@@ -561,7 +561,7 @@ function App() {
             {/* Hamburger Menu Button */}
             <button 
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="md:hidden p-2 rounded-xl hover:bg-slate-100 transition-colors text-slate-700 focus:outline-none z-50"
+              className="lg:hidden p-2 rounded-xl hover:bg-slate-100 transition-colors text-slate-700 focus:outline-none z-50"
               aria-label="Toggle navigation menu"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -569,7 +569,7 @@ function App() {
           </div>
 
           {/* Mobile Dropdown Menu Panel */}
-          <div className={`absolute top-[100%] left-0 w-full bg-white border-t border-slate-100 shadow-2xl flex-col py-6 px-6 md:hidden z-40 transition-all duration-300 ${isMenuOpen ? 'flex opacity-100 translate-y-0' : 'hidden opacity-0 -translate-y-4'}`}>
+          <div className={`absolute top-[100%] left-0 w-full bg-white border-t border-slate-100 shadow-2xl flex-col py-6 px-6 lg:hidden z-40 transition-all duration-300 ${isMenuOpen ? 'flex opacity-100 translate-y-0' : 'hidden opacity-0 -translate-y-4'}`}>
             <div className="flex flex-col gap-2 font-bold text-slate-600 mb-6">
               {[
                 { label: t('nav.home'), to: "/" },
