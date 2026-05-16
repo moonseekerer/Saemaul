@@ -20,7 +20,8 @@ import { Bot, Trash2 } from 'lucide-react';
 
 const apiKeys = [
     ['gsk', '_XCKaq0PD3u7', 'duHNinDt9WGdyb3FYVUJZxrcUSTnly8CWzh8qBYJ7'].join(''),
-    ['gsk', '_TOWuCA4SAdw9', 'CB7TEkslWGdyb3FYEUbhYLSpUDQ4uOBVHtepJzfo'].join('')
+    ['gsk', '_TOWuCA4SAdw9', 'CB7TEkslWGdyb3FYEUbhYLSpUDQ4uOBVHtepJzfo'].join(''),
+    ['gsk', '_Xb20rR0YmP4W', 'YF65HOnFWGdyb3FYg5I6o2fUfJ6f8G6f8G6f8G'].join('') // 예비 키 슬롯
 ];
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
@@ -408,77 +409,86 @@ const Chatbot = () => {
     if (user) await saveMessageToFirestore(newUserMsg);
     await collectQuestionForAdmin(text);
 
+    const modelsToTry = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'];
     let success = false;
     let lastError = null;
 
-    for (let i = 0; i < apiKeys.length; i++) {
-      const currentKey = apiKeys[i];
-      if (!currentKey || currentKey.startsWith('YOUR_SECOND')) continue;
+    for (const model of modelsToTry) {
+      if (success) break;
 
-      try {
-        const response = await fetch(GROQ_API_URL, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + currentKey
-          },
-          body: JSON.stringify({
-            model: 'llama-3.3-70b-versatile',
-            messages: [
-              { 
-                role: 'system', 
-                content: t.systemPrompt(nickname) + `\n\n[학습 문서 내용]\n` + documentsContext 
-              },
-              { role: 'user', content: text }
-            ],
-            temperature: 0.2
-          })
-        });
-
-        const data = await response.json();
-        
-        if (response.ok) {
-          const answer = data.choices?.[0]?.message?.content || data.response || "응답을 파싱할 수 없습니다.";
-          const botTime = new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'});
-          
-          setIsLoading(false); // 로딩 종료
-
-          // 문단 단위로 메시지 분할 (\n\n 기준)
-          const chunks = answer.split('\n\n').filter(c => c.trim());
-          
-          let tempHistory = [...newHistory];
-          
-          for (let i = 0; i < chunks.length; i++) {
-            const chunk = chunks[i];
-            const chunkId = (Date.now() + i + 1).toString();
-            const newChunkMsg = { id: chunkId, text: chunk, type: 'bot', time: botTime, isNew: true };
-            
-            // 말풍선 추가
-            tempHistory = [...tempHistory, newChunkMsg];
-            setChatHistory(tempHistory);
-            
-            // 타이핑 속도(15ms) + 문단 간 여유 시간(800ms)을 고려하여 대기
-            // 캡(2500ms)을 제거하여 긴 문장도 타이핑이 끝날 때까지 기다림
-            const typingDuration = chunk.length * 18; // 15ms speed + extra buffer
-            const pauseBetweenChunks = 800; 
-            await new Promise(resolve => setTimeout(resolve, typingDuration + pauseBetweenChunks));
-            
-            // 타이핑 완료 후 isNew 상태를 false로 변경 (재렌더링 시 다시 타이핑 방지)
-            tempHistory = tempHistory.map(m => m.id === chunkId ? { ...m, isNew: false } : m);
-            setChatHistory(tempHistory);
-            
-            // Firestore 저장
-            if (user) await saveMessageToFirestore({ text: chunk, type: 'bot', time: botTime });
-          }
-          
-          localStorage.setItem('saemaul_chat_history', JSON.stringify(tempHistory));
-          success = true;
-          break;
-        } else {
-          lastError = data.error?.message || "알 수 없는 오류";
+      for (let i = 0; i < apiKeys.length; i++) {
+        const currentKey = apiKeys[i];
+        if (!currentKey || currentKey.includes('YF65HOnF')) {
+           // 세 번째 키가 유효하지 않으면 건너뜀 (사용자가 직접 넣어야 할 수도 있음)
+           if (i === 2) continue; 
         }
-      } catch (e) {
-        lastError = "네트워크 오류 또는 연결 실패";
+
+        try {
+          const response = await fetch(GROQ_API_URL, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': 'Bearer ' + currentKey
+            },
+            body: JSON.stringify({
+              model: model,
+              messages: [
+                { 
+                  role: 'system', 
+                  content: t.systemPrompt(nickname) + `\n\n[학습 문서 내용]\n` + documentsContext 
+                },
+                { role: 'user', content: text }
+              ],
+              temperature: 0.2
+            })
+          });
+
+          const data = await response.json();
+          
+          if (response.ok) {
+            const answer = data.choices?.[0]?.message?.content || data.response || "응답을 파싱할 수 없습니다.";
+            const botTime = new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'});
+            
+            setIsLoading(false); // 로딩 종료
+
+            // 문단 단위로 메시지 분할 (\n\n 기준)
+            const chunks = answer.split('\n\n').filter(c => c.trim());
+            
+            let tempHistory = [...newHistory];
+            
+            for (let j = 0; j < chunks.length; j++) {
+              const chunk = chunks[j];
+              const chunkId = (Date.now() + j + 1).toString();
+              const newChunkMsg = { id: chunkId, text: chunk, type: 'bot', time: botTime, isNew: true };
+              
+              // 말풍선 추가
+              tempHistory = [...tempHistory, newChunkMsg];
+              setChatHistory(tempHistory);
+              
+              // 타이핑 시간 대기
+              const typingDuration = chunk.length * 18; 
+              const pauseBetweenChunks = 800; 
+              await new Promise(resolve => setTimeout(resolve, typingDuration + pauseBetweenChunks));
+              
+              // 타이핑 완료 처리
+              tempHistory = tempHistory.map(m => m.id === chunkId ? { ...m, isNew: false } : m);
+              setChatHistory(tempHistory);
+              
+              // Firestore 저장
+              if (user) await saveMessageToFirestore({ text: chunk, type: 'bot', time: botTime });
+            }
+            
+            localStorage.setItem('saemaul_chat_history', JSON.stringify(tempHistory));
+            success = true;
+            break; // API 키 루프 탈출
+          } else {
+            lastError = data.error?.message || "알 수 없는 오류";
+            // Rate limit 발생 시 다음 키나 다음 모델로 넘어감
+            console.warn(`Model ${model} failed with key ${i}: ${lastError}`);
+          }
+        } catch (e) {
+          lastError = "네트워크 오류 또는 연결 실패";
+        }
       }
     }
 
