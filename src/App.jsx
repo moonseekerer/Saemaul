@@ -6,6 +6,7 @@ import SpiritTest from './pages/SaemaulTest/SpiritTest';
 import DocViewer from './pages/DocViewer/DocViewer';
 import KnowledgeHub from './pages/KnowledgeHub/KnowledgeHub';
 import Community from './pages/Community/Community';
+import Chatbot from './pages/Chatbot/Chatbot';
 import { 
   UserCheck, 
   Trophy, 
@@ -121,12 +122,8 @@ const ChatbotPage = () => {
           <h1 className="text-3xl font-black text-slate-900 mb-2">{t('nav.chatbot')}</h1>
           <p className="text-slate-500">{t('features.card3.desc')}</p>
         </div>
-        <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white" style={{ height: '80vh' }}>
-          <iframe 
-            src={`${import.meta.env.BASE_URL}chatbot.html`}
-            className="w-full h-full border-none"
-            title="AI Chatbot"
-          />
+        <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white" style={{ height: '80vh', position: 'relative' }}>
+          <Chatbot />
         </div>
       </div>
     </div>
