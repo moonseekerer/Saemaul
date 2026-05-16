@@ -70,9 +70,25 @@ const chatbotTranslations = {
 [지식 허브(Knowledge Hub) 참조 데이터 및 URL 링크]
 당신은 플랫폼 내 '지식 허브'에 저장된 다음 자료들을 학습한 상태입니다. 사용자가 역사적 사실을 묻거나 더 자세한 내용을 알고 싶어 할 때, 관련된 문서의 핵심 내용을 설명하고 아래 제공된 URL을 **마크다운 링크 형태**로 함께 제공하세요.
 1. 주요 문서 기록(OCR):
- - '00. 서론 및 7년의 성과': (링크: https://moonseekerer.github.io/Saemaul/archive/00_서론_발간사및성과_현대어.md)
- - '01. 전남 화순 돗재도로': (링크: https://moonseekerer.github.io/Saemaul/archive/01_대규모사업_전남화순군_한천면_돗재도로_현대어.md)
- - '02. 경북 안동 구담교': (링크: https://moonseekerer.github.io/Saemaul/archive/02_대규모사업_경북안동군_풍천면_구담교_현대어.md)
+ - '00. 서론: 발간사 및 7년의 성과': (링크: https://moonseekerer.github.io/Saemaul/archive/00_서론_발간사및성과_현대어.md)
+ - '01. 전남 화순군 한천면 - 돗재도로 개설': (링크: https://moonseekerer.github.io/Saemaul/archive/01_대규모사업_전남화순군_한천면_돗재도로_현대어.md)
+ - '02. 경북 안동군 풍천면 - 구담교 가설': (링크: https://moonseekerer.github.io/Saemaul/archive/02_대규모사업_경북안동군_풍천면_구담교_현대어.md)
+ - '03_0. 부천시 소사동 - 탁박골마을': (링크: https://moonseekerer.github.io/Saemaul/archive/03_경기도_00_경기도_부천시_소사동_탁박골마을_현대어.md)
+ - '03_1. 여주군 가남면 은봉2리': (링크: https://moonseekerer.github.io/Saemaul/archive/03_경기도_01_경기_여주군_가남면은봉2리_현대어.md)
+ - '04. 용인군 남사면 통삼리 - 동막마을': (링크: https://moonseekerer.github.io/Saemaul/archive/04_경기도_02_경기_용인군_남사면_통삼리_동막마을_현대어.md)
+ - '05. 안성군 일죽면 금산리 - 율동마을': (링크: https://moonseekerer.github.io/Saemaul/archive/05_경기도_03_안성군_일죽면_금산리_율동마을_현대어.md)
+ - '06. 영월군 수주면 - 도원1리': (링크: https://moonseekerer.github.io/Saemaul/archive/06_강원도_01_영월군_수주면_도원1리_현대어.md)
+ - '07. 정선군 북면 - 남평리': (링크: https://moonseekerer.github.io/Saemaul/archive/07_강원도_02_강원정선군_북면_남평리_현대어.md)
+ - '08. 양구군 양구면 - 도사리마을': (링크: https://moonseekerer.github.io/Saemaul/archive/08_강원도_03_양구군_양구면_도사리마을_현대어.md)
+ - '09. 명주군 성산면 - 금산2리': (링크: https://moonseekerer.github.io/Saemaul/archive/09_강원도_04_명주군_성산면_금산2리_현대어.md)
+ - '10. 삼척군 노곡면 - 여삼마을': (링크: https://moonseekerer.github.io/Saemaul/archive/10_강원도_05_삼척군_노곡면_여삼마을_현대어.md)
+ - '11_1. 청주시 율양동 - 상리': (링크: https://moonseekerer.github.io/Saemaul/archive/11_충청북도_01_청주시_율양동_상리_현대어.md)
+ - '11_2. 보은군 내북면 산성2리 - 잣미마을': (링크: https://moonseekerer.github.io/Saemaul/archive/11_충청북도_02_보은군_내북면_산성2리_잣미마을_현대어.md)
+ - '12. 옥천군 청산면 - 상례곡리': (링크: https://moonseekerer.github.io/Saemaul/archive/12_충청북도_02_옥천군_청산면_상례곡리_현대어.md)
+ - '13. 괴산군 문광면 - 방성리': (링크: https://moonseekerer.github.io/Saemaul/archive/13_충청북도_03_괴산군_문광면_방성리_현대어.md)
+ - '14. 연기군 전동면 - 양곡리': (링크: https://moonseekerer.github.io/Saemaul/archive/14_충청남도_01_연기군_전동면_양곡리_현대어.md)
+ - '15. 논산군 연무읍 - 동산1동': (링크: https://moonseekerer.github.io/Saemaul/archive/15_충청남도_02_논산군_연무읍_동산1동_현대어.md)
+ - '16. 서천군 판교면 - 복대2리': (링크: https://moonseekerer.github.io/Saemaul/archive/16_충청남도_03_서천군_판교면_복대2리_현대어.md)
 2. 영상 아카이브: KBS 다큐극장(기원), 포항MBC(해외전파), 역대 대통령의 새마을 관련 연설 및 기록물.
 
 [답변 우선순위 및 가이드라인]
@@ -96,7 +112,7 @@ const chatbotTranslations = {
           statusLabel: "나의 상태",
           statusValue: "🌱 새마을 꿈나무",
           newsLabel: "오늘 새롭게 올라온 소식",
-          newsValue: "[공지] 새마을 챗봇 네이티브 앱 전환 완료!"
+          newsValue: "[업데이트] 지식 허브(Knowledge Hub) 연동 및 React 네이티브 앱 전환 완료!"
       },
       podcast: {
           title: "📻 새마을 팟캐스트",
@@ -129,6 +145,7 @@ You are informed by the 'Knowledge Hub' available on this platform. When answeri
  - '00. Preface & 7-Year Achievements': (Link: https://moonseekerer.github.io/Saemaul/archive/00_서론_발간사및성과_현대어.md)
  - '01. Hwasun Dotjae Road': (Link: https://moonseekerer.github.io/Saemaul/archive/01_대규모사업_전남화순군_한천면_돗재도로_현대어.md)
  - '02. Andong Gudam Bridge': (Link: https://moonseekerer.github.io/Saemaul/archive/02_대규모사업_경북안동군_풍천면_구담교_현대어.md)
+ - And 16 more local cases across Gyeonggi, Gangwon, Chungbuk, and Chungnam provinces.
 
 [Response Priority & Guidelines]
 1. Priority of Spirits: When explaining Saemaul spirits, ALWAYS mention the traditional 3 spirits (Diligence, Self-help, Cooperation) FIRST, followed by the modern Saemaul Spirit 2.0 (Sharing, Service, Creativity).
@@ -151,7 +168,7 @@ You are informed by the 'Knowledge Hub' available on this platform. When answeri
           statusLabel: "My Status",
           statusValue: "🌱 Saemaul Seedling",
           newsLabel: "Today's Latest News",
-          newsValue: "[Notice] Saemaul Chatbot natively updated!"
+          newsValue: "[Update] Knowledge Hub Integration & Native App Conversion Completed!"
       },
       podcast: {
           title: "📻 Saemaul Podcast",
@@ -178,11 +195,15 @@ const Chatbot = () => {
   
   const [nickname, setNickname] = useState(defaultNickname);
   const [currentLang, setCurrentLang] = useState('ko');
-  const [activeTab, setActiveTab] = useState('chat');
+  const [activeTab, setActiveTab] = useState('home'); // Set 'home' as the default active tab
   const [inputMessage, setInputMessage] = useState('');
   const [chatHistory, setChatHistory] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const chatBoxRef = useRef(null);
+
+  // TODO: Fetch from Community/Firebase in the future
+  const [activityIndex, setActivityIndex] = useState(85);
+  const [userStatus, setUserStatus] = useState("🌱 새마을 꿈나무");
   
   const t = chatbotTranslations[currentLang];
 
@@ -413,11 +434,11 @@ const Chatbot = () => {
             </div>
             <div className="chatbot-dash-card">
               <h4>{t.home.activityLabel}</h4>
-              <div>85%</div>
+              <div>{activityIndex}%</div>
             </div>
             <div className="chatbot-dash-card" style={{ gridColumn: 'span 2' }}>
               <h4>{t.home.statusLabel}</h4>
-              <div style={{ fontSize: '15px', color: 'var(--text-main)' }}>{t.home.statusValue}</div>
+              <div style={{ fontSize: '15px', color: 'var(--text-main)' }}>{userStatus}</div>
             </div>
           </div>
 
