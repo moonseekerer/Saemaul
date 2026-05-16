@@ -530,7 +530,7 @@ const translations = {
         inputPlaceholder: "메시지를 입력하세요...",
         chips: ["새마을운동의 3대 정신은?", "새마을운동의 역사", "새마을운동의 주요 활동은?"],
         nav: { home: "홈", podcast: "팟캐스트", chat: "채팅", mypage: "마이페이지" },
-        systemPrompt: (nick) => `당신은 새마을-SDGs 플랫폼의 공식 AI 마스코트 '새댕이'입니다. 사용자가 누구인지 물으면 본인을 '똑똑한 새마을 강아지 새댕이'라고 소개하세요. 현재 대화 중인 사용자의 닉네임은 ${nick}입니다. 친절하고 귀여운 카카오톡 대화 어투로 다정하게 답변하세요.
+        systemPrompt: (nick) => `당신은 새마을-SDGs 플랫폼의 공식 AI 마스코트 '새댕이'입니다. 현재 대화 중인 사용자의 닉네임은 ${nick}입니다. 친절하고 귀여운 카카오톡 대화 어투로 다정하게 답변하세요. 매번 답변할 때마다 본인을 '새댕이'라고 반복해서 소개하지 마시고, 사용자가 '너는 누구야?'라고 명시적으로 물어볼 때만 '똑똑한 새마을 강아지 새댕이'라고 소개하세요.
 
 [답변 우선순위 및 가이드라인]
 1. 정신적 가치 설명 시 우선순위: 새마을 정신을 설명할 때는 반드시 전통적 3대 정신(근면, 자조, 협동)을 가장 먼저 언급하고, 그 다음 현대적인 새마을정신 2.0(나눔, 봉사, 창조)을 덧붙여야 합니다.
@@ -586,7 +586,7 @@ const translations = {
         inputPlaceholder: "Type your message...",
         chips: ["What are the 3 spirits of Saemaul?", "History of Saemaul", "Major activities of Saemaul"],
         nav: { home: "Home", podcast: "Podcast", chat: "Chat", mypage: "My Page" },
-        systemPrompt: (nick) => `You are 'Saedaeng-i', the official AI mascot of the Saemaul-SDGs platform. If asked who you are, introduce yourself as the 'smart and cute Saemaul puppy, Saedaeng-i'. The user's nickname is ${nick}. Answer in a kind, cute, and natural conversational tone.
+        systemPrompt: (nick) => `You are 'Saedaeng-i', the official AI mascot of the Saemaul-SDGs platform. The user's nickname is ${nick}. Answer in a kind, cute, and natural conversational tone. Do NOT repeat your name or introduce yourself in every response. ONLY introduce yourself as the 'smart and cute Saemaul puppy, Saedaeng-i' if the user explicitly asks who you are.
 
 [Response Priority & Guidelines]
 1. Priority of Spirits: When explaining Saemaul spirits, ALWAYS mention the traditional 3 spirits (Diligence, Self-help, Cooperation) FIRST, followed by the modern Saemaul Spirit 2.0 (Sharing, Service, Creativity).
@@ -937,62 +937,6 @@ async function sendMessage() {
       </div>
     `;
     const loadingId = addMessage(loadingHtml, 'bot');
-    
-    // 특정 질문(베트남 사업 추진) 하드코딩 처리
-    if (question.includes("베트남에서 새마을금고 사업을 추진하고자 해") || question.includes("베트남에서 적용 가능한 사업 형태")) {
-        setTimeout(() => {
-            const botElement = document.getElementById(loadingId);
-            const hardcodedText = `베트남에서 새마을금고 사업을 추진할 때 가장 중요한 점은 단순히 ‘금융기관’을 만드는 것이 아니라, 지역 주민들의 신뢰와 자조 조직을 기반으로 공동체 금융 생태계를 구축하는 것이다. 한국의 새마을금고 역사 속에서도 이러한 원리가 잘 드러나며, 특히 부흥실업새마을금고 사례는 베트남 현지 적용 가능성이 매우 높은 모델로 볼 수 있다.
-
-부흥실업새마을금고는 단순한 저축기관이 아니었다. 당시 시장 상인들은 고리채에 의존하며 생계를 유지하고 있었고, 시장 환경 역시 붕괴 상태였다. 금고 설립 주체들은 먼저 시장 환경을 정비하고 상인 조직을 결집시켰으며, 이후 저금리 공동 금융체계를 구축해 상인들이 고리채에서 벗어나도록 만들었다. 즉, “금융”보다 먼저 “공동체 회복”과 “신뢰 형성”이 이루어졌다는 점이 핵심이다.
-
-이 사례를 통해 확인할 수 있는 새마을금고형 사업 모델은 크게 다섯 가지로 정리할 수 있다.
-
-첫째, 시장 상인 기반 협동조합 금융 모델이다.
-부흥실업금고처럼 특정 시장이나 상권을 공동유대권으로 설정하고, 상인들이 공동 출자하여 운영하는 방식이다. 초기에는 소액 저축과 저금리 운영자금 대출 중심으로 시작하며, 상인들의 금융 접근성을 높이는 것이 핵심이다.
-
-둘째, 고리채 대체형 마이크로파이낸스 모델이다.
-당시 상인들은 고금리 사채 때문에 아무리 일해도 빚에서 벗어나지 못했다. 새마을금고는 공동체 신뢰를 바탕으로 낮은 금리의 순환 금융을 제공했고, 이는 경제적 자립 기반이 되었다. 이는 현재 베트남 농촌이나 도시 빈곤지역에서도 여전히 유효한 모델이다.
-
-셋째, 생활밀착형 금융 서비스 모델이다.
-부흥실업금고는 일반 은행처럼 운영하지 않았다. 시장 거래시간에 맞춰 새벽부터 문을 열었고, 동전 교환 같은 상인 특화 서비스를 제공했다. 즉 주민 생활 패턴에 맞춘 금융 서비스가 핵심이었다. 베트남에서도 재래시장, 오토바이 기사, 노점상, 여성 자영업자 등 특정 생활집단 맞춤형 금융 서비스가 가능하다.
-
-넷째, 복지 연계형 공동체 모델이다.
-장학사업, 불우이웃 지원, 지역복지 활동을 통해 단순 금융기관이 아닌 공동체 조직으로 성장했다. 이는 새마을운동의 “근면·자조·협동” 정신이 금융을 넘어 사회적 연대로 확장된 사례다.
-
-다섯째, 신뢰 기반 참여 확대 모델이다.
-초기에는 주민들이 금고를 믿지 않았지만, 운영진이 직접 시장을 돌며 교육과 홍보를 반복했다. 결국 핵심은 자본보다 주민 신뢰와 참여였다. 이는 국제개발 분야에서 말하는 주민참여형 개발(Participatory Development)의 전형적 사례라고 볼 수 있다.
-
-이러한 사례를 바탕으로 베트남에서 적용 가능한 사업 형태는 다음과 같이 제안할 수 있다.
-
-우선 가장 현실적인 방식은 “시장 상인 협동 금융 플랫폼”구축이다. 베트남에는 전통시장과 소규모 상인 경제가 매우 활발하다. 하노이·호치민뿐 아니라 지방 도시에서도 상인들은 여전히 비공식 금융에 의존하는 경우가 많다. 따라서 특정 시장 단위를 공동체로 묶고, 상인회와 연계하여 소액 저축·소액 대출·공동 구매 시스템을 운영할 수 있다.
-
-두 번째는 여성 중심 새마을금고형 마이크로크레딧 사업이다. 베트남 농촌에서는 여성들의 경제활동 참여율이 높기 때문에 여성조합 기반 금융 모델이 효과적일 수 있다. 예를 들어 여성들이 매주 일정 금액을 공동 적립하고, 이를 창업자금·농업자금·교육비로 순환 대출하는 구조를 만들 수 있다.
-
-세 번째는 디지털 새마을금고 모델이다. 한국 새마을금고의 현대적 발전 방향처럼 모바일 기반 적립·대출·출석형 공동체 활동 시스템을 결합할 수 있다. 특히 베트남은 모바일 금융 보급 속도가 빠르기 때문에, 앱 기반 공동 저축 시스템과 지역 활동 인증 시스템을 접목하면 청년층 참여를 유도할 수 있다.
-
-네 번째는 농촌개발 연계형 모델이다. 새마을운동이 단순 금융이 아니라 마을 환경개선과 연결되었던 것처럼, 베트남 농촌에서도 공동 저축금을 활용해 마을 도로 정비, 농산물 저장시설, 공동 창고 등을 구축하는 방식이 가능하다.
-
-다만 중요한 점은 새마을금고를 단순히 “한국식 금융기관”으로 수출해서는 안 된다는 것이다. 성공 여부는 제도보다 현지 주민 조직과 신뢰 형성에 달려 있다. 부흥실업금고 사례에서도 초기 성공 요인은 거대한 자본이 아니라 시장 상인들과 함께 문제를 해결하려는 지속적인 설득과 참여였다.
-
-따라서 베트남 사업 추진 시에는 다음과 같은 단계적 접근이 필요하다.
-
-1. 특정 지역 공동체 선정
-2. 주민·상인 조직화 및 리더 발굴
-3. 금융교육 및 공동체 교육 실시
-4. 소액 공동 적립 시작
-5. 소규모 순환대출 운영
-6. 복지·교육사업으로 확대
-7. 디지털 플랫폼 접목
-
-결국 새마을금고의 본질은 “돈”이 아니라 “공동체의 자립 시스템”이다. 그리고 이는 현재 국제개발협력 분야에서 강조되는 지속가능한 지역개발, 주민참여형 개발, 사회적 금융 모델과도 매우 깊게 연결된다.
-
-[새마을정신 2.0]
-새마을정신 2.0은 과거의 '근면·자조·협동'에 '나눔·봉사·창조'라는 새로운 가치를 더하여, 지구촌 공동 번영과 인류 공영을 지향하는 현대적 발전 모델입니다. 과거의 빈곤 극복을 넘어, 개도국 지원과 글로벌 사회문제 해결을 목표로 하는 '스마트 새마을운동'의 핵심 기반입니다.`;
-            typeText(botElement, hardcodedText, 15);
-        }, 1200);
-        return;
-    }
     
     let success = false;
     let lastError = null;
