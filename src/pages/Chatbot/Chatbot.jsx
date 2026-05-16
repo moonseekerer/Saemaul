@@ -379,7 +379,17 @@ const Chatbot = () => {
 
   const handleFeedback = async (id, type) => {
     setFeedbackState(prev => ({ ...prev, [id]: type }));
-    // Optional: Save feedback to Firestore here if needed
+    
+    try {
+      await addDoc(collection(db, 'feedback'), {
+        messageId: id,
+        feedbackType: type, // 'up' or 'down'
+        uid: user ? user.uid : 'guest',
+        timestamp: serverTimestamp()
+      });
+    } catch (e) {
+      console.error("Error saving feedback: ", e);
+    }
   };
 
   const handleClearChat = () => {
@@ -469,32 +479,23 @@ const Chatbot = () => {
             
             setIsLoading(false); // 로딩 종료
 
-            // 문단 단위로 메시지 분할 (\n\n 기준)
-            const chunks = answer.split('\n\n').filter(c => c.trim());
+            // 문단 단위 분할 제거: 전체 문장을 한 번에 출력 (복사 용이)
+            const botMsgId = (Date.now() + 1).toString();
+            const newBotMsg = { id: botMsgId, text: answer, type: 'bot', time: botTime, isNew: true };
             
-            let tempHistory = [...newHistory];
+            let tempHistory = [...newHistory, newBotMsg];
+            setChatHistory(tempHistory);
             
-            for (let j = 0; j < chunks.length; j++) {
-              const chunk = chunks[j];
-              const chunkId = (Date.now() + j + 1).toString();
-              const newChunkMsg = { id: chunkId, text: chunk, type: 'bot', time: botTime, isNew: true };
-              
-              // 말풍선 추가
-              tempHistory = [...tempHistory, newChunkMsg];
-              setChatHistory(tempHistory);
-              
-              // 타이핑 시간 대기
-              const typingDuration = chunk.length * 18; 
-              const pauseBetweenChunks = 800; 
-              await new Promise(resolve => setTimeout(resolve, typingDuration + pauseBetweenChunks));
-              
-              // 타이핑 완료 처리
-              tempHistory = tempHistory.map(m => m.id === chunkId ? { ...m, isNew: false } : m);
-              setChatHistory(tempHistory);
-              
-              // Firestore 저장
-              if (user) await saveMessageToFirestore({ text: chunk, type: 'bot', time: botTime });
-            }
+            // 전체 길이에 맞춘 타이핑 대기 시간 설정 (최대 속도로 최적화)
+            const typingDuration = answer.length * 15; 
+            await new Promise(resolve => setTimeout(resolve, typingDuration + 500));
+            
+            // 타이핑 완료 처리 (버튼 등 활성화를 위해)
+            tempHistory = tempHistory.map(m => m.id === botMsgId ? { ...m, isNew: false } : m);
+            setChatHistory(tempHistory);
+            
+            // Firestore 저장
+            if (user) await saveMessageToFirestore({ text: answer, type: 'bot', time: botTime });
             
             localStorage.setItem('saemaul_chat_history', JSON.stringify(tempHistory));
             success = true;
