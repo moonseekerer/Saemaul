@@ -210,3 +210,30 @@
 .chatbot-name-modal h2 { color: var(--primary-color); margin-bottom: 10px; font-weight: bold; font-size: 1.5rem; }
 .chatbot-name-modal input { width: 100%; padding: 12px; border: 2px solid #eee; border-radius: 10px; margin: 15px 0; outline: none; box-sizing: border-box; }
 .chatbot-name-modal-btn { width: 100%; padding: 12px; background: var(--primary-color); color: white; border: none; border-radius: 10px; font-weight: bold; cursor: pointer; }
+
+/* 메시지 액션 (복사, 좋아요, 싫어요) */
+.chatbot-message-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.chatbot-action-btn {
+  background: transparent;
+  border: none;
+  color: #a0a0a0;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+.chatbot-action-btn:hover {
+  background: #f0f0f0;
+  color: var(--primary-color);
+}
+.chatbot-action-btn.active {
+  color: var(--primary-color);
+}

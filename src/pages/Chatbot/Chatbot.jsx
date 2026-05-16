@@ -16,7 +16,7 @@ import {
   limit
 } from 'firebase/firestore';
 import './Chatbot.css';
-import { Bot, Trash2 } from 'lucide-react';
+import { Bot, Trash2, Copy, ThumbsUp, ThumbsDown, Check } from 'lucide-react';
 
 const apiKeys = [
     ['gsk', '_XCKaq0PD3u7', 'duHNinDt9WGdyb3FYVUJZxrcUSTnly8CWzh8qBYJ7'].join(''),
@@ -241,6 +241,8 @@ const Chatbot = () => {
   const [tempNickname, setTempNickname] = useState('');
   const [consent, setConsent] = useState(false);
   const [isDbLoading, setIsDbLoading] = useState(false);
+  const [copiedId, setCopiedId] = useState(null);
+  const [feedbackState, setFeedbackState] = useState({});
   
   // Use Firebase user name if available, otherwise default to "Guest" or stored nickname
   const defaultNickname = localStorage.getItem('saemaul_nickname') || '';
@@ -366,6 +368,18 @@ const Chatbot = () => {
     } catch (e) {
       console.error("Error collecting question: ", e);
     }
+  };
+
+  const handleCopy = (text, id) => {
+    navigator.clipboard.writeText(text).then(() => {
+      setCopiedId(id);
+      setTimeout(() => setCopiedId(null), 2000);
+    });
+  };
+
+  const handleFeedback = async (id, type) => {
+    setFeedbackState(prev => ({ ...prev, [id]: type }));
+    // Optional: Save feedback to Firestore here if needed
   };
 
   const handleClearChat = () => {
@@ -571,6 +585,31 @@ const Chatbot = () => {
                       </ReactMarkdown>
                     )}
                   </div>
+                  {msg.type === 'bot' && !msg.isNew && (
+                    <div className="chatbot-message-actions">
+                      <button 
+                        className="chatbot-action-btn" 
+                        onClick={() => handleCopy(msg.text, msg.id)} 
+                        title={currentLang === 'ko' ? "복사" : "Copy"}
+                      >
+                        {copiedId === msg.id ? <Check size={14} color="var(--primary-color)"/> : <Copy size={14} />}
+                      </button>
+                      <button 
+                        className={`chatbot-action-btn ${feedbackState[msg.id] === 'up' ? 'active' : ''}`} 
+                        onClick={() => handleFeedback(msg.id, 'up')} 
+                        title={currentLang === 'ko' ? "좋은 점" : "Good"}
+                      >
+                        <ThumbsUp size={14} />
+                      </button>
+                      <button 
+                        className={`chatbot-action-btn ${feedbackState[msg.id] === 'down' ? 'active' : ''}`} 
+                        onClick={() => handleFeedback(msg.id, 'down')} 
+                        title={currentLang === 'ko' ? "나쁜 점" : "Bad"}
+                      >
+                        <ThumbsDown size={14} />
+                      </button>
+                    </div>
+                  )}
                   <div className="chatbot-time-stamp">{msg.time}</div>
                 </div>
               </div>
