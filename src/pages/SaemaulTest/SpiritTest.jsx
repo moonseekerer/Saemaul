@@ -13,7 +13,10 @@ const SPIRIT_META = {
     textColor: 'text-orange-600',
     borderColor: 'border-orange-200',
     icon: Flame,
+    keywords: ['성실함', '끈기', '책임감', '실행력'],
+    matchingSDG: 'SDG 8 (양질의 일자리와 경제성장)',
     description: '당신은 그 어떤 지름길보다 묵묵히 흘리는 땀방울의 가치를 깊게 믿는 분이군요! 매일 성실하게 계획을 실천하며 주어지는 역할에 최선을 다하는 실행력이 돋보입니다.',
+    action: '지역 사회 정화 활동이나 꾸준한 자기계발 프로젝트에 참여해 보세요!'
   },
   SELF_HELP: {
     label: '자조',
@@ -24,7 +27,10 @@ const SPIRIT_META = {
     textColor: 'text-sky-600',
     borderColor: 'border-sky-200',
     icon: UserCheck,
+    keywords: ['주체성', '독립심', '도전정신', '자생력'],
+    matchingSDG: 'SDG 1 (빈곤 퇴치)',
     description: '당신은 남의 도움을 마냥 기다리기보다 본인의 주관을 믿고 스스로의 힘으로 우뚝 서기를 열망하는 자립심이 매우 투철한 분입니다!',
+    action: '창업 아이디어 구상이나 스스로의 한계를 시험하는 챌린지에 도전해 보세요!'
   },
   COOPERATION: {
     label: '협동',
@@ -35,7 +41,10 @@ const SPIRIT_META = {
     textColor: 'text-emerald-600',
     borderColor: 'border-emerald-200',
     icon: Users,
+    keywords: ['팀워크', '소통', '상생', '시너지'],
+    matchingSDG: 'SDG 17 (목표 달성을 위한 파트너십)',
     description: '당신은 "백지장도 맞들면 낫다"라는 격언처럼, 개개인의 뛰어남보다 여럿이 함께 소통하고 뭉칠 때 터져 나오는 시너지를 가장 소중히 생각합니다.',
+    action: '마을 공동체 활동이나 팀 기반의 봉사 활동에서 리더십을 발휘해 보세요!'
   },
   SHARING: {
     label: '나눔',
@@ -46,7 +55,10 @@ const SPIRIT_META = {
     textColor: 'text-rose-600',
     borderColor: 'border-pink-200',
     icon: HeartHandshake,
+    keywords: ['배려', '공평', '따뜻함', '포용력'],
+    matchingSDG: 'SDG 10 (불평등 완화)',
     description: '당신은 자신이 거둔 성과를 독점하지 않고 소외된 이웃을 돌아보며 기꺼이 혜택을 분배하고 상생을 지향하는 따뜻한 인류애를 지닌 분입니다.',
+    action: '기부 캠페인 참여나 소외 계층을 위한 재능 나눔을 실천해 보세요!'
   },
   SERVICE: {
     label: '봉사',
@@ -57,7 +69,10 @@ const SPIRIT_META = {
     textColor: 'text-purple-600',
     borderColor: 'border-purple-200',
     icon: Gift,
+    keywords: ['헌신', '이타심', '순수함', '선한 영향력'],
+    matchingSDG: 'SDG 3 (건강과 웰빙)',
     description: '당신은 어떤 금전적·물질적 보상 없이도 오직 타인을 위하고 공동체를 이롭게 한다는 순수한 헌신만으로 기꺼이 앞장서는 숭고한 이타심의 소유자입니다.',
+    action: '정기적인 자원봉사 활동이나 공익 캠페인 기획에 동참해 보세요!'
   },
   CREATION: {
     label: '창조',
@@ -68,7 +83,10 @@ const SPIRIT_META = {
     textColor: 'text-amber-600',
     borderColor: 'border-amber-200',
     icon: Lightbulb,
+    keywords: ['혁신', '디지털', '창의성', '비전'],
+    matchingSDG: 'SDG 9 (산업, 혁신 및 인프라)',
     description: '당신은 과거의 훌륭한 전통을 존중하면서도 이에 머무르지 않고 최첨단 디지털 도구나 창의적 아이디어를 덧입혀 새로운 가치를 설계하는 선구자적 안목을 가졌습니다.',
+    action: '스마트 빌리지 아이디어 공모전이나 디지털 전환 프로젝트를 이끌어 보세요!'
   },
 };
 
@@ -235,6 +253,14 @@ const SpiritTest = () => {
     setShowCover(true);
   };
 
+  const handleShareResult = () => {
+    const result = SPIRIT_META[resultType];
+    const shareText = `나의 대표 새마을정신은 [${result.label}: ${result.role}]입니다! 당신의 정신 가치관을 확인해보세요. \nhttps://saemaul-sdgs.web.app/saemaul-test`;
+    navigator.clipboard.writeText(shareText).then(() => {
+      alert("결과가 클립보드에 복사되었습니다! 친구들에게 공유해보세요. 😊");
+    });
+  };
+
   // ── 분석 대기 화면 ──
   if (isAnalyzing) {
     const factText = SPIRIT_ANALYZING_FACTS[pendingResult] || "당신의 소중한 답변을 종합하여 대표정신을 탐색하고 있어요!";
@@ -301,13 +327,33 @@ const SpiritTest = () => {
             <div className="p-8 md:p-12">
               <div className="text-center mb-10 border-b border-slate-100 pb-8">
                 <h2 className={`text-2xl font-black ${result.textColor} mb-4`}>"{result.title}"</h2>
-                <p className="text-slate-600 text-base md:text-lg leading-relaxed whitespace-pre-wrap">{result.description}</p>
+                <p className="text-slate-600 text-base md:text-lg leading-relaxed whitespace-pre-wrap mb-6">{result.description}</p>
+                
+                <div className="flex flex-wrap justify-center gap-2">
+                  {result.keywords.map((kw, i) => (
+                    <span key={i} className={`px-4 py-1.5 rounded-full text-xs font-black bg-white border-2 ${result.borderColor} ${result.textColor}`}>
+                      #{kw}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* 맞춤형 추천 섹션 */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+                 <div className={`${result.bgLight} p-6 rounded-3xl border ${result.borderColor} flex flex-col gap-2`}>
+                    <span className="text-[10px] font-black uppercase text-slate-400">💡 추천 활동</span>
+                    <p className={`text-[13.5px] font-bold ${result.textColor} leading-snug`}>{result.action}</p>
+                 </div>
+                 <div className="bg-slate-50 p-6 rounded-3xl border border-slate-200 flex flex-col gap-2">
+                    <span className="text-[10px] font-black uppercase text-slate-400">🎯 연계 SDG 목표</span>
+                    <p className="text-[13.5px] font-bold text-slate-700 leading-snug">{result.matchingSDG}</p>
+                 </div>
               </div>
 
               {/* 분석 분포 바 */}
-              <div className="mb-10">
-                <h3 className="text-xs font-black text-slate-400 tracking-widest uppercase mb-6 text-center">나의 6대 정신(근면·자조·협동·나눔·봉사·창조) 분석 차트</h3>
-                <div className="space-y-4">
+              <div className="mb-10 bg-slate-50/50 p-6 md:p-8 rounded-[32px] border border-slate-100">
+                <h3 className="text-[10px] font-black text-slate-400 tracking-widest uppercase mb-6 text-center">정밀 가치 분석 레포트</h3>
+                <div className="space-y-5">
                   {Object.keys(SPIRIT_META).map((key) => {
                     const m = SPIRIT_META[key];
                     const score = scores[key];
@@ -317,18 +363,18 @@ const SpiritTest = () => {
 
                     return (
                       <div key={key}>
-                        <div className="flex items-center justify-between mb-1.5">
-                          <div className="flex items-center gap-2">
-                            <div className={`w-6 h-6 rounded-full flex items-center justify-center ${isLeader ? `bg-gradient-to-br ${m.color} text-white` : 'bg-slate-100 text-slate-400'}`}>
-                              <RowIcon size={12} />
+                        <div className="flex items-center justify-between mb-2">
+                          <div className="flex items-center gap-2.5">
+                            <div className={`w-7 h-7 rounded-full flex items-center justify-center ${isLeader ? `bg-gradient-to-br ${m.color} text-white shadow-md` : 'bg-white border border-slate-200 text-slate-400'}`}>
+                              <RowIcon size={14} />
                             </div>
-                            <span className={`text-sm font-black ${isLeader ? m.textColor : 'text-slate-600'}`}>{m.label}</span>
+                            <span className={`text-[13px] font-black ${isLeader ? m.textColor : 'text-slate-600'}`}>{m.label}</span>
                           </div>
-                          <span className="text-xs font-bold text-slate-400">{score}점 / {questions.length}</span>
+                          <span className="text-[11px] font-extrabold text-slate-400">{pct}%</span>
                         </div>
-                        <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden shadow-inner">
+                        <div className="w-full h-3 bg-white border border-slate-100 rounded-full overflow-hidden shadow-inner">
                           <div
-                            className={`h-full rounded-full transition-all duration-1000 ease-out ${isLeader ? `bg-gradient-to-r ${m.color}` : 'bg-slate-300'}`}
+                            className={`h-full rounded-full transition-all duration-1000 ease-out ${isLeader ? `bg-gradient-to-r ${m.color}` : 'bg-slate-200'}`}
                             style={{ width: `${pct}%` }}
                           />
                         </div>
@@ -339,33 +385,41 @@ const SpiritTest = () => {
               </div>
 
                {/* 버튼 그룹 */}
-              <div className="space-y-3 mb-4">
+              <div className="space-y-3 mb-6">
                 <button
-                  onClick={handleBackToLastQuestion}
-                  className={`w-full flex items-center justify-center gap-2 py-4 rounded-2xl font-bold border-2 ${result.borderColor} ${result.textColor} bg-white hover:${result.bgLight} transition-colors shadow-sm active:scale-[0.98]`}
+                  onClick={handleShareResult}
+                  className="w-full flex items-center justify-center gap-2 py-4.5 rounded-2xl font-black text-white bg-slate-900 hover:bg-black shadow-xl transition-all active:scale-[0.98]"
                 >
-                  <ArrowLeft size={20} /> 마지막 답변 수정하기
+                  <Sparkles size={18} /> 결과 친구들에게 자랑하기
                 </button>
-                <button
-                  onClick={resetTest}
-                  className={`w-full flex items-center justify-center gap-2 py-4 rounded-2xl font-black text-white bg-gradient-to-r ${result.color} hover:opacity-90 shadow-lg transition-all active:scale-[0.98]`}
-                >
-                  <RefreshCw size={20} /> 처음부터 다시 시작하기
-                </button>
+                <div className="grid grid-cols-2 gap-3">
+                  <button
+                    onClick={handleBackToLastQuestion}
+                    className={`flex items-center justify-center gap-2 py-4 rounded-2xl font-bold border-2 ${result.borderColor} ${result.textColor} bg-white hover:${result.bgLight} transition-colors shadow-sm active:scale-[0.98]`}
+                  >
+                    <ArrowLeft size={16} /> 수정
+                  </button>
+                  <button
+                    onClick={resetTest}
+                    className={`flex items-center justify-center gap-2 py-4 rounded-2xl font-black text-white bg-gradient-to-r ${result.color} hover:opacity-90 shadow-lg transition-all active:scale-[0.98]`}
+                  >
+                    <RefreshCw size={16} /> 재시도
+                  </button>
+                </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 gap-3 border-t border-slate-100 pt-6">
                 <button
                   onClick={() => navigate('/saemaul-test')}
-                  className="py-3.5 rounded-2xl border-2 border-slate-200 text-slate-600 font-bold text-sm hover:bg-slate-50 transition-all text-center"
+                  className="py-3 rounded-xl bg-slate-100 text-slate-600 font-black text-xs hover:bg-slate-200 transition-all text-center"
                 >
-                  목록으로
+                  테스트 센터
                 </button>
                 <button
                   onClick={() => navigate('/')}
-                  className="py-3.5 rounded-2xl border-2 border-slate-200 text-slate-600 font-bold text-sm hover:bg-slate-50 transition-all text-center"
+                  className="py-3 rounded-xl bg-slate-100 text-slate-600 font-black text-xs hover:bg-slate-200 transition-all text-center"
                 >
-                  홈으로 이동
+                  홈으로
                 </button>
               </div>
             </div>
