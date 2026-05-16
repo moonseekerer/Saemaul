@@ -169,7 +169,15 @@ const chatbotTranslations = {
           noTrack: "재생 중인 트랙 없음",
           ready: "준비됨"
       },
-      greet: (nick) => `반가워요, ${nick}님! 새마을운동에 대해 무엇이든 물어보세요. 😊`
+      greet: (nick) => {
+          const greetings = [
+              `반가워요, ${nick}님! 저는 새마을 AI 어드바이저 '새댕이'입니다. 새마을운동에 대해 무엇이든 물어보세요! 🐾`,
+              `안녕하세요, ${nick}님! 똑똑한 새마을 강아지 '새댕이'가 인사드립니다. 어떤 도움이 필요하신가요? 😊`,
+              `${nick}님, 환영합니다! 새마을-SDGs 공식 마스코트 '새댕이'와 함께 새마을운동을 알아볼까요? 🐶`,
+              `멍멍! ${nick}님 반가워요! 저는 새마을 AI 어드바이저 '새댕이'랍니다. 궁금한 점이 있으면 언제든 말씀해 주세요! 🦴`
+          ];
+          return greetings[Math.floor(Math.random() * greetings.length)];
+      }
   },
   en: {
       headerTitle: "Saemaul AI Chatbot",
@@ -231,7 +239,15 @@ You are informed by the 'Knowledge Hub' available on this platform. When answeri
           noTrack: "No track playing",
           ready: "Ready"
       },
-      greet: (nick) => `Nice to meet you, ${nick}! Ask me anything about Saemaul Undong. 😊`
+      greet: (nick) => {
+          const greetings = [
+              `Nice to meet you, ${nick}! I am 'Saedaeng-i', the Saemaul AI Advisor. Ask me anything about Saemaul Undong! 🐾`,
+              `Hello, ${nick}! The smart Saemaul puppy 'Saedaeng-i' greets you. How can I help you today? 😊`,
+              `Welcome, ${nick}! Let's explore Saemaul Undong with 'Saedaeng-i', the official mascot! 🐶`,
+              `Woof! Nice to see you, ${nick}! I'm your Saemaul AI Advisor 'Saedaeng-i'. Tell me if you have any questions! 🦴`
+          ];
+          return greetings[Math.floor(Math.random() * greetings.length)];
+      }
   }
 };
 
@@ -320,6 +336,7 @@ const Chatbot = () => {
           id: Date.now().toString(),
           text: t.greet(nickname),
           type: 'bot',
+          isGreeting: true,
           time: new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'})
         }]);
       }
@@ -398,6 +415,7 @@ const Chatbot = () => {
         id: Date.now().toString(),
         text: t.greet(nickname || 'Guest'),
         type: 'bot',
+        isGreeting: true,
         time: new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'})
       }];
       setChatHistory(initialHistory);
@@ -586,7 +604,7 @@ const Chatbot = () => {
                       </ReactMarkdown>
                     )}
                   </div>
-                  {msg.type === 'bot' && !msg.isNew && (
+                  {msg.type === 'bot' && !msg.isNew && !msg.isGreeting && (
                     <div className="chatbot-message-actions">
                       <button 
                         className="chatbot-action-btn" 
