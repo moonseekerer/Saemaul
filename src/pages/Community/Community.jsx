@@ -226,11 +226,14 @@ const Community = () => {
   // Clipboard
   const [copiedId, setCopiedId] = useState(null);
 
-  // Comments States
-  const [commentsMap, setCommentsMap] = useState({}); // { [postId]: [comments] }
-  const [expandedComments, setExpandedComments] = useState({}); // { [postId]: boolean }
-  const [commentTexts, setCommentTexts] = useState({}); // { [postId]: string }
   const [isSubmittingComment, setIsSubmittingComment] = useState(false);
+
+  // Talk States
+  const [discussions, setDiscussions] = useState([]);
+  const [showTalkModal, setShowTalkModal] = useState(false);
+  const [newTalkTitle, setNewTalkTitle] = useState('');
+  const [newTalkCategory, setNewTalkCategory] = useState('기술혁신');
+  const [isSubmittingTalk, setIsSubmittingTalk] = useState(false);
 
   const defaultTrends = [
     '1. 탄소중립 실천',
@@ -331,6 +334,17 @@ const Community = () => {
       unsubMyAtt();
     };
   }, [user]);
+
+  // 토론 주제 추적
+  useEffect(() => {
+    const q = query(collection(db, 'discussions'), orderBy('timestamp', 'desc'));
+    const unsubscribe = onSnapshot(q, (snapshot) => {
+      const dbTalks = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+      // 예시 데이터와 합침 (데모용)
+      setDiscussions([...dbTalks, ...discussionTopics]);
+    });
+    return unsubscribe;
+  }, []);
 
   // 4. Read Global Streams (Posts and Attendance)
   useEffect(() => {
@@ -695,11 +709,43 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
   const formatTime = (timestamp) => {
     if (!timestamp) return '방금 전';
     let date = (timestamp instanceof Timestamp) ? timestamp.toDate() : new Date(timestamp.seconds ? timestamp.seconds * 1000 : timestamp);
+    if (isNaN(date.getTime())) return '일정 확인 중'; // 날짜 형식이 잘못된 경우 대비
     const diff = (Date.now() - date.getTime()) / 1000;
     if (diff < 60) return '방금 전';
     if (diff < 3600) return `${Math.floor(diff / 60)}분 전`;
     if (diff < 86400) return `${Math.floor(diff / 3600)}시간 전`;
     return `${date.getMonth() + 1}월 ${date.getDate()}일`;
+  };
+
+  const handleSubmitTalk = async (e) => {
+    e.preventDefault();
+    if (!user) {
+      alert("토론 제안을 위해 로그인이 필요합니다.");
+      handleGoogleLogin();
+      return;
+    }
+    if (!newTalkTitle.trim()) return;
+
+    setIsSubmittingTalk(true);
+    try {
+      await addDoc(collection(db, 'discussions'), {
+        title: newTalkTitle,
+        category: newTalkCategory,
+        author: user.displayName || '익명 주민',
+        uid: user.uid,
+        date: new Date().toISOString().split('T')[0],
+        participants: 1,
+        status: '진행중',
+        timestamp: serverTimestamp()
+      });
+      setNewTalkTitle('');
+      setShowTalkModal(false);
+      alert("새로운 토론 주제가 제안되었습니다! 마을 사람들의 참여를 기다려보세요.");
+    } catch (e) {
+      alert("토론 제안 중 오류가 발생했습니다.");
+    } finally {
+      setIsSubmittingTalk(false);
+    }
   };
 
   const displayedPosts = [...posts, ...fallbackPosts];
@@ -1235,13 +1281,16 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
                 <div className="flex flex-col gap-1 pb-1 border-b border-[#e4e6eb] relative">
                   <h2 className="text-2xl font-black text-[#1c1e21] tracking-tight flex items-center gap-2">💬 협동 토론방</h2>
                   <p className="text-[#65676b] text-[12px] font-bold">공동체의 문제를 함께 제안하고 논의하는 소통창구입니다.</p>
-                  <button className="absolute right-0 bottom-1 bg-[#00843D] text-white text-[10px] font-black px-3 py-1.5 rounded-lg shadow-sm hover:bg-[#006b31] transition-all flex items-center gap-1">
+                  <button 
+                    onClick={() => user ? setShowTalkModal(true) : handleGoogleLogin()}
+                    className="absolute right-0 bottom-1 bg-[#00843D] text-white text-[10px] font-black px-3 py-1.5 rounded-lg shadow-sm hover:bg-[#006b31] transition-all flex items-center gap-1"
+                  >
                     <PlusCircle size={12} /> 새 토론 제안
                   </button>
                 </div>
                 
                 <div className="grid grid-cols-1 gap-4">
-                  {discussionTopics.map(topic => (
+                  {discussions.map(topic => (
                     <div key={topic.id} className="bg-white rounded-2xl p-5 border border-black/5 shadow-sm hover:shadow-md hover:border-[#00843D]/20 transition-all group cursor-pointer relative overflow-hidden">
                        <div className="absolute top-0 left-0 w-1 h-full bg-[#00843D] opacity-0 group-hover:opacity-100 transition-opacity" />
                        <div className="flex items-center justify-between mb-2">
@@ -1257,7 +1306,7 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
                        <h3 className="text-base font-bold text-[#1c1e21] mb-3 group-hover:text-[#00843D] transition-colors leading-snug">{topic.title}</h3>
                        <div className="flex items-center justify-between mt-auto pt-3 border-t border-[#f0f2f5]">
                           <div className="flex items-center gap-2">
-                             <div className="w-6 h-6 rounded-full bg-[#00843D]/10 flex items-center justify-center text-[#00843D] text-[10px] font-black">{topic.author[0]}</div>
+                             <div className="w-6 h-6 rounded-full bg-[#00843D]/10 flex items-center justify-center text-[#00843D] text-[10px] font-black">{topic.author ? topic.author[0] : '?'}</div>
                              <span className="text-[11.5px] font-bold text-[#65676b]">{topic.author}</span>
                           </div>
                           <div className="flex items-center gap-3 text-[11px] font-black text-slate-400">
@@ -1301,6 +1350,56 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
 
         </div>
       </div>
+
+      {/* NEW TALK MODAL */}
+      {showTalkModal && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn">
+          <div className="bg-white rounded-3xl w-full max-w-md overflow-hidden shadow-2xl animate-scaleUp">
+            <div className="bg-[#00843D] px-6 py-4 flex items-center justify-between text-white">
+              <h3 className="font-black text-lg">새 토론 주제 제안</h3>
+              <button onClick={() => setShowTalkModal(false)} className="hover:bg-white/20 p-1 rounded-full transition-colors"><XCircle size={20} /></button>
+            </div>
+            <form onSubmit={handleSubmitTalk} className="p-6 flex flex-col gap-5">
+              <div className="flex flex-col gap-2">
+                <label className="text-xs font-black text-[#65676b] uppercase">토론 카테고리</label>
+                <select 
+                  value={newTalkCategory}
+                  onChange={(e) => setNewTalkCategory(e.target.value)}
+                  className="bg-[#f8f9fa] border border-[#e4e6eb] rounded-xl px-4 py-3 text-sm font-bold outline-none focus:border-[#00843D] transition-all"
+                >
+                  <option value="기술혁신">기술혁신 (스마트 팜 등)</option>
+                  <option value="환경보호">환경보호 (기후행동)</option>
+                  <option value="세대통합">세대통합 (청년 참여)</option>
+                  <option value="교육복지">교육복지 (마을 인프라)</option>
+                  <option value="기타">기타 공동체 안건</option>
+                </select>
+              </div>
+              <div className="flex flex-col gap-2">
+                <label className="text-xs font-black text-[#65676b] uppercase">토론 제목</label>
+                <input 
+                  type="text"
+                  placeholder="예: 우리 마을 쓰레기 처리장 개선 방안"
+                  value={newTalkTitle}
+                  onChange={(e) => setNewTalkTitle(e.target.value)}
+                  className="bg-[#f8f9fa] border border-[#e4e6eb] rounded-xl px-4 py-3 text-sm font-bold outline-none focus:border-[#00843D] transition-all"
+                  required
+                />
+              </div>
+              <p className="text-[11px] text-[#65676b] font-medium leading-relaxed bg-slate-50 p-3 rounded-xl border border-black/5">
+                제안하신 주제는 마을 주민 전체가 볼 수 있으며, <br />
+                함께 댓글로 의견을 나누고 투표를 진행할 수 있습니다.
+              </p>
+              <button 
+                type="submit" 
+                disabled={isSubmittingTalk || !newTalkTitle.trim()}
+                className="w-full bg-[#00843D] text-white font-black py-4 rounded-2xl shadow-lg hover:bg-[#006b31] transition-all active:scale-95 disabled:bg-slate-300 flex items-center justify-center gap-2"
+              >
+                {isSubmittingTalk ? <Loader2 size={18} className="animate-spin" /> : "토론 제안하기"}
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
