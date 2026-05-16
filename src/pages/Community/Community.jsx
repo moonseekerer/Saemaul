@@ -181,6 +181,7 @@ const Community = () => {
   const [translatedTexts, setTranslatedTexts] = useState({}); // { [postId]: "translated content" }
   const [isTranslatingMap, setIsTranslatingMap] = useState({}); // { [postId]: boolean }
   const [postTargetLang, setPostTargetLang] = useState({}); // { [postId]: "lang_code" }
+  const [lastTranslateTime, setLastTranslateTime] = useState(0);
 
   // Clipboard
   const [copiedId, setCopiedId] = useState(null);
@@ -381,6 +382,14 @@ const Community = () => {
   // Groq AI-powered Smart Translation Action
   const handleTranslatePost = async (postId, content, userSelectedCode) => {
     if (isTranslatingMap[postId]) return;
+
+    // 단시간 내 반복 요청 제한 (10초 쿨타임)
+    const now = Date.now();
+    if (now - lastTranslateTime < 10000) {
+      alert("AI 번역은 10초에 한 번만 요청할 수 있습니다. 잠시 후 다시 시도해 주세요!");
+      return;
+    }
+    setLastTranslateTime(now);
 
     // Determine exact target language
     let finalLangCode = userSelectedCode || postTargetLang[postId] || 'device';
@@ -859,7 +868,7 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
                             <div className="mt-3 p-3.5 bg-emerald-50/40 border-l-4 border-[#00843D] rounded-r-xl text-[12.5px] font-semibold text-slate-800 shadow-sm border border-black/5 animate-fadeIn">
                                <div className="text-[10px] text-[#00843D] font-black tracking-tight mb-1.5 flex items-center gap-1">
                                   <Sparkles size={11} className="animate-pulse" />
-                                  Groq AI 스마트 번역 결과:
+                                  AI 스마트 번역 결과:
                                </div>
                                <div className="whitespace-pre-wrap leading-relaxed">{translatedTexts[post.id]}</div>
                             </div>
