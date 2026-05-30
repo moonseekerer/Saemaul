@@ -91,36 +91,36 @@ const EventDialog = ({ question, questionIndex, onAnswer, onClose }) => {
     >
       {/* Semi-transparent backdrop */}
       <div
-        style={{ position: 'absolute', inset: 0, backgroundColor: 'rgba(0,0,0,0.5)', cursor: 'pointer' }}
+        style={{ position: 'absolute', inset: 0, backgroundColor: 'rgba(0,0,0,0.55)', cursor: 'pointer' }}
         onClick={handleSkipOrAdvance}
       />
 
       {/* Main Dialog Box */}
       <div style={{
         position: 'relative', zIndex: 10,
-        margin: '8px auto',
-        width: 'min(680px, calc(100vw - 8px))',
+        margin: '10px auto',
+        width: 'min(860px, calc(100vw - 16px))',
         backgroundColor: '#08081a',
         border: `4px solid ${catColor}`,
-        boxShadow: `0 0 0 8px #000, 0 0 0 12px ${catColor}44, 0 -8px 40px rgba(0,0,0,0.9)`,
+        boxShadow: `0 0 0 8px #000, 0 0 0 14px ${catColor}44, 0 -12px 50px rgba(0,0,0,0.9)`,
         imageRendering: 'pixelated',
       }}>
 
         {/* Quest header bar */}
         <div style={{
           display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-          padding: '6px 12px',
+          padding: '10px 16px',
           backgroundColor: catColor,
           borderBottom: `4px solid #000`,
         }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            <span style={{ fontSize: 8, fontWeight: 900, color: '#000', letterSpacing: 1 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+            <span style={{ fontSize: 13, fontWeight: 900, color: '#000', letterSpacing: 1 }}>
               ★ QUEST {questNum}
             </span>
             <span style={{
-              fontSize: 7, color: '#000',
+              fontSize: 11, color: '#000',
               backgroundColor: 'rgba(0,0,0,0.2)',
-              padding: '2px 6px',
+              padding: '3px 8px',
             }}>
               [{CATEGORY_KO[question.category] || question.category}]
             </span>
@@ -129,8 +129,8 @@ const EventDialog = ({ question, questionIndex, onAnswer, onClose }) => {
             onClick={onClose}
             style={{
               background: 'none', border: 'none', color: '#000',
-              fontSize: 10, cursor: 'pointer', fontFamily: "'Press Start 2P', monospace",
-              padding: '0 4px',
+              fontSize: 14, cursor: 'pointer', fontFamily: "'Press Start 2P', monospace",
+              padding: '0 6px',
             }}
           >✕</button>
         </div>
@@ -139,7 +139,7 @@ const EventDialog = ({ question, questionIndex, onAnswer, onClose }) => {
         <div style={{ display: 'flex', gap: 0, borderBottom: phase === 'CHOICES' ? '4px solid #111133' : 'none' }}>
           {/* Quest Illustration */}
           <div style={{
-            width: 96, flexShrink: 0,
+            width: 140, flexShrink: 0,
             borderRight: `4px solid ${catColor}44`,
             backgroundColor: '#111122',
             position: 'relative', overflow: 'hidden',
@@ -165,9 +165,9 @@ const EventDialog = ({ question, questionIndex, onAnswer, onClose }) => {
           {/* Text area */}
           <div
             style={{
-              flex: 1, padding: '10px 12px',
+              flex: 1, padding: '14px 18px',
               backgroundColor: '#0d0d22',
-              minHeight: 88, maxHeight: 160,
+              minHeight: 120, maxHeight: 200,
               overflowY: 'auto',
               cursor: 'pointer',
               position: 'relative',
@@ -175,7 +175,7 @@ const EventDialog = ({ question, questionIndex, onAnswer, onClose }) => {
             onClick={handleSkipOrAdvance}
           >
             <p style={{
-              fontSize: 7, lineHeight: 2.0,
+              fontSize: 11, lineHeight: 2.2,
               color: '#d8d8ff', margin: 0,
               wordBreak: 'keep-all',
             }}>
@@ -186,8 +186,8 @@ const EventDialog = ({ question, questionIndex, onAnswer, onClose }) => {
             </p>
             {textComplete && phase === 'TYPING' && (
               <div style={{
-                position: 'absolute', bottom: 6, right: 8,
-                fontSize: 8, color: catColor,
+                position: 'absolute', bottom: 8, right: 12,
+                fontSize: 13, color: catColor,
                 animation: 'dialogBlink 0.8s steps(1) infinite',
               }}>▼</div>
             )}
@@ -196,21 +196,21 @@ const EventDialog = ({ question, questionIndex, onAnswer, onClose }) => {
 
         {/* Choices section */}
         {phase === 'CHOICES' && (
-          <div style={{ padding: '10px 12px' }}>
+          <div style={{ padding: '14px 16px' }}>
             {/* Question text */}
             <div style={{
-              fontSize: 7, color: catColor, marginBottom: 8,
-              padding: '5px 8px',
+              fontSize: 11, color: catColor, marginBottom: 10,
+              padding: '8px 12px',
               backgroundColor: '#0a0a20',
               border: `2px solid ${catColor}55`,
-              lineHeight: 1.8,
+              lineHeight: 2.0,
               wordBreak: 'keep-all',
             }}>
               ▶ {question.question}
             </div>
 
             {/* Option buttons */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 5 }}>
               {shuffledOptions.map((opt, idx) => {
                 const isSelected = selectedIdx === idx;
                 return (
@@ -219,14 +219,14 @@ const EventDialog = ({ question, questionIndex, onAnswer, onClose }) => {
                     onClick={() => handleSelect(opt, idx)}
                     style={{
                       textAlign: 'left',
-                      padding: '7px 10px',
+                      padding: '10px 14px',
                       backgroundColor: isSelected ? catColor : '#13132e',
                       color: isSelected ? '#000' : '#ccd0ff',
                       border: `2px solid ${isSelected ? catColor : '#2a2a5a'}`,
-                      fontSize: 6.5,
-                      lineHeight: 1.7,
+                      fontSize: 10,
+                      lineHeight: 1.9,
                       cursor: selectedIdx !== null ? 'default' : 'pointer',
-                      display: 'flex', gap: 8, alignItems: 'flex-start',
+                      display: 'flex', gap: 12, alignItems: 'flex-start',
                       fontFamily: "'Press Start 2P', monospace",
                       transition: 'background-color 0.1s, border-color 0.1s',
                       wordBreak: 'keep-all',
@@ -246,8 +246,8 @@ const EventDialog = ({ question, questionIndex, onAnswer, onClose }) => {
                   >
                     <span style={{
                       color: catColor, flexShrink: 0,
-                      fontSize: 8, fontWeight: 'bold',
-                      minWidth: 16,
+                      fontSize: 12, fontWeight: 'bold',
+                      minWidth: 20,
                     }}>
                       {CARD_LABELS[idx]}
                     </span>
@@ -262,10 +262,10 @@ const EventDialog = ({ question, questionIndex, onAnswer, onClose }) => {
         {/* Bottom hint */}
         {phase === 'TYPING' && textComplete && (
           <div style={{
-            padding: '5px 12px',
+            padding: '7px 16px',
             backgroundColor: '#0a0a18',
             borderTop: '2px solid #1a1a3a',
-            fontSize: 6.5, color: '#444488', textAlign: 'right',
+            fontSize: 10, color: '#444488', textAlign: 'right',
           }}>
             클릭 또는 스페이스바로 계속...
           </div>

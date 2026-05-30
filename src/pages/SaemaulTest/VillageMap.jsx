@@ -16,7 +16,7 @@ const B = 6;  // Bridge (다리, 통행 가능)
 // 이벤트 타일: 타일값 - 10 = 질문 인덱스(0~11)
 const E1=10,E2=11,E3=12,E4=13,E5=14,E6=15,E7=16,E8=17,E9=18,E10=19,E11=20,E12=21;
 
-const TILE_SIZE = 32;
+const TILE_SIZE = 40;
 const MAP_COLS = 26;
 const MAP_ROWS = 20;
 
@@ -165,12 +165,12 @@ const EventMarker = ({ completed, label }) => (
         backgroundColor: 'rgba(30,80,20,0.7)',
         border: '2px solid #4a9a4a',
         display: 'flex', alignItems: 'center', justifyContent: 'center',
-        fontSize: 14,
+        fontSize: 18,
       }}>✓</div>
     ) : (
       <div style={{
         position: 'absolute',
-        top: -14,
+        top: -18,
         left: '50%',
         transform: 'translateX(-50%)',
         animation: 'markerBob 0.8s ease-in-out infinite alternate',
@@ -179,8 +179,8 @@ const EventMarker = ({ completed, label }) => (
           backgroundColor: '#f5c518',
           color: '#000',
           fontFamily: "'Press Start 2P', monospace",
-          fontSize: 9, fontWeight: 900,
-          padding: '2px 5px',
+          fontSize: 13, fontWeight: 900,
+          padding: '3px 7px',
           border: '2px solid #000',
           boxShadow: '2px 2px 0 #000',
           whiteSpace: 'nowrap',
@@ -210,11 +210,11 @@ const DPad = ({ onMoveStart, onMoveEnd }) => {
   ];
 
   const btnStyle = {
-    width: 50, height: 50,
+    width: 64, height: 64,
     backgroundColor: 'rgba(255,255,255,0.12)',
     border: '3px solid rgba(255,255,255,0.35)',
     color: '#fff',
-    fontSize: 18,
+    fontSize: 24,
     cursor: 'pointer',
     display: 'flex', alignItems: 'center', justifyContent: 'center',
     userSelect: 'none', WebkitUserSelect: 'none',
@@ -227,9 +227,9 @@ const DPad = ({ onMoveStart, onMoveEnd }) => {
     <div style={{
       position: 'fixed', bottom: 20, right: 20,
       display: 'grid',
-      gridTemplateColumns: '50px 50px 50px',
-      gridTemplateRows: '50px 50px 50px',
-      gap: 4,
+      gridTemplateColumns: '64px 64px 64px',
+      gridTemplateRows: '64px 64px 64px',
+      gap: 5,
       zIndex: 500,
     }}>
       {dirs.map(({ dir, label, col, row }) => (
@@ -245,7 +245,7 @@ const DPad = ({ onMoveStart, onMoveEnd }) => {
           {label}
         </button>
       ))}
-      <div style={{ gridColumn: 2, gridRow: 2, ...btnStyle, backgroundColor: 'rgba(255,255,255,0.05)', cursor: 'default' }} />
+      <div style={{ gridColumn: 2, gridRow: 2, width: 64, height: 64, backgroundColor: 'rgba(255,255,255,0.05)', cursor: 'default' }} />
     </div>
   );
 };
@@ -529,39 +529,39 @@ const VillageMap = () => {
       {/* ── HUD 오버레이 ── */}
       <div style={{
         position: 'fixed', top: 0, left: 0, right: 0, zIndex: 300,
-        background: 'linear-gradient(to bottom, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0) 100%)',
-        padding: '8px 14px',
+        background: 'linear-gradient(to bottom, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%)',
+        padding: '12px 20px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
         fontFamily: "'Press Start 2P', monospace",
       }}>
         {/* 플레이어 정보 */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
           <div style={{
-            width: 32, height: 32,
+            width: 44, height: 44,
             backgroundColor: CLASS_COLORS[playerClass]?.body || '#e85a20',
             border: '3px solid #f5c518',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            fontSize: 14,
+            fontSize: 20,
           }}>
             {playerClass === 'Pioneer' ? '⚔' : playerClass === 'Healer' ? '✚' : '⚙'}
           </div>
           <div>
-            <div style={{ fontSize: 7, color: '#f5c518', marginBottom: 2 }}>{playerName}</div>
-            <div style={{ fontSize: 5.5, color: '#8888cc' }}>{classBadge}</div>
+            <div style={{ fontSize: 12, color: '#f5c518', marginBottom: 4 }}>{playerName}</div>
+            <div style={{ fontSize: 9, color: '#8888cc' }}>{classBadge}</div>
           </div>
         </div>
 
         {/* 진행 상황 */}
         <div style={{ textAlign: 'right' }}>
-          <div style={{ fontSize: 7, color: '#f5c518', marginBottom: 4 }}>
+          <div style={{ fontSize: 12, color: '#f5c518', marginBottom: 6 }}>
             {progressCount}/12 퀘스트 완료
           </div>
           <div style={{
-            display: 'flex', gap: 2,
+            display: 'flex', gap: 3, justifyContent: 'flex-end',
           }}>
             {Array.from({ length: 12 }, (_, i) => (
               <div key={i} style={{
-                width: 10, height: 10,
+                width: 14, height: 14,
                 backgroundColor: [...completed].some((t) => t - 10 === i) ? '#f5c518' : '#333355',
                 border: '1px solid #555577',
               }} />
@@ -572,10 +572,10 @@ const VillageMap = () => {
 
       {/* ── 조작법 안내 (하단) ── */}
       <div style={{
-        position: 'fixed', bottom: 8, left: 14, zIndex: 300,
+        position: 'fixed', bottom: 12, left: 18, zIndex: 300,
         fontFamily: "'Press Start 2P', monospace",
-        fontSize: 5.5, color: 'rgba(180,180,220,0.6)',
-        lineHeight: 1.8,
+        fontSize: 10, color: 'rgba(180,180,220,0.7)',
+        lineHeight: 2.0,
         pointerEvents: 'none',
       }}>
         <div>← → ↑ ↓ / WASD : 이동</div>
@@ -608,17 +608,17 @@ const VillageMap = () => {
           fontFamily: "'Press Start 2P', monospace",
         }}>
           {/* 별 파티클 배경 효과 */}
-          <div style={{ fontSize: 36, marginBottom: 20, animation: 'celebratePop 0.5s ease-out' }}>
+          <div style={{ fontSize: 52, marginBottom: 20, animation: 'celebratePop 0.5s ease-out' }}>
             🏆
           </div>
           <div style={{
-            fontSize: 12, color: '#f5c518', marginBottom: 8,
+            fontSize: 18, color: '#f5c518', marginBottom: 10,
             textShadow: '0 0 20px #f5c518, 0 0 40px #f5c51888',
             animation: 'celebratePop 0.4s ease-out',
           }}>
             QUEST CLEAR!
           </div>
-          <div style={{ fontSize: 7, color: '#aaaadd', marginBottom: 24, lineHeight: 2 }}>
+          <div style={{ fontSize: 11, color: '#aaaadd', marginBottom: 28, lineHeight: 2.2 }}>
             마을 12개 퀘스트를 모두 완수했습니다!
           </div>
 
@@ -627,10 +627,10 @@ const VillageMap = () => {
             backgroundColor: '#0d0d22',
             border: '4px solid #f5c518',
             boxShadow: '0 0 0 8px #000, 0 0 0 12px #f5c51844',
-            padding: '16px 24px', marginBottom: 24,
-            minWidth: 260,
+            padding: '20px 28px', marginBottom: 28,
+            minWidth: 340,
           }}>
-            <div style={{ fontSize: 6, color: '#8888cc', marginBottom: 10 }}>— 퀘스트 응답 요약 —</div>
+            <div style={{ fontSize: 9, color: '#8888cc', marginBottom: 14 }}>— 퀘스트 응답 요약 —</div>
             {[
               { label: '근면', keys: [0,1], color: '#ff6b35' },
               { label: '자조', keys: [2,3], color: '#4fc3f7' },
@@ -642,11 +642,11 @@ const VillageMap = () => {
               const score = keys.reduce((s, k) => s + (responsesRef.current[k] || 0), 0);
               const pct   = Math.round((score / 10) * 100);
               return (
-                <div key={label} style={{ marginBottom: 6 }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 6, color, marginBottom: 2 }}>
+                <div key={label} style={{ marginBottom: 10 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 10, color, marginBottom: 4 }}>
                     <span>{label}</span><span>{score}/10</span>
                   </div>
-                  <div style={{ height: 6, backgroundColor: '#1a1a3a', border: '1px solid #333355' }}>
+                  <div style={{ height: 8, backgroundColor: '#1a1a3a', border: '1px solid #333355' }}>
                     <div style={{ width: `${pct}%`, height: '100%', backgroundColor: color, transition: 'width 1s ease' }} />
                   </div>
                 </div>
@@ -657,12 +657,12 @@ const VillageMap = () => {
           <button
             onClick={handleViewResult}
             style={{
-              padding: '14px 28px',
+              padding: '16px 32px',
               backgroundColor: '#f5c518',
               color: '#000',
               border: '4px solid #000',
               boxShadow: '4px 4px 0 #000',
-              fontSize: 9, fontWeight: 900,
+              fontSize: 13, fontWeight: 900,
               fontFamily: "'Press Start 2P', monospace",
               cursor: 'pointer',
               letterSpacing: 1,
@@ -677,8 +677,8 @@ const VillageMap = () => {
           <button
             onClick={() => navigate('/spirit-test')}
             style={{
-              marginTop: 12, background: 'none', border: 'none',
-              color: '#555577', fontSize: 6.5, cursor: 'pointer',
+              marginTop: 14, background: 'none', border: 'none',
+              color: '#555577', fontSize: 10, cursor: 'pointer',
               fontFamily: "'Press Start 2P', monospace",
             }}
           >
