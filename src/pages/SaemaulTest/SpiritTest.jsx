@@ -23,7 +23,7 @@ import {
   Activity
 } from 'lucide-react';
 
-// ── 6대 정신 메타 정보 (전용하 박사 학위논문 및 주민참여 분석 고증 기반) ──
+// ── 6대 정신 메타 정보 (Creativity 용어 개정 및 전용하 박사 학위논문 기반) ──
 const SPIRIT_META = {
   DILIGENCE: {
     label: '근면',
@@ -64,7 +64,7 @@ const SPIRIT_META = {
     icon: Users,
     keywords: ['상생배려', '공동목표', '분업능률', '단결시너지'],
     matchingSDG: 'SDG 17 (목표 달성을 위한 파트너십)',
-    description: '당신은 자신의 개인적인 이익이나 단기적인 편의에 앞서, 공동의 일을 더 잘 수행하고자 우선적으로 노력하는 뛰어난 협동 공동체 정신의 소유자입니다! 뜻을 같이하는 이웃들과 배려하며 단결하고, 철저한 분업 시스템을 통해 일의 생산성과 능률을 창조적으로 높일 줄 아는 지혜로운 화합의 조력자입니다.',
+    description: '당신은 개인의 사리사욕이나 단기적인 편의에 앞서, 공동의 일을 더 잘 수행하고자 우선적으로 노력하는 뛰어난 협동 공동체 정신의 소유자입니다! 뜻을 같이하는 이웃들과 배려하며 단결하고, 철저한 분업 시스템을 통해 일의 생산성과 능률을 창조적으로 높일 줄 아는 지혜로운 화합의 조력자입니다.',
     action: '팀 기반의 지역 문제 해결 워크숍, 해커톤 및 공동체 협동조합 모델 수립에 동참해 보세요!'
   },
   SHARING: {
@@ -95,8 +95,8 @@ const SPIRIT_META = {
     description: '당신은 도움이 절실한 이웃을 보살피고 돕는 이타적 실천을 도덕이 아닌 스스로의 고귀한 의무로 여기는 헌신적인 봉사자입니다! 자신의 이해득실이나 이익 추구보다 지속적으로 상대방의 처지에서 배려하고 어려움을 해소할 방법을 성찰하며, 조건 없이 물질적·정신적 서비스를 제공하는 희생정신을 품었습니다.',
     action: '장기 소외 계층 지원 상설 연대 봉사단 활동이나 공익 중심 비영리 캠페인 기획에 주도적으로 참여해 보세요!'
   },
-  CREATION: {
-    label: '창조',
+  CREATIVITY: {
+    label: '창조 (Creativity)',
     role: '융합적 혁신 설계자',
     title: '독창적 아이디어와 지식 수용으로 여는 혁신',
     color: 'from-amber-400 to-yellow-600',
@@ -116,8 +116,8 @@ const SPIRIT_ANALYZING_FACTS = {
   SELF_HELP: "주민참여 결정 요인 분석 결과, 외부 원조에의 수동적 의존은 주민의 자립 자신감을 해칩니다. 자발적으로 교육을 이수하고 피드백을 수용하여 책임을 다하려는 자조와 주인정신이야말로 빈곤 탈출의 핵심 자산입니다!",
   COOPERATION: "농촌 경제의 효율성을 최고조로 향상시키는 힘은 단결에 있습니다. 개인의 사리사욕을 양보하고 공동 목표에 우선 참여하여, 철저한 분업 시스템과 상생 배려로 단결할 때 가장 지속 가능한 시너지가 창출됩니다.",
   SHARING: "성장의 과실을 독점하지 않고 시간, 물질, 그리고 자신의 귀한 '지식과 경험'까지 이웃과 나누는 자발적 희생인 나눔정신이야말로 공동체 격차를 완화하고 지속 가능한 도약을 완수하는 강력한 원천이 됩니다.",
-  SERVICE: "개발도상국 개발을 이끌어 낸 위대한 지도자들은 대가나 보상을 좇지 않고, 타인의 어려움을 덜어주는 일을 고귀한 의무로 여겨 사랑과 사랑에 기반한 무보수 헌신적인 서비스를 기꺼이 실천하는 봉사정신을 갖췄습니다.",
-  CREATION: "단순 모방을 넘어 외국의 신기술과 자국 실정을 창의적으로 융합·응용해 내는 창조적(Creation) 자세는, 주민 개개인의 잠재력을 깨우고 장벽에 갇혔던 공동체 삶에 영구한 가치 혁신을 폭발시키는 원동력입니다!"
+  SERVICE: "개발도상국 개발을 이끌어 낸 위대한 지도자들은 대가나 보상을 좇지 않고, 타인의 어려움을 덜어주는 일을 고귀한 의무로 여겨 사랑과 희생에 기반한 무보수 헌신적인 서비스를 기꺼이 실천하는 봉사정신을 갖췄습니다.",
+  CREATIVITY: "단순 모방을 넘어 외국의 신기술과 자국 실정을 창의적으로 융합·응용해 내는 창조적(Creativity) 자세는, 주민 개개인의 잠재력을 깨우고 장벽에 갇혔던 공동체 삶에 영구한 가치 혁신을 폭발시키는 원동력입니다!"
 };
 
 // ── 12대 TRPG 게이미피케이션 퀘스트 질문 리스트 ──
@@ -253,7 +253,7 @@ export const questions = [
     ]
   },
   {
-    category: "CREATION",
+    category: "CREATIVITY",
     image: "/assets/quest_creativity_1.png",
     background: "마을 행정처에 인턴으로 들어온 첫날, 담당자가 두꺼운 서류 더미를 쌓으며 말합니다. '이 엑셀 파일 5만 행짜리 데이터를 양식에 맞게 수작업으로 입력해야 해요. 일주일 드릴게요.' 옆자리 선배들은 이미 수년째 같은 방식으로 이 작업을 반복하고 있고, 아무도 의심하지 않습니다. 하지만 당신의 눈에는 이것이 단순 반복 작업으로만 보입니다.",
     question: "수십 년 이어진 낡은 관행 앞에서 당신이 발휘할 창조적 해법은?",
@@ -266,7 +266,7 @@ export const questions = [
     ]
   },
   {
-    category: "CREATION",
+    category: "CREATIVITY",
     image: "/assets/quest_creativity_2.png",
     background: "오늘 새벽 4시, 마을 스마트 통합 플랫폼에 전례 없는 사이버 공격이 발생했습니다. 주민 등록 정보, 농업 데이터, 공동 자산 현황이 모두 암호화되어 접근 불가 상태가 됐고, 행정 서비스가 전면 마비되었습니다. 이사회는 긴급 소집 중이고, 현장에 있는 IT 인력은 사실상 당신 혼자입니다.",
     question: "전례 없는 디지털 위기 상황에서 당신이 꺼내들 무기는?",
@@ -289,7 +289,7 @@ const RadarChart = ({ scores, isInteractive = false, onLabelHover = () => {} }) 
   const cy = 150;
   const r = 90;
 
-  const keys = ['DILIGENCE', 'SELF_HELP', 'COOPERATION', 'SHARING', 'SERVICE', 'CREATION'];
+  const keys = ['DILIGENCE', 'SELF_HELP', 'COOPERATION', 'SHARING', 'SERVICE', 'CREATIVITY'];
   const labels = ['근면', '자조', '협동', '나눔', '봉사', '창조'];
 
   const getCoordinates = (index, valueRatio) => {
@@ -439,7 +439,7 @@ const SpiritTest = () => {
         COOPERATION: mapRes[4] + mapRes[5],
         SHARING: mapRes[6] + mapRes[7],
         SERVICE: mapRes[8] + mapRes[9],
-        CREATION: mapRes[10] + mapRes[11],
+        CREATIVITY: mapRes[10] + mapRes[11],
       };
       const maxType = Object.keys(spiritScores).reduce((a, b) => spiritScores[a] > spiritScores[b] ? a : b);
       setPendingResult(maxType);
@@ -526,7 +526,7 @@ const SpiritTest = () => {
           COOPERATION: nextResponses[4] + nextResponses[5],
           SHARING: nextResponses[6] + nextResponses[7],
           SERVICE: nextResponses[8] + nextResponses[9],
-          CREATION: nextResponses[10] + nextResponses[11],
+          CREATIVITY: nextResponses[10] + nextResponses[11],
         };
         const maxType = Object.keys(spiritScores).reduce((a, b) => (spiritScores[a] > spiritScores[b] ? a : b));
         setPendingResult(maxType);
@@ -563,7 +563,7 @@ const SpiritTest = () => {
       COOPERATION: finalResponses[4] + finalResponses[5],
       SHARING: finalResponses[6] + finalResponses[7],
       SERVICE: finalResponses[8] + finalResponses[9],
-      CREATION: finalResponses[10] + finalResponses[11],
+      CREATIVITY: finalResponses[10] + finalResponses[11],
     };
 
     const maxKey = Object.keys(spiritScores).reduce((a, b) => (spiritScores[a] > spiritScores[b] ? a : b));
@@ -572,7 +572,7 @@ const SpiritTest = () => {
     const totalScore = Object.values(spiritScores).reduce((acc, curr) => acc + curr, 0);
 
     const sm1Score = spiritScores.DILIGENCE + spiritScores.SELF_HELP + spiritScores.COOPERATION;
-    const sm2Score = spiritScores.SHARING + spiritScores.SERVICE + spiritScores.CREATION;
+    const sm2Score = spiritScores.SHARING + spiritScores.SERVICE + spiritScores.CREATIVITY;
 
     // 세대별 밸런스 퍼센트 변환 (각각 최대 30점)
     const sm1Pct = Math.round((sm1Score / 30) * 100);
@@ -1086,7 +1086,7 @@ const SpiritTest = () => {
                   {/* 동적 툴팁 RadarChart */}
                   <div className="shrink-0">
                     <RadarChart 
-                      scores={{ DILIGENCE: 8, SELF_HELP: 8, COOPERATION: 8, SHARING: 8, SERVICE: 8, CREATION: 8 }} 
+                      scores={{ DILIGENCE: 8, SELF_HELP: 8, COOPERATION: 8, SHARING: 8, SERVICE: 8, CREATIVITY: 8 }}
                       isInteractive={true}
                       onLabelHover={setHoveredKey}
                     />

@@ -8,7 +8,7 @@ const CATEGORY_KO = {
   COOPERATION: '협동',
   SHARING: '나눔',
   SERVICE: '봉사',
-  CREATION: '창조',
+  CREATIVITY: '창조',
 };
 
 const CATEGORY_COLORS = {
@@ -17,7 +17,7 @@ const CATEGORY_COLORS = {
   COOPERATION: '#66bb6a',
   SHARING: '#f48fb1',
   SERVICE: '#ce93d8',
-  CREATION: '#ffd54f',
+  CREATIVITY: '#ffd54f',
 };
 
 const EventDialog = ({ question, questionIndex, onAnswer, onClose }) => {
