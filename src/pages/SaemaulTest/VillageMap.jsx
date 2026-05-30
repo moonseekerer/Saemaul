@@ -227,7 +227,7 @@ const DPad = ({ onMoveStart, onMoveEnd }) => {
 
   return (
     <div style={{
-      position: 'fixed', bottom: 20, right: 20,
+      position: 'absolute', bottom: 20, right: 20,
       display: 'grid',
       gridTemplateColumns: '64px 64px 64px',
       gridTemplateRows: '64px 64px 64px',
@@ -278,12 +278,19 @@ const VillageMap = () => {
   const [activeEvent, setActiveEvent] = useState(null); // {questionIndex, tile}
   const [gamePhase, setGamePhase]     = useState('EXPLORE'); // 'EXPLORE'|'EVENT'|'COMPLETE'
 
-  // 뷰포트 크기
-  const [viewSize, setViewSize] = useState({ w: window.innerWidth, h: window.innerHeight });
+  // 뷰포트 크기 (컨테이너 크기 모니터링)
+  const containerRef = useRef(null);
+  const [viewSize, setViewSize] = useState({ w: 800, h: 600 });
   useEffect(() => {
-    const onResize = () => setViewSize({ w: window.innerWidth, h: window.innerHeight });
-    window.addEventListener('resize', onResize);
-    return () => window.removeEventListener('resize', onResize);
+    if (!containerRef.current) return;
+    const resizeObserver = new ResizeObserver((entries) => {
+      for (let entry of entries) {
+        const { width, height } = entry.contentRect;
+        setViewSize({ w: width, h: height });
+      }
+    });
+    resizeObserver.observe(containerRef.current);
+    return () => resizeObserver.disconnect();
   }, []);
 
   const viewCols = Math.ceil(viewSize.w / TILE_SIZE) + 2;
@@ -511,12 +518,15 @@ const VillageMap = () => {
   const classBadge = { Pioneer: '마을 개척자', Healer: '상생 힐러', Architect: '스마트 아키텍트' }[playerClass] || '';
 
   return (
-    <div style={{
-      width: '100vw', height: '100vh',
-      overflow: 'hidden', position: 'relative',
-      backgroundColor: '#0a0a1a',
-      cursor: 'default',
-    }}>
+    <div 
+      ref={containerRef}
+      style={{
+        width: '100%', height: '100%',
+        overflow: 'hidden', position: 'relative',
+        backgroundColor: '#0a0a1a',
+        cursor: 'default',
+      }}
+    >
       {/* ── 맵 레이어 ── */}
       <div style={{ position: 'absolute', inset: 0 }}>
         {renderTiles()}
@@ -538,7 +548,7 @@ const VillageMap = () => {
 
       {/* ── HUD 오버레이 ── */}
       <div style={{
-        position: 'fixed', top: 0, left: 0, right: 0, zIndex: 300,
+        position: 'absolute', top: 0, left: 0, right: 0, zIndex: 300,
         background: 'linear-gradient(to bottom, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%)',
         padding: '12px 20px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
@@ -583,7 +593,7 @@ const VillageMap = () => {
 
       {/* ── 조작법 안내 (하단) ── */}
       <div style={{
-        position: 'fixed', bottom: 12, left: 18, zIndex: 300,
+        position: 'absolute', bottom: 12, left: 18, zIndex: 300,
         fontFamily: "'Press Start 2P', monospace",
         fontSize: 10, color: 'rgba(180,180,220,0.7)',
         lineHeight: 2.0,
@@ -612,7 +622,7 @@ const VillageMap = () => {
       {/* ── 전체 완료 오버레이 ── */}
       {gamePhase === 'COMPLETE' && (
         <div style={{
-          position: 'fixed', inset: 0, zIndex: 3000,
+          position: 'absolute', inset: 0, zIndex: 3000,
           backgroundColor: 'rgba(0,0,12,0.92)',
           display: 'flex', flexDirection: 'column',
           alignItems: 'center', justifyContent: 'center',

@@ -131,6 +131,26 @@ const ChatbotPage = () => {
   );
 };
 
+const SpiritMapPage = () => {
+  return (
+    <div className="min-h-screen bg-slate-50 pt-20">
+      <div className="container mx-auto px-6 py-8">
+        <div className="text-center mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold mb-4 border border-amber-200">
+            <Home size={16} />
+            마을 RPG 모드
+          </div>
+          <h1 className="text-3xl font-black text-slate-900 mb-2">마을 탐색 지도</h1>
+          <p className="text-slate-500">마을을 직접 조작해 탐색하며 12개의 다양한 주민 협력 이벤트를 해결해보세요!</p>
+        </div>
+        <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white" style={{ height: '78vh', position: 'relative' }}>
+          <VillageMap />
+        </div>
+      </div>
+    </div>
+  );
+};
+
 
 
 const TEAM_DATA = {
@@ -706,7 +726,7 @@ function App() {
           <Route path="/saemaul-test" element={<SaemaulTest />} />
           <Route path="/test" element={<LeadershipTest />} />
           <Route path="/spirit-test" element={<SpiritTest />} />
-          <Route path="/spirit-map"  element={<VillageMap />} />
+          <Route path="/spirit-map" element={<SpiritMapPage />} />
           <Route path="/archive/:filename" element={<DocViewer />} />
           <Route path="/chatbot" element={<ChatbotPage />} />
           <Route path="/community" element={<Community />} />
