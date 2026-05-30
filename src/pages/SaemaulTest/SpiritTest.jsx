@@ -796,7 +796,7 @@ const SpiritTest = () => {
                         <span className="text-xs font-black font-mono text-slate-550">{sm1Pct}%</span>
                       </div>
                       <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden mb-4 border border-slate-200">
-                        <div className="h-full bg-emerald-500" style={{ width: `${sm1Pct}%` }} />
+                        <div className="h-full bg-emerald-50" style={{ width: `${sm1Pct}%` }} />
                       </div>
                       <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 font-mono">포괄 덕목 : 근면 · 자조 · 협동</p>
                     </div>
@@ -816,7 +816,7 @@ const SpiritTest = () => {
                         <span className="text-xs font-black font-mono text-slate-550">{sm2Pct}%</span>
                       </div>
                       <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden mb-4 border border-slate-200">
-                        <div className="h-full bg-blue-500" style={{ width: `${sm2Pct}%` }} />
+                        <div className="h-full bg-blue-50" style={{ width: `${sm2Pct}%` }} />
                       </div>
                       <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 font-mono">포괄 덕목 : 나눔 · 봉사 · 창조</p>
                     </div>
