@@ -133,18 +133,64 @@ const ChatbotPage = () => {
 
 const SpiritMapPage = () => {
   return (
-    <div className="min-h-screen bg-slate-50 pt-20">
-      <div className="container mx-auto px-6 py-8">
-        <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold mb-4 border border-amber-200">
+    <div className="min-h-screen bg-slate-50 pt-28 pb-20">
+      <div className="container mx-auto px-6 max-w-5xl">
+        {/* Header */}
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold mb-4 border border-amber-200 shadow-sm animate-pulse">
             <Home size={16} />
             마을 RPG 모드
           </div>
-          <h1 className="text-3xl font-black text-slate-900 mb-2">마을 탐색 지도</h1>
-          <p className="text-slate-500">마을을 직접 조작해 탐색하며 12개의 다양한 주민 협력 이벤트를 해결해보세요!</p>
+          <h1 className="text-4xl font-black text-slate-900 mb-3 tracking-tight">마을 탐색 지도</h1>
+          <p className="text-slate-500 max-w-xl mx-auto font-medium">마을을 조작해 직접 탐색하며 수해 복구와 공터 가꾸기 등 12개의 주민 공동 협력 이벤트를 직접 마주하고 해결해보세요!</p>
         </div>
-        <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-white" style={{ height: '78vh', position: 'relative' }}>
+
+        {/* Game Viewport Container */}
+        <div className="rounded-[32px] overflow-hidden shadow-2xl border-4 border-slate-900 bg-black relative mb-8" style={{ height: '70vh', minHeight: '520px' }}>
           <VillageMap />
+        </div>
+
+        {/* External Instructions Card */}
+        <div className="grid md:grid-cols-3 gap-6">
+          {/* Movement Controls Card */}
+          <div className="bg-white p-6 rounded-2xl border border-slate-200/60 shadow-sm flex flex-col justify-center">
+            <h4 className="text-slate-800 font-black text-base mb-4 flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-amber-500" />
+              캐릭터 이동 조작법
+            </h4>
+            <div className="flex flex-col gap-3">
+              <div className="flex items-center gap-3">
+                <kbd className="px-3 py-1.5 bg-slate-100 border-2 border-b-4 border-slate-300 rounded-lg text-xs font-black shadow-sm">W A S D</kbd>
+                <span className="text-slate-400 text-sm">또는</span>
+                <kbd className="px-3 py-1.5 bg-slate-100 border-2 border-b-4 border-slate-300 rounded-lg text-xs font-black shadow-sm">↑ ↓ ← →</kbd>
+              </div>
+              <p className="text-slate-500 text-xs font-semibold leading-relaxed">
+                키보드를 이용해 상하좌우 자유롭게 흙길과 다리를 지나 마을을 돌아다닐 수 있습니다.
+              </p>
+            </div>
+          </div>
+
+          {/* Goal & Interaction Card */}
+          <div className="bg-white p-6 rounded-2xl border border-slate-200/60 shadow-sm flex flex-col justify-center">
+            <h4 className="text-slate-800 font-black text-base mb-4 flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
+              퀘스트 진행 방식
+            </h4>
+            <p className="text-slate-500 text-xs font-semibold leading-relaxed">
+              마을 곳곳에 반짝이는 황색 <span className="text-amber-500 font-black">❗ 표지판(퀘스트 지점)</span>에 다가가 몸으로 접촉하면 이벤트 팝업이 활성화됩니다. 질문에 답하여 주민의 협동력을 모아주세요!
+            </p>
+          </div>
+
+          {/* Mobile D-Pad Card */}
+          <div className="bg-white p-6 rounded-2xl border border-slate-200/60 shadow-sm flex flex-col justify-center">
+            <h4 className="text-slate-800 font-black text-base mb-4 flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-blue-500" />
+              모바일 지원
+            </h4>
+            <p className="text-slate-500 text-xs font-semibold leading-relaxed">
+              스마트폰이나 태블릿 등 모바일 기기로 접속 시, 우측 하단에 생성되는 <span className="font-bold text-slate-700">가상 D-Pad 버튼</span>을 통해 손쉬운 화면 터치 조작이 가능합니다.
+            </p>
+          </div>
         </div>
       </div>
     </div>

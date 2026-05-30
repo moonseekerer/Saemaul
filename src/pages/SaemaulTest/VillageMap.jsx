@@ -591,17 +591,7 @@ const VillageMap = () => {
         </div>
       </div>
 
-      {/* ── 조작법 안내 (하단) ── */}
-      <div style={{
-        position: 'absolute', bottom: 12, left: 18, zIndex: 300,
-        fontFamily: "'Press Start 2P', monospace",
-        fontSize: 10, color: 'rgba(180,180,220,0.7)',
-        lineHeight: 2.0,
-        pointerEvents: 'none',
-      }}>
-        <div>← → ↑ ↓ / WASD : 이동</div>
-        <div>❗ 표시에 접촉 시 이벤트 발생</div>
-      </div>
+
 
       {/* ── D-Pad (모바일) ── */}
       <DPad
