@@ -28,7 +28,7 @@ const SPIRIT_META = {
   DILIGENCE: {
     label: '근면',
     role: '성실한 실행가',
-    title: '성실함으로 today를 일구는 계획적 끈기',
+    title: '성실함으로 오늘을 일구는 계획적 끈기',
     color: 'from-orange-400 to-red-500',
     bgLight: 'bg-orange-50',
     textColor: 'text-orange-600',
@@ -120,90 +120,168 @@ const SPIRIT_ANALYZING_FACTS = {
   CREATION: "단순 모방을 넘어 외국의 신기술과 자국 실정을 창의적으로 융합·응용해 내는 창조적(Creation) 자세는, 주민 개개인의 잠재력을 깨우고 장벽에 갇혔던 공동체 삶에 영구한 가치 혁신을 폭발시키는 원동력입니다!"
 };
 
-// ── 6대 정신 질문 데이터 (학술 고증 및 일러스트 연동 RPG 시나리오 하이브리드) ──
+// ── 12대 TRPG 게이미피케이션 퀘스트 질문 리스트 ──
 const questions = [
   {
+    category: "DILIGENCE",
     image: "/assets/quest_diligence_1.png",
-    background: "마을 앞 버려진 공터를 마을 발전을 위해 새로 가꾸기로 했습니다. 주민들의 힘과 노력이 가장 처음 모여야 하는 순간입니다.",
-    question: "당신은 이 공터를 어떤 방식으로 가꾸는 것이 가장 바람직하다고 생각하나요?",
+    background: "아침 6시, 당신이 살고 있는 마을의 입구에 어젯밤 폭풍우가 쓸고 간 흔적이 가득합니다. 거대한 잡초 더미와 진흙 덩어리가 좁은 골목길을 완전히 봉쇄했고, 출퇴근해야 하는 주민들과 아이들이 발만 동동 구르고 있습니다. 혼자서는 감당하기 어렵고, 누군가의 첫 삽이 필요한 바로 그 순간입니다.",
+    question: "신참 체인지메이커로서 당신이 장착할 첫 행동 카드는 무엇인가요?",
     options: [
-      { text: "매일 계획을 세워 뒤로 미루지 않고 솔선수범하여 직접 잡초를 뽑고 돌을 고르며 생산적인 결실을 성실하게 일군다.", type: "DILIGENCE" },
-      { text: "관공서의 외부 보조에 기대기보다, 필요한 원예 피드백을 주체적으로 학습하고 자발적인 훈련을 거쳐 내 손으로 자립한다.", type: "SELF_HELP" },
-      { text: "개인의 이익이나 일보다 마을 공동 목표를 우선하고 주민들과 뜻을 모으는 분업을 통해 능률을 극대화한다.", type: "COOPERATION" },
-      { text: "공터 가꾸기에 필요한 노동력과 함께 나만의 유용한 농업 지식과 소중한 경험을 어려운 이웃들과 적극적으로 베풀고 공유한다.", type: "SHARING" },
-      { text: "처지가 곤란한 소외 주민을 돕는 것을 나의 의무로 새기고, 대가 없는 희생을 바탕으로 지속적인 자원 봉사를 실천한다.", type: "SERVICE" },
-      { text: "마을 실정에 맞는 새로운 아이디어를 도입하고 독창적인 고부가가치 융합 기술을 활용해 스마트 힐링파크를 개척한다.", type: "CREATION" }
+      { value: 5, label: "즉시 마을 단톡방에 '지금 당장 같이 치웁시다!'를 외치고, 구역을 나눠 정밀하게 계획한 뒤 삽을 들고 맨 앞줄에서 흙더미를 공략한다." },
+      { value: 4, label: "지치지 않도록 적당히 페이스를 유지하며, 오전 안으로 자기 구역을 깨끗하게 정리하는 성실한 청소 플랜을 묵묵히 수행한다." },
+      { value: 3, label: "이웃 주민들이 먼저 나와 빗자루를 들기 시작하면 자연스럽게 동참하며 평균 수준의 기여도를 유지한다." },
+      { value: 2, label: "기력이 센 이웃이 먼저 해결해 주겠지 싶어, 다치지 않는 선에서 현장을 살짝 관망하며 타이밍을 재고 있다." },
+      { value: 1, label: "내일 낮에 해도 늦지 않다고 스스로를 설득하며, 따뜻한 이불 속에서 오늘의 모험을 조용히 뒤로 미룬다." }
     ]
   },
   {
+    category: "DILIGENCE",
+    image: "/assets/quest_diligence_2.png",
+    background: "당신은 3개월 전, 지역 소상공인들의 매출을 높여주겠다는 꿈을 품고 '동네 가게 살리기 앱'을 개발하기 시작했습니다. 그런데 지금, 앱은 완성되었지만 사용자가 좀처럼 늘지 않고 유료 전환도 감감무소식입니다. 주변 지인들은 슬슬 '그냥 접어'라고 속삭이기 시작하고, 당신 자신도 그 말이 점점 솔깃하게 들립니다.",
+    question: "포기하고 싶은 유혹이 한계에 달한 이 순간, 당신이 꺼내들 카드는?",
+    options: [
+      { value: 5, label: "성과 없는 날이 100일을 넘어도 흔들리지 않는다. 처음 세운 로드맵 위의 핵심 태스크를 매일 착실히 완수하며 장기전을 선언한다." },
+      { value: 4, label: "처음 스스로와 약속한 일일 개발 루틴을 끝까지 지켜가며, 한 줄의 코드와 한 번의 홍보를 성실하게 이어간다." },
+      { value: 3, label: "앱이 완전히 멈추지 않도록 최소한의 유지만 걸어두고, 새로운 트렌드 아이템을 살짝 기웃거려 본다." },
+      { value: 2, label: "이 프로젝트에 쏟아부은 에너지가 아깝다고 느끼며, 더 쉬운 기회가 없을까 조심스럽게 탐색하기 시작한다." },
+      { value: 1, label: "정신 건강을 지키는 게 우선이라고 합리화하며 프로젝트를 전면 중단하고, 유튜브 추천 알고리즘에 몸을 맡긴다." }
+    ]
+  },
+  {
+    category: "SELF_HELP",
     image: "/assets/quest_self_help_1.png",
-    background: "마을의 오랜 고질병인 쓰레기 무단 투기 문제를 해결해야 하는 상황입니다. 남에게 미루기만 해서는 결코 깨끗해질 수 없습니다.",
-    question: "당신이라면 어떤 접근 방식이 문제 해결의 근본책이라고 보시나요?",
+    background: "마을 주민 200가구의 유일한 식수원인 공동 모터 우물이 오늘 새벽 갑작스러운 과부하로 완전히 망가졌습니다. 전문 수리 업체는 최소 3일 후에나 올 수 있다고 합니다. 더운 여름날 아이와 노인들이 물 한 방울 없이 버텨야 하는 긴박한 상황, 마을 주민들이 이장 댁 앞에 모여 웅성거리고 있습니다.",
+    question: "누군가의 첫 움직임이 절실한 이 위기의 순간, 당신의 행동은?",
     options: [
-      { text: "매일 아침 일을 미루지 않고 성실하게 마을 주변을 쓸고 닦는 등 계획성 있는 알뜰한 미화를 직접 실천한다.", type: "DILIGENCE" },
-      { text: "단순 타인의 시선이나 처벌에 연연하기보다 스스로 책임을 지며 필요한 분리수거 교육을 수용하고 자발적으로 자기 극복을 성취한다.", type: "SELF_HELP" },
-      { text: "상생과 배려의 팀워크로 주민 총회를 소집하고 분업 당번 조를 형성해 마을 전체가 공동으로 단결해 나간다.", type: "COOPERATION" },
-      { text: "분리수거로 창출된 마을 기금을 단순 보관에 그치지 않고 자발적으로 베풀어 소외 이웃들의 복지 자금으로 공유 환원한다.", type: "SHARING" },
-      { text: "도움이 절실한 지역 환경을 지키는 일을 고귀한 의무로 여기고 대가나 개인 이익 없이 야간 순찰과 미화를 도맡아 헌신한다.", type: "SERVICE" },
-      { text: "지역 실정에 완벽하게 들어맞는 친환경 AI 분리수거 수거함 등 독창적인 기술과 수단을 창조적으로 도입해 실행한다.", type: "CREATION" }
+      { value: 5, label: "탓할 대상을 찾는 건 나중 일! 내 공구함을 들고 우물 배관실로 뛰어들어가 직접 고장 원인부터 파악하고 수리를 시도한다." },
+      { value: 4, label: "모터 수리 매뉴얼과 영상을 검색해 스스로 응급처치법을 찾아내고, 주민들을 이끌어 자체적으로 임시 복구를 주도한다." },
+      { value: 3, label: "마을에서 기계를 잘 다루는 이웃이 나타나 해결해 주길 내심 기다리며, 필요하면 심부름이라도 돕겠다고 생각한다." },
+      { value: 2, label: "애초에 우물 관리를 소홀히 한 이장을 탓하는 주민들과 함께 온라인에 불만 글을 올리며 목소리를 높인다." },
+      { value: 1, label: "누군가 결국 고쳐주겠지 싶어, 소란스러운 현장을 피해 가까운 편의점으로 생수를 사러 혼자 빠져나간다." }
     ]
   },
   {
+    category: "SELF_HELP",
+    image: "/assets/quest_self_help_2.png",
+    background: "마을 커뮤니티 게시판에 흥미로운 공지가 올라왔습니다. 'AI와 스마트 농업을 결합한 차세대 농촌 혁신 기술 세미나'가 이번 주말 단 하루, 두 시간 거리 혁신센터에서 열린다는 소식입니다. 참가비가 만만치 않고, 왕복 4시간에 주말까지 반납해야 하지만 이 분야 최고 전문가들이 강의한다고 합니다.",
+    question: "시간과 비용이라는 장벽 앞에서 당신이 선택할 행동은?",
+    options: [
+      { value: 5, label: "이런 기회는 다시 오지 않는다! 주말 휴식을 미련 없이 포기하고 참가비를 흔쾌히 지불한 뒤 맨 앞자리에 앉겠다고 다짐하며 등록 버튼을 누른다." },
+      { value: 4, label: "내 역량에 투자하는 것이 곧 미래를 위한 저축이라고 생각하며, 주말 일정을 조율해 세미나에 참석하고 꼼꼼하게 내용을 기록한다." },
+      { value: 3, label: "길드나 마을 협의회에서 비용을 지원하거나 의무 교육으로 지정해 준다면 기꺼이 참석하겠다고 마음먹는다." },
+      { value: 2, label: "참석한 다른 주민에게 나중에 핵심 요약 자료를 받아보면 될 것 같아, 피로한 몸을 쉬게 하는 것이 우선이라 여긴다." },
+      { value: 1, label: "내 경험과 직관만으로도 충분하다고 자부하며, 새로운 지식에 굳이 시간과 돈을 쏟을 필요가 없다고 판단한다." }
+    ]
+  },
+  {
+    category: "COOPERATION",
     image: "/assets/quest_cooperation_1.png",
-    background: "개발도상국에 파견되어 그곳의 주민들이 자립할 수 있도록 도와야 하는 임무를 맡았습니다. 원조만으로는 마을이 바뀌지 않습니다.",
-    question: "현지 주민들에게 전파하고 싶은 새마을 정신의 가장 본질적인 첫 씨앗은 무엇인가요?",
+    background: "오늘은 마을 연간 계획에서 가장 중요한 날입니다. 오전에는 '개인 사업 계획 발표회'가 열려 우수 발표자에게 후원금이 주어지고, 오후에는 온 마을이 함께 묵은 수로를 청소하는 '공동 환경 정비의 날'이 잡혀있습니다. 공교롭게도 두 일정이 시간이 겹쳐버렸고, 인력이 부족한 공동 작업은 당신의 참여 여부에 따라 진행 여부가 갈립니다.",
+    question: "두 가지 중 하나를 선택해야 할 때, 당신의 판단은?",
     options: [
-      { text: "계획성 있게 부지런히 일하며 남보다 땀을 더 흘려 성실한 생산적 결실을 증명하는 '근면성' 교육", type: "DILIGENCE" },
-      { text: "원조에 마냥 의존하지 않고 주체적 자신감을 고취해 필요한 기술 훈련을 자발적으로 수용하고 일어서는 '자조와 주인정신'", type: "SELF_HELP" },
-      { text: "개인의 사익을 양보하고 단결된 공동의 이익을 추구하며 분업 능률을 최고조로 창조하는 '상생 협동 정신'", type: "COOPERATION" },
-      { text: "자원 배분을 독점하지 않고 물질, 시간 및 자신의 지식과 노하우까지 자발적으로 이웃과 희생적으로 베푸는 '나눔의 미덕'", type: "SHARING" },
-      { text: "사회와 이웃을 도우려는 애틋한 이타심 and 사랑을 토대로 어떠한 대가 없이 헌신적인 돌봄 서비스를 제공하는 '봉사정신'", type: "SERVICE" },
-      { text: "기존의 낙후된 인프라에 갇히지 않고 새로운 융합 기술과 현지 맞춤형 지식 수용을 과감하게 응용·실행하는 '창조적 사고'", type: "CREATION" }
+      { value: 5, label: "개인 후원금의 달콤함을 내려놓고, 마을 전체의 생활 환경을 위해 공동 작업의 선봉에 서기로 결단한다." },
+      { value: 4, label: "발표회 참석은 최소화하고, 공동 정비에 성실히 합류하여 마을 사람들과 어깨를 나란히 한다." },
+      { value: 3, label: "발표회를 마치고 남은 시간에 공동 작업 현장에 잠깐 들러 최소한의 참여 흔적만 남긴다." },
+      { value: 2, label: "내 사업 발전이 우선이라고 판단하여 발표회에 전념하고, 공동 작업은 다른 사람들이 해줄 거라 믿는다." },
+      { value: 1, label: "마을 수로 따위는 내 관심사가 아니라며, 개인 이익 극대화에만 집중하고 공동 작업을 아예 외면한다." }
     ]
   },
   {
+    category: "COOPERATION",
+    image: "/assets/quest_cooperation_2.png",
+    background: "당신은 몇 달간의 치열한 연구 끝에 마을 행정 업무의 효율을 10배 높일 수 있는 자동화 툴을 개발했습니다. 마을 전체에 보급하면 모두가 혜택을 보겠지만, 이 노하우를 독점하면 당신만이 마을에서 유일무이한 '디지털 전문가'로 자리매김할 수 있습니다. 바로 그 순간, 옆자리 동료가 밤새 같은 작업을 수작업으로 반복하다가 지쳐 쓰러질 지경이 된 것을 목격했습니다.",
+    question: "독점의 유혹과 협동의 가치 사이에서 당신의 선택은?",
+    options: [
+      { value: 5, label: "개인의 독점적 지위보다 공동체 전체의 성장이 더 값지다! 툴 사용법을 투명하게 공유하고, 직접 동료에게 1:1로 밀착 교육한다." },
+      { value: 4, label: "마을 공동 성장을 위해 내가 만든 가이드 문서를 커뮤니티에 공개하고, 누구나 활용할 수 있도록 위키에 올린다." },
+      { value: 3, label: "동료가 먼저 도움을 청해오면, 내 경쟁 우위를 크게 해치지 않는 선에서 기본적인 팁 정도만 알려준다." },
+      { value: 2, label: "오랜 노력의 결실인 이 툴은 나만의 무기다. 동료가 내 화면을 볼 수 없도록 자리를 옮기고 비밀을 철저히 지킨다." },
+      { value: 1, label: "동료에게 일부러 비효율적인 방법을 알려주어 내 독보적인 위치가 흔들리지 않도록 교묘하게 견제한다." }
+    ]
+  },
+  {
+    category: "SHARING",
     image: "/assets/quest_sharing_1.png",
-    background: "마을 브랜드 가치를 높일 새로운 고부가가치 특산품을 개발하려고 합니다. 공동체 전체가 번영하기 위해선 상생이 핵심입니다.",
-    question: "성공적인 개발을 유도하는 데 가장 결정적인 자세와 태도는 무엇입니까?",
+    background: "마을 발전 위원회가 우리 마을의 전통 문화와 농산물을 전 세계에 알리는 '글로벌 새마을 페스티벌'을 처음으로 기획했습니다. 해외 바이어와 외국 방문객들이 100명 넘게 오는 대형 행사인데, 자원봉사자가 턱없이 부족합니다. 문제는 이 행사가 당신이 한 달 전부터 손꼽아 기다리던 가족 여행 날짜와 정확히 겹쳐버렸다는 것입니다.",
+    question: "오랫동안 기다려온 개인 약속과 마을 공동 행사 사이에서 당신의 마인드셋은?",
     options: [
-      { text: "성실함과 끈기를 바탕으로 뒤로 미루지 않고 계획적인 실험을 끊임없이 반복하여 생산적인 결실을 맺는 것", type: "DILIGENCE" },
-      { text: "타지역 카피에 의존하지 않고 자력으로 시장의 한계를 돌파하기 위해 전문 훈련을 자발적으로 찾아가 배우며 자생력을 확보하는 것", type: "SELF_HELP" },
-      { text: "공동의 이익을 최우선시하여 생산, 보관, 가공 유통의 전 과정에서 주민들과 마음을 모으는 분업 단결심을 발휘하는 것", type: "COOPERATION" },
-      { text: "특산물 판매 수익으로 조성된 자본금과 경험적 노하우를 마을의 취약 가구 생계 안정 및 영농 교육용으로 흔쾌히 공유하는 것", type: "SHARING" },
-      { text: "자신이 취득한 독점 특허 지식을 대가 없이 흔쾌히 공공 브랜드를 위해 무료로 기부 봉사하며 지역 발전을 지탱하는 것", type: "SERVICE" },
-      { text: "새로운 온라인 마케팅 패러다임과 포장 융합 기술을 독창적으로 결합하여 세상에 없던 고부가가치 브랜드를 응용·도전하는 것", type: "CREATION" }
+      { value: 5, label: "우리 마을의 이름을 세계에 알릴 단 한 번뿐인 기회다! 가족에게 양해를 구하고, 내 기획 역량과 에너지를 행사 운영에 아낌없이 쏟아붓는다." },
+      { value: 4, label: "여행 일정을 부분 조정하여, 번역 통역 지원이나 안내 부스 운영 등 도움이 되는 역할로 행사에 기여한다." },
+      { value: 3, label: "행사 당일 가족과 함께 관람객으로 방문하여 분위기를 즐기면서, 필요한 곳에 가벼운 도움을 건넨다." },
+      { value: 2, label: "내 소중한 가족 시간은 양보할 수 없다고 판단하며, 마을 행사는 자원봉사를 신청한 다른 사람들이 잘 해줄 거라 믿는다." },
+      { value: 1, label: "행사 준비 소음과 인파가 우리 가족 여행에 방해된다며 행사 취소를 요청하는 민원 글을 올린다." }
     ]
   },
   {
+    category: "SHARING",
+    image: "/assets/quest_sharing_2.png",
+    background: "당신이 수년간 직접 개발한 친환경 스마트 수경재배 기술이 마침내 특허 등록에 성공했습니다. 이 기술을 독점하면 라이선스 수익만으로도 평생을 살 수 있을 것입니다. 하지만 마을 한쪽에는 고령화로 기력이 쇠한 어르신 농부들이 고품질 농산물 재배에 어려움을 겪고 있고, 인근 청년 농업인들은 초기 기술 비용 부담 때문에 시작도 못하고 있습니다.",
+    question: "독점적 부의 기회와 이웃의 필요 사이에서 당신이 선택할 카드는?",
+    options: [
+      { value: 5, label: "기술이 진정한 가치를 발하는 것은 더 많은 사람이 쓸 때다! 어르신 농부와 청년 농업인들이 무료로 쓸 수 있도록 기술을 전면 개방한다." },
+      { value: 4, label: "함께 잘사는 마을을 꿈꾸며, 주변 동료와 청년 스타트업에게 저렴한 가격 혹은 조건부로 기술을 분배하여 상생을 추구한다." },
+      { value: 3, label: "초기 투자금 회수를 충분히 한 뒤, 기술이 어느 정도 보편화될 시점에 맞춰 일부 공개를 슬쩍 검토한다." },
+      { value: 2, label: "오직 나만이 이 기술의 수혜자여야 한다고 생각하며, 외부 유출을 막기 위해 특허 보호를 철저히 유지한다." },
+      { value: 1, label: "유사 기술을 개발하려는 시도조차 원천 봉쇄하기 위해 소송을 불사하고, 지식 독점 전략을 전면화한다." }
+    ]
+  },
+  {
+    category: "SERVICE",
     image: "/assets/quest_service_1.png",
-    background: "예기치 못한 기습 폭우로 인해 마을 안길과 배수로가 망가져 침수되었습니다. 당장의 복구가 절실한 위기 순간입니다.",
-    question: "이 응급 복구 상황에서 당신이 보여줄 즉각적인 반응은 무엇일까요?",
+    background: "밤 10시, 거센 집중호우가 아랫동네를 강타했습니다. 하수구가 막혀 물이 역류하면서 골목 저지대의 집들이 침수 위기에 처했습니다. 마을 재난 대응 단톡방에 '긴급 자원봉사자 구합니다 — 하수구 뚫는 분'이라는 메시지가 울렸습니다. 수당은 당연히 0원, 비는 계속 쏟아지고 있고, 당신은 지금 막 따뜻한 온돌방에서 쉬려던 참이었습니다.",
+    question: "편안한 휴식과 이웃의 위기 사이에서 당신이 선택할 카드는?",
     options: [
-      { text: "비옷을 입고 당장 할 수 있는 수로 정비를 계획에 맞춰 신속하게 착수해 한 땀 한 땀 일을 해내며 피해를 최소화하는 성실함", type: "DILIGENCE" },
-      { text: "재난 긴급 원조나 행정 당국이 복구해주길 막연하게 기대하기 전, 주민 스스로 자신감을 갖고 극복할 대안을 직접 자발적으로 찾는 것", type: "SELF_HELP" },
-      { text: "서로를 배려하며 긴밀하게 뭉쳐 가구별 복구 역할을 철저하게 분업화하고 마을 공동체의 힘을 모아 새로운 재건 동력을 창조하는 것", type: "COOPERATION" },
-      { text: "나보다 더 극심한 침수 피해를 입어 고통받는 이웃들에게 개인의 물질, 따뜻한 쉼터, 수해 복구 노하우를 자발적으로 나누고 베푸는 것", type: "SHARING" },
-      { text: "수재민 구호를 숭고한 이타적 의무로 자각하고 사랑과 희생을 발휘해 가장 위험하고 지저분한 토사 제거 구역을 자원 봉사하는 것", type: "SERVICE" },
-      { text: "마을의 고유 지형과 물길의 흐름을 빠르게 분석해 기존보다 폭우에 3배 이상 안전한 배수로 설계를 창조적으로 고안해 실행하는 것", type: "CREATION" }
+      { value: 5, label: "지금 내가 움직이지 않으면 아랫동네 이웃들의 집이 물에 잠긴다! 우비와 장화를 챙겨 망설임 없이 빗속으로 뛰어나간다." },
+      { value: 4, label: "공동체 안전을 지키는 것이 내 책임이기도 하다고 느끼며, 야간 수해 대응 자원봉사 조에 이름을 올리고 합류한다." },
+      { value: 3, label: "동사무소에서 공식적으로 장비와 인력 지원이 이루어진다면, 안전한 구역에 한해 도움을 보태겠다고 생각한다." },
+      { value: 2, label: "내 몸이 먼저라는 생각에, 재난 방송을 틀어놓은 채 이불 속에서 상황을 지켜보기로 한다." },
+      { value: 1, label: "밤중에 재난 경보 소리가 너무 시끄럽다며 볼륨을 줄여달라는 불만 글을 단톡방에 올린다." }
     ]
   },
   {
-    image: "/assets/quest_creativity_1.png",
-    background: "다가오는 디지털 스마트 공동체 시대를 이끌어갈 리더에게 가장 요구되는 소양은 무엇일까요? 관행을 깨는 혁신이 필요합니다.",
-    question: "다음 인격적 가치 중 가장 당신에게 매력적으로 느껴지는 리더십을 고르세요.",
+    category: "SERVICE",
+    image: "/assets/quest_service_2.png",
+    background: "마을 복지 센터에서 충격적인 현황 보고가 나왔습니다. 마을 어르신 주민 중 37%가 스마트폰 사용이 어려워 공공 행정 서비스, 건강 정보 앱, 긴급 연락 시스템에서 완전히 소외되어 있다는 것입니다. 더 나아가 이 분들 중 상당수가 집 안에만 머물며 사회적 고립감을 심각하게 느끼고 있다는 사실도 드러났습니다.",
+    question: "이 숨겨진 디지털 소외의 현실을 마주한 당신의 대응 전략은?",
     options: [
-      { text: "부지런함과 성실함으로 기본 계획을 변함없이 알뜰하게 추진하는 정성과 계획적인 끈기", type: "DILIGENCE" },
-      { text: "남에게 휘둘리지 않고 주인정신을 가지며 기술 수용을 위해 끊임없이 자발적 자기 계발을 이어가는 주체성", type: "SELF_HELP" },
-      { text: "개인의 독단을 넘어 상생과 배려로 다수 주민들과 뜻을 함께하고 분업 단결을 모으는 공동체 단결 조율력", type: "COOPERATION" },
-      { text: "성공을 독차지하지 않고 자신이 가진 물질, 시간뿐 아니라 지식과 가치 있는 경험을 이웃에 자발적으로 기여하고 베푸는 포용력", type: "SHARING" },
-      { text: "자신의 이해득실이나 이익 추구에 무관하게 상대방과 공공을 도우려는 애틋한 사랑과 희생으로 서비스를 기여하는 헌신", type: "SERVICE" },
-      { text: "낙후된 구태에 머물지 않고 지역 실정에 완벽히 어울리는 새로운 실천 아이디어와 기술 융합을 도전해 실행하는 혁신성", type: "CREATION" }
+      { value: 5, label: "이것이야말로 진짜 체인지메이커의 퀘스트! 어르신 전담 '1:1 디지털 동행 서포터즈'를 즉시 제안하고, 직접 첫 번째 자원봉사자로 나선다." },
+      { value: 4, label: "소외된 어르신들을 위한 주 1회 디지털 문해 교육 프로그램에 강사로 자원하여 정기적으로 찾아간다." },
+      { value: 3, label: "복지센터의 어르신 지원 모금 계좌에 소액을 정기 후원하여 내가 할 수 있는 최소한의 도움을 실천한다." },
+      { value: 2, label: "세상의 모든 불평등을 내가 다 해결할 수는 없다며, 내 일상과 개인 역량 개발에만 집중하기로 한다." },
+      { value: 1, label: "어르신 지원 예산이 늘어나면 청년 창업 지원이 줄어든다며, 세대 간 자원 배분 방식에 불만 글을 올린다." }
+    ]
+  },
+  {
+    category: "CREATION",
+    image: "/assets/quest_creativity_1.png",
+    background: "마을 행정처에 인턴으로 들어온 첫날, 담당자가 두꺼운 서류 더미를 쌓으며 말합니다. '이 엑셀 파일 5만 행짜리 데이터를 양식에 맞게 수작업으로 입력해야 해요. 일주일 드릴게요.' 옆자리 선배들은 이미 수년째 같은 방식으로 이 작업을 반복하고 있고, 아무도 의심하지 않습니다. 하지만 당신의 눈에는 이것이 단순 반복 작업으로만 보입니다.",
+    question: "수십 년 이어진 낡은 관행 앞에서 당신이 발휘할 창조적 해법은?",
+    options: [
+      { value: 5, label: "이 비효율은 반드시 개선되어야 한다! 파이썬 자동화 스크립트를 독학하고 AI 도구를 활용하여, 단 몇 분 만에 작업을 완료하는 시스템을 만들어 제안한다." },
+      { value: 4, label: "클라우드 협업 툴과 데이터 자동 변환 기능을 도입해 팀 전체의 업무 방식을 스마트하게 재설계하는 계획서를 작성한다." },
+      { value: 3, label: "다른 부서에서 비슷한 작업에 쓰는 보조 도구가 있다고 들어, 그것을 빌려 활용하며 작업 속도를 약간 높인다." },
+      { value: 2, label: "새로운 기술을 배우는 데 시간이 너무 걸린다고 생각하며, 관행대로 마우스 클릭과 복사 붙여넣기를 묵묵히 반복한다." },
+      { value: 1, label: "수작업이야말로 오류 없는 가장 정직한 방법이라고 믿으며, 자동화 도입 자체를 강하게 반대한다." }
+    ]
+  },
+  {
+    category: "CREATION",
+    image: "/assets/quest_creativity_2.png",
+    background: "오늘 새벽 4시, 마을 스마트 통합 플랫폼에 전례 없는 사이버 공격이 발생했습니다. 주민 등록 정보, 농업 데이터, 공동 자산 현황이 모두 암호화되어 접근 불가 상태가 됐고, 행정 서비스가 전면 마비되었습니다. 이사회는 긴급 소집 중이고, 현장에 있는 IT 인력은 사실상 당신 혼자입니다.",
+    question: "전례 없는 디지털 위기 상황에서 당신이 꺼내들 무기는?",
+    options: [
+      { value: 5, label: "지금 이 위기가 바로 우리 시스템을 근본적으로 혁신할 기회다! 즉각 대응 TF를 꾸리고, 재발 방지를 위한 분산형 클라우드 아키텍처 전환 계획을 수립하여 이사회에 제안한다." },
+      { value: 4, label: "당황하지 않고 침착하게 공격 로그를 역추적하며 피해를 최소화하는 복구 절차를 주도하고, 이번 기회에 재난 대응 프로토콜을 체계화한다." },
+      { value: 3, label: "긴급 복구 회의가 소집되면 참석하여, 내가 가진 임시 백업 파일 정도를 공유하며 회의 분위기에 맞춰 협력한다." },
+      { value: 2, label: "상황이 너무 복잡하고 두려워 아무것도 손댈 수 없으며, 당직 담당자에게 책임을 돌리며 스트레스를 발산한다." },
+      { value: 1, label: "이 혼란 속에서 어차피 내가 할 수 있는 일은 없다며, 아무도 모르게 자리를 피해 버린다." }
     ]
   }
 ];
 
 // ── 중립적인 알파벳 카드 배지 ──
-const CARD_LABELS = ['Card A', 'Card B', 'Card C', 'Card D', 'Card E', 'Card F'];
+const CARD_LABELS = ['Card A', 'Card B', 'Card C', 'Card D', 'Card E'];
 
 // ── [NEW] 순수 SVG 육각형 방사형 차트 (Radar Chart) 컴포넌트 ──
 const RadarChart = ({ scores, isInteractive = false, onLabelHover = () => {} }) => {
@@ -357,8 +435,7 @@ const SpiritTest = () => {
   const [pendingResult, setPendingResult] = useState(null);
   
   // 질문 진행 간 선택 리스트 누적용
-  const [selectedAnswers, setSelectedAnswers] = useState([]);
-  const [scores, setScores] = useState({ DILIGENCE: 0, SELF_HELP: 0, COOPERATION: 0, SHARING: 0, SERVICE: 0, CREATION: 0 });
+  const [responses, setResponses] = useState(Array(12).fill(0));
 
   // 호버 툴팁 상태
   const [hoveredKey, setHoveredKey] = useState(null);
@@ -377,7 +454,7 @@ const SpiritTest = () => {
       return;
     }
     
-    // 6개 질문 각각의 options 보기를 무작위로 섞어서 셔플 질문 생성
+    // 12개 질문 각각의 options 보기를 무작위로 섞어서 셔플 질문 생성
     const list = questions.map((q) => {
       const shuffled = [...q.options].sort(() => Math.random() - 0.5);
       return {
@@ -387,36 +464,41 @@ const SpiritTest = () => {
     });
 
     setShuffledQuestions(list);
-    setSelectedAnswers([]);
-    setScores({ DILIGENCE: 0, SELF_HELP: 0, COOPERATION: 0, SHARING: 0, SERVICE: 0, CREATION: 0 });
+    setResponses(Array(12).fill(0));
     setStep(0);
     setCurrentMode('QUEST');
   };
 
-  const handleOptionClick = (option, idx) => {
+  const handleOptionClick = (val, idx) => {
     if (selectedIdx !== null) return;
     setSelectedIdx(idx);
 
     setTimeout(() => {
-      const newScores = { ...scores, [option.type]: scores[option.type] + 1 };
-      const newAnswers = [...selectedAnswers, { type: option.type, text: option.text }];
-
+      const nextResponses = [...responses];
+      nextResponses[step] = val;
+      setResponses(nextResponses);
       setSelectedIdx(null);
-      setScores(newScores);
-      setSelectedAnswers(newAnswers);
 
       if (step < questions.length - 1) {
         setStep(step + 1);
       } else {
-        // 마지막 질문 완료 -> 분석 화면 가동!
-        const maxType = Object.keys(newScores).reduce((a, b) => (newScores[a] > newScores[b] ? a : b));
+        // 모든 12개 퀘스트 완료 -> 분석 화면 가동!
+        const spiritScores = {
+          DILIGENCE: nextResponses[0] + nextResponses[1],
+          SELF_HELP: nextResponses[2] + nextResponses[3],
+          COOPERATION: nextResponses[4] + nextResponses[5],
+          SHARING: nextResponses[6] + nextResponses[7],
+          SERVICE: nextResponses[8] + nextResponses[9],
+          CREATION: nextResponses[10] + nextResponses[11],
+        };
+        const maxType = Object.keys(spiritScores).reduce((a, b) => (spiritScores[a] > spiritScores[b] ? a : b));
         setPendingResult(maxType);
         setCurrentMode('ANALYZING');
         setIsAnalyzing(true);
         
         // 4초 후 최종 결과 도출
         setTimeout(() => {
-          calculateFinalResult(newScores, newAnswers);
+          calculateFinalResult(nextResponses);
           setIsAnalyzing(false);
           setCurrentMode('RESULT');
         }, 4000);
@@ -426,56 +508,94 @@ const SpiritTest = () => {
 
   const handlePrevStep = () => {
     if (step > 0 && selectedIdx === null) {
-      const prevStep = step - 1;
-      const lastAns = selectedAnswers[selectedAnswers.length - 1];
-      const newScores = { ...scores, [lastAns.type]: scores[lastAns.type] - 1 };
-      const newAnswers = selectedAnswers.slice(0, -1);
-
-      setStep(prevStep);
-      setScores(newScores);
-      setSelectedAnswers(newAnswers);
+      setStep(step - 1);
     }
   };
 
-  // 결과 계산 알고리즘 (6문항 기반으로 하이브리드 고도화)
-  const calculateFinalResult = (finalScores, finalAnswers) => {
-    const maxKey = Object.keys(finalScores).reduce((a, b) => (finalScores[a] > finalScores[b] ? a : b));
-    const maxSpirit = SPIRIT_META[maxKey];
+  const handleNextStep = () => {
+    if (step < questions.length - 1 && responses[step] > 0 && selectedIdx === null) {
+      setStep(step + 1);
+    }
+  };
 
-    // 방사형 차트용 10점 만점 스탯 스케일링 보정
-    // 0점 -> 2점, 1점 -> 5점, 2점 -> 8점, 3점 이상 -> 10점
-    const chartScores = {};
-    Object.keys(finalScores).forEach((k) => {
-      const s = finalScores[k];
-      if (s === 0) chartScores[k] = 2;
-      else if (s === 1) chartScores[k] = 5;
-      else if (s === 2) chartScores[k] = 8;
-      else chartScores[k] = 10;
-    });
-
-    const sm1Score = finalScores.DILIGENCE + finalScores.SELF_HELP + finalScores.COOPERATION;
-    const sm2Score = finalScores.SHARING + finalScores.SERVICE + finalScores.CREATION;
-
-    // 세대별 밸런스 퍼센트 변환 (최대 6문항이므로 비율 환산)
-    const sm1Pct = Math.round((sm1Score / 6) * 100);
-    const sm2Pct = Math.round((sm2Score / 6) * 100);
-
-    const archetype = {
-      title: maxSpirit.role, // 예: "성실한 실행가"
-      sub: maxSpirit.title, // 예: "성실함으로 today를 일구는 계획적 끈기"
-      badge: `대표 가치: ${maxSpirit.label}`,
-      color: maxSpirit.color,
-      textColor: maxSpirit.textColor,
-      bgLight: maxSpirit.bgLight,
-      desc: maxSpirit.description,
-      action: maxSpirit.action,
-      matchingSDG: maxSpirit.matchingSDG,
-      keywords: maxSpirit.keywords
+  // 결과 계산 알고리즘 (12문항 5점 리커트 척도 복원 및 학술 분석 연동)
+  const calculateFinalResult = (finalResponses) => {
+    const spiritScores = {
+      DILIGENCE: finalResponses[0] + finalResponses[1],
+      SELF_HELP: finalResponses[2] + finalResponses[3],
+      COOPERATION: finalResponses[4] + finalResponses[5],
+      SHARING: finalResponses[6] + finalResponses[7],
+      SERVICE: finalResponses[8] + finalResponses[9],
+      CREATION: finalResponses[10] + finalResponses[11],
     };
 
+    const maxKey = Object.keys(spiritScores).reduce((a, b) => (spiritScores[a] > spiritScores[b] ? a : b));
+    const maxSpirit = SPIRIT_META[maxKey];
+
+    const totalScore = Object.values(spiritScores).reduce((acc, curr) => acc + curr, 0);
+
+    const sm1Score = spiritScores.DILIGENCE + spiritScores.SELF_HELP + spiritScores.COOPERATION;
+    const sm2Score = spiritScores.SHARING + spiritScores.SERVICE + spiritScores.CREATION;
+
+    // 세대별 밸런스 퍼센트 변환 (각각 최대 30점)
+    const sm1Pct = Math.round((sm1Score / 30) * 100);
+    const sm2Pct = Math.round((sm2Score / 30) * 100);
+
+    let archetype = {
+      title: "",
+      sub: "",
+      badge: "",
+      color: "",
+      textColor: "",
+      bgLight: "",
+      desc: ""
+    };
+
+    if (totalScore >= 51) {
+      archetype = {
+        title: "통합적 체인지메이커",
+        sub: "균형 잡힌 올라운더형 리더 (Integrated Leader)",
+        badge: "통합형 (51~60점)",
+        color: "from-amber-500 via-emerald-500 to-teal-600",
+        textColor: "text-emerald-700",
+        bgLight: "bg-gradient-to-br from-emerald-50 to-teal-50/30 border-emerald-100",
+        desc: "당신은 전통적인 공동체 실행력(근면·자조·협동)과 현대적인 상생 혁신(나눔·봉사·창조) 가치를 고루 조화시키며, 주인의식을 발휘해 공동체의 지속 가능한 성장을 스마트하게 이끄는 훌륭한 균형형 리더입니다."
+      };
+    } else if (totalScore >= 39) {
+      archetype = {
+        title: "주도적 실행자",
+        sub: "실천형 행동파 개척자 (Active Pioneer)",
+        badge: "실행형 (39~50점)",
+        color: "from-sky-500 to-indigo-600",
+        textColor: "text-indigo-700",
+        bgLight: "bg-indigo-50/40 border-indigo-100",
+        desc: "당신은 강한 주인의식(자조)과 지치지 않는 끈기(근면)를 바탕으로, 공동체의 목표와 당면 과제를 향해 앞장서 돌파하고 실질적인 성과를 일구어내는 훌륭한 실천주의 개척자입니다."
+      };
+    } else if (totalScore >= 27) {
+      archetype = {
+        title: "따뜻한 조율자",
+        sub: "상생형 협력적 조력자 (Collaborative Supporter)",
+        badge: "조율형 (27~38점)",
+        color: "from-purple-500 to-pink-500",
+        textColor: "text-purple-700",
+        bgLight: "bg-purple-50/40 border-purple-100",
+        desc: "당신은 이웃에 대한 나눔과 봉사, 협력을 가장 소중한 가치로 여기며 동료들을 돕고 서로 상생하여 공동체의 평화와 화합을 만들어 나가는 따뜻한 공감 조력자입니다."
+      };
+    } else {
+      archetype = {
+        title: "신중한 사색가",
+        sub: "차분한 사색적 성찰가 (Reflective Explorer)",
+        badge: "성찰형 (12~26점)",
+        color: "from-slate-400 to-slate-600",
+        textColor: "text-slate-700",
+        bgLight: "bg-slate-50 border-slate-200",
+        desc: "당신은 성급하게 앞장서기보단 신중하고 차분하게 주어진 상황을 성찰하고, 내실 있는 자기개발과 조용한 지지를 아끼지 않는 깊이 있고 내면이 단단한 탐구자입니다."
+      };
+    }
+
     setResultData({
-      scores: finalScores,
-      chartScores,
+      scores: spiritScores,
+      totalScore,
       sm1Score,
       sm2Score,
       sm1Pct,
@@ -487,8 +607,7 @@ const SpiritTest = () => {
 
   const resetTest = () => {
     setStep(0);
-    setScores({ DILIGENCE: 0, SELF_HELP: 0, COOPERATION: 0, SHARING: 0, SERVICE: 0, CREATION: 0 });
-    setSelectedAnswers([]);
+    setResponses(Array(12).fill(0));
     setSelectedIdx(null);
     setCurrentMode('COVER');
     setResultData(null);
@@ -498,7 +617,7 @@ const SpiritTest = () => {
   const handleShareResult = () => {
     if (resultData) {
       const { archetype } = resultData;
-      const shareText = `[글로벌 새마을정신 진단 결과]\n모험가: ${playerName} (${playerClass === 'Pioneer' ? '마을 개척 전사' : playerClass === 'Healer' ? '상생 온정 힐러' : '스마트 아키텍트'})\n나의 대표 유형: [${archetype.badge}: ${archetype.title}]\n진단 요약: "${archetype.sub}"\n학술 분석 정밀 테스트에 도전해 보세요! \nhttps://saemaul-sdgs.web.app/saemaul-test`;
+      const shareText = `[글로벌 새마을정신 진단 결과]\n모험가: ${playerName} (${playerClass === 'Pioneer' ? '마을 개척 전사' : playerClass === 'Healer' ? '상생 온정 힐러' : '스마트 아키텍트'})\n나의 대표 유형: [${archetype.title} : ${archetype.sub}]\n총합 스탯 점수: ${resultData.totalScore}점\n학술 분석 정밀 테스트에 도전해 보세요! \nhttps://saemaul-sdgs.web.app/saemaul-test`;
       
       if (navigator.clipboard) {
         navigator.clipboard.writeText(shareText).then(() => {
@@ -553,7 +672,7 @@ const SpiritTest = () => {
 
   // ── 2. 진단 결과 레포트 화면 (MBTI / Duolingo 스타일) ──
   if (currentMode === 'RESULT' && resultData) {
-    const { chartScores, sm1Score, sm2Score, sm1Pct, sm2Pct, archetype, maxKey, scores: finalScores } = resultData;
+    const { scores, totalScore, sm1Score, sm2Score, sm1Pct, sm2Pct, archetype, maxKey } = resultData;
     const maxSpirit = SPIRIT_META[maxKey];
     const MaxIcon = maxSpirit.icon;
 
@@ -583,7 +702,7 @@ const SpiritTest = () => {
                 <p className="text-2xl md:text-3xl font-black text-yellow-300 drop-shadow-md">
                   「{archetype.title}」
                 </p>
-                <p className="text-sm font-mono font-semibold text-white/80 mt-1 uppercase tracking-widest">
+                <p className="text-sm font-mono font-semibold text-white/80 mt-1 uppercase tracking-widest break-keep">
                   {archetype.sub}
                 </p>
               </div>
@@ -600,12 +719,9 @@ const SpiritTest = () => {
                 <p className="text-slate-700 font-bold text-[15px] leading-relaxed break-keep text-justify">
                   {archetype.desc}
                 </p>
-                <div className="flex flex-wrap gap-2 pt-2">
-                  {archetype.keywords.map((kw, i) => (
-                    <span key={i} className={`px-3 py-1 rounded-full text-xs font-black bg-white border ${archetype.textColor} border-emerald-100`}>
-                      #{kw}
-                    </span>
-                  ))}
+                <div className="pt-4 border-t border-slate-200 flex justify-between items-center text-xs font-bold text-slate-500 font-mono">
+                  <span>종합 성향 점수 (TOTAL SCORE)</span>
+                  <span className="text-xl font-black text-slate-800">{totalScore} <span className="text-xs font-medium text-slate-400 font-mono">/ 60점</span></span>
                 </div>
               </div>
 
@@ -653,7 +769,7 @@ const SpiritTest = () => {
                 </div>
 
                 <div className="flex items-center justify-center py-2 relative">
-                  <RadarChart scores={chartScores} />
+                  <RadarChart scores={scores} />
                 </div>
               </div>
 
@@ -680,11 +796,11 @@ const SpiritTest = () => {
                         <span className="text-xs font-black font-mono text-slate-550">{sm1Pct}%</span>
                       </div>
                       <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden mb-4 border border-slate-200">
-                        <div className="h-full bg-emerald-500 animate-pulse" style={{ width: `${sm1Pct}%` }} />
+                        <div className="h-full bg-emerald-500" style={{ width: `${sm1Pct}%` }} />
                       </div>
                       <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 font-mono">포괄 덕목 : 근면 · 자조 · 협동</p>
                     </div>
-                    <p className="text-[12.5px] font-bold text-slate-650 leading-relaxed bg-slate-50 p-3 rounded-xl border border-slate-100 font-semibold break-keep">
+                    <p className="text-[12.5px] font-bold text-slate-600 leading-relaxed bg-slate-50 p-3 rounded-xl border border-slate-100 font-semibold break-keep">
                       문제를 스스로 개척하려는 **주도적 의지(자조)**와 꾸준하게 계획을 실행하는 **성실한 실천력(근면·협동)**을 수치화한 가치 영역입니다.
                     </p>
                   </div>
@@ -700,7 +816,7 @@ const SpiritTest = () => {
                         <span className="text-xs font-black font-mono text-slate-550">{sm2Pct}%</span>
                       </div>
                       <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden mb-4 border border-slate-200">
-                        <div className="h-full bg-blue-500 animate-pulse" style={{ width: `${sm2Pct}%` }} />
+                        <div className="h-full bg-blue-500" style={{ width: `${sm2Pct}%` }} />
                       </div>
                       <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 font-mono">포괄 덕목 : 나눔 · 봉사 · 창조</p>
                     </div>
@@ -748,13 +864,13 @@ const SpiritTest = () => {
               <div className="grid grid-cols-2 gap-3 pt-2">
                 <button
                   onClick={() => navigate('/saemaul-test')}
-                  className="py-3.5 rounded-xl bg-slate-100 text-slate-600 font-bold text-xs hover:bg-slate-200 hover:text-slate-800 transition-all text-center border border-slate-200 shadow-sm"
+                  className="py-3.5 rounded-xl bg-slate-100 text-slate-605 font-bold text-xs hover:bg-slate-200 hover:text-slate-800 transition-all text-center border border-slate-200 shadow-sm"
                 >
                   테스트 선택 센터
                 </button>
                 <button
                   onClick={() => navigate('/')}
-                  className="py-3.5 rounded-xl bg-slate-100 text-slate-600 font-bold text-xs hover:bg-slate-200 hover:text-slate-800 transition-all text-center border border-slate-200 shadow-sm"
+                  className="py-3.5 rounded-xl bg-slate-100 text-slate-605 font-bold text-xs hover:bg-slate-200 hover:text-slate-800 transition-all text-center border border-slate-200 shadow-sm"
                 >
                   메인 월드 로비 (홈)
                 </button>
@@ -767,7 +883,7 @@ const SpiritTest = () => {
     );
   }
 
-  // ── 3. [NEW] 나만의 체인지메이커 캐릭터 생성 스크린 ──
+  // ── 3. 나만의 체인지메이커 캐릭터 생성 스크린 ──
   if (currentMode === 'CREATE') {
     return (
       <div className="min-h-screen bg-slate-50 pt-20 pb-20 flex items-center text-slate-800">
@@ -911,7 +1027,7 @@ const SpiritTest = () => {
                         <h4 className="text-md font-black text-slate-900 mt-2">
                           {hoveredInfo.role} : <span className={hoveredInfo.textColor}>{hoveredInfo.label}</span>
                         </h4>
-                        <p className="text-[12px] text-slate-655 font-semibold leading-relaxed mt-2 break-keep">
+                        <p className="text-[12px] text-slate-650 font-semibold leading-relaxed mt-2 break-keep">
                           "{hoveredInfo.title}"
                         </p>
                         <p className="text-[11.5px] text-slate-500 leading-snug mt-1 break-keep">
@@ -939,7 +1055,7 @@ const SpiritTest = () => {
                 >
                   🎮 내 캐릭터 생성하고 시작하기 <ChevronRight size={20} />
                 </button>
-                <p className="text-center text-slate-450 text-[11px] font-mono">6 STAGE QUESTS • PLAY TIME 2 MINS • ACADEMIC RECORD BASED</p>
+                <p className="text-center text-slate-450 text-[11px] font-mono">12 STAGE QUESTS • PLAY TIME 3 MINS • ACADEMIC RECORD BASED</p>
               </div>
             </div>
           </div>
@@ -951,6 +1067,7 @@ const SpiritTest = () => {
 
   // ── 5. 게임 진행 중 설문 화면 ──
   const current = shuffledQuestions[step] || questions[step];
+  const hasPreviousResponse = responses[step] > 0;
 
   return (
     <div className="min-h-screen bg-slate-50 pt-24 pb-20 flex items-center animate-fade-in text-slate-800">
@@ -962,13 +1079,13 @@ const SpiritTest = () => {
           {/* 진행 상단 바 */}
           <div className="mb-6">
             <div className="flex justify-between items-center mb-3">
-              <span className="text-saemaul-green text-[11px] font-black tracking-widest uppercase font-mono">QUESTION {step + 1} / 6</span>
-              <span className="text-slate-555 text-xs font-mono font-bold">COMPLETED {Math.round((step / 6) * 100)}%</span>
+              <span className="text-saemaul-green text-[11px] font-black tracking-widest uppercase font-mono">QUESTION {step + 1} / 12</span>
+              <span className="text-slate-500 text-xs font-mono font-bold">COMPLETED {Math.round((step / 12) * 100)}%</span>
             </div>
             <div className="w-full h-2 bg-slate-100 rounded-full overflow-hidden border border-slate-200/50">
               <div 
                 className="h-full bg-saemaul-green rounded-full transition-all duration-500" 
-                style={{ width: `${((step + 1) / 6) * 100}%` }} 
+                style={{ width: `${((step + 1) / 12) * 100}%` }} 
               />
             </div>
           </div>
@@ -990,7 +1107,7 @@ const SpiritTest = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent pointer-events-none" />
                 </div>
               )}
-              <p className="text-slate-600 text-[13.5px] leading-relaxed break-keep font-semibold text-justify">
+              <p className="text-slate-650 text-[13.5px] leading-relaxed break-keep font-semibold text-justify">
                 {current.background}
               </p>
             </div>
@@ -1001,34 +1118,36 @@ const SpiritTest = () => {
 
             {/* 선택지 행동 카드 (Shuffle 적용 렌더링) */}
             <div className="space-y-2.5">
-              {(current.shuffledOptions || current.options).map((option, index) => {
+              {(current.shuffledOptions || current.options).map((scale, index) => {
+                const optionWeight = scale.value;
                 const isSelected = selectedIdx === index;
+                const isPreviouslySelected = responses[step] === optionWeight;
                 const cardLabel = CARD_LABELS[index];
 
                 return (
                   <button
                     key={index}
-                    onClick={() => handleOptionClick(option, index)}
+                    onClick={() => handleOptionClick(optionWeight, index)}
                     disabled={selectedIdx !== null}
                     className={`w-full text-left px-5 py-4 rounded-2xl border-2 transition-all duration-300 group flex items-center justify-between
-                      ${isSelected
+                      ${isSelected || isPreviouslySelected
                         ? 'scale-[1.01] shadow-md border-saemaul-green bg-emerald-500/10 text-saemaul-green font-black' 
-                        : 'border-slate-100 bg-slate-50 text-slate-650 hover:border-slate-350 hover:bg-slate-100/50'}`}
+                        : 'border-slate-100 bg-slate-50 text-slate-600 hover:border-slate-300 hover:bg-slate-100/50'}`}
                   >
                     <div className="flex items-center gap-4">
                       {/* 선택지 배지 배정 */}
                       <div className={`px-2.5 py-1.5 rounded-xl border shrink-0 flex items-center justify-center font-black text-[11px] font-mono transition-all 
-                        ${isSelected 
+                        ${isSelected || isPreviouslySelected 
                           ? 'border-saemaul-green bg-saemaul-green text-white' 
                           : 'border-slate-200 bg-white text-slate-400 group-hover:text-slate-600 group-hover:border-slate-300'}`}>
                         {cardLabel}
                       </div>
-                      <span className={`font-bold text-[13px] md:text-[13.5px] leading-relaxed transition-colors ${isSelected ? 'text-saemaul-green font-black' : 'text-slate-700 group-hover:text-slate-900'} break-keep`}>
-                        {option.text}
+                      <span className={`font-bold text-[13px] md:text-[13.5px] leading-relaxed transition-colors ${isSelected || isPreviouslySelected ? 'text-saemaul-green font-black' : 'text-slate-700 group-hover:text-slate-900'} break-keep`}>
+                        {scale.label}
                       </span>
                     </div>
                     
-                    <div className={`w-5 h-5 rounded-full shrink-0 flex items-center justify-center transition-all ${isSelected ? 'scale-100 opacity-100' : 'scale-75 opacity-0'}`}>
+                    <div className={`w-5 h-5 rounded-full shrink-0 flex items-center justify-center transition-all ${isSelected || isPreviouslySelected ? 'scale-100 opacity-100' : 'scale-75 opacity-0'}`}>
                       <CheckCircle size={18} className="text-saemaul-green" />
                     </div>
                   </button>
@@ -1044,24 +1163,33 @@ const SpiritTest = () => {
                 className={`flex items-center gap-1.5 px-4 py-2.5 rounded-xl border font-bold text-xs transition-all active:scale-95
                   ${step === 0 
                     ? 'border-slate-200 text-slate-300 cursor-not-allowed bg-slate-50' 
-                    : 'border-slate-250 text-slate-600 hover:bg-slate-100 bg-white hover:text-slate-800'}`}
+                    : 'border-slate-250 text-slate-605 hover:bg-slate-100 bg-white hover:text-slate-800'}`}
               >
                 <ChevronLeft size={15} /> 이전 문항
               </button>
               
               <div className="text-xs font-mono font-bold text-slate-400">
-                QUESTION {step + 1} / 6
+                QUESTION {step + 1} / 12
               </div>
 
-              <div className="w-20" /> {/* 우측 간격 맞춤용 */}
+              <button
+                onClick={handleNextStep}
+                disabled={step === questions.length - 1 || !hasPreviousResponse || selectedIdx !== null}
+                className={`flex items-center gap-1.5 px-4 py-2.5 rounded-xl border font-bold text-xs transition-all active:scale-95
+                  ${step === questions.length - 1 || !hasPreviousResponse
+                    ? 'border-slate-200 text-slate-300 cursor-not-allowed bg-slate-50' 
+                    : 'border-saemaul-green text-saemaul-green hover:bg-emerald-50 bg-white'}`}
+              >
+                다음 문항 <ChevronRight size={15} />
+              </button>
             </div>
 
           </div>
 
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 
   return null;
 };
