@@ -3,6 +3,7 @@ import { Routes, Route, Link, useNavigate, useParams } from 'react-router-dom';
 import LeadershipTest from './pages/LeadershipTest/LeadershipTest';
 import SaemaulTest from './pages/SaemaulTest/SaemaulTest';
 import SpiritTest from './pages/SaemaulTest/SpiritTest';
+import VillageMap from './pages/SaemaulTest/VillageMap';
 import DocViewer from './pages/DocViewer/DocViewer';
 import KnowledgeHub from './pages/KnowledgeHub/KnowledgeHub';
 import Community from './pages/Community/Community';
@@ -705,6 +706,7 @@ function App() {
           <Route path="/saemaul-test" element={<SaemaulTest />} />
           <Route path="/test" element={<LeadershipTest />} />
           <Route path="/spirit-test" element={<SpiritTest />} />
+          <Route path="/spirit-map"  element={<VillageMap />} />
           <Route path="/archive/:filename" element={<DocViewer />} />
           <Route path="/chatbot" element={<ChatbotPage />} />
           <Route path="/community" element={<Community />} />

@@ -121,7 +121,7 @@ const SPIRIT_ANALYZING_FACTS = {
 };
 
 // ── 12대 TRPG 게이미피케이션 퀘스트 질문 리스트 ──
-const questions = [
+export const questions = [
   {
     category: "DILIGENCE",
     image: "/assets/quest_diligence_1.png",
@@ -418,6 +418,43 @@ const RadarChart = ({ scores, isInteractive = false, onLabelHover = () => {} }) 
 
 const SpiritTest = () => {
   const navigate = useNavigate();
+
+  // ── [마을 맵] sessionStorage로부터 응답 데이터 수신 ──
+  useEffect(() => {
+    const stored = sessionStorage.getItem('spirit_map_results');
+    if (!stored) return;
+    try {
+      const data = JSON.parse(stored);
+      sessionStorage.removeItem('spirit_map_results');
+      const { responses: mapRes, playerName: pName, playerClass: pClass } = data;
+      if (!mapRes || mapRes.length !== 12) return;
+      setPlayerName(pName || '용사');
+      setPlayerClass(pClass || 'Pioneer');
+      setResponses(mapRes);
+      const dummy = questions.map(q => ({ ...q, shuffledOptions: [...q.options] }));
+      setShuffledQuestions(dummy);
+      const spiritScores = {
+        DILIGENCE: mapRes[0] + mapRes[1],
+        SELF_HELP: mapRes[2] + mapRes[3],
+        COOPERATION: mapRes[4] + mapRes[5],
+        SHARING: mapRes[6] + mapRes[7],
+        SERVICE: mapRes[8] + mapRes[9],
+        CREATION: mapRes[10] + mapRes[11],
+      };
+      const maxType = Object.keys(spiritScores).reduce((a, b) => spiritScores[a] > spiritScores[b] ? a : b);
+      setPendingResult(maxType);
+      setCurrentMode('ANALYZING');
+      setIsAnalyzing(true);
+      setTimeout(() => {
+        calculateFinalResult(mapRes);
+        setIsAnalyzing(false);
+        setCurrentMode('RESULT');
+      }, 4000);
+    } catch (e) {
+      console.error('spirit_map_results parse error', e);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // 진단 상태 모드: 'COVER' | 'CREATE' | 'QUEST' | 'ANALYZING' | 'RESULT'
   const [currentMode, setCurrentMode] = useState('COVER');
@@ -962,7 +999,18 @@ const SpiritTest = () => {
               onClick={startQuestAdventure}
               className="w-full py-4.5 rounded-2xl bg-saemaul-green hover:bg-emerald-700 text-white font-black text-md shadow-lg shadow-saemaul-green/20 transition-all flex items-center justify-center gap-2 active:scale-95"
             >
-              모험의 세계로 포탈 진입 <ChevronRight size={18} />
+              카드 퀘스트 모드 <ChevronRight size={18} />
+            </button>
+
+            {/* 마을 탐험 RPG 모드 버튼 */}
+            <button
+              onClick={() => {
+                if (!playerName.trim()) { alert('이름 또는 닉네임을 입력해 주세요!'); return; }
+                navigate(`/spirit-map?name=${encodeURIComponent(playerName.trim())}&class=${playerClass}`);
+              }}
+              className="w-full py-4 rounded-2xl border-2 border-amber-400 bg-amber-400/10 hover:bg-amber-400/20 text-amber-700 font-black text-sm shadow-md transition-all flex items-center justify-center gap-2 active:scale-95"
+            >
+              🗺️ 마을 탐험 RPG 모드 (NEW!)
             </button>
           </div>
         </div>
