@@ -552,7 +552,7 @@ const VillageMap = () => {
         background: 'linear-gradient(to bottom, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%)',
         padding: '12px 20px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        fontFamily: "'Press Start 2P', monospace",
+        fontFamily: "'Presentation', 'Outfit', 'Inter', system-ui, sans-serif",
       }}>
         {/* 플레이어 정보 */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
@@ -567,14 +567,14 @@ const VillageMap = () => {
             <AvatarSprite playerClass={playerClass} />
           </div>
           <div>
-            <div style={{ fontSize: 12, color: '#f5c518', marginBottom: 4 }}>{playerName}</div>
-            <div style={{ fontSize: 9, color: '#8888cc' }}>{classBadge}</div>
+            <div style={{ fontSize: 15, color: '#f5c518', marginBottom: 4, fontWeight: 'bold' }}>{playerName}</div>
+            <div style={{ fontSize: 12, color: '#8888cc', fontWeight: 'semibold' }}>{classBadge}</div>
           </div>
         </div>
 
         {/* 진행 상황 */}
         <div style={{ textAlign: 'right' }}>
-          <div style={{ fontSize: 12, color: '#f5c518', marginBottom: 6 }}>
+          <div style={{ fontSize: 14, color: '#f5c518', marginBottom: 6, fontWeight: 'bold' }}>
             {progressCount}/12 퀘스트 완료
           </div>
           <div style={{
@@ -616,20 +616,21 @@ const VillageMap = () => {
           backgroundColor: 'rgba(0,0,12,0.92)',
           display: 'flex', flexDirection: 'column',
           alignItems: 'center', justifyContent: 'center',
-          fontFamily: "'Press Start 2P', monospace",
+          fontFamily: "'Presentation', 'Outfit', 'Inter', system-ui, sans-serif",
         }}>
           {/* 별 파티클 배경 효과 */}
           <div style={{ fontSize: 52, marginBottom: 20, animation: 'celebratePop 0.5s ease-out' }}>
             🏆
           </div>
           <div style={{
-            fontSize: 18, color: '#f5c518', marginBottom: 10,
+            fontSize: 24, color: '#f5c518', marginBottom: 10,
             textShadow: '0 0 20px #f5c518, 0 0 40px #f5c51888',
             animation: 'celebratePop 0.4s ease-out',
+            fontWeight: 'bold',
           }}>
             QUEST CLEAR!
           </div>
-          <div style={{ fontSize: 11, color: '#aaaadd', marginBottom: 28, lineHeight: 2.2 }}>
+          <div style={{ fontSize: 14, color: '#aaaadd', marginBottom: 28, lineHeight: 2.2, fontWeight: 500 }}>
             마을 12개 퀘스트를 모두 완수했습니다!
           </div>
 
@@ -641,7 +642,7 @@ const VillageMap = () => {
             padding: '20px 28px', marginBottom: 28,
             minWidth: 340,
           }}>
-            <div style={{ fontSize: 9, color: '#8888cc', marginBottom: 14 }}>— 퀘스트 응답 요약 —</div>
+            <div style={{ fontSize: 12, color: '#8888cc', marginBottom: 14, fontWeight: 'bold' }}>— 퀘스트 응답 요약 —</div>
             {[
               { label: '근면', keys: [0,1], color: '#ff6b35' },
               { label: '자조', keys: [2,3], color: '#4fc3f7' },
@@ -654,7 +655,7 @@ const VillageMap = () => {
               const pct   = Math.round((score / 10) * 100);
               return (
                 <div key={label} style={{ marginBottom: 10 }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 10, color, marginBottom: 4 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 13, color, marginBottom: 4, fontWeight: 'bold' }}>
                     <span>{label}</span><span>{score}/10</span>
                   </div>
                   <div style={{ height: 8, backgroundColor: '#1a1a3a', border: '1px solid #333355' }}>
@@ -668,15 +669,15 @@ const VillageMap = () => {
           <button
             onClick={handleViewResult}
             style={{
-              padding: '16px 32px',
+              padding: '14px 28px',
               backgroundColor: '#f5c518',
               color: '#000',
               border: '4px solid #000',
               boxShadow: '4px 4px 0 #000',
-              fontSize: 13, fontWeight: 900,
-              fontFamily: "'Press Start 2P', monospace",
+              fontSize: 16, fontWeight: 900,
+              fontFamily: "inherit",
               cursor: 'pointer',
-              letterSpacing: 1,
+              letterSpacing: 0.5,
               transition: 'transform 0.1s, box-shadow 0.1s',
             }}
             onMouseDown={e => { e.currentTarget.style.transform = 'translate(2px,2px)'; e.currentTarget.style.boxShadow = '2px 2px 0 #000'; }}
@@ -689,8 +690,9 @@ const VillageMap = () => {
             onClick={() => navigate('/spirit-test')}
             style={{
               marginTop: 14, background: 'none', border: 'none',
-              color: '#555577', fontSize: 10, cursor: 'pointer',
-              fontFamily: "'Press Start 2P', monospace",
+              color: '#555577', fontSize: 12, cursor: 'pointer',
+              fontFamily: "inherit",
+              fontWeight: 'bold',
             }}
           >
             일반 진단 센터로 돌아가기
