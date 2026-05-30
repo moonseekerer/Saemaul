@@ -994,24 +994,52 @@ const SpiritTest = () => {
               </div>
             </div>
 
-            {/* 시작 버튼 */}
-            <button
-              onClick={startQuestAdventure}
-              className="w-full py-4.5 rounded-2xl bg-saemaul-green hover:bg-emerald-700 text-white font-black text-md shadow-lg shadow-saemaul-green/20 transition-all flex items-center justify-center gap-2 active:scale-95"
-            >
-              카드 퀘스트 모드 <ChevronRight size={18} />
-            </button>
+            {/* 모드 선택 버튼 2종 */}
+            <div className="grid grid-cols-2 gap-3">
+              {/* 카드 퀘스트 모드 */}
+              <button
+                onClick={startQuestAdventure}
+                className="group w-full rounded-2xl border-2 border-saemaul-green bg-emerald-500/5 hover:bg-emerald-500/15 text-left transition-all active:scale-95 shadow-sm hover:shadow-md hover:shadow-saemaul-green/15 flex flex-col p-5 gap-3"
+              >
+                <div className="w-11 h-11 rounded-xl bg-saemaul-green/10 group-hover:bg-saemaul-green flex items-center justify-center text-saemaul-green group-hover:text-white transition-all duration-300 text-xl shrink-0">
+                  🃏
+                </div>
+                <div>
+                  <p className="text-sm font-black text-slate-800 mb-1.5">카드 퀘스트 모드</p>
+                  <p className="text-[11px] font-semibold text-slate-500 leading-relaxed break-keep">
+                    순서대로 제시되는 카드를 선택하는 <strong className="text-emerald-600">일반적인 설문 방식</strong>입니다.
+                  </p>
+                </div>
+                <div className="mt-auto flex items-center gap-1 text-[11px] font-black text-saemaul-green">
+                  시작하기 <ChevronRight size={13} />
+                </div>
+              </button>
 
-            {/* 마을 탐험 RPG 모드 버튼 */}
-            <button
-              onClick={() => {
-                if (!playerName.trim()) { alert('이름 또는 닉네임을 입력해 주세요!'); return; }
-                navigate(`/spirit-map?name=${encodeURIComponent(playerName.trim())}&class=${playerClass}`);
-              }}
-              className="w-full py-4 rounded-2xl border-2 border-amber-400 bg-amber-400/10 hover:bg-amber-400/20 text-amber-700 font-black text-sm shadow-md transition-all flex items-center justify-center gap-2 active:scale-95"
-            >
-              🗺️ 마을 탐험 RPG 모드 (NEW!)
-            </button>
+              {/* 마을 RPG 모드 */}
+              <button
+                onClick={() => {
+                  if (!playerName.trim()) { alert('이름 또는 닉네임을 입력해 주세요!'); return; }
+                  navigate(`/spirit-map?name=${encodeURIComponent(playerName.trim())}&class=${playerClass}`);
+                }}
+                className="group w-full rounded-2xl border-2 border-amber-400 bg-amber-400/5 hover:bg-amber-400/15 text-left transition-all active:scale-95 shadow-sm hover:shadow-md hover:shadow-amber-400/20 flex flex-col p-5 gap-3"
+              >
+                <div className="w-11 h-11 rounded-xl bg-amber-400/10 group-hover:bg-amber-400 flex items-center justify-center text-amber-500 group-hover:text-white transition-all duration-300 text-xl shrink-0">
+                  🗺️
+                </div>
+                <div>
+                  <div className="flex items-center gap-2 mb-1.5">
+                    <p className="text-sm font-black text-slate-800">마을 탐험 RPG 모드</p>
+                    <span className="text-[9px] font-black bg-amber-400 text-black px-1.5 py-0.5 rounded-full">NEW</span>
+                  </div>
+                  <p className="text-[11px] font-semibold text-slate-500 leading-relaxed break-keep">
+                    마을을 <strong className="text-amber-600">자유롭게 돌아다니며</strong> 이벤트를 직접 마주치는 비선형 탐험 방식입니다.
+                  </p>
+                </div>
+                <div className="mt-auto flex items-center gap-1 text-[11px] font-black text-amber-600">
+                  탐험 시작 <ChevronRight size={13} />
+                </div>
+              </button>
+            </div>
           </div>
         </div>
       </div>
