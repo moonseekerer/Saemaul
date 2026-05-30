@@ -95,59 +95,61 @@ const TILE_SYMBOLS = {
 };
 
 // ──────────────────────────────────────────────
-// 캐릭터 스프라이트 (SVG 픽셀 아트)
+// Ninja Adventure 스프라이트 시트 설정
+// 시트 구조: 4행(하/좌/우/상) x 3열(유휴/워크1/워크2), 단위 16x16px
 // ──────────────────────────────────────────────
-const CLASS_COLORS = {
-  Pioneer:  { body: '#e85a20', trim: '#ff8c50' },
-  Healer:   { body: '#1a9e5a', trim: '#4fce8a' },
-  Architect:{ body: '#1a6ac7', trim: '#50a0ff' },
+const CLASS_SPRITES = {
+  Pioneer:   '/assets/na_ninja_blue.png',
+  Healer:    '/assets/na_samurai_green.png',
+  Architect: '/assets/na_samurai_blue.png',
 };
+
+// 방향 행 인덱스 (0=하, 1=좌, 2=우, 3=상)
+const FACING_ROW = { down: 0, left: 1, right: 2, up: 3 };
+
+// 걸음 프레임 사이클: idle(0) -> walk1(1) -> idle(0) -> walk2(2)
+const WALK_FRAMES = [0, 1, 0, 2];
+
+const SPRITE_SRC_SIZE = 16;  // 원본 px (16x16)
+const SPRITE_SCALE    = 2.5; // 화면 표시 배율
+const SPRITE_DISP     = Math.round(SPRITE_SRC_SIZE * SPRITE_SCALE); // 40px
 
 const CharacterSprite = ({ facing, walkFrame, playerClass }) => {
-  const c = CLASS_COLORS[playerClass] || CLASS_COLORS.Pioneer;
-  const legL = walkFrame === 0 ? 5 : 3;
-  const legR = walkFrame === 0 ? 3 : 5;
-  const showFace = facing !== 'up';
+  const spriteUrl = CLASS_SPRITES[playerClass] || CLASS_SPRITES.Pioneer;
+  const row = FACING_ROW[facing] ?? 0;
+  const col = WALK_FRAMES[walkFrame % WALK_FRAMES.length];
 
   return (
-    <svg
-      width={TILE_SIZE} height={TILE_SIZE}
-      viewBox="0 0 32 32"
-      style={{ imageRendering: 'pixelated', display: 'block' }}
-    >
-      {/* Shadow */}
-      <ellipse cx="16" cy="30" rx="7" ry="2.5" fill="rgba(0,0,0,0.35)" />
-      {/* Left leg */}
-      <rect x="10" y="22" width="5" height={legL} fill={c.body} />
-      {/* Right leg */}
-      <rect x="17" y="22" width="5" height={legR} fill={c.body} />
-      {/* Shoes */}
-      <rect x="9"  y={22 + legL} width="7" height="2" fill="#222" />
-      <rect x="16" y={22 + legR} width="7" height="2" fill="#222" />
-      {/* Body */}
-      <rect x="9" y="13" width="14" height="10" fill={c.body} />
-      {/* Collar trim */}
-      <rect x="9" y="13" width="14" height="3" fill={c.trim} />
-      {/* Arms */}
-      <rect x="5"  y="14" width="4" height="7" fill={c.body} />
-      <rect x="23" y="14" width="4" height="7" fill={c.body} />
-      {/* Head */}
-      <rect x="10" y="4" width="12" height="11" fill="#f5c5a3" />
-      {/* Hair */}
-      <rect x="9" y="3" width="14" height="5" fill="#5a3010" />
-      {showFace && (
-        <>
-          <rect x="12" y="9"  width="3" height="3" fill="#222" />
-          <rect x="17" y="9"  width="3" height="3" fill="#222" />
-          <rect x="13" y="12" width="6" height="1" fill="#d4908a" />
-        </>
-      )}
-      {facing === 'up' && (
-        <rect x="10" y="11" width="12" height="2" fill="#5a3010" />
-      )}
-    </svg>
+    <div style={{
+      width:  SPRITE_DISP,
+      height: SPRITE_DISP,
+      imageRendering: 'pixelated',
+      backgroundImage: `url(${spriteUrl})`,
+      backgroundSize:  `${SPRITE_SRC_SIZE * 3 * SPRITE_SCALE}px ${SPRITE_SRC_SIZE * 4 * SPRITE_SCALE}px`,
+      backgroundPosition: `-${col * SPRITE_DISP}px -${row * SPRITE_DISP}px`,
+      backgroundRepeat: 'no-repeat',
+      filter: 'drop-shadow(0 3px 6px rgba(0,0,0,0.9))',
+    }} />
   );
 };
+
+// HUD 아바타용 스프라이트 (정면, 유휴 프레임)
+const AvatarSprite = ({ playerClass }) => {
+  const spriteUrl = CLASS_SPRITES[playerClass] || CLASS_SPRITES.Pioneer;
+  const scale = 3;
+  const disp  = SPRITE_SRC_SIZE * scale;
+  return (
+    <div style={{
+      width: disp, height: disp,
+      imageRendering: 'pixelated',
+      backgroundImage: `url(${spriteUrl})`,
+      backgroundSize:  `${SPRITE_SRC_SIZE * 3 * scale}px ${SPRITE_SRC_SIZE * 4 * scale}px`,
+      backgroundPosition: `0px 0px`,
+      backgroundRepeat: 'no-repeat',
+    }} />
+  );
+};
+
 
 // ──────────────────────────────────────────────
 // 이벤트 마커 (타일 위에 떠 있는 표시)
@@ -291,9 +293,9 @@ const VillageMap = () => {
   const camCol = Math.max(0, Math.min(MAP_COLS - viewCols, playerPos.col - Math.floor(viewCols / 2)));
   const camRow = Math.max(0, Math.min(MAP_ROWS - viewRows, playerPos.row - Math.floor(viewRows / 2)));
 
-  // 걷기 애니메이션 (300ms 간격)
+  // 걷기 애니메이션 (200ms 간격 - 4프레임 사이클)
   useEffect(() => {
-    const t = setInterval(() => setWalkFrame(f => (f + 1) % 2), 300);
+    const t = setInterval(() => setWalkFrame(f => (f + 1) % 4), 200);
     return () => clearInterval(t);
   }, []);
 
@@ -514,9 +516,8 @@ const VillageMap = () => {
         <div style={{
           position: 'absolute',
           left: playerScreenX, top: playerScreenY,
-          width: TILE_SIZE, height: TILE_SIZE,
+          width: SPRITE_DISP, height: SPRITE_DISP,
           zIndex: 50,
-          filter: 'drop-shadow(0 3px 4px rgba(0,0,0,0.8))',
         }}>
           <CharacterSprite
             facing={facing}
@@ -537,13 +538,14 @@ const VillageMap = () => {
         {/* 플레이어 정보 */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
           <div style={{
-            width: 44, height: 44,
-            backgroundColor: CLASS_COLORS[playerClass]?.body || '#e85a20',
+            width: 52, height: 52,
+            backgroundColor: '#111122',
             border: '3px solid #f5c518',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            fontSize: 20,
+            overflow: 'hidden',
+            imageRendering: 'pixelated',
           }}>
-            {playerClass === 'Pioneer' ? '⚔' : playerClass === 'Healer' ? '✚' : '⚙'}
+            <AvatarSprite playerClass={playerClass} />
           </div>
           <div>
             <div style={{ fontSize: 12, color: '#f5c518', marginBottom: 4 }}>{playerName}</div>
