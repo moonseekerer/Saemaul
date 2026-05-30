@@ -96,7 +96,7 @@ const TILE_SYMBOLS = {
 
 // ──────────────────────────────────────────────
 // Ninja Adventure 스프라이트 시트 설정
-// 시트 구조: 4행(하/좌/우/상) x 3열(유휴/워크1/워크2), 단위 16x16px
+// 시트 구조: 4열(방향: 하/상/좌/우) x 7행(액션), 단위 16x16px
 // ──────────────────────────────────────────────
 const CLASS_SPRITES = {
   Pioneer:   '/assets/na_ninja_blue.png',
@@ -104,11 +104,11 @@ const CLASS_SPRITES = {
   Architect: '/assets/na_samurai_blue.png',
 };
 
-// 방향 행 인덱스 (0=하, 1=좌, 2=우, 3=상)
-const FACING_ROW = { down: 0, left: 1, right: 2, up: 3 };
+// 방향 열 인덱스 (0=하/앞, 1=상/뒤, 2=좌, 3=우)
+const FACING_COL = { down: 0, up: 1, left: 2, right: 3 };
 
-// 걸음 프레임 사이클: idle(0) -> walk1(1) -> idle(0) -> walk2(2)
-const WALK_FRAMES = [0, 1, 0, 2];
+// 걸음 애니메이션 행 인덱스 사이클: idle(0) -> walk1(1) -> idle(0) -> walk2(2)
+const WALK_ROWS = [0, 1, 0, 2];
 
 const SPRITE_SRC_SIZE = 16;  // 원본 px (16x16)
 const SPRITE_SCALE    = 2.5; // 화면 표시 배율
@@ -116,8 +116,8 @@ const SPRITE_DISP     = Math.round(SPRITE_SRC_SIZE * SPRITE_SCALE); // 40px
 
 const CharacterSprite = ({ facing, walkFrame, playerClass }) => {
   const spriteUrl = CLASS_SPRITES[playerClass] || CLASS_SPRITES.Pioneer;
-  const row = FACING_ROW[facing] ?? 0;
-  const col = WALK_FRAMES[walkFrame % WALK_FRAMES.length];
+  const col = FACING_COL[facing] ?? 0;
+  const row = WALK_ROWS[walkFrame % WALK_ROWS.length];
 
   return (
     <div style={{
@@ -125,7 +125,7 @@ const CharacterSprite = ({ facing, walkFrame, playerClass }) => {
       height: SPRITE_DISP,
       imageRendering: 'pixelated',
       backgroundImage: `url(${spriteUrl})`,
-      backgroundSize:  `${SPRITE_SRC_SIZE * 3 * SPRITE_SCALE}px ${SPRITE_SRC_SIZE * 4 * SPRITE_SCALE}px`,
+      backgroundSize:  `${4 * SPRITE_DISP}px ${7 * SPRITE_DISP}px`,
       backgroundPosition: `-${col * SPRITE_DISP}px -${row * SPRITE_DISP}px`,
       backgroundRepeat: 'no-repeat',
       filter: 'drop-shadow(0 3px 6px rgba(0,0,0,0.9))',
@@ -137,13 +137,13 @@ const CharacterSprite = ({ facing, walkFrame, playerClass }) => {
 const AvatarSprite = ({ playerClass }) => {
   const spriteUrl = CLASS_SPRITES[playerClass] || CLASS_SPRITES.Pioneer;
   const scale = 3;
-  const disp  = SPRITE_SRC_SIZE * scale;
+  const disp  = SPRITE_SRC_SIZE * scale; // 48px
   return (
     <div style={{
       width: disp, height: disp,
       imageRendering: 'pixelated',
       backgroundImage: `url(${spriteUrl})`,
-      backgroundSize:  `${SPRITE_SRC_SIZE * 3 * scale}px ${SPRITE_SRC_SIZE * 4 * scale}px`,
+      backgroundSize:  `${4 * disp}px ${7 * disp}px`,
       backgroundPosition: `0px 0px`,
       backgroundRepeat: 'no-repeat',
     }} />
@@ -419,16 +419,43 @@ const VillageMap = () => {
     const colStart = Math.max(0, camCol - 1);
     const colEnd   = Math.min(MAP_COLS - 1, camCol + viewCols + 1);
 
+    const getHouseTileImage = (r, c) => {
+      const isRightH = c + 1 < MAP_COLS && MAP[r][c + 1] === H;
+      const isLeftH  = c - 1 >= 0 && MAP[r][c - 1] === H;
+      const isDownH  = r + 1 < MAP_ROWS && MAP[r + 1][c] === H;
+      const isUpH    = r - 1 >= 0 && MAP[r - 1][c] === H;
+
+      if (isRightH && isDownH) return '/assets/house_tl.png';
+      if (isLeftH && isDownH)  return '/assets/house_tr.png';
+      if (isRightH && isUpH)   return '/assets/house_bl.png';
+      if (isLeftH && isUpH)    return '/assets/house_br.png';
+      return '/assets/house_tl.png';
+    };
+
     for (let r = rowStart; r <= rowEnd; r++) {
       for (let c = colStart; c <= colEnd; c++) {
         const tileVal = MAP[r][c];
-        const style   = getTileStyle(tileVal);
-        const sym     = TILE_SYMBOLS[tileVal];
         const isEv    = isEvent(tileVal);
         const isDone  = completed.has(tileVal);
 
         const x = (c - camCol) * TILE_SIZE;
         const y = (r - camRow) * TILE_SIZE;
+
+        // 타일별 백그라운드 이미지 매핑
+        let bgImg = '';
+        if (tileVal === G || isEv) {
+          bgImg = "url('/assets/grass.png')";
+        } else if (tileVal === P) {
+          bgImg = "url('/assets/path.png')";
+        } else if (tileVal === W) {
+          bgImg = "url('/assets/water.png')";
+        } else if (tileVal === B) {
+          bgImg = "url('/assets/bridge.png')";
+        } else if (tileVal === T) {
+          bgImg = "url('/assets/tree.png')";
+        } else if (tileVal === H) {
+          bgImg = `url('${getHouseTileImage(r, c)}')`;
+        }
 
         tiles.push(
           <div
@@ -437,42 +464,24 @@ const VillageMap = () => {
               position: 'absolute',
               left: x, top: y,
               width: TILE_SIZE, height: TILE_SIZE,
-              backgroundColor: style.bg,
-              borderRight:  `1px solid ${style.border}`,
-              borderBottom: `1px solid ${style.border}`,
+              backgroundImage: bgImg,
+              backgroundSize: '100% 100%',
+              backgroundRepeat: 'no-repeat',
+              imageRendering: 'pixelated',
               overflow: 'visible',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontSize: sym?.size || 14,
-              color: sym?.color || undefined,
               userSelect: 'none',
               // 완료된 이벤트는 약간 어둡게
               filter: isEv && isDone ? 'brightness(0.7) saturate(0.4)' : undefined,
             }}
           >
-            {/* 타일 고유 내용 */}
-            {tileVal === T && (
-              <div style={{ fontSize: 18, lineHeight: 1, marginTop: -4 }}>🌲</div>
-            )}
+            {/* water ripple animation overlay */}
             {tileVal === W && (
               <div style={{
                 width: '100%', height: '100%', position: 'absolute',
-                backgroundImage: 'repeating-linear-gradient(90deg, rgba(100,180,255,0.3) 0px, transparent 4px, rgba(100,180,255,0.3) 8px)',
+                backgroundImage: 'repeating-linear-gradient(90deg, rgba(255,255,255,0.15) 0px, transparent 4px, rgba(255,255,255,0.15) 8px)',
                 animation: 'waveAnim 2s linear infinite',
               }} />
-            )}
-            {tileVal === B && (
-              <>
-                <div style={{ position: 'absolute', top: 8,  left: 0, width: '100%', height: 4, backgroundColor: '#a07840', border: '1px solid #805020' }} />
-                <div style={{ position: 'absolute', top: 20, left: 0, width: '100%', height: 4, backgroundColor: '#a07840', border: '1px solid #805020' }} />
-              </>
-            )}
-            {tileVal === H && (
-              <>
-                {/* 지붕 */}
-                <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: 14, backgroundColor: '#c0401a', borderBottom: '2px solid #8a2a10' }} />
-                {/* 벽 */}
-                <div style={{ position: 'absolute', top: 14, left: 0, width: '100%', height: 18, backgroundColor: '#d4b483', borderTop: '2px solid #b09060' }} />
-              </>
             )}
             {/* 이벤트 타일 글로우 */}
             {isEv && !isDone && (
