@@ -22,6 +22,7 @@ import {
   Languages,
   MessageCircle,
   Bot,
+  Play,
   Home,
   Download,
   ArrowRightCircle
@@ -504,6 +505,7 @@ function App() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [user, setUser] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false); // 모바일 메뉴 토글 상태
+  const [isVideoOpen, setIsVideoOpen] = useState(false); // 영상 플레이어 모달 토글 상태
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
@@ -708,7 +710,11 @@ function App() {
                   {t('hero.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto justify-center">
-                  <button className="px-8 py-3.5 sm:py-4 rounded-full font-bold border-2 border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 bg-white/50 backdrop-blur-sm transition-all flex items-center justify-center gap-2">
+                  <button 
+                    onClick={() => setIsVideoOpen(true)}
+                    className="px-8 py-3.5 sm:py-4 rounded-full font-bold border-2 border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 bg-white/50 backdrop-blur-sm transition-all flex items-center justify-center gap-2 cursor-pointer"
+                  >
+                    <Play size={16} className="fill-slate-600 text-slate-600" />
                     {t('hero.cta_demo')}
                   </button>
                 </div>
@@ -828,6 +834,44 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {/* Video Modal Overlay */}
+      {isVideoOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/80 backdrop-blur-sm animate-fadeIn">
+          <div className="relative w-full max-w-4xl bg-white rounded-3xl shadow-2xl overflow-hidden border border-slate-200">
+            
+            {/* Modal Header */}
+            <div className="flex items-center justify-between p-5 border-b border-slate-100 bg-slate-50">
+              <div className="flex items-center gap-3 overflow-hidden">
+                <div className="w-10 h-10 rounded-xl bg-[#00843D]/10 text-[#00843D] flex items-center justify-center flex-shrink-0">
+                  <Play size={20} className="fill-[#00843D] text-[#00843D]" />
+                </div>
+                <div className="overflow-hidden">
+                  <h4 className="font-black text-slate-900 truncate">Saemaul-SDGs Platform Strategy 🎥</h4>
+                  <p className="text-xs text-slate-500 font-medium">Towards a Safer and Happier World</p>
+                </div>
+              </div>
+              <button 
+                onClick={() => setIsVideoOpen(false)}
+                className="w-10 h-10 rounded-xl bg-slate-200/50 text-slate-500 flex items-center justify-center hover:bg-red-50 hover:text-red-500 transition-colors flex-shrink-0 cursor-pointer"
+              >
+                <X size={20} />
+              </button>
+            </div>
+
+            {/* HTML5 Video Player playing local video_SDGs.mp4 */}
+            <div className="relative w-full bg-black flex items-center justify-center" style={{ aspectRatio: '16/9' }}>
+              <video
+                src={`${import.meta.env.BASE_URL}video_SDGs.mp4`}
+                className="w-full h-full object-contain"
+                controls
+                autoPlay
+                playsInline
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
