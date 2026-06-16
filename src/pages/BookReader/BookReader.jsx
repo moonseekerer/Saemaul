@@ -590,7 +590,7 @@ const BookReader = () => {
                   </div>
                   <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800">
                     <span className="block text-slate-500 text-[10px] font-bold uppercase tracking-wider mb-1">복원 진행</span>
-                    <span className="text-lg font-black text-saemaul-green font-mono">59p</span>
+                    <span className="text-lg font-black text-saemaul-green font-mono">149p</span>
                   </div>
                   <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800">
                     <span className="block text-slate-500 text-[10px] font-bold uppercase tracking-wider mb-1">접수건수</span>
@@ -945,7 +945,7 @@ const BookReader = () => {
                       </div>
                       <h3 className="text-lg font-black text-slate-200 mb-2">텍스트 복원 진행 중인 페이지</h3>
                       <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6 font-medium">
-                        현재 <strong>새마을운동 10년사</strong> 현대어 번역 및 디지털 정제 작업이 진행 중입니다. (1~59페이지 수록 완료)
+                        현재 <strong>새마을운동 10년사</strong> 현대어 번역 및 디지털 정제 작업이 진행 중입니다. (1~149페이지 수록 완료)
                         <br /><br />
                         좌측의 <strong>PDF 원본 파일</strong>을 참조해 읽으실 수 있습니다.
                       </p>
