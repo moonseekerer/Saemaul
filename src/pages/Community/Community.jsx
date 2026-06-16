@@ -160,33 +160,56 @@ const discussionTopics = [
   }
 ];
 
+const sdgGoals = [
+  { num: 1, emoji: '🚫', nameKo: '빈곤퇴치', nameEn: 'No Poverty', color: '#E5243B', desc: '모든 국가에서 모든 형태의 빈곤 퇴치', targets: ['2030년까지 절대빈곤 퇴치 ($1.25/일 미만)', '빈곤 인구 비율 50% 감소', '사회보호 시스템 구축', '경제적 자원에 대한 동등한 접근 보장'] },
+  { num: 2, emoji: '🌾', nameKo: '기아종식', nameEn: 'Zero Hunger', color: '#DDA63A', desc: '기아 종식, 식량안보 확보, 영양개선, 지속가능농업 증진', targets: ['안전하고 영양가 있는 식량 접근 보장', '모든 형태의 영양실조 종식', '소규모 식량생산자 농업 생산성 2배 향상', '지속 가능한 식량 생산 시스템 구축'] },
+  { num: 3, emoji: '💊', nameKo: '건강과 웰빙', nameEn: 'Good Health & Well-being', color: '#4C9F38', desc: '건강한 삶 보장과 모든 연령대의 웰빙 증진', targets: ['모성사망비 10만 당 70 미만으로 감소', '신생아·5세 이하 예방 가능한 사망 종식', 'AIDS·결핵·말라리아 등 전염병 퇴치', '보편적 건강보험 달성'] },
+  { num: 4, emoji: '📚', nameKo: '양질의 교육', nameEn: 'Quality Education', color: '#C5192D', desc: '포용적이고 공평한 양질의 교육 보장 및 평생학습 기회 증진', targets: ['무상 초·중등 교육 보장', '양질의 영유아 교육 접근성 확보', '기술·직업 교육 동등한 접근', '지속가능발전 교육 학습'] },
+  { num: 5, emoji: '⚧️', nameKo: '양성평등', nameEn: 'Gender Equality', color: '#FF3A21', desc: '양성평등 달성 및 여성·여아의 역량 강화', targets: ['여성 차별 종식', '여성 폭력 근절', '유해한 관행 철폐', '여성의 경제적 자원 동등 접근'] },
+  { num: 6, emoji: '💧', nameKo: '깨끗한 물과 위생', nameEn: 'Clean Water & Sanitation', color: '#26BDE2', desc: '식수와 위생시설 접근성 및 지속 가능한 관리 확립', targets: ['안전한 식수 보편적 접근', '위생시설 접근 및 위생 인식 개선', '수질 개선 및 폐수 처리 강화', '물 사용 효율성 향상'] },
+  { num: 7, emoji: '⚡', nameKo: '저렴하고 깨끗한 에너지', nameEn: 'Affordable & Clean Energy', color: '#FCC30B', desc: '적정 가격의 신뢰할 수 있고 지속 가능한 현대식 에너지에 대한 접근 보장', targets: ['에너지 서비스 보편적 접근', '신재생에너지 비율 대폭 확대', '에너지 효율 개선율 2배 달성', '청정에너지 기술 연구 협력'] },
+  { num: 8, emoji: '📈', nameKo: '양질의 일자리와 경제성장', nameEn: 'Decent Work & Growth', color: '#A21942', desc: '지속가능하고 포용적인 경제성장, 생산적인 완전고용과 양질의 일자리 증진', targets: ['1인당 경제성장률 유지', '기술혁신 및 고부가가치 산업 육성', '청년 일자리 및 양질의 고용 증진', '강제노동 종식 및 근로 권리 보장'] },
+  { num: 9, emoji: '🏗️', nameKo: '산업, 혁신 및 인프라', nameEn: 'Industry, Innovation & Infra', color: '#FD6925', desc: '회복력 있는 인프라 구축, 포용적이고 지속가능한 산업화 증진 및 혁신 촉진', targets: ['지속가능한 고품질 인프라 구축', '포용적 산업화 및 제조업 비중 확대', '금융 서비스 접근성 제고', '친환경 산업 기술 도입'] },
+  { num: 10, emoji: '⚖️', nameKo: '불평등 완화', nameEn: 'Reduced Inequalities', color: '#DD1367', desc: '국가 내 및 국가 간 불평등 완화', targets: ['하위 40% 소득 성장률 향상', '사회·경제·정치적 포용성 증진', '차별적 법률 및 정책 개혁', '이주민 정책의 체계화'] },
+  { num: 11, emoji: '🏙️', nameKo: '지속 가능한 도시와 공동체', nameEn: 'Sustainable Cities', color: '#FD9D24', desc: '포용적이고 안전하며 회복력 있고 지속가능한 도시와 주거지 조성', targets: ['적절하고 저렴한 주거 확보', '대중교통 시스템 확대', '지속가능한 도시 계획 수립', '세계 문화 및 자연유산 보호'] },
+  { num: 12, emoji: '♻️', nameKo: '지속 가능한 소비와 생산', nameEn: 'Responsible Consumption', color: '#C9992D', desc: '지속가능한 소비 및 생산 패턴 보장', targets: ['지속가능한 10개년 계획 이행', '천연자원의 효율적 관리', '음식물 쓰레기 50% 감축', '폐기물 발생 대폭 감소 및 재활용'] },
+  { num: 13, emoji: '🌍', nameKo: '기후행동', nameEn: 'Climate Action', color: '#3F7E44', desc: '기후변화와 그 영향을 방지하기 위한 긴급한 행동 실시', targets: ['기후 재난에 대한 회복력 강화', '국가 정책에 기후대책 통합', '기후변화 교육 및 의식 향상', '녹색기후기금 재원 확보'] },
+  { num: 14, emoji: '🐟', nameKo: '해양생태계 보전', nameEn: 'Life Below Water', color: '#0A97D9', desc: '지속가능발전을 위한 해양·바다·해양자원의 보전 및 지속가능한 이용', targets: ['해양 오염의 획기적 저감', '해양 생태계 보호 및 회복', '해양 산성화 영향 최소화', '어획량 규제 및 과잉어획 방지'] },
+  { num: 15, emoji: '🌳', nameKo: '육상생태계 보전', nameEn: 'Life on Land', color: '#56C02B', desc: '육상생태계 보호·복원 및 지속가능한 관리, 삼림 관리, 황폐화 방지, 생물다양성 손실 중단', targets: ['육상 생태계 보전 및 복원', '지속 가능한 산림 경영 실천', '사막화 방지 및 훼손지 복원', '멸종위기종 보호 및 생물다양성 보전'] },
+  { num: 16, emoji: '🕊️', nameKo: '평화, 정의 및 제도 구축', nameEn: 'Peace, Justice & Institutions', color: '#00689D', desc: '지속가능발전을 위한 평화롭고 포용적인 사회 증진, 사법 접근성 제공, 책임 있고 포용적인 제도 구축', targets: ['모든 형태의 폭력 및 사망률 감소', '아동 학대 및 폭력 근절', '법치주의 증진 및 사법 접근 보장', '부패와 뇌물 수수 감축'] },
+  { num: 17, emoji: '🤝', nameKo: '목표 달성을 위한 파트너십', nameEn: 'Partnerships for the Goals', color: '#19486A', desc: '이행수단 강화 및 지속가능발전을 위한 글로벌 파트너십 재활성화', targets: ['국내 재원 조달 능력 강화', 'ODA 원조 증대', '친환경 기술 이전 및 보급', '다자적 무역 시스템 증진'] }
+];
+
 const travelDestinations = [
   {
     id: 1,
     title: '청도 새마을운동 발상지 기념공원',
     region: '경북 청도',
     tag: '발상지 기념관',
-    desc: '1969년 박정희 대통령이 수해 복구 현장을 보며 새마을운동의 영감을 얻은 신도마을. 역사적인 레트로 재현 공간과 테마광장이 마련되어 있습니다.',
+    desc: '1969년 박정희 대통령이 수해 복구 현장을 보며 새마을운동의 영감을 얻은 태동지 신도마을. 조국 근대화의 발상지로서의 유산과 테마공원이 마련되어 있습니다.',
     likes: 892,
-    image: 'https://images.unsplash.com/photo-1548115184-bc6544d06a58?auto=format&fit=crop&w=800&q=80'
+    image: 'https://cheongdo.grandculture.net/Image?localCode=cheongdo&imageNum=GC055P02422&size=w600',
+    officialUrl: 'https://xn--hz2bq6b65fza514fdzd.kr/main.html'
   },
   {
     id: 2,
     title: '구미 새마을운동 테마공원',
     region: '경북 구미',
-    tag: '테마전시관',
-    desc: '과거, 현재, 미래를 한 눈에 볼 수 있는 대규모 복합 문화공간. 글로벌관을 통한 해외 전파 성공 사례가 상세히 전시되어 있어 학술 연구 가치도 큽니다.',
+    tag: '새마을전시관',
+    desc: '과거, 현재, 미래를 한눈에 볼 수 있는 대규모 복합 문화공간. 글로벌관을 통한 해외 전파 성공 사례가 상세히 전시되어 있어 학술 연구 가치도 지닙니다.',
     likes: 1204,
-    image: 'https://images.unsplash.com/photo-1506466010722-395ee2bef877?auto=format&fit=crop&w=800&q=80'
+    image: 'https://gumi.grandculture.net/Image?localCode=gumi&imageNum=GC082P01799&size=w600',
+    officialUrl: 'https://www.gb.go.kr/Main/saemaul/index.html'
   },
   {
     id: 3,
     title: '포항 새마을운동 발상지 기념관',
     region: '경북 포항',
     tag: '기념전시관',
-    desc: '문충리 새마을운동 기록물 및 당시 사용하던 농기구들이 전시되어 있으며, 사방 기념공원과 인접해 풍성한 볼거리를 선사합니다.',
+    desc: '문충리 새마을운동 기록물과 전시 사용되던 농기구들이 전시되어 있으며, 사방 기념공원과 인접해 풍성한 볼거리를 제공합니다.',
     likes: 543,
-    image: 'https://images.unsplash.com/photo-1578330761614-77f6b0f513f5?auto=format&fit=crop&w=800&q=80'
+    image: 'https://pohang.grandculture.net/Image?localCode=pohang&imageNum=GC057P02553&size=w600',
+    officialUrl: 'https://www.pohang.go.kr/saemaul/main.do'
   }
 ];
 
@@ -200,6 +223,38 @@ const Community = () => {
   // My Page States
   const [myPosts, setMyPosts] = useState([]);
   const [myAttendances, setMyAttendances] = useState([]);
+
+  // SDGs & Bookmark & Search States
+  const [selectedSDGGoal, setSelectedSDGGoal] = useState(null);
+  const [feedFilter, setFeedFilter] = useState(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [activeDestination, setActiveDestination] = useState(null);
+  const [bookmarkedDestinations, setBookmarkedDestinations] = useState(() => {
+    const saved = localStorage.getItem('saemaul_bookmarks');
+    return saved ? new Set(JSON.parse(saved)) : new Set();
+  });
+
+  const toggleBookmark = (destId) => {
+    const next = new Set(bookmarkedDestinations);
+    if (next.has(destId)) {
+      next.delete(destId);
+    } else {
+      next.add(destId);
+    }
+    setBookmarkedDestinations(next);
+    localStorage.setItem('saemaul_bookmarks', JSON.stringify([...next]));
+  };
+
+  const filteredDestinations = travelDestinations.filter(dest => {
+    if (!searchQuery) return true;
+    const query = searchQuery.toLowerCase();
+    return (
+      dest.title.toLowerCase().includes(query) ||
+      dest.region.toLowerCase().includes(query) ||
+      dest.desc.toLowerCase().includes(query) ||
+      (dest.tag && dest.tag.toLowerCase().includes(query))
+    );
+  });
 
   // Admin Actions States
   const [adminManualName, setAdminManualName] = useState('');
@@ -250,12 +305,7 @@ const Community = () => {
     '5. 에너지 자립마을'
   ];
 
-  const boardCategories = [
-    '빈곤퇴치 (SDG 1)',
-    '기아해방 (SDG 2)',
-    '기후행동 (SDG 13)',
-    '양질의 교육 (SDG 4)'
-  ];
+  const boardCategories = sdgGoals.slice(0, 6).map(g => `${g.emoji} ${g.nameKo} (SDG ${g.num})`);
 
   // 1. CSS and Font Injection
   useEffect(() => {
@@ -604,6 +654,21 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
   const handleSubmitPost = async (e) => {
     e.preventDefault();
     if (!user || !postText.trim()) return;
+    
+    // 자동 SDG 라벨 분류 로직
+    let finalCategory = selectedCategory;
+    if (finalCategory === '일반') {
+      for (const goal of sdgGoals) {
+        const regex1 = new RegExp(`SDG\\s*${goal.num}\\b`, 'i');
+        const regex2 = new RegExp(`#SDG\\s*${goal.num}\\b`, 'i');
+        const regex3 = new RegExp(goal.nameKo, 'g');
+        if (regex1.test(postText) || regex2.test(postText) || regex3.test(postText)) {
+          finalCategory = `SDG ${goal.num}`;
+          break;
+        }
+      }
+    }
+
     try {
       await addDoc(collection(db, 'posts'), {
         uid: user.uid,
@@ -613,11 +678,12 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
         content: postText,
         timestamp: serverTimestamp(),
         likes: 0,
-        category: selectedCategory,
+        category: finalCategory,
         location: locationInput || '새마을 스마트빌리지',
         image: attachedImage || null
       });
       setPostText(''); setLocationInput(''); setAttachedImage(null); setIsWriting(false);
+      setSelectedCategory('일반'); // 카테고리 초기화
     } catch (e) { alert("작성 에러"); }
   };
 
@@ -755,12 +821,26 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
     }
   };
 
-  const displayedPosts = [...posts, ...fallbackPosts];
+  const getPostCountForSDG = (goalNum) => {
+    return [...posts, ...fallbackPosts].filter(p => 
+      p.category === `SDG ${goalNum}` || 
+      (p.content && (
+        p.content.toLowerCase().includes(`sdg ${goalNum}`) || 
+        p.content.toLowerCase().includes(`sdg${goalNum}`) ||
+        (sdgGoals[goalNum-1] && p.content.includes(sdgGoals[goalNum-1].nameKo))
+      ))
+    ).length;
+  };
+
+  const rawPosts = [...posts, ...fallbackPosts];
+  const displayedPosts = feedFilter 
+    ? rawPosts.filter(p => p.category === feedFilter || (p.content && p.content.includes(feedFilter)))
+    : rawPosts;
   const isAdmin = user && user.email === ADMIN_EMAIL;
 
   return (
     <div className="min-h-screen bg-[#f0f2f5] pt-24 pb-20 saemaul-font antialiased">
-      <div className="container mx-auto px-4 max-w-[1100px]">
+      <div className="container mx-auto px-4 max-w-[1300px]">
         
         {/* Sticky style Sub-Header */}
         <div className="mb-6 flex items-center justify-between bg-white/80 backdrop-blur-md rounded-2xl p-3 border border-black/5 shadow-sm">
@@ -770,7 +850,18 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
           </div>
           <div className="hidden md:flex items-center bg-[#e4e6eb] px-3.5 py-1.5 rounded-full gap-2 w-72">
              <Search size={15} className="text-[#65676b]" />
-             <input type="text" placeholder="SDGs 및 글로벌 이슈 검색" className="bg-transparent border-none outline-none text-xs font-medium text-[#1c1e21] w-full placeholder:text-[#65676b]" />
+             <input 
+               type="text" 
+               placeholder="SDGs 및 글로벌 이슈 검색" 
+               value={searchQuery}
+               onChange={(e) => {
+                 setSearchQuery(e.target.value);
+                 if (e.target.value && activeTab !== 'travel') {
+                   setActiveTab('travel');
+                 }
+               }}
+               className="bg-transparent border-none outline-none text-xs font-medium text-[#1c1e21] w-full placeholder:text-[#65676b]" 
+             />
           </div>
         </div>
 
@@ -836,6 +927,24 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
             
             {activeTab === 'feed' && (
               <>
+                {/* SDG Feed Filter Chip */}
+                {feedFilter && (
+                  <div className="bg-white border border-[#00843d]/10 rounded-2xl p-4 flex items-center justify-between shadow-sm animate-fadeIn">
+                    <div className="flex items-center gap-2 text-sm font-bold text-[#1c1e21]">
+                      <span className="text-[#00843D]">🔍 SDG 필터 적용중:</span>
+                      <span className="bg-[#00843d]/10 text-[#00843D] px-3 py-1 rounded-full text-xs font-black">
+                        {feedFilter} {sdgGoals.find(g => `SDG ${g.num}` === feedFilter)?.nameKo}
+                      </span>
+                    </div>
+                    <button 
+                      onClick={() => setFeedFilter(null)} 
+                      className="text-xs font-black text-slate-400 hover:text-red-500 border border-slate-200 hover:border-red-200 rounded-lg px-2.5 py-1 transition-colors"
+                    >
+                      필터 해제 ✖
+                    </button>
+                  </div>
+                )}
+
                 {/* TOP Attendance Card with Admin Options */}
                 <div className="bg-white border border-[#00843d]/10 rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.05)] p-5 flex flex-col gap-4">
                   <h3 className="font-bold text-[15px] text-[#00843D] flex items-center justify-between pb-2 border-b border-[#00843d]/5">
@@ -976,9 +1085,13 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
                               <select
                                 value={selectedCategory}
                                 onChange={(e) => setSelectedCategory(e.target.value)}
-                                className="bg-white border border-[#e4e6eb] text-[11px] font-black rounded-lg py-1.5 px-2 outline-none text-[#65676b] cursor-pointer h-[33px]"
+                                className="bg-white border border-[#e4e6eb] text-[11px] font-black rounded-lg py-1.5 px-2 outline-none text-[#65676b] cursor-pointer h-[33px] max-w-[120px]"
                               >
-                                <option value="일반">일반</option><option value="SDG 1">SDG 1</option><option value="SDG 2">SDG 2</option><option value="SDG 4">SDG 4</option><option value="SDG 13">SDG 13</option><option value="관광">관광</option>
+                                <option value="일반">일반</option>
+                                {sdgGoals.map(g => (
+                                  <option key={g.num} value={`SDG ${g.num}`}>{`SDG ${g.num} (${g.nameKo})`}</option>
+                                ))}
+                                <option value="관광">관광</option>
                               </select>
                               <div className="flex items-center bg-white border border-[#e4e6eb] rounded-lg px-2 text-[#65676b] h-[33px]">
                                 <MapPin size={12} /><input type="text" value={locationInput} onChange={(e) => setLocationInput(e.target.value)} placeholder="위치" className="outline-none border-none text-[10px] font-bold w-16 pl-1 bg-transparent" />
@@ -1230,26 +1343,63 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
 
             {/* SDGs TAB */}
             {activeTab === 'sdgs' && (
-              <div className="flex flex-col gap-5 animate-fadeIn">
+              <div className="flex flex-col gap-6 animate-fadeIn">
                 <div className="flex flex-col gap-1 pb-1 border-b border-[#e4e6eb]">
                   <h2 className="text-2xl font-black text-[#1c1e21] tracking-tight flex items-center gap-2">📊 SDGs 현황판</h2>
-                  <p className="text-[#65676b] text-[12px] font-bold">글로벌 새마을 연계 지속가능발전 지표 달성 통계.</p>
+                  <p className="text-[#65676b] text-[12px] font-bold">글로벌 새마을 ODA 연계 지속가능발전 지표 달성 대시보드.</p>
                 </div>
-                <div className="bg-white border border-black/5 rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.05)] p-6 flex flex-col gap-5">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                {/* 핵심 요약 통계 */}
+                <div className="bg-white border border-black/5 rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.05)] p-5">
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     {[
                       { label: '스마트 농업 보급률', val: '85%', color: 'text-[#00843D]', sub: '동남아 시범마을' },
                       { label: '누적 ODA 사업국', val: '42개국', color: 'text-[#ff9800]', sub: '전 세계 총계' },
                       { label: '글로벌 인재 양성', val: '1,280명', color: 'text-[#2196f3]', sub: '새마을대학원 배출' },
                       { label: '주요 연동 핵심 지표', val: '2, 13번', color: 'text-[#e91e63]', sub: 'SDG 핵심목표' }
                     ].map((stat, idx) => (
-                      <div key={idx} className="p-5 rounded-xl border border-[#f0f2f5] bg-[#f8f9fa] hover:bg-white transition-all shadow-sm">
-                        <span className="text-[10px] font-extrabold tracking-wider text-[#65676b] block mb-1">{stat.sub}</span>
-                        <h5 className="text-[13px] font-bold text-[#1c1e21] mb-3">{stat.label}</h5>
-                        <span className={`text-2xl font-black ${stat.color}`}>{stat.val}</span>
+                      <div key={idx} className="p-4 rounded-xl border border-[#f0f2f5] bg-[#f8f9fa] shadow-sm">
+                        <span className="text-[9px] font-extrabold tracking-wider text-[#65676b] block mb-0.5">{stat.sub}</span>
+                        <h5 className="text-[11.5px] font-bold text-[#1c1e21] mb-2">{stat.label}</h5>
+                        <span className={`text-xl font-black ${stat.color}`}>{stat.val}</span>
                       </div>
                     ))}
                   </div>
+                </div>
+
+                {/* 17대 목표 그리드 */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                  {sdgGoals.map((goal) => {
+                    const postCount = getPostCountForSDG(goal.num);
+                    return (
+                      <div 
+                        key={goal.num}
+                        onClick={() => setSelectedSDGGoal(goal)}
+                        className="bg-white border border-black/5 rounded-2xl p-4 hover:shadow-lg hover:scale-[1.02] transition-all cursor-pointer flex flex-col gap-3 group relative overflow-hidden"
+                        style={{ borderLeft: `5px solid ${goal.color}` }}
+                      >
+                        <div className="flex items-center justify-between">
+                          <span className="text-[10px] font-black text-slate-400">GOAL {goal.num}</span>
+                          <span className="text-xl">{goal.emoji}</span>
+                        </div>
+                        <div>
+                          <h4 className="font-black text-[14px] text-[#1c1e21] group-hover:text-[#00843D] transition-colors leading-tight mb-0.5">
+                            {goal.nameKo}
+                          </h4>
+                          <span className="text-[9px] text-[#65676b] font-bold block truncate">{goal.nameEn}</span>
+                        </div>
+                        <p className="text-[11px] text-[#65676b] font-semibold leading-relaxed line-clamp-2 mt-1">
+                          {goal.desc}
+                        </p>
+                        <div className="flex items-center justify-between mt-auto pt-2 border-t border-[#f0f2f5]">
+                          <span className="text-[10px] font-black text-[#00843D] bg-[#00843d]/5 px-2 py-0.5 rounded-md">
+                            💬 활동 {postCount}건
+                          </span>
+                          <ArrowRight size={12} className="text-slate-400 group-hover:translate-x-1 transition-transform" />
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}
@@ -1257,27 +1407,77 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
             {/* TRAVEL TAB */}
             {activeTab === 'travel' && (
               <div className="flex flex-col gap-5 animate-fadeIn">
-                <div className="flex flex-col gap-1 pb-1 border-b border-[#e4e6eb]">
-                  <h2 className="text-2xl font-black text-[#1c1e21] tracking-tight flex items-center gap-2">🗺️ 새마을 여행지</h2>
-                  <p className="text-[#65676b] text-[12px] font-bold">역사적인 의미가 가득한 명소 및 레트로 성지 리스트.</p>
+                <div className="flex flex-col gap-1 pb-1 border-b border-[#e4e6eb] relative">
+                  <div>
+                    <h2 className="text-2xl font-black text-[#1c1e21] tracking-tight flex items-center gap-2">🗺️ 새마을 여행지</h2>
+                    <p className="text-[#65676b] text-[12px] font-bold">역사적인 의미가 가득한 명소 및 레트로 성지 리스트.</p>
+                  </div>
+                  {searchQuery && (
+                    <button 
+                      onClick={() => setSearchQuery('')}
+                      className="absolute right-0 bottom-1 text-xs font-black text-slate-400 hover:text-red-500 border border-slate-200 hover:border-red-200 rounded-lg px-2.5 py-1.5 transition-colors"
+                    >
+                      검색 초기화 ✖
+                    </button>
+                  )}
                 </div>
-                <div className="grid grid-cols-1 gap-5">
-                  {travelDestinations.map(dest => (
-                    <div key={dest.id} className="bg-white rounded-2xl overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.05)] border border-black/5 hover:translate-y-[-4px] transition-all group">
-                      <div className="h-44 overflow-hidden relative bg-[#eee]">
-                        <img src={dest.image} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[2s]" />
-                        <span className="absolute top-3 left-3 bg-black/70 text-white text-[10px] font-black px-3 py-1 rounded-full">{dest.region} · {dest.tag}</span>
-                      </div>
-                      <div className="p-5 flex flex-col gap-2">
-                        <h3 className="text-base font-bold text-[#1c1e21]">{dest.title}</h3>
-                        <p className="text-[12.5px] text-[#65676b] leading-relaxed font-medium">{dest.desc}</p>
-                        <div className="flex items-center justify-between pt-3 mt-1 border-t border-[#f0f2f5]">
-                          <div className="flex items-center gap-1 text-[11.5px] font-bold text-[#65676b]"><Heart size={13} className="text-red-400 fill-red-400" /><span>{dest.likes}명</span></div>
-                          <button className="flex items-center gap-1 text-xs font-bold text-[#00843D]"><span>자세히 보기</span> <ArrowRight size={13} /></button>
+
+                {searchQuery && (
+                  <div className="text-[12.5px] font-bold text-[#1c1e21] bg-white border border-[#e4e6eb] p-3 rounded-xl shadow-sm">
+                    🔍 &quot;<span className="text-[#00843D]">{searchQuery}</span>&quot; 검색 결과입니다. (총 {filteredDestinations.length}건)
+                  </div>
+                )}
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                  {filteredDestinations.map(dest => {
+                    const isBookmarked = bookmarkedDestinations.has(dest.id);
+                    return (
+                      <div key={dest.id} className="bg-white rounded-2xl overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.05)] border border-black/5 hover:translate-y-[-4px] transition-all flex flex-col group h-full">
+                        <div className="h-44 overflow-hidden relative bg-[#eee] shrink-0">
+                          <img src={dest.image} alt="" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[2s]" />
+                          <span className="absolute top-3 left-3 bg-black/70 text-white text-[10px] font-black px-3 py-1 rounded-full">{dest.region} · {dest.tag}</span>
+                          <button 
+                            onClick={() => toggleBookmark(dest.id)}
+                            className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm border border-black/5 p-2 rounded-full shadow hover:bg-white text-[#65676b] hover:text-[#00843D] transition-colors"
+                            title={isBookmarked ? "저장 취소" : "여행지 저장"}
+                          >
+                            <Bookmark size={14} className={isBookmarked ? "fill-[#00843D] text-[#00843D]" : ""} />
+                          </button>
+                        </div>
+                        <div className="p-5 flex flex-col gap-2 flex-1 justify-between">
+                          <div>
+                            <h3 className="text-base font-bold text-[#1c1e21] group-hover:text-[#00843D] transition-colors">{dest.title}</h3>
+                            <p className="text-[12px] text-[#65676b] leading-relaxed font-semibold mt-1 line-clamp-3">{dest.desc}</p>
+                          </div>
+                          <div className="flex items-center justify-between pt-3 mt-4 border-t border-[#f0f2f5]">
+                            <div className="flex items-center gap-1 text-[11px] font-bold text-[#65676b]">
+                              <Heart size={12} className="text-red-400 fill-red-400" />
+                              <span>{dest.likes}명</span>
+                            </div>
+                            <button 
+                              onClick={() => {
+                                if (dest.officialUrl) {
+                                  window.open(dest.officialUrl, '_blank');
+                                } else {
+                                  alert("공식 홈페이지가 제공되지 않는 명소입니다.");
+                                }
+                              }}
+                              className="flex items-center gap-1 text-xs font-black text-[#00843D] hover:underline"
+                            >
+                              <span>공식 홈페이지</span> <ArrowRight size={13} />
+                            </button>
+                          </div>
                         </div>
                       </div>
+                    );
+                  })}
+                  {filteredDestinations.length === 0 && (
+                    <div className="col-span-full py-16 bg-white border border-dashed rounded-2xl text-center flex flex-col items-center gap-2">
+                      <span className="text-2xl">🔍</span>
+                      <p className="font-bold text-[#1c1e21] text-sm">&quot;{searchQuery}&quot;에 매칭되는 여행지가 없습니다.</p>
+                      <button onClick={() => setSearchQuery('')} className="text-xs font-black text-[#00843D] hover:underline mt-2">전체 명소 보기</button>
                     </div>
-                  ))}
+                  )}
                 </div>
               </div>
             )}
@@ -1357,6 +1557,69 @@ Keep the original tone and context. Do NOT output any explanations, prefaces, or
 
         </div>
       </div>
+
+      {/* SDGs DETAIL MODAL */}
+      {selectedSDGGoal && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn">
+          <div className="bg-white rounded-3xl w-full max-w-lg overflow-hidden shadow-2xl animate-scaleUp">
+            <div className="px-6 py-5 flex items-center justify-between text-white" style={{ backgroundColor: selectedSDGGoal.color }}>
+              <div className="flex items-center gap-2.5">
+                <span className="text-2xl">{selectedSDGGoal.emoji}</span>
+                <div>
+                  <h3 className="font-black text-[16px] leading-tight">SDG {selectedSDGGoal.num} - {selectedSDGGoal.nameKo}</h3>
+                  <span className="text-[10px] opacity-90 font-extrabold">{selectedSDGGoal.nameEn}</span>
+                </div>
+              </div>
+              <button 
+                onClick={() => setSelectedSDGGoal(null)} 
+                className="hover:bg-white/20 p-1.5 rounded-full transition-colors"
+              >
+                <XCircle size={20} />
+              </button>
+            </div>
+            <div className="p-6 flex flex-col gap-5">
+              <div>
+                <h4 className="text-[12px] font-black text-slate-400 uppercase tracking-wider mb-1.5">목표 설명</h4>
+                <p className="text-[13.5px] font-bold text-slate-800 leading-relaxed">{selectedSDGGoal.desc}</p>
+              </div>
+
+              <div>
+                <h4 className="text-[12px] font-black text-slate-400 uppercase tracking-wider mb-2">세부 타겟 (Targets)</h4>
+                <div className="flex flex-col gap-2.5 bg-slate-50 border border-black/5 rounded-2xl p-4 max-h-[220px] overflow-y-auto pr-1">
+                  {selectedSDGGoal.targets.map((target, idx) => (
+                    <div key={idx} className="flex gap-2.5 items-start text-[12.5px] font-bold text-slate-700 leading-relaxed">
+                      <span className="w-5 h-5 rounded-full shrink-0 flex items-center justify-center text-[10px] font-black text-white" style={{ backgroundColor: selectedSDGGoal.color }}>
+                        {idx + 1}
+                      </span>
+                      <span>{target}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="flex gap-3 mt-2 border-t border-[#f0f2f5] pt-4">
+                <button
+                  onClick={() => {
+                    setFeedFilter(`SDG ${selectedSDGGoal.num}`);
+                    setActiveTab('feed');
+                    setSelectedSDGGoal(null);
+                  }}
+                  className="flex-1 text-white font-black text-[12px] py-3 rounded-xl transition-all shadow text-center hover:brightness-95 active:scale-95 flex items-center justify-center gap-1.5"
+                  style={{ backgroundColor: selectedSDGGoal.color }}
+                >
+                  💬 관련 게시글 모아보기 ({getPostCountForSDG(selectedSDGGoal.num)}건)
+                </button>
+                <button
+                  onClick={() => setSelectedSDGGoal(null)}
+                  className="bg-[#f0f2f5] hover:bg-[#e4e6eb] text-[#65676b] font-black text-[12px] px-6 py-3 rounded-xl transition-all"
+                >
+                  닫기
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* NEW TALK MODAL */}
       {showTalkModal && (

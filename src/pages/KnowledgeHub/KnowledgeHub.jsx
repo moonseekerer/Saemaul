@@ -1,27 +1,38 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FileText, Search, MapPin, ChevronRight, BookOpen, Filter, Video, Play, X } from 'lucide-react';
+import { FileText, Search, MapPin, ChevronRight, BookOpen, Filter, Video, Play, X, ArrowRight } from 'lucide-react';
 
 const documents = [
-  { id: '00', filename: '00_서론_발간사및성과_현대어.md', category: '개요', title: '서론: 발간사 및 7년의 성과' },
-  { id: '01', filename: '01_대규모사업_전남화순군_한천면_돗재도로_현대어.md', category: '대규모 사업', title: '전남 화순군 한천면 - 돗재도로 개설' },
-  { id: '02', filename: '02_대규모사업_경북안동군_풍천면_구담교_현대어.md', category: '대규모 사업', title: '경북 안동군 풍천면 - 구담교 가설' },
-  { id: '03_0', filename: '03_경기도_00_경기도_부천시_소사동_탁박골마을_현대어.md', category: '경기도', title: '부천시 소사동 - 탁박골마을' },
-  { id: '03_1', filename: '03_경기도_01_경기_여주군_가남면은봉2리_현대어.md', category: '경기도', title: '여주군 가남면 은봉2리' },
-  { id: '04', filename: '04_경기도_02_경기_용인군_남사면_통삼리_동막마을_현대어.md', category: '경기도', title: '용인군 남사면 통삼리 - 동막마을' },
-  { id: '05', filename: '05_경기도_03_안성군_일죽면_금산리_율동마을_현대어.md', category: '경기도', title: '안성군 일죽면 금산리 - 율동마을' },
-  { id: '06', filename: '06_강원도_01_영월군_수주면_도원1리_현대어.md', category: '강원도', title: '영월군 수주면 - 도원1리' },
-  { id: '07', filename: '07_강원도_02_강원정선군_북면_남평리_현대어.md', category: '강원도', title: '정선군 북면 - 남평리' },
-  { id: '08', filename: '08_강원도_03_양구군_양구면_도사리마을_현대어.md', category: '강원도', title: '양구군 양구면 - 도사리마을' },
-  { id: '09', filename: '09_강원도_04_명주군_성산면_금산2리_현대어.md', category: '강원도', title: '명주군 성산면 - 금산2리' },
-  { id: '10', filename: '10_강원도_05_삼척군_노곡면_여삼마을_현대어.md', category: '강원도', title: '삼척군 노곡면 - 여삼마을' },
-  { id: '11_1', filename: '11_충청북도_01_청주시_율양동_상리_현대어.md', category: '충청북도', title: '청주시 율양동 - 상리' },
-  { id: '11_2', filename: '11_충청북도_02_보은군_내북면_산성2리_잣미마을_현대어.md', category: '충청북도', title: '보은군 내북면 산성2리 - 잣미마을' },
-  { id: '12', filename: '12_충청북도_02_옥천군_청산면_상례곡리_현대어.md', category: '충청북도', title: '옥천군 청산면 - 상례곡리' },
-  { id: '13', filename: '13_충청북도_03_괴산군_문광면_방성리_현대어.md', category: '충청북도', title: '괴산군 문광면 - 방성리' },
-  { id: '14', filename: '14_충청남도_01_연기군_전동면_양곡리_현대어.md', category: '충청남도', title: '연기군 전동면 - 양곡리' },
-  { id: '15', filename: '15_충청남도_02_논산군_연무읍_동산1동_현대어.md', category: '충청남도', title: '논산군 연무읍 - 동산1동' },
-  { id: '16', filename: '16_충청남도_03_서천군_판교면_복대2리_현대어.md', category: '충청남도', title: '서천군 판교면 - 복대2리' }
+  // 새마을운동 영광의 발자취 (footsteps)
+  { id: '00', filename: '00_서론_발간사및성과_현대어.md', source: 'footsteps', category: '개요', title: '서론: 발간사 및 7년의 성과' },
+  { id: '01', filename: '01_대규모사업_전남화순군_한천면_돗재도로_현대어.md', source: 'footsteps', category: '대규모 사업', title: '전남 화순군 한천면 - 돗재도로 개설' },
+  { id: '02', filename: '02_대규모사업_경북안동군_풍천면_구담교_현대어.md', source: 'footsteps', category: '대규모 사업', title: '경북 안동군 풍천면 - 구담교 가설' },
+  { id: '03_0', filename: '03_경기도_00_경기도_부천시_소사동_탁박골마을_현대어.md', source: 'footsteps', category: '경기도', title: '부천시 소사동 - 탁박골마을' },
+  { id: '03_1', filename: '03_경기도_01_경기_여주군_가남면은봉2리_현대어.md', source: 'footsteps', category: '경기도', title: '여주군 가남면 은봉2리' },
+  { id: '04', filename: '04_경기도_02_경기_용인군_남사면_통삼리_동막마을_현대어.md', source: 'footsteps', category: '경기도', title: '용인군 남사면 통삼리 - 동막마을' },
+  { id: '05', filename: '05_경기도_03_안성군_일죽면_금산리_율동마을_현대어.md', source: 'footsteps', category: '경기도', title: '안성군 일죽면 금산리 - 율동마을' },
+  { id: '06', filename: '06_강원도_01_영월군_수주면_도원1리_현대어.md', source: 'footsteps', category: '강원도', title: '영월군 수주면 - 도원1리' },
+  { id: '07', filename: '07_강원도_02_강원정선군_북면_남평리_현대어.md', source: 'footsteps', category: '강원도', title: '정선군 북면 - 남평리' },
+  { id: '08', filename: '08_강원도_03_양구군_양구면_도사리마을_현대어.md', source: 'footsteps', category: '강원도', title: '양구군 양구면 - 도사리마을' },
+  { id: '09', filename: '09_강원도_04_명주군_성산면_금산2리_현대어.md', source: 'footsteps', category: '강원도', title: '명주군 성산면 - 금산2리' },
+  { id: '10', filename: '10_강원도_05_삼척군_노곡면_여삼마을_현대어.md', source: 'footsteps', category: '강원도', title: '삼척군 노곡면 - 여삼마을' },
+  { id: '11_1', filename: '11_충청북도_01_청주시_율양동_상리_현대어.md', source: 'footsteps', category: '충청북도', title: '청주시 율양동 - 상리' },
+  { id: '11_2', filename: '11_충청북도_02_보은군_내북면_산성2리_잣미마을_현대어.md', source: 'footsteps', category: '충청북도', title: '보은군 내북면 산성2리 - 잣미마을' },
+  { id: '12', filename: '12_충청북도_02_옥천군_청산면_상례곡리_현대어.md', source: 'footsteps', category: '충청북도', title: '옥천군 청산면 - 상례곡리' },
+  { id: '13', filename: '13_충청북도_03_괴산군_문광면_방성리_현대어.md', source: 'footsteps', category: '충청북도', title: '괴산군 문광면 - 방성리' },
+  { id: '14', filename: '14_충청남도_01_연기군_전동면_양곡리_현대어.md', source: 'footsteps', category: '충청남도', title: '연기군 전동면 - 양곡리' },
+  { id: '15', filename: '15_충청남도_02_논산군_연무읍_동산1동_현대어.md', source: 'footsteps', category: '충청남도', title: '논산군 연무읍 - 동산1동' },
+  { id: '16', filename: '16_충청남도_03_서천군_판교면_복대2리_현대어.md', source: 'footsteps', category: '충청남도', title: '서천군 판교면 - 복대2리' },
+
+  // 새마을운동 10년사 (history10)
+  { id: 'h10_01', filename: '새마을운동10년사_01_발간사_서문.md', source: 'history10', category: '서문', title: '새마을운동 10년사 - 발간사 및 서문', startPage: 5 },
+  { id: 'h10_02', filename: '새마을운동10년사_02_제1장_사적배경.md', source: 'history10', category: '제1장 사적배경', title: '제1장 새마을운동의 사적배경', startPage: 13 },
+  { id: 'h10_03', filename: '새마을운동10년사_03_제2장_기본정신.md', source: 'history10', category: '제2장 기본정신', title: '제2장 새마을운동의 기본정신', startPage: 73 },
+  { id: 'h10_04', filename: '새마을운동10년사_04_제3장_이념체계.md', source: 'history10', category: '제3장 이념체계', title: '제3장 새마을운동의 이념체계', startPage: 161 },
+  { id: 'h10_05', filename: '새마을운동10년사_05_제4장_새마을교육.md', source: 'history10', category: '제4장 새마을교육', title: '제4장 새마을교육', startPage: 217 },
+  { id: 'h10_06', filename: '새마을운동10년사_06_제5장_실천과성과.md', source: 'history10', category: '제5장 실천과성과', title: '제5장 새마을운동의 실천과 성과', startPage: 351 },
+  { id: 'h10_07', filename: '새마을운동10년사_07_제6장_국제적전파.md', source: 'history10', category: '제6장 국제적전파', title: '제6장 새마을운동의 국제적 전파', startPage: 585 },
+  { id: 'h10_08', filename: '새마을운동10년사_08_제7장_미래의과제.md', source: 'history10', category: '제7장 미래의과제', title: '제7장 미래의 과제', startPage: 617 }
 ];
 
 const videos = [
@@ -111,19 +122,23 @@ const videos = [
   }
 ];
 
-const categories = ['전체', '개요', '대규모 사업', '경기도', '강원도', '충청북도', '충청남도'];
-
 const KnowledgeHub = () => {
   const [activeTab, setActiveTab] = useState('document'); // 'document' | 'video'
+  const [activeDocSource, setActiveDocSource] = useState('footsteps'); // 'footsteps' | 'history10'
   const [searchTerm, setSearchTerm] = useState('');
   const [activeCategory, setActiveCategory] = useState('전체');
   const [selectedVideo, setSelectedVideo] = useState(null);
 
+  const docCategories = activeDocSource === 'footsteps'
+    ? ['전체', '개요', '대규모 사업', '경기도', '강원도', '충청북도', '충청남도']
+    : ['전체', '서문', '제1장 사적배경', '제2장 기본정신', '제3장 이념체계', '제4장 새마을교육', '제5장 실천과성과', '제6장 국제적전파', '제7장 미래의과제'];
+
   const filteredDocs = documents.filter(doc => {
+    const matchesSource = doc.source === activeDocSource;
     const matchesSearch = doc.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                           doc.category.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesCategory = activeCategory === '전체' || doc.category === activeCategory;
-    return matchesSearch && matchesCategory;
+    return matchesSource && matchesSearch && matchesCategory;
   });
 
   const filteredVideos = videos.filter(vid => {
@@ -203,7 +218,7 @@ const KnowledgeHub = () => {
                   <Filter size={14} /> 필터
                 </div>
                 <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 no-scrollbar w-full md:w-auto">
-                  {categories.map(cat => (
+                  {docCategories.map(cat => (
                     <button
                       key={cat}
                       onClick={() => setActiveCategory(cat)}
@@ -225,54 +240,104 @@ const KnowledgeHub = () => {
         {/* Main Content Area */}
         <div className="max-w-5xl mx-auto">
           {activeTab === 'document' ? (
-            /* Document Grid View */
-            filteredDocs.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-fadeIn">
-                {filteredDocs.map((doc) => (
-                  <Link 
-                    key={doc.id}
-                    to={`/archive/${doc.filename}`}
-                    className="group relative flex items-start gap-5 p-6 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
-                  >
-                    <div className="absolute top-0 right-0 w-24 h-24 bg-indigo-500/5 rounded-full -mr-10 -mt-10 transition-transform group-hover:scale-150" />
-                    
-                    <div className="w-14 h-14 flex-shrink-0 rounded-2xl bg-slate-50 flex items-center justify-center text-indigo-500 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-300 shadow-inner">
-                      <FileText size={24} />
-                    </div>
+            <div className="animate-fadeIn">
+              {/* Document Sub-Tab Switcher */}
+              <div className="flex gap-6 mb-8 border-b border-slate-200/80">
+                <button
+                  onClick={() => { setActiveDocSource('footsteps'); setActiveCategory('전체'); }}
+                  className={`pb-3 text-base font-extrabold transition-all border-b-2 ${
+                    activeDocSource === 'footsteps'
+                      ? 'border-indigo-600 text-indigo-600 font-black'
+                      : 'border-transparent text-slate-400 hover:text-slate-700'
+                  }`}
+                >
+                  새마을운동 영광의 발자취
+                </button>
+                <button
+                  onClick={() => { setActiveDocSource('history10'); setActiveCategory('전체'); }}
+                  className={`pb-3 text-base font-extrabold transition-all border-b-2 ${
+                    activeDocSource === 'history10'
+                      ? 'border-indigo-600 text-indigo-600 font-black'
+                      : 'border-transparent text-slate-400 hover:text-slate-700'
+                  }`}
+                >
+                  새마을운동 10년사
+                </button>
+              </div>
 
-                    <div className="flex-grow">
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className={`text-[11px] font-bold px-2.5 py-0.5 rounded-full ${
-                          doc.category === '개요' ? 'bg-slate-100 text-slate-600' : 
-                          doc.category === '대규모 사업' ? 'bg-emerald-50 text-emerald-600' : 
-                          'bg-indigo-50 text-indigo-600'
-                        }`}>
-                          {doc.category}
-                        </span>
-                        <span className="flex items-center gap-1 text-[11px] font-medium text-slate-400">
-                          <MapPin size={10} />
-                          현대어 번역
-                        </span>
-                      </div>
-                      <h3 className="text-lg font-bold text-slate-800 leading-snug group-hover:text-indigo-700 transition-colors line-clamp-2">
-                        {doc.title}
-                      </h3>
-                      <div className="mt-4 flex items-center text-sm font-bold text-indigo-600 gap-1 opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300">
-                        읽어보기 <ChevronRight size={16} />
-                      </div>
+              {activeDocSource === 'history10' && (
+                <div className="mb-8 p-8 rounded-3xl bg-gradient-to-br from-indigo-950 via-slate-900 to-indigo-900 border border-indigo-500/20 shadow-xl relative overflow-hidden group animate-fadeIn text-left">
+                  <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/5 rounded-full blur-3xl -mr-20 -mt-20 transition-transform duration-1000 group-hover:scale-150" />
+                  <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+                    <div className="max-w-2xl">
+                      <span className="inline-block text-xs font-black text-indigo-400 px-3 py-1 bg-indigo-500/10 border border-indigo-500/20 rounded-full mb-3 uppercase tracking-wider">
+                        신규 기능
+                      </span>
+                      <h2 className="text-xl sm:text-2xl font-black text-white mb-2 tracking-tight">
+                        새마을운동 10년사 e-Book 뷰어 서비스 📖
+                      </h2>
+                      <p className="text-slate-400 text-xs sm:text-sm leading-relaxed font-medium">
+                        좌측의 국가기록원 PDF 원본 스캔 화면과 우측의 현대어 번역 아카이브를 1:1로 비교하며 읽어보세요. 독자들과 함께 오탈자를 교정하고 다듬는 <strong>실시간 오타 정정 대시보드(0페이지)</strong>도 제공됩니다.
+                      </p>
                     </div>
-                  </Link>
-                ))}
-              </div>
-            ) : (
-              <div className="py-20 text-center bg-white rounded-3xl border border-dashed border-slate-300">
-                <div className="w-20 h-20 mx-auto mb-4 bg-slate-50 rounded-full flex items-center justify-center text-slate-300">
-                  <Search size={32} />
+                    <Link
+                      to="/reader/10years?page=1"
+                      className="px-5 py-3.5 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-lg shadow-indigo-600/20 group-hover:translate-x-1 duration-300 whitespace-nowrap self-start md:self-center cursor-pointer"
+                    >
+                      e-Book 리더 열기 <ArrowRight size={16} />
+                    </Link>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold text-slate-800 mb-2">검색 결과가 없습니다</h3>
-                <p className="text-slate-500">다른 검색어나 카테고리를 시도해보세요.</p>
-              </div>
-            )
+              )}
+
+              {filteredDocs.length > 0 ? (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {filteredDocs.map((doc) => (
+                    <Link 
+                      key={doc.id}
+                      to={doc.source === 'history10' ? `/reader/10years?page=${doc.startPage}` : `/archive/${doc.filename}`}
+                      className="group relative flex items-start gap-5 p-6 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
+                    >
+                      <div className="absolute top-0 right-0 w-24 h-24 bg-indigo-500/5 rounded-full -mr-10 -mt-10 transition-transform group-hover:scale-150" />
+                      
+                      <div className="w-14 h-14 flex-shrink-0 rounded-2xl bg-slate-50 flex items-center justify-center text-indigo-500 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-300 shadow-inner">
+                        <FileText size={24} />
+                      </div>
+
+                      <div className="flex-grow">
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className={`text-[11px] font-bold px-2.5 py-0.5 rounded-full ${
+                            doc.category === '개요' || doc.category === '서문' ? 'bg-slate-100 text-slate-600' : 
+                            doc.category === '대규모 사업' ? 'bg-emerald-50 text-emerald-600' : 
+                            'bg-indigo-50 text-indigo-600'
+                          }`}>
+                            {doc.category}
+                          </span>
+                          <span className="flex items-center gap-1 text-[11px] font-medium text-slate-400">
+                            <MapPin size={10} />
+                            현대어 번역
+                          </span>
+                        </div>
+                        <h3 className="text-lg font-bold text-slate-800 leading-snug group-hover:text-indigo-700 transition-colors line-clamp-2">
+                          {doc.title}
+                        </h3>
+                        <div className="mt-4 flex items-center text-sm font-bold text-indigo-600 gap-1 opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300">
+                          읽어보기 <ChevronRight size={16} />
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              ) : (
+                <div className="py-20 text-center bg-white rounded-3xl border border-dashed border-slate-300">
+                  <div className="w-20 h-20 mx-auto mb-4 bg-slate-50 rounded-full flex items-center justify-center text-slate-300">
+                    <Search size={32} />
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-800 mb-2">검색 결과가 없습니다</h3>
+                  <p className="text-slate-500">다른 검색어나 카테고리를 시도해보세요.</p>
+                </div>
+              )}
+            </div>
           ) : (
             /* Video Grid View */
             filteredVideos.length > 0 ? (

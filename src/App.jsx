@@ -8,6 +8,7 @@ import DocViewer from './pages/DocViewer/DocViewer';
 import KnowledgeHub from './pages/KnowledgeHub/KnowledgeHub';
 import Community from './pages/Community/Community';
 import Chatbot from './pages/Chatbot/Chatbot';
+import BookReader from './pages/BookReader/BookReader';
 import { 
   UserCheck, 
   Trophy, 
@@ -780,6 +781,7 @@ function App() {
           <Route path="/spirit-test" element={<SpiritTest />} />
           <Route path="/spirit-map" element={<SpiritMapPage />} />
           <Route path="/archive/:filename" element={<DocViewer />} />
+          <Route path="/reader/10years" element={<BookReader />} />
           <Route path="/chatbot" element={<ChatbotPage />} />
           <Route path="/community" element={<Community />} />
           <Route path="/hub" element={<KnowledgeHub />} />
