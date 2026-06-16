@@ -33,6 +33,7 @@ import {
   updateDoc, 
   deleteDoc, 
   onSnapshot,
+  setDoc,
   Timestamp 
 } from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
@@ -57,9 +58,15 @@ const BookReader = () => {
   const activeRenderTaskRef = useRef(null);
   const pdfContainerRef = useRef(null);
   
-  // 텍스트 상태
+  // 텍스트 상태 (static 마크다운 기반)
   const [pageTextMap, setPageTextMap] = useState({});
   const [loadingText, setLoadingText] = useState(true);
+  
+  // 위키식 커스텀 페이지 오버라이드 상태 (Firestore 실시간 반영)
+  const [pageOverrides, setPageOverrides] = useState({});
+  const [editMode, setEditMode] = useState(false);
+  const [editText, setEditText] = useState('');
+  const [savingEdit, setSavingEdit] = useState(false);
   
   // 사용자 정보 및 권한
   const [currentUser, setCurrentUser] = useState(null);
@@ -98,6 +105,7 @@ const BookReader = () => {
       const validPage = Math.max(0, Math.min(708, pageParam));
       setPageNum(validPage);
       setPageInputValue(validPage.toString());
+      setEditMode(false); // 페이지가 바뀌면 편집모드 해제
     }
   }, [searchParams]);
 
@@ -106,6 +114,7 @@ const BookReader = () => {
     setPageNum(validPage);
     setPageInputValue(validPage.toString());
     setSearchParams({ page: validPage });
+    setEditMode(false);
   };
 
   // 3. PDF.js 라이브러리 및 문서 로딩
@@ -207,7 +216,7 @@ const BookReader = () => {
     };
   }, [pdfDoc, pageNum, pdfScale, loadingPdf]);
 
-  // 5. 번역 마크다운 파일 로드 및 페이지 파싱
+  // 5. static 번역 마크다운 파일 로드 및 페이지 파싱
   useEffect(() => {
     setLoadingText(true);
     const textUrl = `${import.meta.env.BASE_URL}docs/새마을운동10년사_전체.md`;
@@ -245,7 +254,22 @@ const BookReader = () => {
       });
   }, []);
 
-  // 6. 0페이지 - Firestore 실시간 리포트 로딩
+  // 6. Firestore 실시간 수정 페이지 오버라이드 로드
+  useEffect(() => {
+    const unsubscribe = onSnapshot(collection(db, 'custom_pages'), (snapshot) => {
+      const overrides = {};
+      snapshot.forEach((doc) => {
+        const data = doc.data();
+        overrides[data.pageNum] = data.content;
+      });
+      setPageOverrides(overrides);
+    }, (err) => {
+      console.error('실시간 수정 페이지 로드 에러:', err);
+    });
+    return () => unsubscribe();
+  }, []);
+
+  // 7. 0페이지 - Firestore 실시간 리포트 로딩
   useEffect(() => {
     if (pageNum !== 0) return;
     
@@ -267,7 +291,7 @@ const BookReader = () => {
     return () => unsubscribe();
   }, [pageNum]);
 
-  // 7. 오류 신고 전송
+  // 8. 오류 신고 전송
   const handleSubmitReport = async (e) => {
     e.preventDefault();
     if (!reportForm.originalText.trim() && !reportForm.correctedText.trim() && !reportForm.details.trim()) {
@@ -307,7 +331,7 @@ const BookReader = () => {
     }
   };
 
-  // 8. 관리자: 상태 업데이트
+  // 9. 관리자: 상태 업데이트
   const handleUpdateReportStatus = async (reportId, newStatus) => {
     if (!isAdmin) return;
     try {
@@ -320,7 +344,7 @@ const BookReader = () => {
     }
   };
 
-  // 9. 관리자: 신고 삭제
+  // 10. 관리자: 신고 삭제
   const handleDeleteReport = async (reportId) => {
     if (!isAdmin) return;
     if (!window.confirm('이 오류 정정 제안을 완전히 삭제하시겠습니까?')) return;
@@ -333,7 +357,83 @@ const BookReader = () => {
     }
   };
 
-  // 10. 단축어/챕터 레이아웃 텍스트 매핑
+  // 11. 관리자: 위키 직접 편집 및 저장
+  const handleStartEdit = () => {
+    const currentText = pageOverrides[pageNum] !== undefined 
+      ? pageOverrides[pageNum] 
+      : (pageTextMap[pageNum] || '');
+    setEditText(currentText);
+    setEditMode(true);
+  };
+
+  const handleSaveEdit = async () => {
+    setSavingEdit(true);
+    try {
+      await setDoc(doc(db, 'custom_pages', `page_${pageNum}`), {
+        pageNum: pageNum,
+        content: editText,
+        updatedAt: Timestamp.now(),
+        updatedBy: currentUser ? (currentUser.displayName || currentUser.email) : 'admin'
+      });
+      setEditMode(false);
+    } catch (err) {
+      console.error('본문 저장 실패:', err);
+      alert('저장에 실패했습니다. 권한이 없거나 네트워크 에러입니다.');
+    } finally {
+      setSavingEdit(false);
+    }
+  };
+
+  const handleCancelEdit = () => {
+    setEditMode(false);
+  };
+
+  // 12. 관리자: 원클릭 정정 승인 및 본문 치환 자동화
+  const handleApproveAndApply = async (report) => {
+    if (!isAdmin) return;
+    if (!window.confirm(`제 ${report.page}페이지에 이 정정안을 즉시 치환 반영하시겠습니까?\n\n[기존]: ${report.originalText}\n[정정]: ${report.correctedText}`)) return;
+    
+    try {
+      // 1. 해당 페이지의 텍스트 확보
+      let baseText = pageOverrides[report.page] !== undefined 
+        ? pageOverrides[report.page] 
+        : (pageTextMap[report.page] || '');
+        
+      if (!baseText) {
+        alert('해당 페이지의 텍스트가 아직 번역/등록되지 않았습니다. 직접 편집으로 텍스트를 먼저 입력해주세요.');
+        return;
+      }
+      
+      // 2. 오타 치환 검사
+      if (report.originalText && !baseText.includes(report.originalText)) {
+        if (!window.confirm('기존 오류 문구가 페이지 텍스트에 포함되어 있지 않습니다. 제안된 텍스트와 대소문자/띄어쓰기가 일치하는지 확인해 주세요. 계속 치환을 시도하시겠습니까?')) {
+          return;
+        }
+      }
+      
+      const newContent = baseText.replaceAll(report.originalText, report.correctedText);
+      
+      // 3. custom_pages에 저장
+      await setDoc(doc(db, 'custom_pages', `page_${report.page}`), {
+        pageNum: report.page,
+        content: newContent,
+        updatedAt: Timestamp.now(),
+        updatedBy: `System (Admin Approved: ${currentUser?.email || 'admin'})`
+      });
+      
+      // 4. 오류 보고 상태를 resolved 로 업데이트
+      await updateDoc(doc(db, 'error_reports', report.id), {
+        status: 'resolved'
+      });
+      
+      alert('정정 사항이 본문에 성공적으로 반영되었습니다!');
+    } catch (err) {
+      console.error('승인 처리 중 에러:', err);
+      alert('처리에 실패했습니다.');
+    }
+  };
+
+  // 13. 단축어/챕터 레이아웃 텍스트 매핑
   const getPageSectionTitle = (p) => {
     if (p === 0) return '오류 정정 대시보드';
     if (p >= 1 && p <= 4) return '도비라 및 화보';
@@ -425,7 +525,7 @@ const BookReader = () => {
           
           {/* PDF Tools */}
           {pageNum > 0 && (
-            <div className="bg-slate-900 border-b border-slate-800 px-4 py-2 flex items-center justify-between text-slate-400 text-xs">
+            <div className="bg-slate-900 border-b border-slate-800 px-4 py-2 flex items-center justify-between text-slate-400 text-xs flex-shrink-0">
               <span className="font-semibold flex items-center gap-1.5"><FileText size={14} /> 원문 PDF 페이지</span>
               
               <div className="flex items-center gap-2">
@@ -533,11 +633,44 @@ const BookReader = () => {
               <FileText size={14} /> 
               {pageNum === 0 ? '제안된 오류 정정 레포트 목록' : `텍스트 아카이브 (현대어 및 한글 병기)`}
             </span>
-            {pageNum > 0 && (
-              <span className="font-bold text-[10px] bg-slate-800 px-2 py-0.5 rounded text-slate-500 font-mono">
-                {pageTextMap[pageNum] ? '번역 완료' : '초안 검수대기'}
-              </span>
-            )}
+            
+            <div className="flex items-center gap-2">
+              {isAdmin && pageNum > 0 && (
+                editMode ? (
+                  <div className="flex items-center gap-1.5">
+                    <button 
+                      type="button"
+                      onClick={handleSaveEdit}
+                      disabled={savingEdit}
+                      className="px-2.5 py-1 text-[11px] font-black bg-emerald-600 hover:bg-emerald-700 text-white rounded transition-colors flex items-center gap-1 cursor-pointer disabled:opacity-50"
+                    >
+                      {savingEdit ? <Loader2 size={12} className="animate-spin" /> : '저장'}
+                    </button>
+                    <button 
+                      type="button"
+                      onClick={handleCancelEdit}
+                      disabled={savingEdit}
+                      className="px-2.5 py-1 text-[11px] font-black bg-slate-800 hover:bg-slate-700 text-slate-300 rounded transition-colors cursor-pointer"
+                    >
+                      취소
+                    </button>
+                  </div>
+                ) : (
+                  <button 
+                    type="button"
+                    onClick={handleStartEdit}
+                    className="px-2.5 py-1 text-[11px] font-black bg-slate-800 hover:bg-slate-700 text-slate-300 rounded border border-slate-700/50 transition-colors flex items-center gap-1 cursor-pointer"
+                  >
+                    본문 직접 편집 ✏️
+                  </button>
+                )
+              )}
+              {pageNum > 0 && (
+                <span className="font-bold text-[10px] bg-slate-800 px-2 py-0.5 rounded text-slate-500 font-mono">
+                  {pageOverrides[pageNum] !== undefined ? '위키수정본' : (pageTextMap[pageNum] ? '번역 완료' : '초안 검수대기')}
+                </span>
+              )}
+            </div>
           </div>
 
           <div className="flex-grow overflow-auto p-6 md:p-10 bg-slate-900 text-slate-300">
@@ -648,6 +781,15 @@ const BookReader = () => {
                             {/* 관리자 도구 */}
                             {isAdmin && (
                               <div className="flex items-center gap-2">
+                                {report.status !== 'resolved' && (
+                                  <button
+                                    type="button"
+                                    onClick={() => handleApproveAndApply(report)}
+                                    className="px-2.5 py-1 text-[11px] font-black bg-emerald-600/20 hover:bg-emerald-600/40 text-emerald-400 rounded-lg border border-emerald-500/20 flex items-center gap-1 transition-all cursor-pointer mr-2"
+                                  >
+                                    정정 승인 및 즉시 반영 ✅
+                                  </button>
+                                )}
                                 <select 
                                   value={report.status} 
                                   onChange={(e) => handleUpdateReportStatus(report.id, e.target.value)}
@@ -672,6 +814,35 @@ const BookReader = () => {
                   </div>
                 )}
               </div>
+            ) : editMode ? (
+              // 위키식 직접 편집 모드
+              <div className="flex flex-col h-full gap-4 animate-fadeIn">
+                <textarea
+                  value={editText}
+                  onChange={(e) => setEditText(e.target.value)}
+                  className="flex-grow w-full h-[450px] min-h-[400px] bg-slate-950 border border-slate-800 focus:border-indigo-500 rounded-2xl p-6 text-slate-200 placeholder-slate-600 outline-none font-mono text-sm leading-relaxed"
+                  placeholder="여기에 이 페이지의 마크다운 번역본 텍스트를 입력해 주세요."
+                />
+                <div className="flex justify-end gap-2">
+                  <button
+                    type="button"
+                    onClick={handleCancelEdit}
+                    disabled={savingEdit}
+                    className="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs cursor-pointer"
+                  >
+                    취소
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleSaveEdit}
+                    disabled={savingEdit}
+                    className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs flex items-center gap-1.5 cursor-pointer disabled:opacity-50"
+                  >
+                    {savingEdit ? <Loader2 size={14} className="animate-spin" /> : <Send size={12} />}
+                    저장 및 실시간 반영
+                  </button>
+                </div>
+              </div>
             ) : (
               // 일반 본문 페이지 마크다운 렌더링
               <article className="prose prose-invert max-w-none">
@@ -680,7 +851,7 @@ const BookReader = () => {
                     <Loader2 size={30} className="animate-spin text-saemaul-green" />
                     <p className="text-xs font-bold">번역 텍스트 수합 중...</p>
                   </div>
-                ) : pageTextMap[pageNum] ? (
+                ) : (pageOverrides[pageNum] !== undefined || pageTextMap[pageNum]) ? (
                   <div className="font-serif leading-relaxed text-slate-200">
                     <ReactMarkdown 
                       remarkPlugins={[remarkGfm]}
@@ -704,12 +875,12 @@ const BookReader = () => {
                         td: ({children}) => <td className="px-4 py-2.5 border-b border-slate-800/50 text-slate-300 font-medium bg-slate-950/20">{children}</td>
                       }}
                     >
-                      {pageTextMap[pageNum]}
+                      {pageOverrides[pageNum] !== undefined ? pageOverrides[pageNum] : pageTextMap[pageNum]}
                     </ReactMarkdown>
                   </div>
                 ) : (
                   // 번역이 아직 진행되지 않은 페이지(60~708p)를 위한 가이드 카드
-                  <div className="max-w-md mx-auto my-12 bg-slate-950/60 p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-xl animate-fadeIn">
+                  <div className="max-w-md mx-auto my-12 bg-slate-950/60 p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-xl animate-fadeIn text-left">
                     <div className="w-12 h-12 bg-amber-500/10 text-amber-500 rounded-2xl flex items-center justify-center mb-5 border border-amber-500/20">
                       <AlertTriangle size={24} />
                     </div>

@@ -27,5 +27,12 @@ service cloud.firestore {
       allow update, delete: if request.auth != null && 
         (request.auth.uid == (resource != null && 'uid' in resource.data ? resource.data.uid : '') || request.auth.token.email == 'anstlr6665@gmail.com');
     }
+
+    // 4. 위키식 수정 페이지 규칙 (Custom Pages)
+    match /custom_pages/{pageId} {
+      allow read: if true;
+      allow create, update, delete: if request.auth != null && 
+        request.auth.token.email == 'anstlr6665@gmail.com';
+    }
   }
 }
