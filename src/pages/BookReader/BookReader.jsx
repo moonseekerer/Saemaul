@@ -467,6 +467,12 @@ const BookReader = () => {
   // 현재 페이지의 미승인 오류 신고건 필터링
   const currentPageReports = errorReports.filter(r => r.page === pageNum && r.status !== 'resolved');
 
+  // 80. 9. 14 같은 날짜 형식이 순서 리스트로 오인식(1. 1. 14로 출력)되는 것 방지
+  const getProcessedMarkdown = (rawMarkdown) => {
+    if (!rawMarkdown) return '';
+    return rawMarkdown.replace(/(\d+)\.(?=\s)/g, '$1\\.');
+  };
+
   return (
     <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col pt-20">
       
@@ -928,7 +934,7 @@ const BookReader = () => {
                           td: ({children}) => <td className="px-4 py-2.5 border-b border-slate-800/50 text-slate-300 font-medium bg-slate-950/20">{children}</td>
                         }}
                       >
-                        {pageOverrides[pageNum] !== undefined ? pageOverrides[pageNum] : pageTextMap[pageNum]}
+                        {getProcessedMarkdown(pageOverrides[pageNum] !== undefined ? pageOverrides[pageNum] : pageTextMap[pageNum])}
                       </ReactMarkdown>
                     </div>
                   ) : (
