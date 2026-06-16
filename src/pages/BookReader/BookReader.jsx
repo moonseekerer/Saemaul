@@ -68,6 +68,9 @@ const BookReader = () => {
   const [editText, setEditText] = useState('');
   const [savingEdit, setSavingEdit] = useState(false);
   
+  // 미승인 정정 메모 가시성 상태
+  const [showMemos, setShowMemos] = useState(false);
+  
   // 사용자 정보 및 권한
   const [currentUser, setCurrentUser] = useState(null);
   const isAdmin = currentUser && currentUser.email === 'anstlr6665@gmail.com';
@@ -106,6 +109,7 @@ const BookReader = () => {
       setPageNum(validPage);
       setPageInputValue(validPage.toString());
       setEditMode(false); // 페이지가 바뀌면 편집모드 해제
+      setShowMemos(false); // 메모창 닫기
     }
   }, [searchParams]);
 
@@ -115,6 +119,7 @@ const BookReader = () => {
     setPageInputValue(validPage.toString());
     setSearchParams({ page: validPage });
     setEditMode(false);
+    setShowMemos(false); // 메모창 닫기
   };
 
   // 3. PDF.js 라이브러리 및 문서 로딩
@@ -269,10 +274,8 @@ const BookReader = () => {
     return () => unsubscribe();
   }, []);
 
-  // 7. 0페이지 - Firestore 실시간 리포트 로딩
+  // 7. Firestore 실시간 리포트 로딩 (전체 페이지 공유)
   useEffect(() => {
-    if (pageNum !== 0) return;
-    
     setLoadingReports(true);
     const q = query(collection(db, 'error_reports'), orderBy('createdAt', 'desc'));
     
@@ -289,7 +292,7 @@ const BookReader = () => {
     });
     
     return () => unsubscribe();
-  }, [pageNum]);
+  }, []);
 
   // 8. 오류 신고 전송
   const handleSubmitReport = async (e) => {
@@ -460,6 +463,9 @@ const BookReader = () => {
         return <span className="inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-full bg-amber-50 text-amber-600 border border-amber-200 animate-pulse"><AlertCircle size={12} /> 검토대기</span>;
     }
   };
+
+  // 현재 페이지의 미승인 오류 신고건 필터링
+  const currentPageReports = errorReports.filter(r => r.page === pageNum && r.status !== 'resolved');
 
   return (
     <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col pt-20">
@@ -785,7 +791,7 @@ const BookReader = () => {
                                   <button
                                     type="button"
                                     onClick={() => handleApproveAndApply(report)}
-                                    className="px-2.5 py-1 text-[11px] font-black bg-emerald-600/20 hover:bg-emerald-600/40 text-emerald-400 rounded-lg border border-emerald-500/20 flex items-center gap-1 transition-all cursor-pointer mr-2"
+                                    className="px-2.5 py-1 text-[11px] font-black bg-emerald-600/20 hover:bg-emerald-700 text-emerald-400 rounded-lg border border-emerald-500/20 flex items-center gap-1 transition-all cursor-pointer mr-2"
                                   >
                                     정정 승인 및 즉시 반영 ✅
                                   </button>
@@ -845,68 +851,116 @@ const BookReader = () => {
               </div>
             ) : (
               // 일반 본문 페이지 마크다운 렌더링
-              <article className="prose prose-invert max-w-none">
-                {loadingText ? (
-                  <div className="flex flex-col items-center justify-center py-24 gap-3 text-slate-500">
-                    <Loader2 size={30} className="animate-spin text-saemaul-green" />
-                    <p className="text-xs font-bold">번역 텍스트 수합 중...</p>
-                  </div>
-                ) : (pageOverrides[pageNum] !== undefined || pageTextMap[pageNum]) ? (
-                  <div className="font-serif leading-relaxed text-slate-200">
-                    <ReactMarkdown 
-                      remarkPlugins={[remarkGfm]}
-                      components={{
-                        h1: ({children}) => <h1 className="text-2xl sm:text-3xl font-black text-slate-100 mb-6 leading-tight pb-3 border-b border-slate-800">{children}</h1>,
-                        h2: ({children}) => <h2 className="text-xl sm:text-2xl font-black text-indigo-400 mt-8 mb-4">{children}</h2>,
-                        h3: ({children}) => <h3 className="text-lg sm:text-xl font-bold text-slate-200 mt-6 mb-3 border-l-4 border-saemaul-green pl-3">{children}</h3>,
-                        p: ({children}) => <p className="text-slate-300 text-sm sm:text-base leading-8 mb-5 break-keep font-medium">{children}</p>,
-                        strong: ({children}) => <strong className="text-amber-400 font-bold bg-amber-500/10 px-1 rounded border border-amber-500/10">{children}</strong>,
-                        blockquote: ({children}) => <blockquote className="border-l-4 border-indigo-500 bg-slate-950/60 px-5 py-3 rounded-r-xl my-6 text-slate-400 text-xs sm:text-sm font-medium">{children}</blockquote>,
-                        ul: ({children}) => <ul className="list-disc pl-5 space-y-2 mb-6 text-slate-300 text-sm">{children}</ul>,
-                        ol: ({children}) => <ol className="list-decimal pl-5 space-y-2 mb-6 text-slate-300 text-sm">{children}</ol>,
-                        li: ({children}) => <li className="pl-1">{children}</li>,
-                        table: ({children}) => (
-                          <div className="overflow-x-auto my-6 w-full border border-slate-800 rounded-xl bg-slate-950/40">
-                            <table className="min-w-full border-collapse divide-y divide-slate-800 text-xs sm:text-sm">{children}</table>
-                          </div>
-                        ),
-                        thead: ({children}) => <thead className="bg-slate-900 font-bold text-slate-200">{children}</thead>,
-                        th: ({children}) => <th className="px-4 py-2.5 border-b border-slate-800 text-left font-bold">{children}</th>,
-                        td: ({children}) => <td className="px-4 py-2.5 border-b border-slate-800/50 text-slate-300 font-medium bg-slate-950/20">{children}</td>
-                      }}
-                    >
-                      {pageOverrides[pageNum] !== undefined ? pageOverrides[pageNum] : pageTextMap[pageNum]}
-                    </ReactMarkdown>
-                  </div>
-                ) : (
-                  // 번역이 아직 진행되지 않은 페이지(60~708p)를 위한 가이드 카드
-                  <div className="max-w-md mx-auto my-12 bg-slate-950/60 p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-xl animate-fadeIn text-left">
-                    <div className="w-12 h-12 bg-amber-500/10 text-amber-500 rounded-2xl flex items-center justify-center mb-5 border border-amber-500/20">
-                      <AlertTriangle size={24} />
-                    </div>
-                    <h3 className="text-lg font-black text-slate-200 mb-2">텍스트 복원 진행 중인 페이지</h3>
-                    <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6 font-medium">
-                      현재 <strong>새마을운동 10년사</strong> 현대어 번역 및 디지털 정제 작업이 진행 중입니다. (1~59페이지 수록 완료)
-                      <br /><br />
-                      좌측의 <strong>PDF 원본 파일</strong>을 참조해 읽으실 수 있습니다.
-                    </p>
-                    
-                    <div className="bg-slate-900/60 rounded-2xl p-4 border border-slate-800 flex flex-col gap-3">
-                      <h4 className="text-slate-300 text-xs font-bold">오타 교정 및 한문 해석 제안 참여</h4>
-                      <p className="text-slate-500 text-[11px] leading-relaxed">
-                        해당 페이지의 번역 초안을 등록하거나 한자 오타 교정을 제안하고 싶으시다면, 우측 상단의 <strong>[오류 정정 제안]</strong> 버튼을 통해 제출해주시면 최종 버전에 반영됩니다.
-                      </p>
+              <div className="flex flex-col gap-4 text-left">
+                {/* 이 페이지에 제안된 오류 정정 메모 (미반영 건) */}
+                {pageNum > 0 && currentPageReports.length > 0 && (
+                  <div className="mb-4 bg-amber-500/5 border border-amber-500/20 rounded-2xl p-4.5 animate-fadeIn">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2 text-amber-400 font-bold text-xs sm:text-sm">
+                        <AlertTriangle size={16} />
+                        <span>이 페이지에 접수된 정정 제안 ({currentPageReports.length}건)</span>
+                      </div>
                       <button
                         type="button"
-                        onClick={() => setReportModalOpen(true)}
-                        className="w-full mt-1 py-2.5 text-xs font-black bg-amber-500 hover:bg-amber-600 text-slate-950 rounded-xl transition-all cursor-pointer"
+                        onClick={() => setShowMemos(!showMemos)}
+                        className="text-xs font-bold text-amber-500 hover:text-amber-400 underline cursor-pointer"
                       >
-                        이 페이지 번역/정정 제안하기
+                        {showMemos ? '접기' : '의견 보기'}
                       </button>
                     </div>
+                    
+                    <p className="text-[11px] text-slate-400 mt-1 font-medium leading-relaxed">
+                      아직 승인 대기 중인 독자 의견입니다. 본문을 읽으실 때 참고하시기 바랍니다.
+                    </p>
+
+                    {showMemos && (
+                      <div className="mt-3.5 space-y-2.5 border-t border-amber-500/10 pt-3 text-xs">
+                        {currentPageReports.map((report) => (
+                          <div key={report.id} className="bg-slate-950/40 p-3 rounded-xl border border-slate-900 flex flex-col gap-2">
+                            <div className="flex items-center justify-between text-[10px] text-slate-500">
+                              <span className="font-semibold text-slate-400">{report.reporter} 님의 의견</span>
+                              <span>{report.createdAt ? new Date(report.createdAt.seconds * 1000).toLocaleDateString() : ''}</span>
+                            </div>
+                            <div className="flex items-center gap-2 flex-wrap font-mono text-slate-300">
+                              <span className="line-through text-red-400 bg-red-950/20 px-1.5 py-0.5 rounded border border-red-500/5">{report.originalText}</span>
+                              <span className="text-slate-500">→</span>
+                              <span className="text-emerald-400 bg-emerald-950/20 px-1.5 py-0.5 rounded border border-emerald-500/5 font-bold">{report.correctedText}</span>
+                            </div>
+                            {report.details && (
+                              <p className="text-slate-400 text-[11px] leading-relaxed pl-1 italic">
+                                💬 "{report.details}"
+                              </p>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 )}
-              </article>
+                
+                <article className="prose prose-invert max-w-none">
+                  {loadingText ? (
+                    <div className="flex flex-col items-center justify-center py-24 gap-3 text-slate-500">
+                      <Loader2 size={30} className="animate-spin text-saemaul-green" />
+                      <p className="text-xs font-bold">번역 텍스트 수합 중...</p>
+                    </div>
+                  ) : (pageOverrides[pageNum] !== undefined || pageTextMap[pageNum]) ? (
+                    <div className="font-serif leading-relaxed text-slate-200">
+                      <ReactMarkdown 
+                        remarkPlugins={[remarkGfm]}
+                        components={{
+                          h1: ({children}) => <h1 className="text-2xl sm:text-3xl font-black text-slate-100 mb-6 leading-tight pb-3 border-b border-slate-800">{children}</h1>,
+                          h2: ({children}) => <h2 className="text-xl sm:text-2xl font-black text-indigo-400 mt-8 mb-4">{children}</h2>,
+                          h3: ({children}) => <h3 className="text-lg sm:text-xl font-bold text-slate-200 mt-6 mb-3 border-l-4 border-saemaul-green pl-3">{children}</h3>,
+                          p: ({children}) => <p className="text-slate-300 text-sm sm:text-base leading-8 mb-5 break-keep font-medium">{children}</p>,
+                          strong: ({children}) => <strong className="text-amber-400 font-bold bg-amber-500/10 px-1 rounded border border-amber-500/10">{children}</strong>,
+                          blockquote: ({children}) => <blockquote className="border-l-4 border-indigo-500 bg-slate-950/60 px-5 py-3 rounded-r-xl my-6 text-slate-400 text-xs sm:text-sm font-medium">{children}</blockquote>,
+                          ul: ({children}) => <ul className="list-disc pl-5 space-y-2 mb-6 text-slate-300 text-sm">{children}</ul>,
+                          ol: ({children}) => <ol className="list-decimal pl-5 space-y-2 mb-6 text-slate-300 text-sm">{children}</ol>,
+                          li: ({children}) => <li className="pl-1">{children}</li>,
+                          table: ({children}) => (
+                            <div className="overflow-x-auto my-6 w-full border border-slate-800 rounded-xl bg-slate-950/40">
+                              <table className="min-w-full border-collapse divide-y divide-slate-800 text-xs sm:text-sm">{children}</table>
+                            </div>
+                          ),
+                          thead: ({children}) => <thead className="bg-slate-900 font-bold text-slate-200">{children}</thead>,
+                          th: ({children}) => <th className="px-4 py-2.5 border-b border-slate-800 text-left font-bold">{children}</th>,
+                          td: ({children}) => <td className="px-4 py-2.5 border-b border-slate-800/50 text-slate-300 font-medium bg-slate-950/20">{children}</td>
+                        }}
+                      >
+                        {pageOverrides[pageNum] !== undefined ? pageOverrides[pageNum] : pageTextMap[pageNum]}
+                      </ReactMarkdown>
+                    </div>
+                  ) : (
+                    // 번역이 아직 진행되지 않은 페이지(60~708p)를 위한 가이드 카드
+                    <div className="max-w-md mx-auto my-12 bg-slate-950/60 p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-xl animate-fadeIn text-left">
+                      <div className="w-12 h-12 bg-amber-500/10 text-amber-500 rounded-2xl flex items-center justify-center mb-5 border border-amber-500/20">
+                        <AlertTriangle size={24} />
+                      </div>
+                      <h3 className="text-lg font-black text-slate-200 mb-2">텍스트 복원 진행 중인 페이지</h3>
+                      <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6 font-medium">
+                        현재 <strong>새마을운동 10년사</strong> 현대어 번역 및 디지털 정제 작업이 진행 중입니다. (1~59페이지 수록 완료)
+                        <br /><br />
+                        좌측의 <strong>PDF 원본 파일</strong>을 참조해 읽으실 수 있습니다.
+                      </p>
+                      
+                      <div className="bg-slate-900/60 rounded-2xl p-4 border border-slate-800 flex flex-col gap-3">
+                        <h4 className="text-slate-300 text-xs font-bold">오타 교정 및 한문 해석 제안 참여</h4>
+                        <p className="text-slate-500 text-[11px] leading-relaxed">
+                          해당 페이지의 번역 초안을 등록하거나 한자 오타 교정을 제안하고 싶으시다면, 우측 상단의 <strong>[오류 정정 제안]</strong> 버튼을 통해 제출해주시면 최종 버전에 반영됩니다.
+                        </p>
+                        <button
+                          type="button"
+                          onClick={() => setReportModalOpen(true)}
+                          className="w-full mt-1 py-2.5 text-xs font-black bg-amber-500 hover:bg-amber-600 text-slate-950 rounded-xl transition-all cursor-pointer"
+                        >
+                          이 페이지 번역/정정 제안하기
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                </article>
+              </div>
             )}
           </div>
         </div>
