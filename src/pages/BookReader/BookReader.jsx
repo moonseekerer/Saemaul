@@ -918,7 +918,7 @@ const BookReader = () => {
                           h1: ({children}) => <h1 className="text-2xl sm:text-3xl font-black text-slate-100 mb-6 leading-tight pb-3 border-b border-slate-800">{children}</h1>,
                           h2: ({children}) => <h2 className="text-xl sm:text-2xl font-black text-indigo-400 mt-8 mb-4">{children}</h2>,
                           h3: ({children}) => <h3 className="text-lg sm:text-xl font-bold text-slate-200 mt-6 mb-3 border-l-4 border-saemaul-green pl-3">{children}</h3>,
-                          p: ({children}) => <p className="text-slate-300 text-sm sm:text-base leading-8 mb-5 break-keep font-medium">{children}</p>,
+                          p: ({children}) => <p className="text-slate-300 text-sm sm:text-base leading-8 mb-5 break-keep font-medium whitespace-pre-line">{children}</p>,
                           strong: ({children}) => <strong className="text-amber-400 font-bold bg-amber-500/10 px-1 rounded border border-amber-500/10">{children}</strong>,
                           blockquote: ({children}) => <blockquote className="border-l-4 border-indigo-500 bg-slate-950/60 px-5 py-3 rounded-r-xl my-6 text-slate-400 text-xs sm:text-sm font-medium">{children}</blockquote>,
                           ul: ({children}) => <ul className="list-disc pl-5 space-y-2 mb-6 text-slate-300 text-sm">{children}</ul>,
