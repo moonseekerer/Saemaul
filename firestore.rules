@@ -96,5 +96,13 @@ service cloud.firestore {
       allow update, delete: if request.auth != null &&
         request.auth.token.email == 'anstlr6665@gmail.com';
     }
+
+    // 10. 주민 의견 피드백 규칙 (Feedbacks)
+    match /feedbacks/{feedbackId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if request.auth != null &&
+        request.auth.token.email == 'anstlr6665@gmail.com';
+    }
   }
 }

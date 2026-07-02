@@ -42,6 +42,24 @@ const Feedback = () => {
   const [feedbacks, setFeedbacks] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
+  // 🔒 암호 및 캡챠 상태 추가
+  const [password, setPassword] = useState('');
+  const [captchaNum1, setCaptchaNum1] = useState(0);
+  const [captchaNum2, setCaptchaNum2] = useState(0);
+  const [captchaAnswer, setCaptchaAnswer] = useState('');
+
+  // 일회성 캡챠 생성 함수
+  const generateCaptcha = () => {
+    setCaptchaNum1(Math.floor(Math.random() * 9) + 1); // 1~9
+    setCaptchaNum2(Math.floor(Math.random() * 9) + 1); // 1~9
+    setCaptchaAnswer('');
+  };
+
+  // 컴포넌트 최초 로드 시 캡챠 생성
+  useEffect(() => {
+    generateCaptcha();
+  }, []);
+
   // 1. Auth 상태 변경 감지 및 유저 역할(Admin 여부) 조회
   useEffect(() => {
     const unsubscribeAuth = onAuthStateChanged(auth, async (user) => {
@@ -104,6 +122,18 @@ const Feedback = () => {
       finalWriterName = writerName.trim();
     }
 
+    // 🤖 캡챠 및 암호 검증
+    if (parseInt(captchaAnswer) !== (captchaNum1 + captchaNum2)) {
+      alert("보안 수식의 계산 결과가 올바르지 않습니다. 다시 계산해 주세요!");
+      generateCaptcha();
+      return;
+    }
+
+    if (password.trim().length < 4) {
+      alert("의견 수정을 위한 암호를 4자리 이상 입력해 주세요!");
+      return;
+    }
+
     setIsSubmitting(true);
 
     try {
@@ -113,12 +143,15 @@ const Feedback = () => {
         writerName: finalWriterName,
         writerUid: currentUser ? currentUser.uid : null,
         writerPhotoURL: currentUser ? currentUser.photoURL : null,
+        password: password.trim(), // 암호 저장
         createdAt: new Date(),
       });
 
       // 등록 성공 리셋
       setContent('');
       setIsPrivate(false);
+      setPassword('');
+      generateCaptcha(); // 캡챠 재생성
       if (!currentUser) setWriterName('');
       setSubmitSuccess(true);
       setTimeout(() => setSubmitSuccess(false), 3000);
@@ -203,6 +236,40 @@ const Feedback = () => {
                     required
                   />
                   <span className="text-[10px] text-slate-500 self-end font-semibold">{content.length} / 300</span>
+                </div>
+
+                {/* 🔒 암호 설정 필드 */}
+                <div className="flex flex-col gap-1.5">
+                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider">의견 암호 (4자리 이상)</label>
+                  <input 
+                    type="password"
+                    placeholder="향후 수정/삭제를 위한 암호 설정"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    className="form-input bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-saemaul-green transition-all"
+                    maxLength={10}
+                    required
+                  />
+                </div>
+
+                {/* 🤖 스팸 방지 수식 캡챠 */}
+                <div className="flex flex-col gap-1.5 bg-slate-900/40 p-3.5 rounded-xl border border-slate-800/60">
+                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1">
+                    🤖 스팸 방지 보안 질문
+                  </label>
+                  <div className="flex items-center gap-3">
+                    <span className="text-sm font-black text-amber-500 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800">
+                      {captchaNum1} + {captchaNum2} = ?
+                    </span>
+                    <input 
+                      type="number"
+                      placeholder="계산 결과 입력"
+                      value={captchaAnswer}
+                      onChange={(e) => setCaptchaAnswer(e.target.value)}
+                      className="form-input flex-1 bg-slate-900 border border-slate-800 rounded-xl px-4 py-1.5 text-sm text-slate-200 focus:outline-none focus:border-saemaul-green transition-all"
+                      required
+                    />
+                  </div>
                 </div>
 
                 {/* 비공개 설정 체크박스 */}
