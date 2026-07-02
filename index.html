@@ -20,6 +20,16 @@
     <meta property="twitter:description" content="Towards a Safer and Happier World, Saemaul-SDGs Platform" />
     <meta property="twitter:image" content="https://saemaul-sdgs.web.app/assets/og-image.png" />
 
+    <!-- KakaoTalk In-App Browser Auto Redirect -->
+    <script>
+      (function() {
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.indexOf('kakaotalk') !== -1) {
+          location.href = 'kakaotalk://web/openExternal?url=' + encodeURIComponent(location.href);
+        }
+      })();
+    </script>
+
     <!-- Kakao SDK -->
     <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js" crossorigin="anonymous"></script>
     <script>

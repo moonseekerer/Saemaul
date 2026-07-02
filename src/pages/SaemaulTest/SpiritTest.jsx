@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { auth } from '../../firebase';
+import { onAuthStateChanged } from 'firebase/auth';
+import { addPointForTest } from '../../utils/points';
 import { 
   ArrowLeft, 
   CheckCircle, 
@@ -456,6 +459,15 @@ const SpiritTest = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  const [currentUser, setCurrentUser] = useState(null);
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setCurrentUser(user);
+    });
+    return () => unsubscribe();
+  }, []);
+
   // 진단 상태 모드: 'COVER' | 'CREATE' | 'QUEST' | 'ANALYZING' | 'RESULT'
   const [currentMode, setCurrentMode] = useState('COVER');
   
@@ -640,6 +652,21 @@ const SpiritTest = () => {
       archetype,
       maxKey
     });
+
+    if (currentUser) {
+      addPointForTest(currentUser.uid, 'spirit').then(res => {
+        if (res.pointsEarned > 0) {
+          alert(`🎉 새마을 테스트 완료 보너스로 포인트 +${res.pointsEarned} P가 지급되었습니다!`);
+        } else if (res.alreadyRewarded) {
+          console.log("This spirit test is already rewarded.");
+        }
+        if (res.unlockedTitles && res.unlockedTitles.length > 0) {
+          alert(`👑 축하합니다! 신규 칭호가 해금되었습니다: ${res.unlockedTitles.join(', ')}`);
+        }
+      }).catch(err => {
+        console.error("Quiz point reward error:", err);
+      });
+    }
   };
 
   const resetTest = () => {
@@ -1062,8 +1089,8 @@ const SpiritTest = () => {
             <div className="bg-gradient-to-br from-emerald-500 via-teal-700 to-emerald-800 p-12 text-center text-white relative overflow-hidden">
               <div className="absolute inset-0 opacity-10 bg-[url('/assets/national-sm-map.png')] bg-cover" />
               <div className="relative z-10 space-y-4">
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/20 backdrop-blur-md text-white text-[11px] font-black border border-white/30 mb-2">
-                  <BookOpen size={12} className="text-yellow-300 animate-pulse" /> 학술 고증 기반 정신 진단 (공식 개정판)
+                <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/20 backdrop-blur-md text-white text-sm sm:text-base font-black border border-white/30 mb-2 shadow-sm">
+                  <BookOpen size={14} className="text-yellow-300 animate-pulse" /> 학술 고증 기반 정신 진단 (공식 개정판)
                 </div>
                 <h1 className="text-3xl md:text-5xl font-black tracking-tight leading-none text-white drop-shadow-md">
                   위기의 디지털 마을을 구하라!<br />

@@ -133,6 +133,30 @@ const CharacterSprite = ({ facing, walkFrame, playerClass }) => {
   );
 };
 
+// ──────────────────────────────────────────────
+// NPC 스프라이트 설정 (이벤트 지점 고정용)
+// ──────────────────────────────────────────────
+const NPCSprite = ({ npcClass }) => {
+  const spriteUrl = CLASS_SPRITES[npcClass] || CLASS_SPRITES.Healer;
+  const col = 0; // 정면(down)
+  const row = 0; // 유휴(idle)
+
+  return (
+    <div style={{
+      width:  SPRITE_DISP,
+      height: SPRITE_DISP,
+      imageRendering: 'pixelated',
+      backgroundImage: `url(${spriteUrl})`,
+      backgroundSize:  `${4 * SPRITE_DISP}px ${7 * SPRITE_DISP}px`,
+      backgroundPosition: `-${col * SPRITE_DISP}px -${row * SPRITE_DISP}px`,
+      backgroundPositionX: `-${col * SPRITE_DISP}px`,
+      backgroundPositionY: `-${row * SPRITE_DISP}px`,
+      backgroundRepeat: 'no-repeat',
+      filter: 'drop-shadow(0 3px 6px rgba(0,0,0,0.8))',
+    }} />
+  );
+};
+
 // HUD 아바타용 스프라이트 (정면, 유휴 프레임)
 const AvatarSprite = ({ playerClass }) => {
   const spriteUrl = CLASS_SPRITES[playerClass] || CLASS_SPRITES.Pioneer;
@@ -260,6 +284,16 @@ const VillageMap = () => {
   const [searchParams] = useSearchParams();
   const playerName  = searchParams.get('name')  || '용사';
   const playerClass = searchParams.get('class') || 'Pioneer';
+
+  // 모바일 감지 (터치 지원 또는 화면 폭 768px 미만)
+  const [isMobile, setIsMobile] = useState(() => (
+    'ontouchstart' in window || window.innerWidth < 768
+  ));
+  useEffect(() => {
+    const handleResize = () => setIsMobile('ontouchstart' in window || window.innerWidth < 768);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // 플레이어 위치 (ref: 이동 로직용, state: 렌더링용)
   const playerPosRef = useRef({ row: 5, col: 3 });
@@ -426,19 +460,6 @@ const VillageMap = () => {
     const colStart = Math.max(0, camCol - 1);
     const colEnd   = Math.min(MAP_COLS - 1, camCol + viewCols + 1);
 
-    const getHouseTileImage = (r, c) => {
-      const isRightH = c + 1 < MAP_COLS && MAP[r][c + 1] === H;
-      const isLeftH  = c - 1 >= 0 && MAP[r][c - 1] === H;
-      const isDownH  = r + 1 < MAP_ROWS && MAP[r + 1][c] === H;
-      const isUpH    = r - 1 >= 0 && MAP[r - 1][c] === H;
-
-      if (isRightH && isDownH) return '/assets/house_tl.png';
-      if (isLeftH && isDownH)  return '/assets/house_tr.png';
-      if (isRightH && isUpH)   return '/assets/house_bl.png';
-      if (isLeftH && isUpH)    return '/assets/house_br.png';
-      return '/assets/house_tl.png';
-    };
-
     for (let r = rowStart; r <= rowEnd; r++) {
       for (let c = colStart; c <= colEnd; c++) {
         const tileVal = MAP[r][c];
@@ -448,8 +469,12 @@ const VillageMap = () => {
         const x = (c - camCol) * TILE_SIZE;
         const y = (r - camRow) * TILE_SIZE;
 
-        // 타일별 백그라운드 이미지 매핑
+        // 타일별 백그라운드 이미지 매핑 및 크기 결정
         let bgImg = '';
+        let customWidth = TILE_SIZE;
+        let customHeight = TILE_SIZE;
+        let isTopLeftHouse = false;
+
         if (tileVal === G || isEv) {
           bgImg = "url('/assets/grass.png')";
         } else if (tileVal === P) {
@@ -461,7 +486,29 @@ const VillageMap = () => {
         } else if (tileVal === T) {
           bgImg = "url('/assets/tree.png')";
         } else if (tileVal === H) {
-          bgImg = `url('${getHouseTileImage(r, c)}')`;
+          const isRightH = c + 1 < MAP_COLS && MAP[r][c + 1] === H;
+          const isLeftH  = c - 1 >= 0 && MAP[r][c - 1] === H;
+          const isDownH  = r + 1 < MAP_ROWS && MAP[r + 1][c] === H;
+          const isUpH    = r - 1 >= 0 && MAP[r - 1][c] === H;
+
+          if (isRightH && isDownH) {
+            // 2x2 집의 Top-Left 파트일 경우, 해시 기반으로 초가집과 새마을주택 2종을 분산 렌더링
+            const houseSeed = (r * 7 + c * 13) % 3;
+            let houseAsset = '/assets/thatched_house.png';
+            if (houseSeed === 1) {
+              houseAsset = '/assets/saemaul_house_blue.png';
+            } else if (houseSeed === 2) {
+              houseAsset = '/assets/saemaul_house_orange.png';
+            }
+            bgImg = `url('${houseAsset}')`;
+            customWidth = TILE_SIZE * 2;
+            customHeight = TILE_SIZE * 2;
+            isTopLeftHouse = true;
+          } else {
+            // 나머지 파트 (TR, BL, BR)는 Top-Left에서 2x2 크기로 한꺼번에 렌더링되므로
+            // 여기서는 중복 렌더링하지 않고 바닥용 잔디(G)를 렌더링 (통행 불가는 유지됨)
+            bgImg = "url('/assets/grass.png')";
+          }
         }
 
         tiles.push(
@@ -470,7 +517,7 @@ const VillageMap = () => {
             style={{
               position: 'absolute',
               left: x, top: y,
-              width: TILE_SIZE, height: TILE_SIZE,
+              width: customWidth, height: customHeight,
               backgroundImage: bgImg,
               backgroundSize: '100% 100%',
               backgroundRepeat: 'no-repeat',
@@ -478,6 +525,8 @@ const VillageMap = () => {
               overflow: 'visible',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               userSelect: 'none',
+              // 2x2 집의 Top-Left인 경우 캐릭터 앞에 자연스럽게 레이어링될 수 있도록 zIndex 조절
+              zIndex: isTopLeftHouse ? 5 : undefined,
               // 완료된 이벤트는 약간 어둡게
               filter: isEv && isDone ? 'brightness(0.7) saturate(0.4)' : undefined,
             }}
@@ -498,6 +547,16 @@ const VillageMap = () => {
                 border: '2px solid rgba(245,197,24,0.5)',
                 animation: 'eventGlow 1.5s ease-in-out infinite alternate',
               }} />
+            )}
+            {/* 이벤트 NPC 캐릭터 렌더링 */}
+            {isEv && (
+              <div style={{
+                position: 'absolute',
+                bottom: 0, // 타일 바닥 밀착
+                zIndex: 10,
+              }}>
+                <NPCSprite npcClass={(tileVal % 2 === 0) ? 'Healer' : 'Architect'} />
+              </div>
             )}
             {/* 이벤트 마커 */}
             {isEv && (
@@ -574,30 +633,48 @@ const VillageMap = () => {
 
         {/* 진행 상황 */}
         <div style={{ textAlign: 'right' }}>
-          <div style={{ fontSize: 14, color: '#f5c518', marginBottom: 6, fontWeight: 'bold' }}>
-            {progressCount}/12 퀘스트 완료
-          </div>
           <div style={{
-            display: 'flex', gap: 3, justifyContent: 'flex-end',
+            fontSize: 13, color: '#f5c518', marginBottom: 6, fontWeight: 'bold',
+            display: 'flex', alignItems: 'center', gap: 6, justifyContent: 'flex-end',
           }}>
-            {Array.from({ length: 12 }, (_, i) => (
-              <div key={i} style={{
-                width: 14, height: 14,
-                backgroundColor: [...completed].some((t) => t - 10 === i) ? '#f5c518' : '#333355',
-                border: '1px solid #555577',
+            <span style={{ fontSize: 16 }}>🗡</span>
+            <span>{progressCount}<span style={{ color: '#555577', fontSize: 11 }}>/12</span> 퀘스트 완료</span>
+          </div>
+          {/* 진행 막대 */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            <div style={{
+              width: 140, height: 8,
+              backgroundColor: '#1a1a3a',
+              border: '1px solid #333355',
+              borderRadius: 4,
+              overflow: 'hidden',
+            }}>
+              <div style={{
+                width: `${Math.round((progressCount / 12) * 100)}%`,
+                height: '100%',
+                background: progressCount === 12
+                  ? 'linear-gradient(90deg, #f5c518, #ffda6a)'
+                  : 'linear-gradient(90deg, #4fc3f7, #00843d)',
+                transition: 'width 0.5s ease',
+                borderRadius: 4,
               }} />
-            ))}
+            </div>
+            <span style={{ fontSize: 10, color: '#8888cc', fontWeight: 'bold', minWidth: 28 }}>
+              {Math.round((progressCount / 12) * 100)}%
+            </span>
           </div>
         </div>
       </div>
 
 
 
-      {/* ── D-Pad (모바일) ── */}
-      <DPad
-        onMoveStart={startMoving}
-        onMoveEnd={stopMoving}
-      />
+      {/* ── D-Pad (모바일 전용) ── */}
+      {isMobile && (
+        <DPad
+          onMoveStart={startMoving}
+          onMoveEnd={stopMoving}
+        />
+      )}
 
       {/* ── 이벤트 대화창 ── */}
       {gamePhase === 'EVENT' && activeEvent && (

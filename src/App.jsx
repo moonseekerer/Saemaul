@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, Link, useNavigate, useParams } from 'react-router-dom';
+import { Routes, Route, Link, NavLink, useNavigate, useParams, useLocation } from 'react-router-dom';
 import LeadershipTest from './pages/LeadershipTest/LeadershipTest';
 import SaemaulTest from './pages/SaemaulTest/SaemaulTest';
 import SpiritTest from './pages/SaemaulTest/SpiritTest';
@@ -36,11 +36,26 @@ import {
   signOut, 
   onAuthStateChanged 
 } from 'firebase/auth';
+import { ensureUserProfile, seedMockUsers } from './utils/points';
+import AuthModal from './components/AuthModal';
 
 const NavItem = ({ label, to }) => (
-  <Link to={to || '#!'} className="nav-link flex flex-col items-start group whitespace-nowrap">
-    <span className="text-sm font-semibold">{label}</span>
-  </Link>
+  <NavLink
+    to={to || '#!'}
+    className={({ isActive }) =>
+      `nav-link flex flex-col items-start group whitespace-nowrap transition-all ${
+        isActive ? 'text-saemaul-green' : ''
+      }`
+    }
+  >
+    {({ isActive }) => (
+      <span className={`text-sm font-semibold relative ${
+        isActive
+          ? 'after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[2px] after:bg-saemaul-green after:rounded-full'
+          : ''
+      }`}>{label}</span>
+    )}
+  </NavLink>
 );
 
 const FeatureCard = ({ icon: Icon, title, description, color, learnMoreText, to }) => {
@@ -248,8 +263,10 @@ const TEAM_DATA = {
     studentId: '22650117',
     tel: '010-4286-3104',
     email: 'plbm521@ynu.ac.kr',
+    intro: '박문식 팀원은 학술적 전문성과 글로벌 현장 실무 경험을 겸비한 국제개발협력 전문가입니다. 에티오피아 섬유 테크노파크 조성 지원사업, 우즈베키스탄 IT Park PMC 사업 등 공적개발원조(ODA) 프로젝트를 성공적으로 이끌며 개발도상국의 산업 경쟁력 강화와 SDGs 달성에 앞장서고 있습니다. 특히 우즈베키스탄 IT Park PMC 사업을 탁월하게 수행하여 2025년 KOICA 이사장 명의 감사패(우수 파트너상)를 수상하며 사업 관리 및 실무 기획 역량을 공식 인정받았습니다. 미얀마, 라오스, 인도네시아 등 다양한 현장에서 쌓아온 깊은 통찰력을 바탕으로 실효성 있는 글로벌 상생 협력을 실천하고 있습니다.',
     activities: [
       { period: '2023.07 ~ 현재', desc: '경북테크노파크 글로벌협력실 전임연구원 (국제개발협력 사업 기획/실무)' },
+      { period: '2025', desc: '우즈베키스탄 IT Park PMC 사업 우수 수행 공로 KOICA 이사장 감사패(우수 파트너상) 수상' },
       { period: '2019', desc: '영국 사회적기업(Social Enterprise) 현지 조사 연구' },
       { period: '2018', desc: 'LG전자 CSR Field Study (미얀마 현지 필드 스터디)' },
       { period: '2018', desc: '현대자동차 해피무브 글로벌 청년봉사단 18기 (라오스 지역 봉사)' },
@@ -262,7 +279,23 @@ const TEAM_DATA = {
       { period: '2026.03 ~ 현재', desc: '영남대학교 대학원 새마을국제개발학과 박사과정 재학' },
       { period: '2020.03 ~ 2026.02', desc: '영남대학교 대학원 새마을국제개발학 석사 졸업' },
       { period: '2016.03 ~ 2020.02', desc: '영남대학교 새마을국제개발학 학사 졸업' }
-    ]
+    ],
+    projects: [
+      { agency: '산업부(KIAT)', title: '에티오피아 섬유테크노파크 조성 지원사업', period: '18.06.01~23.12.31(23.07.01~23.12.31)' },
+      { agency: '산업부(KIAT)', title: '개도국 섬유분야 생산현장 애로기술지도(타지키스탄)', period: '21.05.01~23.12.31(23.07.01~23.12.31)' },
+      { agency: '산업부(KIAT)', title: '개도국 섬유분야 생산현장 애로기술지도(캄보디아)', period: '21.05.01~23.12.31(23.07.01~23.12.31)' },
+      { agency: '외교통상부(KOICA)', title: '우즈베키스탄 IT Park 지속성장한 성장을 위한 기반조성 및 역량강화', period: '21.10.01~25.12.31(24.03.01~25.12.31)' },
+      { agency: '산업부(KIAT)', title: '엘살바도르 디지털전환분야현장 애로기술지도', period: '23.05.01~27.12.31(23.07.01~27.12.31)' },
+      { agency: '산업부(KIAT)', title: '과테말라 섬유 TASK센터 조성 지원', period: '24.05.01~27.12.31(24.05.01~27.12.31)' },
+      { agency: '경상북도', title: '2024 경상북도 과테말라 기계전 및 판촉전', period: '24.03.01~24.12.31(24.03.01~24.12.31)' }
+    ],
+    footprint: {
+      '아시아': ['한국', '우즈베키스탄', '타지키스탄', '캄보디아', '미얀마', '베트남', '인도네시아', '필리핀', '라오스', '키르기스스탄', '말레이시아', '싱가포르', '일본', '중국', '카자흐스탄', '태국', '튀르키예', '홍콩', '마카오'],
+      '유럽': ['영국', '네덜란드', '오스트리아', '러시아', '헝가리', '덴마크', '체코'],
+      '아메리카': ['과테말라', '미국', '캐나다'],
+      '오세아니아': ['호주', '피지'],
+      '아프리카': ['에티오피아']
+    }
   }
 };
 
@@ -270,6 +303,7 @@ const ProfilePage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const member = TEAM_DATA[id];
+  const [isProjectsOpen, setIsProjectsOpen] = useState(false);
 
   if (!member) return <div className="min-h-screen flex items-center justify-center">Member not found</div>;
 
@@ -327,31 +361,12 @@ const ProfilePage = () => {
             {/* Intro Statement */}
             <section id="intro" className="mb-16">
               <h2 className="text-2xl font-black text-slate-900 mb-8 pb-4 border-b-2 border-slate-900 tracking-tight">프로필 소개</h2>
-              <p className="text-lg leading-relaxed text-slate-700 font-medium">
-                {member.name} {member.role}은 영남대학교 {member.dept}의 우수 인재로서, 다양한 글로벌 개발협력 및 사회혁신 프로젝트를 통해 지속 가능한 발전 목표(SDGs) 실현에 앞장서고 있습니다.
+              <p className="text-lg leading-relaxed text-slate-700 font-medium whitespace-pre-line">
+                {member.intro || `${member.name} ${member.role}은 영남대학교 ${member.dept}의 우수 인재로서, 다양한 글로벌 개발협력 및 사회혁신 프로젝트를 통해 지속 가능한 발전 목표(SDGs) 실현에 앞장서고 있습니다.`}
               </p>
             </section>
 
-            {/* Activities Timeline Section */}
-            {member.activities.length > 0 && (
-              <section id="activities" className="mb-16">
-                <h2 className="text-2xl font-black text-slate-900 mb-8 pb-4 border-b-2 border-slate-900 tracking-tight">경력 및 주요 활동</h2>
-                <div className="space-y-0 border-t border-slate-100">
-                  {member.activities.map((item, idx) => (
-                    <div key={idx} className="flex flex-col sm:flex-row sm:items-start border-b border-slate-100 py-6 group hover:bg-slate-50 px-4 transition-colors duration-200">
-                      <div className="sm:w-1/4 text-sm font-bold text-slate-500 tracking-tight mb-2 sm:mb-0 group-hover:text-saemaul-green transition-colors">
-                        {item.period}
-                      </div>
-                      <div className="sm:w-3/4 text-[15px] leading-relaxed text-slate-800 font-medium group-hover:font-semibold transition-all">
-                        {item.desc}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {/* Education Placeholder Section */}
+            {/* Education Section */}
             <section id="education" className="mb-16">
               <h2 className="text-2xl font-black text-slate-900 mb-8 pb-4 border-b-2 border-slate-900 tracking-tight">학력 사항</h2>
               <div className="space-y-0 border-t border-slate-100">
@@ -367,6 +382,96 @@ const ProfilePage = () => {
                 ))}
               </div>
             </section>
+
+            {/* Activities Timeline Section */}
+            {member.activities.length > 0 && (
+              <section id="activities" className="mb-16">
+                <h2 className="text-2xl font-black text-slate-900 mb-8 pb-4 border-b-2 border-slate-900 tracking-tight">경력 및 주요 활동</h2>
+                <div className="space-y-0 border-t border-slate-100">
+                  {member.activities.map((item, idx) => {
+                    const isTarget = item.desc.includes('경북테크노파크 글로벌협력실');
+                    return (
+                      <div 
+                        key={idx} 
+                        onClick={isTarget ? () => setIsProjectsOpen(!isProjectsOpen) : undefined}
+                        className={`flex flex-col sm:flex-row sm:items-start border-b border-slate-100 py-6 group px-4 transition-colors duration-200 ${isTarget ? 'cursor-pointer hover:bg-slate-50/80' : 'hover:bg-slate-50'}`}
+                      >
+                        <div className="sm:w-1/4 text-sm font-bold text-slate-500 tracking-tight mb-2 sm:mb-0 group-hover:text-saemaul-green transition-colors">
+                          {item.period}
+                        </div>
+                        <div className="sm:w-3/4 flex flex-col">
+                          <div className="flex items-center justify-between gap-4 text-[15px] leading-relaxed text-slate-800 font-medium group-hover:font-semibold transition-all">
+                            <span>{item.desc}</span>
+                            {isTarget && (
+                              <svg className={`w-5 h-5 text-slate-400 group-hover:text-saemaul-green transition-transform duration-300 shrink-0 ${isProjectsOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                              </svg>
+                            )}
+                          </div>
+                          
+                          {/* Collapsible Projects Table */}
+                          {isTarget && member.projects && member.projects.length > 0 && (
+                            <div 
+                              onClick={(e) => e.stopPropagation()} // 테이블 내부 클릭 시 토글 방지
+                              className={`w-full overflow-hidden transition-all duration-500 ease-in-out ${isProjectsOpen ? 'max-h-[1000px] opacity-100 mt-6' : 'max-h-0 opacity-0'}`}
+                            >
+                              <div className="overflow-x-auto rounded-2xl border border-slate-200 shadow-sm bg-white">
+                                <table className="min-w-full divide-y divide-slate-200 text-left">
+                                  <thead className="bg-slate-50/50">
+                                    <tr>
+                                      <th className="px-8 py-5 text-xs font-black text-slate-500 uppercase tracking-wider">전담기관</th>
+                                      <th className="px-8 py-5 text-xs font-black text-slate-500 uppercase tracking-wider">연구개발과제명</th>
+                                      <th className="px-8 py-5 text-xs font-black text-slate-500 uppercase tracking-wider">연구개발기간(참여한 기간)</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody className="divide-y divide-slate-100 bg-white">
+                                    {member.projects.map((proj, pIdx) => (
+                                      <tr key={pIdx} className="hover:bg-slate-50/50 transition-colors">
+                                        <td className="px-8 py-6 text-sm font-semibold text-slate-700 whitespace-nowrap leading-relaxed">{proj.agency}</td>
+                                        <td className="px-8 py-6 text-sm font-bold text-slate-900 leading-relaxed">{proj.title}</td>
+                                        <td className="px-8 py-6 text-sm font-medium text-slate-500 whitespace-nowrap leading-relaxed">{proj.period}</td>
+                                      </tr>
+                                    ))}
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            )}
+
+            {/* Global Footprint Section */}
+            {member.footprint && (
+              <section id="footprint" className="mb-16">
+                <h2 className="text-2xl font-black text-slate-900 mb-8 pb-4 border-b-2 border-slate-900 tracking-tight">Global Footprint</h2>
+                <div className="space-y-6 border-t border-slate-100 pt-6">
+                  {Object.entries(member.footprint).map(([continent, countries]) => (
+                    <div key={continent} className="flex flex-col sm:flex-row sm:items-start border-b border-slate-100 pb-6 last:border-b-0 last:pb-0">
+                      <div className="sm:w-1/4 text-sm font-black text-slate-800 tracking-tight mb-3 sm:mb-0 flex items-center">
+                        <span className="inline-block px-3 py-1 bg-slate-900 text-white text-xs font-black rounded-lg tracking-wider">
+                          {continent}
+                        </span>
+                      </div>
+                      <div className="sm:w-3/4 flex flex-wrap gap-2">
+                        {countries.map((country, cIdx) => (
+                          <span 
+                            key={cIdx} 
+                            className="px-3 py-1.5 bg-slate-50 border border-slate-200/80 hover:border-saemaul-green hover:bg-saemaul-light hover:text-saemaul-green rounded-full text-xs font-bold text-slate-600 transition-all duration-200 cursor-default"
+                          >
+                            {country}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
 
           {/* Right Floating Index (25%) */}
@@ -379,16 +484,37 @@ const ProfilePage = () => {
                     <div className="w-4 h-4 rounded-full bg-white border-2 border-slate-300 group-hover:border-saemaul-green transition-colors z-10"></div>
                     <span className="ml-4 text-sm font-bold text-slate-500 group-hover:text-slate-900 transition-colors">프로필 소개</span>
                   </a>
+                  <a href="#education" className="flex items-center group -ml-[9px]">
+                    <div className="w-4 h-4 rounded-full bg-white border-2 border-slate-300 group-hover:border-saemaul-green transition-colors z-10"></div>
+                    <span className="ml-4 text-sm font-bold text-slate-500 group-hover:text-slate-900 transition-colors">학력 사항</span>
+                  </a>
                   {member.activities.length > 0 && (
                     <a href="#activities" className="flex items-center group -ml-[9px]">
                       <div className="w-4 h-4 rounded-full bg-white border-2 border-slate-300 group-hover:border-saemaul-green transition-colors z-10"></div>
                       <span className="ml-4 text-sm font-bold text-slate-500 group-hover:text-slate-900 transition-colors">경력 및 주요 활동</span>
                     </a>
                   )}
-                  <a href="#education" className="flex items-center group -ml-[9px]">
-                    <div className="w-4 h-4 rounded-full bg-white border-2 border-slate-300 group-hover:border-saemaul-green transition-colors z-10"></div>
-                    <span className="ml-4 text-sm font-bold text-slate-500 group-hover:text-slate-900 transition-colors">학력 사항</span>
-                  </a>
+                  {member.projects && member.projects.length > 0 && (
+                    <button 
+                      onClick={() => {
+                        setIsProjectsOpen(true);
+                        const element = document.getElementById('activities');
+                        if (element) {
+                          element.scrollIntoView({ behavior: 'smooth' });
+                        }
+                      }}
+                      className="flex items-center group -ml-[9px] text-left bg-transparent border-0 p-0 focus:outline-none w-full cursor-pointer"
+                    >
+                      <div className="w-4 h-4 rounded-full bg-white border-2 border-slate-300 group-hover:border-saemaul-green transition-colors z-10"></div>
+                      <span className="ml-4 text-sm font-bold text-slate-500 group-hover:text-slate-900 transition-colors">연구개발과제</span>
+                    </button>
+                  )}
+                  {member.footprint && (
+                    <a href="#footprint" className="flex items-center group -ml-[9px]">
+                      <div className="w-4 h-4 rounded-full bg-white border-2 border-slate-300 group-hover:border-saemaul-green transition-colors z-10"></div>
+                      <span className="ml-4 text-sm font-bold text-slate-500 group-hover:text-slate-900 transition-colors">Global Footprint</span>
+                    </a>
+                  )}
                 </div>
               </nav>
             </div>
@@ -473,14 +599,39 @@ const ContactPage = () => {
 
 const PrivacyPage = () => (
   <div className="min-h-screen bg-slate-50 pt-32 pb-20">
-    <div className="container mx-auto px-6 max-w-3xl bg-white p-10 rounded-3xl shadow-sm border">
-      <h1 className="text-3xl font-black mb-8">개인정보 처리방침</h1>
-      <div className="prose prose-slate max-w-none">
-        <p>Global Saemaul-SDGs 플랫폼은 사용자의 개인정보를 중요시하며, "정보통신망 이용촉진 및 정보보호 등에 관한 법률" 등 관련 법령을 준수합니다.</p>
-        <h3 className="font-bold mt-6">1. 수집하는 개인정보 항목</h3>
-        <p>플랫폼은 원활한 서비스 제공을 위해 구글 소셜 로그인 연동 시 사용자의 프로필 사진, 닉네임, 이메일 주소를 활용하며, 이 정보는 로컬 서비스 환경 제공 이외의 목적으로 사용되지 않습니다.</p>
-        <h3 className="font-bold mt-6">2. 개인정보의 보유 및 이용기간</h3>
-        <p>수집된 정보는 사용자가 로그아웃하거나 서비스를 탈퇴할 때까지 보유하며, 법적 사유가 없는 한 즉시 파기됩니다.</p>
+    <div className="container mx-auto px-6 max-w-3xl bg-white p-10 rounded-3xl shadow-sm border text-slate-800 text-sm leading-relaxed">
+      <h1 className="text-3xl font-black mb-8 text-slate-900 border-b pb-4">개인정보 처리방침</h1>
+      <div className="space-y-6">
+        <p>Global Saemaul-SDGs 플랫폼은 이용자의 개인정보 보호를 소중히 다루며, 관련 법령을 준수합니다. 본 방침은 당사가 이용자로부터 수집하는 정보와 그 사용법을 규정합니다.</p>
+        
+        <div>
+          <h3 className="font-extrabold text-base text-slate-900 mb-2">1. 수집하는 개인정보 항목 및 목적</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>이메일 로그인:</strong> 이메일 주소, 비밀번호, 닉네임 (본인 인증 및 계정 관리)</li>
+            <li><strong>구글 로그인:</strong> 이메일 주소, 프로필 사진, 닉네임 (간편 회원가입 및 프로필 연동)</li>
+            <li><strong>서비스 이용 과정:</strong> 포인트 획득/사용 이력, 출석 기록, 작성 글/댓글, 팔로우 관계 데이터</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-extrabold text-base text-slate-900 mb-2">2. 개인정보의 안전성 확보 조치 (암호화)</h3>
+          <p>플랫폼은 안전한 데이터 관리를 위해 다음과 같은 보안 조치를 시행합니다:</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>비밀번호 암호화:</strong> 사용자 비밀번호는 안전한 일방향 해시 알고리즘(scrypt 등)으로 암호화되어 관리자도 복호화할 수 없도록 보존됩니다.</li>
+            <li><strong>데이터 전송 암호화:</strong> 웹 브라우저와 서버 간 모든 데이터 전송은 SSL/TLS 보안 프로토콜을 통과합니다.</li>
+            <li><strong>저장 장치 암호화:</strong> 데이터베이스(Firestore)에 저장된 모든 데이터는 Google 관리형 암호화 표준(AES-256)에 따라 안전하게 보관됩니다.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-extrabold text-base text-slate-900 mb-2">3. 개인정보의 보유 및 파기 절차</h3>
+          <p>수집된 개인정보는 회원 탈퇴 시 혹은 목적 달성 후 지체 없이 파기됩니다. 탈퇴 즉시 계정 정보는 식별 불가능한 형태로 즉각 삭제 처리됩니다.</p>
+        </div>
+
+        <div>
+          <h3 className="font-extrabold text-base text-slate-900 mb-2">4. 이용자의 권리</h3>
+          <p>이용자는 언제든지 자신의 개인정보를 조회, 수정, 혹은 삭제(회원 탈퇴)를 요구할 수 있습니다. 관련 처리는 마이페이지 또는 시스템을 통해 직접 수행할 수 있습니다.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -488,14 +639,37 @@ const PrivacyPage = () => (
 
 const TermsPage = () => (
   <div className="min-h-screen bg-slate-50 pt-32 pb-20">
-    <div className="container mx-auto px-6 max-w-3xl bg-white p-10 rounded-3xl shadow-sm border">
-      <h1 className="text-3xl font-black mb-8">이용약관</h1>
-      <div className="prose prose-slate max-w-none">
-        <p>이 약관은 Global Saemaul-SDGs 플랫폼이 제공하는 모든 서비스의 이용 조건 및 절차에 관한 사항을 규정함을 목적으로 합니다.</p>
-        <h3 className="font-bold mt-6">1. 서비스의 제공</h3>
-        <p>플랫폼은 새마을 리더십 테스트, 마을회관 커뮤니티, AI 챗봇 등의 교육적 및 연구 목적의 콘텐츠를 무료로 제공합니다.</p>
-        <h3 className="font-bold mt-6">2. 이용자의 의무</h3>
-        <p>이용자는 본 플랫폼에서 제공하는 콘텐츠를 무단 복제, 변형, 배포하여서는 안 되며, 커뮤니티 내에서 타인의 권리를 침해하는 행위를 금지합니다.</p>
+    <div className="container mx-auto px-6 max-w-3xl bg-white p-10 rounded-3xl shadow-sm border text-slate-800 text-sm leading-relaxed">
+      <h1 className="text-3xl font-black mb-8 text-slate-900 border-b pb-4">이용약관</h1>
+      <div className="space-y-6">
+        <p>본 약관은 Global Saemaul-SDGs 플랫폼(이하 "플랫폼")이 제공하는 각종 디지털 아카이브 및 기여 시스템의 이용 조건과 절차를 규정합니다.</p>
+
+        <div>
+          <h3 className="font-extrabold text-base text-slate-900 mb-2">1. 서비스 정의 및 제공</h3>
+          <p>플랫폼은 새마을 역사 e북 리더, 번역 기여 시스템, 커뮤니티, 챗봇, RPG 등의 학술적 및 교육용 서비스를 제공합니다. 플랫폼의 모든 기여 활동은 자발적 참여를 기반으로 합니다.</p>
+        </div>
+
+        <div>
+          <h3 className="font-extrabold text-base text-slate-900 mb-2">2. 기여 포인트 및 상점 시스템</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>플랫폼 활동(출석, 커뮤니티 작성, e북 오류 제안 등)을 통해 기여 포인트를 적립할 수 있습니다.</li>
+            <li>포인트는 플랫폼 내부 서비스(뱃지 획득, 칭호 장착, 아이템 구매 등)에서만 사용 가능하며 현금이나 현실 재화로 환급되지 않습니다.</li>
+            <li>비정상적인 방법으로 포인트를 취득하거나 시스템 악용 시 회수 처리 및 계정 정지가 발생할 수 있습니다.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-extrabold text-base text-slate-900 mb-2">3. 커뮤니티 및 게시물 이용 수칙</h3>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>타인을 모독하거나 스팸, 불법 광고, 저작권 침해 게시물을 작성해서는 안 됩니다.</li>
+            <li>관리자는 불량 글 및 도배성 광고 게시물 발견 시 예고 없이 즉각 삭제하거나 이용자의 서비스 권한을 박탈할 수 있습니다.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-extrabold text-base text-slate-900 mb-2">4. 지적재산권</h3>
+          <p>플랫폼이 제공하는 e북 콘텐츠, 디자인 에셋, 기여 시스템 등은 플랫폼의 소유이므로 상업적 목적으로 무단 전재, 배포 및 수정할 수 없습니다.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -503,18 +677,30 @@ const TermsPage = () => (
 
 
 function App() {
+  const location = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [user, setUser] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false); // 모바일 메뉴 토글 상태
   const [isVideoOpen, setIsVideoOpen] = useState(false); // 영상 플레이어 모달 토글 상태
+  const [isAuthOpen, setIsAuthOpen] = useState(false);
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
     
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+    const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
       setUser(currentUser);
+      if (currentUser) {
+        try {
+          await ensureUserProfile(currentUser.uid, currentUser.displayName, currentUser.email);
+          if (currentUser.email === 'anstlr6665@gmail.com') {
+            await seedMockUsers();
+          }
+        } catch (e) {
+          console.error("Failed to ensure user profile:", e);
+        }
+      }
     });
 
     return () => {
@@ -610,7 +796,7 @@ function App() {
               {user ? (
                 <div className="flex items-center gap-3">
                   <img 
-                    src={user.photoURL} 
+                    src={user.photoURL || `https://api.dicebear.com/7.x/bottts/svg?seed=${user.uid}`} 
                     alt="Profile" 
                     className="w-9 h-9 rounded-full border-2 border-saemaul-green shadow-sm" 
                   />
@@ -619,7 +805,7 @@ function App() {
                   </button>
                 </div>
               ) : (
-                <button onClick={handleLogin} className="btn-primary py-2.5 px-6 text-sm">
+                <button onClick={() => setIsAuthOpen(true)} className="btn-primary py-2.5 px-6 text-sm">
                   {t('nav.join')}
                 </button>
               )}
@@ -660,7 +846,7 @@ function App() {
               {user ? (
                 <div className="flex flex-col gap-4">
                   <div className="flex items-center gap-3 px-4 py-2 bg-slate-50 rounded-2xl">
-                    <img src={user.photoURL} alt="Profile" className="w-10 h-10 rounded-full border-2 border-saemaul-green shadow-sm" />
+                    <img src={user.photoURL || `https://api.dicebear.com/7.x/bottts/svg?seed=${user.uid}`} alt="Profile" className="w-10 h-10 rounded-full border-2 border-saemaul-green shadow-sm" />
                     <div>
                       <p className="font-bold text-slate-800 text-sm">{user.displayName}</p>
                       <p className="text-slate-400 text-xs">{user.email}</p>
@@ -675,7 +861,7 @@ function App() {
                 </div>
               ) : (
                 <button 
-                  onClick={() => { handleLogin(); setIsMenuOpen(false); }} 
+                  onClick={() => { setIsAuthOpen(true); setIsMenuOpen(false); }} 
                   className="btn-primary w-full py-3.5 text-base font-bold shadow-lg shadow-saemaul-green/20"
                 >
                   {t('nav.join')}
@@ -781,7 +967,7 @@ function App() {
           <Route path="/spirit-test" element={<SpiritTest />} />
           <Route path="/spirit-map" element={<SpiritMapPage />} />
           <Route path="/archive/:filename" element={<DocViewer />} />
-          <Route path="/reader/10years" element={<BookReader />} />
+          <Route path="/reader/:bookId" element={<BookReader />} />
           <Route path="/chatbot" element={<ChatbotPage />} />
           <Route path="/community" element={<Community />} />
           <Route path="/hub" element={<KnowledgeHub />} />
@@ -793,49 +979,51 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-slate-950 text-white py-16 sm:py-20">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
-            <div className="sm:col-span-2 flex flex-col items-center sm:items-start text-center sm:text-left">
-              <Link to="/" className="flex items-center gap-2 mb-6 hover:opacity-80 transition-opacity inline-flex">
-                <div className="w-12 h-12 overflow-hidden rounded-2xl shadow-lg flex items-center justify-center bg-white border border-slate-100">
-                  <img src="https://www.saemaul.or.kr/images/sub/company/ci_2img2.png" alt="Saemaul Logo" className="w-full h-full object-contain p-1.5" />
+      {!location.pathname.startsWith('/reader/') && (
+        <footer className="bg-slate-950 text-white py-16 sm:py-20">
+          <div className="container mx-auto px-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+              <div className="sm:col-span-2 flex flex-col items-center sm:items-start text-center sm:text-left">
+                <Link to="/" className="flex items-center gap-2 mb-6 hover:opacity-80 transition-opacity inline-flex">
+                  <div className="w-12 h-12 overflow-hidden rounded-2xl shadow-lg flex items-center justify-center bg-white border border-slate-100">
+                    <img src="https://www.saemaul.or.kr/images/sub/company/ci_2img2.png" alt="Saemaul Logo" className="w-full h-full object-contain p-1.5" />
+                  </div>
+                  <span className="text-2xl font-black tracking-tight">Saemaul<span className="text-saemaul-green">-SDGs</span></span>
+                </Link>
+                <p className="text-slate-400 max-w-sm mb-8">
+                  {t('footer.desc')}
+                </p>
+              </div>
+              <div className="text-center sm:text-left">
+                <h5 className="font-bold mb-6">{t('footer.links')}</h5>
+                <ul className="space-y-4 text-slate-400 text-sm">
+                  <li><Link to="/privacy" className="hover:text-saemaul-green transition-colors">{t('footer.p_policy')}</Link></li>
+                  <li><Link to="/terms" className="hover:text-saemaul-green transition-colors">{t('footer.terms')}</Link></li>
+                  <li><Link to="/contact" className="hover:text-saemaul-green transition-colors">{t('footer.contact')}</Link></li>
+                </ul>
+              </div>
+              <div className="text-center sm:text-left flex flex-col items-center sm:items-start">
+                <h5 className="font-bold mb-6">{t('footer.connect')}</h5>
+                <div className="flex gap-4">
+                  <button onClick={shareToKakao} aria-label="Share to Kakao" className="px-5 h-10 rounded-full bg-[#FEE500] flex items-center justify-center hover:bg-[#eacc00] transition-colors cursor-pointer text-slate-900 font-bold text-sm gap-2">
+                    <MessageCircle size={18} className="text-slate-900" />
+                    카카오 공유
+                  </button>
+                  {[1,2,3].map(i => (
+                    <a href="#!" target="_blank" rel="noopener noreferrer" key={i} aria-label="Social media link" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-saemaul-green transition-colors cursor-pointer text-white">
+                      <ExternalLink size={18} />
+                    </a>
+                  ))}
                 </div>
-                <span className="text-2xl font-black tracking-tight">Saemaul<span className="text-saemaul-green">-SDGs</span></span>
-              </Link>
-              <p className="text-slate-400 max-w-sm mb-8">
-                {t('footer.desc')}
-              </p>
-            </div>
-            <div className="text-center sm:text-left">
-              <h5 className="font-bold mb-6">{t('footer.links')}</h5>
-              <ul className="space-y-4 text-slate-400 text-sm">
-                <li><Link to="/privacy" className="hover:text-saemaul-green transition-colors">{t('footer.p_policy')}</Link></li>
-                <li><Link to="/terms" className="hover:text-saemaul-green transition-colors">{t('footer.terms')}</Link></li>
-                <li><Link to="/contact" className="hover:text-saemaul-green transition-colors">{t('footer.contact')}</Link></li>
-              </ul>
-            </div>
-            <div className="text-center sm:text-left flex flex-col items-center sm:items-start">
-              <h5 className="font-bold mb-6">{t('footer.connect')}</h5>
-              <div className="flex gap-4">
-                <button onClick={shareToKakao} aria-label="Share to Kakao" className="px-5 h-10 rounded-full bg-[#FEE500] flex items-center justify-center hover:bg-[#eacc00] transition-colors cursor-pointer text-slate-900 font-bold text-sm gap-2">
-                  <MessageCircle size={18} className="text-slate-900" />
-                  카카오 공유
-                </button>
-                {[1,2,3].map(i => (
-                  <a href="#!" target="_blank" rel="noopener noreferrer" key={i} aria-label="Social media link" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-saemaul-green transition-colors cursor-pointer text-white">
-                    <ExternalLink size={18} />
-                  </a>
-                ))}
               </div>
             </div>
+            <div className="mt-20 pt-8 border-t border-slate-900 text-center text-slate-500 text-sm">
+              © 2026 Global Saemaul-SDGs Platform. {t('footer.rights')}.<br />
+              <span className="mt-2 block">Copyright by 권도경, 박문식, 윤서윤, 영남대학교</span>
+            </div>
           </div>
-          <div className="mt-20 pt-8 border-t border-slate-900 text-center text-slate-500 text-sm">
-            © 2026 Global Saemaul-SDGs Platform. {t('footer.rights')}.<br />
-            <span className="mt-2 block">Copyright by 권도경, 박문식, 윤서윤, 영남대학교</span>
-          </div>
-        </div>
-      </footer>
+        </footer>
+      )}
 
       {/* Video Modal Overlay */}
       {isVideoOpen && (
@@ -874,6 +1062,7 @@ function App() {
           </div>
         </div>
       )}
+      <AuthModal isOpen={isAuthOpen} onClose={() => setIsAuthOpen(false)} />
     </div>
   );
 }

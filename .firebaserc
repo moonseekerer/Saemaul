@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "saemaul-sdgs"
-  }
+  },
+  "targets": {
+    "saemaul-sdgs": {
+      "hosting": {
+        "saemaul-sdgs": [
+          "saemaul-sdgs"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
