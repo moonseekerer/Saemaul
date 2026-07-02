@@ -56,6 +56,15 @@ const Typewriter = ({ text, speed = 20, onComplete }) => {
 
 const RELEASE_NOTES = [
   {
+    version: "v1.3.5",
+    date: "2026-07-02",
+    patches: [
+      "주민 의견 **피드백 수렴 페이지(/feedback)** 신규 개설",
+      "비공개 설정 기능 지원 및 **열람 제한 보안 통제** (작성자 및 관리자만 본문 열람 가능)",
+      "메인페이지 하단 주민 제안 권장 배너 카드 이식 및 푸터 내 링크 연동 완료"
+    ]
+  },
+  {
     version: "v1.3.0",
     date: "2026-07-01",
     patches: [
