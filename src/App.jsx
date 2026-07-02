@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, NavLink, useNavigate, useParams, useLocation } from 'react-router-dom';
+import Feedback from './pages/Feedback/Feedback';
 import LeadershipTest from './pages/LeadershipTest/LeadershipTest';
 import SaemaulTest from './pages/SaemaulTest/SaemaulTest';
 import SpiritTest from './pages/SaemaulTest/SpiritTest';
@@ -958,6 +959,31 @@ function App() {
             </div>
           </section>
 
+              {/* Feedback Invitation Banner Card */}
+              <section className="py-16 bg-slate-50">
+                <div className="container mx-auto px-6 max-w-5xl">
+                  <div className="bg-gradient-to-r from-slate-900 to-slate-950 p-8 sm:p-12 rounded-[32px] border border-slate-800 relative overflow-hidden shadow-xl flex flex-col md:flex-row items-center justify-between gap-8 group">
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(0,146,71,0.12),transparent_50%)]" />
+                    <div className="text-left relative z-10 max-w-xl">
+                      <div className="inline-flex items-center gap-2 px-3.5 py-1 bg-saemaul-green/10 text-saemaul-green text-xs font-bold rounded-full border border-saemaul-green/20 mb-4 uppercase tracking-wider">
+                        Feedback & Community
+                      </div>
+                      <h3 className="text-2xl sm:text-3xl font-black text-white mb-3 tracking-tight">더 나은 새마을-SDGs 플랫폼을 위해</h3>
+                      <p className="text-slate-400 text-sm sm:text-base leading-relaxed font-medium">
+                        오타 발견 제안, 신규 기능 건의, 사용 소감 등 어떠한 의견이라도 좋습니다. 비공개 제안 기능도 함께 지원하며, 남겨주신 소중한 건의는 플랫폼 발전의 큰 밑거름이 됩니다.
+                      </p>
+                    </div>
+                    <Link 
+                      to="/feedback" 
+                      className="btn-primary py-3.5 px-8 text-sm font-bold shadow-lg shadow-saemaul-green/20 relative z-10 hover:-translate-y-1 transition-all flex items-center gap-2 whitespace-nowrap cursor-pointer"
+                    >
+                      <MessageSquare size={16} />
+                      주민 의견 남기기
+                    </Link>
+                  </div>
+                </div>
+              </section>
+
               {/* Partner Marquee */}
               <PartnerBanner />
             </>
@@ -974,6 +1000,7 @@ function App() {
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/feedback" element={<Feedback />} />
           <Route path="/profile/:id" element={<ProfilePage />} />
         </Routes>
       </main>
@@ -1000,6 +1027,7 @@ function App() {
                   <li><Link to="/privacy" className="hover:text-saemaul-green transition-colors">{t('footer.p_policy')}</Link></li>
                   <li><Link to="/terms" className="hover:text-saemaul-green transition-colors">{t('footer.terms')}</Link></li>
                   <li><Link to="/contact" className="hover:text-saemaul-green transition-colors">{t('footer.contact')}</Link></li>
+                  <li><Link to="/feedback" className="hover:text-saemaul-green transition-colors">{i18n.language === 'ko' ? '의견 피드백 제안' : 'Suggest Feedback'}</Link></li>
                 </ul>
               </div>
               <div className="text-center sm:text-left flex flex-col items-center sm:items-start">

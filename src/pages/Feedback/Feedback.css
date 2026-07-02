@@ -1,0 +1,78 @@
+/* Feedback.css */
+
+.feedback-page-container {
+  font-family: 'Presentation', 'Noto Sans KR', sans-serif;
+}
+
+.feedback-page-container button {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feedback-page-container button:active {
+  transform: scale(0.98);
+}
+
+/* 유리를 깎아 만든 듯한 카드 */
+.glass-form-card {
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* 인풋 & 텍스트에리어 */
+.form-input, .form-textarea {
+  background-color: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+  color: #f1f5f9;
+  transition: all 0.25s ease;
+}
+
+.form-input:focus, .form-textarea:focus {
+  border-color: var(--primary-color) !important;
+  background-color: rgba(30, 41, 59, 0.9);
+  box-shadow: 0 0 12px rgba(0, 146, 71, 0.15);
+}
+
+/* 토글 스위치 */
+.peer-checked\:bg-saemaul-green:checked {
+  background-color: #009247;
+}
+
+/* 피드백 리스트 카드 */
+.feedback-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgba(15, 23, 42, 0.25);
+  backdrop-filter: blur(8px);
+}
+
+.feedback-card:hover {
+  transform: translateY(-2px);
+}
+
+/* 스크롤바 디자인 정제 */
+.feedback-list-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.feedback-list-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.feedback-list-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 99px;
+}
+
+.feedback-list-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* 모바일 및 터치 대응 패딩 */
+@media (max-width: 1024px) {
+  .glass-form-card {
+    position: static !important;
+    margin-bottom: 20px;
+  }
+}
