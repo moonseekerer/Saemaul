@@ -751,8 +751,8 @@ O 이를 극복해 나가기 위하여 군(郡), 면직원(面職員)들과 추�
 O 그리하여 37℃까지 오르는 폭염 속에서도 준공을 서두르기 위하여 이른 새벽부터 밤 늦게
 까지 횃불을 밝혀 들고 야간 작업(作業)을 계속했고, 면장(面長) 김중진(金仲珍) 씨와 추진위원장(推進委員長) 문학구(文學九) 씨 등 몇몇
 지도자(指導者)들은 여러 날을 산봉우리 나무 밑에서 천막을 치고 밤을 새우면서 작업(作業)을 수행하여 갔다.
-O 이렇게 다시 일어선 돗재도로 개설사업(開設事業)에 객지에 나가 있는 면민(面民) 또 뜻있는 군민 여러분은
-격려와 위로를 하여 줌으로써 사업추진(事業推進)에 활력소가 되었고 군 당국으로부터 덤프차 지원 인근
+Ôi, với dự án khai trương con đường Dotjae được tái thiết như thế này, những người dân trong huyện (面民) đang ở xa quê hương và tất cả quân dân có tâm huyết
+đã động viên và an ủi, trở thành nguồn động lực thúc đẩy công việc, đồng thời nhận được sự hỗ trợ xe ben từ chính quyền huyện và chuyển giao cho người dân,
 
 
 --- (p. 39) ---
@@ -1134,19 +1134,19 @@ O Các trưởng làng, lãnh đạo Saemaul, và ủy viên phát triển từ 
 
 --- (p. 50) ---
 
-를 얻어서 주민에게 전달했고, 주민들은 전재산을 팔아서라도 평생의 숙원인 교량 건설을 우리 힘으로 만들자라는 안이 이구동성으로 흘러 나왔다.
+người dân sẵn sàng bán cả tài sản của mình để thực hiện nguyện vọng cả đời là xây dựng cây cầu bằng chính sức lực của chúng ta, ý kiến này đã được tất cả mọi người đồng lòng.
 
-드디어 1976년 11월 19일 이찬규 대의원을 주축으로 낙동대교 가설 주민총회가 열리게 되었다.
-- 주민총회에서 추진위원장에 정만수 씨를 만장일치로 선출하고, 명칭을 “새마을 구담교 가설추진위원회”로 정하였다.
-- 360m의 낙동강을 가로지르는 대규모 교량 건설에 주민 추계로 5,000만 원 예산을 세워, 독지가 희사 3,000만 원, 마을 공동재산으로 보존되어 온 임야 450정보가 있어 이를 팔아 건설비에 충당할 계획을 수립하였다. 이 자리에서 이찬규 대의원은 현금 250만 원을 솔선 희사하였고, 정만수 위원장이 230만 원을 희사하였다.
+Cuối cùng, vào ngày 19 tháng 11 năm 1976, hội nghị toàn dân về việc xây dựng cầu Nakdong đã được tổ chức với nòng cốt là đại biểu Lee Chan-gyu.
+- Tại hội nghị toàn dân, ông Jeong Man-su được nhất trí bầu làm chủ tịch ủy ban thúc đẩy và tên gọi được quyết định là “Ủy ban thúc đẩy xây dựng cầu Gudam Saemaeul”.
+- Để xây dựng cây cầu lớn bắc qua sông Nakdong dài 360m, người dân đã lập ngân sách 50 triệu won theo ước tính, trong đó có 30 triệu won từ các mạnh thường quân quyên góp, và 450 mẫu rừng được bảo tồn như tài sản chung của làng sẽ được bán để trang trải chi phí xây dựng. Tại buổi họp này, đại biểu Lee Chan-gyu đã tiên phong quyên góp 2,5 triệu won tiền mặt, và chủ tịch Jeong Man-su đã quyên góp 2,3 triệu won.
 
 ## 3) 새마을 구담교 발주
-1976년 12월 30일 주민들은 남녀노소 할 것 없이 일심동체가 되어 엄동의 혹한을 무릅쓰고 800여 명이 만년 숙원사업을 완료하겠다는 각오와 집념으로 마을의 가용 재원을 총동원하여 손과 발이 얼어붙는 세찬 강바람도 아랑곳 없이 매일 강에 나와 사리 및 골재 채취에 전심전력을 다하였다.
+Vào ngày 30 tháng 12 năm 1976, bất kể già trẻ gái trai, tất cả người dân đều đồng lòng, bất chấp cái rét khắc nghiệt của mùa đông, hơn 800 người với quyết tâm và nghị lực hoàn thành công trình mơ ước suốt đời, đã huy động mọi nguồn lực sẵn có của làng, bất chấp gió sông lạnh buốt khiến tay chân tê cóng, hàng ngày ra sông để tập trung toàn lực thu thập cát và sỏi.
 
 ## 4) 애로극복상황
-- 1964년 8월 미증유의 폭우로 낙동강의 수위가 최고로 범람하게 되자 강변 넓은 들판은 물바다가 되어 높이 3m의 제방이 붕괴되자 100여 호가 물에 잠기게 되니 가지도 오지도 못하는 주민들은 “사람 살려 달라”고 아우성을 쳤다. 강 건너 물속에 잠긴 주민들을 보고도 돕지 못하는 친지들은 땅을 치며 울며 어떻게 해야만 하나 하고 소동만 벌이며 강물만 보고 한탄하고 있던 중 구담동 청년회가 주동이 되어 수영에 능숙한 특공대를 조직 사공인 장정환 외 10여 명으로 나룻배 1척을 끌고 인명구조작업에 출동하려 하니 이들의 부모들이 또한 야단법석들이었다. 이 많은 물속에 어떻게 들어갈 것이냐고 발목을 잡고 네가 가면 나도 가서 함께 물에 빠져 죽자고 하니 어쩔 수 없이 “사람이 물속에 잠겨 죽게 된 마당에 그냥 보고 있을 수 있나”며 구담동 김택용 외 8명이 이를 물리치고 용감히 나룻배를 저어 출발하자 온 군중은 함성을 지르며 이들에게 용기를 주어 무사히 강 건너까지 도착하여 인명구조를 하려고 하던 중 때마침 사단 헬리콥터가 와서 인명을 구하게 되어 다행히 한 사람의 사고도 생기지 않았다. 이를 지켜본 전 주민은 모두가 약속이나 한 듯이 함께 입을 모아 교량만 가설되었더라면 사람은 물론 재산까지도 구할 수 있었을 것이 아닌가 하며 이곳 주민들은 모두가 못나서 교량을 가설하지 못한다고 서로가 한탄을 할 따름이었다.
-- 연례행사처럼 찾아오는 7~8월 장마는 이곳에 한 번도 빠짐없이 찾아오니 한 달 6회의 시일마다 나룻배로 강을 건너다녀야 하는 실정으로 이만저만한 불편이 아닐 수 없었다. 시일에는 빨리 가려고 먼저 나룻배로 건너려 하니 장풍학 사공은 배가 강변에 도착하면 승선을 하라고 고함을 치나 서로가 바쁘다는 핑계로 달려들어 물에 빠지거나 아니면 배 밑으로 밀려 물속으로 들어가는 등 수없는 교통사고가 비일비재하였다. 그러나 이를 해결할 대책이라고는 구담교 가설인데 주민들은 이제는 보고만 있을 것이 아니라 정부에 진정이라도 하자고 하여
-  * 1차 발의: 1964년 10월 1일 건설부, 내무부, 경상북도 당시 지역구 출신 권오훈 국회의원에게 구담
+- Tháng 8 năm 1964, do mưa lớn chưa từng thấy khiến mực nước sông Nakdong dâng cao nhất, cánh đồng rộng ven sông biến thành biển nước, khi đê cao 3m bị vỡ, hơn 100 hộ gia đình bị ngập nước, những người dân không thể đi đâu hay đến đâu đã kêu gào “Cứu người với”. Khi nhìn thấy người thân bị chìm trong nước bên kia sông mà không thể giúp đỡ, họ đấm ngực khóc than, chỉ biết kêu gào và nhìn dòng nước mà thở dài. Lúc đó, thanh niên hội Gudam-dong đã đứng ra tổ chức đội đặc công gồm những người bơi giỏi, dẫn đầu là người lái đò Jang Jeong-hwan cùng hơn 10 người khác, kéo một chiếc thuyền nan ra sông để cứu người, nhưng cha mẹ của họ lại làm ầm ĩ lên. Họ níu chân con cái và nói: “Làm sao xuống nước được với dòng nước lớn thế này? Con đi thì mẹ cũng đi và chết đuối cùng!”. Không còn cách nào khác, với tinh thần “Không thể đứng nhìn người chết đuối mà không cứu”, Kim Taek-yong cùng 8 người khác từ Gudam-dong đã gạt bỏ sự ngăn cản, dũng cảm chèo thuyền ra đi. Đám đông reo hò cổ vũ, giúp họ đến được bờ bên kia an toàn để cứu người. Đúng lúc đó, may mắn có trực thăng của sư đoàn đến cứu người nên không có ai gặp tai nạn. Tất cả người dân chứng kiến đều đồng thanh nói rằng nếu cây cầu được xây dựng thì không chỉ cứu được người mà còn cứu được cả tài sản, và họ chỉ biết tự trách mình không tài cán không xây được cầu.
+- Mùa mưa hàng năm vào tháng 7-8 luôn đến với nơi này mà không bỏ sót lần nào, cứ mỗi 6 ngày lại phải qua sông bằng thuyền nan, điều này gây ra không ít bất tiện. Khi muốn qua sông sớm, mọi người tranh nhau lên thuyền, người lái đò Jang Pung-hak hét lên khi thuyền cập bờ bảo mọi người lên thuyền, nhưng ai cũng vội vàng nên xô đẩy nhau khiến người rơi xuống nước hoặc bị đẩy xuống dưới thuyền, gây ra vô số tai nạn giao thông. Tuy nhiên, giải pháp duy nhất là xây dựng cầu Gudam, và người dân quyết định không thể chỉ đứng nhìn mà phải kiến nghị lên chính phủ,
+* Đề xuất lần 1: Ngày 1 tháng 10 năm 1964 gửi Bộ Xây dựng, Bộ Nội vụ, Quốc hội viên Kwon Oh-hun (người địa phương tỉnh Gyeongsangbuk) về cầu Gudam
 
 
 --- (p. 51) ---
@@ -2478,7 +2478,7 @@ Chúng ta nên nhường nhau về những bất bình nhỏ, và để có cu�
 
 # Phiên bản tiếng Việt
 
-失敗부터 생각해야 되겠읍니까?
+Phải chăng nên nghĩ đến thất bại trước?
 Hàn Bình: Vì đã thảo luận một phần, chúng ta hãy quyết định ủng hộ hay phản đối.
 Chủ tọa: Được.
 Vậy thì xin các bạn trình bày lại ý kiến của mình.
@@ -2797,20 +2797,20 @@ O Khi hai cửa hàng nhỏ xuất hiện trong làng nhỏ, các quán rượu 
 
 --- (p. 102) ---
 
-건값을 덤핑하기 시작하였다.
-- 정지도자는 마을총회(總會)를 열고 우리 마을이 살기 위하여는 또 부락공동(部落共同) 사업기금(事業基金)을 마련하기 위하여는 지금 개설된 부녀구판장(婦女區販場)이 잘 되어야 한다고 역설하고 온 주민(住民)이 단합(團合)하여 부녀구판장(婦女區販場)에서 물건(物件)을 구입(購入)하여 줄 것을 호소(呼訴)하였다.
-- 그 죄나 술 마시는 타성(惰性)은 고칠 줄을 몰랐다. 수차(數次)에 걸친 호소(呼訴) 속에 주민(住民)들은 하나 둘, 주막거리 가게에서 물건(物件)을 사지 않기 시작하였다.
-- 주막거리 가게 주민(住民)은 시일(時日)이 갈수록 끝까지 부락공동(部落共同) 사업(事業)에 비협조적(非協調的)인 터라 옹고집을 고쳐 주기 위하여 담배마저 타처(他處)에서 일괄(一括) 구입(購入), 나누어 피우기 시작하였다.
-- 하루는 전매서(專賣署) 직원(職員)이 찾아와 이러한 사실(事實)을 발견(發見), 사직당국(司直當局)에 고발(告發)되어 판매(販賣) 질서(秩序) 문란(紊亂)으로 벌금(罰金) 20,000원까지 물고 나니 이 사실(事實)에 부락(部落) 주민(住民)들은 분개(憤慨)하여 주막거리 가게집 하고는 발걸음도 하지 않게 되어 결국 그 사람은 타처(他處)로 이주(移住)하게 되었다.
-- 그 후 부녀회(婦女會) 구매판매사업(購販事業)은 활발(活潑)해지기 시작하였고 이익금(利益金)으로 통장 금액(金額)이 불어가자 이에 재미를 붙인 부녀회원(婦女會員)들은 부녀회(婦女會)대로 기금증대(基金增大)를 위하여(爲하여) 폐품수집(廢品收集)을 위하여(爲하여) 주위에 굴러 다니는 빈 병과 고철(古鐵)을 열심히 모으기 시작하였고 때를 같이하여 부엌에서는 식구수(食口數)대로 한 수저씩 떼어 절미운동(節米運動)을 전개(展開)하는 등 점점 늘어나는 기금(基金)에 고픈 배를 움켜 쥐고 개미처럼 돈을 모아 가기 시작하였다.
-- 부녀회(婦女會) 사업(事業)을 시작한 지 3년이 되는 74년(年末)에는 기금(基金)이 2,000천원에 달하게 되었다.
-- 새마을 운동(運動)이 시작된 지 4년이 지나는 동안 기초환경사업(基礎環境事業)과 생산기반사업(生產基盤事業)은 그런 대로 추진(推進)하고 있었으나 75년(年初)까지도 이 마을은 호롱불을 면치 못하고 침침한 생활(生活)을 계속(繼續)했다.
-- 정(鄭) 지도자(指導者)는 이 마을의 문화수준(文化水準)을 높이고 생산시간(生產時間)을 연장(延長)시키기 위하여(爲하여)는 무엇보다도 시급한 전화(電化)사업을 자력(自力)으로 실시(實施)해야겠다고 결심(決心)하고 관계당국(關係當局)을 찾아다니며 의논한 결과(結果) 사업비(事業費) 3,800천원이 소요(所要)됨을 알았다.
-- 워낙 영세한 농가(農家)가 많은 마을이라 이 거액(巨額)을 모으는 데는 상당한 어려움이 뒤따랐다.
-- 정(鄭) 지도자(指導者)는 이개발위원회(里開發委員會)를 소집(召集), 기금확보책(基金確保策)을 의논(議論)하니 부녀회장(婦女會長) 윤달복씨는 그 동안 모은 부녀회(婦女會) 기금(基金) 중 1,800천원을 내어 놓겠다고 했다.
-- 여기에 힘입은 이개발위원(里開發委員)들은 부족(不足)되는 2,000천원 중 1,000천원은 호당(戶當) 20,000원씩 거출(醵出)하고 또 부족(不足)되는 1,000천원은 재경 인사(人士)를 찾아가 지원(支援)받기로 결의(決意)한 후 기금(基金) 모으기 운동(運動)에 착수(着手)하였으나 당초(當初)의 계획(計劃)대로 선뜻 돈을 내어 놓는 인사(人士)를 찾기란 쉬운 일이 아니었다. 서울을 수십 차례 왕래(往來)하면서 길에 뿌린 금액(金額)도 상당액(相當額)에 달하고 안으로 호별(戶別) 방문(訪問)하기 3개월이 지나서야 겨우 기금(基金)이 마련되었다.
-- 1975. 5.16일 오랜 숙원(宿願)인 전화(電話) 사업(事業)의 계약(契約)을 체결(締結), 총호수(總戶數) 51호에 8월(月) 17일(日) 점화식(點火式)을 갖으니 노인(老人)들은 서로 얼싸안고 춤을 추며 “내 생전(生前)에 이 마을에 전기가 들어오는 것을 보고 죽게 되었으니 여한(餘恨)이 없다”며 기뻐하는 것이었다.
-- 이를 본 정지도자는 이제까지의 어려움도 다 잊은 채 벅찬 보람에 눈시울이 뜨거워졌고 지금까지 없었던 T.V 25대를 당년(當年)에 보급(普及)하게 되었다.
+bắt đầu bán phá giá chi phí xây dựng.
+- Người lãnh đạo tổ chức hội nghị toàn dân và nhấn mạnh rằng để làng ta có thể sống được và để chuẩn bị quỹ công trình chung cho thôn xóm, thì chợ bán hàng của phụ nữ (婦女區販場) hiện đã được mở phải hoạt động tốt, đồng thời kêu gọi tất cả người dân đoàn kết mua hàng tại chợ bán hàng của phụ nữ.
+- Nhưng thói quen uống rượu của họ vẫn không thay đổi. Sau nhiều lần kêu gọi, người dân dần dần bắt đầu không mua hàng ở các quán rượu ven đường nữa.
+- Do cư dân ở khu vực quán rượu ngày càng không hợp tác với các công trình chung của thôn xóm, để thay đổi tính cố chấp của họ, người dân bắt đầu mua thuốc lá ở nơi khác theo lô rồi chia nhau hút.
+- Một ngày nọ, nhân viên của Cục Độc quyền (專賣署) đến phát hiện sự việc này và tố cáo lên cơ quan tư pháp (司直當局), do vi phạm trật tự bán hàng (販賣秩序) nên bị phạt tiền lên tới 20.000 won. Vì việc này, dân làng (部落住民) vô cùng phẫn nộ (憤慨), không ai lui tới quán rượu ven đường nữa, cuối cùng người đó đành phải di cư (移住) đến nơi khác (他處).
+- Sau đó, hoạt động mua bán của Hội Phụ nữ (婦女會) bắt đầu trở nên sôi nổi, khi số tiền lợi nhuận (利益金) trong sổ tiết kiệm tăng lên, các hội viên Hội Phụ nữ bắt đầu hứng thú và nỗ lực tăng quỹ (基金增大) cho hội bằng cách thu gom phế liệu (廢品收集) như chai lọ và sắt vụn quanh làng. Đồng thời, trong bếp, họ cũng thực hiện phong trào tiết kiệm gạo (節米運動) bằng cách mỗi người bớt đi một thìa cơm theo số khẩu (食口數), dần dần quỹ (基金) ngày càng tăng lên, họ nhịn đói mà tích cóp tiền như kiến.
+- Đến cuối năm 1974, sau 3 năm triển khai hoạt động của Hội Phụ nữ (婦女會), quỹ (基金) đã đạt tới 2.000 nghìn won.
+- Trong suốt 4 năm kể từ khi phong trào Làng mới (새마을運動) bắt đầu, các dự án cơ sở hạ tầng môi trường (基礎環境事業) và cơ sở hạ tầng sản xuất (生產基盤事業) vẫn được thúc đẩy, nhưng đến đầu năm 1975, ngôi làng này vẫn chưa thoát khỏi việc sử dụng đèn dầu và tiếp tục cuộc sống u ám.
+- Người lãnh đạo họ Trịnh (鄭指導者) quyết tâm (決心) rằng để nâng cao trình độ văn hóa (文化水準) và kéo dài thời gian sản xuất (生產時間) của làng, việc cấp bách nhất là phải thực hiện điện khí hóa (電化) bằng nội lực (自力). Sau khi thảo luận với các cơ quan liên quan (關係當局), ông biết được cần kinh phí (事業費) là 3.800 nghìn won.
+- Vì làng có nhiều hộ nông dân nghèo (英細農家), việc huy động số tiền lớn như vậy gặp không ít khó khăn.
+- Người lãnh đạo họ Trịnh (鄭指導者) đã triệu tập Ủy ban Phát triển thôn (里開發委員會) để thảo luận biện pháp đảm bảo quỹ (基金確保策). Bà Yoon Dal-bok, Chủ tịch Hội Phụ nữ (婦女會長), đề nghị đóng góp 1.800 nghìn won từ quỹ của Hội Phụ nữ đã tích lũy được.
+- Được khích lệ từ điều này, các thành viên Ủy ban Phát triển thôn quyết định huy động 1.000 nghìn won còn thiếu bằng cách mỗi hộ (戶當) đóng góp 20.000 won, và 1.000 nghìn won còn lại sẽ tìm kiếm sự hỗ trợ (支援) từ các nhân sĩ ở thủ đô. Tuy nhiên, việc tìm kiếm những người sẵn sàng đóng góp theo kế hoạch ban đầu không hề dễ dàng. Họ đã đi lại Seoul hàng chục lần, tiền tiêu tốn trên đường cũng không ít, và sau 3 tháng đến từng nhà (戶別訪問) mới có thể huy động đủ quỹ.
+- Ngày 16/5/1975, hợp đồng (契約) cho dự án điện khí hóa (電化事業) - ước mơ lâu nay của làng - đã được ký kết. Đến ngày 17/8, lễ thắp sáng (點火式) được tổ chức cho 51 hộ dân trong làng. Các cụ già ôm nhau nhảy múa và reo lên: "Tôi có thể nhắm mắt mà không còn tiếc nuối gì nữa khi được tận mắt chứng kiến điện về làng lúc còn sống!".
+- Nhìn thấy cảnh tượng đó, người lãnh đạo họ Trịnh cũng quên hết những khó khăn trước đây, xúc động đến nghẹn ngào. Trong năm đó, 25 chiếc TV đã được phổ biến đến làng - điều chưa từng có trước đây.
 
 
 --- (p. 103) ---
@@ -4029,8 +4029,8 @@ Dự án đặc biệt hỗ trợ làng xuất sắc năm 1976 đã được quy
 
 --- (p. 139) ---
 
-득사업으로 재투자(再投資) 운영(運營)함이 좋겠는데 본인(本人)의 의견(意見)으로는 소득(所得)이 높은 인삼재배(人蔘栽培) 등을 실시(實施)하여 보다 마을기금(基金)을 확충(擴充)하고 마을금고(金庫)를 통한 주민(住民) 저축(貯蓄) 등에 배당(配當)하였으면 좋겠다고 생각합니다.
-**지도자(指導者)**: 좋으신 말씀입니다. 그러한 방향(方向)으로 추진(推進)하기로 하고 오늘은 이만 회의(會議)를 마치겠습니다.
+- Việc tái đầu tư (再投資) và vận hành (運營) từ lợi nhuận của các dự án sẽ rất tốt. Theo ý kiến cá nhân tôi, nên triển khai các hoạt động tạo thu nhập cao như trồng nhân sâm (人蔘栽培) để tăng cường quỹ làng (基金) và phân bổ (配當) cho tiết kiệm của dân làng thông qua quỹ tiết kiệm làng (村金庫).
+**Người lãnh đạo (指導者)**: Đó là ý kiến rất hay. Chúng ta sẽ thúc đẩy theo hướng đó. Hôm nay xin kết thúc cuộc họp tại đây.
 감사합니다.
 ♦ 회의록(會議錄) (5)
 
@@ -4039,13 +4039,13 @@ Dự án đặc biệt hỗ trợ làng xuất sắc năm 1976 đã được quy
 회의(會議) 안건(案件): 외국인(外國人) 홍보(弘報) 시범마을(示範마을) 사업계획(事業計劃) 및 추진(推進)
 참석인원(參席人員): 43명
 
-**지도자(指導者)**: 바쁘신 중에도 이렇게 참석(參席)하여 주신데 감사(感謝)를 드립니다. 이제 우리 마을은 전 마을 주민(住民)이 혼연일체(渾然一體)가 되어 이루고 가꾼 새마을 사업(事業)이 높이 평가(評價)되어 현재(現在)까지 많은 국내외(國內外) 인사(人士)들이 마을을 시찰(視察)하고 한결같이 우리에게 위로(慰勞)와 격려(激勵)는 물론 새마을 운동(運動)에 깊은 감명(感銘)을 받았다고 늘 칭찬(稱讚)을 들어 왔습니다. 정부(政府)에서도 이와 같은 사항(事項)에 접하여 외국인(外國人)들로 하여금 한국(韓國)의 새마을 운동(運動)을 종합적(綜合的)으로 이해(理解)하고 관심사항(關心事項)에 부응(副應)하기 위(爲)하여 작년(昨年)에는 1,000천원의 지원(支援)으로 미진(未進)된 마을 공동(共同) 사업(事業)을 마무리하는 데 지원(支援)된 바 있고 금년도(今年度)에는 100만원의 정부(政府) 지원(支援)을 받았습니다.
-**정기용**: 금년도(今年度) 외국인(外國人) 홍보(弘報)마을 지침(指針)이라고 할까, 필요기준(必要基準) 사업(事業)은 무엇으로 되었는지 말씀해 주시기 바랍니다.
-**지도자(指導者)**: 마을의 기초환경(基礎環境) 사업(事業)과 생산기반(生産基盤) 사업(事業)은 마무리되었다고는 하나 아직도 외국인(外國人)들에게 자랑할 수 있으리만큼 주거권(住居權) 환경사업(環境事業)중 특히 부엌개량(改良), 변소개량(改良), 주택내부(住宅內部) 등은 수준(水準)이 낮다고 판단(判斷)하여 작년(昨年)과는 달리 개인(個人) 주거권(住居權) 사업(事業)이라도 지원(支援)할 수 있게 되어 어떠한 사업(事業)이라도 좋다고 생각됩니다. 그러나 본인(本人)은 군청(郡廳) 새마을계장님께서 말씀하신 바를 들어볼 때 차원(次元)이 높은 주거권(住居權) 환경(環境) 사업(事業)에 중점(重點)을 두는 것이 옳다고 판단(判斷)합니다.
-**이갑순**: 저희 회원(會員)들은 참 좋은 사업(事業)이라고 생각하여 정부(政府) 지원(支援)에 대해 감사(感謝)함을 우선 표합니다. 부엌개량(改良)이라고 했지만 재래식(在來式)이고 또한 시멘트만으로 구조(構造)만을 개선(改善)한 상태(狀態)이니 보다 문화적(文化的)이고 고급화(高級化)된 개량(改良) 및 정비(整備)를 하면 위생생활(衛生生活)에 큰 발전(發展)이 있다고 생각합니다.
-**조돈행**: 부녀회장(婦女會長)님께서 말씀하신 것도 물론(勿論)이지만 아직도 벽(壁) 도색(塗色)이니 종래(從來)의 부속건물(附屬建物)과 다음 3~4년 전에 도색(塗色)했던 지붕도색(塗色)이 퇴색(退色)되어 마을 경관(景觀)을 해치고 있으니 주택개보수(住宅改補修)와 벽(壁) 도색(塗色) 그리고 지붕도색(塗色)도 함이 좋을 것으로 생각됩니다.
-**김용학**: 좋은 사업(事業)이라고 생각합니다만 개인별(個人別) 지원(支援) 및 선정(選定)은 어떠한 방법(方法)으로 하면 좋겠는지요?
-**새마을지도자(指導者)**: 사업(事業)비 100만원으로 전체(全體) 물량(物量)을 지원(支援)할 수는 없습니다. 그렇다고 일부(一部) 개인(個人) 몇몇 만을 지원(支援)할 수도 없다고 판단(判斷)하여 지붕도색(塗色) 페인트와 변소개량(改良) 및 부엌개량(改良)용
+**Người lãnh đạo (指導者)**: Xin cảm ơn mọi người đã bận rộn nhưng vẫn tham dự (參席) cuộc họp này. Đến nay, công cuộc xây dựng Làng mới (새마을事業) mà toàn thể dân làng (住民) đã đoàn kết (渾然一體) và nỗ lực thực hiện đã được đánh giá cao (評價). Nhiều nhân sĩ trong và ngoài nước (國內外人士) đã đến thăm làng và đều bày tỏ sự an ủi (慰勞), động viên (激勵), đồng thời bày tỏ ấn tượng sâu sắc (感銘) về phong trào Làng mới. Chính phủ (政府) cũng đã hỗ trợ (支援) 1.000 nghìn won vào năm ngoái để hoàn thành các dự án chung còn dang dở của làng, và năm nay tiếp tục nhận được hỗ trợ 1 triệu won từ chính phủ.
+**Jeong Gi-yong**: Xin cho biết tiêu chí (指針) hoặc dự án tiêu chuẩn cần thiết (必要基準事業) cho việc quảng bá (弘報) làng tới người nước ngoài (外國人) trong năm nay là gì?
+**Người lãnh đạo (指導者)**: Mặc dù các dự án cơ sở hạ tầng môi trường (基礎環境事業) và cơ sở hạ tầng sản xuất (生産基盤事業) đã hoàn thành, nhưng môi trường nhà ở (住居權環境事業), đặc biệt là cải thiện nhà bếp (改良), nhà vệ sinh (改良) và nội thất nhà ở (住宅內部), vẫn chưa đủ tiêu chuẩn để tự hào với người nước ngoài. Khác với năm ngoái, năm nay chúng ta có thể hỗ trợ ngay cả các dự án cải thiện nhà ở cá nhân (個人住居權事業). Tuy nhiên, theo tôi, dựa trên ý kiến của trưởng ban Làng mới huyện (郡廳 새마을係長), nên tập trung vào các dự án môi trường nhà ở (住居權環境事業) ở cấp độ cao hơn.
+**Lê Giáp Thuận**: Trước hết, các thành viên của chúng tôi xin bày tỏ lòng biết ơn đối với sự hỗ trợ của chính phủ vì cho rằng đây là một dự án (事業) rất tốt. Tuy gọi là cải thiện nhà bếp (改良) nhưng vẫn theo kiểu truyền thống (在來式) và chỉ cải thiện cấu trúc (構造) bằng xi măng, vì vậy chúng tôi nghĩ rằng nếu cải thiện và nâng cấp (改良) một cách văn minh (文化的) và cao cấp (高級化) hơn, thì đời sống vệ sinh (衛生生活) sẽ có bước phát triển (發展) lớn.
+**Triệu Đôn Hành**: Tất nhiên những gì bà chủ tịch Hội Phụ nữ (婦女會長) nói là đúng, nhưng hiện nay việc sơn tường (塗色) và các công trình phụ thuộc (附屬建物) từ trước đến nay, cùng với việc sơn mái nhà (塗色) cách đây 3-4 năm đã bị phai màu, làm ảnh hưởng đến cảnh quan (景觀) của làng. Do đó, tôi nghĩ việc sửa chữa cải tạo nhà ở (住宅改補修), sơn lại tường (壁) và mái nhà (塗色) sẽ rất tốt.
+**Kim Yong-hak**: Tôi nghĩ đây là một dự án (事業) tốt, nhưng phương pháp (方法) hỗ trợ (支援) và lựa chọn (選定) theo từng cá nhân (個人別) nên thực hiện như thế nào?
+**Người lãnh đạo phong trào làng mới (指導者)**: Không thể hỗ trợ (支援) toàn bộ (全體) khối lượng (物量) công việc với kinh phí (事業費) 1 triệu won. Nhưng cũng không thể chỉ hỗ trợ một số ít cá nhân (個人). Vì vậy, chúng tôi quyết định hỗ trợ sơn mái nhà (塗色), cải thiện nhà vệ sinh (改良) và nhà bếp (改良).
 
 
 --- (p. 140) ---
@@ -4136,23 +4136,23 @@ Tài sản chung(共同) của làng(財產) bao gồm ruộng chung(共同) c�
 
 --- (p. 143) ---
 
-회의를 마친 후 5일(日) 만인 3월 26일(日) 다시 마을총회(總會)를 열었더니 49명(名)의 인원(人員)이 참석(參席)한 가운데 회의(會議)는 진행(進行)되었다.
-O 회의(會議) 석상(席上)에서 유지(有志)되는 분과 동료(同僚)되는 몇 분이 이 마을의 발전(發展)을 위해서(爲해서) 좀 더 사생활(私生活)보다 공동(共同), 즉 마을일에 주력(注力)하는 인물(人物)을 선출(選出)해야 된다면서 현(現) 지도자(指導者)를 우선선출(優先選出) 대상(對象)에 올려놓고 회의(會議)를 진행(進行)하던 중 율동(栗洞)마을 지도자(指導者)로 선출(選出)된 것이다.
+Sau khi kết thúc cuộc họp 5 ngày, vào ngày 26 tháng 3, cuộc họp toàn thể làng (總會) lại được tổ chức với sự tham gia của 49 người.
+Tại cuộc họp (會議), một số người có tâm huyết (有志) và đồng nghiệp (同僚) đề xuất rằng để phát triển (發展) làng, cần bầu ra những người biết đặt việc chung (共同) lên trên việc riêng (私生活), tức là những người tận tâm với công việc của làng. Họ đã đưa người lãnh đạo hiện tại (現 指導者) lên làm ứng cử viên ưu tiên (優先選出 對象) và trong quá trình họp, người này đã được bầu làm lãnh đạo (指導者) làng Yul-dong (栗洞).
 
 ### 3) 지도자(指導者)의 활동상황(活動狀況)
-O 우선(優先) 정신계발(精神啓發)로 마을주민(住民)을 깨우치는 데는 몸소 실천(實踐)하고 행동(行動)으로 옮겨가며 마을 전체(全體)의 일을 내 일보다 더 성심(誠心)껏 돌보면서 한 사람 한 사람 계도(啓導)하기 시작했다.
-O 일부(一部) 불참(不參)했던 주민(住民)은 미친놈, 골빈놈이라고 비웃으며 화제(話題)가 되었으나 실망하지 않고 묵묵히 일은 하며 마을의 일을 궂은 일이건 좋은 일이건 매일(每日)같이 도와주다 보니 반대했던 몇몇 주민(住民)이 생각(生覺)을 달리하고 협조(協助)하게 되었고,
-O 이에 용기를 얻은 지도자(指導者)는 몇몇 지식인(知識人)과 의논(議論)한 끝에 1973년(年) 3월 21일(日) 마을총회(總會)를 개최(開催)하여 첫 사업(事業)으로 전화사업(電化事業)이 착수(着手)되어 2개월(個月) 만에 호롱불이 아닌 도시(都市) 부럽지 않은 밝은 전기(電氣)불이 온 마을을 한낮같이 밝게 비쳤다.
-O 이에 만족(滿足)치 않고 주민(住民) 정신(精神) 계도(啓導)를 위해(爲해) 앰프를 설치(設置)하고자 고향(故鄕) 사람(人) 재벌(財閥)을 찾아가 고향(故鄕) 마을에 주민(住民)을 위하여(爲하여) 램프 1대(臺)를 부탁(付託)했더니 선뜻 응(應)하여 시가(時價) 54천 원 앰프를 설치(設置)하고 아침저녁으로 건전가요 및 정신계몽(精神啓蒙)을 시작했다.
+Trước tiên, để thức tỉnh tinh thần (精神啓發) cho dân làng (住民), người lãnh đạo đã tự mình thực hành (實踐) và hành động (行動), chăm lo cho công việc của cả làng hơn cả việc của bản thân với tất cả sự chân thành (誠心), từng người một để giáo dục (啓導).
+Một số dân làng (住民) không tham gia đã chế giễu gọi là 'thằng điên, thằng ngốc' và trở thành đề tài bàn tán, nhưng người lãnh đạo không nản lòng, vẫn âm thầm làm việc, giúp đỡ dân làng bất kể việc khó hay dễ mỗi ngày. Dần dần, một số người từng phản đối đã thay đổi suy nghĩ (生覺) và bắt đầu hợp tác (協助).
+Nhận được sự khích lệ, người lãnh đạo đã thảo luận với một số trí thức (知識人) và quyết định tổ chức cuộc họp toàn thể làng (總會) vào ngày 21 tháng 3 năm 1973. Dự án đầu tiên được khởi động là điện khí hóa (電化事業). Chỉ trong vòng 2 tháng, cả làng đã được thắp sáng bằng ánh điện (電氣) rực rỡ không kém gì thành phố, thay vì dùng đèn dầu.
+Không hài lòng với điều đó, để giáo dục tinh thần (精神 啓導) cho dân làng (住民), người lãnh đạo đã quyết định lắp đặt loa phóng thanh (앰프). Ông tìm đến một người giàu có (財閥) quê hương (故鄕) và nhờ họ ủng hộ một chiếc loa (臺) cho làng. Người đó đã sẵn lòng đồng ý và lắp đặt một chiếc loa trị giá 54.000 won. Từ đó, sáng tối đều phát các bài hát lành mạnh và tuyên truyền giáo dục tinh thần (精神啓蒙).
 O 명색만 유지하던 마을 개발위원회(開發委員會)와 4-H 회원(會員), 청년회(靑年會), 부녀회(婦女會)를 박력 있고 참신하게 추진(推進)할 수 있는 인물(人物)로 1974년(年) 2월 10일(日) 주민총회(住民總會)를 거쳐 교체(交替)하고 마을 전체(全體)의 의사(意思)를 집약(集約), 주민(住民) 총회(總會)에 의해(依해) 전원(全員)이 마을 공동사업(共同事業)에 참여(參與)할 것 등(等) 실천방안(實踐方案)을 결의(決意)했다.
-O 1974년(年) 2월 12일(日)에는 마을 개발위원회(開發委員會) 임원(任員)과 중추 인물(人物)이 되는 몇 분을 지도자(指導者)의 자비(自費)로 버스 임대하여 새마을사업(事業) 우수마을(優秀마을) 견학(見學)을 시키고 돌아와 면장(面長)과 기관장(機關長)을 모셔 율동(栗洞) 마을의 육성(育成)에 많은 협조(協助)를 부탁(付託)하니 한결같이 적극(積極) 참여(參與) 지원(支援)해 준다는 것이다. 이에 힘을 얻어 환경(環境) 개선사업(改善事業)인 지붕개량(改良)을 시작했다.
+Vào ngày 12 tháng 2 năm 1974, người lãnh đạo đã tự bỏ tiền thuê xe buýt đưa các thành viên Ban phát triển làng (開發委員會) và một số nhân vật chủ chốt đi tham quan (見學) các làng làm tốt phong trào làng mới (事業 優秀마을). Khi trở về, họ mời trưởng xã (面長) và các trưởng cơ quan (機關長) đến để nhờ hỗ trợ phát triển (育成) làng Yul-dong (栗洞). Mọi người đều hứa sẽ tích cực (積極) tham gia (參與) và hỗ trợ (支援). Nhờ đó, họ có thêm động lực để bắt đầu dự án cải thiện môi trường (環境 改善事業), cụ thể là cải tạo mái nhà (改良).
 O 농협(農協)을 통해(通해) 융자금(融資金) 3백만(百萬) 원 주민부담(住民負擔) 4백만(百萬) 원 총(總) 7백만(百萬) 원으로 지붕개량사업(改良事業)을 착수(着手)나갔으나 일부(一部) peoples' opposition로 70%밖에 완료(完了)치 못했다.
-잔여(殘餘) 42채(楝)에 대하여(對하여) 지붕개량(改良)을 끝내고자 청년회원(靑年會員)을 동원(動員)하여 누구네 집이건全部(全部) 이엉을 벗겨 낼 것을 계획(計劃)했다.
+Để hoàn thành việc cải tạo mái nhà (改良) cho 42 ngôi nhà còn lại, họ đã huy động (動員) các thành viên thanh niên (靑年會員) lên kế hoạch (計劃) dỡ bỏ toàn bộ (全部) mái tranh của bất kỳ nhà nào.
 
 ### 4) 애로극복(隘路克服) 상황(狀況)
-O 자재(資材)를 구입(購入)하러 1974년(年) 3월 21일(日) 농협(農協)과 시장(市場)에 다녀오니 마을의 일부(一部) 주민(住民)과 청년회원(靑年會員)이 지붕 대마루에서 싸웠다는 소식(消息)이 들려왔다.
-O 있을 수 있는 일이려니 하고 집에 돌아오니 새마을지도자(指導者)를 때려 죽인다고 삽과 낫을 들고 다니고 있으니 빨리 피신하라는 가족의 애원(哀願)과 할 일 이 많은 사람이 다치면 어쩌나 하는 이웃집의 권고(勸告)로 피신하다가
-O 그날 밤 12시(待) 30분(分)에 집에 들어와 잠을 청했으나 이루지 못하고 뒤척이고 있을 때 불야
+Vào ngày 21 tháng 3 năm 1974, khi đi mua vật liệu (資材) ở Ngân hàng Nông nghiệp (農協) và chợ (市場), người lãnh đạo nhận được tin một số dân làng (住民) và thành viên thanh niên (靑年會員) đã đánh nhau trên nóc nhà.
+Cho rằng đó là chuyện có thể xảy ra, khi về đến nhà, người lãnh đạo được gia đình van xin hãy lánh đi vì có người cầm xẻng và liềm định giết ông. Hàng xóm cũng khuyên ông nên tránh đi vì còn nhiều việc phải làm, nếu ông bị thương thì sao. Ông đành phải lánh đi.
+Đêm hôm đó, vào lúc 12 giờ 30 phút, ông về nhà và cố gắng ngủ nhưng không tài nào chợp mắt được, cứ trằn trọc mãi.
 
 
 --- (p. 144) ---
@@ -4260,7 +4260,7 @@ Với 150 triệu won nhận được, làng đã xây dựng một kho chung r�
 
 다. 주(主) 소득(所得) 사업(事業)
 
-소득(所得) 사업(事業)으로는 엽연초(葉煙草)와 고추 재배(栽培)로 75년도(年度) 호당(戶當) 145만원에서 76년도(年度)에는 2,300천원으로 껑충 올랐다.
+Thu nhập từ hoạt động kinh doanh như trồng thuốc lá và ớt đã tăng vọt từ 1,45 triệu won mỗi hộ trong năm 1975 lên 2,3 triệu won trong năm 1976.
 
 O 연도별(年度別) 소득(所得) 추계(推計)
 
@@ -4291,9 +4291,9 @@ O 농가(農家) 소득(所得) 현황(現況)
 
 ![도식: 마을 조직도](/images/page_146_img_1.png)
 
-마을 조직도는 다음과 같은 계층 구조를 가지고 있다:
-*   최상위에는 '새마을 지도자(指導者)'와 '이장(里長)'이 나란히 위치한다.
-*   이들의 아래에 '마을 개발(開發) 위원회(委員會)'가 있다.
+Sơ đồ tổ chức của làng có cấu trúc phân cấp như sau:
+*   Ở cấp cao nhất là 'Người lãnh đạo làng mới (새마을 지도자)' và 'Trưởng thôn (이장)' đứng ngang hàng.
+*   Dưới họ là 'Ủy ban phát triển làng (마을 개발 위원회)'.
 *   마을 개발(開發) 위원회(委員會) 아래로는 '청년회(青年會)', '부녀회(婦女會)', '4-H', '노년(老年) 봉사대(奉仕隊)'의 네 조직이 분화되어 있다.
 
 
@@ -4333,14 +4333,14 @@ Chủ tọa là trưởng làng (司會): Chúng ta sẽ tiến hành bầu cử
 
 --- (p. 148) ---
 
-이 회의를 진행하기 위해서는 임시 새마을지도자(指導者)를 이영섭씨께 위임(委任)하여 진행하겠습니다.
+Để tiến hành cuộc họp này, chúng tôi sẽ ủy thác cho ông Lee Young-seop tạm thời đảm nhiệm vai trò Người lãnh đạo làng mới (새마을 지도자).
 주민 여러분 어떻습니까?
-유재민 : 좋은 말씀입니다. 주민 여러분 이의가 없습니까?
+Yoo Jae-min: Ý kiến rất hay. Các cư dân có ý kiến phản đối nào không?
 주민일동: 좋습니다.
-결의안(決議案): 새마을지도자(指導者)는 투표결과(投票結果) 이영섭씨가 선출(選出)됐다.
+Nghị quyết: Theo kết quả bỏ phiếu, ông Lee Young-seop đã được bầu làm Người lãnh đạo làng mới (새마을 지도자).
 
 ### 회의참석자(會議參席者)
-문재수, 김춘식, 김동원, 김선표, 최병욱, 김장식, 권흥수, 김선문, 조성준, 안철진, 정방한, 하상학, 성낙중, 한재헌, 원명희, 김동윤, 김정호, 김도일, 최민구, 박노윤, 하갑진, 최봉용, 원두희, 최두영, 최병무, 김권식, 권상일, 원종철, 정양조, 이종석, 최영수, 최명학, 이효순, 장교선, 남기복, 강대원, 양준용, 원부희, 강명원, 이상설, 이상설, 송병근, 최병수, 권영필, 조성옥, 김학삼, 허인용, 최윤식, 김도식
+Mun Jae-su, Kim Chun-sik, Kim Dong-won, Kim Seon-pyo, Choi Byeong-uk, Kim Jang-sik, Kwon Heung-su, Kim Seon-mun, Jo Seong-jun, An Cheol-jin, Jeong Bang-han, Ha Sang-hak, Seong Nak-jung, Han Jae-heon, Won Myeong-hui, Kim Dong-yun, Kim Jeong-ho, Kim Do-il, Choi Min-gu, Park No-yun, Ha Gap-jin, Choi Bong-yong, Won Du-hui, Choi Du-yeong, Choi Byeong-mu, Kim Kwon-sik, Kwon Sang-il, Won Jong-cheol, Jeong Yang-jo, Lee Jong-seok, Choi Yeong-su, Choi Myeong-hak, Lee Hyo-sun, Jang Gyo-seon, Nam Gi-bok, Kang Dae-won, Yang Jun-yong, Won Bu-hui, Kang Myeong-won, Lee Sang-seol, Lee Sang-seol, Song Byeong-geun, Choi Byeong-su, Kwon Yeong-pil, Jo Seong-ok, Kim Hak-sam, Heo In-yong, Choi Yun-sik, Kim Do-sik
 
 ♦ 회의록(會議錄) (2)
 
@@ -4349,14 +4349,14 @@ Chủ tọa là trưởng làng (司會): Chúng ta sẽ tiến hành bầu cử
 의안내용(議案內容): 각하 하사금(下賜金) 사업(事業) 결정(決定)
 참석인원(參席人員): 총(總) 65명(名) 출석(出席) 52명(名) 결석(缺席) 13명(名)
 
-사(司) 회(會) : 금번 저희 마을에 대통령(大統領) 각하(閣下) 하사금(下賜金)이 내려지게 되고, 따라서 특별(特別) 지원마을로 산정(算定)되었습니다. 우리 마을로서는 참으로 영광스러운 일이 아닐 수 없습니다. 이에 우리는 하사금(下賜金)의 의도(意圖)를 깨닫고 새마을 사업(事業)을 적극(積極) 추진(推進)해야 하며 잘 사는 내 마을을 건설(建設)하는 데 앞장서서 일해 주셔야 할 것입니다. 하사금(下賜金)으로 무슨 사업(事業)을 하였으면 좋을지 여러분의 의사(意思)를 듣고 싶습니다.
-김춘식 : 참으로 고맙게 생각합니다. 제 의견(意見)은 공동전(共同田)을 사서 특용작물(特用作物)이나 과수(果樹) 등을 심어 나오는 이익금(利益金)을 본 마을의 공동기금(共同基金)으로 만들어 계속되는 새마을 사업(事業)에 사용했으면 합니다.
-최병무 : 한우를 구입했으면 합니다.
-유재민 : 가마니 기계를 구입하여 생산소득(生産所得)을 올려야 되겠습니다.
-사(司) 회(會) : 여러분께서 좋은 안건(議案)을 내어 주셨는데 한 가지 사업(事業)으로 결정(決定)하여 주시기 바랍니다. 우선 다수결(多數決)로 한 가지 사업(事業)을 결정짓도록 하겠습니다. 무엇을 했으면 좋겠는가에 대해 거수(擧手)로 찬반(贊反)을 표시(表示)하여 주시기 바랍니다.
-첫째 : 김춘식씨가 말씀하신 마을 공동전(共同田) 구입운영에 찬성(贊成)하시는 분은 거수(擧手)하여 주십시오. (김춘식 외(外) 37명(名))
-둘째 : 최병무씨가 말씀하신 한우를 구입했으면 좋겠다는 분 거수(擧手)하여 주십시오. (최병무씨 외(外) 5명(名))
-셋째 : 유재민씨의 안건(議案)이 좋다는 분은 거수(擧手)로 표(表)하여 주시기 바랍니다. (유재민 외(外) 7명(名))
+Chủ tịch: Lần này, làng chúng ta được Tổng thống ban tặng tiền hỗ trợ và được chỉ định là làng hỗ trợ đặc biệt. Đây quả thực là một vinh dự lớn lao cho làng chúng ta. Vì vậy, chúng ta cần hiểu rõ ý nghĩa của khoản tiền hỗ trợ này và tích cực thúc đẩy các hoạt động làng mới, đồng thời nỗ lực xây dựng một ngôi làng giàu mạnh. Chúng tôi muốn lắng nghe ý kiến của mọi người về việc nên sử dụng khoản tiền hỗ trợ này vào hoạt động nào.
+Kim Chun-sik: Tôi thực sự cảm ơn. Ý kiến của tôi là mua đất chung của làng để trồng các loại cây trồng đặc sản hoặc cây ăn quả, sau đó sử dụng lợi nhuận thu được làm quỹ chung của làng để tiếp tục sử dụng cho các hoạt động làng mới.
+Choi Byeong-mu: Tôi đề xuất mua bò Hàn Quốc.
+Yoo Jae-min: Chúng ta nên mua máy sản xuất bao tải để tăng thu nhập từ sản xuất.
+Chủ tịch: Mọi người đã đưa ra nhiều đề xuất hay, nhưng chúng ta cần quyết định một hoạt động cụ thể. Trước tiên, chúng ta sẽ quyết định theo nguyên tắc đa số. Xin mọi người giơ tay biểu quyết tán thành hay phản đối từng đề xuất.
+Thứ nhất: Những ai tán thành đề xuất của ông Kim Chun-sik về việc mua và vận hành đất chung của làng, xin hãy giơ tay. (Ông Kim Chun-sik và 37 người khác)
+Thứ hai: Những ai tán thành đề xuất của ông Choi Byeong-mu về việc mua bò Hàn Quốc, xin hãy giơ tay. (Ông Choi Byeong-mu và 5 người khác)
+Thứ ba: Những người đồng ý với đề án (議案) của ông Yu Jae-min xin hãy biểu quyết (表決) bằng cách giơ tay. (Yu Jae-min và 7 người khác)
 
 
 --- (p. 149) ---
@@ -5222,16 +5222,16 @@ Khi đường làng được mở rộng và cầu To Won Gyo (桃源橋) đư�
 
 --- (p. 176) ---
 
-이 없는 부엌과 변소(便所)도 시멘트로 미장(美粧)되어 매우 위생적(衛生的)이며 몇몇 가옥(家屋)은 부엌과 변소(便所)를 타일로 미장(美粧)하기도 했다. 축사(畜舍)나 부속건물(附屬建物)도 지붕과 벽체를 보수(補修) 정비(整備)해서 개발(開發)되기 전의 본가옥(本家屋) 모습보다 훌륭하게 다듬어졌다.
-집집마다 전기(電氣)가 들어와 광명(光明)의 세상(世上)을 찾았고 간이상수도(簡易上水道)가 부엌 안에까지 설치(設置)되어 아낙네들이 물동이를 이고 지는 불편(不便)스러움이 깨끗이 사라져버렸다. 어느새 25호(戶)의 가구(家口)에는 체신전화(遞信電話)까지 가설(架設)되어 전국(全國) 어느 곳이라도 방안에 앉아서 통화(通話)를 할 수 있게 됐으며 사랑방에 모여 앉아 도박이나 벌리던 마을 주민(住民)들은 텔레비전을 보면서 웃음꽃을 피우는 여가를 즐길 수 있게 된 것이다.
-그밖에도 마을 공동임야(共同林野) 33ha에는 경제림(經濟林)과 연료림(燃料林), 유실수(有實樹) 등을 8천여본(千餘本)이나 식재(植栽)하였고 하천변(河川邊)에는 공한지(空閑地) 조림(造林)을 실시(實施)해서 푸르고 울창한 마을로 가꾸었으며 이렇게 가꾸어진 수목(樹木)은 앞으로 이 마을이 농외소득(農外所得)을 높이는 데 큰 비중(比重)을 차지할 것으로 전망(展望)되는 것이다.
-이와 같이 도원(桃源)마을이 지난 6년간(年間) 새마을사업(事業)을 발전적(發展的)으로 추진(推進)하여 이룩한 성과(成果)는 외형(外形)만큼이나 내실(內實)도 알찼기 때문이다. 그것은 다시 말해서 모든 사업(事業)을 소득(所得)과 직결(直結)시켜 추진(推進)했기 때문이라고 말할 수 있다. 감자, 옥수수 등 저소득작물(底所得作物)만을 재배(栽培)하던 주민(住民)들은 새로운 농사기술(農事技術)을 배우고 익혀서 풍토(風土)에 알맞은 고추, 마늘, 담배와 특용작물(特用作物)을 확대재배(擴大栽培)하여 높은 소득(所得)을 보게 됐고 객토(客土)와 퇴비 증산(增産)으로 지력(地力)을 증진(增進)시켜 통일계통(統一系統)의 신품종(新品種) 벼를 확대재배(擴大栽培)해서 놀랄 만큼 다수확(多收穫)을 올렸으며 그밖에도 한우(韓牛)와 양돈(養豚) 등 가축증식(家畜增殖) 사업(事業)으로 농가소득(農家所得)은 매년(每年) 급상승(急上昇)하였으며 따라서 생활수준(生活水準)도 점차 향상(向上)되었으니 70년(年)까지 호당(戶當) 평균소득(平均所得)은 40만원(萬원)에 불과하던 것이 77년(年) 말(末) 현재(現在)로는 호당(戶當) 평균 160만원(萬원)을 바라보게 되었다.
-한편 72년도(年度)를 시발점(始發點)으로 하여 새마을사업(事業)을 활발히 전개(展開)한 이 마을은 2년(年) 후인 74년도(年度)에 자립(自立)마을로 승격(昇格)되는 영광(榮光)을 누렸으며 74년(年)과 76년(年)에 대통령각하(大統領閣下)의 특별지원금(特別支援金)을 하사받는 기쁨을 얻었으며 남녀(男女) 새마을 지도자의 활동(活動)과 공로(功勞)가 인정(認定)을 받게 되어 각각(各各) 새마을훈장(勲章)이 서훈(敍勳)받았다.
+Nhà bếp và nhà vệ sinh (便所) không có cũng được trát xi măng (美粧) rất vệ sinh (衛生的), một số ngôi nhà (家屋) còn dùng gạch men để ốp lát nhà bếp và nhà vệ sinh. Chuồng trại (畜舍) và các công trình phụ (附屬建物) cũng được sửa chữa (補修), bảo dưỡng (整備) mái và tường, trở nên đẹp đẽ hơn so với diện mạo ngôi nhà chính trước khi phát triển.
+Mỗi nhà đều có điện (電氣), mang lại ánh sáng (光明) cho thế gian (世上), và hệ thống cấp nước đơn giản (簡易上水道) được lắp đặt ngay trong bếp, giúp các bà nội trợ không còn phải vất vả gánh nước. Chỉ trong chốc lát, 25 hộ gia đình (戶) đã được lắp đặt điện thoại bưu chính (遞信電話), có thể ngồi trong nhà trò chuyện (通話) với bất kỳ nơi nào trên cả nước. Những người dân làng (住民) trước đây tụ tập ở phòng khách để đánh bạc giờ đây có thể thư giãn xem tivi và cười đùa.
+Ngoài ra, tại khu rừng chung (共同林野) của làng rộng 33 ha, đã trồng hơn 8.000 cây (千餘本) gồm rừng kinh tế (經濟林), rừng nhiên liệu (燃料林) và cây ăn quả (有實樹). Ven sông suối (河川邊), việc trồng rừng (造林) trên đất trống (空閑地) đã được thực hiện, biến ngôi làng thành một nơi xanh tươi và rậm rạp. Những cây cối được trồng này dự kiến sẽ đóng góp lớn vào việc tăng thu nhập phi nông nghiệp (農外所得) của làng trong tương lai.
+Đạt được những thành quả (成果) như vậy trong 6 năm qua nhờ việc làng Đào Nguyên (桃源) thúc đẩy (推進) tích cực (發展的) phong trào làng mới (新마을事業) không chỉ về hình thức (外形) mà còn về nội dung (內實). Có thể nói, tất cả các dự án (事業) đều được triển khai gắn liền với thu nhập (所得). Người dân trước đây chỉ trồng các loại cây trồng thu nhập thấp (底所得作物) như khoai tây, ngô, nay đã học hỏi và áp dụng kỹ thuật canh tác mới (農事技術), mở rộng trồng các loại cây phù hợp với thổ nhưỡng (風土) như ớt, tỏi, thuốc lá và cây trồng đặc dụng (特用作物) để tăng thu nhập. Nhờ cải tạo đất (客土) và tăng cường phân bón hữu cơ (退肥增産), cải thiện độ phì nhiêu của đất (地力增進), mở rộng trồng giống lúa mới hệ thống thống nhất (統一系統新品種), năng suất (多收穫) đã tăng lên đáng kể. Ngoài ra, việc tăng cường chăn nuôi gia súc như bò Hàn Quốc (韓牛) và lợn (養豚) cũng giúp thu nhập hộ nông dân (農家所得) tăng vọt hàng năm, từ đó nâng cao dần mức sống (生活水準). Năm 1970, thu nhập bình quân mỗi hộ (戶當平均所得) chỉ là 400.000 won, đến cuối năm 1977 đã đạt gần 1,6 triệu won mỗi hộ.
+Mặt khác, bắt đầu từ năm 1972, ngôi làng này đã tích cực triển khai phong trào làng mới và sau 2 năm, vào năm 1974, đã vinh dự được công nhận là làng tự lực (自立村). Năm 1974 và 1976, làng còn được nhận hỗ trợ đặc biệt (特別支援金) từ Tổng thống (大統領閣下). Những đóng góp và hoạt động của các nam nữ lãnh đạo phong trào làng mới đã được ghi nhận và trao tặng huân chương làng mới (新마을勳章).
 
 5) 토지(土地) 및 현금희사(現金喜捨) 상황(狀況)
-도원(桃源)마을의 오늘이 있기까지는 주민(住民)들이 새마을운동(運動)의 참뜻을 깊이 인식(認識)하고 적극(積極) 호응(呼應)하였기 때문이며 각계각층(各界各層)에서 위로(慰勞)와 격려(激勵)의 온정(溫情)이 답지하였기 때문에 가능(可能)할 수 있었다.
+Để có được ngày hôm nay của làng Đào Nguyên (桃源), người dân (住民) đã nhận thức sâu sắc ý nghĩa thực sự của phong trào làng mới và tích cực hưởng ứng (呼應). Đồng thời, nhờ sự quan tâm, động viên (慰勞, 激勵) từ các tầng lớp xã hội (各界各層) nên mới có thể đạt được thành quả này.
 ＜토지희사(土地喜捨) 내용(內容)＞
-도원 1리 이운세 외 1명(名)이 희사한 토지(土地)는 전답(田沓)을 모두 합쳐 총(總) 1,744평(坪)이며 개인별(個人別) 희사 내용은 다음 페이지의 표(表)와 같다.
+Ông Lee Un-se và 1 người khác đã hiến tặng (喜捨) tổng cộng 1.744 thước đất (坪), bao gồm cả ruộng và vườn (田沓). Chi tiết hiến tặng của từng cá nhân (個人別) được trình bày trong bảng (表) ở trang sau.
 
 
 --- (p. 177) ---
@@ -6576,13 +6576,13 @@ Kim Sun-tae (金順泰): Khi nuôi nhiều đầu bò (多頭飼育), nguồn th
 
 --- (p. 217) ---
 
-조건(條件)으로 하여 그 장소(場所)에 축사(畜舍)를 건립(建立)하면 될 것 같습니다.
-이기표(李基杓) : 두 분이 의견(意見)을 제시(提示)한데 저도 동감(同感)입니다. 그러면 이 자리에 황순종(黃淳鍾)씨를 모시도록 합시다.
+Với điều kiện (條件) là xây dựng chuồng trại (畜舍) tại địa điểm (場所) đó.
+Lee Ki-pyo (李基杓): Tôi cũng đồng tình (同感) với ý kiến mà hai vị đã đưa ra. Vậy chúng ta hãy mời ông Hwang Sun-jong (黃淳鍾) đến đây.
 일동(一同): 찬성(賛成)합니다.
-황순종(黃淳鍾): 잘 듣고 이해(理解)가 갑니다. 한 사람을 위한 것이 아니고 마을을 위하고 전체(全體) 주민(住民)이 참여(參與)하는 사업(事業)이고, 또 많은 면적(面積)을 차지하는 것도 아닌데 땅을 팔고 또는 교환(交換)하는 조건(條件)보다 제가 부지(敷地)를 희사(喜捨)해서 농가(農家) 소득(所得)이 오른다면 좋겠습니다.
-김희선(金熙善) : 황순종(黃淳鍾)씨께서 부지(敷地)를 희사(喜捨)하신다고 하였습니다. 우리 주민(住民) 일동(一同) 박수로 황순종(黃淳鍾)씨에게 감사(感謝)를 드립시다.
+Hwang Sun-jong (黃淳鍾): Tôi đã lắng nghe và hiểu rõ. Đây không phải là việc vì một cá nhân mà là vì cả làng và toàn thể người dân (住民) cùng tham gia (參與). Diện tích (面積) cũng không lớn, thay vì bán hoặc trao đổi (交換) đất, tôi xin hiến tặng (喜捨) mảnh đất này để tăng thu nhập (所得) cho các hộ nông dân (農家), như vậy sẽ tốt hơn.
+Kim Hee-seon (金熙善): Ông Hwang Sun-jong (黃淳鍾) đã đồng ý hiến tặng (喜捨) mảnh đất. Tất cả chúng ta hãy cùng vỗ tay cảm ơn ông Hwang Sun-jong.
 일동(一同) : 박수로 환영(歡迎).
-사회(社會) : 황순종(黃淳鍾)씨의 부지(敷地) 희사(喜捨)로 가장 어려운 문제(問題)가 해결(解決)되었습니다. 장소(場所)는 항영골 황순종(黃淳鍾)씨 밭으로 정(定)합니다. 황순종은 부지(敷地) 희사(喜捨)에 의한 동의서(同意書)에 서명(署名) 날인(捺印)하시고 참석(參席) 주민(住民) 여러분께서도 회의록(會議錄)에 서명(署名) 날인(捺印)하여 주십시요. 오늘 회의(會議) 감사(感謝)합니다. 폐회(閉會)를 선언(宣言)합니다.
+Chủ trì (社會): Vấn đề khó khăn nhất đã được giải quyết nhờ sự hiến tặng đất (敷地喜捨) của ông Hwang Sun-jong (黃淳鍾). Địa điểm (場所) được chọn là ruộng của ông Hwang Sun-jong tại Hangyeonggol. Ông Hwang Sun-jong vui lòng ký tên và đóng dấu vào biên bản đồng ý (同意書), và tất cả các cư dân tham dự (參席住民) cũng xin ký tên và đóng dấu vào biên bản cuộc họp (會議錄). Xin cảm ơn mọi người. Tôi tuyên bố bế mạc cuộc họp (閉會).
 
 ### 회의록(會議錄) (3)
 
@@ -6593,14 +6593,14 @@ Kim Sun-tae (金順泰): Khi nuôi nhiều đầu bò (多頭飼育), nguồn th
 *   **사회(社會)자** : 새마을 지도자(指導者) 이강섭(李康燮)
 *   **기록(記錄)자** : 주재(駐在) 지도자(指導者) 김종성(金鍾聲)
 
-사회(社會) : 유관(有官) 기관(機關) 및 여러분의 협조(協助)로 건평(建坪) 50평(坪)의 훌륭한 공동(共同) 축사(畜舍)가 완공(完工)되었으며 현재(現在)까지 사업(事業) 경과(經過)를 보고드리고 앞으로의 운영(運營) 관리(管理)에 대한(對한) 협의(協議)를 갖고자 임시(臨時) 총회(總會)를 소집(召集)하였습니다.
+Chủ trì (社會): Nhờ sự phối hợp của các cơ quan hữu quan (有官機關) và mọi người, chuồng trại chung (共同畜舍) với diện tích xây dựng (建坪) 50 thước (坪) đã hoàn thành (完工). Hôm nay, chúng ta tổ chức đại hội bất thường (臨時總會) để báo cáo tiến độ dự án (事業經過) và thảo luận về việc vận hành (運營) và quản lý (管理) trong thời gian tới.
 이강섭(李康燮)(개발(開發) 위원장(委員長)) 사업(事業) 경과(經過) 보고(報告) : 사업(事業) 경과(經過) 보고(報告)를 드린 중에 이의(異議)가 계시면 말씀하여 주십시요.
 일동(一同) : 이의(異議) 없읍니다.
-사회(社會) : 결산(決算) 보고(報告)는 여러분들의 이의(異議)가 없으므로 통과(通過)되었습니다. 다음은 공동(共同) 축사(畜舍) 사업(事業) 후 운영(運營) 관리(管理)에 대한(對한) 좋은 의견(意見)을 말씀해 주십시요.
-유창복(劉昌福) : 공동(共同) 사업(事業)을 효율적(効率的)으로 이끌어 나가기 위해서는 관리(管理) 세칙(細則)을 마련하고 관리(管理) 세칙(細則)에 의해 운영(運營) 관리(管理)토록 할 것을 동의(同意)합니다.
-사회(社會) : 또 좋은 의견(意見)이 있으시면 말씀하십시요.
+Chủ trì (社會): Báo cáo quyết toán (決算報告) đã được thông qua (通過) vì không có ý kiến phản đối (異議). Tiếp theo, xin mời mọi người đóng góp ý kiến về việc vận hành và quản lý chuồng trại chung (共同畜舍事業) sau khi hoàn thành.
+Lưu Xương Phúc (劉昌福): Để dẫn dắt hiệu quả dự án chung (共同事業), tôi đồng ý (同意) rằng cần xây dựng quy chế quản lý (管理細則) và vận hành quản lý (運營管理) theo quy chế đó.
+Chủ trì (社會): Nếu quý vị có thêm ý kiến hay nào khác, xin mời phát biểu.
 일동(一同) : 없읍니다.
-사회(社會) : 그러면 별 좋은 의견(意見)이 없는 것으로 알고 이 자리에서 관리(管理) 세칙(細則)을 제정(制定)하겠습니다. 미리 준비(準備)한 초안(草案)이 있으니 하나하나 토의(討議)하면 좋겠습니다.
+Chủ trì (社會): Vì không còn ý kiến hay nào khác, tôi sẽ tiến hành thông qua quy chế quản lý (管理細則) tại đây. Chúng ta đã chuẩn bị sẵn dự thảo, nên sẽ thảo luận từng mục một.
 
 
 --- (p. 218) ---
@@ -7018,15 +7018,15 @@ và các mục tiêu (項目) khác. Họ đã thành lập 3 nhóm chỉ đạo
 
 --- (p. 230) ---
 
-부속舍, 담장개량(改良) 등 실로 막중한 사업(事業)이었다. 막상 사업(事業)추진(推進)을 위한 주민총회(住民總會)를 개최(開催)한 결과(結果) 호응(呼應)하는 주민(住民)이 별로 없었으며 주택(住宅) 구조(構造)가 좀 나은 사람들은 전적으로 반대하고 나쁜 집을 가진 사람은 재력(財力)이 없다는 이유(理由)로 반대(反對)하고 나섰으며 경지정리사업(耕地整理事業)은 노인층에서는 대대로 물려온 토지(土地)에 애착(愛着)을 느끼고 지금까지 그런 사업(事業)을 안 했어도 농사(農事)만 잘 지어 왔다며 적극(積極) 반대(反對)하고 나섰다.
-O 난관(難關)에 부딪친 1차(次) 총회(總會)에서는 결론(結論)을 못 짓고 끝냈다. 여러 가지로 궁리한 김선기(金善起) 지도자(指導者)는 능력(能力) 있는 주민(住民)들부터 개별(個別) 접촉을 하면서 사업(事業)의 필요성(必要性)을 역설(力說)하고 설득(說得)시켜 몇 사람의 호응(呼應)을 얻은 다음 다시 총회(總會)를 소집(召集)하였다. 이개발위원(里開發委員)과 호응자(呼應者)들의 설득(說得)으로 주민(住民) 과반수(過半數)가량이 긍정적(肯定的)인 반응(反應)을 보였으나 결론(結論)을 못 보고 회(會)를 끝냈으며 다시 군(郡) 새마을부서의 간부급(幹部級)과 직원(職員)들 그리고 군수(郡守) 면장(面長)의 특별지도(特別指導)를 받으며 3차(次) 회의(會議)를 개최(開催)하여 경지정리사업(耕地整理事業)은 가을에 추진(推進)할 사업(事業)이니 일단 뒤로 미루고 주택개량(住宅改良)과 이주사업(移住事業)을 먼저 추진(推進)할 것을 의제(議題)로 하여 야지확보(垡地確保)를 위해 김이장(金里長) 소유(所有)의 토지(土地) 200평(坪)을 내놓고 설득(說得)한 결과(結果), 몇몇 극구(極口) 반대자(反對者)를 제외(除外)하고 사업(事業)을 추진(推進)하기로 결의(決議)를 하였다.
-O 이렇게 하여 마을의 역사(歷史)를 바꾸어 놓은 대사업(大事業)이 시작(始作)되었으며 주택개량(住宅改良) 이주(移住)는 동당(棟當) 600천(千) 원 융자에 200천(千) 원 자부담(自負擔) 300천(千) 원~500천(千) 원으로 사업(事業)이 추진(推進)되었으며 예산절감(豫算節減)을 위해 모든 자재(資材)는 공동(共同)으로 구입(購入)하였으며 김이장(金里長)은 헌신적(獻身的)으로 동분서주(東奔西走)하고 주민(住民)들은 피땀을 흘려 일한 보람으로 그해 가을 26동(棟)은 그대로 이주(移住)하였으며 부속舍 신축(新築) 및 보수(補修) 33동(棟)과 담장개량(改良) 2700m를 완료(完了)하는 한편 농협(農協)의 일부 지원(支援)으로 공동취사장 1동(棟)을 비롯하여 암거(暗渠) 설치(設置), 보수(補修), 지붕개량(改良) 등 사업(事業)을 병행(併行)하여 마무리 지었다.
-O 그러나 지칠 대로 지친 주민(住民)들에게는 경지정리(耕地整理)라는 대단위(大單位) 사업(事業)이 기다리고 있었다. 이미 행정기관(行政機關)으로부터 사업시행계획(事業施行計劃)이 완료(完了)되고 착수(着手)단계에 들어섰으나 일부(一部) 주민(住民)들의 결사적(決死的) 반대(反對)는 더욱 심각하게 나타났다. 주민총회(住民總會)와 개별(個別) 접촉을 통해(通해) 설득(說得)시켜 가면서 사업(事業)이 진행(進行)되었으나 또 다른 큰 문제(問題)가 발생(發生)되었다. 토심(土深)이 얕은 자갈땅이라 전농경지(田農耕地)가 자갈밭이 되어버리고 영농기(營農期)가 닥아 오는데 논에 깔린 수백 톤의 돌을 주워내고 모를 심는다는 것은 완전(完全) 불가능(不可能) 상태(狀態)였다.
-O 주민(住民)들은 기진맥진(氣盡脈盡)하여 실의(失意)에 빠지자 김이장(金里長)과 지도자(指導者)는 군(郡)을 통해(通해) 각방면(各方面)으로 지원요청(支援要請)을 나섰다. “하늘은 스스로 돕는 자를 돕는다”는 말과 같이 군(郡)의 주선(周旋)으로 강릉시(江陵市) 관내(管內) 5개(個) 남녀(男女) 고등학교(高等學校)에서 학생(學生)들과 예비군 중대(中隊)의 노력봉사(勞力奉仕)로 매일같이 개미떼처럼 달라붙어 영농기(營農期) 이전(以前)에 돌 제거작업(除去作業)을 완료(完了)할 수 있었고 모심기 노력(努力)지원(支援)까지 받았다.
-o 그러나 두 개의 큰 사업(事業)을 추진(推進)하는 동안 주민(住民)들은 많은 부채(負債)를 져야 했고 과욕적(過欲的)인 사업(事業)책정(策定)추진(推進)으로 가산(家產)이 탕진(蕩盡)되어 간다는 원성(怨聲)이 온 마을에서 일기 시작하였다. 이에 지친 김선기 이장(里長)과 새마을 지도자(指導者) 김장기(金障起)씨(氏)는 더 이상 감당할 수 없어 각각(各各) 그 직(職)을 사임(辭任)하고 말았다.
+Đây là những công trình vô cùng quan trọng như xây dựng nhà phụ, cải tạo tường rào. Tuy nhiên, khi tổ chức cuộc họp toàn dân (住民總會) để thúc đẩy dự án, hầu như không có người dân hưởng ứng. Những hộ có nhà cửa khá giả thì hoàn toàn phản đối, còn những hộ nhà cửa tồi tàn thì phản đối vì không có tài lực. Đối với dự án chỉnh trang ruộng đất (耕地整理事業), người già lại phản đối quyết liệt vì gắn bó với mảnh đất truyền đời và cho rằng dù không làm dự án này, họ vẫn canh tác tốt.
+Cuộc họp toàn dân lần thứ nhất gặp khó khăn (難關) đã không đi đến kết luận. Sau nhiều suy nghĩ, lãnh đạo Kim Seon-gi (金善起) quyết định tiếp cận riêng lẻ từng hộ dân có năng lực, thuyết phục về sự cần thiết của dự án và đã nhận được sự hưởng ứng từ một số người. Sau đó, ông triệu tập lại cuộc họp toàn dân. Nhờ sự thuyết phục của Ủy ban Phát triển thôn (里開發委員) và những người hưởng ứng, hơn nửa số dân làng đã có phản ứng tích cực, nhưng vẫn chưa đi đến kết luận và cuộc họp kết thúc. Sau đó, dưới sự chỉ đạo đặc biệt của cán bộ cấp phòng và nhân viên Phòng Phát triển nông thôn huyện (郡 새마을부서), huyện trưởng (郡守) và trưởng xã (面長), cuộc họp lần thứ ba được tổ chức. Tại đây, quyết định tạm hoãn dự án chỉnh trang ruộng đất đến mùa thu và ưu tiên thúc đẩy dự án cải tạo nhà ở (住宅改良) và tái định cư (移住事業). Để đảm bảo đất đai, trưởng thôn Kim (金里長) đã hiến 200 pyeong (坪) đất của mình. Sau khi thuyết phục, ngoại trừ một số người phản đối quyết liệt, hội nghị đã thông qua quyết định triển khai dự án.
+Như vậy, dự án lớn làm thay đổi lịch sử làng bắt đầu được triển khai. Dự án cải tạo nhà ở và tái định cư được thực hiện với khoản vay 600 nghìn won mỗi căn, người dân tự gánh chịu 200 nghìn won và chi phí từ 300 đến 500 nghìn won. Để tiết kiệm ngân sách, tất cả vật liệu đều được mua chung. Trưởng thôn Kim đã tận tâm hết mình và người dân đã đổ mồ hôi công sức, đến mùa thu năm đó, 26 căn nhà đã được di dời nguyên vẹn, 33 nhà phụ được xây mới và sửa chữa, cải tạo 2.700 mét tường rào. Ngoài ra, với sự hỗ trợ một phần của Ngân hàng Nông nghiệp (農協), họ đã hoàn thành xây dựng nhà bếp chung, lắp đặt cống ngầm (暗渠), sửa chữa và cải tạo mái nhà.
+Tuy nhiên, đối với người dân đã kiệt sức, một dự án chỉnh trang ruộng đất quy mô lớn (耕地整理) đang chờ đợi. Mặc dù kế hoạch triển khai dự án đã được cơ quan hành chính phê duyệt và chuẩn bị bắt đầu, nhưng sự phản đối quyết liệt của một số dân làng ngày càng nghiêm trọng. Dù đã thuyết phục qua các cuộc họp toàn dân và tiếp xúc riêng lẻ, một vấn đề lớn khác lại nảy sinh: đất nông nghiệp có tầng đất mỏng và nhiều sỏi đá, trở thành bãi sỏi, đến mùa canh tác nhưng không thể nhặt hết hàng trăm tấn đá để cấy lúa.
+Người dân kiệt quệ và rơi vào tuyệt vọng, trưởng thôn Kim và các lãnh đạo đã đề nghị hỗ trợ từ huyện qua nhiều kênh khác nhau. Đúng như câu nói "Trời giúp những ai tự giúp mình", nhờ sự trung gian của huyện, năm trường trung học phổ thông (남녀高校) và các tiểu đoàn dự bị quân ở thành phố Gangneung (江陵市) đã cử học sinh và quân nhân tình nguyện hỗ trợ hàng ngày như đàn kiến, hoàn thành việc dọn đá trước mùa canh tác và hỗ trợ cấy lúa.
+Tuy nhiên, trong quá trình triển khai hai dự án lớn, người dân phải gánh nhiều khoản nợ, và do đặt ra những dự án quá tham vọng, tài sản gia đình dần cạn kiệt, tiếng oán trách bắt đầu nổi lên khắp làng. Vì vậy, trưởng thôn Kim Seon-gi và lãnh đạo phong trào làng mới Kim Jang-gi (金障起) đã không thể gánh vác thêm và lần lượt từ chức.
 
 ### 지도자(指導者)의 교체(交替)
-O 1975년(年) 7월(月) 1일(日) 이장(里長)과 새마을 지도자(指導者)의 후임(後任) 선출(選出)을 위한 주민총회(住民總會)가 개최(開催)되었으나 복잡한 두 사업(事業)의 마무리(마무리)를 인계(引繼)받을 사람이 나타나지 않자 3년 전 이웃 마을에서 이곳으로 이
+Vào ngày 1 tháng 7 năm 1975, cuộc họp toàn dân được tổ chức để bầu trưởng thôn và lãnh đạo phong trào làng mới mới, nhưng không ai muốn tiếp nhận việc hoàn tất hai dự án phức tạp này. Ba năm trước, nếu có ai từ làng bên chuyển đến đây...
 
 
 --- (p. 231) ---
@@ -7274,23 +7274,23 @@ Chủ tịch(司會者): Lý trưởng Kim Seon-gi
 
 --- (p. 238) ---
 
-가 어디 땅을 내놓을 사람이 있으면 말해 보라구.
-**전해철**: 길을 넓히자면 얼마나 하겠다는 것인가. 저 신작로(新作路)에서 김노인 집까지 넓히자면 200m는 실히 될 텐데.
-**주최자(司會者)**: 전해철 씨 말씀대로 길이는 200m가 되겠으며, 노폭(路幅)은 5m쯤 되어야 되겠지요. 여러분께서 다양한 의견을 말씀하셨는데, 이번 기회에 마을 진입로(進入路)를 좀 넓히는 것이 참 좋겠군요. 지난번에 배추농사를 해서 신작로(新作路)에 세워둔 차(車)에까지 실어내는 데 하루 종일 걸렸어요. 운전수 양반이 시간(時間)이 많이 들었다면서 3,000원을 더 내놓으라고 해서 겨우 1,500원만 주고 타협(妥協)을 봤지요.
-길을 넓히자면 편입용지(編入用地) 때문에 서로가 꺼리는 것 같은데 우선 200m의 마을 안길을 5m로 넓히는 원칙(原則)에 리민(里民) 여러분의 의견(意見)을 집약(集約)하여야 되겠습니다.
-마을 안길을 확장(擴張)하는 데 다들 찬성하십니까, 혹시 반대하시는 분은 없는지요.
-**김영래**: 마을의 발전(發展)을 위해 좋은 일을 하자는 데 누가 반대하겠는가마는 옥답(玉沓) 서로서로가 양보하여 내놓는 것이 문제구만 그래. 내가 지난번에 강릉시(江陵市) 내곡동(內谷洞)에 일이 좀 있어서 가 보았는데 길을 넓게 참 잘해 놓았더군. 그래서 그 동네 사람들한테 알아보았더니 동네사람들이 자기들 손으로 했다는 거야, 땅은 5사람이 서로 희사(喜捨)하였는데 동네 자체도 보상문제가 거론됐지만 서로가 사양해서 일이 참 잘됐다는 거야.
-**주최자(司會者)**: 참 좋으신 말씀을 하여 주셨군요. 마을 안길 확장(擴張)에 다들 찬성하는 거지요.
+Nếu có ai muốn nhượng đất để mở rộng đường, xin hãy lên tiếng.
+**Jeon Hae-cheol**: Nếu mở rộng đường thì cần bao nhiêu? Từ con đường mới (新作路) đến nhà ông Kim già, chắc phải dài ít nhất 200 mét.
+**Người chủ trì**: Theo lời anh Jeon Hae-cheol, chiều dài sẽ khoảng 200 mét, còn chiều rộng đường nên khoảng 5 mét. Quý vị đã đưa ra nhiều ý kiến, nhân dịp này, việc mở rộng lối vào làng sẽ rất tốt. Lần trước, khi thu hoạch cải thảo, phải mất cả ngày mới chở hết lên xe đỗ trên đường mới. Người lái xe còn đòi thêm 3.000 won vì mất thời gian, cuối cùng chỉ trả được 1.500 won để thỏa hiệp.
+Việc mở rộng đường gặp trở ngại vì vấn đề đất nhập vào, nhưng trước tiên, chúng ta hãy thống nhất nguyên tắc mở rộng con đường trong làng dài 200 mét thành 5 mét và tổng hợp ý kiến của bà con trong thôn.
+Mọi người có đồng ý mở rộng con đường trong làng không? Có ai phản đối không?
+**Kim Young-rae**: Ai mà lại phản đối việc làm điều tốt cho sự phát triển của làng chứ? Vấn đề là ở chỗ mọi người phải nhường nhịn nhau để hiến đất quý. Lần trước tôi có việc ở Nội Cốc Đồng, thành phố Gangneung, thấy họ làm đường rất rộng và đẹp. Hỏi người dân ở đó thì họ bảo chính dân làng tự làm lấy, năm người đã tự nguyện hiến đất. Dù có bàn đến vấn đề bồi thường nhưng mọi người đều nhường nhịn nên công việc diễn ra rất suôn sẻ.
+**Người chủ trì**: Quả là những lời hay ý đẹp. Vậy mọi người đều đồng ý mở rộng con đường trong làng chứ?
 **일동(一同)**: 찬성합니다.
-**주최자(司會者)**: 그러면 마을 안길 확장(擴張)에 550평(坪)의 토지(土地)가 길로 들어가게 되는 데 제가 먼저 토지(土地) 100평(坪)을 내놓겠습니다.
-**일동(一同)**: 여기저기서 수군수군함
-**주최자(司會者)**: 여기서 확답(確答)하기가 곤란하면 서로가 일을 하면서 내놓기로 하고 언제부터 일을 착수(着手)할 것인지를 말씀해 주시지요. 그리고 시멘트 355부대(袋)는 마을 안길을 확장(擴張)할 때 구조물(構造物)을 만드는데 사용(使用)토록 하겠는데 이의가 없는지요.
+**Người chủ trì**: Vậy thì để mở rộng con đường trong làng sẽ cần 550 *pyeong* đất làm đường, tôi xin hiến trước 100 *pyeong*.
+**Mọi người**: Tiếng xì xào khắp nơi
+**Người chủ trì**: Nếu khó đưa ra câu trả lời ngay bây giờ thì chúng ta hãy vừa làm vừa bàn bạc và cho biết khi nào bắt đầu công việc. Ngoài ra, chúng ta sẽ sử dụng 355 bao xi măng để xây dựng các công trình khi mở rộng con đường trong làng, mọi người có ý kiến gì không?
 **주민(住民) 일동(一同)**: 이의가 없다고 함.
-**정원교**: 내일은 크리스마스라고 하니 기념(記念)으로 25일을 마을 안길 확장(擴張)일로 하는 것이 좋겠구먼.
-**주최자(司會者)**: 지금 정원교 씨의 말씀에 이의(異議)가 없습니까.
+**Jeong Won-gyo**: Ngày mai là Giáng sinh, nên lấy ngày 25 làm ngày khởi công mở rộng con đường trong làng để kỷ niệm.
+**Người chủ trì**: Có ai phản đối ý kiến của ông Jeong Won-gyo không?
 **주민(住民) 일동(一同)**: 이의(異議)가 없다고 함.
-**주최자(司會者)**: 내일(來日) 10시에 우리집 마당에 모이시기 바랍니다. 오실 때는 각자(各者)가 삽이나 괭이를 가지고 나오시기 바랍니다.
-지금까지 리민(里民) 여러분이 진지하게 회의(會議)에 임하여 주신데 대하여 다시 한번 감사를 드립니다. 이상으로 회의(會議)를 마치겠습니다. 감사합니다.
+**Người chủ trì**: Xin mời mọi người tập trung tại sân nhà tôi vào lúc 10 giờ sáng mai. Khi đến, mỗi người hãy mang theo xẻng hoặc cuốc.
+Xin chân thành cảm ơn tất cả bà con trong thôn đã nghiêm túc tham gia cuộc họp này. Cuộc họp đến đây là kết thúc. Xin cảm ơn.
 
 
 --- (p. 239) ---
@@ -7555,25 +7555,25 @@ O Làng bị cô lập và bị bỏ lại phía sau trong quá trình phát tri
 
 --- (p. 246) ---
 
-그중 가장 큰 숙원은 면 소재지와 삼척시장을 연결하는 12km의 도로 개발이었다.
-이런 어려운 여건 속에 500년이나 터 잡고 살아온 이 마을 주민들에게 Saemaul Undong은 새로운 활로를 터 주는 계기가 되었으며 모든 주민들은 한결같이 “우리도 옳게 살아보자”고 굳게 뭉치게 되었다.
+Trong số đó, mong ước lớn nhất là phát triển con đường dài 12 km nối huyện lỵ với chợ Samcheok.
+Trong hoàn cảnh khó khăn như vậy, đối với những người dân làng đã sinh sống ở đây suốt 500 năm, Phong trào Saemaul Undong đã trở thành cơ hội mở ra con đường mới, và tất cả dân làng đều đoàn kết với tinh thần “Chúng ta hãy sống đúng đắn”.
 
 ## 2) 분교 유치
 
-○ 여삼마을은 억척스런 집념의 지도자 박재명 씨에 의해 일찍이 Saemaul Undong을 전개해온 마을이다.
-○ 62년 군에서 제대한 박재명 씨는 혁명정부의 중농정책과 정신순화운동에 힘입어 마을 발전 요소를 찾아 백방으로 노력하였다.
-○ 그는 우선 퇴폐와 나태 인습에 젖어 있는 주민 정신을 올바로 계도하고자 20대 전후의 젊은 층으로 생활개선 구락부를 조직하여 이들로 하여금 새로운 영농정신과 건전정서생활을 보급하도록 계도하는 한편
-○ 주민의 90%가 넘는 많은 문맹자를 자신들의 잠실을 활용, 야학으로 글을 가르쳤으며,
-○ 여기서 눈을 뜬 주민 150명이 주축이 되어 65년 초 40평의 교사를 자력으로 건립, 노곡국민학교 여삼 분실로 승인을 받아 교사 한 분을 모시게 됨으로써 학교를 유치하는 계기를 마련하게 되었다.
-○ 그러나 3학년 과정의 분실만으로는 만족하지 못한 주민들은 이 마을 정택권 씨 소유 임야 2,000평을 희사받고 연인원 5,250명의 주민이 야간 횃불 작업까지 해가며 5m 높이의 산을 깎아 부지를 조성하고 67년 8월에 3개의 교실과 1,800평의 운동장을 가진 여삼 분교로 승인을 받게 되었다.
-○ 여삼마을이 생긴 이래 72년도에는 국민학교를 졸업하는 첫 여자 졸업생이 배출되는 기쁨을 안게 되었다.
+○ Làng Yeosam là ngôi làng đã sớm triển khai Phong trào Saemaul Undong nhờ sự lãnh đạo kiên cường của ông Park Jae-myung.
+○ Ông Park Jae-myung, xuất ngũ từ quân đội năm 1962, đã nỗ lực hết mình để tìm ra yếu tố phát triển cho làng dựa trên chính sách nông nghiệp trọng điểm và phong trào tinh thần hóa của chính phủ cách mạng.
+○ Trước tiên, ông tập trung giáo dục tinh thần cho người dân đang sa sút và sống trong thói quen lười biếng, thành lập câu lạc bộ cải thiện đời sống với những người trẻ độ tuổi 20 để họ truyền bá tinh thần làm nông mới và lối sống lành mạnh,
+○ Đồng thời, hơn 90% dân làng mù chữ đã được dạy học vào ban đêm tại chính nhà của họ, tận dụng thời gian rảnh rỗi.
+○ 150 cư dân tỉnh dậy tại đây đã trở thành lực lượng nòng cốt, vào đầu năm 65, tự lực xây dựng trường học với diện tích 40평, được công nhận là phân hiệu Nokgok của trường tiểu học Yeosam, và mời được một giáo viên, qua đó tạo cơ hội để đưa trường học về làng.
+○ Tuy nhiên, người dân không hài lòng với việc chỉ có phân hiệu dạy đến lớp 3, họ đã nhận được sự hiến tặng 2.000평 đất rừng thuộc sở hữu của ông Jeong Taek-kwon, một người dân trong làng, và với sự tham gia của 5.250 nhân công, họ đã làm việc thâu đêm với đuốc để san phẳng ngọn núi cao 5m, tạo mặt bằng và vào tháng 8 năm 67, được công nhận là phân hiệu Yeosam với 3 phòng học và sân chơi rộng 1.800평.
+○ Kể từ khi làng Yeosam được thành lập, đến năm 72, làng đã vui mừng chào đón nữ sinh đầu tiên tốt nghiệp trường tiểu học.
 
 ## 3) 초년도 시험사업의 성과
 
-○ 1971년 박대통령(大統領) 각하의 제창으로 전국 방방곡곡에서 불붙기 시작한 Saemaul Undong은 이곳 산간벽지 여삼마을에도 메아리쳤다.
-○ 그러나 구태에서 벗어나지 못한 일부 주민들은 이를 외면한 채 술과 도박 등 퇴폐와 안일로 방관하는 자가 많았다.
-○ 오늘의 여삼마을이 있기까지는 박재명 지도자의 지칠 줄 모르는 용기와 억척스런 집념이 바탕이 되었다.
-○ 당시 이장이었던 박 지도자는 우선 첫 사업으로 7개 자연부락으로 분산된 부락간 도로와 마을 안길 확장이라는 오랜 숙원을 연인원 2,700명의 전 주민이 단결하여 착공 55일 만에 2km의 자연부락 간 도로를 3m 폭으로 확장하였고 1.2km의 마을 안길을 확장하여 지게에만 의존하던 영농 작업과 각종 운반수단을 리어카, 자전차 등을 사용함으로써 평야 마을이나 시내 주변에서만 볼 수 있었던 기계화의 새로운 문명을 터득하게 되었고 마을 발전의 새로운 활력소가 Saemaul Undong으로 돋보이게 되자 많은 주민들이 “하면 된다”는 가능과 자신감을 갖게 되었다.
+○ Năm 1971, phong trào Saemaul Undong do Tổng thống Park khởi xướng đã lan tỏa khắp mọi miền đất nước, và tiếng vang của nó cũng đã đến làng miền núi hẻo lánh Yeosam này.
+○ Tuy nhiên, một số cư dân vẫn chưa thoát khỏi lối sống cũ, họ thờ ơ với phong trào, thay vào đó chìm đắm trong rượu chè, cờ bạc và lối sống sa đọa, an phận.
+○ Để có được làng Yeosam như ngày hôm nay, không thể không nhắc đến sự dũng cảm không biết mệt mỏi và nghị lực kiên cường của người lãnh đạo Park Jae-myeong.
+○ Khi đó, trưởng làng Park, với tư cách là người lãnh đạo, đã chọn công trình đầu tiên là mở rộng con đường giữa các thôn bản tự nhiên bị phân tán thành 7 thôn bản và mở rộng đường làng, một ước mơ lâu nay. Với sự đoàn kết của toàn bộ 2.700 dân làng, họ đã hoàn thành việc mở rộng con đường dài 2km giữa các thôn bản tự nhiên lên rộng 3m và mở rộng 1,2km đường làng chỉ trong 55 ngày. Nhờ đó, công việc nông nghiệp và vận chuyển trước đây chỉ dựa vào đòn gánh đã có thể sử dụng xe kéo tay, xe đạp, tiếp cận nền văn minh cơ giới hóa vốn chỉ thấy ở các làng đồng bằng hay gần thành phố. Khi phong trào Saemaul Undong trở thành động lực mới cho sự phát triển của làng, nhiều người dân đã có niềm tin và sự tự tin rằng “Làm là được”.
 
 
 --- (p. 247) ---
@@ -8170,19 +8170,19 @@ Lời khuyên hay của các vị đã giúp chúng tôi có thể tiến hành 
 --- (p. 265) ---
 
 # 서봉천(徐奉千): 4-H 회장(會長) 이야기가 타당할 것 같군요. 위원장(委員長) 1명(名)과 위원(委員) 7명(名), 총 8명(名)으로 추진(推進) 위원회(委員會)를 구성(構成)하고 전기공사(電氣工事)에 대한(對한) 일을 맡겨 봅시다. (일동(一同) 찬성(贊成))
-사회자(司會者): 그러면 위원장(委員長)은 누구로 하는 것이 좋겠습니까?
-김재천(金在天): 그야 현재(現在) 새마을 지도자(指導者) 외에 누가 또 있겠습니까? 이장(里長)님도 계시지만 이장(里長)님은 다른 일들이 너무 많으니 새마을 지도자(指導者) 박재명(朴載明)씨(氏)를 선출(選出)합시다.
+Người dẫn chương trình (司會者): Vậy thì chúng ta nên bầu ai làm chủ tịch ủy ban ạ?
+Kim Jae-cheon (金在天): Ngoài người lãnh đạo phong trào Saemaul hiện tại ra thì còn ai nữa ạ? Tuy có trưởng làng nhưng ông ấy bận nhiều việc khác, vậy chúng ta hãy bầu ông Park Jae-myeong (朴載明), người lãnh đạo phong trào Saemaul làm chủ tịch ủy ban.
 일동(一同): 찬성(贊成)합니다. (박수)
-사회자(司會者): 고맙게 생각하고 열심히(熱心) 일하겠읍니다만 여러분들의 적극적(積極的)인 협조(協助)를 바라겠읍니다. 위원(委員)들은 어떻게 하겠읍니까?
-이재영: 아까도 말했지만 4개 반장(班長)을 위원(委員)으로 추천(推薦)하고 예비군 소대장 인석이 하고 4-H 회장(會長) 윤경식이와 개발위원장(開發委員長) 서봉천이, 이렇게 일곱 사람이 위원(委員)이 되어 추진(推進)하여 주게.
-서봉천: 말씀은 감사합니다만 저는 혼자 손에 농사일도 그렇고 능력(能力)도 없고 여러분들 의견(意見)대로 따르겠으니 위원(委員)에서 빼 주셨으면 합니다.
-이재경: 이 사람이, 누군 바쁘지 않아서 그러는가, 박(朴) 지도자(指導者)는 자기(自己) 일 하나 안 보고 몇 년(年) 간 마을을 위해 희생(犧牲)하는 줄 잘 알고 있지 않은가?
-김창현(金昌鉉): 모두 재경이 의견(意見)대로 하세.
-사회자(司會者): 다른 의견(意見) 없습니까?
+Người dẫn chương trình (司會者): Tôi rất cảm kích và sẽ nỗ lực hết mình, nhưng cũng mong nhận được sự hợp tác tích cực từ mọi người. Các ủy viên thì sao ạ?
+Lee Jae-yeong: Như tôi đã nói trước đó, đề cử bốn trưởng ban làm ủy viên, thêm trưởng tiểu đội dự bị quân In-seok, chủ tịch hội 4-H Yoon Gyeong-sik và chủ tịch ủy ban phát triển Seo Bong-cheon, tổng cộng bảy người sẽ đảm nhiệm vai trò ủy viên và thúc đẩy công việc.
+Seo Bong-cheon: Tôi rất cảm ơn lời đề nghị, nhưng tôi còn bận việc đồng áng, lại không có năng lực, nên sẽ làm theo ý kiến của mọi người, mong được rút khỏi vị trí ủy viên.
+Lee Jae-gyeong: Anh này, có ai mà không bận đâu? Anh không biết ông lãnh đạo Park đã mấy năm trời không lo việc riêng, chỉ hy sinh vì làng hay sao?
+Kim Chang-hyeon (金昌鉉): Mọi người hãy làm theo ý kiến của Jae-gyeong đi.
+Người dẫn chương trình (司會者): Có ai có ý kiến khác không ạ?
 일동(一同): (조용)
-사회자(司會者): 그럼 위원(委員)은 그렇게 선출(選出)하고 내일 저와 이장(里長)이 군(郡)에 찾아가서 의논(議論)을 하고 추진위원회(推進委員會)를 개최(開催)하여 추진(推進) 방안(方案)을 강구(講究)합시다. 다른 의견(意見) 없습니까?
+Người dẫn chương trình (司會者): Vậy thì chúng ta sẽ bầu cử ủy viên (委員) như vậy và ngày mai tôi cùng trưởng thôn (里長) sẽ đến quận (郡) để thảo luận (議論) và tổ chức hội nghị ủy ban thúc đẩy (推進委員會) để tìm ra phương án thúc đẩy (推進方案). Có ý kiến nào khác không?
 일동(一同): 없습니다.
-사회자(司會者): 그럼 전기사업(電氣事業)은 그렇게 추진(推進)토록 하고 회의(會議)를 모두 마치겠습니다. 감사합니다. 안녕히 가십시오. 그리고 추진위원(推進委員)은 내일 모레 저희 집으로 와주셨으면 감사하겠습니다.
+Người dẫn chương trình (司會者): Vậy thì chúng ta sẽ tiếp tục thúc đẩy công việc điện lực (電氣事業) như vậy và kết thúc cuộc họp (會議) tại đây. Xin cảm ơn. Xin chào mọi người và hẹn gặp lại. Ngoài ra, xin các ủy viên thúc đẩy (推進委員) vui lòng đến nhà tôi vào ngày kia, tôi sẽ rất cảm ơn.
 
 ![Hình/Đồ thị: Những người phá núi với độ dốc 50 độ để mở đường nông thôn đã 500 năm mong ước](/images/page_265_img_1.png)
 Để mở đường nông thôn đã 500 năm mong ước, những người phá núi với độ dốc 50 độ.
@@ -8680,7 +8680,7 @@ Kim Su-yeon: Ông hướng dẫn! Xin cho tôi nói một lời. Làm sao mở r
 
 --- (p. 282) ---
 
-헐고 담헐고 터들여서 나만 손해를 보라는 말이요. 나는 그렇게는 못 하겠소.
+Nói là đập phá hết rồi bắt mình chịu thiệt thòi à. Tôi không thể làm như vậy được.
 **Quân Tế Ha:** Ông nói cũng đúng, nhưng hãy nghĩ về quá khứ (過去) của làng chúng ta, khi làng ta vẫn lạc hậu (落後) và không phát triển (發達). Nếu những người có đất hoặc nhà bị phá dỡ có thể hãy hào phóng (喜捨) hơn, thì làng ta sẽ không còn lạc hậu (落後) nữa. Xin vui lòng hợp tác tích cực (積極) cho sự phát triển (發展) của làng ta.
 Các bức tường bị phá dỡ do việc mở rộng đường làng sẽ được các thanh niên (靑年) của làng ta sửa lại hoàn toàn (全部).
 
@@ -8774,7 +8774,7 @@ Quền재하(權在夏), Park No-cheon(朴魯天), Seo Un-won(徐雲元), Seo No
 
 --- (p. 285) ---
 
-김종헌, 서봉삼, 김봉수, 서상원, 김용철, 서기석, 서규석, 서해석, 서남석, 임종한, 정성옥, 이범섭, 이범규, 한봉오, 오창선, 김흥열, 서동규, 서정선, 이완희, 조덕희, 손복길
+Kim Jong-heon, Seo Bong-sam, Kim Bong-su, Seo Sang-won, Kim Yong-cheol, Seo Gi-seok, Seo Gyu-seok, Seo Hae-seok, Seo Nam-seok, Lim Jong-han, Jeong Seong-ok, Lee Beom-seop, Lee Beom-gyu, Han Bong-o, Oh Chang-seon, Kim Heung-yeol, Seo Dong-gyu, Seo Jeong-seon, Lee Wan-hee, Jo Deok-hee, Son Bok-gil
 
 ## Báo cáo kết quả (會議錄) (4)
 
@@ -8907,40 +8907,40 @@ Tộc lớn: Hơn 300 năm trước, họ Lâm từ Bu'an định cư ở đây 
 
 --- (p. 289) ---
 
-울타리에 변소(便所)는 다 허물어졌고
-O 식수(食水)는 노천(露天)의 불결(不潔)한 우물물이고, 농로(農路)는 커녕 마을 진입로(進入路)마저 없이 원시농업(原始農業)에서 탈피(脫皮)하ᅳ
-지 못하는 실정 속에 그날 그날을 무기력(無氣力)하게 살아왔다.
+Hàng rào và nhà vệ sinh (便所) đều đã đổ nát
+Nước uống (食水) là nước giếng ngoài trời (露天) không sạch (不潔), đường nông thôn (農路) thì chưa nói đến, ngay cả lối vào làng (進入路) cũng không có, mãi không thoát khỏi tình trạng nông nghiệp nguyên thủy (原始農業)
+trong hoàn cảnh đó, họ sống qua ngày một cách vô lực (無氣力).
 
 ## 2) 소득수준(所得水準)
-O 아빠는 이웃 동리(洞里)에 머슴살이로 엄마는 보은읍(報恩邑) 대지주(大地主)의 식모생활(食母生活), 또한 등과 어깨가 부어올라도 나무짐의 행렬(行列)은 장사진(長蛇陣)을 이루어 하루에 나무 한짐 해가지고 보은시장(報恩市場)에 팔러가 운(運)이 좋으면 보리쌀 두되를 팔아가지고 왔으며
-O 경지(耕地)가 영세(零細)한 대부분(大部分)의 농가(農家)는 과학영농(科學營農)이란 꿈과 같은 생각으로 호당소득(戶當所得) 25만(萬)원으로 6〜7명(名)의 가족생계(家族生計)를 꾸려가야만 하는 실정(實情)이었다.
+Cha tôi làm công cho làng bên (洞里), mẹ tôi làm người giúp việc nhà bếp cho địa chủ lớn (大地主) ở thị trấn Boeun (報恩邑), dù lưng và vai sưng tấy, đoàn người gánh củi vẫn nối đuôi nhau dài như rắn (長蛇陣), mỗi ngày gánh một gánh củi ra chợ Boeun (報恩市場) để bán, nếu may mắn thì bán được hai đấu gạo lúa mạch mang về
+Đa số các hộ nông dân (農家) với ruộng đất manh mún (耕地零細) chỉ dám mơ tới việc làm nông khoa học (科學營農), thu nhập bình quân mỗi hộ (戶當所得) chỉ 250.000 won để nuôi sống gia đình 6-7 người (家族生計).
 
 ## 3) 70연도(年度)의 생활상태(生活狀態)
 ### 가) 정신상태(精神狀態)
-O 옛날 양반사회(兩班社會)의 고유한 인습(因習)과 안이(安易)한 사고방식(思考方式)으로 수백년(數百年)을 내려오면서도 한번 살아보-
-아야겠다는 생각은 아예 해본 일도 없었으며
-O 이기적(利己的)이고 배타적(排他的)인 습성(習性)에 젖어 마을과 이웃 간(間)에 협동심(協同心)이라곤 찾아볼 수 없었다.
-O 남자(男子)는 음주(飮酒)와 도박(賭博)으로 허송세월(虛送歲月) 속에서 무기력(無氣力)하게 살아왔으며
-O 그저 오래도록 젖어온 인습(因習)과 완고(頑固)한 고집(固執) 속에 타성(惰性)에 빠져있어
-O 내일에 대한 희망(希望)이나 개척정신(開拓精神) 같은 것은 찾아볼 수 없이 무관심(無關心)하고 무표정하게 살아왔다.
+Từ xã hội quý tộc ngày xưa (兩班社會), với những tập tục cố hữu (因習) và lối suy nghĩ dễ dãi (安易思考方式) kéo dài hàng trăm năm (數百年), họ chưa từng nghĩ tới việc
+phải sống một lần cho ra sống.
+Chìm đắm trong tính ích kỷ (利己的) và bài ngoại (排他的), không hề thấy tinh thần hợp tác (協同心) giữa làng xóm và hàng xóm.
+Đàn ông (男子) suốt ngày chìm đắm trong rượu chè (飮酒) và cờ bạc (賭博), sống một cách vô lực (無氣力) qua ngày tháng.
+Chỉ mãi chìm đắm trong những tập tục (因習) và sự cố chấp cứng nhắc (頑固固執) đã ăn sâu bấy lâu, rơi vào tình trạng uể oải (惰性)
+Không hề thấy hy vọng về ngày mai (希望) hay tinh thần khai phá (開拓精神), họ sống một cách thờ ơ (無關心) và vô cảm.
 
 ### 나) 문화(文化) 및 의식주생활(衣食住生活)
-O 전기(電氣)불도 없고 호롱불 밑에서 살아온 이곳 주민(住民)들은 사람다운 생활(生活)이라곤 누려보지도 못-
+O Những cư dân nơi đây sống dưới ánh đèn dầu, không có cả điện, chưa từng được hưởng một cuộc sống đúng nghĩa con người-
 으며
-O 먹고살기에 쪼들리다 보니 라디오, 신문(新聞), 잡지(雜紙) 등(等)을 구경할 수도 없는 암흑(暗黑)의 생활(生活)이었다.
-O 옷은 겨울이면 무명 솜바지와 저고리에 짚신을 신고 한겨울을 지내야만 했고
-O 나무짐을 읍내장(邑內場)에 내어다 팔아야 식량(食糧)을 구(求)하여 연명(延命)할 수 있는 이웃이 대부분(大部分)이었다.
-O 집 안에 들어서면 비료(肥料) 공대(空袋)와 헌 걸레로 틀어막았으며
-O 방(房)바닥은 초석(草席)이나 멍석, 가마니를 깔아 어린아이들이 대소변(大小便)을 볼 적마다 오물(汚物)이 낀 방(房)자-
+O Cuộc sống khó khăn đến mức không thể tiếp cận radio, báo chí, tạp chí, sống trong cảnh tối tăm mịt mù.
+O Mùa đông, họ chỉ mặc quần bông vải thô, áo ngắn và đi dép rơm để chống chọi qua mùa đông giá lạnh
+O Phần lớn hàng xóm phải gánh củi vào chợ huyện bán để đổi lấy lương thực mà duy trì sự sống.
+O Bước vào trong nhà, họ dùng bao phân bón rỗng và giẻ rách để bịt kín các khe hở,
+O Sàn nhà chỉ trải chiếu cỏ, chiếu cói hay bao tải, mỗi khi trẻ con tiểu tiện, phân dính đầy nhà-
 리에서 자라야만 했다.
-O 변소(便所)는 퇴비장(堆肥場)인지 잿간인지 구별(區別)할 수 없는 다 쓰러져 가는 형편(形便)이었으며
-O 퇴비장(堆肥場)과 축사(畜舍)에서는 더러운 물이 마당 한가운데로 흘러 파리와 모기에 시달려도 이 마을-
-주민(住民)들은 부끄러움도 슬픔도 모르는 채 살아왔다.
+O Nhà vệ sinh thì không phân biệt được là hố phân hay kho tro, chỉ thấy chúng sắp sập đến nơi,
+O Từ hố phân và chuồng gia súc, nước bẩn chảy ra giữa sân, ruồi muỗi hoành hành mà dân làng-
+vẫn sống mà không biết xấu hổ hay buồn đau.
 
 ### 나. 새마을운동(運動)의 추진(推進)
 ### 1) 동기(動機) 및 시험사업(試驗事業)의 성과(成果)
 O 1970년(年) 4월(月) 22일(日) 박정희(朴正熙) 대통령(大統領) 각하(閣下)께서 새마을운동(運動)을 제창(提唱)하신 이래(以來) 전국(全國) 방방곡곡(坊坊谷谷)에 새-
-마을운동(運動)이 요원의 불꽃처럼 일고 있었다.
+Phong trào của làng như ngọn lửa xa xôi đang bùng lên.
 
 
 --- (p. 290) ---
@@ -8970,23 +8970,23 @@ Một buổi tối, Kim và sáu thành viên (會員) của câu lạc bộ c�
 
 --- (p. 291) ---
 
-이 절골(折骨)되어 경찰지서(警察支署)의 호출(呼出)을 당한 적도 있었다.
-- 그러나 지서장(支署長)의 따뜻한 온정(溫情)으로 훈계(訓戒)받고 돌아온 김지도자(金指導者)는 우선(優先) 마을의 주점(酒店)부터 없애야 하겠다고 생각하여 부녀회(婦女會)의 협조(協助)를 얻어 술집 주인(主人)으로부터 자진폐점(自進閉店)토록 하는데 성공(成功)하였다.
-- 하늘은 스스로 돕는 자를 돕는다는 말과는 달리 대대(代代)로 내려온 숙원사업(宿願事業)인 교량가설(橋梁架設)에 때아닌 봄장마로 거푸집과 양회(洋灰) 50포가 물에 떠내려가는 변을 당하고 실의(失意)에 빠진 일도 있었다.
-- 또한 마을 중앙(中央)을 흐르는 소하천(小河川)에는 각종(各種) 오물(汚物)과 쓰레기로 모기, 파리, 구더기로 들끓고 있어도 방관(傍觀)만하고 있는 마을 주민(住民)들을 일깨우기 위하여
-- 김지도자(金指導者)는 학림국민학교(鶴林國民學校) 교장(校長)을 찾아가 향우반(鄕友班)을 조직(組織) 새벽청소(淸掃)를 하도록 부탁(付託)한 것이 성공(成功)이 되어
-- 지도자(指導者)는 새벽 일찍 일어나 징을 치고 골목에 다니며 학생(學生)들을 일깨워 함께 청소(淸掃)를 하던 어느 날 한 부모(父母)가 새마을에 미칠 거라면 당신(當身) 혼자만 미칠 것이지 우리 아이 공부도 못하게 청소(淸掃)는 왜 시키느냐고 걱정을 들은 일도 있었다.
-- 이와 같이 어렵게 불붙기 시작(始作)한 주민(住民)들의 협동심(協同心)과 농사개량구락부(農事改良俱樂部) 부녀회(婦女會)의 조직(組織)된 힘을 소득증대사업(所得增大事業)에 주력할 것을 결심하고
-- 외지인(外地人) 대전(大田)에서 높은 가격(價格)으로 공급(供給)되는 속리산(俗離山)의 각종(各種) 접객업소(接客業所)의 고등채소(高等蔬菜)를 우리 마을에서 공급(供給)하도록 하여
-- 개인(個人) 토지(土地)(전(田)) 1,200평(坪)을 임대(賃貸)받아 수익성(收益性)이 높은 상치, 오이, 토마토, 고추 등(等)을 정성껏 재배(栽培)하던 중(中) 때아닌 강풍(强風)으로 비닐 하우스가 부서지면서 모든 작물(作物)이 일시(一時)에 냉해(冷害)가 들어 마을 전주민(全住民)들은 또 한 번 실의(失意)에 잠긴 일도 있었다.
-- 이러한 어려움을 극복(克服)하면서 새마을사업(事業)을 이끌어 나가던 김지도자(金指導者)는 이 집 저 집을 찾아다니며
-- 이 마을은 우리 조상(祖上)들의 뼈가 묻혀 있고 우리가 묻혀야 하고 우리의 후손(後孫)들이 살아야 하는 보금자리라며 마을 개발(開發)에 총화참여(總和參與)하자고 호소(呼訴)하고 설득(說得)을 계속(繼續)하였다.
-- 이것이 한 지도자(指導者)의 끈질긴 집념(執念)이며 불가능(不可能)을 가능으로 연결(連結)하는 길임을 차츰 알게 되었으며
-- 나날이 발전(發展)하고 잘살아가는 이웃 마을 이웃 사람들을 선망(羨望)의 눈초리로 바라만 보았던 이곳 주민(住民)들의 염원(念願)이 한 매듭씩 풀려나는 새 역사(歷史)의 장(章)을 여는 순간이기도 하였다.
+Ông từng bị gọi lên đồn cảnh sát vì bị gãy xương.
+- Tuy nhiên, nhờ sự cảm thông ấm áp của trưởng đồn, sau khi được khuyên bảo trở về, người lãnh đạo Kim đã ưu tiên việc xóa bỏ quán rượu trong làng, và nhờ sự hỗ trợ của Hội Phụ nữ, đã thuyết phục chủ quán tự nguyện đóng cửa thành công.
+- Trái với câu nói "Trời giúp những ai tự giúp mình", công trình cầu đường - ước nguyện truyền đời của làng - lại gặp biến cố khi mưa lũ mùa xuân bất ngờ cuốn trôi khuôn đúc và 50 bao xi măng, khiến mọi người rơi vào tuyệt vọng.
+- Ngoài ra, để thức tỉnh những người dân thờ ơ trước tình trạng dòng suối nhỏ chảy qua trung tâm làng đầy rác rưởi, ruồi muỗi và giòi bọ,
+- Người lãnh đạo Kim đã đến gặp hiệu trưởng trường Tiểu học Hạc Lâm để nhờ tổ chức lớp đồng hương thực hiện vệ sinh buổi sáng, và đã thành công.
+- Người lãnh đạo (chỉ đạo giả) thường dậy từ sáng sớm, đánh trống đi khắp ngõ ngách để đánh thức các học sinh (học sinh) và cùng nhau dọn dẹp (thanh tảo). Một ngày nọ, có một phụ huynh (phụ mẫu) đã lo lắng nói rằng nếu muốn làm cho làng mới phát triển thì chỉ riêng bản thân ông (đương thân) làm là đủ, tại sao lại bắt con mình không được học hành mà phải đi dọn dẹp.
+- Với tinh thần hợp tác (hiệp đồng tâm) của người dân (trú dân) bắt đầu khó khăn nhen nhóm như vậy và quyết tâm tập trung sức mạnh tổ chức (tổ chức) của câu lạc bộ cải tiến nông nghiệp (nông sự cải lương câu lạc bộ) và hội phụ nữ (phụ nữ hội) vào công cuộc tăng thu nhập (sở đắc tăng đại sự nghiệp),
+- Để cung cấp (cung cấp) các loại rau cao cấp (cao đẳng sơ thái) từ các cơ sở kinh doanh dịch vụ (tiếp khách nghiệp sở) ở núi Sogri (Tục Ly Sơn) vốn được cung cấp với giá cao từ Daejeon (Đại Điền - người ngoại địa) về làng của chúng ta,
+- Thuê 1.200 mét vuông (bình) đất (thổ địa) cá nhân (cá nhân) (điền) để trồng tỉ mỉ các loại cây trồng có hiệu quả kinh tế cao như rau cải thảo, dưa chuột, cà chua, ớt, v.v. (đẳng) thì bất ngờ một trận gió mạnh (cường phong) đã làm hỏng nhà kính ni-lông khiến tất cả cây trồng (tác vật) bị rét hại (lãnh hại) ngay lập tức (nhất thời), khiến toàn bộ dân làng (toàn trú dân) lại một lần nữa chìm trong nỗi thất vọng (thất ý).
+- Trong khi vượt qua (khắc phục) những khó khăn như vậy để tiếp tục dẫn dắt công cuộc làng mới (sự nghiệp), người lãnh đạo Kim (Kim chỉ đạo giả) đã đi hết nhà này đến nhà khác,
+- Ông kêu gọi và thuyết phục mọi người rằng ngôi làng này là nơi tổ tiên (tổ thượng) chúng ta yên nghỉ, là nơi chúng ta sẽ yên nghỉ và con cháu (hậu tôn) chúng ta sẽ sống, nên hãy cùng nhau tham gia toàn diện (tổng hòa tham dự) vào việc phát triển (khai phát) làng.
+- Dần dần, mọi người nhận ra rằng đây chính là sự kiên trì bền bỉ (chấp niệm) của một người lãnh đạo (chỉ đạo giả), là con đường biến điều không thể (bất khả năng) thành có thể (khả năng).
+- Đây cũng là khoảnh khắc mở ra chương (chương) mới của lịch sử (lịch sử), khi nguyện vọng (niệm nguyện) của những người dân nơi đây từng chỉ biết nhìn những ngôi làng lân cận ngày càng phát triển (phát triển) và giàu có bằng ánh mắt ngưỡng mộ (tiện vọng) nay đã dần được tháo gỡ từng nút thắt.
 
 ## 4) 새마을사업(事業)의 발전적(發展的) 추진(推進)
-- 이 마을 주민(住民)은 근면(勤勉) 자조(自助) 협동(協同)의 새마을정신(精神)을 통(通)하여 시련(試錬)과 고난(苦難)을 극복(克服)할 줄 아는 용기(勇氣)를 얻게 되었고 침체(沈滯)와 가난을 헤쳐나갈 수 있는 신념(信念)을 갖게 되었으며 밝은 내일 희망(希望)의 새역사(歷史)를 내다보는 힘찬 약진(躍進)의 도정(途程) 위에서 아래와 같은 사업(事業)을 착실히 추진(推進)하였다.
-- 한많은 보청천(報靑川) 교량(橋梁) 57m를 성공적(成功的)으로 가설(架設)한데 힘입어
+- Người dân (trú dân) trong làng đã có được dũng khí (dũng khí) để vượt qua (khắc phục) thử thách (thí luyện) và khó khăn (khổ nạn) thông qua tinh thần làng mới (tinh thần) cần cù (cần miễn), tự lực (tự trợ) và hợp tác (hiệp đồng), có được niềm tin (tín niệm) để vượt qua sự trì trệ (trầm trệ) và nghèo khó, và có sức mạnh để hướng tới một tương lai tươi sáng (hy vọng) và một lịch sử (lịch sử) mới với bước tiến mạnh mẽ (dược tiến). Trên con đường (đồ trình) đó, họ đã kiên trì thúc đẩy (thôi tiến) các công việc (sự nghiệp) dưới đây:
+- Nhờ thành công trong việc xây dựng (giá thiết) cầu Bocheongcheon (Báo Thanh Xuyên) dài 57m đầy gian nan,
 - 73년도(年度)에 마을 진입로(進入路) 1,200m, 농로(農路) 1,600m, 마을 안길 1,500m을 개설(開設)하여 영농(營農)의 기계화(機械化)는 물론 교통(交通)의 편리를 도모했으며
 
 
@@ -9803,10 +9803,10 @@ Với sự cố gắng của toàn làng, trong vòng một năm, làng đã t�
 ## 8) 특기(特記) 사항(事項)
 
 ### 가) 즐거웠던 일
-# O 75.5.15 마을회관(會舘) 준공(竣工) 때 평소(平素) 무관심(無關心)했던 동네 어른들 모두가 갓과 정장을 하여 나와 흥겹게 즐겨보고 있을 때
+# O Ngày 15/5/1975, khi hoàn thành (tuân công) hội quán làng (hội quán), tất cả những người lớn tuổi trong làng vốn thường thờ ơ (vô quan tâm) đều mặc áo dài và đội mũ ra ngoài vui vẻ thưởng thức.
 # O 77년(年) 2월(月) 전국(全國) 최우수(最優秀) 새마을 부락(部落)으로 선정(選定)되어 내무부(內務部) 장관(長官) 표창(表彰)과 상금(賞金) 20,000,000원(원)을 받았을 때
 # O 77년(年) 행정(行政) 실적(實績) 우수(優秀) 사업비(事業費) 100만(萬)원(원)과 도지사(道知事) 상금(賞金) 1,000,000원(원)을 받았을 때
-# O 난관(難關)을 극복(克服)하여 이룩한 상수도(上水道) 공사(工事) 통수식(通水式) 때 주민(住民)들이 기뻐할 때
+# O Khi lễ thông nước (thông thủy thức) của công trình (công sự) cấp nước (thượng thủy đạo) vượt qua (khắc phục) khó khăn (nan quan) được tổ chức, người dân (trú dân) đều vui mừng.
 # O 77.3.18 정종택(鄭宗澤) 지사(知事)와 육인수(陸寅修) 의원(議員)이 마을(마을) 농장(農場)을 방문(訪問) 격려(激勵)하고 성금(誠金)을 선뜻 내주던 일
 # O 77.8.7 KBS TV에 “새마을 새 살림”이라는 시간(時間)에 군수(郡守), 지도자(指導者), 이장(里長)이 나와 마을(마을) 발전(發展)을 소개(紹介)하는 것을 보고 즐길 때
 # O 76.3.18 김재형(金在衡) 부군수(副郡守)가 미진(未盡) 사업(事業) 격려(激勵)차 와서 시멘트 450포대(包隊)의 지원(支援) 약속(約束)을 해 주었을 때
@@ -9815,7 +9815,7 @@ Với sự cố gắng của toàn làng, trong vòng một năm, làng đã t�
 ### 나) 괴로웠던 일
 # O 마을(마을) 농장(農場) 조성(造成) 시(時) 주민(住民)과 업자(業者) 간에 의견(意見) 충돌(衝突)이 생겨 지도자(指導者)들이 사이(間)에 끼어 해결(解決)하려다 비난(非難)만 듣고 원성(怨聲)을 들었을 때
 # O 인원(人員)에 비해 과도(過度)한 의욕(意慾) 사업(事業)으로 하수구(下水溝), 상수도(上水道) 사업(事業) 및 마을(마을) 농장(農場) 공사(工事) 때 부녀자(婦女子), 아이들까지 야간(夜間) 작업(作業)을 해야만 했을 때
-# O 애써 일구어 놓은 농장(農場)의 모가 77년(年)의 한해(旱害)로 타 들어갈 때가 가장 가슴 아팠다.
+# O Khi mạ của nông trại (nông trường) được vun trồng cẩn thận lại bị héo úa do hạn hán (hạn hại) năm 1977 là lúc đau lòng nhất.
 
 
 --- (p. 313) ---
@@ -10231,45 +10231,45 @@ Trong sự vô cảm của dân làng, chủ tịch làng và thư ký phụ tr�
 
 --- (p. 325) ---
 
-해결과 설득을 시도했지만
+đã cố gắng giải quyết và thuyết phục nhưng
 
--   주민들은 고래로 고질화된 어른으로서 아집으로 견제당하기 일수고 혹 회의를 소집하고 새마을 운동의 참뜻을 설명하고 협동심과 참여의식을 유발하기 위해 노력하였으나 돌아앉아 불평불만으로 소득은 전무했다.
--   이러한 무지의 마을 환경 속에서 중등학교를 나온 신진들의 모임인 4-H클럽의 자원지도자가 되어 새로운 영농기술로써 소득증대사업을 기하고
--   이·동 공동농장을 조성하고 특수작물을 재배하여 수익을 높이는 일과 4-H 경진대회에 출품하여 입상하게 되는 일 등(等)은 주민들의 인식을 달리하게 되었으며
--   점차 새로운 영농방법에 물들기 시작하게 되었으며 이러한 주민들의 움직임에 호응하여 이 마을을 보다 「이상적인 새마을로 만들어 보겠다」는 굳은 각오로 지도자를 자원하게 되었다.
+- Người dân từ trước đến nay luôn bị kìm hãm bởi sự cố chấp của những người lớn tuổi đã trở thành thói quen, dù đã tổ chức họp và giải thích ý nghĩa thực sự của phong trào làng mới, nỗ lực khơi dậy tinh thần hợp tác và ý thức tham gia nhưng họ vẫn ngồi đó phàn nàn và bất mãn, không thu được kết quả gì.
+-   Trong môi trường làng quê thiếu hiểu biết như vậy, trở thành người hướng dẫn tình nguyện của câu lạc bộ 4-H – một tổ chức tập hợp những thanh niên mới tốt nghiệp trung học – nhằm thúc đẩy tăng thu nhập thông qua các kỹ thuật canh tác mới
+-   Việc thành lập trang trại nông nghiệp chung di động, trồng các loại cây trồng đặc sản để tăng lợi nhuận, cũng như tham gia và đạt giải trong các cuộc thi 4-H, v.v. đã làm thay đổi nhận thức của người dân
+-   Dần dần, người dân bắt đầu tiếp cận với những phương pháp canh tác mới, và để đáp lại sự chuyển biến này, với quyết tâm biến ngôi làng này thành một "Làng mới lý tưởng", tôi đã tình nguyện trở thành người lãnh đạo.
 
 ### 3) 애로극복상황(隘路克服狀況)
 
--   새마을 지도자를 자원한 뒤 군 지도소나 면으로부터 새로운 영농방법에 관한 서적이나 잡지를 구매하여
--   주민들이 잘 모이는 사랑방이나 가정을 방문하여 새로운 농사방법이나 뉴스 등(等)으로 주민들의 인식을 새롭게 하며
--   과거 재래식 농사방법에서 오는 여러 가지 폐단과 가까운 일본이 전후 폐허를 딛고 일어나 새롭게 부흥하게 된 일인들의 농촌생활상 등(等)을 실례로 들어가며 설득을 꾀하였으나
--   주민들의 반응은 무관심 그대로였으며 오히려 「그렇게 똑똑하면 면장이나 국회의원이나 하지」하는 무지의 호형이었다. 이러던 중 이 마을에서도 중류층에 속하는 지씨가 소침한 심정으로 방문해 왔다.
--   아랫 마을 청천면 대전리 마을 지도자가 「상의할 일이 있으니 와달라」는 기별을 받고 가 보았더니 「새마을 농로를 축조하는데 당신 땅이 들어가니 당신 마을로도 이 길이 이어지니 토지를 희사하라」는 말이어서 하루 종일 「희사해 달라」 「안된다」 다투고 왔으니 「이 일을 어찌하면 좋겠느냐?」하는 것이었다. 분을 이기지 못하는 지씨는 「명일은 온 집안을 대동하여 가서 패싸움이라도 해야겠다」는 말이며 이 마을에서도 청년들이 협조해 줄 것을 종용차 온 것이다.
--   이러한 상황하에서 온 마을에 이것이 화제가 되고 다음날 농경지가 인접해 있는 수십명의 주민들이 지원겸 참관도 하기 위하여 대전리 부락으로 모여들게 되었다.
--   여기서 쌍방간 시비곡절을 논하게 됨에 따른 주장은 어디까지나 아전인수격이었다.
-거듭되는 논란 끝에 이들은 덕평을 기점으로 방성리 마을까지 5km 지점에 이르는 곳까지 그 전에 없던 대로가 생기게 됨으로써
--   우마차나 택시가 무난히 통행할 수 있다는 점과 대전리 마을 주민들 중 방성리 마을 쪽으로 농경지를 소유하고 있는 자가 많다는 점을 감안하여 서로가 소요되는 농경지희사문제가 대(大)
+-   Sau khi tình nguyện làm người lãnh đạo Làng mới, tôi đã mua sách báo và tạp chí về các phương pháp canh tác mới từ trung tâm hướng dẫn huyện hoặc xã
+-   Đến thăm những nơi người dân thường tụ tập như phòng sinh hoạt cộng đồng hay các gia đình để giới thiệu phương pháp làm nông mới và các tin tức, v.v. nhằm thay đổi nhận thức của người dân
+-   Tôi đã cố gắng thuyết phục họ bằng những ví dụ thực tế về những bất cập từ phương pháp canh tác truyền thống cũ, cũng như câu chuyện về việc Nhật Bản sau chiến tranh đã vực dậy từ đống tro tàn và làm mới đời sống nông thôn, v.v.
+-   Tuy nhiên, phản ứng của người dân vẫn là sự thờ ơ, thậm chí còn có những lời nói thiếu hiểu biết như: "Nếu thông minh như vậy thì làm chủ tịch xã hay đại biểu quốc hội đi". Trong lúc đó, ông Ji – một người thuộc tầng lớp trung lưu trong làng – đã đến thăm với tâm trạng chán nản.
+-   Ông nhận được tin nhắn từ người lãnh đạo làng Đại Điền, xã Thanh Thiên, thôn dưới rằng: "Có việc cần bàn, mời ông đến". Khi đến nơi, ông được thông báo: "Đường nông thôn mới của Làng mới đang được xây dựng sẽ đi qua đất của ông, vì con đường này cũng nối đến làng ông, nên xin ông hiến đất". Sau một ngày tranh cãi giữa "xin hiến đất" và "không được", ông Ji trở về với câu hỏi: "Việc này phải giải quyết thế nào?". Không kìm được tức giận, ông Ji nói: "Ngày mai cả nhà tôi sẽ kéo đến để đánh nhau nếu cần". Đồng thời, ông cũng đến vận động thanh niên trong làng hỗ trợ.
+-   Trong tình huống đó, việc này trở thành đề tài bàn tán khắp làng, và ngày hôm sau, hàng chục người dân có đất nông nghiệp liền kề đã kéo đến thôn Đại Điền để hỗ trợ và cũng để tận mắt chứng kiến.
+-   Khi tranh luận về lý lẽ của đôi bên, lập luận của mỗi bên đều mang tính vị kỷ, chỉ nghĩ cho lợi ích của mình.
+Sau nhiều cuộc tranh luận, cuối cùng họ thống nhất rằng từ Đức Bình làm điểm khởi đầu đến làng Phòng Thành cách đó 5km sẽ mở một con đường mới chưa từng có trước đây, nhờ đó
+-   Xe bò và taxi có thể đi lại thuận tiện, đồng thời xét đến việc nhiều người dân làng Đại Điền sở hữu đất nông nghiệp ở phía làng Phòng Thành
 
 
 --- (p. 326) ---
 
-동소이(同小異)하다는 점에 의견(意見)을 모으게 되어
-O 양(兩) 마을 지도자(指導者)가 구수회의(口授會議)를 한 나머지 방성리(方城里)마을 까지 이르는 2km에 달하는 진입로(進入路)를 축조키로 하는데 의견(意見)을 모았다.
-O 여기서 일단 어느 정도(程度) 인식(認識)이 가게 된 마을 사람들을 마을로 인도하고 돌아와서 마을 진입로(進入路) 확장(擴張)을 위한(爲한) 주민총회(住民總會)를 소집(召集)하게 되었다.
-O 사업계획(事業計劃)을 설명(說明)하고 진입로(進入路)에 편입(編入)될 토지(土地)가 밝혀지자 회의장(會議場)은 이를 반대(反對)하는 일부(一部) 주민(住民)들의 아우성으로 수라장이 되었다.
-O 그러나 일부(一部) 주민(住民)들의 설득(說得)과 무마로 안정(安定)을 찾아 이성(理性)을 되찾은 주민(住民)들이 노력부담(努力負擔)을 자원(自願)하였고 마을 진입로사업(進入路事業)은 시작(始作)되었으나 막상 현장(現場)에서 설계(設計)대로 줄자로 바르게 선을 그어 놓으면 이를 옮기는 등 애로가 따르게 마련이었다.
-O 이렇게 하여 난관(難關)을 거듭한 진입로확장공사(進入路擴張工事)는 다음 해 72년 2월 8일에 완전히 주민자력(住民自力)으로 마쳤을 때는 완성(完成)된 훤히 뚫린 진입로(進入路)를 따라 통행(通行)하는 주민(住民)들의 발걸음도 가벼웠으며 짓궂게 반대(反對)만 하던 일부(一部) 주민(住民)들도 「새마을 사업은 하고 볼 일이야」하며 웃는 얼굴로 대할 때 무한(無限)한 가능(可能)과 감회(感懷)를 맛보았다.
+họ đã thống nhất rằng vấn đề hiến đất nông nghiệp cần thiết cho cả hai bên tuy có khác biệt nhỏ nhưng về cơ bản là giống nhau,
+Hai bên lãnh đạo của hai làng đã tổ chức một cuộc họp bàn bạc và đi đến thống nhất sẽ xây dựng con đường dẫn vào dài 2km đến làng Phòng Thành.
+Sau khi đưa những người dân đã có sự thay đổi nhất định về nhận thức trở về làng, tôi trở về và triệu tập cuộc họp toàn dân để mở rộng con đường dẫn vào làng.
+O Khi kế hoạch kinh doanh (事業計劃) được giải thích (說明) và những mảnh đất (土地) sẽ được đưa vào làm đường vào (進入路) được công bố, hội trường (會議場) đã trở thành một bãi chiến trường với tiếng la ó phản đối (反對) của một bộ phận (一部) người dân (住民).
+O Tuy nhiên, sau khi thuyết phục (說得) và xoa dịu một bộ phận (一部) người dân (住民), những người dân đã lấy lại được sự bình tĩnh (安定) và lý trí (理性) đã tự nguyện (自願) gánh vác nỗ lực (努力負擔), và dự án đường vào làng (進入路事業) đã được khởi công (始作). Thế nhưng, khi thực tế tại hiện trường (現場), nếu vẽ đường thẳng theo đúng thiết kế (設計) bằng thước dây, thì lại có người di dời đường vẽ, và nhiều khó khăn (애로) cứ thế nối tiếp nhau.
+O Sau khi vượt qua nhiều khó khăn (難關) như vậy, công trình mở rộng đường vào (進入路擴張工事) cuối cùng đã hoàn thành (完成) hoàn toàn bằng sức dân (住民自力) vào ngày 8 tháng 2 năm 72. Khi đó, bước chân của người dân (住民) đi lại (通行) trên con đường vào (進入路) rộng rãi và thông thoáng cũng trở nên nhẹ nhàng hơn, và ngay cả những người dân (住民) từng phản đối (反對) một cách cố chấp cũng cười nói rằng: “Dự án làng mới là việc nên làm rồi tính sau”, và họ đã cảm nhận được khả năng (可能) vô hạn (無限) cùng những cảm xúc sâu lắng (感懷).
 
 ## 4) 새마을사업(새마을事業)의 발전적(發展的) 추진(推進)
 
-O 마을 진입로확장사업(進入路擴張事業)을 거울삼아 72년 2월부터 600m에 달하는 4개소(個所)의 마을 안길 확장 사업을 손쉽게 뚫을 수 있었다.
-O 마을 안길 확장사업에 수반(隨伴)하여 담장 개량사업이 함께 이루어져 지역적(地域的)으로 돌이 많은 흙담 돌담을 아담하게 축조(築造)하였다. 62개소(個所) 2,850m에 달하는(達하는) 돌담은 위에 기와를 입혀 놓으니 천하일품(天下逸品)이다.
-O 같은 해 정부(政府)지원 양회 335포대(袋)를 지원받아 하수구 보수사업 6개소(個所) 850m와 일부(一部) 조립식(組立式) 부려담장을 축조(築造)하였다.
-O 72년 10월 정부(政府)지원 자재 양회 및 철근으로 이동(里洞) 마을 창고(倉庫)를 규모(規模) 30평(坪) 정도의 아담한 건물(建物)을 착수(着手)하고 이동(里洞) 공동기금(共同基金)을 투입(投入)하여 73년에 완공(完工)하였다.
-O 73년에 지붕 개량사업이 시작(始作)되어 먼지투성이의 수라장 속에서 대공사(大工事)가 마을 주민(住民)들의 끈질긴 노력(努力)과 고심(苦心) 끝에 장장 8개월(個月) 만에 82동(棟)이 말끔히 탈바꿈되었다. 같은 해 12동(棟)의 주택(住宅)이 개량(改良)되었으며 마을 앞 세천 정비 2개소(個所) 500m, 소하천(小河川) 3개소(個所)와 550m의 수로(水路) 바로 잡기 사업을 이룩했으며
-O 74년에는 정부(政府)지원으로 4개소(個所) 24m의 소교량사업(小橋梁事業)이 이루어졌고 5월에는 이 마을의 숙원(宿願)인 전화사업(電化事業)이 이루어져 50호(戶)에 불을 밝혔다.
-O 75년에는 간이급수시설(簡易給水施設)을 38호(戶)에 설치(設置)했으며 환경미화사업(環境美化事業)으로 벽체 도색과 부엌 개량을 마무리 짓고
-O 76년에는 환경개선사업(環境改善 事業)과 위생사업(衛生事業)으로 36동(棟)의 지붕 도색사업(塗色事業)과 28동(棟)의 벽체(壁體) 바르기, 33동(棟)의 변소개량(便所改良) 그리고 42동(棟)의 부엌 개량사업(改良事業)을 마무리지었다.
+O Lấy việc mở rộng dự án đường vào làng (進入路擴張事業) làm tấm gương, từ tháng 2 năm 72, họ đã dễ dàng mở rộng được 4 đoạn đường trong làng với tổng chiều dài 600m.
+O Cùng với việc mở rộng đường trong làng, công trình cải tạo tường rào cũng được tiến hành đồng thời, xây dựng (築造) những bức tường đất đá kiên cố và đẹp mắt với những viên đá có sẵn trong vùng. 62 đoạn tường đá dài tổng cộng 2.850m (達하는) sau khi được lợp ngói trở nên tuyệt phẩm (天下逸品).
+O Trong cùng năm đó, nhận được sự hỗ trợ của chính phủ (政府) với 335 bao xi măng, họ đã sửa chữa 6 đoạn cống thoát nước dài 850m và xây dựng (築造) một số bức tường rào lắp ghép (組立式).
+O Tháng 10 năm 72, với vật liệu hỗ trợ từ chính phủ (政府) là xi măng và thép, họ đã khởi công (着手) xây dựng kho chứa (倉庫) của làng (里洞) với quy mô (規模) khoảng 30 thước vuông (坪), và sử dụng quỹ chung (共同基金) của làng (里洞) để hoàn thành (完工) vào năm 73.
+O Năm 73, công trình cải tạo mái nhà được khởi công (始作), và trong bối cảnh công trường đầy bụi bặm, nhờ sự nỗ lực (努力) bền bỉ và tâm huyết (苦心) của người dân (住民) trong làng, sau 8 tháng (個月), 82 ngôi nhà (棟) đã được thay đổi diện mạo hoàn toàn. Trong cùng năm đó, 12 ngôi nhà (棟) đã được cải tạo (改良), cùng với việc chỉnh trang 2 đoạn kênh dài 500m trước làng, 3 đoạn sông nhỏ (小河川) và 550m kênh dẫn nước (水路).
+O Năm 74, với sự hỗ trợ của chính phủ (政府), 4 cây cầu nhỏ (小橋梁事業) với tổng chiều dài 24m đã được xây dựng, và vào tháng 5, ước mơ lâu nay của làng là có điện thoại (電化事業) đã trở thành hiện thực, thắp sáng cho 50 hộ gia đình (戶).
+O Năm 75, hệ thống cấp nước đơn giản (簡易給水施設) đã được lắp đặt cho 38 hộ gia đình (戶), và công trình làm đẹp môi trường (環境美化事業) như sơn tường và cải tạo bếp đã được hoàn tất.
+O Năm 76, thông qua các dự án cải thiện môi trường (環境改善事業) và vệ sinh (衛生事業), họ đã hoàn thành việc sơn mái cho 36 ngôi nhà (棟), trát tường cho 28 ngôi nhà (棟), cải tạo nhà vệ sinh cho 33 ngôi nhà (棟), và cải tạo bếp cho 42 ngôi nhà (棟).
 
 
 --- (p. 327) ---
@@ -10548,7 +10548,7 @@ Khi có việc vất vả, hãy thảo luận với nhau. Do thời gian đã qu
 Theo quyết định của Đại hội Dân cư(住民總會), Ủy viên Phát triển(開發委員) ký tên, ấn dấu.
 
 Ủy viên Phát triển(開發委員)
-이세중 김옥선 이배중 지장훈
+Lee Se-jung, Kim Ok-seon, Lee Bae-jung, Ji Jang-hun
 박광우 이중일 윤석채
 민옥선 이영중 이응성
 
@@ -10638,11 +10638,11 @@ Nếu như vậy, thì dự án này phải mang lại lợi nhuận. Theo tôi,
 
 --- (p. 336) ---
 
-개발위원회(開發委員會)에서 결정하도록 위임하고 낮에 일들을 하고 고단한데 이렇게 결정짓고 헤어지는 것이 어떻소?
+Ủy quyền cho Ủy ban Phát triển (開發委員會) quyết định, ban ngày mọi người làm việc mệt nhọc, vậy việc đưa ra quyết định như thế này rồi giải tán thì thế nào?
 일 동: 좋습니다.
-사회자 : 오늘 회의는 염소단지 조성(造成)을 하는 것으로 결정되었으며 기타 세부계획(細部計劃)은 개발위원회(開發委員會) 의에서 결정하여 집행(執行)하겠으며 그렇게 아시고 군청(郡廳) 새마을계(契)에서 임석(臨席)하신 조주사(助主事)님께서 우리 마을을 위해서 많은 성원(聲援)과 협조(協助)를 해주셨는데 감사(感謝)하는 뜻으로 박수(拍手)를 보내주시기 바랍니다.
+Người điều hành: Cuộc họp hôm nay đã quyết định tiến hành xây dựng (造成) khu chăn nuôi dê, các kế hoạch chi tiết (細部計劃) khác sẽ do Ủy ban Phát triển (開發委員會) quyết định và thực hiện (執行). Xin quý vị biết rằng ông Phó chủ sự (助主事) từ Ban Phát triển Nông thôn mới (新마을契) của huyện (郡廳) đã đến tham dự (臨席) và dành nhiều sự ủng hộ (聲援) và hợp tác (協助) cho làng chúng ta. Để bày tỏ lòng biết ơn (感謝), xin mời mọi người dành một tràng pháo tay (拍手).
 조확태(趙確泰)(군청(郡廳) 새마을계(契)) : 일어서서 답례(答禮). 간단한 위로(慰勞) 격려(激勵)
-사회 : 오늘 회의(會議)는 이상(以上)으로 마치겠습니다. 안녕히 돌아가십시오.
+Người điều hành: Cuộc họp (會議) hôm nay đến đây là kết thúc (以上). Xin chào tạm biệt và hẹn gặp lại.
 1977. 11. 16
 주민 총회(總會) 결의(決議)에 의하여 개발위원(開發委員) 서명(署名) 날인(捺印)함.
 
@@ -10651,8 +10651,8 @@ Nếu như vậy, thì dự án này phải mang lại lợi nhuận. Theo tôi,
 #### 1) 환경(環境) 개선(改善) 사업(事業)
 
 *   마을 공동(共同) 부지(敷地)를 마련하여 30평(坪)∼40평(坪) 정도(程度)의 마을 회관(會舘)을 건립(建立)하여 회관(會舘) 내에 회의실(會議室), 리동(里洞) 금고(金庫), 어린이 공부방(工夫房), 마을 문고(文庫) 등(等)을 만들어 마을 발전(發展)을 효율적(効率的)으로 운영(運營)하겠다.
-*   임야(林野) 1ha를 구입(購入) 어린이 놀이터를 만들어 자라나는 어린이들에게 정서(情緖)를 길러주고
-*   5평(坪) 정도(程度)의 부지(敷地)를 구입(購入)하여 노인(老人)들을 위한(爲한) 경노당(敬老堂)을 건립(建立)하여 노인(老人)들의 오락(娛樂) 시설(施設)을 비치하고 노인(老人)들의 안식처(安息處)를 만들겠다.
+*   Mua 1ha đất rừng để xây dựng sân chơi cho trẻ em, nhằm bồi dưỡng tình cảm (tình cảm) cho các em đang lớn lên
+*   Mua khoảng 5 *pyeong* (坪) đất để xây dựng *Kính lão đường* (nơi tôn vinh người cao tuổi) dành cho người già, trang bị các phương tiện giải trí và tạo nơi nghỉ ngơi cho họ.
 
 #### 2) 생산(生産) 기반(基盤) 조성(造成) 사업(事業)
 
@@ -10662,10 +10662,10 @@ Nếu như vậy, thì dự án này phải mang lại lợi nhuận. Theo tôi,
 
 *   감나무 단지(團地)를 6ha 더 조성(造成)하고 대추나무 단지(團地)를 4ha, 밤나무 단지를 3ha를 조성(造成)하며, 비육우(肥育牛)를 25두(頭) 더 입식(入殖)시킨다.
 *   리동(里洞) 구판장(購販場)을 더 확충(擴充)하고 구판장(購販場) 건물(建物)을 건립(建立)하고 마을에서 구판(購販) 요원(要員)을 선정(選定) 판매(販賣) 범위(範圍)를 확대(擴大)하여 마을의 특산물(特產物)의 외지(外地)로의 위탁(委託) 판매(販賣)와 비닐, 농약(農藥)도 위임(委任) 구입(購入)토록 한다.
-*   마을에 공동(共同) 작업장(作業場)을 만들고 농한기(農閑期)를 이용(利用), 새끼꼬기, 가마기치기, 잠박 등(等)을 만든다.
-*   마을에 공동(共同) 건조장(乾操場)을 만들어 고추치기, 꼬감찌기, 한약재(漢藥材) 등(等)을 건조시킨다.
-*   마을에 공동(共同) 퇴비사(堆肥舍)를 조성(造成)하고 공동 풀베기를 실시(實施), 퇴비(堆肥)를 증산(增產)하여 노후된 농경지(農耕地)의 지력(地力)을 갱신(更新)시켜 소득(所得) 증대(增大)에 기여한다.
-*   국가(國家) 시책(施策)의 일환(一環)으로 78연도(年度) 새마을 자립마을로 육성(育成)시키고 가일층(加一層) 이상적(理想的)인 새마을 사업(事業)을 추진(推進)하여 대망(大望)의 80년(年)에는 시범(示範) 부락(部落)으로서의 발돋움으로 이 깊은 산골짜기 마을에 기적의 이상촌(理想村)을 건설(建設)하여 지상(地上) 낙원(樂園)을 만들겠다.
+*   Xây dựng xưởng làm việc chung trong làng, tận dụng thời gian nông nhàn để làm các sản phẩm như bện dây thừng, đan giỏ, làm chiếu cói, v.v.
+*   Xây dựng sân phơi chung trong làng để phơi ớt, phơi tỏi, phơi dược liệu Đông y, v.v.
+*   Xây dựng kho phân compost chung trong làng, thực hiện việc cắt cỏ chung để tăng sản lượng phân compost, cải tạo lại độ phì nhiêu của đất nông nghiệp đã xuống cấp, góp phần tăng thu nhập.
+*   Là một phần trong chính sách của nhà nước, vào năm 1978, làng được phát triển thành làng tự lực trong phong trào *Saemaeul*, đẩy mạnh các dự án *Saemaeul* lý tưởng hơn nữa, và đến năm 1980 đầy khát vọng, làng sẽ vươn lên trở thành một thôn mẫu, xây dựng một ngôi làng lý tưởng kỳ diệu trong thung lũng núi sâu này, biến nơi đây thành thiên đường trên mặt đất.
 
 
 --- (p. 337) ---
@@ -11442,10 +11442,10 @@ Hoạt động của ông trong 5 năm làm trưởng làng (里長) và 7 năm 
 
 --- (p. 361) ---
 
-는 물론(勿論) 주막(酒幕) 술타령으로 한 세월만 보내는 방탕인(放湯人)을 이해(理解)와 설득(說得)으로 정신개발(精神開發)을 시도(試圖)하였으나 무관심(無關心) 상태(狀態)였다. 지도자(指導者)는 시간(時間)이 있는 대로 호별방문(戶別訪問)으로 설득(說得)을 하였으나 누구하나 호응(呼應)하여 주는 자(者)도 없었으며 혼자만 애타게 뛰었다.
-O 김 지도자(指導者)는 생각 끝에 동네 어른들에게 찾아가 사정(事情)을 말씀드리고 잘살려고 하는 일이오니 도와달라고 간청(懇請)하였다. 이렇게 하여 주민총회(住民總會)가 개최(開催)된바 웬일인지 유례(類例)없이 많은 주민(住民)이 참석(參席)하여 계획(計劃)했던 마을 개발계획(開發計劃)을 토의(討議)하여 결정(決定)을 보았으나 수일후(數日後) 진입로확장공사(進入路擴張工事)가 착공(着工)되자 난관(難關)에 부딪쳤다.
-“남의 땅 빼앗는 것이 새마을 사업(事業)이냐”며 죽어도 내 땅은 안 된다고 곡괭이질하는 앞에 드러눕는 80 노인(老人)의 완강(頑強)한 반대(反對), 간신히 억류(抑留)하여 작업(作業)을 계속(繼續)시키기를 여러 차례, 이러한 역경(逆境)을 거쳐 드디어 1km의 진입로(進入路)가 47일(日)의 각고(刻苦) 끝에 완성(完成)시켰던 일은 잊을 수가 없다.
-O 마을 앞 조천천(鳥川川)에 폭(幅) 5m 길이 40m의 이 마을 숙원사업(宿願事業)이기도 한 교량가설작업(橋梁架設作業)을 계획(計劃)하여 총공사비(總工事費) 300만(萬) 원 중(中) 60만(萬) 원의 자체자금(自體資金)으로 착공(着工)하고 주민(住民)들을 설득(說得)하여 자금(資金)을 염출(捻出)코자 하였으나 외면당(外面當)했을 때 교량(橋梁)을 포기(抛棄)할 수 없어 외지인사(外地人事)를 찾아가 모금(募金)도 하고 마을에서 거출(據出)도 하였으나 어림 없었다. 주민(住民)들의 협동심(協同心)과 열의(熱意)만으로 대교량사업(大橋梁事業)이 착수(着手)된 것을 알고 현지(現地)에 들리신 유웅렬 군수(郡守)로부터의 격려(激勵)와 지원(支援)을 약속(約束)받고 용기(勇氣)를 냈으며 새마을운동(새마을運動)의 시험사업(試驗事業)으로 지원(支援)된 양회(洋灰) 335대(袋)는 교량가설사업(橋梁架設作業)을 성공적(成功的)으로 이끈 계기(契機)가 되었으며 양곡리(陽谷里) 새마을 사업(事業)을 점화(點火)시켰다.
+tất nhiên không chỉ là những kẻ phóng đãng suốt ngày chỉ biết uống rượu ở quán rượu mà còn cố gắng thuyết phục và phát triển tinh thần cho họ, nhưng họ vẫn thờ ơ. Người lãnh đạo đã dành thời gian đến thăm từng nhà để thuyết phục, nhưng không ai hưởng ứng, chỉ có một mình ông ấy cố gắng hết sức.
+Ông Kim, người lãnh đạo, sau khi suy nghĩ đã đến gặp các bậc cao niên trong làng để trình bày hoàn cảnh và cầu xin sự giúp đỡ vì đây là việc làm để sống tốt hơn. Nhờ vậy, một cuộc họp dân cư đã được tổ chức, và thật bất ngờ, rất nhiều người dân đã tham dự một cách chưa từng có. Họ đã thảo luận và quyết định kế hoạch phát triển làng như đã dự định, nhưng vài ngày sau khi khởi công công trình mở rộng đường vào, họ đã gặp phải khó khăn.
+“Lấy đất của người khác có phải là việc làm của phong trào *Saemaeul* không?” Một cụ già 80 tuổi nằm vật ra trước mặt, cầm cuốc kiên quyết phản đối: “Dù có chết cũng không cho đất của tôi”. Sau nhiều lần cố gắng thuyết phục để tiếp tục công việc, vượt qua nghịch cảnh, cuối cùng con đường dài 1km đã được hoàn thành sau 47 ngày nỗ lực không ngừng, điều này không thể nào quên.
+Ông đã lên kế hoạch xây dựng cây cầu dài 40m, rộng 5m bắc qua suối *Jocheon* trước làng – một công trình mơ ước từ lâu của dân làng. Tổng chi phí công trình là 3 triệu won, trong đó 600.000 won là vốn tự có, và ông đã cố gắng thuyết phục người dân đóng góp thêm nhưng bị từ chối. Không thể từ bỏ việc xây cầu, ông đã tìm đến những người ngoài làng để quyên góp và kêu gọi sự hỗ trợ từ trong làng, nhưng đều không thành công. Chỉ với tinh thần đoàn kết và nhiệt huyết của người dân, công trình xây dựng cầu lớn mới được khởi công. Khi biết tin, ông *Yu Ung-ryeol*, quận trưởng, đã đến thăm hiện trường, động viên và hứa sẽ hỗ trợ. Nhận được 335 bao xi măng từ chương trình thử nghiệm phong trào *Saemaeul* đã trở thành bước ngoặt giúp công trình xây cầu thành công, đồng thời khơi dậy phong trào *Saemaeul* ở làng *Yangok*.
 
 ### 4) 토지희사상황(土地喜捨狀況)
 
@@ -12005,13 +12005,13 @@ Cầu "Ga-neu-seol" dài 7m, rộng 4m, cao 3m, và cầu "Jeongmun" dài 10m, r
 
 --- (p. 375) ---
 
-와 맡아 끝내 주셨으면 감사하겠습니다.
+và mong rằng quý vị sẽ đảm nhận và hoàn thành công việc này. Xin chân thành cảm ơn.
 동민일동 : 좋습니다.
 김재민 : 이장은 편하겠네 !
-사회자 : 나는 대외적(對外的) 문제(問題)나 반장(班長) 책임자(責任者)와 또 일하게 되는 것입니다.
-그러면 이상(以上)으로서 회의(會議)는 끝내겠으니 반장(班長)은 일정(日程)을 정하여 시공(施工)토록하여 주십시오.
+Người điều hành: Tôi sẽ phụ trách các vấn đề đối ngoại hoặc làm việc với trưởng nhóm và những người chịu trách nhiệm khác.
+Vậy chúng ta sẽ kết thúc cuộc họp tại đây, trưởng nhóm hãy sắp xếp lịch trình và tiến hành thi công.
 감사합니다.
-참석자(參席者) 대표(代表) : 김기희, 김경회, 김재구, 김재우, 이순배, 이상문, 임한복.
+Đại diện người tham dự: Kim Ki-hee, Kim Kyung-hwe, Kim Jae-gu, Kim Jae-woo, Lee Soon-bae, Lee Sang-mun, Lim Han-bok.
 
 ♦ 회의록(會議錄) (7)
 
@@ -12022,7 +12022,7 @@ Cầu "Ga-neu-seol" dài 7m, rộng 4m, cao 3m, và cầu "Jeongmun" dài 10m, r
 불참(不參) 인원(人員) : 26명(名)
 사회자(司會者) : 지도자(指導者) 김승회(金承會)
 
-사회자(司會者) : 금번(今番) 정부(政府)에서는 협동권(協同圈) 창고(倉庫) 50평(坪) 건물(建物) 1동(棟)을 양곡(陽谷) 달전리(達田里) 협동권(協同圈) 사업(事業)으로 지원(支援)하는데 이점에 대해 말씀 드리고자 회의(會議) 소집(召集)을 한 것입니다. 건물(建物)의 규모(規模)는 50평(坪)이고 총(總) 공사(工事)비 4백만원(萬圓)인데 정부(政府) 지원(支援)이 2백만원(萬圓)이고 주민(住民) 부담(負擔)이 2백만원(萬圓)입니다. 이 창고(倉庫)를 양곡(陽谷) 달전(達田)리(里)에서 지원(支援) 받아 질수 있나를 상의(商議) 하고자 합니다.
+Người điều hành: Trong đợt này, chính phủ hỗ trợ xây dựng một kho chứa 50 *pyeong* cho dự án hợp tác xã ở thôn *Daljeon*, xã *Yangok*. Tôi triệu tập cuộc họp này để thông báo về vấn đề này. Quy mô công trình là 50 *pyeong*, tổng chi phí xây dựng là 4 triệu won, trong đó chính phủ hỗ trợ 2 triệu won và người dân đóng góp 2 triệu won. Chúng ta sẽ thảo luận xem liệu thôn *Daljeon*, xã *Yangok* có thể nhận được sự hỗ trợ này hay không.
 김진봉 : 설계서(設計書)가 있는 것인가요?
 사회자(司會者) : 설계서(設計書)는 조치원(鳥致院) 신도(新都) 건축(建築) 사무실(事務室)에서 설계(設計)하고 있다 합니다.
 김진봉 : 설계서(設計書)가 오면 구체적(具體的)인 것은 알겠군. 이 문제(問題)에 달전리(達田里)는 어떻게 한다 합니까?
@@ -13524,19 +13524,19 @@ Kim Jae-gil: Nếu mở đường vào làng, thì ít nhất phải rộng 3m, 
 (일동 일제히 김인석씨를 돌아본다)
 **사 회**: 감사합니다. 여러분들도 고마움을 표시하는 뜻에서 박수를 보냅시다. (일동 크게 박수를 친다) 또 다음 분 없습니까?
 **김복남**: 나는 안돼! 그게 어떤 땅인데! 그리고 왜 내 땅만 제일 많이 들어가?
-**김인석**: 아니! 땅 300평으로 그런 도로를 살 것 같아요? 어림도 없어요 그리고 한 사람이라도 반대한다면 새마을사업은 여기서 끝나고 마는 거야!
+**Kim In-seok**: Không đời nào! Ai lại bỏ ra mua con đường đó với 300 pyong đất chứ? Không thể nào! Và chỉ cần một người phản đối thôi thì dự án Saemaul ở đây sẽ kết thúc ngay lập tức!
 **김중달**: 저도 내놓겠어!
-**김택원**: 나도 밭을 내놓겠어!
-**사 회**: 여러분의 그 용단(勇斷) 대단히 감사합니다. 이제는 김복남씨만 남았습니다. 김복남씨가 땅을 희사하느냐 안하느냐에 따라 새마을사업을 하고 못하고가 달렸습니다. 후대(後代)들을 위해서 어려우셔도 희사(喜捨)해 주시길 바랍니다.
-**일 동**: 우리는 안 내놓으니 할 말은 없지만 어떻게 하겠어? 김주사님이 부락(部落)을 위해서 내놔야죠!
-**김복남**: (한참동안 생각하다가) 나 때문에 새마을사업을 못한다니 할 수 없구만……
+**Kim Taek-won**: Tôi cũng sẽ hiến đất ruộng của mình!
+**Chủ tịch**: Xin chân thành cảm ơn sự quyết đoán dũng cảm của quý vị. Bây giờ chỉ còn ông Kim Bok-nam thôi. Việc dự án Saemaul có thực hiện được hay không phụ thuộc vào việc ông Kim Bok-nam có hiến đất hay không. Vì thế hệ mai sau, dù khó khăn, mong ông hãy hiến tặng đất đai.
+**Một người**: Chúng tôi không hiến đất thì cũng chẳng nói gì được, nhưng biết làm sao bây giờ? Ông Kim chủ nhiệm phải hiến vì lợi ích của thôn làng thôi!
+**Kim Bok-nam**: (Suy nghĩ một hồi lâu) Không lẽ vì tôi mà dự án Saemaul không thực hiện được... Thôi được rồi...
 **일 동**: (고마운 표정으로 바라보며 박수로 환영한다)
-**사 회**: 감사합니다. 여러분이 이렇게 쉽게 협조(協助)해 주시니 앞으로 우리 마을의 새마을사업은 문제 없을 것으로 압니다. 감사합니다. 그럼 다음은 농로(農路) 개설(開設)에 대해서 논의(論議)하겠습니다. 좋은 의견(意見) 있으시면 말씀해 주십시오.
-**최동진**: 뒤로 넘어가는 농로는 마을 진입로(進入路)를 추진하면서 무리(無理)하지 않는 범위(範圍)에서 하는 것이 좋을 것 같습니다. 한꺼번에 많이 하려다 이것도 저것도 안되면 오히려 역효과(逆效果) 이니까요.
-**사 회**: 좋습니다. 그럼 농로(農路) 개설(開設)은 뒤로 미루고 진입로(進入路) 확장(擴張)은 내일이 판교장(板橋場)이니 장에 다녀와서 모레부터 시작하기로 하고 오늘 회의는 이만 폐회(閉會)합시다. 안녕히 가십시오.
+**Chủ tịch**: Xin cảm ơn. Với sự hợp tác dễ dàng như thế này của quý vị, chúng tôi tin rằng dự án Saemaul của làng ta sẽ không gặp trở ngại gì. Xin cảm ơn. Vậy tiếp theo, chúng ta sẽ thảo luận về việc mở đường nông thôn. Xin mời quý vị có ý kiến hay đóng góp.
+**Choi Dong-jin**: Về đường nông thôn đi vòng phía sau, theo tôi nên thực hiện trong phạm vi hợp lý khi mở rộng đường vào làng để tránh làm quá nhiều cùng lúc rồi không hoàn thành được việc gì, gây phản tác dụng.
+**Chủ tịch**: Được rồi. Vậy việc mở đường nông thôn sẽ tạm hoãn lại, còn việc mở rộng đường vào làng sẽ bắt đầu từ ngày mốt sau khi mọi người đi chợ판 ở Pan-gyo vào ngày mai. Buổi họp hôm nay xin được kết thúc tại đây. Xin chào quý vị và hẹn gặp lại.
 
 ### 서명(署名) 날인(捺印)
-오세종, 이종철, 김중근, 명노현, 김중집, 전기복, 김의환, 김중달, 김중화, 나학석, 이순환, 김영열, 김재길, 유병선, 김세원, 김중선, 우창호, 최경진 외 25명.
+Oh Se-jong, Lee Jong-cheol, Kim Jung-geun, Myeong No-hyeon, Kim Jung-jip, Jeon Gi-bok, Kim Ui-hwan, Kim Jung-dal, Kim Jung-hwa, Na Hak-seok, Lee Sun-hwan, Kim Yeong-yeol, Kim Jae-gil, Yoo Byeong-seon, Kim Se-won, Kim Jung-seon, Woo Chang-ho, Choi Gyeong-jin cùng 25 người khác.
 
 
 --- (p. 418) ---
@@ -13588,7 +13588,7 @@ Nhật đồng : Không có ý kiến khác. Đồng ý.
 Sa hội : Thì họp ngày hôm nay kết thúc.
 <Ký tên ấn dấu (署名捺印)>
 Tên của Ủy ban Phát triển Làng (開發委員) và Ủy ban Thúc đẩy Dự án Hỗ trợ Đặc biệt (特別支援事業推進委員) ký tên ấn dấu (署名捺印) để đại diện cho dân làng.
-오세종, 최성희, 이종철, 명노헌, 최종진, 이순환, 김명선
+Oh Se-jong, Choi Seong-hui, Lee Jong-cheol, Myeong No-heon, Choi Jong-jin, Lee Sun-hwan, Kim Myeong-seon
 
 ♦ Phiên bản ghi chép (會議錄) (4)
 
@@ -13840,22 +13840,22 @@ O Năm thành viên (會員) của Hội nông dân (農友會) đã cùng nhau 
 
 --- (p. 427) ---
 
-과 도박(賭博)도 점차 사라지고 박삼신 씨를 중심으로 마을 주민(住民)들은 뭉치기 시작하였다.
-- 여기서 박삼신 씨는 주민(住民)들의 사기(士氣)를 앙양(昂揚)시키는 동시에 소득(所得)을 증대(增大)시키기 위하여 예산군(禮山郡) 청(廳)으로부터 농특자금(農特資金) 150만원을 융자(融資)받아 30호의 농가(農家)에 한우(韓牛) 1두(頭)씩을 나누어 주고 기르게 하였다. 소를 기르기 위해서 축사(畜舍)를 건립(建立)하게 되니 자연스럽게 환경(環境)이 개선(改善)되기 시작하였다. 이것을 토대로 수천년 내려오던 초라한 부속사(附屬舍)들이 연립식(連立式)으로 바뀌기 시작하자 인근(隣近)의 주민(住民)들은 사람이 사는 집보다도 좋다고 수군거리기도 하였다.
-- 이것이 이 마을 새마을 사업의 시초(始初)였다고 할 수 있으며 전국적(全國的)으로 전개(展開)된 새마을 사업(事業)보다 사실상 3년(年) 이전(以前)에 이 마을에서는 새마을 사업(事業)이 이루어지고 있었던 셈이다.
-이렇게 환경개선(環境改善)도 되고 소득(所得)도 높아가며 주민(住民)들도 부지런하게 되었다.
-또한 외양간에서 나오는 퇴비(堆肥)를 비닐하우스 재배(栽培)에 이용하여 간접적(間接的)인 소득원(所得源)이 되기도 했다.
-- 다음해인 1969년도에도 계속(繼績)해서 환경개선(環境改善)을 위한 사업(事業)으로 부속사(附屬舍) 개량(改良)을 확대실시(擴大實施)하는 한편 지붕개량, 주택개량사업(住宅改良事業)도 병행(併行)하여 실시(實施)하였고
-- 주민(住民)들에게 국가(國家)에 대한 존엄성(尊嚴性)과 애국심(愛國心)을 고취시키기 위하여 국기게양대를 창안하여 마을의 가가호호(家家戶戶)에 설치(設置)케 하였으며
-인근(隣近) 10개(個) 마을을 경계(警戒)할 수 있는 망루대를 마을의 뒷산에 설치(設置)하여 자체방어(自體防禦)에도 완벽(完璧)을 기하였다.
-마을 입구(入口)에는 초소(哨所) 2개소(個所)까지 설치(設置)하기도 하였다.
-이 마을에서 창안(創案)하여 설치(設置)한 국기게양대는 도내적으로 확대(擴大) 실시된 사업(事業)의 좋은 사례(事例)라고 말할 수 있겠다.
-이 마을에 설치(設置)된 국기게양대는 부락주민 중 서독(西獨)에서 일하고 있던 이효연 씨가 일시 휴가차 귀국(歸國)하여 고향(故鄕)에 왔다가 마을에서 이런 사업(事業)을 추진(推進)하는 것을 보고 성금(誠金)으로 희사(喜捨)한 6만원으로 전호(全戶)에 설치(設置)한 것이다.
-- 마을이 발전(發展)해 온 과정(過程)에서 헌신적(獻身的)이고 유능(有能)한 지도자(指導者)의 역할(役割)이 얼마나 지대한가 하는 것은 이 마을에서 손쉽게 알아볼 수 있는 뚜렷한 사실이다.
-가난과 나태(懶怠)에서 그리고 술과 도박(賭博)의 수렁으로 얼룩진 이 마을이 소득(所得), 환경(環境) 및 반공정신(反共精神)까지 투철한 모범 마을이 되었기에 1969년 2월 14일에는 한국(韓國) 반공연맹(反共聯盟) 이사장(理事長)으로부터 감사패를 받기도 하였다.
-- 수많은 비난과 비웃음의 지탄이 협동(協同)과 근면(勤勉)으로 이어져 마을은 점점 바뀌어가고 있었다. 그러나 그동안 너무도 퇴락되어 있었던 마을이었기에 1970년에도 할 일은 많았다. 이제는 창소(倉所)마을이 과거(過去)의 창소(倉所)마을이 아닌 잘 사는 마을, 화목(和睦)한 마을로 이미지가 바뀌고 있다.
-1년(年) 4계절(季節)을 통하여(通하여) 노는 날이 없는, 노는 사람 없는 마을이 되었다.
-좁은 땅에서 높은 소득(所得)을 올리기 위해 비닐하우스를 이용(利用)한 고등채소(高等蔬菜) 재배(栽培)를 계속적(繼績的)으로 확대(擴大)하고 있으며, 또한 부락의 토질(土質)에 알맞는 특수작물(特殊作物)을 적극적(積極的)으로 권장(勸獎)하고 있다. 특수작물(特殊作物) 재배(栽培)에 있어서 좋은 실례로서 우엉재배(栽培)를 들 수 있다. 사질토(砂質土)에 적합(適合)한 우엉 2ha를 집단(集團) 재배(栽培)
+Và cả cờ bạc cũng dần dần biến mất, ông Park Sam-sin đã tập hợp dân làng lại với nhau.
+- Tại đây, ông Park Sam-sin không chỉ khích lệ tinh thần của dân làng mà còn gia tăng thu nhập bằng cách vay 1,5 triệu won vốn đặc biệt nông nghiệp từ huyện Yesan để phân phát mỗi hộ gia đình 30 nhà một con bò Hàn Quốc. Để nuôi bò, họ phải xây dựng chuồng trại, nhờ đó môi trường tự nhiên cũng dần được cải thiện. Từ nền tảng này, những ngôi nhà phụ tạm bợ kéo dài hàng nghìn năm bắt đầu được thay thế bằng những dãy nhà liền kề, khiến dân làng xung quanh xì xào rằng còn tốt hơn cả nhà ở của người sống.
+- Đây có thể coi là khởi đầu của phong trào Saemaul ở ngôi làng này, thực tế phong trào Saemaul đã được triển khai ở ngôi làng này sớm hơn 3 năm so với phong trào Saemaul trên toàn quốc.
+Như vậy, môi trường được cải thiện, thu nhập tăng lên và người dân cũng trở nên chăm chỉ hơn.
+Ngoài ra, phân bón từ chuồng trại được sử dụng trong việc trồng trọt nhà kính bằng nilon, trở thành nguồn thu nhập gián tiếp.
+- Vào năm tiếp theo, 1969, tiếp tục mở rộng thực hiện cải thiện môi trường thông qua việc cải tạo các công trình phụ trợ, đồng thời tiến hành song song các dự án cải thiện mái nhà và cải tạo nhà ở.
+- Để khơi dậy lòng tôn nghiêm đối với quốc gia và tinh thần yêu nước cho người dân, họ đã sáng tạo ra cột treo quốc kỳ và lắp đặt tại từng nhà trong làng.
+Trên ngọn đồi phía sau làng, họ đã xây dựng một tháp canh có thể quan sát được 10 ngôi làng lân cận nhằm đảm bảo khả năng tự phòng vệ một cách hoàn hảo.
+Ngay tại cổng vào làng, họ thậm chí còn lắp đặt đến 2 chốt gác.
+Có thể nói, việc sáng tạo và lắp đặt cột treo quốc kỳ ở ngôi làng này là một ví dụ điển hình cho các dự án được mở rộng thực hiện trong tỉnh.
+Cột treo quốc kỳ được lắp đặt tại ngôi làng này là do ông Lee Hyo-yeon, một người dân trong làng đang làm việc tại Tây Đức, khi về nước nghỉ phép tạm thời và thấy dự án này đang được triển khai, đã quyên góp 60.000 won để lắp đặt cho tất cả các hộ gia đình.
+- Quá trình phát triển của ngôi làng cho thấy vai trò to lớn của những người lãnh đạo tận tâm và tài năng, điều này có thể dễ dàng nhận thấy rõ ràng ở ngôi làng này.
+Ngôi làng từng chìm trong nghèo đói, lười biếng, rượu chè và cờ bạc đã trở thành một ngôi làng mẫu mực với thu nhập cao, môi trường tốt và tinh thần chống cộng vững vàng, đến nỗi vào ngày 14 tháng 2 năm 1969, đã nhận được bằng khen từ Chủ tịch Liên đoàn chống cộng Hàn Quốc.
+- Qua biết bao lời chỉ trích và chế giễu, nhờ sự hợp tác và cần cù, ngôi làng dần thay đổi. Tuy nhiên, vì ngôi làng đã quá xuống cấp trong thời gian dài nên đến năm 1970 vẫn còn rất nhiều việc phải làm. Giờ đây, làng Thương Sở không còn là làng Thương Sở của quá khứ nữa mà đã trở thành một ngôi làng giàu có, hòa thuận.
+Ngôi làng đã trở thành nơi không có ngày nào mà không làm việc, không có người nào lười biếng suốt bốn mùa trong năm.
+Để đạt được thu nhập cao trên diện tích đất hẹp, họ tiếp tục mở rộng việc trồng các loại rau cao cấp trong nhà kính ni-lông, đồng thời tích cực khuyến khích trồng các loại cây trồng đặc thù phù hợp với thổ nhưỡng của làng. Một ví dụ điển hình về trồng cây đặc thù là việc trồng ngưu bàng trên diện tích 2 ha đất cát.
 
 
 --- (p. 428) ---
@@ -13970,23 +13970,23 @@ Tháng 10 năm 1974, ở làng lân cận quan작리, một lãnh đạo (指導
 
 --- (p. 432) ---
 
-였다. 당시(當時) 특이(特異)한 사업(事業)으로는 대나무에 구멍을 뚫어 수도관 대용으로 도수로(導水路) 수백(數百)m를 만들어 천수답(天水沓)을 수리안전답(水利安全沓)으로 만드는 데 착안(着眼)한 이 사실은 과연 연구(硏究)하고 노력(努力)하는 유능(有能)한 지도자(指導者)였음을 알 수 있었다.
-O 이러한 지도자(指導者)가 창소(倉所) 1구(區) 마을에 이사를 오게 되어 김전환 지도자(指導者)는 전영우(全永愚) 지도자(指導者)에게 바톤을 넘겨주기로 하였다. 마을을 보다 더 발전(發展)시켜 보자는 것이었다.
-주민총회(住民總會)에서 전영우(全永愚)씨가 이 마을의 새마을 지도자(指導者)로서 선임(選任)된 것이다.
-전영우(全永愚) 지도자(指導者)는 자기(自己)의 최선(最善)을 다해 부락(部落)을 지도(指導)해 왔다. 그리하여 75년도(年度) 말 새마을 운동(運動) 총결(總閱)에서 자립(自立)마을로 이 부락을 승급(昇級)시킬 수 있었다. 76년도 전국(全國) 새마을 지도자(指導者) 대회(大會)에서 창소(倉所) 1구 새마을운동(運動) 성공사례(成功事例)를 발표(發表)하여 전국적(全國的)인 대표(代表) 새마을로 발돋움시켰으며 또한 대통령(大統領) 각하(閣下)로부터 새마을 훈장(勲章) 협동장(協同章)을 수여(受與)받는 영광(榮光)도 누렸다.
-O 앞에서도 말한 바와 같이 마을의 발전과정(發展過程)에서 전영우(全永愚)와 같은 유능(有能)한 지도자(指導者)의 역할(役割)은 마을의 발전(發展)에 얼마나 큰 영향력(影響力)이 되고 있는지 거론(擧論)의 여지(餘地)조차 없는 것이다.
-이렇게 유능(有能)한 지도자(指導者)를 가지고 있는 이 부락은 생산기반(生產基盤), 공동이용시설(共同利用施設), 복지환경사업(福祉環境事業) 전반(全般)에 걸쳐 하나도 흠이 없는 마을로써 소득수준(所得水準) 역시(亦是) 선진국(先進國)에 못지 않는 높은 수준(水準)에 있는 마을이 되었다. 또한 취락구조(聚落構造) 개선사업(改善事業)을 실시(實施)하여 도시(都市) 아닌 농촌도시(農村都市)가 된 것이다.
-O 이렇게 비약적(飛躍的)으로 발전(發展)한 이 마을은 수원(水原) 새마을 지도자(指導者) 연수원(硏修院)의 현지교육(現地敎育) 마을이 되기도 하여 수차례에 걸쳐 지도자(指導者)들의 교육(敎育)을 시킨 마을이며 계속(繼續)해서 교육장(敎育場)으로 되고 있다.
-전영우(全永愚) 지도자(指導者)는 이제 우리나라 전국적(全國的)인 새마을 지도자(指導者)가 되어 각종(各種) 새마을 교육(敎育)에서 새마을 운동(運動)의 사례(事例)를 통하여 일깨워주고 있다.
+Vào thời điểm đó, một dự án đặc biệt là việc khoan lỗ trên thân tre để làm ống dẫn nước, xây dựng hàng trăm mét kênh dẫn nước, biến những cánh đồng phụ thuộc vào nước trời thành những cánh đồng an toàn về thủy lợi, cho thấy người lãnh đạo thực sự là người có năng lực, biết nghiên cứu và nỗ lực.
+Với sự xuất hiện của một người lãnh đạo như vậy ở làng Thương Sở 1, ông Kim Jeon-hwan đã quyết định trao lại vị trí lãnh đạo cho ông Jeon Yeong-u để tiếp tục phát triển ngôi làng hơn nữa.
+Tại hội nghị toàn thể cư dân, ông Jeon Yeong-u đã được bầu chọn làm người lãnh đạo phong trào làng mới của ngôi làng này.
+Người lãnh đạo Jeon Yeong-u đã tận tâm dẫn dắt làng. Nhờ đó, vào cuối năm 1975, làng đã được thăng cấp lên làng tự lực trong tổng kết phong trào làng mới. Năm 1976, tại Đại hội người lãnh đạo phong trào làng mới toàn quốc, ông đã công bố thành công của phong trào làng mới ở Thương Sở 1, đưa ngôi làng trở thành một làng tiêu biểu trên toàn quốc, đồng thời vinh dự nhận Huân chương Hợp tác của Tổng thống.
+Như đã đề cập trước đây, trong quá trình phát triển của làng, vai trò của những nhà lãnh đạo tài năng như Jeon Yeong-u (Toàn Vĩnh Ngu) đối với sự phát triển của làng là điều không cần phải bàn cãi nữa.
+Ngôi làng có được người lãnh đạo tài năng như vậy đã trở thành một ngôi làng không có khiếm khuyết nào trong toàn bộ các lĩnh vực như cơ sở sản xuất, cơ sở vật chất sử dụng chung, các dự án môi trường phúc lợi, và mức thu nhập cũng đạt đến trình độ cao không thua kém các nước tiên tiến. Ngoài ra, thông qua việc thực hiện dự án cải thiện cấu trúc khu dân cư, ngôi làng này đã trở thành một đô thị nông thôn chứ không phải là thành phố.
+Ngôi làng phát triển vượt bậc như vậy đã trở thành nơi đào tạo thực địa cho các khóa huấn luyện lãnh đạo phong trào Saemaul tại Học viện Đào tạo Lãnh đạo Saemaul Suwon, nơi đã nhiều lần tổ chức các khóa đào tạo cho các nhà lãnh đạo và tiếp tục được sử dụng làm địa điểm giáo dục.
+Nhà lãnh đạo Jeon Yeong-u (Toàn Vĩnh Ngu) giờ đây đã trở thành một nhà lãnh đạo phong trào Saemaul trên toàn quốc, thông qua các ví dụ về phong trào Saemaul trong các khóa đào tạo để thức tỉnh mọi người.
 
 ## 4) 애로극복(隘路克服) 상황(狀況)
-이 마을의 오늘이 있기까지 수많은 애로(隘路)와 괴로움이 있었지만 그중에서도 가장 큰 애로(隘路)를 느꼈던 것은 마을 안길과 농로(農路)를 개설(開設)하는데 편입(編入)되는 토지(土地)를 희사(喜捨)받는 일이었다. 사실상(事實上) 농사(農事)를 짓는 농촌(農村)의 땅을 자르는 것은 자기(自己)의 신체(身體)를 잘라내는 아픔이 있는 것이다. 그러나 백년대대(百年代代)에 물려줄 선조(先祖)로서의 유산(遺產)을 만드는 일이 어찌 그렇게 쉽게만 될 수 있겠는가.
-농로(農路) 500m를 개설(開設)하는 과정(過程)에서 편입(編入)되는 약(約) 300여(餘) 평(坪)의 토지(土地)를 희사(喜捨)받기 위해 밤낮을 가리지 않고 설득(說得)을 계속(繼續)했지만 끝내 승낙(承諾)을 받지 못하여 그 부분(部分)만을 남겨 두었다가 후에 반(半) 강제(强制)적으로 추진(推進)한 일도 있었다. 그 당시(當時) 그렇게도 완강(頑强)하게 거부(拒否)하던 그 사람들도 지금(只今)에 와서는 그 당시에 있었던 일들을 미안하게 생각하고 있으며 농로(農路)의 편리(便利)함을 느껴 흐뭇해 하고 있다.
+Để có được ngày hôm nay của ngôi làng này, đã có vô số khó khăn và gian khổ, nhưng trong số đó, khó khăn lớn nhất là việc nhận được sự hiến tặng đất đai để mở đường làng và đường nông thôn. Thực tế, việc cắt đất canh tác ở nông thôn cũng giống như việc cắt đi một phần thân thể của chính mình. Tuy nhiên, việc tạo dựng tài sản để lại cho các thế hệ mai sau làm sao có thể dễ dàng như vậy được.
+Trong quá trình mở 500 mét đường nông thôn, để nhận được sự hiến tặng khoảng hơn 300 mét vuông đất, đã phải thuyết phục không kể ngày đêm nhưng cuối cùng vẫn không nhận được sự đồng ý, nên chỉ còn cách để lại phần đất đó và sau này phải thúc đẩy một cách nửa cưỡng chế. Vào thời điểm đó, những người từng kiên quyết từ chối như vậy giờ đây cũng cảm thấy áy náy về những việc đã xảy ra và cảm nhận được sự tiện lợi của đường nông thôn nên rất hài lòng.
 
 ## 5) 토지(土地) 및 현금(現金) 자재(資材) 희사(喜捨) 상황(狀況)
 ### O 토지(土地) 희사(喜捨) 상황(狀況)
 
-| 년월일 | 성명 | 지목 | 지적 | 당시 싯가 | 비고 |
+| Ngày tháng năm | Họ tên | Mục đích sử dụng đất | Thửa đất | Giá thị trường lúc đó | Ghi chú |
 |---|---|---|---|---|---|
 | 71. 1. 9 | 김기석 | 전 | 100평 | 25원 | |
 | 71. 1. 14 | 박한규 | " | 40 " | 10 " | |
@@ -15852,24 +15852,24 @@ Kim Gu-tae (Chủ tịch Ủy ban Thực hiện (委員長)): Tôi đã trở th
 
 --- (p. 482) ---
 
-해서 마을 일을 제대로 돌봐 드리질 못했읍니다. 그러니 이 기회(機會)에 더 추진력(推進力) 있는 분을 선출(選出)해서 사업(事業)을 시작하는 것이 어떠신지.
-**김영곤**: 잘 해 달라고 좀 추궁(追窮)을 했다고해서 그렇게 생각하시는 모양인데 오해(誤解)를 하지 마십시오. 농촌(農村)에서 누가 한가(閑暇)한 사람이 있읍니까? 다 바쁜 사람들입니다.
-이런 기회(機會)에 지위(地位)를 가지신 분들이 물론(勿論) 이제껏도 수고(受苦)를 해주셨지마는 더욱 개인(個人) 일보다는 마을일에 신경(神經)을 써서 이끌어나가 주십시오. 우리 마을이 상당(相當)한 수준(水準)에 도달(到達)할 때 까지는 지도층(指導層)에 계신분들의 희생(犧牲)이 필요한 것 같읍니다. 위원(委員)들은 그대로 두고 더 잘해 봅시다.
-**육해준**: 영곤이 말 잘했네 앞에 나서서 일을 하는 것은 말 같이 쉽지가 않아, 자칫하면 욕먹기 마련이지 우리들이 뒤에서 잘 도와 드려야 하네.
-**김영녹**: 제방(堤防) 공사(工事)의 기술감독(技術監督)은 누가 합니까?
-**지도자**: 군(郡)에서 토목기사(土木技士)가 와서 기술감독(技術監督)을 할 것입니다. 투입(投入)되는 장비(裝備) 관계(關係)는 무주(茂朱)에 있는 신경선씨에게 부탁(付託)을 해서 알선(斡旋)을 받을까 합니다.
-그리고 앞으로 웬만한 문제(問題)는 위원(委員)들과 상의(商議)해서 처리(處理)하도록 하고 중요(重要)한 문제(問題)만 주민(住民) 총회(總會)를 열어 여러분의 의사(議事)를 묻기로 하겠읍니다. 주민(住民)들의 생각은 어떻읍니까?
+Vì vậy, tôi đã không thể chăm lo chu đáo cho công việc của làng. Vậy nhân cơ hội này, chúng ta hãy bầu ra một người có sức đẩy mạnh hơn để bắt đầu công việc thì thế nào ạ?
+**Kim Yeong-gon**: Có vẻ như vì tôi đã hơi thúc ép việc làm tốt nên mới khiến anh nghĩ như vậy, đừng hiểu lầm nhé. Ở nông thôn, có ai là người rảnh rỗi đâu? Ai cũng đều bận rộn cả.
+Nhân cơ hội này, những người giữ vị trí lãnh đạo đương nhiên là đã vất vả cho đến nay, nhưng hy vọng sẽ quan tâm đến công việc của làng hơn là việc cá nhân và dẫn dắt mọi người. Tôi nghĩ rằng cho đến khi làng chúng ta đạt đến một trình độ nhất định, sự hy sinh của những người trong tầng lớp lãnh đạo là cần thiết. Các ủy viên cứ giữ nguyên vị trí và hãy cùng cố gắng hơn nữa.
+**Yuk Hae-jun**: Yeong-gon nói đúng đấy, việc đứng ra làm không hề dễ dàng như lời nói, chỉ sơ suất một chút là dễ bị chê trách, chúng ta cần hỗ trợ tốt từ phía sau.
+**Kim Yeong-nok**: Giám sát kỹ thuật cho công trình đê điều do ai đảm nhiệm?
+**Nhà lãnh đạo**: Kỹ sư xây dựng của quận sẽ đến giám sát kỹ thuật. Về việc trang thiết bị đầu tư, chúng tôi sẽ nhờ ông Shin Gyeong-seon ở Muju giúp đỡ và thu xếp.
+Và từ nay về sau, những vấn đề thông thường sẽ được thảo luận và xử lý cùng với các ủy viên, chỉ những vấn đề quan trọng mới tổ chức họp toàn thể dân làng để hỏi ý kiến của mọi người. Ý kiến của bà con như thế nào?
 **일동(一同)**: 좋읍니다.
-**김창섭**: 하목 관계(關係) 때문에 피해(被害)가 있다고 용강(龍江)마을에서 무주군(茂朱郡)과 영동군(永同郡)에 진정(陳情)을 냈다는데 어떻게 되었읍니까?
-**지도자**: 며칠 전에 영동(永同)에서 부군수(副郡守) 건설과장(建設課長), 무주군(茂朱郡)에서 부군수(副郡守) 건설과장(建設課長)이 오셔서 현지(現地)를 둘러보고 피해(被害)가 없는 것으로 판정(判定)을 했읍니다.
-그리고 영동(永同) 부군수(副郡守)님이 서로 도는 다르지만 인접(隣接)해 있는 마을이니 사이좋게 지내 달라고 부락(部落)도 하셨읍니다. 또 다른 질문(質問) 있으십니까?
-**김병태**: 작업(作業)은 언제부터 시작될 것 같습니까?
-**지도자**: 오는 25일 부터 착공(着工)을 하기로 군(郡)과 결정(決定)을 했읍니다. 준공(竣工)은 여름 장마 전에 완전히 끝내야 하겠읍니다. 출역(出役)에 소요(所要)되는 인원(人員)을 작업(作業) 전날 방송(放送)을 통하여 알려 드리겠읍니다.
-**정동현**: 그날 호명(呼名)을 받았으나 개인(個人) 사정(事情)으로 출역(出役)을 못할 경우(境遇)는 어떻게 합니까?
-**지도자**: 호명(呼名)을 받고 못 나올 경우(境遇)는 즉시(卽時) 저한테 오셔서 말씀하시면 다른 사람과 교체(交替)하여 드리겠읍니다. 반드시 연락(連絡)을 해 주시기 바랍니다. 또 다른 분 말씀하십시오.
-**육해준**: 없는 것 같습니다. 시공식(施工式)을 할라면 돼지 대가리라도 놓고 고사(告祀)를 지내야 되는데 간소화(簡素化)하는 의미(意味)에서 막걸리 한잔이라도 부어 놓읍시다. 어떻습니까?
+**Kim Chang-seop**: Do vấn đề liên quan đến hạ mục nên làng Yonggang đã gửi đơn khiếu nại lên quận Muju và quận Yeongdong về thiệt hại xảy ra, không biết tình hình thế nào rồi?
+**Người lãnh đạo**: Vài ngày trước, Phó quận trưởng phụ trách xây dựng của Yeongdong (永同) và Phó quận trưởng phụ trách xây dựng của Muju (茂朱郡) đã đến thăm hiện trường và xác định rằng không có thiệt hại nào.
+Và Phó quận trưởng Yeongdong (永同) cũng đã nhắn nhủ rằng dù khác huyện nhưng vì là những ngôi làng liền kề nhau nên hãy sống hòa thuận với nhau. Còn câu hỏi nào khác không?
+**Kim Byeong-tae**: Công việc có vẻ sẽ bắt đầu từ khi nào?
+**Người lãnh đạo**: Quận đã quyết định sẽ khởi công từ ngày 25 tới. Việc hoàn thành phải được thực hiện hoàn toàn trước mùa mưa lũ mùa hè. Số lượng nhân lực cần thiết cho việc huy động sẽ được thông báo qua đài phát thanh vào ngày trước khi bắt đầu công việc.
+**Jeong Dong-hyeon**: Nếu được gọi tên vào ngày đó nhưng vì lý do cá nhân không thể tham gia thì phải làm sao?
+**Người lãnh đạo**: Nếu được gọi tên mà không thể tham gia, hãy đến gặp tôi ngay để tôi sắp xếp thay thế bằng người khác. Nhất định phải liên lạc lại nhé. Có ai khác muốn phát biểu không?
+**Yuk Hae-jun**: Có vẻ không còn gì nữa. Nếu tổ chức lễ khởi công thì ít nhất cũng phải có đầu heo để cúng tế, nhưng với ý nghĩa đơn giản hóa, chúng ta chỉ cần rót một chén rượu makgeolli thôi được không?
 **일동(一同)**: 좋습니다.
-**지도자**: 잘 알겠읍니다. 공사(工事)가 무사(無事)히 끝날 수 있도록 모두 기원(祈願)합시다.
+**Người lãnh đạo**: Tôi hiểu rồi. Chúng ta hãy cùng cầu nguyện để công trình được hoàn thành suôn sẻ.
 
 
 --- (p. 483) ---
@@ -17241,36 +17241,36 @@ Tôi cũng bị ảnh hưởng nhiều.
 
 --- (p. 524) ---
 
-해야 합니다. 그래도 부락 추진위원장이 안 된다고 하면 누가 일을 하겠소?
-이시우: 사돈(判述)씨는 양보해야 합니다.
-일동: 그 말씀 틀림없습니다.
-강판숙: 참 추진위원장 억지로 시키드니 손해가 나겠구먼, 알아서 하게.
-강성환: 김판용씨도 다시 한번 생각하십시오. 물론 농사 짓는 사람은 다 땅 욕심이 있지만, 알 만한 분이 반대하고 희사 안 하면 누가 하겠소. 잘 생각하십시오.
-김판용: 이상권씨 집부터 해결해 보십시오. 나는 생각해 보겠습니다.
-지도자: 이상권씨 행낭 철거하면 반대하지 않겠소?
-김판용: 상권이 잘 생각해야 하네, 자네 행낭 철거하여 하천 내면 우리집은 바로 피해 있네.
-이상권: 나도 잘 압니다. 그러나 나는 없는 사람이라 정부에서 생활보호 양곡을 주어 먹고 살기 때문에 무슨 할 말이 있겠습니까. 손해나 많이 안 보는 방법으로 하여 주시기 바랍니다.
-강대문: 참으로 고맙습니다. 제가 보상비로 쌀 세 말 내놓겠습니다.
-강장수: 저도 2말을 내놓겠습니다.
-이종진: 나도 3말을 이상권씨한테 드리겠습니다.
-이만우: 저도 좀 내놓아야지요.
-강성준: 저도 부락 반장한테 세 말을 내놓겠습니다.
-지도자: 참으로 고맙습니다.
-일동: 오늘 저녁 처음은 싸우더니 일이 잘되어 가는구만 웃습니다.
-지도자: 김판용씨께서는 어떻게 하겠습니까?
-김판용: 남이 하니까 하는 식은 아닙니다마는 저는 3가지 조건이 있습니다.
-첫째: 우리집은 아주 옛날 집이기 때문에 담을 헐고 파면 귀중한 유물이 나올 것 같으니 나 오면 나에게 돌려줄 것
-둘째: 우리 집 담장을 돌 주어다 완전히 180m 정도 쌓아주어야 할 것
-셋째: 하천 쪽에 언제든지 헐어지면 주민 일동이 복구해 줄 것
-이상과 같은 서약서를 주민 일동이 서명 날인하여 주시면 승낙하겠습니다.
-지도자: 금방 말씀하신 김판용씨 요구조건 응해 주시겠습니까?
-강성준: 하천 쪽 헐어지면 우리 후손까지 말입니까?
+Phải làm thế chứ. Nếu trưởng ban thúc đẩy của thôn không đồng ý thì ai sẽ làm việc đây?
+**Lee Si-u**: Ông thông gia (判述) nên nhường nhịn một chút.
+Mọi người: Lời nói đó hoàn toàn đúng.
+**Kang Pan-suk**: Ép buộc làm trưởng ban thúc đẩy thì chắc chắn sẽ có thiệt hại, hãy để họ tự quyết định.
+**Kang Seong-hwan**: Ông Kim Pan-yong cũng nên suy nghĩ lại. Tất nhiên ai làm nông cũng muốn có đất, nhưng nếu người hiểu biết phản đối và không quyên góp thì ai sẽ làm đây? Hãy suy nghĩ kỹ nhé.
+**Kim Pan-yong**: Hãy giải quyết việc nhà ông Lee Sang-gwon trước đã. Tôi sẽ suy nghĩ lại.
+**Người lãnh đạo**: Nếu ông Lee Sang-gwon dỡ bỏ hành lý thì ông có phản đối không?
+Kim Phan Dung: Ông trưởng thôn nên suy nghĩ kỹ, nếu ông dỡ hành lang của mình và đổ xuống con suối thì nhà tôi sẽ chịu thiệt hại ngay lập tức.
+Lý Tường Quyền: Tôi cũng hiểu rõ. Nhưng tôi là người không có gì, chỉ sống nhờ gạo cứu trợ của chính phủ nên có thể nói gì được đâu. Mong mọi người làm sao để tôi ít bị thiệt hại nhất.
+Kang Đại Văn: Thật sự cảm ơn mọi người. Tôi sẽ đóng góp ba đấu gạo làm tiền bồi thường.
+Kang Trường Thọ: Tôi cũng sẽ đóng góp hai đấu.
+Lý Tông Trấn: Tôi cũng sẽ tặng ông Lý Tường Quyền ba đấu.
+Lý Mạn Vũ: Tôi cũng phải đóng góp một chút chứ.
+Kang Thành Tuấn: Tôi cũng sẽ đóng góp ba đấu cho trưởng thôn.
+Người lãnh đạo: Thật sự cảm ơn mọi người.
+Mọi người: Tối nay mới đầu còn cãi nhau mà giờ mọi việc lại suôn sẻ, ai nấy đều cười.
+Người lãnh đạo: Ông Kim Phan Dung, ông sẽ làm thế nào?
+Kim Phan Dung: Tôi không phải kiểu người làm theo người khác, nhưng tôi có ba điều kiện.
+Thứ nhất: Nhà tôi là ngôi nhà rất cổ, nếu đập tường và đào lên có thể sẽ tìm thấy di vật quý giá, nếu tìm thấy thì phải trả lại cho tôi.
+Thứ hai: Phải xây lại tường rào nhà tôi bằng đá, dài khoảng 180 mét.
+Thứ ba: Bất cứ khi nào phía con suối bị hư hỏng, tất cả dân làng phải cùng nhau sửa chữa.
+Nếu mọi người ký tên và đóng dấu vào bản cam kết với những điều kiện trên thì tôi sẽ đồng ý.
+Lãnh đạo: Ngài có đồng ý đáp ứng các yêu cầu của ông Kim Pan-yong mà vừa nêu không?
+Kang Seong-jun: Nếu phá bỏ con sông đó thì hậu quả sẽ kéo dài đến cả con cháu chúng ta sao?
 강판용: 그렇습니다.
-지도자: 우리가 김판용씨 3가지 요구조건 문제없다고 봅니다. 왜냐하면 당초 할 때 완고하고 견고하게 하면 새마을 사업은 후손을 위한 것이니 문제 아니라고 생각합니다.
-일동: 웃으면서 동의합니다.
-지도자: 또 하실 말씀 없으신지요.
+Lãnh đạo: Chúng tôi thấy rằng ba yêu cầu của ông Kim Pan-yong không có vấn đề gì. Bởi vì ngay từ đầu nếu thực hiện một cách kiên quyết và vững chắc thì phong trào Saemaul là vì con cháu sau này, nên không có vấn đề gì.
+Mọi người: Đồng ý cười vui vẻ.
+Lãnh đạo: Ngoài ra còn có ý kiến nào khác không ạ?
 일동: 없습니다.
-지도자: 아까 이상권(李相權)씨 가옥 피해 보상관계. 이만우(李萬雨)씨는 낸다고만 하였는데 얼마 안
+Lãnh đạo: Vừa nãy là vấn đề bồi thường thiệt hại nhà cửa của ông Lee Sang-kwon. Ông Lee Man-woo chỉ nói là sẽ trả mà chưa nói rõ số tiền là bao nhiêu...
 
 
 --- (p. 525) ---
@@ -17829,21 +17829,21 @@ Sa hội chủ trì : Thì tôi sẽ công bố việc chọn lựa và phân b�
 
 --- (p. 542) ---
 
-강판술, 강대영, 이상호, 이시우, 강철수 이상과 같이 선정(選定)하여 발표(發表)합니다. 여러분께서 다시 검토(檢討)하여 주시기 바랍니다.
-김판용: 잘 선정(選定)하였다고 봅니다.
-김민식: 나도 잘 선정(選定)하였다고 봅니다.
+Sẽ lựa chọn và công bố những người như Kang Pan-sul, Kang Dae-yeong, Lee Sang-ho, Lee Si-woo, Kang Cheol-su. Mong quý vị xem xét lại giúp.
+Kim Pan-yong: Tôi thấy việc lựa chọn như vậy là tốt.
+Kim Min-sik: Tôi cũng thấy việc lựa chọn như vậy là tốt.
 사회자(社會者): 더 이상(以上) 타의(他意) 없습니까?
 일동(一同): 없습니다.
-사회자(社會者): 그러면 이것으로서 회의(會議)를 전부(全部) 마치겠습니다.
-참석자(參席者) 대표(代表): 강대용, 강대근, 강성준, 이상은, 강대영, 이봉우, 정도순
+Người điều hành: Vậy chúng ta sẽ kết thúc cuộc họp tại đây.
+Đại diện người tham dự: Kang Dae-yong, Kang Dae-geun, Kang Seong-jun, Lee Sang-eun, Kang Dae-yeong, Lee Bong-woo, Jeong Do-sun
 
 ### 4. 앞으로의 발전구상(發展構想)
 
-*   78년도(78年度)에는 경영소득사업(經營所得事業) 시범마을(示範마을) 육성책(育成策)의 일환(一環)으로 구매판매사업(購販事業)을 더욱 확대(擴大)하여 생필품의 저렴한 공급(供給)은 물론 농산물(農產物)의 유통개선(流通改善) 등 구매판매사업(購販事業)과 연계(連繫)를 할 것이며
-*   비육우(肥肉牛)를 30두(頭) 더 입식(入殖)시키고 젖소를 시험사육(試驗飼育)하여
-*   79년도(79年度)에는 젖소를 10두(頭) 입식(入殖) 사육(飼育)함으로써 낙농을 증대(增大)시켜 임실(任實) 치즈 공장(工場)에 우유(牛乳)를 공급(供給)하고 수리안전답화(水利安全沓化)하기 위하여 소유지(小溜池)를 1개소(個所) 신설(新設)할 계획(計劃)이다.
+*   Trong năm 1978, như một phần của chính sách phát triển mô hình làng kinh doanh thu nhập, sẽ mở rộng hơn nữa hoạt động kinh doanh mua bán để cung cấp hàng thiết yếu với giá rẻ, đồng thời cải thiện lưu thông nông sản và liên kết với hoạt động mua bán.
+*   Sẽ nhập thêm 30 con bò vỗ béo và thử nghiệm chăn nuôi bò sữa.
+*   Trong năm 1979, kế hoạch nhập và chăn nuôi 10 con bò sữa để tăng cường sản xuất sữa, cung cấp sữa cho nhà máy phô mai ImSil, và xây dựng thêm 1 hồ chứa nhỏ để đảm bảo an toàn thủy lợi.
 *   80년도(80年度)에는 젖소를 50두(頭)로 증대(增大)시키고
-*   소형(小型) 트럭을 구입(購入)하며 농기구(農機具)를 완전(完全) 기계화(機械化)하여 영업(營業)을 과학화(科學化)함으로써 농촌(農村)의 근대화(近代化)와 복지농촌건설(福祉農村建設)을 기필코 달성(達成)하여 이를 유산(遺產)으로 후손(後孫)에게 물려줄 것이다.
+*   Sẽ mua xe tải nhỏ, cơ giới hóa hoàn toàn các công cụ nông nghiệp, khoa học hóa hoạt động kinh doanh để hiện đại hóa nông thôn, xây dựng nông thôn phúc lợi và nhất định để lại di sản này cho con cháu.
 
 ![Hình/Đồ thị: Các cư dân chào đón lãnh đạo trở về sau khi báo cáo với Tổng thống về làng mới xuất sắc năm 1976](/images/page_542_img_1.png)
 
@@ -18472,7 +18472,7 @@ Lãnh đạo: Tôi xin lỗi vì đã triệu tập cuộc họp vào ban đêm.
 
 **Chủ tịch (Trưởng làng (里長))**: Diện tích trồng trọt (栽培面積) nên lớn đến mức nào? Nếu có ý kiến tốt về điều này, vui lòng nói. Sau đó, chúng ta sẽ quyết định (決議) và ký tên (署名) và ấn dấu (捺印) của các thành viên tham dự (參席者).
 
-**Thành viên tham dự (參席者)**: 이상기, 최동순, 한관호, 한내수, 임순택, 한태수, 김정대, 김용환, 황규익, 한재석, 문용님, 한진석, 강금례, 한경수, 이복례, 김용하, 한재수, 한일석, 김용오, 정학이, 백락선, 황종두, 서만섭, 조일출, 한경호, 황종두, 한금동, 한명호, 나남식, 한창호, 한규팔, 이금진, 남정균, 김설자, 한균호, 임채일, 황택구, 한을석, 박연례.
+**Thành viên tham dự (参席者)**: Lee Sang-gi, Choi Dong-sun, Han Gwan-ho, Han Nae-su, Im Sun-taek, Han Tae-su, Kim Jeong-dae, Kim Yong-hwan, Hwang Gyu-ik, Han Jae-seok, Moon Yong-nim, Han Jin-seok, Kang Geum-rye, Han Gyeong-su, Lee Bok-rye, Kim Yong-ha, Han Jae-su, Han Il-seok, Kim Yong-o, Jeong Hak-i, Baek Rak-seon, Hwang Jong-du, Seo Man-seop, Jo Il-chul, Han Gyeong-ho, Hwang Jong-du, Han Geum-dong, Han Myeong-ho, Na Nam-sik, Han Chang-ho, Han Gyu-pal, Lee Geum-jin, Nam Jeong-gyun, Kim Seol-ja, Han Gyun-ho, Im Chae-il, Hwang Taek-gu, Han Eun-seok, Park Yeon-rye.
 
 
 --- (p. 560) ---
@@ -18535,7 +18535,7 @@ Lãnh đạo: Tôi xin lỗi vì đã triệu tập cuộc họp vào ban đêm.
 
 **Chủ tịch (社會者)**: Đó là, ông 한규팔 được bầu làm Chủ tịch Ủy ban Thúc đẩy (推進委員長), ông 정학이 và ông 한재수 được bầu làm Kiểm toán (監査), và ông 한용수, bà 문용림, và ông 한재석 được bầu làm Ủy viên Thúc đẩy (推進委員). Chúng ta hy vọng các bạn sẽ cố gắng hết mình để thực hiện dự án này một cách xuất sắc. Với điều đó, chúng ta kết thúc cuộc họp.
 
-**주민대표 (住民代表)**: 한규팔, 정학이, 한재수, 박금순, 한용수, 문용림, 한재석
+**Đại diện người dân (住民代表)**: Han Gyu-pal, Jeong Hak-i, Han Jae-su, Park Geum-sun, Han Yong-su, Moon Yong-rim
 
 ## Báo cáo họp (會議論) (6)
 
@@ -19190,43 +19190,43 @@ Chủ tịch: Hội nghị này được tổ chức để lập kế hoạch ch
 
 --- (p. 579) ---
 
-터를 착공할 수 있다고 합니다. 전화를 가설하실 분은 거수하여 주시기 바랍니다.
+Có thể khởi công xây dựng nền móng. Những ai tình nguyện lắp đặt điện thoại xin hãy giơ tay.
 (23 người)
 
 Thì có thể bắt đầu xây dựng công trình. Những người muốn tham gia xây dựng đường dây điện thoại vui lòng đứng lên.
 (23 người)
 
-그러면 전화가설 관계는 이만 말씀드리고 금년도 새마을사업 계획을 말씀하여 주시기 바랍니다.
+Vậy chúng ta tạm dừng vấn đề lắp đặt điện thoại tại đây và xin mời ý kiến về kế hoạch công tác làng mới năm nay.
 Khi đó, chúng ta sẽ nói về việc xây dựng đường dây điện thoại và sau đó thảo luận về kế hoạch Saemaul Undong năm nay.
 
-경월금: 금년도는 구판장을 건립하여 농외소득 사업으로 소득증대의 첩경이며, 단결할 수 있는 간접적 동기도 될 것 같습니다.
+Gyeong Wol-geum: Năm nay, việc xây dựng nhà kho chung sẽ là con đường ngắn nhất để tăng thu nhập thông qua các hoạt động tạo thu nhập ngoài nông nghiệp và cũng sẽ trở thành động lực gián tiếp để đoàn kết mọi người.
 Kinh nguyện: Năm nay, chúng ta sẽ xây dựng một cửa hàng bán lẻ để tăng thu nhập từ các hoạt động ngoài nông nghiệp và tạo động lực gián tiếp để đoàn kết.
 
 일동: 찬성이오.
 Tất cả: Đồng ý.
 
-사회자: 부당이득을 취하지 않는 공정한 이득으로 우리 마을을 부강하게 이끌 수 있는 길이 될 수 있습니다.
+Người điều hành: Lợi nhuận công bằng, không trục lợi cá nhân sẽ là con đường đưa làng ta trở nên giàu mạnh.
 Chủ tịch: Điều này sẽ giúp chúng ta dẫn dắt làng trở nên thịnh vượng thông qua lợi nhuận công bằng mà không có bất kỳ lợi ích bất công nào.
 
-그러면 마을기금을 거출할 수 있는 방안을 강구하여 주시기 바랍니다.
+Vậy xin mọi người hãy tìm cách gây quỹ cho làng.
 Khi đó, chúng ta cần tìm kiếm các phương án để đóng góp quỹ làng.
 
-이길봉: 호당 백미 5말씩 거출하였으면 합니다.
+Lee Gil-bong: Đề nghị mỗi hộ đóng góp 5 đấu gạo trắng.
 Lee Gil-bong: Tôi đề nghị mỗi hộ đóng góp 5 đống gạo trắng.
 
 일동: 대찬성이오.
 Tất cả: Hoàn toàn đồng ý.
 
-사회자: 호당 백미 5말씩 거출하기로 하고 구판장 운영 문제는 어떻게 할까요?
+Người điều hành: Vậy chúng ta thống nhất mỗi hộ đóng góp 5 đấu gạo trắng. Vấn đề vận hành nhà kho chung sẽ giải quyết như thế nào?
 Chủ tịch: Đã quyết định mỗi hộ đóng góp 5 đống gạo trắng. Thì vấn đề vận hành cửa hàng bán lẻ sẽ được giải quyết như thế nào?
 
-강수원: 구판장 운영 문제는 건립이 완료되었을 때 결산회의시 결정하기로 하고 밤도 깊었으니 이만 폐회하였으면 합니다.
+Kang Su-won: Vấn đề vận hành nhà kho chung sẽ được quyết định tại cuộc họp tổng kết sau khi hoàn thành xây dựng. Trời đã khuya, đề nghị kết thúc cuộc họp tại đây.
 Kang Su-won: Vấn đề vận hành cửa hàng bán lẻ sẽ được quyết định trong cuộc họp kết toán sau khi hoàn thành xây dựng. Vì đêm đã sâu, chúng ta hãy kết thúc cuộc họp.
 
 일동: 찬성이오.
 Tất cả: Đồng ý.
 
-사회자: 그러면 이상 폐회하겠습니다.
+Người điều hành: Vậy cuộc họp đến đây là kết thúc.
 Chủ tịch: Khi đó, chúng ta sẽ kết thúc cuộc họp.
 
 (참석자 31명 날인필)
@@ -19235,7 +19235,7 @@ Chủ tịch: Khi đó, chúng ta sẽ kết thúc cuộc họp.
 ## 회의록 (4)
 *   일시: 72. 6.30. 20:00
 *   장소: 문화관
-*   안건: 새마을사업 결산 보고
+*   Nội dung: Báo cáo tổng kết công tác làng mới
 *   참석인원: 23명
 *   불참인원: 12명
 *   사회자: 정영모
@@ -19497,32 +19497,32 @@ Jeon Dong-ho: Tôi xin nói. Công trình che phủ từ nhà của ông Lee Gil
 
 --- (p. 587) ---
 
-생각하나 최경호氏宅과 김정호氏宅 골목길을 예산이 허락한다면 복개를 해야 한다는 원칙을 세워야 하겠다고 생각합니다.
-사회자: 또 이의 계신 분 안 계십니까?
+Tôi nghĩ rằng cần đặt nguyên tắc nếu ngân sách cho phép thì phải lợp mái con hẻm giữa nhà ông Choi Gyeong-ho và nhà ông Kim Jeong-ho.
+Người điều hành: Có ai còn ý kiến khác không?
 일동: 없습니다.
-사회자: 골목길 복개공사는 78년도에 예산이 허락하면 회의의 결의에 따라 실시하겠습니다. 딱딱한 의자에서 고생하였습니다. 이것으로 결산회의를 모두 마치겠습니다.
+Người điều hành: Công trình lợp mái con hẻm sẽ được thực hiện vào năm 1978 nếu ngân sách cho phép theo quyết định của cuộc họp. Mọi người đã vất vả ngồi trên những chiếc ghế cứng. Cuộc họp tổng kết đến đây là kết thúc.
 (참석자 30名 印)
 
 ### ♦ 회의록(會議錄) (11)
 *   **일시**: 1977. 5.26. 21:00
 *   **장소**: 신금구판장
-*   **의제**: 돈사부지 선정 및 사업계획에 관한 건
+*   **Chủ đề**: Lựa chọn địa điểm xây dựng chuồng lợn chung và kế hoạch thực hiện
 *   **참석인원**: 29名
 *   **불참인원**: 11名
 *   **사회자**: 강 수원
 *   **지도공무원**: 김경환
 
-사회자: 방금 군직원으로부터 공동돈사 건립에 지원이 있다는 얘기를 듣고 우리의 숙원사업인 공동돈사 건립 부지를 선정할 수 있는 길이 열려질 수 있습니다. 왜냐하면 전국 대의원들이 저희 마을을 6월 중순경에 순방할 예정인데 그분들이 성금 1,000,000원을 희사하신다는 얘기였던 것입니다. 허나 현재 저희 마을에는 마을기금이 77 새마을 사업 추진으로 거의 바닥나 있는 상태인 것입니다. 우선 정미소의 상반기 이익금 300,000원을 투자하여 1,300천원의 공동돈사를 건립하였으면 하는데 부지 예정지를 선정하여 주었으면 합니다.
-경길수: 공동부지인 서쪽 퇴비장 방화전 근처에 선정하였으면 합니다.
-이길봉: 동쪽 퇴비장에 선정하였으면 합니다.
-사회자: 여기 퇴비장에 대해서 표결에 부치겠습니다.
-*   서쪽 퇴비장에 돈사 건립하였으면 하는 분 4名
-*   동쪽 퇴비장에 건립하였으면 하는 분 21名
-그래서 동쪽 퇴비장에 30평 규모의 공동 돈사를 건립하여 그분들이 오시는 날, 준공할 수 있도록 합시다.
-그러면 건립방법을 어떻게 할까요?
-박종순: 개발위원회로 하여금 시공하도록 합시다.
+Chủ trì: Vừa nhận được thông tin từ nhân viên quân sự rằng có sự hỗ trợ cho việc xây dựng chuồng lợn chung, điều này có thể mở ra cơ hội để chúng ta lựa chọn địa điểm xây dựng chuồng lợn chung, một công trình mơ ước từ lâu. Bởi vì các đại biểu toàn quốc sẽ đến thăm làng chúng ta vào khoảng giữa tháng 6 và họ đã hứa quyên góp 1.000.000 won. Tuy nhiên, hiện tại quỹ làng của chúng ta gần như cạn kiệt do đã chi tiêu cho 77 dự án Saemaul. Trước tiên, chúng ta sẽ sử dụng lợi nhuận nửa đầu năm của nhà máy xay xát là 300.000 won để xây dựng chuồng lợn chung trị giá 1.300.000 won, vì vậy mong mọi người hãy chọn địa điểm dự kiến.
+Kyeong Gil-su: Đề nghị chọn khu đất phía tây gần bãi phân compost cũ làm nơi xây dựng.
+Lee Gil-bong: Đề nghị chọn khu đất phía đông gần bãi phân compost làm nơi xây dựng.
+Chủ trì: Bây giờ chúng ta sẽ tiến hành biểu quyết về địa điểm bãi phân compost này.
+*   Số người đồng ý xây dựng chuồng lợn ở bãi phân compost phía tây: 4 người
+*   Số người đồng ý xây dựng chuồng lợn ở bãi phân compost phía đông: 21 người
+Vì vậy, chúng ta sẽ xây dựng chuồng lợn chung với quy mô 30 pyong tại bãi phân compost phía đông để có thể hoàn thành vào ngày các vị đại biểu đến thăm.
+Vậy chúng ta sẽ tiến hành xây dựng như thế nào?
+Park Jong-sun: Đề nghị giao cho Ủy ban Phát triển thực hiện việc thi công.
 일동: 찬성이오.
-사회자: 그러면 긴급을 요하는 사항이므로 내일부터 개발위원들은 동분서주하여 건립토록하고 이만 폐회하겠습니다.
+Chủ trì: Vì đây là việc khẩn cấp, nên từ ngày mai, các thành viên Ủy ban Phát triển hãy tích cực triển khai xây dựng và bây giờ chúng ta sẽ bế mạc cuộc họp.
 (참석자 29名 印)
 
 
@@ -20160,14 +20160,14 @@ Mùa đông năm 1973, trong quá trình xây dựng nhà hội quán làng, m�
 
 --- (p. 604) ---
 
-우신조(佑神助)의 일이 아닐 수 없다.
+Đây quả thực là một việc được sự phù hộ của thần linh.
 ## 나) 제이화(第二話)
 
-1977년 그동안 지도자(指導者)는 숱한 노고(勞苦)와 시련(試練)을 겪고 가사(家事)를 돌보지 않으며 마을에 봉사(奉仕)하느라 코피까지 쏟은 일이 몇 번이며 몸져누운 일이 한두 번이 아니었다. 이에 감사(感謝)의 보답(報答)으로 군수(郡守)가 인삼(人蔘)을 싸가지고 위로(慰勞)를 한 적도 있었다. 온 주민(住民)들은 1977년 마을기금(基金) 140,000원을 인출하여 송아지를 구입(購入)하여 감사(感謝)를 표하였다(表하였다). 주민(住民)이 만장(万丈)한 가운데 뜨거운 눈물을 흘리면서 받을 때에 모두가 그들이 이루어 놓은 보람에 흐뭇한 감회(感會)의 눈물을 적셨다.
+Năm 1977, trong suốt thời gian đó, người lãnh đạo đã trải qua vô vàn gian khổ và thử thách, không màng đến việc nhà, tận tụy phục vụ cho làng đến mức chảy máu mũi nhiều lần và đổ bệnh không ít lần. Để bày tỏ lòng biết ơn, quận trưởng đã mang nhân sâm đến thăm hỏi và động viên. Cả dân làng đã rút 140.000 won từ quỹ làng năm 1977 để mua một con bê nhằm bày tỏ lòng biết ơn. Khi nhận con bê trong không khí hân hoan của tất cả dân làng, mọi người đều rơi nước mắt cảm động vì những thành quả mà họ đã đạt được.
 
 ## 7) 요인방문상황(要人訪問狀況)
 
-1975.8.8. 국무총리(國務總理)가 내무부장관, 도지사, 경찰국장을 대동(大同)하고 새마을 사업(事業)으로 눈부시게 달라진 마을의 참모습을 하나하나 점검(點檢)하고 현황(現況)을 청취(聽取)하였다. 그리고 마을 주민(住民)의 노고(勞苦)에 찬사(讃辭)를 아끼지 않고 격려(激勵)를 하기도 했다. 가는 길에 새마을성금(誠金) 20만(萬) 원과 시멘트 700대(袋)를 마을에 전달(傳達)하시기도 했다.
+Ngày 8 tháng 8 năm 1975, Thủ tướng Chính phủ cùng Bộ trưởng Nội vụ, Tỉnh trưởng, Cục trưởng Cảnh sát đã đến kiểm tra từng hạng mục và lắng nghe tình hình thực tế của ngôi làng đã thay đổi một cách ngoạn mục nhờ phong trào Saemaul. Họ không tiếc lời khen ngợi và động viên những nỗ lực của dân làng. Trên đường về, họ đã trao cho làng 200.000 won tiền quyên góp phong trào Saemaul và 700 bao xi măng.
 
 ### <방문현황(訪問現況)>
 
@@ -20189,11 +20189,11 @@ Mùa đông năm 1973, trong quá trình xây dựng nhà hội quán làng, m�
 
 ### 가) 즐거웠던 일
 
-농어촌(農漁村) 전화사업(電化事業)의 일환으로 가설(架設)된 전등(電燈)과 간이상수도사업(簡易上水道事業)을 완공(完工)하던 때 마을 앰프를 통하여 일제히 전등(電燈)과 수도꼭지를 틀던 날 온 주민(住民)이 환호성(歡呼聲)을 지르며 밤이 이슥하도록 춤을 추고 놀았던 일
+Trong khuôn khổ dự án điện khí hóa nông thôn và hoàn thành dự án cấp nước đơn giản, vào ngày tất cả các bóng đèn và vòi nước được mở cùng lúc qua loa phóng thanh của làng, tất cả dân làng đã reo hò và nhảy múa đến tận khuya trong niềm vui sướng tột độ.
 
 ### 나) 슬펐던 일
 
-산림청(山林廳) 시험사업(試驗事業)으로 부락(部落) 뒷산에 오차드그라스(목초(牧草)) 20ha를 조성(造成)하여 성공적(成功的)으로 사업효과(事業效果)를 얻었으나 그 당시 자금(資金)이 없어 한우(韓牛)를 구입(購入)할 수 없어 땔감으로 거름으로 허비하고 이듬해 자연고사(自然枯死)시켜 버렸던 일
+Trong một dự án thử nghiệm của Cục Lâm nghiệp (山林廳), chúng tôi đã thành công trong việc trồng 20ha cỏ Orchardgrass (cỏ chăn nuôi 牧草) trên ngọn núi phía sau thôn (部落) và đạt được hiệu quả dự án (事業效果) tốt. Tuy nhiên, vào thời điểm đó do không có vốn (資金) nên không thể mua bò Hàn Quốc (韓牛), cuối cùng phải dùng làm củi và phân bón rồi để chúng chết tự nhiên (自然枯死) vào năm sau.
 
 
 --- (p. 605) ---
@@ -20934,7 +20934,7 @@ Trong làng nổi tiếng vì nghèo đói và thiếu tinh thần hợp tác, m
 
 --- (p. 623) ---
 
-는 양론을 놓고 걱정하다가
+đang lo lắng khi bàn luận hai ý kiến khác nhau
 
 O 1970.4.22. Tổng thống(大統領) quý ông(閣下) đã đề xướng phong trào Saemaul Undong (새마을운동), chúng tôi cũng quyết tâm hợp sức cùng nhau để sống tốt hơn, nuôi dưỡng tinh thần hợp tác (協同心) và xây dựng giấc mơ làng mạc phúc lợi (福祉農村), đồng thời tổ chức Hội đồng cư dân (住民總會).
 O 70.10.20. Kết quả của Hội đồng cư dân (住民總會) đã quyết định việc thực hiện dự án đầu tiên (第1次 事業): mở đường vào làng (進入路) dài 520m.
@@ -21904,26 +21904,26 @@ Chủ tọa: Các vị, thời tiết lạnh lẽo mà vẫn triệu tập họp
 --- (p. 650) ---
 
 해서 추진해 보겠습니다.
-O 박순태: 우리 마을 중심 골목인 2반 골목을 하겠습니다. 그곳이 가장 더럽고, 물이 잘 빠지지 않는 지역이니까요.
-박민주: 그럼 우리 5반에도 그런 실정이는데 그곳은 언제 합니까? 양보하다가는 10년 내에는 어려울 것 같습니다.
-하종관: 그럼 이번에 각 반별로 책임량을 주어 처리하는 것이 좋겠습니다.
+Ông Park Soon-tae: Tôi sẽ làm con ngõ chính của thôn thuộc tổ 2. Vì đó là nơi bẩn nhất và nước không thoát được.
+Park Min-ju: Vậy ở tổ 5 của chúng tôi cũng có tình trạng tương tự, khi nào thì đến lượt chúng tôi? Nếu cứ nhường nhịn như thế thì có lẽ trong vòng 10 năm cũng khó mà thực hiện được.
+Ha Jong-gwan: Vậy lần này chúng ta nên giao chỉ tiêu trách nhiệm cho từng tổ để xử lý.
 일동: 동의합니다.
-사회: 각반별로 100m 정도 책임지고 하는 방법으로 하고 양회는 1개 반에 50포씩이고 35대(代)는 하다가 부족한 곳에 또 나누어 주기로 하겠습니다.
-김영주: 우리 3반은 하지 않겠습니다! 하수구 한답시고 우리 돌담 다 헐어버리려고 하지! 땅 한치도 줄 수 없으며 나는 내다보지도 않을 것이니 내 울타리는 손도 대지 마세요, 큰 싸움이 일어날 테니까,
-박순태: 영감님. 언제 하시더라도 해야 할 것입니다. 이번 기회에 아주 안길 확장까지 해버리는 것이 좋겠습니다.
-박영주: 저런 미친놈 봤느냐?
+Chủ trì: Mỗi tổ sẽ chịu trách nhiệm khoảng 100m theo cách làm này, còn vôi tôi sẽ phân bổ 50 bao cho mỗi tổ, và 35 thế hệ (代) sẽ tiếp tục phân bổ thêm cho những nơi còn thiếu.
+Kim Young-ju: Tổ 3 của chúng tôi sẽ không làm đâu! Đừng có mà phá tường đá của chúng tôi để làm cống thoát nước! Chúng tôi không nhượng dù chỉ một tấc đất, tôi sẽ không nhìn mặt, và đừng có đụng vào hàng rào của tôi, nếu không sẽ xảy ra xung đột lớn đấy.
+Park Soon-tae: Thưa cụ, dù khi nào thì cũng phải làm thôi. Nhân dịp này, chúng ta nên mở rộng cả con ngõ luôn thì tốt hơn.
+Park Young-ju: Đã thấy thằng điên nào chưa?
 하려면 네 골목이나 잘해!
 (침묵)
-사회: 영감님. 이것은 개인 이익보다 전주민의 이익이며 누구나 편리한 생활을 하고자 한 것입니다. 물이 빠지지 않으니 악취가 나서 살 수 없을 것 같습니다.
+Chủ trì: Thưa cụ, đây là việc vì lợi ích chung của toàn dân làng chứ không phải lợi ích cá nhân, ai cũng muốn có cuộc sống thuận tiện. Nước không thoát được nên bốc mùi hôi thối, không thể sống nổi.
 O 박영주: 그래도 나는 못해.
-O 사회: 제가 여기서 결론을 말씀드리겠습니다. 각반에서 하려다 보면 김영주 영감님의 처지처럼 곤란한 점이 많이 있을 것으로 예상되는 각 반별로 처리하고 그래도 불가능시 이장(里長)과 개발위원(開發委員)의 설득으로 해결하고 그래도 안될 때는 그 장소만 제외하고 사업을 진행하는 것이 좋겠습니다. 어떻습니까?
+Chủ trì: Tôi xin đưa ra kết luận ở đây. Nếu mỗi tổ tự xử lý thì sẽ gặp nhiều khó khăn như trường hợp của cụ Kim Young-ju. Do đó, chúng ta sẽ xử lý theo từng tổ, nếu không thể giải quyết được thì trưởng thôn (里長) và ủy ban phát triển (開發委員) sẽ thuyết phục, nếu vẫn không được thì sẽ bỏ qua vị trí đó và tiếp tục dự án. Các vị thấy thế nào?
 일동: 좋습니다.
 김영주: 잘들 해 봐!
-사회: 오늘은 김영주 영감만 반대했습니다만 또 어려움이 있을 것을 예상하니 반별 책임처리 해주십시오. 그 외에 다른 의견이 있으면 말씀해 주십시오.
-정민식: 그럼 언제부터 시작할까요?
-사회: 1월 7일부터 시작해서 2월 10일까지는 끝내야 하겠습니다. 골재는 반별로 책임지고 채취하고 거푸집은 마을 판자를 이용해서 만들겠으니 반별로 5일씩 사용하기로 하겠습니다.
+Chủ trì: Hôm nay chỉ có cụ Kim Young-ju phản đối, nhưng dự đoán sẽ có thêm khó khăn khác, vì vậy hãy xử lý theo trách nhiệm của từng tổ. Nếu có ý kiến khác xin hãy phát biểu.
+Jeong Min-sik: Vậy khi nào bắt đầu?
+Chủ trì: Sẽ bắt đầu từ ngày 7 tháng 1 và phải hoàn thành trước ngày 10 tháng 2. Vật liệu đá sẽ do từng tổ tự chịu trách nhiệm khai thác, khuôn đúc sẽ sử dụng ván gỗ của làng, mỗi tổ sẽ được sử dụng trong 5 ngày.
 일동: 좋은 의견입니다.
-사회: 애로사항이 있는 분은 말씀해 주십시오. 없으면 1월 7일 전주민이 참석하여 착공하여 주시기 바라며 폐회하겠습니다. 감사합니다.
+Chủ trì: Nếu ai có khó khăn gì xin hãy phát biểu. Nếu không có gì thì mong toàn thể dân làng tham gia khởi công vào ngày 7 tháng 1. Buổi họp đến đây là kết thúc. Xin cảm ơn.
 
 
 --- (p. 651) ---
@@ -22239,28 +22239,28 @@ Sự nhiệt tình của ông đối với giáo dục, đã khiến ông trở 
 
 --- (p. 660) ---
 
-상태로 몰고 갔으며, 가정(家庭)을 돌볼 여유를 갖지 못하고 또 사재(私財)를 아낌없이 털어놓는 그의 행동(行動)을 참을 수만은 없는 부인(婦人)의 투정에 그의 정신적(精神的) 타격(打擊)은 크지 않을 수 없었다.
-그렇지만 주민(住民)들에게는 조금도 표출(表出)시키지 않는 여유를 가진 그 이야말로 상록수(常綠樹) 새마을 지도자(指導者)였다.
+ông đã đẩy mình vào tình trạng không còn thời gian chăm sóc gia đình, lại còn không tiếc đổ hết tài sản riêng, hành động đó khiến người vợ không thể chịu đựng nổi sự cằn nhằn, khiến ông chịu tổn thương tinh thần không nhỏ.
+Tuy nhiên, đối với người dân, ông vẫn luôn giữ được sự điềm tĩnh không biểu lộ ra ngoài, đó chính là hình ảnh người lãnh đạo phong trào Saemaul của làng Thường Lục Thụ.
 
 ### 4) 융로(隆路) 극복(克服) 상황(狀況)
 
-새마을운동(運動)을 전개(展開)하는 모든 마을 특히 농촌(農村)마을이 그러하듯이 천해(泉海)마을도 아무런 애로(隘路) 없이 현재(現在)의 천해(泉海)마을을 만든 것은 아니다. 더구나 62호(戶) 중 대부분이 완전(完全) 농업(農業)에만 종사(從事)하는 사람들이라서 사업추진기술(事業推進技術)의 부족(不足)으로 인한(因한) 타격(打擊)은 물론이거니와, 초기(初期)에는 주민(住民)들의 단합(團合)이 잘 되지 않아 작업능률(作業能率)이 오르지 않을 때도 많았다.
-* 첫째, 종교(宗敎)로 인한(因한) 것을 들 수 있었다.
+Giống như tất cả các làng triển khai phong trào Saemaul, đặc biệt là các làng nông thôn, làng Tuyền Hải cũng không thể xây dựng được như hiện tại mà không gặp bất kỳ khó khăn nào. Hơn nữa, trong số 62 hộ gia đình, phần lớn đều chỉ hoàn toàn làm nông nghiệp, nên không chỉ chịu tác động do thiếu kỹ thuật thúc đẩy công việc, mà ngay từ giai đoạn đầu, sự đoàn kết của người dân chưa tốt dẫn đến hiệu suất công việc không cao.
+* Thứ nhất, có thể kể đến nguyên nhân do tôn giáo.
 
-천해(泉海)마을에는 1952년(年)에 설립(設立)된 대한예수교(大韓예수敎) 장로회(長老會) 계통(系統)의 천해교회(泉海敎會)가 있는데, 62가구(家口) 중 30가구(家口)가 신도(信徒)로 되어 있다. 신도(信徒)들 간(間)의 단합력(團合力)은 강력(強力)한이라서, 이들이 마을사업(事業)에 반대(反對)하면 사업(事業)은 정지(停止)해 버리기 일수였고, 또 일요일(日曜日)에는 대개 작업(作業)을 기피하여 바쁜 일정(日程)의 사업수행(事業遂行) 시(時)는 상당한 차질(差跌)을 초래하게 되었는바, 새마을 지도자(指導者)인 조재렬(曹在烈)이와 몇몇 지도급(指導級) 인사(人士)들이 교회(敎會)를 찾아 목사(牧師)님을 설득(說得)하며, 신도(信徒)들에 대해서는 신의(信義)에 찬 행동(行動)으로 이들을 감화(感化)시켜 마침내 그들의 단합(團合)된 힘을 새마을사업(事業)의 방향(方向)으로 이끄는 데 성공(成功)했다.
+Ở làng Tuyền Hải có nhà thờ Tuyền Hải thuộc hệ phái Giáo hội Trưởng lão Đại Hàn Cơ Đốc (được thành lập năm 1952), trong số 62 hộ gia đình thì có 30 hộ là tín đồ. Sức đoàn kết giữa các tín đồ rất mạnh mẽ, nếu họ phản đối công việc của làng thì công việc sẽ phải dừng lại ngay lập tức, hơn nữa vào ngày Chủ nhật, họ thường tránh làm việc, khiến việc thực hiện các công việc bận rộn gặp nhiều trục trặc. Người lãnh đạo phong trào Saemaul là Jo Jae-ryeol cùng một số nhân vật cấp lãnh đạo đã đến nhà thờ thuyết phục mục sư, đồng thời bằng những hành động đầy tín nghĩa đối với các tín đồ, họ đã cảm hóa được họ, cuối cùng thành công trong việc dẫn dắt sức mạnh đoàn kết của họ vào hướng phát triển công cuộc Saemaul.
 * 둘째, 주민(住民)들의 불화(不和)였다.
 
-이때에는 주민(住民)들을 단합(團合)시키기 위한(爲한) 마을총회(總會)를 자주 개최(舉行)하고, 부녀회(婦女會) 자금(資金)으로 음식을 마련하여 주민(住民)들과의 따뜻한 대화(對話)와 설득(說得)으로 총화단결(總和團結)을 이룩할 수 있었다.
-* 셋째, 주민(住民)의 기술부족(技術不足)으로 인한(因한) 사업미진(事業未進)이었다.
+Trong thời gian này, để đoàn kết người dân, họ thường xuyên tổ chức hội nghị toàn dân, dùng quỹ của Hội Phụ nữ chuẩn bị thức ăn, thông qua đối thoại và thuyết phục thân tình để đạt được sự đoàn kết toàn diện.
+* Thứ ba, do thiếu kỹ thuật của người dân dẫn đến công việc không tiến triển.
 
-사업수행(事業遂行)에 필요한(必要한) 토수(土手), 목수(木手), 미장이(미장工) 등이(等이) 마을에는 한 사람도 없어 필요한(必要한) 기술자(技術者)를 일일이 타지(他地)에서 계약초빙(契約招聘)해야만 되어 필요한(必要한) 때 일을 할 수 없고, 또 외부(外部)로 유출(流出)되는 주민(住民)을 해결하기 위하여(爲하여) 각(各) 부서별(部署別)로 추진위원(推進委員)들이 타부락사업(他部落事業) 상황(狀況)을 시찰(視察)하여 손수 배워다가 실천(實踐)하여 모든 사업(事業)이 당초(當初)의 계획(計劃)대로 진행(進行)됐으며, 이제는 마을 주민(住民) 대부분(大部分)이 기능보유자(技能保有者)가 되었다.
-* 넷째, 건축자재(建築資材) 및 기타자재(其他資材)가 농번기(農繁期)에 입하(入荷)되는 사례(事例)가 자주 있어, 매일(每日) 인원(人員)을 동원(動員)하여 공동작업(共同作業)에 임할(臨할) 수 없는 점을 들 수 있다.
+Trong làng không có một người thợ nào như thợ đất, thợ mộc, thợ hồ cần thiết cho việc thực hiện công việc, nên phải ký hợp đồng mời từng người từ nơi khác, khiến không thể làm việc khi cần thiết. Ngoài ra, để giải quyết vấn đề người dân di chuyển ra bên ngoài, các ủy viên phụ trách từng bộ phận đã đi khảo sát tình hình công việc ở các thôn khác, tự tay học hỏi và áp dụng thực tiễn, nhờ đó mọi công việc đều tiến hành theo kế hoạch ban đầu, và giờ đây hầu hết người dân trong làng đều đã trở thành người có kỹ năng.
+* Thứ tư, có thể kể đến việc vật liệu xây dựng và các vật liệu khác thường được nhập vào trong mùa nông忙, khiến không thể huy động nhân lực hàng ngày để thực hiện công việc chung.
 
-이를 해결(解決)하기 위하여(爲하여) 아침 6시(時) 30분(分)에 전주민(全住民)을 동원(動員)하여 작업(作業)을 실시(實施)할 수 있도록 주민결의(住民決意)를 얻어 추진(推進)케 되므로써 문제점(問題點)을 해결(解決)시켰다.
+Để giải quyết vấn đề này, họ đã đạt được sự đồng thuận của người dân để huy động toàn bộ dân làng làm việc từ 6 giờ 30 sáng, qua đó giải quyết được vấn đề.
 
 ### 5) 토지(土地) 및 자재(資材) 희사(喜捨)
 
-* 현재(現在)의 천해(泉海) 자립(自立)마을이 가꾸어지기까지에는 지도자(指導者)의 피땀 어린 헌신(獻身)도 있었지만, 이에 호응하는 주민(住民)들의 서슴없는 희생(犧牲) 및 희사(喜捨)도 결정적(決定的)이었다.
+* Cho đến khi xây dựng được làng Tuyền Hải tự lập như hiện nay, không chỉ có sự cống hiến đầy mồ hôi và nước mắt của người lãnh đạo, mà sự hy sinh và đóng góp không ngần ngại của người dân cũng đóng vai trò quyết định.
 * 예컨대 1967년(年) 폭(幅) 2m의 농로(農路) 1,200m를 개설(開設)할 때 "박문상(朴文相)" 등(等) 15명이(名) 옥답(沃沓) 600여평(餘坪)을 마을의 발전(發展)을 위해(爲해) 희사(喜捨)하였으며
 * 1968년(年) 농로(農路) 2,300m를 폭(幅) 2m에서 6m로 확장(擴張)할 때도 박문상(朴文相) 등(等) 17명이(名) 농토(農土) 2,500여평(餘坪)을 희사(喜捨)하였다.
 
@@ -22469,13 +22469,13 @@ Người chứng kiến (證人): 임춘채,朴萬松,朴文相,曹奇煥,朴奉
 # 회무(會務) 처리
 
 *   비품대장(備品臺帳) 및 폐품처리(廢品處理), 폐품처리(廢品處理)는 자문위원(諮問委員)에 위임(委任)키로 가결(可決)함.
-*   자문위원(諮問委員) 선정(選定) 선정방법(選定方法)을 구두호천(口頭呼薦)으로 하자는 동의(動議)와 5명 연기명(連記名)으로 비밀투표(秘密投票)로 하여 다점자순(多點者順)으로 5명을 선정(選定)하자는 개기(改議)가 있어 개기(改議)측에 가결(可決)되어 투표(投票)하여 개표(開票)하니 득표(得票)는 아래와 같다.
+*   Có đề xuất chọn Ủy viên tư vấn bằng cách đề cử miệng và đề xuất bầu chọn 5 người bằng hình thức bỏ phiếu kín ghi tên liên tiếp, chọn 5 người có số phiếu cao nhất. Đề xuất sửa đổi đã được thông qua, tiến hành bỏ phiếu và kết quả kiểm phiếu như sau.
     박영대(朴瑛大) 24표(票), 조재열(曹在烈) 20표(票), 임옥암(任玉岩) 11표(票), 박봉규(朴奉圭) 20표(票), 임춘채(任春彩) 18표(票), 조기환(曹奇煥) 15표(票), 최영작(崔瑛作) 13표(票), 박문상(朴文相) 15표(票), 조은식(曹殷植) 21표(票), 김용대(金溶大) 11표(票) 이상 다점자순(多點者順)으로 당선자(當選者)는 박영대(朴瑛大), 조은식(曹殷植), 박봉규(朴奉圭), 조재열(曹在烈), 임춘채(任春彩) 오명(五名)이었다.
 *   신유사선정(新有司選定)에 있어 동장회(洞丈會)와 협의(協議)코저 10분간(分間) 정회(停會)하고 동장회(洞丈會)와 협의(協議) 끝에 김재씨(金在氏)를 유사(有司)로 선출(選出)하였다.
 *   동장회(洞丈會)에서 주지사항(周知事項)은 동민(洞民)께서는 자각(自覺) 자성(自省)하여 부락(部落) 발전(發展)에 적극(積極) 헌신(獻身)해 줄 것을 당부(叮囑)하였다.
-*   반장(班長) 사면(辭免)으로 인한 재선(再選)에 있어 이장(里長)이신 박재평(朴在平)으로부터 제이반장(第二班長) 이상근(李尙根), 제삼반장(第三班長) 정용기(鄭龍基) 내신(內申)하니 그대로 인준(認准)하였다.
+*   Trong cuộc bầu chọn lại do lớp trưởng từ chức, ông trưởng thôn Park Jae-pyeong đã đề cử ông Lee Sang-geun làm lớp trưởng thứ hai và ông Jeong Yong-gi làm lớp trưởng thứ ba, và đã phê chuẩn như vậy.
 *   학산국민학교(鶴山國民校) 교실(敎室) 증축비(增築費)와 농협(農協) 자기(自己) 자금(資金) 수집(收集)을 하되 이장(里長) 월료(月料) 수집시(收集時) 같이 행(行)하되 이장(里長) 월료(月料)는 할당(割當) 방법을 하곡월료(夏穀月料) 등급(等級)에 준(準)하고 반장(班長)과 자문위원(諮問委員)에게 일임(一任)하고 거출(據出) 일정(日程)은 12월 17일로 정(定)하였다.
-*   본리(本里) 농사개량구락부(農事改良俱樂部) 재조직(再組織)에 대하여 박봉규(朴奉圭)로부터 자세(仔細)한 설명(說明)이 있은 후에 입회(入會)를 원(願)한 자(者)는 12월 17일까지 인장(印章)을 가지고 이장(里長)에게 등록(登錄)토록 광고(廣吿)하였다.
+*   Ông Park Bong-gyu đã giải thích chi tiết về việc tái tổ chức Câu lạc bộ Cải tiến Nông nghiệp của thôn, sau đó thông báo rằng những ai muốn gia nhập hãy đăng ký với trưởng thôn bằng con dấu trước ngày 17 tháng 12.
 *   안건(案件)이 다 함으로 폐회(閉會)를 선언(宣言)하니 동일(同日) 하오(下午) 4시 30분이었다.
 서기(西紀) 1966년(年) 12월(月) 16일(日)
 의장(議長): 박영대(朴瑛大)
@@ -22490,9 +22490,9 @@ Người chứng kiến (證人): 임춘채,朴萬松,朴文相,曹奇煥,朴奉
 의장(議長): 자문위원장(諮問委員長) 박영대(朴瑛大)
 회의록서기(會議錄書記): 박태규(朴泰圭)
 
-*   이장(里長) 박재평(朴在平)으로부터 세대주(世帶主)를 점명(點名)하였고 성원(成員)이 되므로 의장(議長) 박영대(朴瑛大)로부터 개회(開會)를 선언(宣言)하고 동안(洞案) 낭독(朗讀)이 있었다.
+*   Ông trưởng thôn Park Jae-pyeong đã điểm danh chủ hộ, các thành viên có mặt, sau đó ông chủ tịch Park Yeong-dae tuyên bố khai mạc cuộc họp và đọc nội dung chương trình nghị sự.
 *   조재열(曹在烈)로부터 전년도(前年度) 회의록(會議錄) 낭독(朗讀)이 있었다.
-*   금년도(今年度) 촌계(村契) 재정보고(財政報告)에 있어 의장(議長)으로부터 별책(別册) 회계장부(會計帳簿)와 같이 낭독보고(朗讀報告)가 있어 자문위원회(諮問委員會)가 검사필(撿査畢)하다.
+*   Trong báo cáo tài chính của thôn khế (村契) năm nay (今年度), chủ tịch (議長) đã đọc báo cáo (朗讀報告) cùng với sổ sách kế toán (會計帳簿) đính kèm (別册), và hội đồng tư vấn (諮問委員會) đã hoàn tất kiểm tra (撿査畢).
 
 
 --- (p. 669) ---
@@ -22807,23 +22807,23 @@ Không có đề xuất nào, vì vậy hội nghị đã kết thúc với tuy�
 
 --- (p. 677) ---
 
-박봉규, 정용기, 임춘재, 박봉상, 최용선
+Phác Phong Khuê, Trịnh Dung Cơ, Lâm Xuân Tài, Phác Phong Tường, Thôi Dung Tuyến
 이상 5명으로 선출되었다.
-중식 시간되어 시간은 2시 30분이었다.
+Đã đến giờ ăn trưa, lúc đó là 2 giờ 30 phút.
 
 ### O 속회
 
-동일 4시 10분에 동장소에서 의장 조은식 사회로 속회되었다.
-자문위원(諮問委員) 소회가 모여 위원장(委員長)을 선출하니 박봉규로 당선(當選) 공포(公布)하였다.
+Vào lúc 4 giờ 10 phút cùng ngày, hội nghị tiếp tục được tổ chức tại cùng địa điểm dưới sự điều hành của chủ tịch Cho Ŭn-sik.
+Các thành viên hội đồng tư vấn (諮問委員) họp lại và bầu chủ tịch hội đồng (委員長), kết quả là Phác Phong Khuê được trúng cử (當選) và công bố (公布).
 
 ### O 토의사항
 
-마을 소유(所有)인 창고 2동 60평과 40평을 매각(賣却)키로 가결(可決)되었다.
+Quyết định thông qua (可決) việc bán (賣却) hai kho chứa thuộc sở hữu (所有) của thôn với diện tích 60평 và 40평.
 
 ### O 유사선정
 
-73년도 유사는 이윤수로 선정되었다.
-서기(書記) 회의록(會議錄)을 낭독(朗讀)하니 정 정채로 가결(可決)되었다. 안건(案件)이 다하여 폐회(閉會)를 의장(議長)으로부터 선언(宣言)하니 동일(同日) 17시(時) 50분(分)이었다.
+Người phụ trách năm 1973 được chọn là Yi Yun-su.
+Thư ký (書記) đọc biên bản cuộc họp (會議錄), sau khi xác nhận không có sửa đổi, biên bản được thông qua (可決). Sau khi tất cả các đề án (案件) đã được thảo luận xong, chủ tịch (議長) tuyên bố bế mạc (閉會) vào lúc 17 giờ 50 phút cùng ngày (同日).
 
 의 장: 조 은 식
 서 기: 정 정 채
@@ -22835,7 +22835,7 @@ Không có đề xuất nào, vì vậy hội nghị đã kết thúc với tuy�
 
 ### O 회순채택(會順採擇)
 
-초안(草案)된 회순(會順)을 서기(書記)가 낭독(朗讀)하니. 임시(臨時) 채택(採擇)키로 가결(可決)하고 채택(採擇)된 회순(會順)은 아래와 같다.
+Thư ký (書記) đọc dự thảo (草案) chương trình họp (會順), quyết định tạm thời thông qua (臨時 採擇) và chương trình họp được thông qua (採擇) như sau.
 *   회순(會順)
 *   호명(呼名)
 *   개회선언(開會宣言)
@@ -22851,15 +22851,15 @@ Không có đề xuất nào, vì vậy hội nghị đã kết thúc với tuy�
 *   회의록낭독(會議錄朗讀)
 *   폐회(閉會)
 
-### O 조재별로부터 동안낭독이 있었다. 리장 박봉상으로부터 경과보고하니 그대로 받기로 하였다.
+### Có phần đọc báo cáo từ các tổ (O 조재별). Lý trưởng Phác Phong Tường báo cáo tiến trình và được chấp thuận nguyên trạng.
 
 ### O 유안건 처리
 
-창고매각건은 소위원 3명을 선정하여 자문위원과 함께 합의하며 매각키로 만장일치로 가결되었다.
+Vấn đề bán kho được quyết định thông qua với sự nhất trí (萬場一致) rằng sẽ chọn 3 ủy viên nhỏ để cùng hội đồng tư vấn thảo luận và tiến hành bán.
 
 ### O 동안개정
 
-동안 20조 리장의 임기 1년을 2년으로 개정하다. 단 재선에 의하며 1회를 더할 수 있으나 연 3년 이상은 할수 없다.
+Sửa đổi nhiệm kỳ 1 năm của lý trưởng trong 20 điều khoản thành 2 năm. Tuy nhiên, chỉ được tái cử thêm 1 lần và tổng nhiệm kỳ không quá 3 năm.
 
 
 --- (p. 678) ---
@@ -23779,38 +23779,38 @@ Lãnh đạo Saemaul (新村指導者) đã giữ vị trí trưởng làng (里
 
 --- (p. 700) ---
 
-고 화목계는 오늘 날짜로 해체(解體)됩니다. 이곳과는 연결(連結)시키지 마시오.
-배석근 : 배학령씨를 추천합니다.
-배순선 : 김성열씨를 추천합니다
+Hội hòa mục (化目契) sẽ giải thể (解體) từ hôm nay. Không liên kết (連結) với nơi này.
+Bae Seok-geun: Tôi đề cử ông Bae Hak-ryeong.
+Bae Sun-seon: Tôi đề cử ông Kim Seong-yeol.
 ---이외(以外) 다수(多數) 추천---
-김성열 : 이렇게 할 게 아니라 이장(里長)에게 위임(委任)하여 선출(選出)합시다.
-배전용: 어차피 새마을지도자(指導者)와 손발이 맞아야 하니까 그렇게 하는 것이 좋겠습니다.
-이장(里長) : 그럼 개발위원(開發委員) 선출건(選出件)은 그렇게 알고 다음 회의(會議)에 보고(報告)하겠습니다.
-그리고 안건(案件)에는 72년도 사업계획(事業計劃)을 수립하게 되어 있는데 이는 개발위원(開發委員)이 선출(選出)된 다음 회의(會議)로 넘기겠습니다.
+Kim Seong-yeol: Thay vì làm như thế này, chúng ta hãy ủy quyền (委任) cho trưởng thôn (里長) để bầu chọn (選出) nhé.
+Bae Jeon-yong: Dù sao thì cũng phải hợp với người lãnh đạo phong trào làng mới (新마을指導者), nên làm như vậy là tốt nhất.
+Trưởng thôn (里長): Vậy thì việc bầu chọn ủy viên phát triển (開發委員選出件) sẽ được tiến hành như vậy, tôi sẽ báo cáo lại trong cuộc họp (會議) tới.
+Và trong các vấn đề (案件) có việc lập kế hoạch công tác (事業計劃) năm 72, việc này sẽ được chuyển sang cuộc họp (會議) sau khi bầu chọn ủy viên phát triển (開發委員選出).
 ---새마을지도자(指導者) 인사(人事)말, 폐회선언(閉會宣言).---
 
 ## 회의록(會議錄)(2)
 
 일시(日時) : 1972년 12월 25일
 장소(場所) : 마을회관
-회의안건 : ① 새마을사업결산(事業決算)
+Nội dung cuộc họp: ① Quyết toán công tác phong trào làng mới (事業決算)
 ② 새마을지도자(指導者) 교체(交替)
 참석인원(참석人員) : 총원 97명 중 82명
 
-배순용 : 금년도(今年度) 새마을가꾸기사업(事業)에 대한 결산(決算)과 후임(後任) 지도자(指導者) 선출(選出)에 대해 마을 총회(總會)를 개최(開催)하겠습니다.
+Bae Sun-yong: Năm nay (今年度), chúng ta sẽ tổ chức đại hội làng (總會) để quyết toán (決算) công tác làm đẹp làng mới (新마을가꾸기事業) và bầu chọn người lãnh đạo (指導者) kế nhiệm (後任).
 
 ---결산보고서(決算報告書) 낭독---
 
-금년도에는 여러분의 적극적(積極的)인 참여(參與)로 계획(計劃)된 일을 순조롭게 추진(推進)했으며 앞으로도 우리 마을에서는 환경개선사업(環境改善事業)을 끝내기 위해서는 보다 더 많은 고생이 있어야 하겠습니다.
-그리고 73년도(年度)에는 정부(政府)의 지원(支援)을 받도록 노력(努力)할 것이나 자체(自體)로라도 사업계획(事業計劃)을 세우고 쉬지 않는 마을을 만들어 나가는 것이 좋을 것이며
-우리가 획정(劃定)한 규정(規定)과 같이 새마을 지도자(指導者)는 1년에 한명으로 하기로 하였으니 본인(本人)의 후임(後任)을 선출(選出)해 주기 바랍니다.
-배철용 : 금년도 새마을사업(事業)에 지도자(指導者)의 노고가 컸습니다. 그러므로 한 사람만 고생할 것이 아니라 다 같이 고생을 해봐야 하니 지도자(指導者)를 교체(交替)하는 것이 좋다고 봅니다.
-배웅기 : 새마을사업(事業)이 이제 시작(始作)된 것이므로 전임자(前任者)가 1년 더 고생해서 군내(郡內) 모범부락(模範部落)을 만들어 주는 것이 좋겠습니다.
-김태랑 : 계속(繼續) 재임여부(在任與否)를 결정(決定)합시다. ---전(前) 지도자(指導者) 배순용이 퇴장함.
-배석준 : 그러면 저렇게 반대(反對)하니 교체(交替)하는 것이 좋겠습니다.
-김태랑 : 그럼 배석준씨가 임시 사회(司會)를 보시오.
-배석준 : 여러분의 의견(意見)에 따라 사회(司會)를 보겠습니다. 그러면 어떤 방법(方法)으로 선출(選出)할까요?
-배풍태랑 : 배금남씨가 좋겠습니다. ---전원(全員)이 이에 찬성(贊成).
+Năm nay, nhờ sự tham gia (參與) tích cực (積極的) của mọi người, chúng ta đã thúc đẩy (推進) thuận lợi các công việc theo kế hoạch (計劃). Tuy nhiên, để hoàn thành công tác cải thiện môi trường (環境改善事業) trong làng, chúng ta sẽ còn phải nỗ lực nhiều hơn nữa.
+Và vào năm 73 (年度), chúng ta sẽ cố gắng nhận được sự hỗ trợ (支援) từ chính phủ (政府), nhưng dù tự thân (自體) cũng phải lập kế hoạch công tác (事業計劃) và xây dựng một ngôi làng không ngừng nghỉ, như vậy sẽ tốt hơn.
+Theo quy định (規定) mà chúng ta đã hoạch định (劃定), người lãnh đạo phong trào làng mới (新마을指導者) sẽ là một người mỗi năm, vì vậy xin hãy bầu chọn người kế nhiệm (後任) cho vị trí của bản thân (本人).
+Bae Cheol-yong: Người lãnh đạo (指導者) đã có nhiều công lao trong công tác phong trào làng mới (事業) năm nay. Vì vậy, thay vì để một người vất vả, chúng ta nên cùng nhau chia sẻ khó khăn, nên tôi cho rằng nên thay đổi (交替) người lãnh đạo (指導者).
+Bae Ung-gi: Công tác phong trào làng mới (事業) mới chỉ bắt đầu (始作), nên người tiền nhiệm (前任者) tiếp tục vất vả thêm một năm nữa để xây dựng một thôn làng mẫu (模範部落) trong huyện (郡內) sẽ tốt hơn.
+Kim Tae-rang: Chúng ta hãy quyết định (決定) việc có tiếp tục tại nhiệm (繼續在任與否) hay không. --- Cựu lãnh đạo (前指導者) Bae Sun-yong rời phòng.
+Bae Seok-jun: Vậy thì vì có ý kiến phản đối (反對) như vậy, nên thay đổi (交替) sẽ tốt hơn.
+Kim Tae-rang: Vậy ông Bae Seok-jun sẽ tạm thời điều hành cuộc họp (司會) nhé.
+Bae Seok-jun: Tôi sẽ điều hành cuộc họp (司會) theo ý kiến của mọi người. Vậy chúng ta sẽ bầu chọn (選出) bằng phương pháp (方法) nào?
+Bái Phong Thái Lang: Ông Bái Kim Nam sẽ tốt. ---Toàn thể (全員) đều tán thành (贊成).
 배금남 : 인사(人事), 73년도(年度) 사업계획(事業計劃)을 같이 토의(討議)해 봅시다.
 
 
@@ -24308,18 +24308,18 @@ Vào tháng 11 năm 1975, khi cư dân (住民) của làng cũ thấy những c
 
 --- (p. 715) ---
 
-단당(段當) 6섬의 성공적(成功的)인 수확을 거두었고 밭에는 자소엽과 마늘, 콩 등을 심어 전년도(前年度)의 배액(倍額)의 수확을 거둘 수 있었다.
-O 76년(年)에는 마늘 • 양파 • 자소엽 • 열무 등 잠시도 땅을 쉬지 않고 경작(耕作)하여 거의 배에 가까운 호당소득(戶當所得)을 올렸고 1모작(毛作)이 었던 논을 2모작(毛作)으로 만들었다.
-75년(年) 11월(月)에는 정부지원(政府支援) 골재(骨材)나 마을 공동자재(共同資材)를 보관(保管)해야 할 창고(倉庫)가 필요(必要)하다고 생각한 박(朴) 지도자(指導者)는 마을총회(總會)에서 마을 창고(倉庫)를 건립(建立)하자고 건의(建議)하였으나 가난하게만 살아온 주민(住民)들은 마을 창고(倉庫)가 무슨 필요(必要)가 있겠느냐며 좀처럼 호응하여 주지 않았다.
-O 그러나 계속(繼續) 마을창고(倉庫)의 필요성(必要性)과 우리도 잘 살 수 있다는 증거가 이미 나타나고 있지 않느냐는 박(朴) 지도자(指導者)의 역설(力說)로 결국(結局) 새마을 창고(倉庫)를 건립(建立)하자고 하는 결의(決義)를 하였다.
-행정당국(行政當局)을 몇 차례 방문(訪問)한 박(朴) 지도자(指導者)는 간곡한 건의(建議)와 꼭 잘사는 마을로 만들고야 말겠다는 굳은 신념(信念)을 표시(表示)해 결국(結局) 국도변정화(國道邊淨化)의 일환사업(一環事業)으로 50만(萬) 원 씩 지급(支給)하는 취로사업(就勞事業)의 대상(對象)으로 이 마을의 새마을 창고(倉庫)를 지정(指定)받았다.
-그러나 새마을 창고(倉庫)를 어느 곳에 건립(建立)할 것인가를 두고 기존주민(旣存住民)과 이주민(移住民) 사이에는 다시금 불화(不和)의 상황(狀況)에 직면(直面)했다.
-기존주민(旣存住民)들은 자기(自己)네 가까운 위치(位置)에 창고(倉庫)를 건립(建立)하자고 나섰지만 누구 한 사람 땅을 희사하는 사람이 없어 결국(結局) 1개월여(個月餘) 만에 이주민촌(移住民村) 공지(空地)에 창고(倉庫)를 건립(建立)하기로 합의(合意)를 보았으나 막상 작업(作業)에 착수(着手)하고 나니 기존주민(旣存住民)은 누구 한 사람 나와 보는 이 없고 날품팔이를 해 생계(生計)를 유지(維持)하는 이주민(移住民)인지라 매일(每曰)같이 이 일에 매달릴 수도 없는 형편(形便)이었다.
-O 결국(結局) 박(朴) 지도자(指導者)와 그와 뜻이 맞는 주민(住民) 2명(名)이 부녀회원(婦女會員)들의 지원(支援)을 얻어 눈물을 흘려가며 겨우 20평(坪)을 완성(完成)할 수 있었다.
-한편 농한기(農閑期)에 일손을 쉬지 않게 하기 위해 8대의 가마니틀과 6대의 새끼틀을 마을기금(基金)으로 구입하여 토지(土地)가 없는 영세주민(零細住民)의 소득(所得)을 높이고 볏짚을 최대한(最大限) 활용(活用) 농가소득(農家所得)을 배가하는 데 큰 기여를 하고 있다.
-O 나날이 발전되어 가는 마을의 모습은 더욱 더 지도자(指導者)와 주민(住民)에게 용기(勇氣)를 북돋워 주었으며 부부(夫婦) 지도자(指導者)는 한시도 쉬지 않고 주민(住民) 개개인(個個人)의 소득증대(所得增大)를 위해(爲해) 연구(硏究)하고 토의(討議)하며 실행가능성(實行可能性)이 있는 길을 모색, 각(各) 주민(住民)의 여건(與件)과 특성(特性)을 파악(把握)하여 소작(小作)을 하는 이들에게 부업(副業) 소득원(所得源)으로 비육우(肥肉牛) 입식을 주선해 주고, 특용작물(特用作物) 계약재배(契約栽培)를 지원해 주곤 하였다.
-O 그러나 전답(田沓)이나 좀 가지고 남의 손에 의지(依支)하여 농사(農事)를 지으며, 사사건건(事事件件) 유지(有志) 행세(行勢)를 해 오던 몰지학(沒知學)한 몇 사람은 영세민(零細民)들이 소를 키운다, 가마니를 짠다 하여 일손이 귀해지고, 공동(共同) 작업(作業)을 한다 하여 자기(自己)들에게 우선적(優先的)인 사의(使宜)를 보아 주지 않자 합세(合勢)하여 지원(支援)시멘트를 지도자(指導者)가 착복(着服)했다는 거짓 누명을 씌워 검찰(檢察)과 경찰(警察)에 진정서(陳情書)를 제출(提出)하는 등 소란을 빚었으며 많은 사람들이 지도자(指導者)에게 무조건(無條件) 승복(承服)할 것을 강요(强要)하였고, 결국(結局)은 얼마쯤 벌어 먹었을 것 아니냐는 공공연(公公然)한 비난(非難)의 소리는 부부(夫婦) 지도자(指導者)에게 커다란 충격(衝擊)과 시련의 질곡(桎梏)속을 헤매게 하였고 승승장구하던 이 마을에 1년(年)이라는 침체기를 가져오게 하고 말았다.
-O 답답하고 괴로운 생활(生活) 속에서 이대로 포기(拋棄)할 수도, 좌절(挫折)할 수도 없다고 생각한 부부(夫婦)지도
+Đoạn Đương đã thu hoạch thành công (成功的) 6 thạch lúa, và trên đồng đã gieo trồng tía tô, tỏi, đậu,... có thể thu hoạch gấp đôi (倍額) so với năm trước (前年度).
+Vào năm 76, bằng cách không để đất nghỉ dù chỉ một lúc, trồng tỏi, hành tây, tía tô, cải củ,... đã đạt được thu nhập gần gấp đôi (戶當所得) trên mỗi hộ, và biến ruộng chỉ trồng một vụ (1모작) thành hai vụ (2모작).
+Tháng 11 năm 75, nhận thấy cần có kho (倉庫) để bảo quản (保管) vật liệu xây dựng (骨材) do chính phủ hỗ trợ (政府支援) và vật liệu chung của làng (共同資材), lãnh đạo (指導者) họ Park (朴) đã đề xuất (建議) tại cuộc họp làng (總會) về việc xây dựng kho làng, nhưng những người dân (住民) chỉ quen sống nghèo khó lại không mấy hưởng ứng, cho rằng kho làng không cần thiết.
+Tuy nhiên, với sự thuyết phục (力說) liên tục của lãnh đạo Park về tính cần thiết (必要性) của kho làng và bằng chứng cho thấy họ cũng có thể sống tốt, cuối cùng (結局) đã đi đến quyết định (決義) xây dựng kho làng mới.
+Sau vài lần đến thăm (訪問) cơ quan hành chính (行政當局), lãnh đạo Park đã bày tỏ nguyện vọng tha thiết (建議) và quyết tâm (信念) biến ngôi làng thành nơi giàu có, cuối cùng đã được chỉ định (指定) xây dựng kho làng mới trong khuôn khổ dự án làm sạch ven quốc lộ (國道邊淨化) với kinh phí hỗ trợ 500.000 won cho công việc tạo việc làm (就勞事業).
+Tuy nhiên, khi bàn về địa điểm xây dựng kho làng mới, mâu thuẫn (不和) lại nổ ra giữa cư dân cũ (旣存住民) và dân mới đến (移住民).
+Cư dân cũ muốn xây kho gần chỗ mình nhưng không ai chịu hiến đất, cuối cùng sau hơn một tháng, họ đồng ý (合意) xây kho trên khu đất trống của khu dân mới đến. Nhưng khi bắt tay vào công việc, không một cư dân cũ nào xuất hiện, còn dân mới đến phải đi làm thuê để kiếm sống nên không thể dành toàn thời gian cho công việc này.
+Cuối cùng, lãnh đạo Park và hai cư dân cùng chí hướng, với sự hỗ trợ (支援) của các hội viên phụ nữ, đã vừa khóc vừa làm, chỉ hoàn thành được 20 thước vuông.
+Để không lãng phí sức lao động trong mùa nông nhàn (農閑期), làng đã mua 8 khung dệt bao tải và 6 khung se dây bằng quỹ làng (基金) nhằm tăng thu nhập (所得) cho những hộ nghèo không có đất, đồng thời tận dụng tối đa (最大限) rơm rạ để tăng gấp đôi thu nhập cho các hộ nông dân (農家所得).
+Bức tranh phát triển từng ngày của làng càng tiếp thêm động lực (勇氣) cho lãnh đạo và người dân. Cặp vợ chồng lãnh đạo không ngừng nghiên cứu (硏究), thảo luận (討議) và tìm kiếm các giải pháp khả thi (實行可能性) để tăng thu nhập (所得增大) cho từng cá nhân trong làng, nắm bắt điều kiện (與件) và đặc điểm (特性) của từng hộ, hỗ trợ những người làm thuê (小作) nuôi bò thịt (肥肉牛) như nguồn thu nhập phụ (副業), và hỗ trợ trồng trọt theo hợp đồng (契約栽培) các loại cây trồng đặc dụng (特用作物).
+Tuy nhiên, một số người không hiểu biết (沒知學), sống dựa vào ruộng đất của người khác và luôn tỏ ra mình là người có chí hướng (有志), đã liên kết với nhau gây rối khi thấy người nghèo nuôi bò, dệt bao tải khiến nhân công khan hiếm, và công việc chung (共同作業) không ưu tiên cho họ. Họ vu khống lãnh đạo biển thủ xi măng hỗ trợ (支援), gửi đơn kiện lên viện kiểm sát (檢察) và cảnh sát (警察), ép buộc nhiều người phải phục tùng lãnh đạo vô điều kiện (無條件承服), và công khai chỉ trích rằng cặp vợ chồng lãnh đạo chắc chắn đã kiếm chác được kha khá, khiến họ rơi vào cú sốc lớn (衝擊) và khủng hoảng (桎梏), kéo theo một năm đình trệ (沈滯期) cho ngôi làng đang trên đà thắng lợi.
+Trong cuộc sống bức bối và đau khổ, cặp vợ chồng lãnh đạo nghĩ rằng không thể từ bỏ hay gục ngã.
 
 
 --- (p. 716) ---
@@ -24785,19 +24785,19 @@ Với kỹ năng học được từ hiện trường xây dựng đường cao 
 
 --- (p. 730) ---
 
-원들의 밥을 지어 주고 빨래를 해주는 등 닥치는 데로 일을 했다. 장성댐 공사장(長城댐 工事場)에서 벌어드린 주민(住民)들의 노임 소득은 4,600여만원(餘萬원)이 나 되어 이 마을이 잘사는 계기(契機)를 마련해 주었으며 마을에 지원(支援)된 공사(工事)의 사업(事業)들을 숙련된 기술로 완료(完了)함은 물론(勿論), 사업비(事業費)를 아껴 각종(各種) 새마을사업(事業)에 따른 운영비로 활용(活用)하므로써 주민(住民)의 호주머니에서 운영비를 각출하는 사례(事例)가 없도록 조치하였음은 오직 김명수(金明洙) 지도자(指導者)의 탁월한 지도력(指導力)과 계획성있는 마음 가짐으로 마을 발전(發展)에 이바지한 결과(結果)라 하겠다.
+Họ làm đủ mọi việc như nấu cơm, giặt giũ cho công nhân. Thu nhập từ tiền công của người dân làm việc tại công trường đập Jangseong lên tới hơn 46 triệu won, tạo cơ hội (契機) để làng trở nên giàu có. Không chỉ hoàn thành (完了) các công trình (工事) được hỗ trợ với kỹ thuật thành thạo, họ còn tiết kiệm chi phí (事業費) để sử dụng cho các hoạt động của phong trào làng mới (新마을事業), tránh việc người dân phải đóng góp thêm, tất cả nhờ vào năng lực lãnh đạo (指導力) xuất sắc và sự chuẩn bị kỹ lưỡng của lãnh đạo Kim Myeong-su (金明洙).
 
-*   73년(年) 봄까지 부속사를 포함한 138동(棟)의 초가(草家) 지붕을 스레트와 기와로 완전개량(完全改良) 하였고 특히(特히) 영세한 2가구(家口)에 대하여 마을 공동(共同) 기금(基金) 70만원(萬원)을 보태어 2동(棟)의 주택(住宅)을 개량(改良)해 주므로서 이웃끼리 서로 돕는 협동(協同) 정신(精神)을 굳게 다졌다.
-*   이와 같이 착실(着實)히 하나하나 주어진 사업(事業)들을 완료(完了)함에 따라 74년(年) 자립(自立) 마을로 승급이 되었고 아울러 자립(自立)마을 지원(文援) 사업비(事業費) 500천원(千원)을 투자(投資)하여 다목적구판장(多目的購販場)(이발소(理髮所) 창고(倉庫) 포함) 1동(棟)을 완료(完了)하였으며, 장성댐(長城댐) 건설(建設)로 마을 앞 황룡강(黃龍江) 수위(水位)가 줄어듦에 따라 하천(河川) 부지(敷地)가 생기게 되어 하천(河川) 부지(敷地)를 지도자(指導者)와 이민(里民)이 주도(主導), 하천(河川) 부지(敷地) 점용 허가(許可)를 득한(得한) 후 1,100평(坪)의 마을 공동(共同) 밭을 조성(造成)하는데 성공(成功)하였다.
-또한 새마을 사업(事業)으로 소교량(小橋梁)도 가설(架設)하고 건설(建設) 사업비(事業費) 지원(文援)으로 교량(袱)도 신설(新設)하였으며
-*   각하(閣下) 특별(特別) 지원금(支援金) 100만원(萬원)으로 장마 때마다 홍수(洪水)로 많은 집을 침수(浸水)시킨 굴곡된 마을 안 소하천(小河川) 200m를 훌륭하게 정비하고 여기에서 나온 노임소득(所得) 가운데 235천원(千원)을 복차기금(複次基金)으로 조성(造成)하고 마을기금(基金) 40천원(千원)을 합하여 발동기(發動機) 2대(臺)와 탈곡기(脫穀機) 2대(臺)를 구입, 마을 공동(共同)으로 활용(活用)하고 있다.
+* Đến mùa xuân năm 73, đã cải tạo hoàn toàn (完全改良) 138 ngôi nhà tranh (草家) bao gồm cả nhà phụ sang lợp ngói và fibro xi măng, đặc biệt (特히) hỗ trợ 700.000 won từ quỹ chung (共同基金) của làng để cải tạo (改良) 2 ngôi nhà cho 2 hộ nghèo, qua đó củng cố tinh thần tương trợ (協同精神) giữa những người hàng xóm.
+*   Như vậy, bằng cách hoàn thành một cách chắc chắn (着實) từng nhiệm vụ (事業) được giao, vào năm 1974 (年), làng đã được thăng cấp lên làng tự lập (自立) và đồng thời nhận được khoản hỗ trợ (支援) kinh phí (事業費) 500 nghìn won (千원) để đầu tư (投資) xây dựng hoàn thành (完了) một nhà đa năng (多目的購販場) (bao gồm cả tiệm cắt tóc (理髮所) và kho chứa (倉庫)) với 1 dãy (棟). Ngoài ra, do việc xây dựng đập Jangseong (長城댐) khiến mực nước (水位) sông Hwangryong (黃龍江) trước làng giảm đi, tạo ra diện tích đất ven sông (河川 敷地). Sau khi được sự hướng dẫn (指導者) của lãnh đạo và người dân (里民) trong làng chủ động (主導) xin phép sử dụng (許可) đất ven sông (河川 敷地), họ đã thành công (成功) trong việc tạo ra 1.100 mét vuông (坪) ruộng chung (共同) của làng.
+Ngoài ra, thông qua dự án Saemaeul (새마을 事業), họ cũng đã lắp đặt (架設) cầu nhỏ (小橋梁) và với sự hỗ trợ (支援) kinh phí xây dựng (建設 事業費), họ đã xây dựng mới (新設) cầu (橋梁).
+*   Nhờ vào khoản hỗ trợ đặc biệt (特別 支援金) 1 triệu won (萬원) từ ngài (閣下), họ đã chỉnh trang (整備) một cách xuất sắc 200 mét con suối nhỏ (小河川) quanh co trong làng vốn thường gây ngập lụt (洪水 浸水) nhiều nhà vào mùa mưa. Từ khoản thu nhập lao động (勞働所得) thu được từ công trình này, họ đã trích ra 235 nghìn won (千원) để lập quỹ tái đầu tư (複次基金) và kết hợp với quỹ làng (基金) 40 nghìn won (千원) để mua 2 máy phát điện (發動機) và 2 máy tuốt lúa (脫穀機), sử dụng chung (共同 活用) cho cả làng.
 *   75년(年)에도 복차(複次) 소하천(小河川) 사업(事業)으로 340m의 소하천(小河川)을 74년(年)의 각하(閣下) 특별(特別) 지원(文援) 소하천(小河川)에 연결 시공(施工)하였으며,
 75년(年) 8월(月) 8일(日) 김종필(金鍾泌) 전(前) 국무총리(國務總理)께서 이 마을을 시찰(視察)한 후 지원(文援)된 양회(洋灰) 700포대(袋)로 마을 진입(進入) 도로(路)에 연결(連結)되는 교량(橋梁)을 확장(擴張)하였다.
-이 교량(橋梁)은 전기(前記)한 62년도(年度) 김익수(金益洙) 이장(里長)의 보수를 마을 기금화(基金化)시켜 늘린 벼 50석(石)으로 가설(架設)하였던 것인데 폭(幅)이 2.5m로 현재(現在)의 교통량(交通量)에는 너무도 불편(不便)하여 길이 18m, 폭(幅) 5m로 확장(擴張)하므로서 대형(大型) 차량(車輛)도 마음 놓고 통행(通行)할 수 있도록 하였다.
+Cây cầu (橋梁) này trước đây được lắp đặt (架設) vào năm 1962 (年度) bằng cách sử dụng 50 thạch (石) lúa từ quỹ làng (基金化) do trưởng làng (里長) Kim Ik-su (金益洙) gây dựng, nhưng với chiều rộng (幅) chỉ 2,5 mét, rất bất tiện (不便) so với lưu lượng giao thông (交通量) hiện tại (現在). Do đó, họ đã mở rộng (擴張) cầu với chiều dài 18 mét và chiều rộng (幅) 5 mét để các phương tiện lớn (大型 車輛) cũng có thể lưu thông (通行) thoải mái.
 또한 10월(月)에는 부녀회(婦女會) 기금(基金) 65만원(萬원)과 정부(政府) 지원(支援) 100만원(萬원)을 합하여 전(全) 가구(家口)에 수도(水道)를 설치(設置), 동네 앞 개울물을 길어다 식수(食水)로 사용(使用)하던 주민(住民)들에게 위생(衛生) 식수(食水)를 공급(供給)하고 있고
-*   교편생활(敎鞭生活)의 경험(經驗)이 있는 김옥자(金玉子) 부녀지도자(婦女指導者)가 마을문고(文庫)를 설치(設置) 운영(運營)하여 매월(每月) 독서회(讀書會)를 가짐으로써 모든 회원(會員)들이 책(册)을 통해 새로운 영농기술(營農技術)과 일반교양(一般敎養)을 쌓고 있다.
-*   서울에서 보모(保姆) 경험(經驗)이 있는 회원(會員)이 중심(中心)이 되어 농번기(農繁期) 탁아소(託兒所)를 운영(運營)하므로서 공사장(工事場) 일과 농사(農事)일에 바쁜 부모(父母)들이 안심(安心)하고 일할 수 있도록 어린이들을 돌보아 주곤 하였다.
-*   특히(特히) 부녀회(婦女會)와 청년회(靑年會)는 농토(農土)의 단위(單位) 수확량(收穫量)을 높이기 위하여(爲하여) 나쁜 토질(土質)을 개량(改良)하기로 결의(決意)하고 여름부터 54명(名)의 남녀(男女) 공동(共同) 작업반(作業班)을 편성(編成), 마을에서 10km 떨어진 북하면(北下面) 월성리(月城里) 뒷산에서 야영(野營)을 하며 풀을 베어, 300%의 퇴비(堆肥)를 생산(生產)하기도 하였으며 25ha의 논에 객토(客土)를 하였다.
+*   Bà Kim Ok-ja (金玉子), nữ lãnh đạo (婦女指導者) có kinh nghiệm (經驗) trong nghề giáo (敎鞭生活), đã thành lập và vận hành (運營) thư viện làng (村文庫), tổ chức sinh hoạt đọc sách (讀書會) hàng tháng (每月) để tất cả các thành viên (會員) có thể tích lũy kiến thức về kỹ thuật canh nông mới (營農技術) và kiến thức văn hóa chung (一般敎養) thông qua sách vở (冊).
+*   Các thành viên (會員) có kinh nghiệm (經驗) làm bảo mẫu (保姆) tại Seoul đã đứng ra vận hành (運營) nhà trẻ (託兒所) trong mùa nông忙 (農繁期), giúp các bậc phụ huynh (父母) bận rộn với công việc xây dựng (工事場) và đồng áng (農事) có thể yên tâm (安心) làm việc trong khi con cái được chăm sóc.
+*   Đặc biệt (特히), Hội Phụ nữ (婦女會) và Hội Thanh niên (靑年會) đã quyết tâm (決意) cải tạo (改良) chất lượng đất (土質) kém để tăng năng suất (收穫量) trên một đơn vị diện tích đất nông nghiệp (農土). Từ mùa hè, họ đã thành lập đội lao động chung (共同 作業班) gồm 54 nam nữ (男女), tổ chức cắm trại (野營) tại núi phía sau làng Wolseong-ri (月城里), xã Bukha-myeon (北下面), cách làng 10 km, để cắt cỏ và sản xuất (生產) phân compost (堆肥) với năng suất gấp 3 lần (300%), đồng thời cải tạo đất (客土) cho 25 ha ruộng.
 
 
 --- (p. 731) ---
@@ -24833,10 +24833,10 @@ Với kỹ năng học được từ hiện trường xây dựng đường cao 
 
 --- (p. 732) ---
 
-며 확장(擴張)된 시설(施設)과 정관 내용(內容)은 다음과 같다.
+Các cơ sở vật chất (施設) được mở rộng (擴張) và nội dung điều lệ (定款 內容) như sau.
 
-O 정관 내용(內容)을 간략(簡略)히 소개(紹介)하면
-한지(韓紙) 공장(工場)을 주식화(株式化)하여 효율적(効率的)으로 관리(管理) 운영(運營)하므로서 주민(住民)의 협동심(協同心) 앙양(昂揚)과 총화체제(總和體制)를 구축(構築)하고 재산(財產)을 증식(增殖)하여 마을 소득(所得)을 향상(向上)시키는데 목적(目的)을 두었으며,
+O Giới thiệu (紹介) ngắn gọn (簡略) nội dung (內容) điều lệ (定款):
+Nhà máy sản xuất giấy Hàn Quốc (韓紙 工場) được cổ phần hóa (株式化) để quản lý (管理) và vận hành (運營) một cách hiệu quả (効率的), nhằm mục đích (目的) nâng cao tinh thần hợp tác (協同心 昂揚) của người dân (住民), xây dựng hệ thống tổng hợp (總和體制 構築), gia tăng tài sản (財產 增殖) và nâng cao thu nhập (所得 向上) của làng.
 본(本) 공장(工場)의 자산(資產)은 77.3.21 한국감정원(韓國鑑定院) 광주지점(光州支店)의 평가(評價) 결과(結果)에 따라 현(現) 지도자(指導者) 김명수(金明洙) 소유(所有)
 
 | 항목 | 면적/수량 | 금액 |
@@ -25958,7 +25958,7 @@ Kim Si-bang, Kim In-ho, Kim Si-wan, Hong Geun-pyo, Hong Su-won, Lee Won-chang, L
 
 --- (p. 761) ---
 
-에서 한곳만 하는 것이 좋겠습니다. 우리가 능력(能力)이 있어 자부담(自負擔)을 많이 할 수 있으면 문제(問題)가 틀리겠습니다만…….
+sẽ tốt hơn nếu chỉ làm một nơi thôi. Nếu chúng ta có năng lực (能力) và có thể tự gánh vác (自負擔) nhiều hơn thì vấn đề (問題) sẽ khác...
 **김시우**: nước chảy từ trên xuống dưới chứ? Vậy nên hãy làm đường dẫn nước Gae-mok trước, đường dẫn nước Tây-nam thì để sau.
 **이춘보**: Đồng ý.
 **김상열**: Tôi đồng ý.
@@ -26492,7 +26492,7 @@ O Năm 1970, Tổng thống(大統領) Park Chung-hee đã đề xuất phong tr
 
 --- (p. 778) ---
 
-있어도 이 마을은 움직일 기미마저 없었다.
+dù có như vậy, ngôi làng này vẫn không có dấu hiệu chuyển biến.
 O 그러나 71년 chính phủ hỗ trợ (政府支援) xi môn (洋灰) 335 (代) mà không có bất kỳ kế hoạch (計劃) nào, mở rộng đường trong làng 500m, nhưng vì thiếu kỹ thuật (技術) và sự không hợp tác (非協助) của dân làng, nên dự án mới làng kết thúc với kết quả thô sơ.
 O Nhưng giữa dân làng, có những người vẫn ngồi quanh quán rượu than phiền, và có những người đã có được sự tự tin (自信感) rằng nếu họ hợp lực thì có thể làm được điều gì đó.
 
@@ -26720,12 +26720,12 @@ Nếu có bất kỳ ý kiến khác (異議) về nội dung quyết định (�
 **Chủ tịch (司會者):** Để làm rõ nội dung quyết định (決議事項) của hội nghị (總會) hôm nay, vui lòng ký tên (署名) của tất cả người tham dự (參席者全員). Cảm ơn.
 
 **Người tham dự (參席者):**
-변수환 백원기 김기수 우병재 채종해 김윤태 윤재영
-김병원 박근희 오호생 우병택 전천돌 김계홍 김진구
-백한수 채갑돌 홍잠수 채종복 김계동 이원희 김태석
-김실경 석태원 이술이 우갑용 채정기 우종만 윤종석
-문판석 백갑생 김명곤 김두상 오호생 이재옥 이봉석
-정판점 정갑술 김재경 이봉구
+Byeon Su-hwan, Baek Won-gi, Kim Gi-su, Woo Byeong-jae, Chae Jong-hae, Kim Yun-tae, Yoon Jae-young
+Kim Byeong-won, Park Geun-hui, Oh Ho-saeng, Woo Byeong-taek, Jeon Cheon-dol, Kim Gye-hong, Kim Jin-gu
+Baek Han-su, Chae Gap-dol, Hong Jam-su, Chae Jong-bok, Kim Gye-dong, Lee Won-hui, Kim Tae-seok
+Kim Thất Kinh Thạch Thái Nguyên Lý Thuật Di Ngô Giáp Dung Thái Chính Ký Ngô Tông Vạn Doãn Tông Thạch
+Văn Phán Thạch Bách Giáp Sinh Kim Minh Côn Kim Đẩu Tường Ngô Hồ Sinh Lý Tại Ngọc Lý Phong Thạch
+Tĩnh Phán Điểm Tĩnh Giáp Thuật Kim Tại Kinh Lý Phong Cửu
 
 ---
 
@@ -26748,14 +26748,14 @@ Nếu có bất kỳ ý kiến khác (異議) về nội dung quyết định (�
 **Chủ tịch (司會者):** Có ý kiến khác (意見) không? Nếu không, chúng ta sẽ kết thúc hội nghị kết toán (決算總會) này. Cảm ơn.
 
 **Người tham dự hội nghị (總會參席者):**
-우병재 이원희 김병원 변수환 윤재영 우종만 윤종석 백갑생
-백한수 우갑용 석태원 김진구 김계동 채종복 박조희 김태석
-채종해 김계 이봉석 채갑문 이재옥 김명곤 채정기 김두상
+Ngô Bệnh Tài Lý Nguyên Hy Kim Bệnh Viện Biến Số Hoàn Doãn Tại Anh Ngô Tông Vạn Doãn Tông Thạch Bách Giáp Sinh
+Bách Hàn Số Ngô Giáp Dung Thạch Thái Nguyên Kim Tiến Cửu Kim Kế Đồng Thái Tông Phúc Phác Điều Hy Kim Thái Thạch
+Thái Tông Hải Kim Kế Lý Phong Thạch Thái Giáp Văn Lý Tại Ngọc Kim Minh Côn Thái Chính Ký Kim Đẩu Tường
 
 
 --- (p. 785) ---
 
-홍잠수, 이술이, 정갑술, 전천돌, 김재경, 우병택, 이봉구, 김윤태, 박근희, 김실경
+Hồng Tiềm Thủy, Lý Thuật Di, Tĩnh Giáp Thuật, Toàn Thiên Đột, Kim Tại Kinh, Ngô Bệnh Thạch, Lý Phong Cửu, Kim Doãn Thái, Phác Cận Hy, Kim Thất Kinh
 
 ### Hội nghị lục (會議錄) (3)
 
@@ -27007,15 +27007,15 @@ Khi hầu hết cư dân đã đến, tôi nói: "Tôi xin một điều ước 
 
 --- (p. 792) ---
 
-뒷산 2ha에 낙엽송을 조림하여 먼 훗날 후손에게 자랑스러운 마을을 물려주게 되었다.
-- 1974년 1차 대통령(大統領) 특별지원(特別支援) 하사금(下賜金)으로 1,028평의 마을 공동농장(共同農場)을 구입(購入), 인삼재배(人蔘栽培)를 실시(實施)하여 1976년 늦여름 190만원의 순소득(純所得)을 올려 호당(戶當) 4만원씩 이윤배당(利益配當)을 하고 나머지 70만원은 마을 금고(金庫)에 적립(積立)하여 자녀교육(子女教育)이 어려운 가정(家庭)에 대부(貸付)하여 주었다.
-- 하수구정비(下水溝整備) 100m, 소하천(小河川) 620m, 암거(暗渠) 2개소를 완성(完成)하여 보다 살기 좋은 마을을 만들었으며
-- 소득증대(所得增大)에도 게을리하지 않아 초지(草地)가 좋은 곳이라 새마을 지도자(指導者)는 낙농(酪農) 꿈을 실현(實現)하기 위해 농협 융자(融資) 400만원을 얻어 마을 공동으로 유우 5두를 구입(購入), 당년(當年)에 송아지 4두를 분만(分娩)하여 개가(凱歌)를 올렸으며 아담한 공동축사(共同畜舍) 25평에 입식(入殖)시켜 마을 뒷산 3ha를 개간(開墾)하여 초지(草地)를 조성(造成)하여 1980년에 낙농(酪農)마을의 꿈을 키우고 있다.
-- 모든 기반(基盤)을 확충(擴充)하여 명실공히(名實共히) 부자마을을 만들었으며 1974년 11월 8일 대통령각하(大統領閣下)로부터 새마을 훈장(勳章) 협동장(協同章)을 수여(授與)받았으며 57가구(家口) 357명의 주민(住民)은 지난날 끼니를 먹지 못하였던 날을 회고(回顧)하고 있다.
+Trên ngọn núi phía sau rộng 2ha, họ đã trồng thông rụng lá để lại cho con cháu mai sau một ngôi làng đáng tự hào.
+- Năm 1974, nhận được sự hỗ trợ đặc biệt từ Tổng thống (đặc biệt chi viện) với số tiền ban tặng, mua được 1.028 thước vuông đất nông trại chung của làng (nông trại cộng đồng), tiến hành trồng nhân sâm và vào cuối mùa hè năm 1976 đã thu được thu nhập ròng 1,9 triệu won, chia lợi nhuận 40.000 won cho mỗi hộ gia đình, số tiền còn lại 700.000 won được tích lũy vào quỹ làng để cho các gia đình khó khăn về giáo dục con cái vay.
+- Hoàn thành việc cải tạo 100m cống thoát nước, 620m kênh nhỏ và 2 vị trí cống ngầm để xây dựng một ngôi làng sống tốt hơn,
+- Không lơ là việc tăng thu nhập, nhờ có đồng cỏ tốt, người lãnh đạo phong trào làng mới đã thực hiện giấc mơ chăn nuôi bò sữa bằng cách vay 4 triệu won từ ngân hàng nông nghiệp, mua chung 5 con bò cái, trong năm đó đã sinh được 4 con bê, đạt được thành công vang dội, xây dựng chuồng trại chung rộng 25 thước vuông và khai hoang 3ha đất phía sau làng để tạo đồng cỏ, nuôi dưỡng giấc mơ trở thành làng chăn nuôi bò sữa vào năm 1980.
+- Đã củng cố mọi cơ sở hạ tầng để xây dựng một ngôi làng giàu có thực sự, vào ngày 8 tháng 11 năm 1974, đã được Tổng thống trao tặng Huân chương Hợp tác của phong trào làng mới, 57 hộ gia đình với 357 cư dân vẫn nhớ lại những ngày không đủ ăn trong quá khứ.
 
 5) 토지(土地) 및 현금희사(現金喜捨) 상황(狀況)
-- 개미같이 땀흘려 일하는 이 마을 주민(住民)들에게 격려(激勵)와 위로(慰勞)의 온정(溫情)이 각계(各界)에서 보내져 왔고
-- 주민(住民) 또한 새마을사업(事業)을 위하여 문전옥답(門前沃畓)과 현금(現金)을 아까운 줄 모르고 내놓았다.
+- Sự quan tâm động viên và an ủi đầy tình cảm từ các giới đã được gửi đến những cư dân của ngôi làng này, những người đã làm việc cật lực như những con kiến,
+- Cư dân cũng không tiếc ruộng đất trước cửa và tiền mặt để đóng góp cho sự nghiệp làng mới.
 
 ＜토지희사(土地喜捨) 상황(狀況)＞
 
@@ -28074,7 +28074,7 @@ Tất cả: Được.
 Lãnh đạo: Thì chúng ta quyết định vay từ Hợp tác xã nông nghiệp (農協) để mua nông cụ của ông Choi Yong-sun, sau đó dùng tiền thừa để mua phụ kiện, cũng vay từ Hợp tác xã nông nghiệp (農協) để mua. Tiền vay này sẽ được trả bằng lợi nhuận (利益金) từ việc sử dụng nông cụ. Chúng ta sẽ kết thúc việc mua nông cụ. Sau khi mua xong, chúng ta sẽ tổ chức một cuộc họp toàn thể cư dân (住民總會) để báo cáo chi tiết về quyết toán (決算報告).
 
 ### Danh sách đại diện tham dự (參席者 代表)
-고근환, 고봉림, 이동희, 고영조, 고두원, 고재인, 고호림, 고연환, 고영봉, 고덕환, 고영필, 고철림, 강상원, 고재완, 고국림, 이재희, 고재구, 고병모, 고시환, 고영하, 고언필, 정명진, 최용순.
+Cao Cận Hoàn, Cao Phong Lâm, Lý Đông Hy, Cao Anh Triệu, Cao Đẩu Nguyên, Cao Tại Nhân, Cao Hồ Lâm, Cao Nghiên Hoàn, Cao Anh Phong, Cao Đức Hoàn, Cao Anh Tất, Cao Triết Lâm, Khương Thượng Nguyên, Cao Tại Hoàn, Cao Quốc Lâm, Lý Tại Hy, Cao Tại Cửu, Cao Bệnh Mô, Cao Thị Hoàn, Cao Anh Hà, Cao Ngôn Tất, Trịnh Minh Trân, Tối Dũng Thuận
 
 ## Phiên bản ghi chú (會議錄) (3)
 
@@ -31471,7 +31471,7 @@ Thì chúng ta sẽ kết thúc cuộc họp kết toán dự án thẳng hóa s
 --- (p. 911) ---
 
 고 솔선하여 주시기를 바랍니다. 늦게까지 대단히 죄송합니다.
-본회의록에는 편의상 개발위원이 주민을 대표하여 날인토록 하겠읍니다.
+Biên bản họp sẽ tiện lợi hơn nếu ủy viên phát triển đại diện cho người dân đóng dấu.
 1974. 5. 20
 김동봉(金東鳳) 최순호(崔順鎬) 김종환(金鍾煥)
 이상식(李相植) 최원호(崔元鎬) 최규원(崔圭元)
@@ -31484,18 +31484,18 @@ Thì chúng ta sẽ kết thúc cuộc họp kết toán dự án thẳng hóa s
 의(議) 제(題) : 회관(會館)신축(新築)
 참석인원(參席人員) : 60명(名)
 
-사회자(社會者) : 지금부터 마을총회에 들어가겠읍니다. 먼저 우리 마을이 고성군 우수마을로서 내무부(內務部)에 동시보고 마을로 선정된다고 함은 우리 부락민(部落民) 다같이 기뻐해야 할 일일 것 같습니다. 오늘 토의(討議)의 사항(事項)은 동시보고 마을로 확정(確定)되면 대통령각하(大統領閣下)의 특별지원금(特別支援金) 300만원(萬圓)이 지원(支援)된다고 하는데 우리는 이 특별지원금으로 무슨 사업(事業)을 했으면 좋겠느냐는 의견(意見)을 듣고자 함입니다. 기탄없는 발언을 해주시면 고맙겠읍니다.
-김종환(金鍾煥) : 저는 부락(部落)의 소류지(小溜池)를 보수준설했으면 좋으리라 생각합니다. 양어장(養魚場) 면적(面積)도 넓힐겸해서요.
+Người điều hành (社会者): Bây giờ chúng ta sẽ bắt đầu cuộc họp làng. Trước hết, việc làng chúng ta được chọn là làng xuất sắc của huyện Goseong và được Bộ Nội vụ (內務部) báo cáo đồng thời là một điều đáng mừng đối với tất cả người dân trong thôn (部落民). Nội dung thảo luận (討議) hôm nay là khi làng được xác định (確定) là làng báo cáo đồng thời, sẽ nhận được khoản hỗ trợ đặc biệt (特別支援金) 3 triệu won (萬圓) từ Ngài Tổng thống (大統領閣下). Chúng ta muốn nghe ý kiến (意見) về việc nên sử dụng khoản hỗ trợ đặc biệt này cho dự án (事業) nào. Xin mọi người hãy phát biểu thoải mái.
+Kim Jong-hwan (金鍾煥): Tôi nghĩ nên sửa chữa và nạo vét ao nhỏ (小溜池) của thôn (部落). Đồng thời cũng có thể mở rộng diện tích (面積) ao nuôi cá (養魚場).
 이채도(李採度) : 그 의견(意見)에 재청(再請)합니다.
-사회자(社會者) : 그럼 의제(議題)로서 상정(上程)하겠읍니다. 또 의견(意見) 없읍니까?
-최원호(崔元鎬) : 저의 생각은 뒷산으로 오르는 4km 농로(農路)를 내기로 원합니다. 산지(山地) 개발(開發)을 위해서 말입니다.
+Người điều hành (社会者): Vậy chúng ta sẽ đưa vấn đề này vào chương trình nghị sự (議題). Có ý kiến (意見) nào khác không?
+Choi Won-ho (崔元鎬): Tôi đề xuất mở một con đường nông thôn (農路) dài 4km lên núi phía sau. Đây là để phát triển (開發) vùng núi (山地).
 이상식(李相植) : 동의(同意)합니다.
-사회자(社會者) : 그럼 농로(農路) 신설안건(新設案件)도 의제(議題)로서 상정(上程)하겠읍니다. 또 의견(意見)은?
-최규원(崔圭元) : 예 저는 방금 상정(上程)된 두가지 안건도 부락(部落)에 좋은 길이지만 현재의 회관(會館)이 너무 작아서 마을금고 업무(業務)도 해내기 힘이듭니다. 그러므로 우리들이 늘 아쉽게 생각하던 예식장(禮式場), 경로당(敬老堂), 마을금고 사무실(事務室)을 겸한 다목적(多目的) 회관(會館)을 하나 지으면 좋겠읍니다.
-최규영(崔圭永) : 최규원씨의 의견(意見)을 듣고보니 정말 좋은 의견(意見)이라 생각되어 재청(再請)합니다.
-사회자(社會者) : 또 다른 의견(意見)없읍니까?
+Người điều hành (社会者): Vậy đề xuất mở đường nông thôn (農路) mới cũng sẽ được đưa vào chương trình nghị sự (議題). Có ý kiến (意見) nào khác không?
+Choi Gyu-won (崔圭元): Theo tôi, hai đề xuất vừa được đưa ra đều là những hướng đi tốt cho thôn (部落), nhưng hiện tại hội quán (會館) quá nhỏ nên việc xử lý công việc quỹ làng cũng gặp khó khăn. Vì vậy, tôi nghĩ nên xây dựng một hội quán đa năng (多目的) kết hợp nhà tổ chức lễ hội (禮式場), nhà dưỡng lão (敬老堂) và văn phòng quỹ làng (事務室) mà chúng ta vẫn luôn mong muốn.
+Choi Gyu-young (崔圭永): Sau khi nghe ý kiến (意見) của anh Choi Gyu-won, tôi thấy đây thực sự là một ý kiến hay và xin đề nghị lại (再請).
+Người điều hành (社会者): Có ý kiến (意見) nào khác không?
 일동(一同) : 없읍니다.
-사회자(社會者) : 그러면 제출된 세가지의 의제(議題)를 놓고 표결(表決)을 하겠읍니다. 어떤 방법(方法)을 취할까요?
+Người điều hành (社会者): Vậy chúng ta sẽ tiến hành biểu quyết (表決) đối với ba đề xuất (議題) đã được đưa ra. Chúng ta sẽ áp dụng phương pháp (方法) nào?
 일동(一同) : 거수(擧手) 표결(表決)로 합시다.
 
 
@@ -32335,27 +32335,27 @@ Trong năm 75, khi thực hiện dự án đường nông thôn trong khu hợp 
 
 --- (p. 934) ---
 
-가) 몇 사람이 많은 금액을 희사하여 무난히 사업을 마무리했으며 내무부장관이 본리를 방문, 격려해 다시 마을 경사를 맞이했다.
+a) Một số người đã quyên góp số tiền lớn để hoàn thành dự án một cách thuận lợi, Bộ trưởng Bộ Nội vụ đã đến thăm và động viên bản làng, mang lại niềm vui mới cho làng.
 나) 제2화
-새마을운동 이념을 전리민에게 계도했던 청년회원들은 매년 경로 잔치를 열어오고 있는데 효돈국민학교 어린이들은 위문공연을 실시하여 할아버지들로부터 학용품을 받았으며 학교에서는 충효사상 글짓기를 실시하고 있다.
+Các thành viên thanh niên đã tuyên truyền tư tưởng phong trào Làng mới cho người dân vùng giải phóng, hàng năm tổ chức tiệc mừng thọ cho người cao tuổi, các em học sinh trường tiểu học Hyodon biểu diễn văn nghệ thăm hỏi và nhận được đồ dùng học tập từ các cụ, nhà trường cũng tổ chức cuộc thi viết về tư tưởng trung hiếu.
 
 ### 7) 특기사항
 #### 가) 즐거웠던 일
-* 각하 지원사업으로 경로당이 완공됐을 때
-* 고소득 마을 지도자로서 대통령 각하와 접견하여 지원금 5,000천원을 받았을 때
-* K.B.S-T.V.에서 새마을 사업을 소개하고 장차 계획을 설명 대담할 때
-* 부지사가 본리를 방문하여 새마을 사업추진 상황을 말씀드릴 때
-* 제주신문에서 본리를 소개하여 홍보할 때
-* 77년 12월 9일 전주에서 개최된 전국 새마을 지도자대회에 참석할 수 있는 기회와 대통령 표창 소식을 들었을 때
-* 각하 지원금 사업(양봉) 계획이 확정될 때
+* Khi nhà dưỡng lão hoàn thành nhờ dự án hỗ trợ của Ngài
+* Khi được tiếp kiến Ngài Tổng thống với tư cách là người lãnh đạo làng có thu nhập cao và nhận được khoản hỗ trợ 5.000 nghìn won
+* Khi giới thiệu dự án Làng mới và thảo luận về kế hoạch tương lai trên chương trình K.B.S-T.V.
+* Phó tỉnh trưởng đến thăm bản làng và báo cáo tình hình thúc đẩy dự án Saemaul
+* Báo Jeju giới thiệu và quảng bá về bản làng
+* Khi có cơ hội tham dự Đại hội lãnh đạo Saemaul toàn quốc tổ chức tại Jeonju vào ngày 9 tháng 12 năm 1977 và nghe tin được Tổng thống khen thưởng
+* Khi kế hoạch dự án được hỗ trợ từ Ngài (chăn nuôi ong) được phê duyệt
 
 #### 나) 슬펐던 일
-* 월라산 개발사업이 도시계획 용도지구로 인하여 추진할 수 없었을 때
-* 각하 지원사업이 미확정되어 9차례나 개발위원회의가 보류될 때
-* 마을일에 전념하다 보니 감귤원이 병충해 피해를 받았을 때
-* 시간이 없어 가정일에 등한시하여 아내가 아파 누워 있을 때
+* Khi dự án phát triển núi Wolra không thể triển khai do thuộc khu vực quy hoạch đô thị
+* Khi dự án hỗ trợ từ Ngài chưa được xác định và bị hoãn tới 9 lần tại Ủy ban phát triển
+* Khi vì tập trung vào công việc làng nên vườn quýt bị thiệt hại do sâu bệnh
+* Khi vì không có thời gian nên bỏ bê việc gia đình khiến vợ phải nằm bệnh
 
-#### 다. 연도별 새마을사업 추진실적
+#### c. Kết quả thực hiện dự án Saemaul theo từng năm
 <단위: 천원>
 
 | 연도별 | 사업명 | 사업량 | 사업비 |             |               | 착공 | 준공 |
@@ -32568,7 +32568,7 @@ Các tham dự viên (參席者) toàn viên (全員): đồng ý (同意).
 김태휴: Tôi sẽ tận lực vào việc làm trưởng nhóm công tác cho việc phát triển làng mới.
 리장(里長) 오창무(吳昌武): Thì chúng ta kết thúc hội nghị tại đây.
 <Danh sách các thành viên tham dự(參席者)>
-김용찬, 김성보, 김태휴, 김춘수, 김두만, 오명정, 강성언, 김시진, 김희만, 김재흥, 김봉규, 강사규, 현학주, 김여완, 김흥연, 고시혁, 김원룡, 오정식, 고창옥, 오봉준, 현봉수, 김정호, 오창무, 김영삼, 강원석, 김봉석, 김영준, 김흡길, 오향웅, 현덕진
+Kim Yong-chan, Kim Seong-bo, Kim Tae-hyu, Kim Chun-su, Kim Du-man, Oh Myeong-jeong, Kang Seong-eon, Kim Si-jin, Kim Hui-man, Kim Jae-heung, Kim Bong-gyu, Kang Sa-gyu, Hyeon Hak-ju, Kim Yeo-wan, Kim Heung-yeon, Go Si-hyeok, Kim Won-ryong, Oh Jeong-sik, Go Chang-ok, Oh Bong-jun, Hyeon Bong-su, Kim Jeong-ho, Oh Chang-mu, Kim Young-sam, Kang Won-seok, Kim Bong-seok, Kim Young-jun, Kim Heup-gil, Oh Hyang-ung, Hyeon Deok-jin
 
 ### Phiên bản ghi chép hội nghị(會議錄)
 
@@ -33077,49 +33077,49 @@ Chủ tịch: Dù thời tiết nóng bức, nhưng các bạn đã tham dự đ
 
 # 개회(開會)하겠습니다.
 
-각하께서 지원하여 주시는 지원자금(支援資金)이기에 신중(愼重)을 기하고 본 부락(部落)에 알맞는 사업(事業)으로 선정(選定)하여 주시기 바랍니다.
+Vì đây là nguồn hỗ trợ tài chính (支援資金) do Ngài cung cấp, xin hãy cân nhắc thận trọng (愼重) và lựa chọn dự án (事業) phù hợp với bản làng (部落) này.
 
-**이원택(李元澤)** : 저의 부락(部落)은 환경개선사업(環境改善事業)은 어느 정도 진척(進陟)을 나타내고 있기 때문에 소득증대(所得增大)에 기여할 수 있는 사업(事業)으로 선정(選定), 주민(住民) 소득증대(所得增大)에 이바지하여야 하겠습니다.
+**Lee Won-taek (李元澤)**: Bản làng (部落) của tôi đã đạt được tiến triển nhất định trong dự án cải thiện môi trường (環境改善事業), vì vậy nên lựa chọn dự án (事業) có thể đóng góp vào việc tăng thu nhập (所得增大) cho người dân (住民).
 
-우선 고구마를 안전(安全)하고 다목적으로 저장(貯藏)할 수 있는 저장고 시설(施設)이 어떠한지요.
+Trước tiên, cơ sở kho lưu trữ (施設) có thể bảo quản khoai lang (安全) và đa mục đích (多目的的) như thế nào?
 
-**이성훈(李性勛)**: 좋은 발언(發言)입니다. 이에 동의(同意)합니다.
+**Lee Seong-hun (李性勛)**: Đây là ý kiến hay (發言). Tôi đồng ý (同意).
 
 (참석자(參席者) 만장일치(滿場一致)로 동의(同意)를 표하다.)
 
-**사회자(司會者)** : 다음에는 본 사업(事業)을 보다 효율적(效率的)으로 추진(推進)할 수 있는 방안(方案)을 말씀하여 주시기 바랍니다.
+**Người điều hành (司會者)**: Tiếp theo, xin mọi người đề xuất phương án (方案) để thúc đẩy (推進) dự án (事業) này hiệu quả hơn (效率的).
 
-**조남상(趙南祥)** : 본 공사(工事)는 시공(施工)과 기술(技術)이 필요하고 특별지원사업(特別支援事業)이기 때문에 신중(愼重)을 기해야 할 줄 압니다.
+**Triệu Nam Tường (趙南祥)**: Công trình này đòi hỏi thi công (施工) và kỹ thuật (技術), đồng thời là dự án hỗ trợ đặc biệt (特別支援事業) nên cần phải hết sức thận trọng (愼重).
 
-우선 사업추진(事業推進)에 책임(責任)지고 일할 수 있는 사업집행책임자(事業執行責任者)와 집행추진위원(執行推進委員)을 선출(選出)하고 이들로 하여금 전담(專擔)케 하는 게 어떻겠습니까?
+Trước tiên, chúng ta nên bầu ra người chịu trách nhiệm (責任) triển khai dự án (事業推進) là người phụ trách thực hiện dự án (事業執行責任者) và ủy viên thúc đẩy thực hiện (執行推進委員), sau đó giao cho họ phụ trách chuyên môn (專擔) thì thế nào ạ?
 
 **고창문(高昌文)** : 동의(同意)합니다.
 
 (참석자(參席者) 전원(全員) 동의(同意)하다.)
 
-**사회자(司會者)** : 그러면 추진(推進) 방법을 말씀하여 주시기 바랍니다.
+**Người điều hành (司會者)**: Vậy xin ông vui lòng trình bày phương pháp thúc đẩy (推進) ạ.
 
-**이성훈(李性勛)** : 집행책임자(執行責任者)는 이장(里長)과 새마을 지도자(指導者)로 하고 추진위원(推進委員)은 개발위원(開發委員)으로 하는 게 좋을 것 같습니다.
-
-(참석자(參席者) 전원(全員) 동의(同意)하다.)
-
-**사회자(司會者)** : 이 사업(事業)을 추진(推進)하기 위하여는 각하(閣下) 하사금(下賜金) 1,000천원만으로는 도저히 완공(完工)치 못할 것입니다.
-
-자체자금(自體資金)이 무엇보다도 필요한데 조달방법(調達方法)을 말씀하여 주십시오.
-
-**이순신(李淳信)** : 부족(不足)되는 자금(資金) 950천원 중 150천원은 주민(住民) 노력시공(努力施工)으로 충당(充當)하고 800천원은 현금(現金)으로 부락기금(部落基金)과 주민각출(住民醵出) 방법(方法)으로 하는 게 좋겠습니다.
+**Lý Tính Huân (李性勛)**: Người chịu trách nhiệm thực hiện (執行責任者) nên là trưởng thôn (里長) và người lãnh đạo phong trào làng mới (新마을 指導者), còn ủy viên thúc đẩy (推進委員) nên là ủy viên phát triển (開發委員) thì tốt hơn.
 
 (참석자(參席者) 전원(全員) 동의(同意)하다.)
 
-**사회자(司會者)** : 감사합니다. 본 사업(事業)은 어떠한 일이 있더라도 이달 착공(着工)하여 10월까지는 완공(完工), 금년(今年) 산 종감은 안전(安全)하게 저장(貯藏)할 수 있도록 우리 전리민(全里民)은 일심동체(一心同體)가 되어야겠습니다.
+**Người điều hành (司會者)**: Để thúc đẩy (推進) dự án (事業) này, chỉ với 1.000 nghìn won tiền hỗ trợ của ngài (閣下 下賜金) thì khó có thể hoàn thành (完工) được.
 
-무더운 날씨에 장시간(長時間) 동안 수고들 많았습니다.
+Vốn tự có (自體資金) là điều cần thiết nhất, xin quý vị cho biết phương pháp huy động (調達方法).
+
+**Lý Thuần Tín (李淳信)**: Trong số 950 nghìn won còn thiếu (不足 資金), 150 nghìn won sẽ bù đắp (充當) bằng cách thi công nỗ lực của người dân (住民 努力施工), còn 800 nghìn won sẽ huy động bằng tiền mặt (現金) từ quỹ làng (部落基金) và đóng góp của người dân (住民醵出 方法).
+
+(참석자(參席者) 전원(全員) 동의(同意)하다.)
+
+**Người điều hành (司會者)**: Xin cảm ơn. Dù có việc gì xảy ra, dự án (事業) này cũng phải khởi công (着工) trong tháng này và hoàn thành (完工) trước tháng 10 để năm nay (今年) có thể bảo quản (貯藏) quả hồng núi một cách an toàn (安全). Tất cả người dân trong thôn (全里民) phải đồng lòng nhất trí (一心同體).
+
+Trong thời tiết oi bức này, mọi người đã vất vả suốt thời gian dài (長時間), xin cảm ơn.
 
 (폐회(閉會) 선언(宣言)하다. 참석자대표(參席者代表)하여 서명(署名) 날인(捺印)하다.)
 
-김성남 이창식 조익현 임세화 이원택 유명국 구돈현 이성훈
-천세완 이순신 이북순 이신훈 조남상 고창문 유계홍 이영식
-김봉필 김용삼 김봉민 이종호
+Kim Thành Nam, Lý Xương Thức, Triệu Ích Hiền, Lâm Thế Hòa, Lý Nguyên Trạch, Lưu Minh Quốc, Cửu Đôn Hiền, Lý Tính Huân
+Thiên Thế Hoàn, Lý Thuần Tín, Lý Bắc Thuận, Lý Thân Huân, Triệu Nam Tường, Cao Xương Văn, Lưu Quế Hồng, Lý Anh Thức
+Kim Phong Tất, Kim Dụng Tam, Kim Phong Dân, Lý Tông Hạo
 
 
 --- (p. 955) ---
@@ -33165,20 +33165,20 @@ Lee Seong-hoon, Lee Won-taek, Go Chang-ha, Lee Eul-saeng, Go Bong-jun, Cho Nam-s
 
 --- (p. 956) ---
 
-진지한 마음으로 사업을 선정하여 주시기 바랍니다.
-김성은(金性銀) : 저의 부락(部落)은 생활용수(生活用水)와 농업용수(農業用水)가 부족(不足)하여 항시 애를 태우고 있는 실정(實情)입니다.
-주민 여러분도 아시다시피 암케지구에 수원지를 시설하면 생활용수(生活用水)와 농업용수(農業用水) 걱정은 다소 해소되리라 생각됩니다.
-사회자(司會者): 김성은(金性銀)씨의 발언(發言)이 어떠한지요?
+Xin quý vị hãy lựa chọn dự án với tinh thần nghiêm túc.
+**Kim Tính Ngân (金性銀)**: Thôn của tôi đang thiếu nước sinh hoạt (生活用水) và nước tưới tiêu nông nghiệp (農業用水), luôn phải lo lắng (實情).
+Như mọi người đã biết, nếu xây dựng nguồn nước tại khu vực Amke, vấn đề nước sinh hoạt (生活用水) và nước tưới tiêu nông nghiệp (農業用水) sẽ được giải quyết phần nào.
+Người điều hành (司會者): Phát biểu của ông Kim Seong-eun (金性銀) như thế nào ạ?
 이계봉(李桂奉): 동의(同意)합니다.
 (참석자 전원(全員) 만장일치(滿場一致)로 동의(同意)하다.)
-사회자(司會者) : 수원지 시설(施設)을 어떻게 하면 조속(早速)한 시일(時日) 내 마무리지을 수 있겠읍니까?
-강만호(姜萬鎬): 본 사업(本事業)은 지난해 저장고 시설처럼 힘겨웁지는 않으리라 생각됩니다.
-우선 지난해와 마찬가지로 추진위원(推進委員)을 선정하고 이들로 하여금 전담(專擔)토록 함이 좋을 것 같습니다.
-구동현(具東玄): 작년에 추진했던 위원을 금년도 수원지 사업에도 위임(委任)시키는 게 어떻겠읍니까?
+Người điều hành (司會者): Làm thế nào để có thể hoàn thành các công trình (施設) tại khu vực cấp nước Suwon trong thời gian sớm nhất?
+Kang Man-ho (姜萬鎬): Tôi nghĩ dự án (本事業) lần này sẽ không vất vả như công trình kho chứa năm ngoái.
+Trước tiên, cũng như năm ngoái, nên lựa chọn ủy ban thúc đẩy (推進委員) và để họ phụ trách chuyên môn (專擔) thì sẽ tốt hơn.
+Gu Dong-hyeon (具東玄): Việc giao phó (委任) các ủy viên đã thúc đẩy trong năm ngoái cho công trình cấp nước năm nay thì thế nào ạ?
 이을생(李乙生): 동의(同意)합니다.
 (전원(全員) 동의(同意)하다.)
-사회자(司會者) : 자체자금(自體資金) 조달방법(調達方法)을 논의하여 주시기 바랍니다.
-이성훈(李性勛) : 부족(不足)되는 583천원은 주민(住民) 노력 390천원과 나머지는 부락(部落) 기금(基金)에서 충당(充當)하기로 합시다.
+Người điều hành (司會者): Xin vui lòng thảo luận về phương pháp huy động vốn tự có (自體資金 調達方法).
+Lee Seong-hun (李性勛): Số tiền thiếu 583 nghìn won sẽ do người dân (住民) đóng góp 390 nghìn won và phần còn lại sẽ lấy từ quỹ (基金) của thôn (部落) để bù đắp (充當) nhé.
 고창문(高滎男) : 동의(同意)합니다.
 (전원(全員) 동의(同意)하다. 폐회(閉會) 선언(宣言)하다. 참석자(參席者) 대표(代表)하여 서명(署名) 날인(捺印)하다.)
 이창식
@@ -33204,10 +33204,10 @@ Lee Seong-hoon, Lee Won-taek, Go Chang-ha, Lee Eul-saeng, Go Bong-jun, Cho Nam-s
 참석인원(參席人員) : 이원택(李元澤) 외 387명(名)
 사회자(司會者) : 이장(里長) 이원택(李元澤)
 
-사회자(司會者) : 추운 날씨에도 계속하여 이정(里政) 발전(發展)에 수고하시는 이민(里民) 여러분께 감사를 드립니다.
-오늘은 76년도(年度) 우수 새마을로 선정(選定)되어 각하(閣下) 특별(特別) 지원금(支援金) 1,500천원(千圓)에 대한 사업(事業) 선정(選定) 관계(關係)로 주민(住民)총회(總會)를 갖게 되었읍니다.
-서슴지 마시고 좋은 의견(意見)을 말씀하여 주시기 바랍니다.
-송창언(宋昌彥) : 이 개발 위원회(里開發委員會)에서 1차적(次的)으로 모임을 갖고 대략적(大略的)인 사업(事業) 구상을 했다는데 이 개발 위원회(里開發委員會)에서 생각하고 있는 사업(事業)이 있으면 말씀하여 주시기 바라겠읍니다.
+Người điều hành (司會者): Xin gửi lời cảm ơn đến tất cả bà con trong thôn (里民) đã không ngại thời tiết lạnh giá, tiếp tục nỗ lực vì sự phát triển (發展) của chính quyền thôn (里政).
+Hôm nay, chúng ta tổ chức đại hội dân cư (住民總會) liên quan đến việc lựa chọn (選定) dự án (事業) cho khoản hỗ trợ đặc biệt (特別 支援金) 1.500 nghìn won từ Ngài (閣下) sau khi được chọn là thôn mới ưu tú năm 1976 (年度).
+Xin đừng ngần ngại đưa ra những ý kiến hay.
+Song Chang-eon (宋昌彥): Ủy ban phát triển thôn (里開發委員會) đã tổ chức cuộc họp sơ bộ (次的) và phác thảo (大略的) dự án (事業). Nếu ủy ban phát triển thôn có dự án nào đang cân nhắc, xin hãy chia sẻ.
 
 
 --- (p. 957) ---
@@ -33480,26 +33480,26 @@ O 村民(村民)們用(用)獲得(獲得)的獎金(獎金)建造(建造)了一�
 
 --- (p. 965) ---
 
-월(月) 후(後)에는 문을 닫고 말았다.
-O 이 마을에 지원(支援)된 양회 335대(袋)가 마을에 도착하여 며칠이 지났으나 누구하나 거들떠보는 사람이 없었고, 어디 써야 할지 관심조차 보이지 않았지만
-O 김한석(金漢錫) 지도자(指導者)는 각(各) 동장(洞長)들을 소집한 후 지도자(指導者) 협의회(協議會)를 조직(組織)하여 양회 사용 결정으로 첫 번째 새마을 사업(事業)을 마무리지었으나
-O 주민(住民)들의 협동(協同)과 공동사업(共同事業)의 참여는 참으로 극소수(極小數)의 인원(人員)으로 특히(特히) 청년층(青年層)의 참여가 찾아볼 수 없을 정도였다.
-O 이장(里長)은 이런 문제점(問題點)은 처음부터 생각(生覺)했던 터라 한사람 한사람 우선 청년(青年)들부터 설득(說得)과 협조(協助)를 요청하기 시작하여 그해 말 급기야는 가시리(加時里) 유신청년회(維新靑年會)(35명)와 부녀회(婦女會)를 조직(組織)하여 농사(農事) 개량(改良)과 생활개선(生活改善) 및 가정의례(家庭儀禮)의 간소화(簡素化) 운동(運動)을 추진(推進)하였다.
+Một tháng sau, cửa hàng đã phải đóng cửa.
+O 335 bao xi măng được hỗ trợ (支援) cho làng này đã đến vài ngày nhưng không ai thèm để ý, thậm chí không quan tâm nên dùng vào việc gì,
+O Ông Kim Han-seok (金漢錫), người lãnh đạo (指導者), sau khi triệu tập các trưởng thôn (洞長), đã tổ chức (組織) hội nghị lãnh đạo (指導者 協議會) và quyết định sử dụng xi măng, qua đó hoàn thành dự án thôn mới đầu tiên,
+O Sự hợp tác (協同) và tham gia vào các dự án chung (共同事業) của người dân (住民) thực sự rất ít, đặc biệt (特히) là lớp thanh niên (青年層) gần như không tham gia.
+O Ông trưởng thôn (里長) vì đã nhận thức (生覺) được những vấn đề (問題點) này ngay từ đầu nên đã bắt đầu thuyết phục (說得) và kêu gọi sự hợp tác (協助) từ từng người một, bắt đầu từ những thanh niên (青年), và đến cuối năm đó, cuối cùng đã tổ chức (組織) Hội Thanh niên Duy Tân (維新靑年會) ở làng Gasil (加時里) (35 người) và Hội Phụ nữ (婦女會) để thúc đẩy (推進) phong trào cải tiến (改良) nông nghiệp (農事), cải thiện đời sống (生活改善) và đơn giản hóa (簡素化) các nghi lễ gia đình (家庭儀禮).
 
 ## 2) 지도자(指導者)의 활동(活動) 상황(狀況)
 
-O 객지(客地)에서 조그마한 사업(事業)을 경영(經營)하다가 척추디스크라는 병(病)을 얻고 고향(故鄕)에 돌아와 요양(療養) 중 면장(面長)으로 마을 일을 보고 있던 김한석(金漢錫) 지도자(指導者)는
-O 평소(平素) 처절하도록 가난한 마을에 부락간(部落間)의 대립(對立)과 술과 도박으로 허송세월을 보내는 마을 주민(住民)을 볼 때
-O 우리 마을에도 어떻게 하면 잘 살 수 있고 부락간(部落間)의 화목을 도모할 수 있을까, 그러나 무엇을 하여야 할지 그저 막연하기만 하였다.
-O 그러나 내 조상(祖上)의 뼈가 묻혀 있고 언젠가는 내가 묻혀야 할 내 고장을 내 손으로 가꾸어 보겠다고 굳게 다짐하여 새마을 지도자(指導者)를 자원하였다.
+O Ông Kim Han-seok (金漢錫), một lãnh đạo (指導者) đang dưỡng bệnh (療養) tại quê hương (故鄕) sau khi mắc bệnh thoát vị đĩa đệm cột sống (척추디스크) khi kinh doanh (經營) một công việc nhỏ (事業) ở nơi đất khách (客地) và tạm thời đảm nhận công việc của làng với tư cách là trưởng xã (面長),
+O Khi nhìn thấy dân làng (住民) sống trong cảnh nghèo khổ (貧窮) đến thảm thương thường ngày, lại còn mâu thuẫn (對立) giữa các thôn xóm (部落間) và tiêu phí thời gian vào rượu chè, cờ bạc,
+O Ông tự hỏi làm thế nào để dân làng mình có thể sống tốt hơn và thúc đẩy sự hòa thuận giữa các thôn xóm (部落間), nhưng lại cảm thấy mơ hồ không biết phải làm gì.
+O Tuy nhiên, ông đã quyết tâm mạnh mẽ rằng sẽ tự tay mình xây dựng quê hương nơi tổ tiên (祖上) đã yên nghỉ và cũng là nơi mình sẽ an nghỉ sau này, vì vậy ông đã tình nguyện trở thành lãnh đạo phong trào làng mới (指導者).
 
 ## 3) 애로(隘路) 극복(克服) 상황(狀況)
 
-O 새마을 지도자(指導者)를 자원(自願)한 뒤 주민(住民)의 협동심(協同心)과 참여의식(參與意識)을 유발(誘發)하기 위하여는 협동사업(協同事業)부터 우선 추진(推進)되어야겠다는 것을 생각하게 되었다.
-O 주민(住民)의 숙원사업(宿願事業)인 전기 가설(電氣架設) 계획(計劃)을 수립하여 주민총회(住民總會)를 개최하였으나 주민부담(住民負擔) 과중(過重)으로 도저히 가설(架設)할 형편이 못 되었다. 이에 지도자(指導者)는 굴하지 않고 지사(知事)님께 진정하여 융자(融資) 및 보조(補助)를 승낙받아 재차 주민총회(住民總會)를 개최, 추진위원회(推進委員會)를 구성(構成)하고 주민(住民)을 설득(說得)하여 14,730천원(千원)을 주민 부담(負擔)키로 결정(決定)하여 사업(事業) 착공 3개월(個月) 만에 완공(完工)을 보게 되었다.
-O 여기에 자신을 갖고 이 기회를 놓치지 않고 진입로(進入路) 8.3km 아스팔트 포장(鋪裝) 공사를 주민총회(住民總會)에 물었던바 호응은 하지만 4,800만원이나 되는 공사비 염출 문제가 애로였고 340여(餘) 세대가 해낼 수 있다고 자신할 수가 없었다. 그리고 도 전체(道全體) 마을을 비교(比較)하더라도 어느 부락(部落)도 진입로(進入路) 포장(鋪裝)을 자체사업(自體事業)으로 한 부락이 없었다.
-O 그러나 지도자(指導者)는 토목(土木) 공사에 경험이 있어 주민들이 총의로 결정(決定)하여 협조(協助)만 하신다면 무난하다고 주민(住民)들에게 호소하였다.
-O 그렇지만 주민(住民)들은 회의적인 태도(態度)로 불가능하다고 하며 사생활이 위협을 받기 때문에 이민(里民)들의 포기에 직면하자 지도자는 상경(上京), 재일교포 독지가인 안재우 사장님께 자금 지원을 호소하였다.
+O Sau khi tình nguyện trở thành lãnh đạo phong trào làng mới (指導者), ông nhận ra rằng để khơi dậy tinh thần hợp tác (協同心) và ý thức tham gia (參與意識) của người dân (住民), trước tiên cần phải thúc đẩy các dự án hợp tác (協同事業).
+O Ông đã lập kế hoạch (計劃) lắp đặt điện (電氣架設), một dự án mơ ước lâu dài (宿願事業) của người dân, và tổ chức đại hội dân làng (住民總會), nhưng do gánh nặng chi phí (住民負擔) quá lớn nên không thể thực hiện được. Không nản lòng, người lãnh đạo (指導者) đã kiến nghị lên tỉnh trưởng (知事) và nhận được sự đồng ý về việc cho vay vốn (融資) và hỗ trợ (補助), sau đó tổ chức lại đại hội dân làng (住民總會), thành lập ban chỉ đạo (推進委員會), thuyết phục người dân (說得) và quyết định (決定) để người dân đóng góp 14.730 nghìn won (千원). Nhờ đó, dự án đã được hoàn thành (完工) chỉ trong vòng 3 tháng (個月) kể từ khi khởi công (着工).
+O Với sự tự tin này, ông không bỏ lỡ cơ hội và đưa ra đề xuất tại đại hội dân làng (住民總會) về việc làm đường nhựa (アスファルト鋪裝) cho tuyến đường vào làng (進入路) dài 8,3 km. Mặc dù người dân hưởng ứng nhưng vấn đề gây quỹ 48 triệu won cho công trình là một trở ngại lớn, và 340 hộ gia đình không thể tự tin rằng họ có thể thực hiện được. Hơn nữa, so với các làng khác trong tỉnh (道全體), chưa có thôn xóm (部落) nào tự mình thực hiện việc làm đường vào làng (進入路) như một dự án tự thân (自體事業).
+O Tuy nhiên, người lãnh đạo (指導者) vì có kinh nghiệm trong công trình xây dựng (土木) nên đã kêu gọi người dân rằng nếu mọi người quyết định (決定) đồng lòng và hợp tác (協助) thì sẽ không gặp khó khăn gì.
+O Nhưng người dân (住民) vẫn tỏ ra hoài nghi (懷疑的) và cho rằng không thể thực hiện được, đồng thời lo ngại cuộc sống cá nhân sẽ bị đe dọa. Trước sự từ bỏ của dân làng (里民), người lãnh đạo đã lên thủ đô (上京) để kêu gọi sự hỗ trợ tài chính từ ông An Jae-u, một nhà hảo tâm là kiều bào Nhật Bản.
 
 
 --- (p. 966) ---
@@ -33962,7 +33962,7 @@ Chủ tịch(司會者): Việc về thiết bị(裝備) đã xong, có vấn �
 Thành viên tham dự(參席者): Không có.
 Chủ tịch(司會者): Thì chúng ta kết thúc(閉會) hội nghị(會議) tại đây.
 <Ký tên và đính dấu của đại diện thành viên tham dự(參席者代表署名捺印)>
-송순웅, 안제문, 안석호, 김영훈, 현봉효, 김상도, 오병남, 강갑진, 김영길, 오순홍, 고윤중 오근환, 김광추, 강성용, 현태호, 고강윤, 송경호, 정공남, 송기운, 오국정, 오문선, 송경조
+Song Sun-ung, An Je-mun, An Seok-ho, Kim Yeong-hun, Hyeon Bong-hyo, Kim Sang-do, Oh Byeong-nam, Kang Gap-jin, Kim Yeong-gil, Oh Sun-hong, Go Yun-jung, Oh Geun-hwan, Kim Gwang-chu, Kang Seong-yong, Hyeon Tae-ho, Go Kang-yun, Song Gyeong-ho, Jeong Gong-nam, Song Gi-un, Oh Guk-jeong, Oh Mun-seon, Song Gyeong-jo
 
 # Hội nghị lục(會議錄) (5)
 
@@ -33978,7 +33978,7 @@ Chủ tịch(司會者): Thì chúng ta kết thúc(閉會) hội nghị(會議)
 Tham dự viên(參席者): Tất cả đều đồng ý.
 주최자(司會者): Kết quả thảo luận, tất cả các tham dự viên đều đồng ý thông qua các quy định này mà không có bất kỳ sửa đổi nào. Do đó, chúng ta sẽ thông qua hai quy định này. Bây giờ, tôi tuyên bố kết thúc hội nghị.
 <Danh sách các đại biểu tham dự ký tên ấn dấu>
-오국정, 고강윤, 오근환, 강갑진, 김영환, 안석호, 오병남, 고윤중, 강성용, 송경호, 오문선, 김광추, 송경조, 김상조, 김춘자, 현봉화
+Oh Guk-jeong, Go Kang-yun, Oh Geun-hwan, Kang Gap-jin, Kim Yeong-hwan, An Seok-ho, Oh Byeong-nam, Go Yun-jung, Kang Seong-yong, Song Gyeong-ho, Oh Mun-seon, Kim Gwang-chu, Song Gyeong-jo, Kim Sang-jo, Kim Chun-ja, Hyeon Bong-hwa
 
 ### <Quy định về việc thu phí sử dụng thiết bị chung>
 

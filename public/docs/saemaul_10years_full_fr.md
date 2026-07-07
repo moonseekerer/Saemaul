@@ -1767,7 +1767,7 @@ Les critiques de l'application de la démocratie en Corée du Sud peuvent être 
 
 --- (p. 93) ---
 
-있는 것으로, 급진적(急進的)인 일부(一部) 일반대중(一般大衆)에게도 호소력(呼訴力)이 강하다.
+Ce qui existe possède également un fort pouvoir d'appel, même auprès d'une partie radicale du grand public.
 L'autre est une opinion qui, pour la Corée (韓國), accorde une importance particulière aux perspectives politiques, culturelles, économiques et sociales traditionnelles (傳統的) et qui, en se basant sur les expériences passées (過去經驗) de la démocratie (民主主義), émet des doutes sur l'adéquation de la démocratie (民主主義) en Corée (韓國). Elle soutient que, étant donné son caractère étranger (外來的), on ne peut pas s'attendre à ce qu'elle fonctionne en Corée (韓國) de la même manière qu'à son lieu d'origine (發祥地), et que nous devons la remplacer par une légitimité locale (土着) appropriée. Cette affirmation est principalement soutenue par des personnes ayant des positions politiques (政治的) ou culturelles (文化的) conservatrices (保守的), et elle exerce également une certaine attraction sur le grand public (一般大衆).
 
 Examinons d'abord la première critique (批判). Elle ne tient pas suffisamment compte des réalités (現實) entourant la démocratie (民主主義) en Corée (韓國), se concentrant uniquement sur des objectifs normatifs (規範的) abstraits. En conséquence, cette critique (批判) ne parvient pas à traverser la logique de la réalité (現實) en tant que terrain concret (具體的) pour réaliser l'idéal (理想) sur lequel elle se base. Ainsi, si la réalité (現實) ne parvient pas à atteindre l'idéal (理想), cela conduit soit à un radicalisme (過激主義) sans discernement (無分別), soit à un pessimisme (悲觀主義) généralisé (全面的). De plus, cette critique (批判) nie complètement tous les éléments créatifs (創造的) en Corée (韓國) qui pourraient fonctionner pour l'établissement (定着) et le développement (發展) de la démocratie (民主主義) en Corée (韓國), en ne tenant pas compte du caractère historique (歷史的) des conditions objectives (客觀的) qui ont conduit à l'insuffisance (不充分性) du libéralisme démocratique (自由民主主義) qu'elle pointe du doigt. Dans cette critique (批判), la réalité (現實) n'est qu'un objet de jugement logique (論理的) et éthique (倫理的), sans aucune alternative pratique (實踐) concrète (現實的) à proposer.
@@ -3313,7 +3313,7 @@ L'unité administrative (里, 里) et le quartier (洞, 洞) sont chargés de fo
 으로 하고 있다.
 (나) 활용(活用)
 
-리(里) • 동(洞) 개발(開發) 위원회(委員會)가 새 마을사업의 중심체로서의 역할(役割)을 살펴보고자 한다. 이를 사업(事業) 계획(計劃)의 작성(作成), 사업(事業)의 실시(實施), 결과(結果)의 보고(報告)로 나누어 설명한다.
+Le comité de développement des villages (里) et des quartiers (洞) examine le rôle central du mouvement Saemaul Undong. Cela est expliqué en divisant en trois parties : l'élaboration du plan de projet (事業計劃), la mise en œuvre du projet (事業實施), et le rapport des résultats (結果報告).
 
 ① 사업(事業) 계획(計劃)의 작성(作成) : 리(里) • 동(洞) 개발(開發) 위원장(委員長)은 시(市) • 군(郡)으로부터 시달된 사업(事業) 계획(計劃) 수립 지침(指針)에 따라 사업(事業) 계획(計劃)을 수립(樹立)한다. 계획(計劃) 수립(樹立)은 먼저 위원회(委員會)를 열어 계획(計劃)안을 작성하고 총회(總會)를 열고 그 안(案)을 확정(確定)한다. 확정(確定)된 안(案)을 시(市) • 군(郡)에 제출하고 다시 시(市) • 군(郡)으로부터 사업(事業) 계획(計劃) 확정(確定) 통지(通知)와 함께 계획(計劃) 수립(樹立)에 따른 세부(細部) 시행(施行) 지침(指針)을 시달받으면 위원장(委員長)은 세부 사업 추진 계획을 작성한다. 주민(住民) 총회(總會議)에서 확정(確定)된 계획(計劃)안은 역시 읍(邑) • 면(面)을 거쳐서 시(市) • 군(郡)에 보고된다.
 
@@ -3321,13 +3321,13 @@ L'unité administrative (里, 里) et le quartier (洞, 洞) sont chargés de fo
 
 ③ 사업(事業) 결과(結果) 보고(報告) : 리(里) • 동(洞) 개발(開發) 위원장(委員長)은 사업의 추진 상황을 주별(週別) 및 월별(月別)로 읍(邑) • 면장(面長)에게 보고한다. 리(里) • 동(洞) 개발(開發) 위원장(委員長)은 주말 및 월말에 위원회(委員會) 회의(會議)를 소집(召集)하여 주간 • 월간의 사업(事業) 추진(推進)에 대한 평가(評價)를 행한다. 연말에는 주민(住民) 총회(總會議)를 소집(召集)하여 연간(年間) 사업(事業) 결과(結果)에 대한 보고와 그에 대한 평가(評價)를 행한다.
 
-사업추진에 대한 평가(評價)는 서면(書面)으로 작성, 비치하여 두었다가 차기(次期)의 계획 작성에 중요한 자료로 삼는다.
+L'évaluation de la promotion du projet est rédigée par écrit et conservée pour servir de référence importante lors de l'élaboration des plans futurs (次期計劃).
 
-이상으로 새마을 운동의 운영(運營) 체계(體系)중에서 사업(事業) 계획(計劃), 발전(發展) 체제(體制)를 설명하였다. 지금까지 언급(言及)한 새마을 운동에 있어서의 추진(推進) 협조(協調) 체계(體系)를 일목요연하게 정리하면 다음과 같다 <표(表) 3>.
+Ci-dessus, nous avons expliqué le système de gestion (運營體系) du mouvement Saemaul Undong, notamment la planification des projets (事業計劃) et le système de développement (發展體制). Pour résumer clairement le système de coordination et de promotion (推進協調體系) du mouvement Saemaul Undong mentionné jusqu'à présent, voici le <Tableau 3>.
 
-위에서 정리한 새마을 추진(推進) 조직(組織)도 일반(一般) 행정(行政) 조직(組織)임에 틀림없다. 따라서 조직(組織)의 제반(諸般) 원리(原理)가 그대로 적용(適用)될 수 있으며 행정(行政) 업무(業務)나 관리 기술에 있어서도 다를 바 없다.
+L'organigramme de promotion (推進組織) du mouvement Saemaul, tel que résumé ci-dessus, est sans aucun doute une organisation administrative générale (一般行政組織). Par conséquent, les divers principes organisationnels (組織諸般原理) peuvent y être directement appliqués, et il n'y a aucune différence en ce qui concerne les tâches administratives (行政業務) ou les techniques de gestion.
 
-그러나 새마을 운동에 있어서의 주체(主體)는 주민(住民)이며 그 사업(事業)은 자체(自體) 기금(基金)에
+Cependant, dans le mouvement Saemaul, les acteurs principaux (主體) sont les résidents (住民), et les projets (事業) sont basés sur leurs propres fonds (自體基金).
 
 
 --- (p. 183) ---
@@ -4679,17 +4679,17 @@ La définition de projets standards par niveau de village (水準別標準事業
 
 --- (p. 228) ---
 
-로 무엇을 해 나가야 할 것인가를 스스로 판단(判斷)할 수 있게 하기 위한 것이
+afin de leur permettre de juger par eux-mêmes ce qu'ils doivent faire ensuite.
 이었다.
-기초(基礎)마을은 문자 그대로 새마을사업이 이제 막 시작(始作)된 마을로 새마을가꾸기사업을 주로 추진하는 마을로서 주로 농로(農路) 확장과 지붕개량, 소하천(小河川) 보수(補修), 공동(共同)빨래터 만들기 등 새마을가꾸기사업을 펴나가는 마을로 정부의 지원으로서는 시멘트 500부대와 철근 1톤이 지급되는 기본 지원형태의 지원을 받는 마을이었다.
-기초마을은 특히 환경개선(環境改善)과 정신계발(精神啓發)을 통해서 자조의욕을 점화시키는데 역점(力點)을 두었었다.
-다음 단계의 자조(自助)마을은 정부의 기본지원을 받아 대체로 새마을가꾸기사업이 마무리되어 가는 단계에 있는 마을로서 가꾸기사업 이외에 소하천(小河川) 가꾸기, 다목적 소유지(小溜池) 등의 사업을 펴가는 한편 노임사업과 공동연묘장(共同筵苗場), 공동축산장(共同畜産場) 등의 공동농장(共同農場)을 통하여(通하여) 마을기금 50만원 조성을 목표(目標)로 하였었다.
-이 자조마을에 대한 정부지원에 있어서는 기초마을에 대한 기본지원(基本支援)과는 달리 그의 성과에 따라 충분한(充分한) 지원(支援)을 하기로 하였었다.
-최종단계(最終段階)의 자립(自立)마을로 성장하게 되면 자조(自助)마을단계(段階)에서 마무리 짓지 못했던 공동소득사업(共同所得事業)을 위시하여 생산기반사업(生產基盤事業), 문화복지사업(文化福祉事業), 소득구심사업(所得求心事業), 생산협동사업(生產協同事槳) 등의 사업을 벌이게 되었고, 자립(自立)마을로서의 자격취득(資格取得) 및 사업(事業) 추진(推進)에 필요한 마을기금 1백만원 이상을 조성하기 위해 노력(努力)하게 되었다.
-한편 정부(政府)는 자립(自立)마을을 새마을운동(運動)에 있어서 선도적 역할(役割)을 담당(擔當)케 하기 위하여 우선 지원방침(支援方針)을 세우고 적극적으로 육성(育成)시켜 나갔다.
-마을이 자립(自立)마을에 이르면 주로 소득사업(所得事業)과 문화복지사업(文化福祉事業)에 역점(力點)을 두어 지도하였다.
-따라서 정부(政府)가 설정한 마을 수준별(水準別) 표준사업(標準事業)도 다분히 예시적(例示的)인 것으로서 그 중에서 가장 공통적이고 필수적인 것만을 골라 마을 수준별(水準別) 필수기준(必須基準)사업(事業)으로 제시해 놓았었다.
-마을수준별(水準別) 필수기준(必須基準) 즉 승급을 위한 필수기준사업(必須基準事業)은 다음 (표(表) 2)에 나와 있는 바와 같으며, 기초마을에서 자조(自助)마을단계(段階)로 올라서자면 새마을가꾸기 사업(事業) 이외에 수리율(水利率)이 80%가 되어야 하고 협동(協同)영농에 있어서 초보적(初步的)인 협
+Le village de base (基礎마을) est, au sens littéral, un village où le projet Saemaul commence tout juste, et où l'accent est mis principalement sur l'embellissement du village. Il s'agit notamment de l'élargissement des chemins agricoles (農路擴張), de l'amélioration des toitures, de la réparation des petits cours d'eau (小河川補修), et de la création d'espaces communs pour la lessive, entre autres. Ce type de village reçoit un soutien de base du gouvernement sous forme de 500 sacs de ciment et une tonne de barres d'acier.
+Dans les villages de base, l'accent était particulièrement mis sur l'amélioration de l'environnement (環境改善) et le développement spirituel (精神啓發) pour stimuler la volonté d'auto-assistance.
+Le village d'auto-assistance (自助마을) de l'étape suivante est un village qui, après avoir reçu le soutien de base du gouvernement, arrive à la fin des projets d'embellissement. En plus de ces projets, il entreprend des travaux d'aménagement des petits cours d'eau (小河川가꾸기) et des étangs polyvalents (多目的小溜池), tout en visant la constitution d'un fonds villageois de 500 000 wons grâce à des projets de main-d'œuvre, des pépinières communes (共同筵苗場), et des installations d'élevage collectif (共同畜産場).
+Contrairement au soutien de base accordé aux villages de base, le soutien gouvernemental aux villages d'auto-assistance était fourni en fonction de leurs performances.
+En atteignant l'étape finale du village autonome (自立마을), les projets de revenus communs (共同所得事業) non achevés lors de l'étape du village d'auto-assistance, ainsi que les projets d'infrastructure de production (生産基盤事業), les projets socio-culturels (文化福祉事業), les projets de convergence des revenus (所得求心事業), et les projets de coopération de production (生産協同事業) sont mis en œuvre. Les efforts sont faits pour constituer un fonds villageois de plus d'un million de wons, nécessaire à l'obtention du statut de village autonome et à la promotion des projets.
+Par ailleurs, le gouvernement a établi des directives de soutien prioritaires pour faire jouer aux villages autonomes un rôle de leader dans le mouvement Saemaul et les a activement encouragés.
+Une fois qu'un village atteint le niveau de village autonome, l'accent est principalement mis sur les projets de revenus (所得事業) et les projets socio-culturels (文化福祉事業) pour le guider.
+Ainsi, les projets standard (標準事業) définis par le gouvernement en fonction du niveau des villages étaient largement indicatifs (例示的), et seuls les éléments les plus communs et essentiels étaient sélectionnés pour être présentés comme projets de critères obligatoires (必須基準事業) selon le niveau du village.
+Les critères obligatoires par niveau de village (c'est-à-dire les projets de critères obligatoires pour la promotion) sont présentés dans le **tableau 2** suivant. Pour passer du statut de village de base à celui de village d'auto-assistance, il est nécessaire, en plus du projet d'embellissement du village, d'atteindre un taux d'irrigation de 80 % et de mettre en place une coopération agricole à un niveau élémentaire.
 
 
 --- (p. 229) ---
@@ -8177,8 +8177,8 @@ Dans les villages où la culture principale (主穀) est pratiquée, des batteus
 
 --- (p. 390) ---
 
-효과적으로 방제(防除)할 수 있고 새로운 기술의 도입을 용이하게 할 수 있다.
-공동작업장(共同作業場) 설치사업(設置事業)의 실적(實績)을 <표(表) 13>에서 보면 1972~80년 사이 총 설치동수(設置棟數)가 6,263동(棟)으로 당초목표(當初目標) 34,665동(棟)의 18%에 불과했다. 물론 이 기간에 전부 설치하려고 했던 것이 아니기 때문에 실적(實績)에 구애받을 필요가 없겠지만 설치할 만한 넓은 장소의 결여나 비용의 과다로 용이하지 못했던 점이 제약요인(制約要因)으로 보인다.
+Il est possible de lutter efficacement contre les nuisibles et de faciliter l'introduction de nouvelles technologies.
+En observant les réalisations du projet d'installation d'ateliers collectifs dans le **tableau 13**, on constate que, entre 1972 et 1980, un total de 6 263 bâtiments ont été installés, ce qui ne représente que 18 % de l'objectif initial de 34 665 bâtiments. Bien sûr, il n'était pas prévu d'installer tous les ateliers durant cette période, donc il n'est pas nécessaire de se préoccuper des résultats. Cependant, le manque d'espaces suffisamment vastes et les coûts excessifs semblent avoir été des facteurs limitants.
 
 <표(表) 13> 연도별(年度別) 공동작업장(共同作業場) 설치실적(設置實績)
 
@@ -8406,15 +8406,15 @@ En reconnaissant l'importance (重要性) des routes agricoles (農路) comme d�
 
 --- (p. 402) ---
 
-비(備) 및 개설(開設)은 1976년에 37건(件)이 착수되어 64.7km가 완성되었으며, 1977년에는 무려 390건(件) 착수에 69.1km, 그리고 1978년에는 33건(件) 착수에 47.9km를 완료하였다. 여기서 주의해야 할 것은 개별 마을 농가가 정비(整備)하거나 개설(開設)한 것은 제외되었다는 사실인데, 여기서는 마을과 마을 간의 협동권(協同圈) 사업(事業)으로 이루어진 농로(農路)의 정비와 개설이다.
-농로(農路)의 포장도 1977년에 22건(件) 착수에 5.1km를 완성했지만 사실상 농로(農路)의 이용도를 고려 시 포장은 큰 경제적 의미가 없다.
-만일 농로(農路)가 일반도로와 겸용으로 이용되고 있다면 포장의 경제성(經濟性)이 높을 것이다. 그러나 순수한 농로(農路)라면 포장에 들어가는 경비를 다른 농로(農路)의 확장(擴張) 정비(整備)에 활용하는 것이 더욱 바람직할 것이다.
-마을 단위 새마을 가꾸기 사업을 벗어난 마을과 마을 간의 협동권(協同圈) 사업(事業)이기 때문에 착수 시기나 실적이 늦고 저조한 편이지만, 그 경제적(經濟的)인 중요성으로 보아 이러한 사업은 계속적으로 추진될 필요가 있는 것이다.
+En ce qui concerne les équipements et les ouvertures, en 1976, 37 projets ont été lancés, couvrant 64,7 km, tandis qu'en 1977, 390 projets ont été entrepris pour 69,1 km, et en 1978, 33 projets ont été achevés pour 47,9 km. Il est important de noter que cela exclut les travaux d'aménagement ou d'ouverture réalisés par les agriculteurs individuels. Ici, il s'agit de l'aménagement et de l'ouverture de chemins agricoles dans le cadre de projets de coopération entre villages.
+Le revêtement des chemins agricoles a également été réalisé en 1977 avec 22 projets couvrant 5,1 km, mais en tenant compte de l'utilisation des chemins agricoles, le revêtement n'a pas une grande signification économique.
+Si les chemins agricoles sont également utilisés comme routes générales, le revêtement serait économiquement avantageux. Cependant, pour des chemins agricoles purs, il serait plus souhaitable d'utiliser les fonds alloués au revêtement pour l'extension et l'aménagement d'autres chemins agricoles.
+Bien que ce projet de coopération entre villages dépasse le cadre des projets d'embellissement des villages et que son démarrage et ses réalisations soient tardifs et modestes, son importance économique justifie la nécessité de le poursuivre.
 
 ## (2) 도로(道路) 개설(開設) 및 교량(橋梁) 가설(架設)
-도로(道路) 개설(開設)과 교량(橋梁) 가설(架設)은 두 가지 측면에서 경제적(經濟的) 의의(意義)를 찾을 수 있을 것이다. 하나는 생산(生産) 요소(要素)의 부락 간 이동을 원활히 해 줄 것이며, 다른 하나는 농축산물(農畜產物)의 이동(移動)과 공동(共同) 출하(出荷)를 용이하게 도와줄 것이다. 물론 경제적인 효과 이외에도 부락 간의 상호 협조 체제와 다른 부락 주민과의 의사소통을 원활하게 만들어 주게 될 것이다.
-그러나 무엇보다도 중요한 것은 마을과 마을 간의 노동력(勞動力)을 포함한 생산(生産) 요소(要素) 자재(資材)의 원활하고 편리한 이동에 있다. 오랜 역사의 흐름 속에서도 마을과 마을 간에는 경제적(經濟的) 교류(交流)가 별로 없었다. 특히 분업(分業)에 의한 상품의 교환이나 생산(生産) 요소(要素)의 분배 면에서 볼 때 더욱 그렇다. 극심한 경우에는 마을마다의 금(金) 수준(水準)이 다르고 생산(生産) 자재(資材) 특히, 농가(農家)에서 생산되는 자재(資材) 가격(價格)이 모두 다른 일종의 폐쇄 경제 체제인 것이다.
-자원의 분배가 효율적으로 일어나야 하고 농(農)·축산물(畜產物) 생산(生産)이 경쟁적으로 이루어져서 생산(生産)비(費) 절감(節減) 운동(運動)이 일어나기 위해서는 부락 간의 경제적(經濟的) 폐쇄성을 타파하지 않으면 안 될 것이다. 이러한 의미에서 마을과 마을 간의 도로(道路) 건설(建設)과 교량(橋梁) 가설(架設)은 매우 중요한 의미(意味)를 갖게 되는 것이다.
+L'ouverture de routes et la construction de ponts présentent une signification économique sous deux aspects : d'une part, ils facilitent la mobilité des facteurs de production entre les hameaux, et d'autre part, ils favorisent le déplacement et l'expédition collective des produits agricoles et d'élevage. Bien sûr, en plus des effets économiques, cela facilitera également la coopération entre les hameaux et la communication entre leurs habitants.
+Cependant, l'élément le plus important réside dans la mobilité fluide et pratique des facteurs de production, y compris la main-d'œuvre, et des matériaux entre les villages. Historiquement, les échanges économiques entre villages ont été très limités, en particulier en ce qui concerne l'échange de biens issus de la division du travail ou la répartition des facteurs de production. Dans les cas extrêmes, chaque village avait son propre niveau économique, et les prix des matériaux produits par les agriculteurs différaient, créant une sorte de système économique fermé.
+Pour que la répartition des ressources soit efficace et que la production agricole et animale soit compétitive, entraînant une réduction des coûts de production, il est indispensable de briser l'isolement économique entre les hameaux. Dans cette optique, la construction de routes et de ponts entre les villages revêt une importance capitale.
 
 
 --- (p. 403) ---
@@ -8728,18 +8728,18 @@ Ainsi, le Saemaul Undong (事業) a commencé par des projets faciles à réalis
 
 --- (p. 418) ---
 
-고 이에 따라 농민(農民)들의 자신(自信)과 의욕(意慾)과 기대(期待)가 급상승되었을 것으로 볼 수 있다.
-이는 곧 새마을사업(새마을事業)의 성과(成果)에 대해 기대(期待)한 대로 성취되었다고 평가한 농민이 거의 85%에 이르고 있다는 사실(事實)에 의해 뒷받침되고 있다.
+On peut supposer que cela a entraîné une augmentation rapide de la confiance, de la motivation et des attentes des agriculteurs.
+Cela est corroboré par le fait que près de 85 % des agriculteurs ont estimé que les résultats du projet Saemaul correspondaient à leurs attentes.
 
 ### (3) 우수마을(優秀마을) 우선지원(優先支援)
 
-새마을운동(새마을運動)이 정체(停滯)된 농촌사회(農村社會) 내부에 기대(期待)의 혁명(革命)을 급속도(急速度)로 확산시킬 수 있었던 또 하나의 근본요인(根本要因)은 정부(政府)의 새마을사업지원방식(새마을事業支援方式)에서 찾을 수 있다.
+Un autre facteur fondamental ayant permis au mouvement Saemaul de diffuser rapidement une révolution des attentes au sein de la société rurale stagnante réside dans le mode de soutien du gouvernement aux projets Saemaul.
 
 새마을사업(새마을事業)은 일반적으로 ① 정부지원(政府支援)을 통한 점화(點火) • 자극(刺戟) → ② 마을총회(마을總會)를 통한 사업(事業)의 선정(選定) → ③ 방법(方法)의 모색(模索) 즉 계획(計劃)의 수립(樹立) → ④ 협동적(協同的) 노력(努力)을 통한 사업(事業)의 추진(推進) → ⑤ 마지막으로 사업(事業)의 완공(完工)과 사후관리(事後管理)라는 5단계(段階)의 과정(過程)을 밟아 추진되어 왔다.
 
-정부(政府)는 새마을사업(새마을事業) 추진(推進)의 제 1단계(段階)에 시멘트와 철근 등 기본자재(基本資材)를 지원(支援)하여 왔다. 이러한 지원은 주민(住民)의 의욕(意慾)과 기대(期待)를 자극(刺戟)하는 계기(契機)가 되었고, 또 지원된 자재(資材)를 공동(共同)으로 관리(管理)하고 앞으로 추진해 나가야 할 마을사업(事業)을 생각하는 과정(過程)에서 「우리」라고 하는 공동체의식(共同體意識)이 주민(住民)들의 의식(意識) 속에 싹트게 되었다.
+Lors de la première phase de la promotion des projets Saemaul, le gouvernement a fourni des matériaux de base tels que du ciment et des barres d'acier. Ce soutien a stimulé la motivation et les attentes des habitants. De plus, la gestion collective des matériaux fournis et la réflexion sur les futurs projets villageois ont fait germer un sentiment de communauté, un « nous », dans la conscience des habitants.
 
-더욱이 주민(住民)들의 자조정신, 참여의식, 협동심, 단결심, 근로정신이 왕성(旺盛)한 부락에 우선적으로 투자해서 이런 부락부터 먼저 일으켜 점차 다른 지역에 확대되도록 해야 한다는 우수마을(優秀마을) 우선지원원칙(優先支援原則)은 우리라는 공동체의식(共同體意識)의 조장(助長)과 아울러 마을간(間)에 선의(善意)의 경쟁(競爭)을 촉발(觸發)하는데 있어 결정적(決定的)인 역할(役割)을 한 것으로 분석(分析)되고 있다.
+De plus, le principe de soutien prioritaire aux villages exemplaires, selon lequel les investissements doivent d'abord être réalisés dans les villages où l'esprit d'auto-assistance, la participation, la coopération, la solidarité et l'éthique du travail sont vigoureux, afin de les développer progressivement vers d'autres régions, a joué un rôle déterminant dans la promotion du sentiment de communauté et dans le déclenchement d'une saine compétition entre les villages.
 
 최근(最近)의 농촌사회(農村社會) 조사결과(調査結果)에 의하면 마을의 발전(發展)과 명예, 그리고 이웃마을에 뒤지기 싫어서 새마을사업(새마을事業)에 참여하게 되었다는 농민(農民)이 거의 80%에 이르고 있다. 그 반면(反面) 정부(政府)와 지도자와의 계속적인 지시(指示)와 독려, 마을 사람들의 이목과 체면 때문에 참여하게 되었다는 농민(農民)은 10%에도 미달(未達)되는 것으로 나타나 있다. 뿐만 아니라 이왕 하는 바에야 이웃 마을보다 더 잘하기 위해 새마을사업(새마을事業)에 끝까지 참여(參與)했다는 농민(農民)도 70%의 수준(水準)을 넘어서고 있다.
 
@@ -8814,37 +8814,35 @@ Dans de tels cas, s'il y a une opinion contraire, même si elle est minoritaire,
 
 새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自ら) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自ら) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers reconnaissent (認識) et résolvent (解決) eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自ら) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers reconnaissent (認識) et résolvent (解決) eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自ら) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers reconnaissent (認識) et résolvent (解決) eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自ら) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers reconnaissent (認識) et résolvent (解決) eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自ら) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers reconnaissent (認識) et résolvent (解決) eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住민)들이 스스로(自ら) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers reconnaissent (認識) et résolvent (解決) eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自ら) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers reconnaissent (認識) et résolvent (解決) eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自ら) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers reconnaissent (認識) et résolvent (解決) eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自ら) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers reconnaissent (認識) et résolvent (解決) eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自ら) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers reconnaissent (認識) et résolvent (解決) eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers identifient (認識) et résolvent (解決) d'eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers identifient (認識) et résolvent (解決) d'eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers identifient (認識) et résolvent (解決) d'eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers identifient (認識) et résolvent (解決) d'eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
-
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民), visant à ce que ces derniers identifient (認識) et résolvent (解決) d'eux-mêmes (自ら) leurs problèmes par leurs propres efforts (努力).
 
 새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
 
@@ -8876,25 +8874,27 @@ Dans de tels cas, s'il y a une opinion contraire, même si elle est minoritaire,
 
 새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民). Son objectif est que les résidents ruraux identifient et résolvent eux-mêmes (自ら) les problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民). Son objectif est que les résidents ruraux identifient et résolvent eux-mêmes (自ら) les problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民). Son objectif est que les résidents ruraux identifient et résolvent eux-mêmes (自ら) les problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民). Son objectif est que les résidents ruraux identifient et résolvent eux-mêmes (自ら) les problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마울운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民). Son objectif est que les résidents ruraux identifient et résolvent eux-mêmes (自ら) les problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民). Son objectif est que les résidents ruraux identifient et résolvent eux-mêmes (自ら) les problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民). Son objectif est que les résidents ruraux identifient et résolvent eux-mêmes (自ら) les problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民). Son objectif est que les résidents ruraux identifient et résolvent eux-mêmes (自ら) les problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民). Son objectif est que les résidents ruraux identifient et résolvent eux-mêmes (自ら) les problèmes par leurs propres efforts (努力).
 
-새마을운동(新村運動)은 농촌(農村) 주민(住民)들의 자발적(自發的) 참여(參與)와 협동(協同) 정신(精神)을 바탕으로(基礎) 한(한) 운동(運動)으로, 농촌(農村) 주민(住民)들이 스스로(自라) 문제를 인식(認識)하고 해결(解決)하기 위해 노력(努力)하는 것을 목표(目標)로 한다.
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民). Son objectif est que les résidents ruraux identifient et résolvent eux-mêmes (自ら) les problèmes par leurs propres efforts (努力).
+
+Le mouvement Saemaul (새마을운동) est une initiative basée sur la participation volontaire (自發的 參與) et l'esprit de coopération (協同 精神) des habitants des zones rurales (農村 住民). Son objectif est que les résidents ruraux identifient et résolvent eux-mêmes (自ら) les problèmes par leurs propres efforts (努力).
 
 
 --- (p. 421) ---
@@ -9194,7 +9194,7 @@ De plus, en 1977, Kim Young-rae (金永來) de Gangwon-do, Namju-gun, a élevé 
 
 --- (p. 432) ---
 
-간(間) 3회 출하(出荷)하여 2,838천원의 소득(所得)을 올리는 등 성공사례(成功事例)는 한이 없다.
+Entre autres, en effectuant trois expéditions (出荷) par intervalle (間), un revenu (所得) de 2 838 milliers de wons a été généré, et les exemples de succès sont innombrables.
 
 (다) 사업(事業) 성과(成果)
 Le mouvement des jeunes de Saemaul a eu des effets sociaux et éducatifs significatifs sur les jeunes des zones rurales et de pêche, et a également eu un impact considérable sur le développement social et industriel de ces régions. L'un des principaux facteurs du succès de la Saemaul Undong a été l'expérience acquise à travers les activités des clubs de jeunes de Saemaul, ainsi que le rôle central joué par de nombreux anciens membres de ces clubs dans la société. Par exemple, à la fin de l'année 1977, 9 400 anciens membres des clubs de jeunes de Saemaul occupaient des postes clés en tant que leaders de la Saemaul Undong, et plus de 13 600 anciens membres étaient devenus des techniciens agricoles de la Saemaul Undong. Les activités des clubs de jeunes de Saemaul ont joué un rôle de premier plan dans l'élimination des vieilles habitudes et des attitudes féodales dans les zones rurales, favorisant ainsi la modernisation de ces régions. Elles ont également contribué de manière significative à cultiver une excellente qualité nationale, une pensée saine, un esprit de diligence, d'auto-assistance et de coopération.
@@ -9664,7 +9664,7 @@ Les contenus du projet de soutien spécial comprennent plus de dix types de proj
 
 --- (p. 452) ---
 
-로 확대(擴大) 추진되도록 하려는 데 그 목적(目的)이 있었다.
+L'objectif (目的) était de promouvoir son expansion (擴大).
 De plus, le ministère de l'Intérieur (內務部) a également, de 1975 à 1976, pendant deux ans (年), ciblé 4 924 villages (個) spécifiques, tels que les îles (島嶼落島), les villages de pêcheurs côtiers (海岸漁村), et les villages le long des voies ferrées (鐵道邊), en leur fournissant un financement (資金) de 500 000 wons (萬원) par village, soit un total de 2,46 milliards de wons (億원), pour promouvoir principalement des entreprises de production et de revenus (生産所得事業) et des projets d'amélioration du territoire national (國土가꾸기 사업).
 
 Par ailleurs, de 1976 à 1978, pendant trois ans (年), 1 494 villages en retard de développement (落後) ont été sélectionnés. Après avoir dispensé une formation spéciale (特別敎育) aux dirigeants de villages (마을指導者), un financement (資金) de 1 million de wons (萬원) par village, soit un total de 1,494 milliards de wons, a été alloué pour réaliser les projets souhaités par les résidents (住民) et renforcer leur motivation (意慾) et leur confiance (自信) dans le mouvement Saemaul (새마을운동).
@@ -9951,7 +9951,7 @@ Par conséquent, le gouvernement a examiné attentivement ces problèmes afin d'
 
 --- (p. 464) ---
 
-를 거치지 않도록 내실(內實)을 기할 수 있는 방향(方向)으로 이끌어 가고 있다.
+Il est dirigé dans une direction permettant de renforcer le fond (內實) sans passer par [ce processus].
 
 ### (3) Saemaul Undong (運動) augmentation des revenus (所得) (增大) (事業)
 
@@ -10819,15 +10819,15 @@ Le type A (型) concernait les villages traversés par des autoroutes (高速道
 
 --- (p. 504) ---
 
-### 고, C형(型)은 비교적(比較的) 기반(基盤)시설(施設)은 정돈(整頓)되어 마을 구조(構造)의 개선(改善)을 필요(必要)로 하지 않는 마을에서 5~6동(棟) 단위(單位) 정도로 이축(移築) 또는 개축(改築)하는 것이다.
+### Pour le type C (型), il s'agit de villages où les infrastructures de base (基盤施設) sont relativement (比較的) bien organisées (整頓) et qui n'ont pas besoin d'améliorer la structure du village (構造 改善). Dans ces cas, on procède au déplacement (移築) ou à la rénovation (改築) par unités de 5 à 6 bâtiments (棟 單位).
 
-특히 이와 더불어 개개(個個)의 주택(住宅)을 견고(堅固)하게 짓도록 터파기, 블록 제조(製造), 자재(資材)의 검수(檢受), 공정작업(工程作業)에 세심한 지침(指針)을 하였으며 부대공사(附帶工事)로 전기(電氣), 급수시설(給水施設)을 적기(適期)에 시공(施工)하였고 도로(道路), 하수도(下水道) 등 마을 기반시설(基盤施設)을 종합적(綜合的)으로 정비(整備)하는 한편 자연경관(自然景觀)과 조화(調和)있는 도색(塗色)과 대대적(大大的)인 마을 녹화(綠化)를 위해 마을 식수(植樹)와 주택(住宅) 식수(植樹)를 계획적(計劃的)으로 시행하였다.
+En particulier, parallèlement à cela, des directives minutieuses ont été données pour la construction solide de chaque logement individuel, couvrant les fouilles, la fabrication des blocs, l'inspection des matériaux, et les travaux de processus. En tant qu'ouvrages annexes, l'électricité et les installations d'approvisionnement en eau ont été réalisées en temps opportun. De plus, les infrastructures du village telles que les routes et les égouts ont été aménagées de manière exhaustive. Par ailleurs, une attention particulière a été portée à la peinture harmonieuse avec le paysage naturel et à une vaste campagne de verdissement du village, incluant la plantation d'arbres dans le village et autour des habitations de manière planifiée.
 
 1979년(年)에는 1,023개 마을에 A형(型)과 B형(型)에 총(總) 48,281백만원의 사업비(事業費)로 마을의 토지이용계획(土地利用計劃)을 수립(樹立)하여 도로(道路), 공동이용(共同利用) 지역(地域), 주택(住宅) 등 용도(用途)에 따라 부락배치계획(部落配置計劃)을 수립(樹立)하여 추진(推進)하였다.
 
-또 택지(宅地)는 적정규모(適正規模)와 형태(形態)를 확보(確保)하기 위하여 확정(確定)하고 미리 개량대상자(改良對象者)에게 이축(移築) • 개축(改築) 예정지(豫定地)를 사전(事前)에 지정(指定), 고시(告示)하였을 뿐만 아니라 또한 사업(事業)은 당년(當年) 완성(完成)을 지양(止揚)하고 마을의 능력(能力)에 따라 연차적(年次的)으로 완성(完成)토록 단계적(段階的) 추진(推進)을 기하였다.
+De plus, afin de garantir une taille et une forme appropriées pour les terrains résidentiels, ceux-ci ont été définis et les zones de relogement et de reconstruction prévues ont été désignées et annoncées à l'avance aux personnes concernées par les améliorations. En outre, plutôt que de viser l'achèvement dans l'année en cours, le projet a été mené progressivement, en fonction des capacités du village, pour être achevé par étapes annuelles.
 
-또 마을의 세부사업(細部事業) 중 마을 간선도로(幹線道路)는 6~8m로 확보(確保)하고 노선(路線)은 반드시 직선(直線)이 아니고 입지여건(立地與件)에 따라 곡선(曲線)이라도 좋도록 하고 현재(現在)의 골목은 2~3m 정도 넓혀서 정비(整備)하는 방법(方法)을 취하였다.
+Parmi les projets détaillés du village, les routes principales ont été sécurisées avec une largeur de 6 à 8 mètres. Les tracés n'ont pas nécessairement été rectilignes, mais adaptés aux conditions locales, permettant des courbes si nécessaire. Les ruelles actuelles ont été élargies de 2 à 3 mètres pour être aménagées.
 
 이상과 같이 1976년(年)부터 1979년(年)까지 94,815백만원을 투입(投入)하며 총(總) 목표(目標) 8,428개 마을 중 24.9%인 2,102개 마을의 취락구조(聚落構造)를 개선(改善)하였는데 연도별(年度別) 사업실적(事業實績)과 사업비(事業費)를 보면 <표(表) 54> 다음과 같다.
 
@@ -12798,27 +12798,27 @@ En considérant ces quelques points clés, on peut dire que le Saemaul Undong (�
 
 --- (p. 592) ---
 
-근면(勤勉)• 자조(自助), 협동(協同)하는 실천원리(實踐原理)로써, 주체적(主體的) 자강형(自强型)의 생활사회(生活社會) 건설(建設)에 솔선(率先) 참여(參與)하는 한국인(韓國人)의 자활운동(自活運動)이라고 그 정의(定義)를 전출(翦出)해낼 수 있는 것이다.
+C'est un mouvement d'autosuffisance des Coréens qui, en suivant les principes pratiques de diligence, d'auto-assistance et de coopération, participent en premier lieu à la construction d'une société de vie autonome et auto-renforçante.
 
 ## 3. Saemaul Undong (運動)의 발전추진요소(發展推進要素)
 
-Saemaul Undong (運動)은 마을을 새롭게 가꾼다는 미시적(微視的) 개념(槪念)이라기보다는 우리의 인간적(人間的)인 욕구(欲求)를 종합적(綜合的)으로 해결(解決)해 나가기 위하여 보다 큰 행복(幸福)을 추구(追求)해 나가는 운동(運動)이라고 이해(理解)할 때 Saemaul Undong (運動)은 최소한(最少限) 다음 네 가지의 발전추진(發展推進) 요소(要素)가 상호작용(交互作用)을 하는 가운데 발전(發展)되어 가는 운동체계(運動體系)라고 이야기할 수 있다.
+Le mouvement Saemaul Undong ne se limite pas à la notion microcosmique de rénover un village, mais peut être compris comme un mouvement visant à résoudre de manière exhaustive nos besoins humains pour rechercher un bonheur plus grand. Dans cette optique, le Saemaul Undong est un système de mouvement qui se développe grâce à l'interaction d'au moins quatre éléments de promotion du développement suivants :
 
-첫째는 인간(人間)의 잠재적(潜在的)인 능력(能力)을 증대(增大)해 나가는 교육적(敎育的) 요소(要素)를 내포(內包)하고 있으며,
+Premièrement, il inclut un élément éducatif visant à accroître les capacités potentielles de l'être humain,
 
-둘째는 생활여건(生活與件)의 개선(改善)을 도모(圖謀)해 나가는 환경변화적(環境變化的) 요소(要素)를 지니는가 하면,
+Deuxièmement, il possède un élément de transformation environnementale visant à améliorer les conditions de vie,
 
-셋째는, 생존조건(生存條件)을 향상(向上)시켜 나가기 위한 부(富)의 소지(素地)를 확대(擴大)한다는 요소(要素)를 지니고,
+Troisièmement, il comprend un élément visant à élargir la base de la richesse pour améliorer les conditions de survie,
 
-넷째는 무한(無限)한 가능성(可能性)을 추구(追求)해 나가기 위한 변동창조적(變動創造的) 요소(要素)를 그 바탕으로 한다.
+Quatrièmement, il repose sur un élément de création dynamique visant à rechercher des possibilités infinies.
 
 ### 가. 인간교육(人間敎育)의 지속화(持續化)
 
-인간교육(人間敎育)은 의식(意識)의 계발(啓發)인 동시에 능력(能力)의 개발작용(開發作用)이다.
+L'éducation humaine est à la fois un éveil de la conscience et un développement des capacités.
 
-인간교육(人間敎育)의 효과(效果)는 인간혁명(人間革命)(human renewal)을 스스로 수행(遂行)케 하는 동시에 인간혁명(人間革命) 과정(過程)에서 새로운 욕구(慾求)를 추구(追求)하게 할 뿐만 아니라 인간(人間)의 무한(無限)한 잠재적(潜在的) 가능성(可能性)을 발견(發見)케 한다.
+L'effet de l'éducation humaine est de permettre à chacun de réaliser une révolution humaine tout en poursuivant de nouveaux désirs au cours de ce processus, et de découvrir les possibilités potentielles infinies de l'être humain.
 
-다시 말하면 인간(人間)은 교육(敎育)을 통하여 자연(自然)에의 도전의욕(挑戰意慾)을 지니게 되는가 하면 도전(挑戰)에 의한 자연(自然)으로부터의 환수(還收) 가치(價値)가 크면 클수록 인간능력(人間能力)의 확대작업(擴大作業)을 서둘게 되는 것인 바, 인간(人間)의 능력확대작업(能力擴大作業)은 곧 교육(敎育)을 의미(意味)한다. 그렇기 때문에 Saemaul Undong (運動)은 우리의 생존조건(生存條件)을 사회적(社會的)으로 강화(强化)해나가는 작업(作業)이라는 점에서 Saemaul Undong (運動)은 인간교육(人間敎育)의 지속(持續)을 촉구(促求)하는 원리(原理)를 내포(內包)하고 있는 것이다.
+En d'autres termes, par l'éducation, l'être humain acquiert le désir de défier la nature. Plus la valeur récupérée de la nature grâce à ces défis est grande, plus l'expansion des capacités humaines s'accélère. Ainsi, l'expansion des capacités humaines signifie l'éducation. C'est pourquoi le Saemaul Undong, en tant qu'effort pour renforcer socialement nos conditions de survie, contient le principe de promouvoir la continuité de l'éducation humaine.
 
 ### 나. 환경개선(環境改善)의 지속화(持續)
 
@@ -14090,7 +14090,7 @@ Dans l'Art de la guerre de Sun Tzu, il est dit que "l'eau n'a pas de forme const
 
 --- (p. 656) ---
 
-튼튼히 구축(構築)하는 데 노력(努力)하고 대외적(對外的)으로는 공개경쟁과정(公開競爭過程)에서 상승자(常勝者)가 된다는 자강기반(自强基盤)을 확고(確固)히 한다는 기조(基調) 위에서 보다 능동적(能動的)이며 적극적(積極的)으로 전개(展開)되어야 할 것이다.
+Il faudra s'efforcer de construire solidement cette base et, sur le plan externe, de consolider fermement la base d'auto-renforcement en devenant un vainqueur dans les processus de compétition ouverte, tout en se déployant de manière plus proactive et dynamique.
 Il faut s'efforcer de consolider solidement (構築) et, à l'extérieur (對外的), devenir un vainqueur constant (常勝者) dans le processus de compétition ouverte (公開競爭過程) selon la ligne directrice (基調) qui consiste à renforcer solidement (確固) la base d'auto-renforcement (自强基盤). Il doit être déployé de manière plus proactive (能動的) et active (積極的).
 
 Il faut se concentrer (注力) sur la recherche de moyens (妙方) pour former (形成) une structure (構造的) harmonieuse (調和) et interconnectée (縦横聯關) de fonctions (機能).

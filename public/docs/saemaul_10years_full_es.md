@@ -568,7 +568,7 @@ Nuestro territorio (領土) se expandió hasta el río Yalu (鴨綠江) y el rí
 
 --- (p. 30) ---
 
-15세기 초(初), 압록(鴨綠) 및 두만강선(豆滿江線)이 국경선(國境線)으로 확정되면서 북진정책(北進政策)은 중지되었다. 그러나 17세기 초(初) 이래 민간의 만주(滿洲) 및 연해주 이주(沿海州移住)가 시작되었고 그 수(數)는 세대(世代)가 지나갈수록 더하여져서 1940년대(年代)에는 2백여만을 헤아리게 되었는데, 이주민(移住民)들은 특히 간도 지방(間島地方)에 밀집(密集)하여 있었다. 그러므로 일찍부터 조(朝), 청(淸)간에는 간도(間島)의 영유권 분쟁(領有權紛爭)이 일어나게 되었고 이른바 간도 문제(間島問題)가 그것이었다. 이와같이 우리는 한민족의 지력을 재발견할 수 있다.
+A principios del siglo XV, con la fijación de las líneas de los ríos Amnok (Yalu) y Tuman como fronteras nacionales, la política de expansión hacia el norte fue suspendida. Sin embargo, desde principios del siglo XVII, comenzó la migración civil hacia Manchuria y el Territorio Marítimo, y con el paso de las generaciones, su número aumentó hasta alcanzar alrededor de dos millones en la década de 1940. Estos migrantes se concentraron especialmente en la región de Jiandao (Gando). Por ello, desde temprano surgieron disputas por la soberanía de Jiandao entre la dinastía Joseon y la Qing, lo que se conoció como el problema de Jiandao. De esta manera, podemos redescubrir la capacidad territorial del pueblo coreano.
 
 ### 3. Desarrollo de la historia nacional (民族史의 전개)
 
@@ -753,21 +753,21 @@ La zona del corazón (心臟地帶) de Europa es Alemania (獨逸), Francia y Au
 
 --- (p. 40) ---
 
-변부(邊部)을 지배하며 「천하(天下)」(세계(世界))를 지배할 수 있다고 보았기 때문이다.
-중화사상(中華思想)에서 보든 심장대륙(心臟大陸)을 중요시하는 대륙중심주의적(大陸中心主義的) 이론에서 보든
-우리 한반도(韓半島)는 주변(周邊) 또는 변부(邊部) 지역(地域)임이 분명하고 특히 남한(南韓)은 그러하다. 반도(半島)는 아시아의 심장지대(心臟地帶)인 중국대륙(中國大陸)에 육접(陸接)되어 있고 소련의 동방(東方) 출구(出口)와 접촉(接觸)되어 있는 것이다.
-대륙(大陸) 주변(周邊)에 위치한 한반도(韓半島)이기 때문에 한국(韓國)은 중공(中共)과 소련을 배경으로 하고 있는 북한(北韓)으로부터의 안보상(安保上)의 압력(壓力)을 가중적(加重的)으로 받게 된다. 통일(統一)된 민족국가(民族國家)를 이루고 있었을 때에도 거대한 대륙(大陸)의 힘의 압력(壓力)을 적지 않게 받아왔지만 분단(分斷) 후(後)에는 남한(南韓)이 「반반도(半半島)」가 되었으므로 위협(威脅)을 더욱 크게 받게 된다고 생각된다.
-이러한 지리적(地理的) 여건(與件) 하(下)에서는 북으로부터의 압력(壓力)(위협(威脅))에 대처할 우리의 힘은 우위(優位)에 있지 않으면 안 될 것이다.
-한국(韓國)은 앞에서 보았듯이 해양세력권(海洋勢力圈)의 첨단(尖端)에 있으면서 대륙세력(大陸勢力) 첨단(尖端)과 대결하지 않으면 안 된다. 따라서 한국(韓國)을 해양국(海洋國)과의 협력(協力)이라는 해양중심적(海洋中心的) 정책(政策)과 더불어 육상(陸上) 침입(侵入)에 대비하는 방위정책(防衛政策)도 추진(推進)하지 않으면 안 되는 이중(二重) 성(性)을 갖는다. 그 이중(二重) 정책(政策)은 모순성(矛盾性)을 갖는 것이기 때문에 조화(調和) 속에서 이루어지지 않으면 안 되는 것이라고 본다.
+Porque se consideraba que dominar las regiones fronterizas permitía dominar el "mundo" (el universo).
+Ya sea desde la perspectiva del pensamiento sinocéntrico (ideología de la China central) o desde la teoría del continentalismo que enfatiza la importancia del corazón continental,
+Es evidente que nuestra península coreana es una región periférica o fronteriza, especialmente en el caso de Corea del Sur. La península está conectada por tierra con el corazón continental de Asia, es decir, el continente chino, y está en contacto con la salida oriental de la Unión Soviética.
+Debido a que la península coreana está ubicada en la periferia del continente, Corea del Sur sufre una presión de seguridad acumulativa por parte de Corea del Norte, que tiene como respaldo a China y la Unión Soviética. Incluso cuando formábamos una nación unificada, hemos recibido considerable presión del poder continental, pero tras la división, Corea del Sur se ha convertido en una "semipenínsula", lo que incrementa aún más la amenaza percibida.
+En estas condiciones geográficas, nuestra capacidad para hacer frente a la presión (amenaza) del norte debe estar en una posición de superioridad.
+Como se ha visto anteriormente, Corea se encuentra en la vanguardia de la esfera de poder marítimo, pero al mismo tiempo debe enfrentarse a la vanguardia del poder continental. Por lo tanto, Corea posee una naturaleza dual: por un lado, debe implementar una política centrada en la cooperación con las naciones marítimas, y por otro, debe impulsar una política de defensa contra invasiones terrestres. Dado que estas políticas duales contienen contradicciones, deben llevarse a cabo en armonía.
 
 ## 4. 국방지리적(國防地理的) 특징(特徵)
 
-국방(國防)이라는 보다 좁은 측면에서 한국(韓國)의 지리(地理)를 볼 때 몇 가지 특징적(特徵的)인 성격(性格)을 생각할 수 있겠다.
-첫째, 중공(中共) 및 소련과 육지(陸地)를 접경한 사각형(四方形)의 반도국가(半島國家)라는 점이다.
-한반도(韓半島)는 북위(北緯) 33도에서 43도에 이르는 10도 내에 전개되어 있으며 동경(東經) 124도에서 131도 내에 위치하여 동서(東西)가 짧고 남북(南北)이 긴 국토(國土)의 구성을 보이고 있다.
-그리고 북(北)에는 중공(中共)과 소련에 접하는 반도(半島)가 형성되어 있다.
-그런데 남한(南韓)은 33도에서 38도 내에 전개된 정사각형(正四角形)의 반도(半島) 형태(狀)를 이루고 있어서 매우 좁은 국토(國土)가 되고 있는 것이다.
-이러한 국토(國土) 형성(形成) 때문에 우리는 국방상(國防上) 다음과 같은 영향(影響)을 받는다고 본다.
+Al observar la geografía de Corea desde una perspectiva más estrecha como la defensa nacional, se pueden considerar varias características distintivas.
+En primer lugar, el hecho de que es un estado peninsular de forma cuadrangular que limita por tierra con China y la Unión Soviética.
+La península coreana se extiende entre los 33° y 43° de latitud norte, dentro de un rango de 10 grados, y se ubica entre los 124° y 131° de longitud este, mostrando una configuración territorial más larga de norte a sur y más corta de este a oeste.
+Además, al norte, la península limita con China y la Unión Soviética.
+Sin embargo, Corea del Sur se extiende entre los 33° y 38° de latitud norte, formando una península de forma cuadrada, lo que resulta en un territorio muy estrecho.
+Debido a esta formación territorial, consideramos que recibimos las siguientes influencias en términos de defensa nacional:
 
 Se consideró que gobernar la periferia (邊部) permitiría gobernar el "Cielo y la Tierra" (天下) (el mundo (世界)).
 
@@ -1022,12 +1022,12 @@ Y el "두레삼" (적마(積麻)) de la era del tercer rey (第3代) de Silla (�
 
 --- (p. 53) ---
 
-각자 자신의 두레기(旗)로서 자신을 상징(象徵)하고, 성원(成員) 각자의 출자(出資) 비율(比率)에 따라 성과(成果)를 배분(配分)하였으며, 잔여분(剩餘分)은 공유(共有)로 하여 그 돈으로 마을의 다리를 놓는다든가 야학시설(夜學施設)을 갖춘다든가 또는 공동이용(共同利用)의 농기구(農機具)를 준비(準備)하는 등의 비용(費用)으로 집행(執行)하였다. 두레는 이와 같이 주거공간(住居空間)을 함께하는 지연(地緣)을 바탕으로 하여 생산공동체(生產共同體)로서의 성격(性格)을 뚜렷이 하고 있었다.
+Cada uno simbolizaba su identidad con su propia bandera, distribuían los resultados según la proporción de contribución de cada miembro, y los excedentes se compartían para financiar proyectos comunitarios como la construcción de puentes, la creación de instalaciones educativas nocturnas o la preparación de herramientas agrícolas de uso común. De esta manera, el dure (grupo comunitario) tenía claramente el carácter de una comunidad productiva basada en lazos geográficos compartidos en el espacio residencial.
 
 ### 3. 향약(鄕約)에 의한 사회운동(社會運動)
-향약(鄕約)은 두레에 비교(比較)하면 그 범위(範圍)가 면단위(面單位) 지역사회(地域社會)였다는 데 특징(特徵)이 있지만, 두레와 같이 지연공동체(地緣共同體)의 성원(成員) 모두가 직접참여(直接參與)하는 체제(體制)는 아니었다. 지원자(支援者)에 의하여 참여(參與)한다는 원칙(原則)에 입각(立脚)하고 있었을 뿐만 아니라 반상계층(班常階層)이 있었던 그 당시(當時) 누가 입약자(入約者)가 되느냐 하는 데에는 신분적(身分的) 제약(制約)도 뒤따랐던 것이 사실(事實)이었다. 그러나 향약(鄕約)은 어느 경우(境遇)에나 실천덕목(實踐徳目)을 생활강령(生活綱領)으로 한다는 사회교육(社會敎育)의 의미(意味)가 강하게 띠고 있다. 그 기본이념(基本理念)이「화민성속(化民成俗)」에 있었다는 사실(事實)로써 능히 짐작할 수 있다. 즉 백성(百姓)들을 교화(敎化)하여 살기 좋은 풍속(風俗)(미풍양속(美風良俗))을 이룩한다는 뜻이다. 이와 같은 이념(理念)을 성취(成就)하기 위하여 주요실천덕목(主要實踐徳目)으로서 ①덕업상권(徳業相勸) ②과실상규(過失相規) ③예속상교(禮俗相交) ④환난상휼(患難相恤)이라는 4대지주(4大支柱)를 천명(闡明)하여 왔다. (경우(境遇)에 따라서는 그 덕목표현(徳目表現)이 약간 다르기도 하지만 의미(意味)는 모두가 이 4가지 덕목(徳目)에 상통(相通)된다)
+Comparado con el dure, el hyangyak (pacto comunitario) se caracterizaba por abarcar una sociedad regional a nivel de distrito, pero, a diferencia del dure, no todos los miembros de la comunidad geográfica participaban directamente. Se basaba en el principio de participación a través de patrocinadores, y en esa época, donde existían jerarquías sociales, había restricciones de estatus para determinar quién podía ser miembro. Sin embargo, el hyangyak tenía un fuerte significado de educación social al establecer virtudes prácticas como principios de vida en cualquier situación. Esto puede inferirse claramente de su ideología fundamental de "transformar al pueblo y establecer buenas costumbres". Es decir, su objetivo era educar a la población para crear costumbres favorables (buenas costumbres y tradiciones). Para lograr esta ideología, se proclamaron cuatro pilares principales como virtudes prácticas: ① fomentar las virtudes y animarse mutuamente, ② corregir los errores entre sí, ③ interactuar con cortesía y ④ ayudarse en tiempos de dificultad. (Aunque las expresiones de estas virtudes pueden variar según las circunstancias, todas se comunican con estos cuatro principios).
 
-향약(鄕約)은 중국(中國) 송(宋)나라 때 남전지역(藍田地域)에 살던 여씨(呂氏) 4형제(兄弟)에 의하여 시작(始作)되었다고 전해지고 있다. 여씨향약(呂氏鄕約)은 주문공(朱文公)(熹)에 의하여 증보(增補)되었고 그것이 우리나라에 전래(傳來)된 것이 이황(李滉)의「예안향약(禮安鄕約)」이라고 한다(1556년). 이황(李滉)의 예안향약(禮安鄕約) 이전(以前)에도 태조(太祖) 이성계(李成桂)에 의한 풍패향약(豊沛鄕約)이 있기도 하였다(1398년). 풍패향약(豊沛鄕約)은 우리나라 향약(鄕約)의 효시(嚆矢)라고 이야기할 수 있는데 그것은 주로(主로) 부작위의무(不作爲義務)를 규정(規定)한 내용(內容)의 조목(條目) 41개(個)로 형성(形成)되어 있어서 향약(鄕約) 41조(條)라고도
+Se dice que el Hyangyak (鄕約) comenzó con los cuatro hermanos de la familia Yeo (呂氏) que vivían en la región de Namjeon (藍田) durante la dinastía Song (宋) en China (中國). El Yeosihyangyak (呂氏鄕約) fue ampliado por Zhu Wengong (朱文公) (Xi) y se dice que lo que se transmitió a nuestro país es el "Yeanhyangyak (禮安鄕約)" de Yi Hwang (李滉) (1556). Incluso antes del Yeanhyangyak (禮安鄕約) de Yi Hwang (李滉), existió el Pungpaehyangyak (豊沛鄕約) impulsado por el rey Taejo (太祖) Yi Seong-gye (李成桂) (1398). Se puede decir que el Pungpaehyangyak (豊沛鄕約) es el precursor del Hyangyak (鄕約) en nuestro país, ya que estaba formado por 41 artículos que regulaban principalmente obligaciones de no hacer.
 
 
 --- (p. 54) ---
@@ -6617,9 +6617,9 @@ En primer lugar, el objetivo de la educación en las instituciones de capacitaci
 
 --- (p. 310) ---
 
-확립하고 총력안보(總力安保) 및 민족주체성(民族主體性)을 공고히 하여 복지국가(福祉國家)를 건설하는 선도자(先導者)를 양성하며 ② 공직윤리(公職倫理)에 투철히 건전한 공무원(公務員)의 자세를 확립하며 ③ 발전행정(發展行政)에 순응(順應)하는 전문행정가(專門行政家)를 양성하는 데 있다고 하였다.
+Se estableció que su objetivo es: ① formar líderes que consoliden la seguridad nacional integral (總力安保) y la identidad nacional (民族主體性) para construir un Estado de bienestar (福祉國家), ② establecer una postura íntegra de los funcionarios públicos (公務員) con una ética en el servicio público (公職倫理) profundamente arraigada, y ③ formar administradores especializados (專門行政家) que se adapten al desarrollo administrativo (發展行政).
 
-이는 중앙공무원교육원(中央公務員敎育院)을 위시해서 각부처산하(各部處傘下) 공무원교육원(公務員敎育院) 또는 국영기업체(國營企業體), 새마을교육연수원(새마을敎育硏修院)까지 포함되며 주로 새마을교육과 병행하는 직무교육과정(職務敎育課程)을 채택하고 있다. 한 예(例)로 지방(地方) 공무원교육원(公務員敎育院)의 경우 새마을교육(새마을敎育)과 직무교육(職務敎育)으로 구분되어 실시하고 있으며 새마을교육과정(새마을敎育課程) 이외(以外)에 직무교육과정(職務敎育課程)으로는 신규채용자반(新規採用者班), 일반행정반(一般行政班), 회계직무반(會計職務班), 세무행정반(稅務行政班) 등으로 구분(區分)되어 있다. 또한 최근(最近)에는 새마을교육과정(새마을敎育課程)에 시민(市民) 새마을 1일교육(1日敎育)의 색다른 연수교육도 실시하고 있다.
+Esto incluye desde el Instituto Central de Educación para Funcionarios Públicos (中央公務員敎育院) hasta los institutos de educación para funcionarios públicos (公務員敎育院) bajo cada ministerio, empresas estatales (國營企業體) e incluso el Instituto de Educación y Capacitación Saemaeul (새마을敎育硏修院). Principalmente, se adoptan programas de educación laboral (職務敎育課程) que se llevan a cabo en paralelo con la educación Saemaeul. Por ejemplo, en el caso de los institutos de educación para funcionarios públicos locales (地方公務員敎育院), se divide y realiza en educación Saemaeul (새마을敎育) y educación laboral (職務敎育). Además de los programas de educación Saemaeul (새마을敎育課程), los programas de educación laboral (職務敎育課程) se dividen en clases para nuevos empleados (新規採用者班), administración general (一般行政班), contabilidad (會計職務班), administración tributaria (稅務行政班), entre otros. Recientemente, también se está implementando una capacitación innovadora llamada "Educación Saemaeul de un día para ciudadanos" (市民 새마을 1日敎育) dentro de los programas de educación Saemaeul (새마을敎育課程).
 
 En segundo lugar, el Instituto de Capacitación Saemaul de Fábricas tiene como objetivos ① la formación de líderes destacados para el Movimiento Saemaul en Fábricas (工場새마을運動), ② cumplir con la innovación empresarial (企業革新) y la responsabilidad social (社會的責任) para desempeñar un papel central en el renacimiento de la nación (民族中興), y ③ mejorar la productividad (生產性) a través de la promoción de la cooperación laboral (勞使協調增進) y construir una sociedad industrial de bienestar (福祉産業社會). Según estos objetivos educativos (敎育目的), los cursos incluyen el curso de altos ejecutivos generales (一般高級經營者班), el curso de líderes (指導者班) para directores de fábricas (工場) y gerentes intermedios (中間管理層), y el curso de líderes femeninos (婦女指導者班) para empleadas (女子從業員), que forman el núcleo de estos programas.
 
@@ -8357,7 +8357,7 @@ Sin embargo, a pesar de las diversas ventajas y beneficios de los establos comun
 
 --- (p. 392) ---
 
-상협업(協業)의 과정에서 흔히 찾아볼 수 있는 것이기 때문에 생산성(生產性)의 저하가 우려되고 있다. 결국 문제는 공동축사(共同畜舍)의 마련도 중요하지만 공동사연관리(共同飼筵管理)의 성패가 더욱 중요하다고 보겠다. 이런 면에서 집중적인 연구(硏究)와 조정이 뒤따라 주지 않으면 안 된다.
+En el proceso de colaboración, es común observar esto, por lo que existe la preocupación de una disminución en la productividad (生產性). En última instancia, el problema no es solo la preparación de establos comunitarios (共同畜舍), sino que el éxito o fracaso de la gestión conjunta de los comederos (共同飼筵管理) es aún más importante. Desde esta perspectiva, es indispensable realizar investigaciones intensivas (硏究) y ajustes continuos.
 
 ### (4) Almacén Comunitario (共同倉庫)
 
@@ -10004,7 +10004,7 @@ Por lo tanto, el gobierno debe examinar cuidadosamente estos problemas y evitar 
 
 --- (p. 464) ---
 
-를 거치지 않도록 내실(內實)을 기할 수 있는 방향(方向)으로 이끌어 가고 있다.
+está guiando hacia una dirección que pueda fortalecer el contenido sustancial (內實) sin pasar por esto.
 
 ### (3) Saemaul Undong (運動) de aumento de ingresos (所得)
 
@@ -10152,8 +10152,8 @@ En cuanto a la composición del monto total de inversión (總投資額), el 66.
 
 작목(作目) 입식(入殖) 부문(部門)이 총투자액(總投資額)의 50.2%를 차지하고 있는데 주요작목(主要作目)으로는 비육우(肥育牛)(총투자(總投資)의 21.1%), 육성비육우(育成肥育牛)(10.5%), 육성우(育成牛)(9.6%), 자돈(仔豚)(4.1%), 젖소(乳牛)(2.4%) 등이며. 그리고 작목(作目) 입식(入殖)과 더불어 생산시설(生産施設)을 지원하였는데 비닐하우스(총투자액(總投資額)의 7.9%), 우사(牛舍)(7.4%), 돈사(豚舍)(3.5%), 계사(鷄舍)(2.0%) 등 농가시설지원과 수도육묘시설, 종축장, 육묘장 등 단협직영생산시설확충에 총 투자액의 23.4%를 투입(投入)하였다.
 
-또한 경지정리(耕地整理)(총투자액(總投資額)의 7.5%), 양수장(揚水場)(1.5%) 등 생산기반조성사업(生産基盤造成事業)이 총투자액(總投資額)에서 11.0%의 비중을 차지하고 있으며 동력경운기, 트랙터, 이앙기, 콤바인, 바인더 등 농기계의 농가구입을 지원하고 단협의 영농기계화센타와 농기계 수리센타 및 유류(油類) 취급소(取扱所) 설치(設置)에 총투자액(總投資額)의 9.3%를 투자(投資)하여 농업기계화를 촉진시켰다.
-그리고 생산된 농산물의 유통개선을 위해 단협(單協)의 가공, 유통시설 확충에 중점을 두고 창고, 차량, 저온저장고, 가공공장, 판매장 등의 시설에 총투자액(總投資額)의 5.9%를 투입(投入)하였다.
+Además, proyectos de creación de infraestructura productiva (生産基盤造成事業), como la reorganización de tierras cultivables (耕地整理) (7.5% del total de la inversión (總投資額)) y estaciones de bombeo (揚水場) (1.5%), representan el 11.0% del total de la inversión (總投資額). También se apoyó la compra de maquinaria agrícola por parte de los agricultores, como motocultores, tractores, trasplantadoras de arroz, cosechadoras y empacadoras, y se invirtió el 9.3% del total de la inversión (總投資額) en la instalación de centros de mecanización agrícola de cooperativas agrícolas, centros de reparación de maquinaria agrícola y puntos de venta de combustibles (油類取扱所) para promover la mecanización agrícola.
+Para mejorar la distribución de los productos agrícolas producidos, se hizo hincapié en la expansión de las instalaciones de procesamiento y distribución de las cooperativas agrícolas (單協), invirtiendo el 5.9% del total de la inversión (總投資額) en instalaciones como almacenes, vehículos, cámaras frigoríficas, fábricas de procesamiento y puntos de venta.
 
 ### (4) 성과(成果)와 과제(課題)
 
@@ -11539,7 +11539,7 @@ El proyecto de embellecimiento de pequeños pueblos (小都邑 가꾸기 사업)
 
 --- (p. 530) ---
 
-지역(地域)으로 활동(活動)의 장(場)이 될 수 있는 기반시설확충(基盤施設擴充)에 역점을 둔 개발사업(開發事業)으로서의 성격(性格)을 갖게 되었다.
+adquirió el carácter de un proyecto de desarrollo (開發事業) que se centra en la expansión de la infraestructura (基盤施設擴充) que puede convertirse en el escenario de actividades (活動) a nivel regional (地域).
 
 El Movimiento Nuevo de la Comunidad (Saemaul Undong) abarca en su ámbito de actuación la ampliación de la base productiva (生產基盤擴大), la mejora del bienestar y el entorno (福祉環境의 향上), y el desarrollo espiritual (精神啓發의 제고). Por lo tanto, el proyecto de embellecimiento de pequeñas ciudades (小都邑 가꾸기 사업) tiene, por su propia naturaleza, un carácter eminentemente orientado a la mejora del bienestar y el entorno (福祉環境 부분의 사업성격), lo que implica ciertos límites en sus resultados.
 
@@ -11841,8 +11841,8 @@ La fundación (社團法人) de la organización civil (民間團體) Central (�
 
 --- (p. 544) ---
 
-로 6박 7일간에 걸친 새마을교육을 실시한 바 있다.
-새마을교육원에서 실시한 정규교육 외에도 직장 내 자체교육 등 1,282천 명이 교육에 참여하였으며 (표 66) 이들이 도시 새마을운동 분야의 점화요원으로서 그 역할을 충실히 수행하고 있다.
+se llevó a cabo una educación Saemaeul durante 7 días y 6 noches.
+Además de la educación regular impartida en el Instituto de Educación Saemaeul, 1,282,000 personas participaron en programas de educación interna en los lugares de trabajo (Tabla 66), y están desempeñando fielmente su papel como agentes de ignición en el ámbito del movimiento Saemaeul urbano.
 
 ### 표 66: 새마을교육 실적 (77.3~80.7)
 
@@ -11858,13 +11858,13 @@ La fundación (社團法人) de la organización civil (民間團體) Central (�
 |                           | 전달교육     | 21,259 | 824,597   |
 |                           | 레크리에이션교육 | 4     | 245       |
 
-자료: 민간단체 새마을운동 중앙협의회
+Fuente: Consejo Central del Movimiento Saemaeul de Organizaciones Civiles
 
-새마을 정신풍토를 조성하는 최초(最初)의 시도(試圖)는 새마을교육의 효율적(效率的)인 수행(遂行)이라고 볼 수 있다. 새마을운동의 철학(哲學), 실천(實踐) 사업(事業)의 선정(選定), 추진방식(推進方式)에 대한 이해, 그리고 전체(全體) 참여자(參與者)의 노력(努力)을 통해 거두어드린 성과(成果)가 참여자(參與者)의 복지(福祉) 향상(向上), 지역사회(地域社會) 개발(開發) 내지 국가발전(國家發展)에 크게 이바지한다는 확고한 신념(信念)을 가지지 않은 채 사업(事業)이 추진(推進)된다면 그만큼 심도(深度)도 낮아질 뿐 아니라 지속성(持續性)도 상실(喪失)되는 것이다.
+El primer intento de fomentar el espíritu y la cultura de Saemaeul puede considerarse la implementación eficiente (效率的) de la educación Saemaeul. Si el movimiento Saemaeul se impulsa sin una comprensión clara de su filosofía (哲學), la selección de proyectos (事業), los métodos de promoción (推進方式) y sin la convicción firme (信念) de que los esfuerzos (努力) de todos los participantes (參與者) contribuirán al bienestar (福祉) de los participantes, al desarrollo de la comunidad local (地域社會) e incluso al desarrollo nacional (國家發展), no solo se perderá profundidad (深度), sino también su sostenibilidad (持續性).
 
-따라서 사업(事業)이 시작되어 지속화(持續化)되는 과정(過程)에서 계속적(継続的)인 새마을교육의 반복적(反復的)인 학습(學習)이 필요(必要)하다고 보는 것이다. 즉 새마을교육을 계속 실시하여 새마을운동의 취지(趣旨)와 그 실천(實踐) 기법(技法)을 전체(全體) 참여자(參與者)에게 이해시킴으로써 전체적(全體的)인 운동(運動)으로 밀고 나가는 역량(力量)을 총합(綜合)하는 방향(方向)으로 유도(誘導)시켜 실효(實効)를 거두어 나갈 수 있다.
+Por lo tanto, se considera necesario que, en el proceso de inicio y continuidad de los proyectos (事業), se realice un aprendizaje (學習) repetitivo (反復的) y continuo (継続的) de la educación Saemaeul. Es decir, al continuar con la educación Saemaeul y hacer comprender a todos los participantes (參與者) el propósito (趣旨) y las técnicas de implementación (實踐技法) del movimiento Saemaeul, se puede guiar en la dirección de consolidar la capacidad (力量) de impulsar el movimiento (運動) de manera integral (全體的), logrando así resultados efectivos (實効).
 
-도시 새마을지도자 교육은 정부(政府) 당국(當局)의 권유(勸誘)에 따라 기관장(機關長), 경영자(經營者), 관리자(管理者)의 순(順)으로 새마을교육원에 입소(入所)시켜 소정(所定)의 교육(敎育)이 끝난 후 돌아가서 전달(傳達)교육(敎育)을 실시(實施)하고 있다. 우리가 바라는 바는 전체(全體) 기관(機關)의 종사원(從事員)이 정부(政府)에서 주관(主管)하는 새마을교육을 이수(履修)하는 것이 가장 이상적(理想的)인 것이지만 현실적(現實的)으
+La educación de líderes Saemaeul urbano se lleva a cabo ingresando en el Instituto de Educación Saemaeul, por recomendación (勸誘) de las autoridades gubernamentales (政府當局), a directores de instituciones (機關長), gerentes (經營者) y administradores (管理者) en ese orden. Después de completar la educación establecida (所定敎育), regresan para implementar la educación de transmisión (傳達敎育). Aunque lo ideal sería que todo el personal (從事員) de las instituciones (機關) completara la educación Saemaeul dirigida por el gobierno (政府主管), en la realidad,
 
 
 --- (p. 545) ---
@@ -12832,7 +12832,7 @@ Los movimientos sociales (社會運動) de la sociedad de nuestros antepasados (
 
 --- (p. 590) ---
 
-것이 범민화체제(汎民化體制)로 발전(發展)될 수 없었으며, 전국적(全國的)인 운동(運動)으로 확산(擴散)될 수 없었고 또한 영속적(永續的)인 운동(運動)으로 지속(持續)되지 못했던 것이 사실(事實)이었다.
+no pudo evolucionar hacia un sistema de participación popular (汎民化體制), no se pudo expandir como un movimiento (運動) a nivel nacional (全國的) ni pudo mantenerse como un movimiento (運動) sostenible (永續的), lo cual es un hecho (事實).
 Sin embargo, el Saemaul Undong (새마을운동) de hoy tiene características en el método de desarrollo, como un sistema de participación de todo el pueblo (全民參與體制), un sistema de despliegue en todo el territorio (全域展開體制), y el compromiso de continuar con todas nuestras fuerzas (全力).
 
 Cuarto, es una característica sociológica (社會學的).
@@ -12878,27 +12878,27 @@ Al considerar estos puntos principales, el Saemaul Undong (새마을운동) se b
 
 --- (p. 592) ---
 
-근면(勤勉)• 자조(自助), 협동(協同)하는 실천원리(實踐原理)로써, 주체적(主體的) 자강형(自强型)의 생활사회(生活社會) 건설(建設)에 솔선(率先) 참여(參與)하는 한국인(韓國人)의 자활운동(自活運動)이라고 그 정의(定義)를 전출(翦出)해낼 수 있는 것이다.
+Se puede definir como el movimiento de autosuficiencia de los coreanos que, bajo los principios prácticos de **diligencia (勤勉)**, **autoayuda (自助)** y **cooperación (協同)**, participan de manera proactiva (率先) en la construcción de una sociedad vital (生活社會) de tipo autofortalecedor (自强型) y autónoma (主體的).
 
 ## 3. 새마을운동(運動)의 발전추진요소(發展推進要素)
 
-새마을운동(運動)은 마을을 새롭게 가꾼다는 미시적(微視的) 개념(槪念)이라기보다는 우리의 인간적(人間的)인 욕구(欲求)를 종합적(綜合的)으로 해결(解決)해 나가기 위하여 보다 큰 행복(幸福)을 추구(追求)해 나가는 운동(運動)이라고 이해(理解)할 때 새마을운동(運動)은 최소한(最少限) 다음 네 가지의 발전추진(發展推進) 요소(要素)가 상호작용(交互作用)을 하는 가운데 발전(發展)되어 가는 운동체계(運動體系)라고 이야기할 수 있다.
+El **Movimiento Saemaul (새마을운동)** no debe entenderse simplemente como un concepto micro (微視的) de «renovar el pueblo», sino como un movimiento que busca alcanzar una mayor felicidad al resolver de manera integral (綜合的) nuestras necesidades humanas (人間的). En este sentido, puede afirmarse que el Movimiento Saemaul es un sistema dinámico que se desarrolla mediante la interacción (交互作用) de al menos los siguientes cuatro elementos impulsores del progreso (發展推進):
 
-첫째는 인간(人間)의 잠재적(潜在的)인 능력(能力)을 증대(增大)해 나가는 교육적(敎育的) 요소(要素)를 내포(內包)하고 있으며,
+En primer lugar, incluye un **elemento educativo (敎育的)** que busca potenciar las capacidades latentes (潜在的) del ser humano (人間).
 
-둘째는 생활여건(生活與件)의 개선(改善)을 도모(圖謀)해 나가는 환경변화적(環境變化的) 요소(要素)를 지니는가 하면,
+En segundo lugar, posee un **elemento de cambio ambiental (環境變化的)** orientado a mejorar las condiciones de vida (生活與件).
 
-셋째는, 생존조건(生存條件)을 향상(向上)시켜 나가기 위한 부(富)의 소지(素地)를 확대(擴大)한다는 요소(要素)를 지니고,
+En tercer lugar, contiene un **elemento de expansión de la riqueza (富)** como base para elevar las condiciones de supervivencia (生存條件).
 
-넷째는 무한(無限)한 가능성(可能性)을 추구(追求)해 나가기 위한 변동창조적(變動創造的) 요소(要素)를 그 바탕으로 한다.
+En cuarto lugar, se fundamenta en un **elemento de innovación y transformación creativa (變動創造的)** que persigue posibilidades ilimitadas (無限).
 
 ### 가. 인간교육(人間敎育)의 지속화(持續化)
 
-인간교육(人間敎育)은 의식(意識)의 계발(啓發)인 동시에 능력(能力)의 개발작용(開發作用)이다.
+La **educación humana (人間敎育)** es, al mismo tiempo, el desarrollo de la conciencia (意識) y la potenciación de las capacidades (能力).
 
-인간교육(人間敎育)의 효과(效果)는 인간혁명(人間革命)(human renewal)을 스스로 수행(遂行)케 하는 동시에 인간혁명(人間革命) 과정(過程)에서 새로운 욕구(慾求)를 추구(追求)하게 할 뿐만 아니라 인간(人間)의 무한(無限)한 잠재적(潜在的) 가능성(可能性)을 발견(發見)케 한다.
+El efecto (效果) de la **educación humana** no solo impulsa a las personas a llevar a cabo su propia **revolución humana (人間革命)** (renovación personal), sino que también, durante este proceso, las motiva a buscar nuevas aspiraciones (慾求) y a descubrir el **potencial ilimitado (無限)** que reside en el ser humano (人間).
 
-다시 말하면 인간(人間)은 교육(敎育)을 통하여 자연(自然)에의 도전의욕(挑戰意慾)을 지니게 되는가 하면 도전(挑戰)에 의한 자연(自然)으로부터의 환수(還收) 가치(價値)가 크면 클수록 인간능력(人間能力)의 확대작업(擴大作業)을 서둘게 되는 것인 바, 인간(人間)의 능력확대작업(能力擴大作업)은 곧 교육(敎育)을 의미(意味)한다. 그렇기 때문에 새마을운동(運動)은 우리의 생존조건(生存條件)을 사회적(社會的)으로 강화(强化)해나가는 작업(作業)이라는 점에서 새마을운동(運動)은 인간교육(人間敎育)의 지속(持續)을 촉구(促求)하는 원리(原理)를 내포(內包)하고 있는 것이다.
+En otras palabras, mediante la educación (敎育), el ser humano adquiere el deseo de desafiar a la naturaleza (自然에의 挑戰意慾). Cuanto mayor sea el valor recuperado (還收) de la naturaleza a través de estos desafíos (挑戰), más se apresurará a ampliar sus capacidades (人間能力). Así, la expansión de las capacidades humanas (能力擴大作業) equivale a la educación (敎育). Por esta razón, el **Movimiento Saemaul** —al ser un esfuerzo por fortalecer socialmente (社會的) nuestras condiciones de supervivencia (生存條件)— **contiene el principio (原理) de exigir la continuidad (持續) de la educación humana (人間敎育)**.
 
 ### 나. 환경개선(環境改善)의 지속화(持續)
 
@@ -13952,7 +13952,7 @@ En cualquier país, los problemas que deben enfrentarse durante el proceso de in
 
 --- (p. 648) ---
 
-위기만 조성된다면 보다 밝은 미래를 전개시켜 나갈 수 있을 것으로 믿어 진다.
+Si se logra crear un sentido de urgencia, se podrá desplegar un futuro más prometedor.
 
 ## 4. La búsqueda de una ciudad atractiva
 

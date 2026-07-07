@@ -604,17 +604,17 @@ Với trường hợp của Cao Câu Ly (高句麗), danh hiệu Go Chu Ga (古�
 
 --- (p. 32) ---
 
-이런 점은 신라(新羅)의 경우 더욱 분명하다. 신라(新羅)에는 성골(聖骨)과 진골(眞骨), 그리고 육(六)두품(頭品)부터 일두품(一頭品)까지의 여섯 두품(頭品)을 합쳐 여덟 등급(等級)의 신분(身分) 계급이 있었다. 이 여덟 신분(身分) 계급 중에서 성골(聖骨)도 그러했을 터이지만, 삼국통일기(三國統一期) 이후(以後)에는 진골(眞骨)이 정치(政治)·경제(經濟)·군사(軍事)·사회(社會)의 주도권(主導權)을 장악하고 있었다.
+Những điểm này càng rõ ràng hơn trong trường hợp của Tân La (新羅). Ở Tân La tồn tại hệ thống đẳng cấp thân phận gồm tám bậc, bao gồm từ **Thánh Cốt (聖骨)** và **Chân Cốt (眞骨)**, cùng với sáu tầng lớp từ **Lục Đầu Phẩm (六頭品)** đến **Nhất Đầu Phẩm (一頭品)**. Trong tám đẳng cấp thân phận này, dù Thánh Cốt cũng có thể như vậy, nhưng sau thời kỳ Thống nhất Tam Quốc (三國統一期), **Chân Cốt** đã nắm giữ quyền chủ đạo trong **chính trị, kinh tế, quân sự và xã hội**.
 
-그런데, 진골(眞骨)에 포함되는 가문(家門)은 극히 제한되어 있었다. 우선 왕족(王族)인 김(金)씨(氏)가 대종을 이루고 있었고 그 다음이 왕비족(王妃族)인 박씨(朴氏)이다. 그 숫자는 그렇게 많았던 것 같지 않으며, 김경신(金庚信)계열도 진골(眞骨)로 대우되었으나 그 존재(存在)는 희미한 것이었다. 그러므로 신라(新羅)의 지배세력(支配勢力)의 핵심이 되는 것은 진골(眞骨) 중(中)에서도 왕족(王族)인 김씨(金氏)였던 것이다.
+Tuy nhiên, các gia tộc thuộc **chân cốt (眞骨)** lại vô cùng hạn chế. Trước hết là vương tộc họ **Kim (金)**, đóng vai trò chủ đạo, tiếp theo là dòng họ **Phác (朴)** – vương phi tộc. Số lượng của họ dường như không nhiều, và dòng dõi **Kim Khánh Tín (金庚信)** cũng được coi là chân cốt, song sự hiện diện của họ khá mờ nhạt. Do đó, cốt lõi của thế lực thống trị ở **Silla (新羅)** chính là vương tộc họ **Kim (金)** trong số các gia tộc chân cốt.
 
-그런데 신라(新羅)는 하대(下代)(8세기 말엽)로 접어들면서 진골(眞骨)의 지배에 도전하는 세력이 등장하였다. 그 하나가 육두품(六頭品)의 진출이었다. 이들은 학문적 식견과 유교적(儒敎的) 교양(敎養)을 간직하고 있었으며 개인이 갖는 능력(能力)에 따라 관원으로 등용하는 당(唐) 과거제도(科擧制度)를 익히 알고 있었다. 그러므로 그들은 골품제도(骨品制度)를 비판하고 진골(眞骨)과 동등하게 대우해 줄 것을 요구하였다.
+Tuy nhiên, khi bước vào thời Hậu kỳ (下代) (cuối thế kỷ 8), vương quốc Tân La (新羅) đã xuất hiện những thế lực thách thức sự thống trị của tầng lớp Chân cốt (眞骨). Một trong số đó là sự vươn lên của tầng lớp Lục đầu phẩm (六頭品). Họ sở hữu kiến thức học thuật và giáo dưỡng Nho giáo (儒敎的), đồng thời am hiểu sâu sắc về chế độ khoa cử (科擧制度) của nhà Đường (唐), nơi quan lại được tuyển dụng dựa trên năng lực cá nhân. Vì vậy, họ chỉ trích chế độ Cốt phẩm (骨品制度) và yêu cầu được đối xử ngang hàng với tầng lớp Chân cốt (眞骨).
 
-더욱 중시(重視)되는 것은 취족(聚族)의 출현(出現)이었다. 취족(聚族) 중에는 낙향한 진골(眞骨)이나 육두품(六頭品) 출신도 있었다. 그러나 일찍부터 토착세력(土着勢力)으로 성장(成長)하여 온 촌주(村主)들이 많았던 것 같다. 이들은 성주(城主) 혹은 장관(將官)으로 자처하여 행정(行政)·군사(軍事)·경제적(經濟的)으로 일정한 지역(地域)에 대한 지배권을 행사하고 있었다. 이는 결국 진골(眞骨) 귀족(貴族)의 세력기반을 무너뜨리는 것이었는데, 각처에서 일어난 농민반란(農民叛亂)이 이를 더욱 채찍질하였다. 결국 이 취족(聚族)들이 진골(眞骨)에 대신하여 실질적인 사회적(社會的) 지배세력(支配勢力)으로 등장하게 된 것이다.
+Điều được coi trọng hơn cả là sự xuất hiện của **thế tộc tụ cư (聚族)**. Trong số các thế tộc tụ cư này, có cả những quý tộc **Chân cốt (眞骨)** hoặc xuất thân từ **Lục đầu phẩm (六頭品)** sau khi cáo quan về quê. Tuy nhiên, phần lớn dường như là những **thôn chủ (村主)** đã phát triển thành thế lực bản địa từ sớm. Họ tự xưng là **thành chủ (城主)** hoặc **tướng quan (將官)**, nắm quyền cai trị về hành chính, quân sự và kinh tế đối với một khu vực nhất định. Điều này cuối cùng đã làm lung lay nền tảng quyền lực của giới quý tộc **Chân cốt**, và các cuộc nổi dậy của nông dân ở khắp nơi càng thúc đẩy quá trình này. Kết quả là, các thế tộc tụ cư này đã thay thế **Chân cốt**, trở thành tầng lớp thống trị xã hội trên thực tế.
 
-고려(高麗) 태조(太祖) 왕건(王建)이 후삼국(後三國)을 통일(統一)(10세기 초)할 수 있었던 것도 취족(聚族)들의 지지(支持)가 있었기 때문이었다. 그러므로 그는 부득이 취족(聚族)과의 연합(聯合)하는 정책(政策)을 쓰지 않을 수가 없었던 것이다. 그러나 태조(太祖)를 이은 역대(歷代) 왕(王)들이 강력한(强力한) 중앙(中央) 집권(集權) 정책(政策)을 추진하여 나감에 따라 취족(聚族)들은 점차 독자적인(獨自的인) 세력을 잃고 중앙(中央) 귀족(貴族)으로 흡수되거나 향리(鄕吏)로 그 사회적(社會的) 지위(地位)를 떨구어 갔다. 이렇게 해서 11세기 초(初)(현종대(顯宗代))가 되면서 고려(高麗) 사회(社會)는 중앙(中央) 집권적(集權的)인 귀족(貴族) 사회(社會)로 변모되어 갔다.
+Việc Cao Ly (高麗) Thái Tổ (太祖) Vương Kiến (王建) có thể thống nhất (統一) Hậu Tam Quốc (後三國) (đầu thế kỷ 10) cũng là nhờ có sự ủng hộ (支持) của các bộ tộc tụ cư (聚族). Do đó, ông không thể không áp dụng chính sách liên minh (聯合) với các bộ tộc tụ cư (聚族). Tuy nhiên, khi các vị vua kế vị Thái Tổ (太祖) thúc đẩy chính sách tập quyền trung ương (中央集權) mạnh mẽ (强力한), các bộ tộc tụ cư (聚族) dần mất đi thế lực độc lập (獨自的) của mình, bị hòa nhập vào giới quý tộc trung ương (中央貴族) hoặc bị hạ thấp địa vị xã hội (社會的地位) xuống thành quan lại địa phương (鄕吏). Qua đó, đến đầu thế kỷ 11 (đời vua Hiển Tông 顯宗), xã hội Cao Ly (高麗) đã biến đổi thành một xã hội quý tộc tập quyền trung ương (中央集權的貴族社會).
 
-새로 형성된 이 귀족(貴族) 사회(社會)는 혈통(血統)에 근거(根據)를 둔 신분(身分)을 존중(尊重)하는 사회(社會)였다.
+Xã hội quý tộc (貴族社會) mới hình thành này là một xã hội coi trọng thân phận (身分) dựa trên huyết thống (血統).
 
 
 --- (p. 33) ---
@@ -718,22 +718,22 @@ Trường hợp khác là khi các cường quốc theo đuổi việc duy trì 
 
 --- (p. 38) ---
 
-하는 것이 어려워질 수 있어 통일(統一)이 어렵게 된다.
-우리로서는 강대국(强大國)의 중앙적(中央的) 위치(位置)에 있는 만큼 몇 가지 길을 고려해야 한다.
-1. 강대국(强大國) 중(中) 일부와의 동맹(同盟)을 통해 국가의 안보(安全)을 도모할 수 있다.
-이 경우, 우리는 미국(美國)과의 동맹(同盟)이나 일본(日本)과의 협력(協力)을 고려할 수 있으며, 북한(北韓)은 중공(中共) 및 소련과의 동맹(同盟)을 맺을 가능성이 높다.
-2. 독자적(獨自的)으로 강국(强國)을 서로 견제(牽制)시키고 균형(均衡)시키면서 독자적(獨自的) 안보(安保)와 통일(統一) 역량(力量)을 확보하는 방식(方式)이 있을 수 있다.
-자주안보태세(自主安保態勢)를 갖추고, 사강(四强) 관계(關係)에서 비교적 중립성(中立性)을 유지하며, 정치(政治)(외교(外交)) 중심적(中心的)인 정책(政策) 방향(方向)을 병행하는 것이 필요하다.
-3. 강대국(强大國) 배후(背後) 세력(勢力)과 집단(集團) 안보(安보)를 유지하면서도 자주안보태세(自主安保態勢)를 갖추는 길이다.
-이 병진(併進) 정책(政策) 방향(方向)은 북한(北韓)보다 한국(韓國)의 경우 더욱 필요(必要)하고 불가피한 방향(方向)이라고 생각된다.
+Điều này có thể khiến việc thống nhất (統一) trở nên khó khăn.
+Với vị trí trung tâm (中央的位置) của một cường quốc (强大國), chúng ta cần xem xét một số phương án.
+1. Có thể đảm bảo an ninh quốc gia (國家安全) thông qua liên minh (同盟) với một số cường quốc (强大國).
+Trong trường hợp này, chúng ta có thể xem xét liên minh (同盟) với Mỹ (美國) hoặc hợp tác (協力) với Nhật Bản (日本), trong khi Triều Tiên (北韓) có khả năng cao sẽ liên minh (同盟) với Trung Quốc (中共) và Liên Xô.
+2. Có thể áp dụng phương thức (方式) tự đảm bảo an ninh (獨自的安保) và năng lực thống nhất (統一力量) bằng cách tự mình kiềm chế (牽制) và cân bằng (均衡) các cường quốc (强國).
+Cần thiết lập thế trận an ninh tự chủ (自主安保態勢), duy trì tính trung lập tương đối (中立性) trong quan hệ với bốn cường quốc (四强關係), đồng thời kết hợp chính sách hướng ngoại giao (政治(外交)中心的政策方向).
+3. Con đường duy trì an ninh tập thể (集團安保) với các thế lực hậu thuẫn (背後勢力) của cường quốc (强大國) nhưng vẫn thiết lập thế trận an ninh tự chủ (自主安保態勢).
+Hướng chính sách song hành (併進政策方向) này được cho là cần thiết (必要) và không thể tránh khỏi (不可避) đối với Hàn Quốc (韓國) hơn là Triều Tiên (北韓).
 
 ### 3. 주변적(周邊的) 위치(位置)와 안보(安保)
 
-한반도(韓半島)는 현재 몇 가지 측면에서 주변적(周邊的) 위치(位置)에 있다고 볼 수 있다. 그 예시를 들면 다음과 같다.
-1. 지리적(地理的) 주변(周邊) 지대(地帶): 해양(海洋)과 대륙(大陸)의 주변(周邊)에 위치하고 있다. 따라서 해양(海洋) 세력(勢力)과 대륙(大陸) 세력(勢力)의 첨단(尖端)에 남북한(南北韓)이 각각 위치하고 있는 것이 된다.
-2. 정치적(政治的) 주변(周邊) 지대(地帶): 자유(自由) 세계(世界)와 공산(共産) 세계(世界)의 첨단(尖端)에 있으면서도 세계(世界) 권력(權力) 정치(政治)의 핵심(核心)에서는 벗어나 있는 것이 남북한(南北韓)이다. 권력(權力)이라는 면에서 세계(世界) 정치(政治)에 있어서 아직은 주변(周邊) 지대(地帶)에 속해 있다는 것이다.
-3. 문화적(文化的) 주변(周邊) 지대(地帶): 세계적(世界的)인 가치(價値)가 한반도(韓半島)에서 창출(創出)된 것이 아니며 자본주의적(資本主義的) 문화(文化)와 공산주의적(共産主義的) 문화(文化)가 구미(歐美)와 러시아에서 뿌리를 두고 남북한(南北韓)에 침투(浸透)되어 있어서 남북한(南北韓)은 문화면(文化面)에서도 핵심(核心) 지대(地帶)가 아니고 주변(周邊) 지대(地帶)가 되어 있다.
-4. 경제적(經濟的) 주변(周邊) 지대(地帶): 경제적(經濟的)으로 선진국(先進國)과 후진국(後進國)이 구별되는 바 남북한(南北韓)은 경제(經濟) 권력(權力)의 핵심(核心)에 들어가지 못하고 있으며 아직은 선진국(先進國) 대열(隊列)에 끼지 못
+Bán đảo Triều Tiên (韓半島) hiện nay có thể được xem là đang ở vị trí ngoại vi (周邊的位置) trên một số khía cạnh. Dưới đây là một số ví dụ:
+1. Vùng ngoại vi địa lý (地理的周邊地帶): Nằm ở vùng giáp ranh giữa biển (海洋) và lục địa (大陸). Do đó, Hàn Quốc (南韓) và Triều Tiên (北韓) lần lượt nằm ở tiền tuyến (尖端) giữa thế lực biển (海洋勢力) và thế lực lục địa (大陸勢力).
+2. Vùng ngoại vi chính trị (政治的周邊地帶): Nằm ở tiền tuyến (尖端) giữa thế giới tự do (自由世界) và thế giới cộng sản (共産世界), nhưng Hàn Quốc và Triều Tiên lại không nằm ở trung tâm (核心) của chính trị quyền lực thế giới (世界權力政治). Xét về mặt quyền lực (權力), bán đảo Triều Tiên vẫn thuộc vùng ngoại vi (周邊地帶) trong chính trị thế giới (世界政治).
+3. Vùng ngoại vi văn hóa (文化的周邊地帶): Các giá trị mang tính toàn cầu (世界的價値) không được sáng tạo (創出) từ bán đảo Triều Tiên (韓半島), mà văn hóa tư bản chủ nghĩa (資本主義的文化) và văn hóa cộng sản chủ nghĩa (共産主義的文化) bắt nguồn từ châu Âu (歐美) và Nga, sau đó thâm nhập (浸透) vào Hàn Quốc và Triều Tiên. Do đó, về mặt văn hóa (文化面), bán đảo Triều Tiên không phải là vùng trung tâm (核心地帶) mà là vùng ngoại vi (周邊地帶).
+4. Vùng ngoại vi kinh tế (經濟的周邊地帶): Về mặt kinh tế (經濟的), giữa các nước phát triển (先進國) và các nước kém phát triển (後進國) có sự phân biệt rõ ràng, Hàn Quốc và Triều Tiên chưa thể gia nhập hàng ngũ các cường quốc kinh tế (經濟權力核心) và vẫn chưa thể đứng vào đội ngũ các nước phát triển (先進國隊列).
 
 
 --- (p. 39) ---
@@ -763,12 +763,12 @@ Vùng nội địa (心臟地帶) của châu Âu là Đức (獨逸), Pháp và
 
 --- (p. 40) ---
 
-변방(邊部)을 지배하며 「천하(天下)」(세계(世界))를 지배할 수 있다고 보았기 때문이다.
-중화사상(中華思想)에서 보든 심장대륙(心臟大陸)을 중요시하는 대륙중심주의적(大陸中心主義的) 이론에서 보든
-우리 한반도(韓半島)는 주변(周邊) 또는 변부(邊部) 지역(地域)임이 분명하고 특히 남한(南韓)은 그러하다. 반도(半島)는 아시아의 심장지대(心臟地帶)인 중국대륙(中國大陸)에 육접(陸接)되어 있고 소련의 동방(東方) 출구(出口)와 접촉(接觸)되어 있는 것이다.
-대륙(大陸) 주변(周邊)에 위치한 한반도(韓半島)이기 때문에 한국(韓國)은 중공(中共)과 소련을 배경으로 하고 있는 북한(北韓)으로부터의 안보상(安保上)의 압력(壓力)을 가중적(加重的)으로 받게 된다. 통일(統一)된 민족국가(民族國家)를 이루고 있었을 때에도 거대한 대륙(大陸)의 힘의 압력(壓力)을 적지 않게 받아왔지만 분단(分斷) 후(後)에는 남한(南韓)이 「반반도(半半島)」가 되었으므로 위협(威脅)을 더욱 크게 받게 된다고 생각된다.
-이러한 지리적(地理的) 여건(與件) 하(下)에서는 북으로부터의 압력(壓力)(위협(威脅))에 대처할 우리의 힘은 우위(優位)에 있지 않으면 안 될 것이다.
-한국(韓國)은 앞에서 보았듯이 해양세력권(海洋勢力圈)의 첨단(尖端)에 있으면서 대륙세력(大陸勢力) 첨단(尖端)과 대결하지 않으면 안 된다. 따라서 한국(韓國)을 해양국(海洋國)과의 협력(協力)이라는 해양중심적(海洋中心的) 정책(政策)과 더불어 육상(陸上) 침입(侵入)에 대비하는 방위정책(防衛政策)도 추진(推進)하지 않으면 안 되는 이중(二重) 성(性)을 갖는다. 그 이중(二重) 정책(政策)은 모순성(矛盾性)을 갖는 것이기 때문에 조화(調和) 속에서 이루어지지 않으면 안 되는 것이라고 본다.
+Bởi vì họ cho rằng có thể thống trị "thiên hạ" (thế giới) bằng cách thống trị vùng biên ải (biên bộ).
+Dù nhìn từ góc độ tư tưởng Trung Hoa (中華思想) hay từ lý thuyết chủ nghĩa trung tâm lục địa (đại lục trung tâm chủ nghĩa) coi trọng tâm đại lục (tâm tạng đại lục),
+Bán đảo Triều Tiên (韓半島) của chúng ta rõ ràng là khu vực ngoại vi (周邊) hoặc biên bộ (邊部), đặc biệt là Hàn Quốc (南韓) ở phía nam. Bán đảo này tiếp giáp bằng đường bộ với đại lục Trung Quốc (中國大陸) - vùng trung tâm của châu Á - và tiếp xúc với cửa ngõ phía đông của Liên Xô.
+Do bán đảo Triều Tiên nằm ở vùng ven đại lục nên Hàn Quốc phải chịu áp lực an ninh gia tăng từ Bắc Triều Tiên - quốc gia có hậu thuẫn là Trung Quốc và Liên Xô. Ngay cả khi còn là một quốc gia dân tộc thống nhất, bán đảo này đã chịu không ít áp lực từ sức mạnh của đại lục, và sau khi bị chia cắt, Hàn Quốc trở thành "bán bán đảo" nên càng phải đối mặt với nhiều mối đe dọa hơn.
+Trong bối cảnh địa lý như vậy, để đối phó với áp lực (đe dọa) từ phía bắc, sức mạnh của chúng ta phải ở thế thượng phong.
+Như đã thấy, Hàn Quốc nằm ở tiền tuyến của thế lực hải dương (海洋勢力圈) đồng thời phải đối đầu với tiền tuyến của thế lực lục địa (大陸勢力). Do đó, Hàn Quốc mang tính chất kép: vừa phải thúc đẩy chính sách hợp tác với các quốc gia hải dương (海洋中心的政策), vừa phải triển khai chính sách phòng thủ đối phó với sự xâm nhập trên bộ. Chính sách kép này chứa đựng mâu thuẫn, nên cần phải được thực hiện trong sự hài hòa.
 
 ## 4. quốc phòng địa lý (國防地理的) đặc điểm (特徵)
 
@@ -1722,12 +1722,12 @@ Hơn nữa, các quốc gia mới phải theo đuổi công nghiệp hóa trong 
 
 --- (p. 86) ---
 
-야 하는가에도 심각한 문제가 있다.
-선진국(先進國)의 산업화(產業化) 초창기(初創期)와 오늘날 신생국(新生國)이 당면(當面)하고 있는 “터”(여건(與件))의 차이(差異)를 미르달(Gunnar Myrdal)의 말을 빌려보면 더욱 명백(明白)해진다. 「신생국(新生國)은 대부분(大部分)의 경우(境遇) 경제수준(經濟水準)이 월등(月等)히 낮고, 인구(人口)와 자원(資源)의 비율(比率)이 바람직하지 못하며 인구(人口)의 급격(急激)한 증가(增加)는 더욱 악조건(惡條件)이다. 또한 이민(移民)의 배출구(排出具)가 없고, 국제(國際) 자본시장(資本市場)을 갖지 못하며, 합리성(合理性)의 전통(傳統)이나 법률(法律) 등(等)의 사회제도(社會制度)적 전제조건(前提條件)이 크게 뒤떨어져 있다. 뿐만 아니라, 신생국(新生國)은 뒤에서 따라가는 신참자(新參者)이고 시장(市場) 내지(乃至) 원료(原料)의 공급지(供給地)로서 착취(搾取)할 수 있는 식민지(植民地)를 갖고 있지 못하며, 세계(世界)의 대다수(大多數)의 나라가 농업국(農業國)인데 선진제국(先進諸國)만이 유일(唯一)한 공업국(工業國)으로서 준독점적(準獨占的)인 이익(利益)을 향유(享有)하며 발전(發展)할 수 있었던 이점(利點)도 갖고 있지 못하다.」
-이상(以上)의 제논의(諸論議)를 감안(勘案)할 때 한국(韓國)의 상황(狀況)에서 산업화(產業化)의 목표(目標)를 달성(達成)하는 데에는 현실적(現實的)인 대중(大衆)의 욕구(欲求)와 “터”(여건(與件))에 대한 정확(正確)한 인식(認識)이 전제(前提)되지 않으면 안 된다.
-대한민국(大韓民國)이 수립(樹立)되면서 경제(經濟)보다는 참여(參與)와 배분(配分)을 일차적(一次的)인 근대화(近代化)의 국가(國家) 목표(目標)로 헌법(憲法)에 규정(規定)한 사실(事實)을 미루어 보면 빈곤(貧困)으로부터의 해방(解放)이라는 대중적(大衆的) 욕구(欲求)를 인식(認識)하는 데서부터 오류(誤謬)가 있음을 알 수 있다.
-「가난으로부터 해방(解放)」이라는 산업화(產業化)의 현실적(現實的) 욕구(欲求)를 받아들이기에 앞서 서구식(西歐式)의 정치적(政治的) 민주주의(民主主義)라는 허구(虛構)에 집착(執着)해 있었고 이러한 허구(虛構)에서 깨어나는 데 무려 15년(15年) 이상(以上)이 걸린 셈이다. 또한 혼합경제(混合經濟)나 공경제(公經濟)하에서 정치(政治) 발전(發展)이 선행(先行)되지 않음으로써 생기는 권력(權力)과 경제(經濟)의 결함(缺陷)은 30여년(30餘年)이 지난 지금까지 “사회정화(社會淨化)” “부조리(不條理) 척결(剔抉)”이라는 구호(口號)를 통치(統治)의 불가피(不可避)한 선결요건(先決要件)으로 제시(提示)하지 않을 수 없도록 만들었다.
-산업화(產業化)의 목표(目標)에 도달(到達)하는 궁극적(窮極的)인 길은 대중(大衆)의 욕구(欲求)에 대한 정확(正確)한 진단(診斷)과 “터”에 대한 인식(認識)을 토대(土臺)로 삼는 것이다. 그리고 이것을 근대화(近代化)를 지향(指向)하는 이념(理念)에로 결집(結集)되는 것이다.
+cũng tồn tại những vấn đề nghiêm trọng.
+Sự khác biệt giữa "điều kiện" (bối cảnh) mà các nước tiên tiến đối mặt trong giai đoạn đầu công nghiệp hóa và các nước mới nổi hiện nay trở nên rõ ràng hơn khi mượn lời của Gunnar Myrdal: "Hầu hết các nước mới nổi đều có mức kinh tế thấp vượt trội, tỷ lệ dân số và tài nguyên không lý tưởng, sự gia tăng dân số nhanh chóng càng làm trầm trọng thêm các điều kiện bất lợi. Ngoài ra, họ không có lối thoát cho di cư, thiếu thị trường vốn quốc tế, các điều kiện tiên quyết về thể chế xã hội như truyền thống hợp lý, pháp luật... đều rất lạc hậu. Hơn nữa, các nước mới nổi là những kẻ đến sau, không có thuộc địa để bóc lột như nguồn cung cấp thị trường hoặc nguyên liệu, trong khi phần lớn các quốc gia trên thế giới là nông nghiệp, chỉ có các nước tiên tiến là độc quyền hưởng lợi từ việc trở thành quốc gia công nghiệp."
+Khi xem xét các luận điểm trên, để đạt được mục tiêu công nghiệp hóa trong bối cảnh của Hàn Quốc, cần phải có sự nhận thức chính xác về nhu cầu thực tế của quần chúng và "điều kiện" (bối cảnh) hiện tại.
+Khi thành lập Đại Hàn Dân Quốc, Hiến pháp đã quy định mục tiêu hiện đại hóa ban đầu của quốc gia là sự tham gia và phân phối chứ không phải kinh tế. Điều này cho thấy đã có sai lầm trong việc nhận thức nhu cầu giải phóng khỏi nghèo đói của quần chúng.
+"Giải phóng khỏi nghèo đói" là nhu cầu thực tế của công nghiệp hóa, nhưng trước khi chấp nhận điều này, chúng ta đã quá bám víu vào mô hình dân chủ chính trị kiểu phương Tây - một ảo tưởng - và phải mất hơn 15 năm để thoát khỏi ảo tưởng đó. Ngoài ra, trong nền kinh tế hỗn hợp hoặc kinh tế công, do sự phát triển chính trị không đi trước, những khiếm khuyết về quyền lực và kinh tế đã khiến cho đến nay, sau hơn 30 năm, chúng ta vẫn phải đưa ra các khẩu hiệu như "thanh lọc xã hội" và "xóa bỏ bất hợp lý" như những điều kiện tiên quyết không thể tránh khỏi của sự cai trị.
+Con đường tối hậu để đạt được mục tiêu công nghiệp hóa là dựa trên sự chẩn đoán chính xác về nhu cầu của quần chúng và nhận thức về "điều kiện" hiện tại, sau đó kết tinh chúng thành tư tưởng hướng tới hiện đại hóa.
 
 **N. Phong trào hiện đại hóa nông thôn**
 
@@ -2709,11 +2709,11 @@ Mỗi dân tộc(民族) đều có tinh thần(精神) truyền thống(傳統)
 
 --- (p. 143) ---
 
-는 윤리(倫理)는 서로 차이가 있다. 따라서 위에서 살핀 우리 민족(民族)의 윤리는 그 자체(自體)로서 가치(價値)가 인정(認定)되어야 한다.
+đạo đức có sự khác biệt. Do đó, đạo đức của dân tộc chúng ta mà chúng ta đã xem xét ở trên cần được công nhận giá trị tự thân.
 
-네째, 예로부터 한국인의 심성(心性)에는 해학(諧謔)과 웃음이 넘쳤다. 이 같은 건전한 심성(心性)이 일제 식민지 정책(政策)의 영향(影響)으로 좌절과 눈물로 얼룩졌다. 현실(現實)을 정면(正面)에서 극복(克服)하려는 의지(意志)보다는 현실(現實)에서 도피하고 감상에 빠지는 나약성이 대중문화(大衆文化)에 잠식(蠶食)되어 왔다. 해방(解放) 후 한 세대(世代)가 훨씬 지났어도 우리의 대중문화(大衆文化) 속에 일본(日本)의 퇴영적(退嬰的) 잔재(殘在)는 말끔히 세척(洗滌)되지 않고 뿌리에 엉겨있다.
+Thứ tư, từ xưa tâm tính của người Hàn Quốc luôn tràn đầy tính hài hước và tiếng cười. Tuy nhiên, tâm tính lành mạnh này đã bị ảnh hưởng từ chính sách thuộc địa của Nhật Bản, trở nên chán nản và đẫm nước mắt. Thay vì ý chí vượt qua thực tại một cách trực diện, tính cách yếu đuối trốn tránh thực tại và chìm đắm trong cảm xúc đã xâm chiếm văn hóa đại chúng. Dù đã hơn một thế hệ trôi qua kể từ ngày giải phóng, nhưng trong văn hóa đại chúng của chúng ta, những tàn dư suy thoái của Nhật Bản vẫn chưa được rửa sạch hoàn toàn mà vẫn bám rễ sâu.
 
-대중(大衆)들이 즐겨 부르는 유행가 가락에서부터 영화나 연극(演劇)의 내용(內容)에 이르기까지 왜색의 찌꺼기들이 남아 있어 우리의 정서(情緒)를 좀 먹고 문화발전(文化發展)을 저해(沮害)하고 있다. 그리하여 도시인(都市人)은 대중(大衆) 매체의 영향(影響)에 따라 웃고 울고 하는 무력(無力)한 상태(狀態)에 놓이기 쉽고, 감수성이 강한 청소년(靑少年)은 대중사회(大衆社會) 속에서 일시적 향락(享樂)에 사로잡히기 쉽다.
+Từ giai điệu của những bài hát thịnh hành mà quần chúng yêu thích cho đến nội dung của phim ảnh và kịch nghệ, những tàn tích của văn hóa Nhật vẫn còn sót lại, ăn mòn tình cảm của chúng ta và cản trở sự phát triển văn hóa. Do đó, người dân thành thị dễ rơi vào trạng thái bất lực, bị chi phối bởi các phương tiện truyền thông đại chúng mà cười khóc theo, còn thanh thiếu niên nhạy cảm dễ bị cuốn vào những thú vui nhất thời trong xã hội đại chúng.
 
 대중문화(大衆文化)의 영향력(影響力)이 그 어느 때보다 막강해진 현시점(現時點)에서 일본문화(日本文化)가 남긴 악영향(惡影響)은 하루속히 제거(除去)되어야 하겠다. 뿐만 아니라 사회(社會) 문화적(文化的)인 면(面)에서 이른바 양키문화(洋基文化)가 전통적(傳統的)인 한국문화(韓國文化)와의 이질감(異質感)을 조성(造成)시켰다는 것도 문제다. 저급한 문화의 물질적(物質的) 향락(享樂) 추구(追求)의 문화양식(文化樣式)이 한국사회(韓國社會)의 전통성(傳統性)은 물론(勿論)이고 전통적(傳統的) 가치관(價値觀)과 윤리의식(倫理意識)을 침식(侵蝕)시키고 말았다. 그리하여 마침내 한국사회(韓國社會)에다 양키문화(洋基文化)의 무비판적(無批判的)인 수용(受容)이라는 문화구조적(文化構造的)인 표류(漂流)의 한 시발(始發)을 주기도 했다.
 
@@ -2763,13 +2763,13 @@ First, there can be various perspectives (見地) on defining the phenomenon (�
 
 일찌기 일본 도쿠가와 시대(德川時代)의 하야시 시헤이(林西平)는 "백 년 후에 부자가 되려면 학문을 권장하고, 50년 후에 부자가 되려면 무예(武藝)를 존중(尊重)하고, 10년 후에 부자가 되려면 산에 나무를 심고, 1년 후에 부자가 되려면 농사를 잘 짓고, 지금 당장 부자가 되려면 절약(節約)을 하라"고 한 바가 있는데, 이는 개인이든 국가이든 먼 장래를 위해서는 역시 교육(敎育)이 으뜸임을 강조한 말이다.
 
-그런데 우리는 백년 대계(百年大計)의 안목(眼目)이 결여된 채 그동안 무수히 번복(飜復)된 조령모개식(朝令暮改式)의 교육(敎育)을 해왔다. 특히 해방 후 세대(世代)의 의식 구조(意識構造)를 단순화시킨 객관(客觀)식(式) 테스트의 만능 풍조는 말할 것도 없고, 한 번도 정착화(定着化)해 보지 못한 각종(各種) 학습 방법(學習方法)의 난무에 이르기까지, 그 모든 것은 참된 교육(敎育)의 부재 현상(不在現象) 속에서 외형적인 교육 기술(敎育技術)만을 이식(移植)해 보려고 급급해 왔다.
+Tuy nhiên, chúng ta đã tiến hành giáo dục theo kiểu thay đổi liên tục như 'chỉ thị sáng ban chiều đổi' mà không có tầm nhìn dài hạn (trăm năm đại kế). Đặc biệt, sau giải phóng, xu hướng coi trọng các bài kiểm tra khách quan đã đơn giản hóa cấu trúc ý thức của các thế hệ, chưa kể đến việc các phương pháp học tập khác nhau chưa bao giờ được định hình ổn định. Tất cả những điều này chỉ là nỗ lực cấy ghép vội vã những kỹ thuật giáo dục mang tính hình thức trong bối cảnh thiếu vắng nền giáo dục chân chính.
 
-우리 한국인은 역사와 조건이 다른 외국에서 겸허(謙虛)하게 배울 것은 배워야 하지만, 부질없는 선망과 동경은 물론 무작정 모방하거나 흉내 낼 필요(必要)는 없으며, 그들과 비교하여 비하(卑下)할 것도 없고, 그들로부터의 경박하고 무책임한 평가에 신경을 쓸 것도 없는 것이다. 더욱 자학(自虐)할 필요(必要)는 없다. 그들과 우리는 다른 것이기 때문이다.
+Người Hàn Quốc chúng ta cần khiêm tốn học hỏi những gì nên học từ nước ngoài có lịch sử và điều kiện khác biệt, nhưng không cần phải ngưỡng mộ hay bắt chước mù quáng, cũng không cần tự hạ thấp bản thân khi so sánh với họ, hay bận tâm đến những đánh giá hời hợt và vô trách nhiệm từ họ. Hơn nữa, không cần phải tự hành hạ bản thân. Bởi chúng ta và họ là khác nhau.
 
-그 점에서 우리 교육계에는 듀이, 부루너, 피아제, 스키너 등 외국(外國)의 저명한 교육학자(敎育學者)의 이름과 더불어 각양각색의 교육 방법(敎育方法)이 소개되었고, 그런 소개와 더불어 풍성한 교육 이론(敎育理論)이 생기게 되었다. 그러나 스스로 사고(思考)하고, 스스로 실천(實踐)할 줄 아는 인간성(人間性) 개발의 정착화는커녕 콩나물 교실, 재수생(再修生), 치맛바람, 과외 수업(課外授業)의 붐, 교실 내외(內外)의 비인간화(非人間化) 등의 문제는 날로 더 심각한 사회 문제(社會問題)를 부각시키고 있는 형편이다.
+Về mặt này, trong lĩnh vực giáo dục của chúng ta, bên cạnh tên tuổi của các nhà giáo dục nổi tiếng nước ngoài như Dewey, Bruner, Piaget, Skinner, đã giới thiệu đủ loại phương pháp giáo dục đa dạng và hình thành nên những lý thuyết giáo dục phong phú. Tuy nhiên, việc định hình phát triển nhân cách biết tư duy và thực hành độc lập còn xa vời, thay vào đó, các vấn đề như lớp học đông đúc, học sinh thi lại, ảnh hưởng của phụ huynh, bùng nổ học thêm, phi nhân hóa trong và ngoài lớp học ngày càng trở thành những vấn đề xã hội nghiêm trọng.
 
-이런 점(點)에서 보면 한국(韓國)의 교육(敎育)은 철학(哲學)의 빈곤상(貧困像)을 노정하고 있는 것 같다.
+Nhìn từ góc độ này, nền giáo dục Hàn Quốc dường như đang thể hiện tình trạng nghèo nàn về triết lý.
 
 
 --- (p. 147) ---
@@ -3408,7 +3408,7 @@ Với vai trò là trung tâm (中心體的) chức năng (機能), việc tăng
 으로 하고 있다.
 (나) 활용(活用)
 
-리(里) • 동(洞) 개발(開發) 위원회(委員會)가 새 마을사업의 중심체로서의 역할(役割)을 살펴보고자 한다. 이를 사업(事業) 계획(計劃)의 작성(作成), 사업(事業)의 실시(實施), 결과(結果)의 보고(報告)로 나누어 설명한다.
+Ủy ban phát triển thôn • động sẽ được xem xét về vai trò trung tâm trong phong trào làng mới. Nội dung này sẽ được giải thích theo các bước: lập kế hoạch dự án, triển khai thực hiện dự án và báo cáo kết quả.
 
 ① 사업(事業) 계획(計劃)의 작성(作成) : 리(里) • 동(洞) 개발(開發) 위원장(委員長)은 시(市) • 군(郡)으로부터 시달된 사업(事業) 계획(計劃) 수립 지침(指針)에 따라 사업(事業) 계획(計劃)을 수립(樹立)한다. 계획(計劃) 수립(樹立)은 먼저 위원회(委員會)를 열어 계획(計劃)안을 작성하고 총회(總會)를 열고 그 안(案)을 확정(確定)한다. 확정(確定)된 안(案)을 시(市) • 군(郡)에 제출하고 다시 시(市) • 군(郡)으로부터 사업(事業) 계획(計劃) 확정(確定) 통지(通知)와 함께 계획(計劃) 수립(樹立)에 따른 세부(細部) 시행(施行) 지침(指針)을 시달받으면 위원장(委員長)은 세부 사업 추진 계획을 작성한다. 주민(住民) 총회(總會議)에서 확정(確定)된 계획(計劃)안은 역시 읍(邑) • 면(面)을 거쳐서 시(市) • 군(郡)에 보고된다.
 
@@ -3416,13 +3416,13 @@ Với vai trò là trung tâm (中心體的) chức năng (機能), việc tăng
 
 ③ 사업(事業) 결과(結果) 보고(報告) : 리(里) • 동(洞) 개발(開發) 위원장(委員長)은 사업의 추진 상황을 주별(週別) 및 월별(月別)로 읍(邑) • 면장(面長)에게 보고한다. 리(里) • 동(洞) 개발(開發) 위원장(委員長)은 주말 및 월말에 위원회(委員會) 회의(會議)를 소집(召集)하여 주간 • 월간의 사업(事業) 추진(推進)에 대한 평가(評價)를 행한다. 연말에는 주민(住民) 총회(總會議)를 소집(召集)하여 연간(年間) 사업(事業) 결과(結果)에 대한 보고와 그에 대한 평가(評價)를 행한다.
 
-사업추진에 대한 평가(評價)는 서면(書面)으로 작성, 비치하여 두었다가 차기(次期)의 계획 작성에 중요한 자료로 삼는다.
+Việc đánh giá tiến độ thực hiện dự án sẽ được lập thành văn bản và lưu giữ để làm tài liệu quan trọng cho việc lập kế hoạch giai đoạn tiếp theo.
 
-이상으로 새마을 운동의 운영(運營) 체계(體系)중에서 사업(事業) 계획(計劃), 발전(發展) 체제(體制)를 설명하였다. 지금까지 언급(言及)한 새마을 운동에 있어서의 추진(推進) 협조(協調) 체계(體系)를 일목요연하게 정리하면 다음과 같다 <표(表) 3>.
+Trên đây là phần giải thích về hệ thống vận hành phong trào làng mới, bao gồm kế hoạch dự án và cơ chế phát triển. Để tổng hợp một cách rõ ràng hệ thống phối hợp thúc đẩy phong trào làng mới đã đề cập, xin xem <Bảng 3> dưới đây.
 
-위에서 정리한 새마을 추진(推進) 조직(組織)도 일반(一般) 행정(行政) 조직(組織)임에 틀림없다. 따라서 조직(組織)의 제반(諸般) 원리(原理)가 그대로 적용(適用)될 수 있으며 행정(行政) 업무(業務)나 관리 기술에 있어서도 다를 바 없다.
+Sơ đồ tổ chức thúc đẩy phong trào làng mới được tổng hợp ở trên chắc chắn là một tổ chức hành chính thông thường. Do đó, các nguyên tắc chung của tổ chức vẫn được áp dụng và không có sự khác biệt trong nghiệp vụ hành chính hay kỹ thuật quản lý.
 
-그러나 새마을 운동에 있어서의 주체(主體)는 주민(住民)이며 그 사업(事業)은 자체(自體) 기금(基金)에
+Tuy nhiên, chủ thể của phong trào làng mới là người dân và các dự án dựa trên quỹ tự có của chính họ.
 
 
 --- (p. 183) ---
@@ -3566,13 +3566,13 @@ Do các yếu tố (要因) trên, sự hướng dẫn và hỗ trợ (支援) c
 
 --- (p. 186) ---
 
-이와 같은 명시적(明示的)인 전달(傳達)을 통하여 각(各) 하위체제(下位體制)의 투입(投入)과 산출관계(産出關係)가 연결(連結)되어 있다. 또한 우리 나라에서의 새마을 운동의 행정 지도 체계는 거의 10년 동안에 변화를 가져와서 시간이 경과함에 따라 조직이론(組織理論)상(上) 분권화(分權化) 내지(乃至)는 전문화(專門化), 구조화(構造化)를 이루어 개발사업(開發事業)의 집행(執行)에 효율성(効率性)을 증대(增大)시키는 방향(方向)으로 나아갔다. 여기서 사업운영체제(事業運營體制)인 「새마을 운동 행정 지도 체계」의 조직변천(組織變遷)을 우선 살펴보고 다음으로 현재(現在) 이 조직체계(組織體系)의 기능을 알아보고자 한다.
+Thông qua việc truyền đạt rõ ràng như vậy, mối quan hệ đầu vào - đầu ra của các hệ thống cấp dưới được kết nối. Ngoài ra, hệ thống chỉ đạo hành chính phong trào làng mới ở nước ta đã trải qua sự thay đổi trong gần 10 năm, theo thời gian, tổ chức đã tiến tới phân quyền hóa, chuyên môn hóa và cấu trúc hóa theo lý thuyết tổ chức, nhằm nâng cao hiệu quả trong việc thực hiện các dự án phát triển. Trước tiên, chúng ta sẽ xem xét sự biến đổi của tổ chức trong 'hệ thống chỉ đạo hành chính phong trào làng mới' - hệ thống vận hành dự án, sau đó tìm hiểu chức năng của hệ thống tổ chức hiện tại.
 
 ### 가 행정조직(行政組織)의 변천(變遷)
-새마을 운동의 지도기관(指導機關)이라면 주민(住民)들의 새마을 운동을 점화(點火), 촉진(促進), 조정(調整)하는 정부기관(政府機關) 및 민간단체(民間團體)를 말한다. 이러한 지도기관(指導機關)들은 그가 소속되어 있는 조직(組織)의 특성(特性)에 따라 각각의 특유한 기능(機能)을 수행하는 바, 이러한 각(各) 기관(機關)들의 다양한(多樣한) 기능(機能)이 합쳐져서 새마을 운동이라는 하나의 종합적(綜合的)인 접근이 가능해지게 된다. 한편 지도기관(指導機關)이라 할 때는 그 지도 기능의 성격에 따라 일반행정기관(一般行政機關)과 사업지도기관(事業指導機關)으로 나눌 수 있다. 일반행정기관(一般行政機關)은 정부기관(政府機關)으로서 개발 사업인 이른바 새마을 사업이 수행될 수 있도록 그 기틀을 마련해 주는 기관(機關)이며 사업지도기관(事業指導機關)이라면 개발 사업의 수행을 직접 지도해 나가는 기관(機關)이다. 여기서 일반행정기관(一般行政機關)에 초점을 맞추고 그 조직(組織)의 변천(變遷)을 간단히 살펴본다.
+Cơ quan chỉ đạo phong trào làng mới là các cơ quan chính phủ và tổ chức dân sự có vai trò khơi dậy, thúc đẩy và điều phối phong trào làng mới của người dân. Các cơ quan chỉ đạo này, tùy theo đặc thù của tổ chức mà mình thuộc về, sẽ thực hiện những chức năng riêng biệt. Chính sự kết hợp đa dạng các chức năng này đã tạo nên một cách tiếp cận tổng hợp đối với phong trào làng mới. Mặt khác, các cơ quan chỉ đạo có thể được phân loại thành cơ quan hành chính chung và cơ quan chỉ đạo dự án dựa trên tính chất chức năng chỉ đạo. Cơ quan hành chính chung là các cơ quan chính phủ tạo nền tảng để thực hiện các dự án phát triển, còn gọi là dự án làng mới, trong khi cơ quan chỉ đạo dự án là những cơ quan trực tiếp hướng dẫn thực hiện các dự án phát triển. Ở đây, chúng ta sẽ tập trung vào cơ quan hành chính chung và xem xét ngắn gọn sự biến đổi của tổ chức này.
 
 #### (1) 중앙행정조직(中央行政組織)
-우리나라에 있어서 지역사회개발(地域社會開發)을 위한 중앙행정조직(中央行政組織)은 역사적(歷史的)으로 거슬러 올라가서 그 기원(起源)을 살필 수 있으나, 새마을 운동이란 이름하여 생겨난 새마을 전담부서(專擔部署)는 그 역사(歷史)가 오래지 않다. 새마을 사업(事業)에 관련(關聯)된 주요 지방행정기구(地方行政機構)의 인사(人事)·재정권(財政權)을 장악(掌握)하고 있는 내무부(內務部)에 새마을 전담부서(專擔部署)가 생기고 나서 바야흐로 새마을 운동에 관한 중앙행정조직(中央行政組織)이 그 기능을 수행하게 된 셈이다. 다시 말해서 1971년 8월 19일 대통령령(大統領令) 제5755호(第5755號)에 나타난 내무부(內務部) 직제개정(職制改正)을 통하여 종전의 지방국(地方局) 하(下)에 있던 “개발과(開發課)”를 폐지(廢止)하고 지방국장(地方局長) 밑에 “지역개발담당관(地域開發擔當官)” “도시개발관(都市開發官)” “농촌개발관(農村開發官)” “주택개량관(住宅改良官)”을 신설(新設)함으로써 중앙행정조직(中央行政組織)에 있어 최초의 새
+Tổ chức hành chính trung ương nhằm phát triển cộng đồng địa phương ở nước ta có thể truy nguyên nguồn gốc lịch sử, nhưng bộ phận chuyên trách phong trào làng mới với tên gọi như vậy thì lịch sử chưa lâu. Chỉ sau khi bộ phận chuyên trách phong trào làng mới được thành lập tại Bộ Nội vụ - nơi nắm giữ nhân sự và quyền tài chính của các cơ quan hành chính địa phương chủ chốt liên quan đến dự án làng mới - thì tổ chức hành chính trung ương về phong trào làng mới mới bắt đầu thực hiện chức năng của mình. Nói cách khác, vào ngày 19 tháng 8 năm 1971, theo Sắc lệnh Tổng thống số 5755, thông qua việc sửa đổi quy chế của Bộ Nội vụ, đã bãi bỏ 'Phòng Phát triển' thuộc Cục Địa phương và thành lập mới 'Quan chức phụ trách phát triển vùng', 'Quan chức phát triển đô thị', 'Quan chức phát triển nông thôn', 'Quan chức cải thiện nhà ở' dưới quyền Cục trưởng Cục Địa phương, qua đó lần đầu tiên thiết lập bộ phận chuyên trách phong trào làng mới trong tổ chức hành chính trung ương.
 
 
 --- (p. 187) ---
@@ -4393,7 +4393,7 @@ Hoạt động này được phân chia theo đơn vị làng, đơn vị thị 
 
 --- (p. 212) ---
 
-방책(方策)을 강구(講究)하도록 하고 있다.
+đang được nghiên cứu để đưa ra các biện pháp.
 단계별(段階別) 사업(事業) 추진(推進) 및 지도(指導) 감독(監督) 체계(體系)를 정리(整理)하면 다음(다음)과 같다. <표 14>
 
 <표 14> 사업(事業) 추진(推進), 지도(指導) 체계(體系)
@@ -4687,15 +4687,15 @@ Các dự án cải thiện môi trường sống như xây dựng và mở rộ
 
 --- (p. 224) ---
 
-이바지되었음은 더 말할 나위도 없다.
+đóng góp của nó là điều không cần phải nói thêm.
 한편 생산(生産)을 능률화하고 소득(所得)을 높히기 위한 또 하나의 방안(方案)으로서 마을 양묘장(養苗場)의 설치(設置)를 비롯한 마을농장(農場)(인삼(人蔘), 약초(藥草), 고등채소(高等菜蔬), 특용작물(特用作物) 등) 마을 공동(共同) 식림(植林), 공동(共同) 축산(畜産), 공동(共同) 양어(養魚), 병충해(病蟲害)의 공동(共同) 방제(防除), 농기계(農機械)의 공동(共同) 이용(利用) 등 개별(個別) 영농(營農)으로부터 협동(協同) 영농(營農) 체제(體制) 구축(構築)을 시도(試圖)하였다.
 
 (다) 환경개선(環境改善)면
-새마을운동의 영속화(永續化)를 위해서 그리고 자조(自助)의식(意識)을 개발(開發)하기 위하여 눈에 띄고 피부로 느낄 수 있는 가장 절실하고 가장 손쉬운 사업(事業)부터 착수(着手)하도록 하였다.
-첫째, 마을을 중심(中心)으로 하여 기초(基礎)생활권(生活圈)이 되는 지붕과 담장, 변소와 축사 등의 농가(農家)환경(環境)의 개선(改善)을 계획(計劃)하였고,
-둘째, 현대(現代)생활(生活)에 있어서 필수(必須)문화(文化)시설(施設)인 농어촌(農漁村)의 전화율(電化率)을 높이고 통신(通信) 시설(施設)사업(事業)의 추진(推進)과 간이(簡易)급수시설(給水施設), 공동(共同)우물에 의한 농촌(農村)급수(給水), 농촌(農村)도로망(道路網)의 정비(整備) 등을 계획(計劃)하였으며,
-셋째, 마을 단위(單位) 공동(共同) 이용(利用)시설(施設)로서 마을창고, 마을구판장 및 마을회관 공동(共同) 목욕탕 등의 설치(設置)를 계획(計劃)하였다.
-넷째, 국토(國土) 미관(美觀)의 향상(向上)을 위해서 국도변 가꾸기, 소도읍 가꾸기, 관광지(觀光地) 가꾸기사업(事業) 등을 펴나가기로 하였다.
+Để đảm bảo tính bền vững của phong trào làng mới và phát triển tinh thần tự lực, người dân đã bắt tay vào những dự án thiết thực, dễ thấy và dễ cảm nhận nhất, đồng thời cũng là những dự án cấp bách và dễ thực hiện nhất.
+Thứ nhất, đã lên kế hoạch cải thiện môi trường nông hộ (農家環境) như mái nhà, tường rào, nhà vệ sinh và chuồng trại trở thành khu vực sinh hoạt cơ bản (基礎生活圈) với trung tâm là làng xã,
+Thứ hai, đã lên kế hoạch nâng cao tỷ lệ điện khí hóa (電化率) tại các vùng nông thôn và ngư村 (農漁村) – một cơ sở văn hóa (文化施設) thiết yếu trong đời sống hiện đại (現代生活), đồng thời thúc đẩy các dự án về cơ sở thông tin liên lạc (通信施設事業), hệ thống cấp nước đơn giản (簡易給水施設), cấp nước nông thôn (農村給水) thông qua giếng chung (共同井戸), và cải tạo mạng lưới đường nông thôn (農村道路網),
+Thứ ba, đã lên kế hoạch xây dựng các cơ sở sử dụng chung theo đơn vị làng (마을單位共同利用施設) như kho làng, chợ làng, nhà sinh hoạt cộng đồng và nhà tắm công cộng,
+Thứ tư, để nâng cao cảnh quan đất nước (國土美觀), đã triển khai các dự án như chỉnh trang ven quốc lộ, chỉnh trang thị trấn nhỏ, và chỉnh trang khu du lịch (觀光地),
 
 ### 〈표 1〉 주요(主要)사업(事業)의 '81년까지의 목표(目標)
 
@@ -4850,35 +4850,35 @@ Trong công việc Saemaul Undong (新村運動) nông thôn (農村), các côn
 
 --- (p. 230) ---
 
-가꾸기, 소도로 가꾸기, 소하천 가꾸기 등 노임사업은 내무부(內務部)가 지원(支援)하였으며,
-지원사업(支援事業) 중(中)의 다른 하나인 문화복지사업(文化福祉事業)은 여러 부처에 걸쳐 있었는데,
-어촌간척사업(漁村干拓事業)은 상공부(商工部)가, 농촌표준주택(農村標準住宅)은 건설부(建設部)에서,
-간이급수시설(簡易給水施設) 및 이동진료(移動診療)는 보건사회부(保健社會部)가 맡아 했으며,
-마을 통신시설(通信施設)은 체신부(遞信部)에서, 메탄가스 시설지도(施設指導)는 농촌진흥청(農村振興廳)에서 각각 지원(支援)하였다.
-한편 소득사업(所得事業)은 소득구심사업과 새마을생산사업(生産事業)으로 크게 구분(區分)하였으며,
-소득구심사업(所得求心事業)에 있어서 마을조림과 양묘(養苗)는 산림청(山林廳)에서,
-농가 공예품사업(工藝品事業)은 상공부(商工部)가 맡아 지도(指導)하였다.
-농가소득(農家所得) 증대(增大)를 위한 새마을 생산사업(生産事業)은 작목(作目)의 집단재배(集團栽培)를 비롯한
-퇴비증산(堆肥增産), 영농시기제한(營農時期制限), 병충해방제(病蟲害防除), 토지이용도 배가(倍加) 등
-생산협동사업(生産協同事業)과 생산구조개선사업(生産構造改善事業)을 주된 사업(事業)으로 설정하고
-이들 사업(事業)에 대해서는 농수산부(農水産部)가 맡아 지도(指導) 지원(支援)하였다.
+Các dự án như chỉnh trang, chỉnh trang đường làng, chỉnh trang sông suối nhỏ thuộc chương trình việc làm công ích do Bộ Nội vụ (內務部) hỗ trợ,
+Trong số các dự án hỗ trợ (支援事業), một dự án khác là các hoạt động văn hóa phúc lợi (文化福祉事業) được thực hiện bởi nhiều bộ ngành,
+Dự án khai hoang vùng ngư村 (漁村干拓事業) do Bộ Thương mại và Công nghiệp (商工部) phụ trách, nhà ở tiêu chuẩn nông thôn (農村標準住宅) do Bộ Xây dựng (建設部) đảm nhiệm,
+Hệ thống cấp nước đơn giản (簡易給水施設) và khám chữa bệnh lưu động (移動診療) do Bộ Y tế và Phúc lợi Xã hội (保健社會部) phụ trách,
+Cơ sở thông tin liên lạc làng (通信施設) do Bộ Bưu điện (遞信部) đảm nhiệm, hướng dẫn lắp đặt hệ thống khí metan do Cục Khuyến nông (農村振興廳) hỗ trợ tương ứng.
+Mặt khác, các dự án tăng thu nhập (所得事業) được chia thành hai loại chính: dự án tìm kiếm thu nhập và dự án sản xuất làng mới (新마을生産事業),
+Trong dự án tìm kiếm thu nhập (所得求心事業), trồng rừng làng và ươm cây giống (養苗) do Cục Lâm nghiệp (山林廳) phụ trách,
+Dự án thủ công mỹ nghệ nông hộ (農家工藝品事業) do Bộ Thương mại và Công nghiệp (商工部) hướng dẫn.
+Để tăng thu nhập cho nông hộ (農家所得), các dự án sản xuất làng mới (新마을生産事業) tập trung vào các hoạt động như trồng trọt tập trung theo loại cây (作目集團栽培),
+tăng sản xuất phân hữu cơ (堆肥增産), hạn chế thời vụ canh tác (營農時期制限), phòng trừ sâu bệnh (病蟲害防除), tăng gấp đôi hiệu quả sử dụng đất (土地利用度倍加),
+cùng với các dự án hợp tác sản xuất (生産協同事業) và cải thiện cơ cấu sản xuất (生産構造改善事業) được xác định là những hoạt động chính.
+Về các dự án (事業) này, Bộ Nông nghiệp và Thủy sản (農水産部) đã đảm nhận việc hướng dẫn (指導) và hỗ trợ (支援).
 
 ### 다. 사업추진계획(事業推進計劃)
 
 #### (1) 마을의 단계별(段階別) 육성계획(育成計劃)
-농촌새마을운동(새마을運動)의 추진(推進) 초기단계에 있어서 새마을운동(새마을運動)을 통하여 1981년(年)까지
-달성(達成)하기로 설정한 목표(目標)는 소득(所得)면에 있어서는 모든 농가(農家)가 호당 평균 140만 원을 달성(達成)하고
-또 마을의 수(水)준(準)에 있어서는 전국 3만 4천 871개의 모든 마을이 자립마을(自立마을)로 발전(發展)되게 한다는 것이었다.
-그리고 이를 밀고 나가는 데 있어서는 1973년(年)까지를 기반조성단계(基盤造成段階),
-1976년까지를 자조발전단계(自助發展段階) 그리고 1981년까지를 자립완성단계(自立完成段階)로 보아
-단계적(段階的)이고 도 연차적(年次的)으로 추진(推進)해 나가기로 계획하였었다.
-이것이 바로 마을의 단계별 육성계획(育成計劃)이기도 하였다. 그 육성계획(育成計劃)의 내용을 간추려 보면
-지난 1971년(年) 기초마을(基礎마을)에서 출발한 전국(全國) 3만 4천 665개 모든 마을이
-첫째, 주로 새마을정신(새마을精神)의 점화와 가열에 의한 자조기풍(自助氣風)의 확립(確立)에 중점(重點)을
+Trong giai đoạn đầu của phong trào Làng mới (새마을運動) ở nông thôn, mục tiêu (目標) đặt ra để đạt được (達成) đến năm 1981 (年) thông qua phong trào Làng mới (새마을運動) là:
+Về mặt thu nhập (所得), tất cả các hộ nông dân (農家) đạt mức trung bình 1,4 triệu won mỗi hộ,
+và về mức độ phát triển (水準) của các làng, mục tiêu là tất cả 34.871 làng trên toàn quốc đều phát triển (發展) thành những làng tự lập (自立마을).
+Để thúc đẩy điều này, giai đoạn từ năm 1973 (年) được coi là giai đoạn xây dựng cơ sở (基盤造成段階),
+giai đoạn từ năm 1976 trở về trước là giai đoạn phát triển tự lực (自助發展段階), và đến năm 1981 là giai đoạn hoàn thiện tự lập (自立完成段階),
+và kế hoạch được thực hiện theo từng giai đoạn (段階的) và theo từng năm (年次的).
+Đây chính là kế hoạch bồi dưỡng theo từng giai đoạn cho các làng. Tóm tắt nội dung của kế hoạch bồi dưỡng (育成計劃) như sau:
+Tất cả 34.665 làng trên toàn quốc (全國), bắt đầu từ các làng cơ sở (基礎마을) vào năm 1971 (年),
+thứ nhất, tập trung vào việc khơi dậy và hun đúc tinh thần Làng mới (새마을精神), từ đó thiết lập (確立) phong trào tự lực (自助氣風),
 두었던 1973년(年)까지는 기초마을(基礎마을) 30%, 자조마을(自助마을) 60%, 자립마을(自立마을) 10% 선(線)으로
-발전(發展)되어 나갈 수 있을 것으로 판단(判斷)하였고,
-둘째, 제2단계(第2段階)라 할 수 있는 1974년(年)에서 1976년(年)까지의 자조발전단계(自助發展段階)에 있어서는
-이제까지 조성(造成)된 자조협동력(自助協同力)을 바탕으로 육성(育成) 발전(發展)시켜 나감으로써
+và được đánh giá (判斷) là có thể phát triển (發展) tiếp tục;
+thứ hai, trong giai đoạn phát triển tự lực (自助發展段階) từ năm 1974 (年) đến năm 1976 (年), giai đoạn thứ hai (第2段階),
+dựa trên sức mạnh hợp tác tự lực (自助協同力) đã được xây dựng, tiếp tục bồi dưỡng và phát triển (育成發展),
 
 
 --- (p. 231) ---
@@ -5116,12 +5116,14 @@ Do tăng năng suất nông nghiệp (農業生産性), giảm dân số nông t
 
 --- (p. 242) ---
 
-의 공동이용(共同利用)을 추진하였던 것이다.
-이를 위하여 농민(農民) 농기계 조작기술교육(操作技術敎育)을 시행(施行)케 되었으며 농기계(農機械)의 수리(修理)센터를 단위(單位) 농협(農協)을 중심으로 설치(設置)하여 시범적(示範的)인 농기계공동이용관리(農機械共同利用管理)에 많은 농가가 참여(參與)토록 하여 영농(營農)의 협업화(協業化)를 촉진(促進)시키고 노동생산성(勞動生産性)을 제고(提高)시켜 나가게 되었다.
-더우기 1970년대(年代) 후반기(後半期)에 들어서서는 생산성(生産性)이 높은 신품종(新品種)의 선택(選擇), 시비(施肥) 및 방제(防除) 등 새로운 재배기술(栽培技術)의 집중투입(集中投入), 증산기술(增產技術)의 효율적(效率的)인 보급(普及)을 통(通)한 경영(經營)의 합리화(合理化) 및 생산력제고(生産力提高)를 기(期)하기 위하여 집단재배단지조성사업(集團栽培團地造成事業)을 확대강화(擴大强化)하였다.
-수도작(水稻作)에서는 단기적(短期的)인 미곡증진(米穀增進)을 도모(圖謀)키 위하여 통일계통(統一系統) 신품종(新品種) 위주(爲主)의 대단위(大單位) 단지(團地), 계약증산(契約增產) 단지(團地), 신고증산부락단지(申告增產部落團地) 및 집단재배단지(集團栽培團地) 등의 벼 영농(營農)단지(團地)를 설치운영(設置運營)하여 추진하였으며 또한 양질(良質), 다수성(多收性) 신품종(新品種)인 수원(水原) 264호(號), 밀양(密陽) 23호(號), 나경(乃景) 등의 농가시험(農家試驗) 겸(兼) 집단시범단지(集團示範團地)를 설치운영(設置運營)하여 신품종(新品種), 확대보급(擴大普及)과 더불어 영농기술면(營農技術面)의 쇄신(刷新)을 기(期)하기 위한 목적에서 새마을운동이 강력(強力)히 추진(推進)되었다.
-그리고 맥류(麥類)의 신품종(新品種) 시범단지(示範團地)와 두류집단재배(豆類集團栽培) 시범단지(示範團地)를 설치(設置)하여 농민교육장(農民敎育場)으로 활용(活用)하면서 신품종(新品種)의 확대보급(擴大普及)과 영농기술(營農技術)의 쇄신(刷新)을 꾀하였다.
-아울러 여름철 무우, 배추는 고랭지(高冷地) 및 평지(平地) 망사피복재배기술(網紗被覆栽培技術)을 보급(普及) 단경기(端境期)에 무우, 배추를 생산(生產)하여 농가소득증대(農家所得增大)를 기(期)하게 하며 또한 마늘, 양파, 감자, 딸기, 완두 등은 답전작(畓前作)으로 재배하여 경지이용도(耕地利用度)를 제고(提高)케 하고 고추는 육묘(育苗), 멀칭이식재배기술(移植栽培技術)의 보급으로 안전다수확(安全多收穫)을 기(期)하는 방향에서 추진(推進)되었고 참깨, 땅콩, 유채(油菜), 면화(棉花) 등 특용작물(特用作物)은 우량종자(優良種子)를 시범원(示範園)에서 확대생산(擴大生產)하여 인근농가(隣近農家)에 자율적(自律的)으로 교환(交換)케 함으로서 우량종자(優良種子) 증식확대(增殖擴大) 보급체계(普及體系)를 확립(確立)시켰다. 맥곡이모작(麥穀二毛作)을 하지 않던 지역(地域)에 논보리 조생계(早生系) 품종(品種)을 도입하고 작부체계(作付體系)를 개선하여 토지이용률제고(土地利用率提高) 및 식량증산(食糧增產)과 농가소득을 높이고져 중북부지방(中北部地方)에 이를 위한 시범단지(示範團地)를 설치운영(設置運營)하였다.
+Việc này đã thúc đẩy việc **sử dụng chung** (共同利用).
+Với mục đích này, việc tổ chức **đào tạo kỹ thuật vận hành máy nông nghiệp** cho nông dân đã được triển khai, đồng thời các **trung tâm sửa chữa máy nông nghiệp** được thành lập tập trung tại các **hợp tác xã nông nghiệp (nông hội)** theo đơn vị, nhằm khuyến khích nhiều hộ nông dân tham gia vào **mô hình quản lý và sử dụng chung máy nông nghiệp** mang tính thí điểm. Qua đó, thúc đẩy **hợp tác hóa trong sản xuất nông nghiệp**, từng bước **nâng cao năng suất lao động**.
+Hơn nữa, vào cuối những năm 1970, để hướng tới việc hợp lý hóa quản lý và nâng cao năng lực sản xuất thông qua việc lựa chọn giống mới có năng suất cao, áp dụng tập trung các kỹ thuật canh tác mới như bón phân, phòng trừ sâu bệnh, cũng như phổ biến hiệu quả các kỹ thuật tăng năng suất, chính phủ đã mở rộng và tăng cường dự án xây dựng vùng canh tác tập trung.
+# Trong sản xuất lúa gạo
+
+Để thúc đẩy tăng sản lượng gạo trong ngắn hạn, các vùng canh tác lúa quy mô lớn tập trung vào các giống mới hệ thống thống nhất như **đơn vị vùng chuyên canh quy mô lớn**, **vùng hợp đồng tăng sản**, **vùng thôn bản đăng ký tăng sản** và **vùng canh tác tập trung** đã được thành lập và vận hành. Ngoài ra, nhằm mục đích cải tiến kỹ thuật canh tác cùng với việc mở rộng phổ biến các giống mới chất lượng cao, cho năng suất cao như **Suwon 264**, **Milyang 23**, **Nakyung**, các **vùng thử nghiệm nông hộ kết hợp trình diễn tập thể** cũng được thiết lập và vận hành. Đồng thời, phong trào **Saemaul Undong** được đẩy mạnh nhằm đổi mới kỹ thuật canh tác.
+đồng thời thành lập các khu trình diễn giống mới (新品種) cho các loại lúa mì (麥類) và khu trình diễn trồng tập trung các loại đậu (豆類集團栽培), sử dụng làm nơi giáo dục nông dân (農民敎育場) để mở rộng phổ biến giống mới (新品種) và đổi mới kỹ thuật canh tác (營農技術).
+Bên cạnh đó, đối với củ cải và cải thảo vào mùa hè, áp dụng kỹ thuật che phủ lưới ở vùng cao (高冷地) và đồng bằng (平地) để sản xuất (生產) củ cải và cải thảo vào thời điểm giáp vụ (端境期), nhằm tăng thu nhập cho nông hộ (農家所得增大); đối với tỏi, hành tây, khoai tây, dâu tây, đậu Hà Lan, trồng làm vụ trước trên ruộng (畓前作) để nâng cao hiệu quả sử dụng đất (耕地利用度); đối với ớt, áp dụng kỹ thuật gieo ươm (育苗) và phủ nilon để cấy ghép (移植栽培技術) nhằm đạt được năng suất cao và an toàn (安全多收穫). Các loại cây trồng đặc sản (特用作物) như vừng, lạc, cải dầu (油菜), bông (棉花) được sản xuất mở rộng (擴大生產) giống tốt (優良種子) tại các vườn trình diễn (示範園), sau đó trao đổi (交換) một cách tự nguyện với các hộ nông dân lân cận (隣近農家), từ đó thiết lập hệ thống nhân rộng và phổ biến giống tốt (優良種子增殖擴大普及體系). Tại các vùng chưa thực hiện hai vụ lúa mì và lúa (麥穀二毛作), đã đưa vào giống lúa mạch đại mạch sớm (早生系品種) và cải tiến hệ thống canh tác (作付體系) để nâng cao tỷ lệ sử dụng đất (土地利用率提高), tăng sản lượng lương thực (食糧增產) và thu nhập cho nông hộ, đồng thời thành lập và vận hành các khu trình diễn (示範團地) tại các vùng trung và bắc bộ (中北部地方) cho mục đích này.
 그밖에도 농촌(農村)에 과학기술(科學技術)을 보급하고 과학영농(科學營農)을 촉진(促進)키 위하여 과학기술처(科學技術處) 주관(主管)으로 새마을 기술지도단(技術指導團)이 조직되었고 여기에 학계(學界)와 기술전문가(技術專門家)들이 적극적(積極的)으로 참여(參與)하는 가운데 영농기술(營農技術)에 대한쇄신(刷新)을 이룩코자 하였다.
 
 
@@ -7854,13 +7856,13 @@ Dự án (事業) khai thác nước ngầm (地下水開發) này là một ph�
 
 지속적으로 진행되었으며 전농토를 수리안전답화한다는 목표 아래 1972년부터 1976년까지 5년간 총 836억원을 투입하여 1972년도 총답면적 1,255천 부중 중 수리안전답을 1,082천 부중으로 늘림으로써 수리안전답률을 84%로 제고시켜 놓았다.
 
-이와 같은 농업용수 개발사업은 경지의 생산성을 향상시키고 적절한 물 관리로 농민이 안심하고 영농에 전념할 수 있도록 안정된 영농기반을 조성하는 기틀을 다져 놓게 되었다.
+Việc phát triển các dự án cấp nước nông nghiệp như thế này đã đặt nền móng để cải thiện năng suất đất canh tác và tạo ra cơ sở nông nghiệp ổn định, giúp nông dân yên tâm tập trung vào sản xuất thông qua việc quản lý nước hợp lý.
 
-제3차 경제개발 5개년 계획 기간 중에는 농업용수 개발사업을 농업 부문 투자 최우선 순위에 두고 꾸준히 추진하는 한편 1974년부터는 AID 차관과 대일농업진흥차관을 도입하여 이를 확대 지원함으로써 1978년 말 현재 전국 농업용수시설은 총 72,103개소에 몽리면적은 1,121천 ha에 이르고 있으며 이는 총답면적 1,312천 ha의 85%에 해당하는 것이다.
+Trong giai đoạn Kế hoạch 5 năm phát triển kinh tế lần thứ 3, việc phát triển cấp nước nông nghiệp được ưu tiên đầu tư hàng đầu trong lĩnh vực nông nghiệp và liên tục được thúc đẩy. Từ năm 1974, vốn vay AID và vốn vay phát triển nông nghiệp từ Nhật Bản được đưa vào để mở rộng hỗ trợ, đến cuối năm 1978, trên toàn quốc có tổng cộng 72.103 công trình cấp nước nông nghiệp với diện tích tưới đạt 1.121 nghìn ha, tương đương 85% tổng diện tích đất trồng trọt (1.312 nghìn ha).
 
-이들 시설들을 종류별로 보면 저수지가 18,115개소에 몽리면적 591천 ha로 52.7%를 점하고 있으며 다음이 양수장으로서 3,068개소에 131천 ha로 11.7%, 암거는 18,252개소에 129천 ha로 11.5%의 순이다.
+Xét theo loại hình công trình, các hồ chứa nước có 18.115 công trình với diện tích tưới 591 nghìn ha, chiếm 52,7%. Tiếp theo là các trạm bơm với 3.068 công trình, diện tích tưới 131 nghìn ha (11,7%), và hệ thống cống ngầm có 18.252 công trình với diện tích tưới 129 nghìn ha (11,5%).
 
-이와 같은 저수지 • 양수장 • 언 • 도수로 • 집수암거 등과 같은 간이 농업용수 개발사업은 70년대초부터 Saemaul Undong과 연계 추진되어 마을 단위로 공동 작업을 실시하여 수해로 인한 농경지의 유실을 방지하고 수원을 확보함으로써
+Các dự án phát triển cấp nước nông nghiệp đơn giản như hồ chứa, trạm bơm, kênh mương, đường ống dẫn nước và cống thu nước từ đầu những năm 70 đã được triển khai kết hợp với Phong trào Saemaul Undong, thực hiện công việc chung theo đơn vị thôn làng để ngăn chặn xói mòn đất canh tác do lũ lụt và đảm bảo nguồn nước.
 
 ### <표1> 전국 농업용수시설 (1978)
 
@@ -8736,15 +8738,15 @@ Nhận thức được tầm quan trọng(重要性) như vậy của đường 
 
 --- (p. 402) ---
 
-비(備) 및 개설(開設)은 1976년에 37件(件) 착수되어 64.7km가 완성되었으며, 1977년에는 무려 390件(件) 착수에 69.1km, 그리고 1978년에는 33件(件) 착수에 47.9km를 완료하였다. 여기서 주의해야 할 것은 개별 마을 농가가 정비(整備)하거나 개설(開設)한 것은 제외되었다는 사실인데, 여기서는 마을과 마을 간의 협동권(協同圈) 사업(事業)으로 이루어진 농로(農路)의 정비와 개설이다.
-농로(農路)의 포장도 1977년에 22件(件) 착수에 5.1km를 완성했지만 사실상 농로(農路)의 이용도를 고려 시 포장은 큰 경제적 의미가 없다.
-만일 농로(農路)가 일반도로와 겸용으로 이용되고 있다면 포장의 경제성(經濟性)이 높을 것이다. 그러나 순수한 농로(農路)라면 포장에 들어가는 경비를 다른 농로(農路)의 확장(擴張) 정비(整備)에 활용하는 것이 더욱 바람직할 것이다.
-마을 단위 새마을 가꾸기 사업을 벗어난 마을과 마을 간의 협동권(協同圈) 사업(事業)이기 때문에 착수 시기나 실적이 늦고 저조한 편이지만, 그 경제적(經濟的)인 중요성으로 보아 이러한 사업은 계속적으로 추진될 필요가 있는 것이다.
+Việc xây dựng và mở rộng đường nông thôn (nông lộ) được khởi công 37 dự án (件) vào năm 1976 với 64,7 km hoàn thành; năm 1977 khởi công 390 dự án với 69,1 km hoàn thành; và năm 1978 khởi công 33 dự án với 47,9 km hoàn thành. Điều cần lưu ý là những công trình do từng hộ nông dân tự cải tạo hoặc mở rộng không được tính vào đây, mà đây là việc cải tạo và mở rộng đường nông thôn thông qua các dự án hợp tác liên thôn (hợp đồng quyền).
+Việc lát mặt đường nông thôn cũng được khởi công 22 dự án vào năm 1977 với 5,1 km hoàn thành, nhưng xét về mức độ sử dụng đường nông thôn thì việc lát mặt đường không mang lại ý nghĩa kinh tế lớn.
+Nếu đường nông thôn được sử dụng đồng thời như đường giao thông chung thì việc lát mặt đường sẽ có tính kinh tế cao. Tuy nhiên, nếu là đường nông thôn thuần túy thì việc sử dụng chi phí lát mặt cho việc mở rộng và cải tạo các đường nông thôn khác sẽ hợp lý hơn.
+Do đây là dự án hợp tác liên thôn nằm ngoài phạm vi các hoạt động làm đẹp làng trong Phong trào Saemaul Undong nên thời điểm khởi công và kết quả thực hiện thường chậm và hạn chế. Tuy nhiên, xét về tầm quan trọng kinh tế, những dự án như thế này cần được tiếp tục thúc đẩy.
 
 ## (2) 도로(道路) 개설(開設) 및 교량(橋梁) 가설(架設)
-도로(道路) 개설(開設)과 교량(橋梁) 가설(架設)은 두 가지 측면에서 경제적(經濟的) 의의(意義)를 찾을 수 있을 것이다. 하나는 생산(生産) 요소(要素)의 부락 간 이동을 원활히 해 줄 것이며, 다른 하나는 농축산물(農畜產物)의 이동(移動)과 공동(共同) 출하(出荷)를 용이하게 도와줄 것이다. 물론 경제적인 효과 이외에도 부락 간의 상호 협조 체제와 다른 부락 주민과의 의사소통을 원활하게 만들어 주게 될 것이다.
-그러나 무엇보다도 중요한 것은 마을과 마을 간의 노동력(勞動力)을 포함한 생산(生産) 요소(要素) 자재(資材)의 원활하고 편리한 이동에 있다. 오랜 역사의 흐름 속에서도 마을과 마을 간에는 경제적(經濟的) 교류(交流)가 별로 없었다. 특히 분업(分業)에 의한 상품의 교환이나 생산(生産) 요소(要素)의 분배 면에서 볼 때 더욱 그렇다. 극심한 경우에는 마을마다의 금(金) 수준(水準)이 다르고 생산(生産) 자재(資材) 특히, 농가(農家)에서 생산되는 자재(資材) 가격(價格)이 모두 다른 일종의 폐쇄 경제 체제인 것이다.
-자원의 분배가 효율적으로 일어나야 하고 농(農)·축산물(畜產物) 생산(生産)이 경쟁적으로 이루어져서 생산(生産)비(費) 절감(節減) 운동(運動)이 일어나기 위해서는 부락 간의 경제적(經濟的) 폐쇄성을 타파하지 않으면 안 될 것이다. 이러한 의미에서 마을과 마을 간의 도로(道路) 건설(建設)과 교량(橋梁) 가설(架設)은 매우 중요한 의미(意味)를 갖게 되는 것이다.
+Việc mở rộng đường giao thông và xây dựng cầu có thể mang lại ý nghĩa kinh tế ở hai khía cạnh. Một là tạo điều kiện thuận lợi cho việc di chuyển các yếu tố sản xuất giữa các thôn làng, hai là hỗ trợ việc vận chuyển và tiêu thụ chung các sản phẩm nông nghiệp và chăn nuôi. Ngoài hiệu quả kinh tế, việc này còn giúp tăng cường sự hợp tác giữa các thôn làng và thúc đẩy giao tiếp giữa cư dân các thôn.
+Tuy nhiên, quan trọng nhất là việc tạo điều kiện thuận lợi và thuận tiện cho việc di chuyển các yếu tố sản xuất, bao gồm cả sức lao động và vật liệu, giữa các thôn làng. Trong suốt dòng chảy lịch sử, việc giao lưu kinh tế giữa các thôn làng hầu như không tồn tại, đặc biệt là trong việc trao đổi hàng hóa theo hình thức phân công lao động hoặc phân phối các yếu tố sản xuất. Trong một số trường hợp nghiêm trọng, mỗi thôn làng có mức thu nhập khác nhau và giá cả vật liệu sản xuất, đặc biệt là vật liệu do các hộ nông dân sản xuất, đều khác nhau, tạo thành một hệ thống kinh tế khép kín.
+Để phân phối tài nguyên một cách hiệu quả và thúc đẩy sản xuất nông sản, sản phẩm chăn nuôi một cách cạnh tranh nhằm giảm chi phí sản xuất, cần phải phá vỡ tính khép kín kinh tế giữa các thôn làng. Với ý nghĩa đó, việc xây dựng đường giao thông và cầu giữa các thôn làng mang một ý nghĩa rất quan trọng.
 
 
 --- (p. 403) ---
@@ -8766,18 +8768,18 @@ Với dự án hợp tác khu vực (協同圈) một trong những dự án đ�
 
 --- (p. 404) ---
 
-았어도 상태를 설치하고 정비하는 데는 상호 공동작업이 많이 이루어져 왔었다.
+Ngay cả việc lắp đặt và bảo trì các công trình như vậy cũng đã được thực hiện thông qua nhiều hoạt động làm việc chung.
 ### (2) 도수로
 
-상이나 저수지로부터 논과 밭에 물을 유도하여 들이기 위해서는 도수로가 필요하다. 도수로도 인도와 비슷한 성격이 있는가 하면 다른 면도 있다. 인도에서와 같이 도수로가 목적지를 향해 직선상에 있는 것이 아니라 우회를 많이 하게 되면 물의 낭비가 많고 시간이 많이 걸린다. 그러나 도수로의 경우 반드시 크고 넓다고 해서 좋은 것만은 아니다. 물의 소요량에 비하여 너무 크거나 넓으면 물의 소모가 매우 많아 가뭄에는 큰 문제이다. 그리고 도수로는 지면이 견고해야 한다. 지면이 견고하지 않으면 역시 물의 많은 양이 땅속으로 스며들어가게 되므로 공동의 노력에 비하여 얻는 효과가 감소하게 될 것이다.
-논과 밭이 있는 곳에는 이미 도수로가 대부분 가설되어 있지만 새마을 협동권사업으로 1976년에 11건을 착수하여 5,604m를 가설했으며, 1978년에는 9건 착수에 5,110m를 완성하였다. 도수로도 상태와 마찬가지로 새로운 개설 못지 않게 기존의 도수로들보다 견고하게, 그리고 합리적으로 개보수하는 것이 중요한 것이다.
+Để dẫn nước từ sông hoặc hồ chứa vào ruộng và đồng, cần có kênh dẫn nước. Kênh dẫn nước có những đặc điểm tương tự như đường ống nhưng cũng có những điểm khác biệt. Không giống như đường ống đi thẳng đến đích, kênh dẫn nước thường phải đi vòng, gây lãng phí nước và mất nhiều thời gian. Tuy nhiên, kênh dẫn nước không nhất thiết phải lớn và rộng mới tốt. Nếu kênh quá lớn hoặc rộng so với lượng nước cần thiết, sẽ gây thất thoát nước nhiều, đặc biệt là vào mùa khô. Ngoài ra, lòng kênh phải vững chắc. Nếu lòng kênh không vững chắc, một lượng lớn nước sẽ thấm xuống đất, làm giảm hiệu quả so với công sức bỏ ra.
+Hầu hết các khu vực có ruộng và đồng đều đã có kênh dẫn nước, nhưng thông qua dự án hợp tác liên thôn Saemaul, năm 1976 đã khởi công 11 dự án với 5.604 m kênh được xây dựng, và năm 1978 khởi công 9 dự án với 5.110 m hoàn thành. Tương tự như việc bảo trì đường giao thông, việc cải tạo và sửa chữa các kênh dẫn nước hiện có một cách vững chắc và hợp lý cũng quan trọng không kém việc xây dựng mới.
 ### (3) 소하천
 
-소하천 개보수는 콘크리트로 만든 옹벽을 세우고 우회선을 직선화하며 넓힐 것은 넓히고 좁힐 것은 좁혀서 주어진 여건에 알맞게끔 정비해 나가는 사업이다. 마을과 마을간의 소하천 개보수사업은 1976년에 37건을 착수하여 10,669m를 완성하였고, 1977년에는 36건을 착수하여 5,272m를 완료, 1978년에는 불과 5건에 1,760m를 개보수하였다.
+Công tác cải tạo các con suối nhỏ bao gồm xây dựng tường chắn bằng bê tông, nắn thẳng các đoạn uốn lượn, mở rộng những chỗ cần mở rộng và thu hẹp những chỗ cần thu hẹp để phù hợp với điều kiện thực tế. Công tác cải tạo suối nhỏ giữa các thôn làng năm 1976 đã khởi công 37 dự án với 10.669 m hoàn thành; năm 1977 khởi công 36 dự án với 5.272 m hoàn thành; và năm 1978 chỉ khởi công 5 dự án với 1.760 m được cải tạo.
 ### (4) 소류지
 
-소류지정비는 저수지가 없거나 상태가 어려운 곳에서는 산에서 흘러내려 오는 물이나 하늘에서 떨어지는 빗물을 가두어 두었다가 농작물 재배에 이용하고자 시설한 간이저수지이다. 어떤 지역에 있는 논과 밭을 여러 마을주민들이 혼합으로 소유하고 있을 때 마을과 마을간의 협동권사업으로서 소류지정비는 생산기반조성을 위하여 경제적 의미가 크다.
-소류지정비 또는 설치사업은 새마을 협동권사업으로 최근에 시작된 것이다.
+Tiểu lưu địa chỉnh bị là một loại hồ chứa nước đơn giản được xây dựng để giữ lại nước mưa từ núi hoặc nước mưa từ trên trời tại những nơi không có hồ chứa hoặc tình trạng hồ chứa khó khăn, nhằm sử dụng cho việc trồng trọt nông sản. Khi các cánh đồng và ruộng ở một khu vực nào đó thuộc sở hữu hỗn hợp của nhiều dân làng, việc chỉnh bị tiểu lưu địa với tư cách là một dự án hợp tác giữa các làng có ý nghĩa kinh tế lớn trong việc hình thành cơ sở sản xuất.
+Việc chỉnh bị hoặc lắp đặt tiểu lưu địa gần đây đã được bắt đầu như một dự án hợp tác của phong trào làng mới.
 
 
 --- (p. 405) ---
@@ -8848,13 +8850,13 @@ Phong trào Saemaul Undong trong thời gian qua được hiểu và thể hiệ
 --- (p. 408) ---
 
 수 있다.
-즉 “농촌(農村)”의 생활환경개선(生活環境改善)—“농민(農民)”의 정신계발(精神啓發)—“농업(農業)”의 증산(增產)과 농가(農家)의 소득증대(所得增大)라는 “단계적(段階的)인 종합개발전략(綜合開發戰略)”이 세계적(世界的)으로 그 예(例)를 찾아 볼 수 없는, 거의 기적(奇蹟)에 가까운 개발성과(開發成果)를 가져오게 되었고, 그 결과(結果) 새마을운동(運動)이 범세계적(汎世界的)인 관심(關心)의 초점(焦點)이 되어 온 것으로 볼 수 있다.
-이러한 새마을운동(運動)이 이룩한 공헌(貢獻)과 성과(成果)는 그 관점(觀點)과 문제의식(問題意識)에 따라 여러 가지의 측면(側面)에서 평가(評價)되고 분석(分析)될 수 있을 것이다.
-당초(當初)의 이념구현(理念具現)과 한국적(韓國的)인 문제(問題)의 해결(解決)이라는 관점(觀點)에서 볼 때 제1차적(第1次的)으로 높이 평가(評價)되어야 할 성과(成果)는 정신계발(精神啓發) 즉 농민(農民)들의 의식구조(意識構造)에 크나 큰 탈바꿈을 가져왔다는 사실(事實)일 것이다.
-이를 다른 말로 표현(表現)하게 되면 새마을운동(運動)을 통해 농민(農民)들은 에스만(Esman: 사회심리학자(社會心理學者))이 주장하는 바의 집단(集團)시너지(Effective Synergy)의 위력(威力)과 성과(成果)를 몸소 체험(體驗)하게 되었고, 이를 통해 위르달(Gunnar Myrdal)교수가 지적(指摘)한 이른바 “점고(漸高)하는 기대(期待)의 혁명(革命)”마저 이룩하게 되었다는 사실(事實)이 높이 평가(評價)되어야 한다는 것이다.
-다음으로는 “녹색혁명(綠色革命)의 급진전(急進展)”과 이를 통한 “미곡(米穀)의 자급달성(自給達成)”이라는 사실(事實)이 또 하나의 성과(成果)로 높이 평가(評價)되어야 할 것이다.
-초기(初期)의 새마을운동(運動)은 식량증산(食糧增產)을 위해 퇴비증산(堆肥增産)과 객토(客土)를 통한 지력증(地力增)진(進)에 역점(力點)을 두어 왔었다. 새마을운동(運動)의 발전(發展)과 더불어 식량증산운동(食糧增產運動)의 역점방향(力點方向)도 점차 전환(轉換), 다수확(多收穫) 신품종(新品種)의 개발(開發)과 이의 재배확대(栽培擴大)를 보다 중시(重視)하게 되었다. 그 결과(結果) 72년부터 농가(農家)에 보급(普及)되기 시작한 신품종(新品種)은 그 재배(栽培)면적(面積)이 급속도로 늘어나 불과(不過) 7년 후(年後)인 78년도(年度)에는 총미곡(總米穀) 재배면적(栽培面積)의 76.2% 수준(水準)에 이르게 되었다. 이를 계기(契機)로 미곡(米穀)의 단수(段收)도 매년(每年) 급증(急增)되어 75년부터는 일본(日本)의 수준(水準)을 계속 앞지르게 되었으며, 76년부터 미곡(米穀)의 자급(自給)을 이룩하게 되었고 77년에는 미곡(米穀)의 단수(段收)가 494kg이라는 세계적(世界的)인 기록(記錄)을 수립(樹立)하게 되었다.
-세째로는 새마을운동(運動)을 통해 마을유형별(類型別) 종합개발(綜合開發)을 시도(試圖)해 보았고 이를 바탕으로 읍(邑)ㆍ면(面)단위(單位) 지역농업(地域農業) 종합개발사업(綜合開發事業)을 추진(推進)하게 되었다는 사실(事實)도 주요한 성과(成果)의 하나로 평가(評價)되어야 할 것으로 본다.
+Có thể nói rằng chiến lược phát triển tổng hợp theo từng giai đoạn — "cải thiện môi trường sống ở nông thôn (農村)" — "khai sáng tinh thần cho nông dân (農民)" — "tăng sản xuất nông nghiệp (農業) và tăng thu nhập cho nông hộ (農家)" — đã mang lại những thành quả phát triển gần như kỳ diệu mà khó có thể tìm thấy ví dụ tương tự trên thế giới, và kết quả là phong trào làng mới đã trở thành tâm điểm quan tâm trên phạm vi toàn cầu.
+Những đóng góp và thành quả mà phong trào làng mới đạt được có thể được đánh giá và phân tích từ nhiều khía cạnh khác nhau tùy theo quan điểm và nhận thức về vấn đề.
+Khi nhìn từ góc độ hiện thực hóa tư tưởng ban đầu và giải quyết các vấn đề mang tính Hàn Quốc, thành quả cần được đánh giá cao đầu tiên chính là sự khai sáng tinh thần, tức là đã mang lại sự thay đổi lớn trong cấu trúc ý thức của nông dân.
+Nói cách khác, thông qua phong trào làng mới, nông dân đã trực tiếp trải nghiệm sức mạnh và thành quả của hiệu ứng cộng hưởng nhóm (Effective Synergy) mà nhà xã hội tâm lý học Esman đề cập, và thậm chí còn đạt được "cuộc cách mạng kỳ vọng tăng dần" mà giáo sư Gunnar Myrdal đã chỉ ra, điều này cần được đánh giá cao.
+Tiếp theo, "sự phát triển nhanh chóng của cuộc cách mạng xanh" và "đạt được tự cung tự cấp lương thực (gạo)" cũng là một thành quả đáng được đánh giá cao.
+Giai đoạn đầu của phong trào làng mới tập trung vào việc tăng sản xuất phân hữu cơ và cải tạo đất để tăng năng suất lương thực. Cùng với sự phát triển của phong trào làng mới, trọng tâm của phong trào tăng sản xuất lương thực dần chuyển sang việc phát triển và mở rộng canh tác các giống mới cho năng suất cao. Kết quả là từ năm 1972, các giống mới bắt đầu được phổ biến đến nông hộ, diện tích canh tác tăng nhanh chóng và chỉ sau 7 năm, vào năm 1978, đã đạt đến mức 76,2% tổng diện tích canh tác lúa gạo. Từ đó, năng suất lúa gạo tăng mạnh hàng năm, vượt qua mức của Nhật Bản từ năm 1975, đạt được tự cung tự cấp lúa gạo từ năm 1976 và vào năm 1977, năng suất lúa gạo đạt kỷ lục thế giới là 494 kg.
+Thứ ba, thông qua phong trào làng mới, đã thử nghiệm phát triển tổng hợp theo từng loại hình làng và trên cơ sở đó, thúc đẩy dự án phát triển nông nghiệp tổng hợp theo đơn vị thị trấn, xã, điều này cũng được coi là một trong những thành quả chính cần được đánh giá cao.
 
 
 --- (p. 409) ---
@@ -9408,7 +9410,7 @@ Kim Seung-ho (金勝鎬) từ Boeun, Chungcheongbuk-do đã đạt được kỷ
 
 --- (p. 432) ---
 
-간(間) 3회 출하(出荷)하여 2,838천원의 소득(所得)을 올리는 등 성공사례(成功事例)는 한이 없다.
+Ví dụ thành công không đếm xuể như xuất hàng ba lần để đạt thu nhập 2.838 nghìn won.
 
 (다) 사업(事業) 성과(成果)
 Quỹ nước ta phong trào Thanh niên Mới Saemaul Undong trong thời gian qua không chỉ mang lại hiệu quả giáo dục xã hội (社會敎育) đối với thanh niên nông thôn, mà còn có tác động rất lớn đến sự phát triển xã hội (社會發展) và phát triển ngành công nghiệp (產業發展) của nông thôn. Một trong những yếu tố quan trọng giúp phong trào Saemaul Undong được đẩy mạnh thành công là kinh nghiệm (經驗) thu được từ hoạt động của Hội Thanh niên Mới Saemaul Undong và sự đóng góp của nhiều thành viên của Hội Thanh niên Mới Saemaul Undong đã trở thành nhân tài trung tâm (中樞的) trong xã hội. Điều này không phải là lời nói quá mức.
@@ -9872,16 +9874,16 @@ Tuy nhiên, tất cả các dự án này không được hỗ trợ dưới d�
 
 --- (p. 452) ---
 
-로 확대(擴大)推進하려는 데 그 목적이 있었다.
-이와 아울러 내무부(內務部)는 또 75년부터 76년(年)까지의 2년(年) 동안에 걸쳐 도서낙도(島嶼落島), 해안어촌(海岸漁村)마을, 철도변(鐵道邊)마을 등 특정지역(特定地域)의 총(總) 4,924개(個) 마을을 대상(對象)으로 마을당 50만원(萬원), 총(總) 24.6억원(億원)의 자금(資金)을 지원(支援)하여 생산소득사업(生産所得事業)과 국토(國土)가꾸기 사업(事業)을 중점적으로 추진(推進)하였다.
-또 한편 76년부터 78년(年)까지의 3년(年) 동안에 1,494개(個)의 낙후(落後)마을을 대상(對象)으로 마을지도자(마을指導者)에 대한 특별교육(特別敎育)을 실시(實施)한 후(後) 마을당 100만원(萬원) 총 1,494백만원의 자금(資金)을 지원(支援)하여 주민(住民)의 숙원사업(宿願事業)을 추진, 새마을사업(事業)에 대한 주민(住民)들의 보다 큰 의욕(意慾)과 자신(自信)을 갖도록 하였다.
+mục đích là nhằm mở rộng và thúc đẩy hơn nữa.
+Đồng thời, Bộ Nội vụ cũng đã hỗ trợ tổng cộng 2,46 tỷ won (500 nghìn won cho mỗi làng) trong hai năm từ 1975 đến 1976 cho tổng cộng 4.924 làng thuộc các khu vực đặc thù như đảo xa, làng chài ven biển, làng ven đường sắt để tập trung thúc đẩy các dự án tăng thu nhập sản xuất và dự án làm đẹp đất nước.
+Ngoài ra, trong ba năm từ 1976 đến 1978, đã thực hiện đào tạo đặc biệt cho các lãnh đạo làng tại 1.494 làng lạc hậu, sau đó hỗ trợ 1 triệu won cho mỗi làng (tổng cộng 1,494 tỷ won) để thúc đẩy các dự án mơ ước của người dân, nhằm khơi dậy ý chí và sự tự tin lớn hơn của người dân đối với các dự án làng mới.
 
 ### (나) 자립마을(自立마을)과 구조개선마을(構造改善마을)의 육성모색(育成摸索)
 
-우리나라 농업생산(農業生產)의 구조적(構造的) 취약점(脆弱點)으로서 영농규모(營農規模)의 영세성(零細性)과 기본장비율(基本裝備率)의 저위(低位) 그리고 미맥(米麥)위주의 생계농업(生計農業)이라는 세 가지의 측면(側面)이 크게 강조(强調)되어 왔다. 이러한 구조적(構造的) 취약(脆弱)으로 말미암아 농업(農業)의 저생산성(低生產性)→저소득(低所得)→도농간(都農間) 격차심화(隔差深化)→농업경영(農業經營)의 영세성심화(零細性深化)라는 악순환(惡循還)이 거듭되어 왔고, 그에 따라 농산물(農產物)의 수요충족(需要充足)과 농가소득(農家所得)의 증대(增大)가 줄곧 농정(農政)의 당면과제(當面課題)로 대두(擡頭)되어 왔다.
-따라서 도농(都農) 소득격차(所得隔差)를 해소하기 위한 시책(施策)으로서 농축산물(農畜產物)의 가격유지(價格維持), 농용자재(農用資材)의 저렴(低廉)한 공급(供給) 등이 강조(强調)되어 왔으나, 이는 재정부담(財政負擔)의 과중(過重)과 전반적(全般的) 물가(物價)에 미치는 영향(影響)으로 말미암아 지속적(持續的)인 실시(實施)가 어려운 일시적(一時的)이고 단기적(短期的)인 대책(對策)에 불과하였다. 따라서 농업생산성(農業生產性)의 향상과 농가소득(農家所得)의 지속적(持續的) 증대(增大)를 위한 근본적(根本的)이고도 장기적(長期的)인 대책(對策)으로서 농업구조(農業構造)의 합리적(合理的) 개선(改善)이 농정(農政)의 주요과제(主要課題)로 강조(强調)되어 왔다.
-농업구조(農業構造) 개선사업(改善事業)은 선후진국(先後進國)을 가릴 것 없이 오래전부터 관심(關心)의 대상(對象)이 되어 왔다. 일본(日本)에서는 이를 위해 지난 61년부터 구조개선사업(構造改善事業)을 시작(始作)하여 그동안 1~2차 10개년계획(個年計劃)을 마무리 짓고 지난 78년부터 신농업구조(新農業構造) 개선사업(改善事業)을 추진(推進)해 나가고 있다.
-우리나라에서도 지난 60년대(年代)에 농업구조(農業構造) 개혁(改革)에 착안(着眼)하여 자립(自立) 안정(安定) 농가(農家) 육성사업(育成事業)을 시도(試圖)한바 있으나 여건(與件)의 미비(未備)와 육성(育成) 방향(方向)의 잘못된 설정(設定)으로 효과(效果)를 거두지 못하였다. 그러던 중 새마을운동(新村運動)의 점화확산(點火擴散)을 계기(契機)로 73년(年)부터
+Ba điểm yếu cấu trúc trong sản xuất nông nghiệp của nước ta được nhấn mạnh là quy mô canh tác nhỏ lẻ, tỷ lệ trang bị cơ bản thấp và nông nghiệp tự cung tự cấp dựa vào lúa mì. Do những điểm yếu cấu trúc này, đã liên tục xảy ra vòng luẩn quẩn: năng suất nông nghiệp thấp → thu nhập thấp → gia tăng khoảng cách giữa thành thị và nông thôn → quy mô kinh doanh nông nghiệp ngày càng nhỏ lẻ, và do đó, đáp ứng nhu cầu nông sản và tăng thu nhập cho nông hộ luôn là nhiệm vụ cấp bách của chính sách nông nghiệp.
+Do đó, các biện pháp nhằm xóa bỏ khoảng cách thu nhập giữa thành thị và nông thôn như duy trì giá nông sản chăn nuôi, cung cấp vật tư nông nghiệp với giá rẻ đã được nhấn mạnh, nhưng đây chỉ là những giải pháp tạm thời và ngắn hạn do gánh nặng tài chính và ảnh hưởng đến giá cả chung, khó có thể thực hiện một cách bền vững. Vì vậy, việc cải thiện hợp lý cấu trúc nông nghiệp đã được nhấn mạnh như một giải pháp cơ bản và dài hạn để nâng cao năng suất nông nghiệp và tăng thu nhập cho nông hộ một cách bền vững.
+Cải thiện cơ cấu nông nghiệp (農業構造 改善事業) từ lâu đã trở thành đối tượng quan tâm (關心 對象) không phân biệt quốc gia tiên tiến hay đang phát triển. Tại Nhật Bản (日本), từ năm 61, họ đã bắt đầu thực hiện dự án cải thiện cơ cấu (構造改善事業) và hoàn thành các kế hoạch 10 năm giai đoạn 1~2, sau đó từ năm 78, họ tiếp tục thúc đẩy dự án cải thiện cơ cấu nông nghiệp mới (新農業構造 改善事業).
+Ở nước ta, từ những năm 60, chúng ta đã chú trọng đến cải cách cơ cấu nông nghiệp (農業構造 改革) và thử nghiệm chương trình bồi dưỡng nông hộ tự chủ ổn định (自立 安定 農家 育成事業), tuy nhiên do điều kiện (與件) chưa đầy đủ và định hướng bồi dưỡng (育成 方向) không đúng nên không đạt được hiệu quả (效果). Sau đó, nhờ sự lan tỏa của phong trào Saemaul (新村運動), từ năm 73,
 
 
 --- (p. 453) ---
@@ -10166,7 +10168,7 @@ Do đó, chính phủ đã phải xem xét kỹ lưỡng các vấn đề này v
 
 --- (p. 464) ---
 
-를 거치지 않도록 내실(內實)을 기할 수 있는 방향(方向)으로 이끌어 가고 있다.
+đang hướng tới phương hướng có thể nâng cao nội lực (內實) mà không cần trải qua những bước đó.
 
 ### (3) Saemaul Undong thu nhập(所得) tăng trưởng(增大) công việc(事業)
 
@@ -11986,8 +11988,8 @@ Viện giáo dục Saemaul Undong (新村敎育院) thuộc Hội đồng trung 
 
 --- (p. 544) ---
 
-로 6박 7일간에 걸친 새마을교육을 실시한 바 있다.
-새마을교육원에서 실시한 정규교육 외에도 직장 내 자체교육 등 1,282천 명이 교육에 참여하였으며 (표 66) 이들이 도시 새마을운동 분야의 점화요원으로서 그 역할을 충실히 수행하고 있다.
+đã tổ chức khóa đào tạo Saemaul kéo dài 6 ngày 7 đêm.
+Ngoài các khóa đào tạo chính quy tại Học viện Saemaul, còn có các khóa đào tạo nội bộ tại nơi làm việc, với tổng số 1.282 nghìn người tham gia (bảng 66), và họ đang thực hiện tốt vai trò là nhân tố khơi dậy phong trào Saemaul tại các đô thị.
 
 ### 표 66: 새마을교육 실적 (77.3~80.7)
 
@@ -12003,13 +12005,13 @@ Viện giáo dục Saemaul Undong (新村敎育院) thuộc Hội đồng trung 
 |                          | 전달교육     | 21,259 | 824,597  |
 |                          | 레크리에이션교육 | 4     | 245     |
 
-자료: 민간단체 새마을운동 중앙협의회
+Nguồn: Hội đồng Trung ương Phong trào Saemaul các tổ chức dân sự
 
-새마을 정신풍토를 조성하는 최초(最初)의 시도(試圖)는 새마을교육의 효율적(效率的)인 수행(遂行)이라고 볼 수 있다. 새마을운동의 철학(哲學), 실천(實踐) 사업(事業)의 선정(選定), 추진방식(推進方式)에 대한 이해, 그리고 전체(全體) 참여자(參與者)의 노력(努力)을 통해 거두어드린 성과(成果)가 참여자(參與者)의 복지(福祉) 향상(向上), 지역사회(地域社會) 개발(開發) 내지 국가발전(國家發展)에 크게 이바지한다는 확고한 신념(信念)을 가지지 않은 채 사업(事業)이 추진(推進)된다면 그만큼 심도(深度)도 낮아질 뿐 아니라 지속성(持續性)도 상실(喪失)되는 것이다.
+Nỗ lực đầu tiên nhằm xây dựng tinh thần và bầu không khí Saemaul có thể coi là việc thực hiện hiệu quả giáo dục Saemaul. Nếu không có niềm tin vững chắc rằng triết lý (哲學) của phong trào Saemaul, việc lựa chọn (選定) và phương thức thúc đẩy (推進方式) các hoạt động thực tiễn (實踐 事業), cùng với nỗ lực (努力) của tất cả người tham gia (參與者), sẽ góp phần nâng cao phúc lợi (福祉 向上) của người tham gia, phát triển cộng đồng địa phương (地域社會 開發) và thậm chí phát triển quốc gia (國家發展), thì việc thúc đẩy các hoạt động (事業) sẽ thiếu chiều sâu (深度) và mất tính bền vững (持續性).
 
-따라서 사업(事業)이 시작되어 지속화(持續化)되는 과정(過程)에서 계속적(継続的)인 새마을교육의 반복적(反復的)인 학습(學習)이 필요(必要)하다고 보는 것이다. 즉 새마을교육을 계속 실시하여 새마을운동의 취지(趣旨)와 그 실천(實踐) 기법(技法)을 전체(全體) 참여자(參與者)에게 이해시킴으로써 전체적(全體的)인 운동(運動)으로 밀고 나가는 역량(力量)을 총합(綜合)하는 방향(方向)으로 유도(誘導)시켜 실효(實効)를 거두어 나갈 수 있다.
+Do đó, trong quá trình bắt đầu và duy trì các hoạt động (事業), việc học tập (學習) lặp đi lặp lại (反復的) và liên tục (継続的) về giáo dục Saemaul là cần thiết. Tức là, bằng cách tiếp tục thực hiện giáo dục Saemaul, giúp tất cả người tham gia (參與者) hiểu rõ mục đích (趣旨) và kỹ thuật thực tiễn (實踐 技法) của phong trào Saemaul, từ đó tổng hợp sức mạnh (力量 綜合) để thúc đẩy phong trào một cách toàn diện (全體的 運動), nhằm đạt được hiệu quả thực tế (實効).
 
-도시 새마을지도자 교육은 정부(政府) 당국(當局)의 권유(勸誘)에 따라 기관장(機關長), 경영자(經營者), 관리자(管理者)의 순(順)으로 새마을교육원에 입소(入所)시켜 소정(所定)의 교육(敎育)이 끝난 후 돌아가서 전달(傳達)교육(敎育)을 실시(實施)하고 있다. 우리가 바라는 바는 전체(全體) 기관(機關)의 종사원(從事員)이 정부(政府)에서 주관(主管)하는 새마을교육을 이수(履修)하는 것이 가장 이상적(理想的)인 것이지만 현실적(現實的)으
+Đào tạo cán bộ lãnh đạo Saemaul đô thị được thực hiện theo khuyến nghị (勸誘) của cơ quan chính phủ (政府 當局), theo thứ tự từ lãnh đạo cơ quan (機關長), nhà quản lý (經營者), đến người quản lý (管理者), đưa họ vào Học viện Saemaul để hoàn thành khóa đào tạo quy định (所定 敎育), sau đó trở về và thực hiện đào tạo truyền đạt (傳達敎育). Mặc dù mong muốn lý tưởng (理想的) là tất cả nhân viên (從事員) của các cơ quan (機關) đều hoàn thành khóa đào tạo Saemaul do chính phủ (政府) chủ trì, nhưng trên thực tế (現實的),
 
 
 --- (p. 545) ---
@@ -13066,19 +13068,19 @@ Các phong trào xã hội (社會運動) trong xã hội tổ tiên (祖上社�
 
 --- (p. 590) ---
 
-것이 범민화체제(汎民化體制)로 발전(發展)할 수 없었으며, 전국적(全國的)인 운동(運動)으로 확산(擴散)될 수 없었고 또한 영속적(永續的)인 운동(運動)으로 지속(持續)되지 못했던 것이 사실(事實)이었다.
-그러나 오늘의 새마을운동(새마을運動)은 전민참여체제(全民參與體制)와 전역전개체제(全域展開體制) 및 전력(全力)을 다하여 지속화(持續化)시켜 나간다는 전개방법면(展開方法面)에서의 특성(特性)을 지니고 있다.
+không thể phát triển thành hệ thống toàn dân hóa (汎民化體制), không thể lan rộng thành phong trào toàn quốc (全國的 運動) và cũng không thể duy trì thành phong trào lâu dài (永續的 運動).
+Tuy nhiên, phong trào Saemaul ngày nay có đặc điểm (特性) về phương thức triển khai (展開方法面) là xây dựng hệ thống toàn dân tham gia (全民參與體制), hệ thống triển khai toàn diện (全域展開體制) và nỗ lực hết sức để duy trì tính bền vững (持續化).
 
-넷째는 사회학적(社會學的) 특성(特性)이다.
-우리는 새마을운동(새마을運動)을 통하여 새로운 사회의식(社會意識)을 계발(啓發)시켜가고 있으며 또한 많은 부면(部面)에서 새로운 사회상(社會象)을 창조(創造)해 나가고 있다.
-안온(安溫)했던 지난날의 한몽(閑夢)으로부터 깨어나 우리들 자신(自身)의 운명(運命)을 스스로의 힘으로 개척(開拓)해 나가야 한다는 자신(自信)과 결단(決斷)을 가지고 우리의 생활태도(生活態度)를 적극(積極)화하기에 이르렀으며 또한 두려움의 대상(對象)으로만 여겨오던 자연(自然)에 끊임없이 도전(挑戰)하고 미래(未來)를 보다 합리적(合理的)으로 조직(組織)해 나간다는 의지(意志)로써 남에게 뒤지지 않는다는 자신감(自信感)을 북돋아가고 있다.
+Thứ tư là đặc tính xã hội học (社會學的 特性).
+Thông qua phong trào Saemaul (새마을運動), chúng ta đang khơi dậy (啓發) ý thức xã hội (社會意識) mới và sáng tạo (創造) hình ảnh xã hội (社會象) mới trên nhiều lĩnh vực (部面).
+Từ giấc mộng thanh bình (閑夢) của những ngày đã qua, chúng ta đã thức tỉnh và có niềm tin (自信) cùng quyết tâm (決斷) tự tay khai phá vận mệnh (運命) của chính mình, từ đó tích cực hóa (積極) thái độ sống (生活態度). Đồng thời, chúng ta không ngừng thách thức (挑戰) thiên nhiên (自然) - điều từng được coi là đối tượng đáng sợ - và nuôi dưỡng ý chí (意志) tổ chức (組織) tương lai (未來) một cách hợp lý (合理的) hơn, nhằm củng cố niềm tin (自信感) rằng chúng ta không thua kém ai.
 
-다섯째는 정치문화적(政治文化的) 특성(特性)이다.
-새마을운동(새마을運動)을 통해서 두드러지게 나타나고 있는 정치문화적(政治文化的)인 현상(現象)은 마을민주주의(마을民主主義)의 풍토(風土)가 성숙(成熟)되어 가고 있다는 점이다.
-주민총의(住民總意)에 의해서 마을의 지도자(指導者)가 선출(選出)되고 그 선출(選出)된 지도자(指導者)의 지도력(指導力)을 바탕으로하여 마을 주민(住民)의 공동관심사(共同關心事)를 총의(總意)에 입각(立脚)한 단결(團結)된 힘으로써 해결(解決)해 나가는 풍토(風土)는, 바꾸어 말해서 한국적(韓國的)인 민주주의(民主主義)의 기틀이 마을이라는 소단위사회(小單位社會)에 뿌리내리고 있는 바람직한 현상(現象)이라고 말할 수 있다.
-종래(從來) 민주주의(民主主義) 운운(云謂)하면 국회의원(國會議員)을 선거(選擧)하는 정치적(政治的) 행위(行爲)만을 연상(聯想)해오던 우리의 재래식(在來式) 관념(觀念)을 바꾸었다는 사실(事實)은 대단히 큰 의미(意味)를 던져주고 있다.
-우리의 현실적(現實的)인 생활문제(生活問題)를 주민(住民)들 자신(自身)의 의사(意思)로써 해결(解決)해나가기 위한 방법(方法)을 모색(摸索)하는데 주민(住民) 각자(各者)가 스스로의 의견(意見)을 제시(提示)하고 제시(提示)된 의견(意見)을 서로 조정(調整)하여 개선(改善)의 길을 발견(發見)하는데 협력(協力)해 나가는 태도(態度)의 선양(宣揚)은 한마디로 말해서 민주주의(民主主義)의 터전을 굳게 다져가는 새로운 정치문화적(政治文化的) 풍토(風土)의 조성(造成)이라고 말하지 않을 수 없다.
-새마을운동(새마을運動)을 통해서 성숙(成熟)되어진 하나의 민주주의적(民主主義的) 특징(特徵)이 무엇이냐 하면, 첫째는 새로운 형태(形態)의 직접민주주의(直接民主主義) 방식(方式)의 구현(具現)이요, 둘째는 구체적(具體的)인 실행(實行) 성(性)의 원리(原理)를 바탕으로하는 실천민주주의(實踐民主主義) 방식(方式)의 개발(開發)이요, 셋째는 현장민주(現場民主)
+Thứ năm là đặc tính văn hóa chính trị (政治文化的 特性).
+Thông qua Phong trào Làng mới (새마을운동), hiện tượng mang tính chính trị - văn hóa (政治文化的) nổi bật là bầu không khí dân chủ làng xã (마을民主主義) đang dần trưởng thành.
+Việc người dân bầu ra người lãnh đạo (指導者) của làng thông qua ý chí chung của cư dân (住民總意), và dựa trên năng lực lãnh đạo (指導力) của người lãnh đạo được bầu chọn để giải quyết các vấn đề quan tâm chung (共同關心事) của cư dân bằng sức mạnh đoàn kết dựa trên ý chí chung, nói cách khác, có thể coi đây là hiện tượng đáng mong đợi cho thấy nền tảng của nền dân chủ mang tính Hàn Quốc (韓國的) đang bén rễ tại các cộng đồng nhỏ như làng xã (小單位社會).
+Việc thay đổi quan niệm truyền thống (在來式) của chúng ta, vốn chỉ liên tưởng đến hành vi chính trị (政治的) như bầu cử nghị sĩ quốc hội (國會議員) mỗi khi nhắc đến dân chủ (民主主義), thực sự mang một ý nghĩa vô cùng lớn lao.
+Việc mỗi cư dân tự mình đề xuất ý kiến (意見) để tìm ra phương pháp giải quyết các vấn đề sinh hoạt thực tế (生活問題) của chính mình, điều chỉnh các ý kiến đã được đưa ra và hợp tác để tìm ra con đường cải thiện (改善), việc đề cao thái độ (態度) này chính là việc xây dựng nền tảng vững chắc cho nền dân chủ (民主主義), không gì khác chính là việc hình thành bầu không khí văn hóa chính trị (政治文化的) mới.
+Một đặc trưng dân chủ (民主主義的) đã trưởng thành thông qua Phong trào Làng mới là gì? Thứ nhất là việc hiện thực hóa (具現) hình thức dân chủ trực tiếp (直接民主主義) kiểu mới; thứ hai là việc phát triển (開發) hình thức dân chủ thực tiễn (實踐民主主義) dựa trên nguyên tắc tính thực thi cụ thể (具體的); thứ ba là dân chủ hiện trường (現場民主).
 
 
 --- (p. 591) ---
@@ -13501,16 +13503,16 @@ Ngoài ra, mục tiêu ban đầu là thu nhập trung bình 140 vạn won cho m
 
 --- (p. 614) ---
 
-기업체(企業體)에게 분발(奮發)할 수 있는 자극(刺戟)을 주었을 뿐만 아니라 스스로 발전(發展)을 촉구(促求)해 갈 수 있도록 자각(自覺)을 불러일으킨 것이 사실이다. 지원(支援)의 개념(槪念)은 일반적(一般的)인 경우 미흡(未洽)하거나 부족(不足)하거나 뒤떨어진 대상(對象)에게 베푸는 뜻으로 이해(理解)되어 왔었지만 새마을운동(새마을運動)에 있어서만은 그 반대(反對)의 개념(槪念)으로써 지원제도(支援制度)를 운용(運用)해 왔던 것이 특징(特徵) 중의 하나이다.
+Không chỉ mang lại sự kích thích (刺戟) để các doanh nghiệp (企業體) phấn đấu mà còn khơi dậy nhận thức (自覺) để tự thúc đẩy sự phát triển (發展) của chính mình, đây là một thực tế. Khái niệm hỗ trợ (支援) thường được hiểu là giúp đỡ đối tượng (對象) thiếu thốn, yếu kém hoặc lạc hậu, nhưng trong Phong trào Làng mới, hệ thống hỗ trợ (支援制度) lại được vận hành (運用) với khái niệm ngược lại, đây là một trong những đặc trưng (特徵).
 
 ## 5. 집념(執念)에 찬 지도력(指導力)의 발휘(發揮)
 
-새마을운동(새마을運動) 성공(成功)의 다섯째 요인(要因)은 집념(執念)에 찬 지도력(指導力)의 발휘(發揮)이다.
-흔히들 말하기를 장기적(長期的)인 개발계획(開發計劃)은 먼저 사회적(社會的)인 안정(安定)을 제1의 요건(要件)으로 한다고 하거니와 그 보다도 더 중요한 것은 집념(執念)에 찬 지도력(指導力)의 발휘(發揮)였음을 우리는 체험(體驗)하였다.
-새마을운동(새마을運動)은 우리 겨레가 영원히(永遠히) 잘 살아보자는 뜻에서 오랜 세월(歳月) 동안 가난에 시달려 온 한(恨)을 풀기 위한 운동(運動)이라고 바꾸어서 말할 수 있다.
-그렇다면 이 새마을운동(새마을運動)은 특정계층(特定階層)의 사람만이 참여(參與)할 운동(運動)이 아니며 또 한 일부지역(一部地域)에 국한(局限)시킬 성질(性質)의 운동(運動)도 아닐 뿐만 아니라 우리 당대(當代)에서 끝낼 시한적(時限的)인 운동(運動)도 아니다.
-사회적(社會的)인 발전상황(發展狀況)에 따라서 잘 살기 위한 운동(運動)을 어떠한 방식(方式)으로 추진(推進)해 나갈 것이냐 하는 문제(問題)는 그 시대(時代)를 살아가는 사람들에 의해서 선택(選擇)되어야 할 일이지만 잘 살아야 되겠다는 우리의 욕망(欲望)이 무한히(無限히) 뻗어 가고 있는 것이 사실이라면 그 운동(運動)을 추진(推進)하는 방법(方法)이나 체제(體制)나 규모(規模)에 있어서는 달라질 수 있을 것이지만 더 잘 살아 보자는 욕구대응적(欲求對應的)인 측면(側面)에서 생각할 때 그 운동(運動)은 영속성(永續性)의 성격(性格)을 띤다는 데에는 이설(異說)이 있을 수 없을 것으로 확신(確信)한다. 때문에 새마을운동(새마을運動)은 정권(政權)과 정당(政黨)의 차원(次元)을 초월(超越)해서 추진(推進)되어야 할 영속성(永續性)의 운동(運動)인 동시에 우리에 의하여 후손(後孫)에게 보다 발전적(發展的)인 형태(形態)로 「바톤」이 승계(承繼)되어야 할 운동(運動)이라고 이해(理解)된다.
-이와 같은 승계가능성(承繼可能性)은 중심적(中心的) 지도력(指導力)을 구심(求心)으로 한 원심적(遠心的) 차위지도력(次位指導力)이 종횡연관구조적(縱横聯關構造的)으로 한국적(韓國的)인 패턴으로 정립(定立)된 가운데 주민조직(住民組織)은 물론(勿論)이려니와 사회체(社會體) 단위(單位)의 기능적(機能的)인 역할(役割)을 통한 활동체계(活動體系)가 나름대로의 유형(類型)을 이루게 되었다.
+Yếu tố thứ năm dẫn đến thành công của Phong trào Làng mới là việc phát huy năng lực lãnh đạo (指導力) với sự kiên trì (執念).
+Người ta thường nói rằng điều kiện tiên quyết cho kế hoạch phát triển dài hạn (長期的) là sự ổn định xã hội (社會的), nhưng quan trọng hơn cả là việc phát huy năng lực lãnh đạo với sự kiên trì, điều mà chúng ta đã trải nghiệm.
+Phong trào Làng mới có thể được hiểu là một phong trào nhằm xóa bỏ nỗi uất hận (恨) do nghèo khó kéo dài qua nhiều năm, với mong muốn dân tộc ta được sống tốt đẹp mãi mãi.
+Nếu vậy, Phong trào Làng mới không phải là phong trào chỉ dành cho một tầng lớp nhất định (特定階層) hay giới hạn ở một số khu vực (一部地域), cũng không phải là phong trào có thời hạn (時限的) chỉ kết thúc ở thế hệ chúng ta.
+Vấn đề lựa chọn phương thức (方式) thúc đẩy phong trào vì cuộc sống tốt đẹp hơn theo tình hình phát triển xã hội (社會的) là việc của những người sống trong thời đại đó, nhưng nếu khát vọng (欲望) được sống tốt đẹp hơn của chúng ta là vô hạn thì dù phương pháp, thể chế (體制) hay quy mô (規模) của phong trào có thay đổi, xét về mặt đáp ứng nhu cầu (欲求對應的), phong trào này chắc chắn mang tính bền vững (永續性). Do đó, Phong trào Làng mới cần được thúc đẩy vượt trên phạm vi chính quyền (政權) và đảng phái (政黨), đồng thời là một phong trào bền vững mà chúng ta phải truyền lại cho thế hệ sau (後孫) dưới hình thức phát triển hơn.
+Khả năng kế thừa (承繼可能性) này được hình thành khi năng lực lãnh đạo trung tâm (中心的 指導力) đóng vai trò như lực hướng tâm (求心), kết hợp với năng lực lãnh đạo thứ cấp (次位指導力) theo cấu trúc liên kết dọc ngang (縱横聯關構造的) mang tính đặc thù Hàn Quốc, qua đó tổ chức cư dân (住民組織) và các đơn vị xã hội (社會體) phát huy vai trò chức năng (機能的) để tạo nên hệ thống hoạt động (活動體系) với những mô hình riêng.
 
 
 --- (p. 615) ---
@@ -13890,23 +13892,23 @@ Tuy nhiên, từ vị trí của chính quyền (官) có thể nắm bắt toà
 --- (p. 634) ---
 
 하지 않으면 안 될 것이다.
-한 예(例)를 들면 뉴타운형성계획(形成計劃)에 있어서 도로망조성계획(道路網造成計劃)이 있는데도 불구하고 토지(土地) 소유(所有)의 지주(地主)가 내 땅에 내집 짓는데 왜 관(官)에서 못 짓게 하느냐 하는 사례(事例)라든가, 또는 전국적(全國的)인 식량생산계획(食糧生產計劃)에 있어서 몇%의 신품종(新品種)을 식재(植栽)해야 한다는 방침(方針)이 있는데도 불구하고 농민(農民)이 이를 거부(拒否)하였을 때 일정량(一定量)의 신품종(新品種) 식재(植栽)를 행정력(行政力)으로서 확보(確保)하였던 것 등을 지적(指摘)하여 관주도(官主導)라는 말을 흔히 써 왔다.
+Ví dụ như trong kế hoạch hình thành đô thị mới (뉴타운形成計劃), mặc dù đã có kế hoạch xây dựng mạng lưới đường (道路網造成計劃) nhưng vẫn có trường hợp chủ đất (地主) phản đối với lý do "Đây là đất của tôi, tại sao chính quyền (官) lại không cho tôi xây nhà?", hoặc trong kế hoạch sản xuất lương thực toàn quốc (全國的 食糧生產計劃), mặc dù đã có chủ trương trồng một tỷ lệ nhất định giống mới (新品種) nhưng nông dân (農民) từ chối, và chính quyền đã phải dùng quyền lực hành chính (行政力) để đảm bảo diện tích trồng giống mới, những ví dụ này thường được chỉ ra để nói về sự chủ đạo của chính quyền (官主導).
 
-이와 같은 경우(境遇)에 있어서 반드시 지적(指摘)되어야 할 일은 왜 사전계도(事前啓導)를 충분(充分)히 하지 못했었느냐 하는 점(點)과, 주민(住民)들의 자진협조(自進協助) 방법(方法)을 유도(誘導)해 내지 못하였느냐 하는 점(點)이다.
+Trong những trường hợp như vậy, điều cần chỉ ra là tại sao không thực hiện việc hướng dẫn trước (事前啓導) một cách đầy đủ, và tại sao không thể dẫn dắt phương pháp hợp tác tự nguyện (自進協助) của người dân.
 
-그러나 여기에서도 또 한 가지 이해(理解)의 여지(餘地)를 던져주는 것을 위(上)의 사례(事例)에 따라 이야기한다면 ① 계획(計劃)된 도로망조성(道路網造成)을 확보(確保)하기 위한 관권(官權)의 발동(發動)은 궁극적(窮極的)으로 그 지역(地域) 주민(住民)의 주거환경(住居環境)을 아름답게 가꾸기 위한 대중이익증진(大衆利益增進)에 목적(目的)이 있고 ② 신품종(新品種)의 일정률(一定率) 식재면적(植栽面積) 확보(確保)를 위한 행정력(行政力)의 발휘(發揮)는 당해(當該) 농업(農業)의 식량증산(食糧增産)을 일차적(一次的)인 목적(目的)으로 하는 동시에 국민적(國民的)인 식량(食糧) 자립(自立) 정도(程度) 향상(向上)에 기여(寄與)하기 위한 것이었음을 부인(否認)할 수 없다.
+Tuy nhiên, nếu phân tích các ví dụ trên, có thể thấy rằng: ① Việc chính quyền sử dụng quyền lực (官權) để đảm bảo mạng lưới đường đã được quy hoạch (道路網造成) nhằm mục đích cuối cùng là cải thiện môi trường sống (住居環境) cho cư dân trong khu vực, mang lại lợi ích chung cho đại chúng (大衆利益增進); ② Việc sử dụng quyền lực hành chính để đảm bảo tỷ lệ diện tích trồng giống mới (新品種) nhằm mục đích tăng sản lượng lương thực (食糧增産) cho nông nghiệp và góp phần nâng cao mức độ tự cung tự cấp lương thực (食糧 自立) quốc gia, điều này không thể phủ nhận.
 
-이와 같은 시각(視角)에서 관(官)의 작용(作用)을 수용(受容)한다면 그 관(官)의 작용현상(作用現象)을 반드시 관주도(官主導)라는 이름으로서 최종적(最終的)인 이익향유주체(利益享有主體)에 대한 정의(定義)를 모호(模糊)하게 야기할 필요(必要)는 없다고 본다.
+Nếu tiếp nhận tác dụng của quan (quan chức) từ góc độ (thị giác) như thế này, thì không nhất thiết phải gây ra sự mơ hồ trong định nghĩa về chủ thể hưởng lợi cuối cùng bằng cái tên "chủ đạo của quan chức", liên quan đến hiện tượng tác dụng của quan chức.
 
-다만 한 가지 말해 두고 넘어갈 것은 관(官)의 작용(作用)이 행사(行使)되는 과정(科程)에 있어서의 기술성(技術性)의 문제(問題)는 더 개발(開發)되어야 할 것이라는 점(點)이다.
+Tuy nhiên, có một điều cần nói qua là vấn đề tính kỹ thuật trong quá trình thực thi tác dụng của quan chức cần phải được phát triển thêm.
 
-그렇다면 새마을 운동(運動)이 이른바 민주도체제(民主導體制)로 이행(移行)되어야 한다고 볼 때 그 전제적(前提的)인 구비조건(具備條件)은 무엇이라고 이해(理解)하여야 할 것인가?
+Vậy thì khi phong trào Saemaul phải chuyển đổi sang cái gọi là thể chế dân chủ dẫn dắt, điều kiện tiên quyết cần phải có là gì?
 
-그것은 다음 몇 가지 측면(側面)에서 요약(要約)할 수 있지 않을까 생각한다.
+Có thể tóm tắt điều đó từ một số khía cạnh sau đây.
 
-첫째는 결과(結果)보다는 과정(過程)을 중시(重視)하는 대중적(大衆的)인 의식유형(意識類型)의 형성문제(形成問題)이다. 과정(過程) 없는 결과(結果)의 생성(生成)이 있을 수 없다고 볼 때 과정(過程)을 중시(重視)하는 의식(意識)의 대중화(大衆化)는 참으로 중요(重要)한 의미(意味)를 지닌다.
+Thứ nhất là vấn đề hình thành loại hình ý thức đại chúng coi trọng quá trình hơn là kết quả. Khi không thể có sự hình thành kết quả nếu thiếu quá trình, thì việc đại chúng hóa ý thức coi trọng quá trình mang một ý nghĩa vô cùng quan trọng.
 
-아마도 후진적(後進的) 사회군(社會群)이 겪는 일반적(一般的)인 진통(陣痛)은 이와 같은 내면경시성향(內面輕視性向)에서부터 오는 결과(結果)가 아닐까 생각된다.
+Có lẽ nỗi đau chung mà các xã hội lạc hậu phải trải qua bắt nguồn từ khuynh hướng coi nhẹ nội tâm như vậy.
 
 Chúng ta phải thực hiện điều đó.
 Ví dụ, trong kế hoạch hình thành New Town có kế hoạch xây dựng mạng lưới đường sá, nhưng chủ đất (地主) lại nói tại sao chính quyền không cho xây nhà trên đất của mình. Hoặc trong kế hoạch sản xuất lương thực toàn quốc có chỉ thị phải trồng một số phần trăm giống mới, nhưng nông dân từ chối, nên chính quyền phải đảm bảo một lượng nhất định giống mới được trồng. Các trường hợp như vậy thường được chỉ trích là chính quyền chủ đạo (官主導).
@@ -14033,20 +14035,20 @@ Con người (人間) là một sự tồn tại (存在) có lý tưởng (理�
 
 --- (p. 640) ---
 
-이상 구현을 위한 수단 가치 체제의 확충 작업인 것이다.
-따라서 전자는 목적이며 후자는 수단인 것이다.
-수단은 목적을 달성하기 위하여 뒤따르는 것이기 때문에 수단은 언제나 효율성을 그 가치 내용으로 한다.
-새마을 운동을 보다 합리적으로, 그리고 효율적으로 추진해야 할 필요성은 선대사에서 찾아 볼 수 있었던 지역사회운동의 결점을 되뇌며 성취해야 할 목적 가치의 구현을 더욱 알차게 하자는 데 있다.
-모든 인간이 추구하고자 하는 행복은 소유가 욕망을 어느 정도 충족하고 있느냐에 따라 척도된다고 하였거니와 한정적인 소유로써 무한적인 욕구를 충족해 나가기 위해서는 「지속적인 노력」이라는 자원이 가장 큰 의미를 지닌다고 보지 않을 수 없다.
-그렇기 때문에 새마을 운동을 숙의도 높게 성취해 가기 위해서는 첫째 새마을 운동에 대한 사회적 인식 방법을 통일하고, 둘째 새마을 운동의 발전 원리를 대중적 의식 기반 위에 정립하며, 셋째 새마을 운동의 전개 체계를 모형화하고, 넷째 새마을 운동에 대한 역사적 가치 부여의 근거를 확연히 제시한다는 면에서 모든 과제를 해결해 나가야 한다.
-새마을 운동이 우리의 보다 새로운 생활 사회의 밝은 면을 추구해 나가는 지속적인 노력이라는 점에서 보면 정신화 교육의 진흥을 통하여 새마을 운동의 발전 지향적인 철학이 국민 생활 저변에 활착될 수 있도록 새마을 교육 체계는 차원 변화적으로 개발되어 나가야 할 것이다.
+Đây chính là công việc củng cố hệ thống giá trị phương tiện nhằm hiện thực hóa những điều trên.
+Do đó, cái trước là mục đích còn cái sau là phương tiện.
+Vì phương tiện là thứ đi theo để đạt được mục đích nên phương tiện luôn lấy tính hiệu quả làm nội dung giá trị của nó.
+Sự cần thiết phải thúc đẩy phong trào Saemaul một cách hợp lý và hiệu quả hơn nằm ở việc khắc phục những thiếu sót của các phong trào cộng đồng địa phương từng thấy ở các thế hệ trước, nhằm thực hiện giá trị mục tiêu một cách đầy đặn hơn.
+Hạnh phúc mà mọi người theo đuổi được đo lường bởi mức độ thỏa mãn ham muốn sở hữu, và để thỏa mãn những ham muốn vô hạn bằng nguồn sở hữu hữu hạn, không thể không xem "nỗ lực bền bỉ" là nguồn lực có ý nghĩa lớn nhất.
+Vì vậy, để đạt được phong trào Saemaul với tinh thần cân nhắc cao, cần phải giải quyết mọi nhiệm vụ trên các phương diện: thứ nhất, thống nhất phương pháp nhận thức xã hội về phong trào Saemaul; thứ hai, thiết lập nguyên tắc phát triển của phong trào Saemaul trên nền tảng ý thức đại chúng; thứ ba, mô hình hóa hệ thống triển khai phong trào Saemaul; thứ tư, đưa ra cơ sở rõ ràng về giá trị lịch sử của phong trào Saemaul.
+Xem xét phong trào Saemaul là một nỗ lực bền bỉ nhằm theo đuổi mặt tươi sáng hơn của xã hội sống mới, thì hệ thống giáo dục Saemaul cần được phát triển theo chiều hướng thay đổi để triết lý phát triển định hướng của phong trào Saemaul có thể bén rễ vào đời sống nhân dân thông qua việc thúc đẩy giáo dục tinh thần hóa.
 
 ## 3. 농촌 부강 기반의 확충
 
 ### 가. 농촌에의 관심 전환
-농촌은 한마디로 말해서 인류의 고향이다. 농촌은 옛스러운 마을의 집군으로 형성되어 있다.
-농촌 그 자체가 옛스럽다는 이야기는 미국의 유명한 개발 사례의 하나인 Tennessee강 개발 사업의 주역을 맡았던 「모로간」의 말이다.
-그는 일찌기 인류의 운명을 주재하는 역할과 도시 형성의 원천인 기능을 동시에 수행하여 오면서 건실한 지도자의 양성소 구실까지 해 온 것이 바로
+Nói một cách ngắn gọn, nông thôn là cái nôi của nhân loại. Nông thôn được hình thành từ những cụm nhà cổ kính.
+Câu nói "bản thân nông thôn là cổ kính" là lời của Morgan, người từng đảm nhiệm vai trò chủ chốt trong dự án phát triển sông Tennessee, một trong những ví dụ phát triển nổi tiếng của Mỹ.
+Chính điều này từ lâu đã đồng thời đảm nhận vai trò chi phối vận mệnh nhân loại và chức năng là nguồn gốc hình thành đô thị, đồng thời còn đóng vai trò là nơi đào tạo những nhà lãnh đạo vững vàng
 
 
 --- (p. 641) ---
@@ -14184,19 +14186,19 @@ Vậy, vấn đề còn lại là cách nào để sống sót (存活) từ kin
 
 --- (p. 648) ---
 
-위기만 조성된다면 보다 밝은 미래를 전개시켜 나갈 수 있을 것으로 믿어진다.
+Chỉ cần tạo ra được những cuộc khủng hoảng, chúng ta sẽ có thể mở ra một tương lai tươi sáng hơn.
 
 ## 4. 매력 있는 도시상의 추구
 
-도시는 어떠한 의미에 있어서는 사회적 관심이 집중되는 하나의 특수한 지역사회라고 이야기할 수 있다.
-도시의 형성이 어떠한 과정을 거쳤던간에 또한 그 도시가 기성도시이든 새로 계획육성되어 가는 신생도시이든간에 사회적 제관심이 늘 쏠리고 있는 것이 사실이다.
-기성도시의 경우에는 도시사적 측면에서 찾아볼 수 있는 값진 제사관의 축적내용이 이미 그 사회를 정서적으로 지배할 만큼 관심을 갖게 하고 있는가 하면 도시가 지니는 본질적 기능을 통하여 인구와 물량과 사회적 제 가치의 이합집산 내지는 끊임없는 교역적 환류작용을 촉진시키고 있다는 관점에서도 도시지향적인 관심도는 언제나 높다.
-뿐만 아니라 신생도시가 육성되어 가는 과정에서도 사회적 관심은 집중되게 마련이다.
-왜냐하면 신생도시 그 자체가 새로운 사회발전의 기본성격을 부각케 한다는 점에서 미래전망의 뚜렷한 척도가 될 수 있을 것이기 때문이다.
-일례를 들어 어느 지역에 임해공업단지와 해안도시를 개발한다는 계획이 추진된다면 그 고지산업의 성격이 어떻게 나타나느냐에 따라서 산업지향적인 관계영역의 관심은 승수적으로 높아 갈 뿐만 아니라 노동사회에서의 인력이동의 성향도 높게 나타난다는 사실은 그간의 경험을 통해서 우리는 잘 알고 있다.
-바꾸어 이야기해서 도시가 분명히 하나의 관심소재의 지역이라면 그 지역은 공간성의 의미가 아니라 사회성의 의미임이 분명하다.
-사회성은 인간관계의 집단화현상을 뜻하는바, 관심의 초점은 곧 도시인의 생활행태인 것이다.
-도시인의 생활행태는 도시인이라는 집단체의 성격을 규정하는 요인이 될 뿐만 아니라 그 도시인에 의한 사회적 풍토를 정의케 하는 기본요소가 되기도 한다. 사회적 개인도 아닌 개인도 존재하지 않거니와 사회는 개개인의 결합과
+Xét về một ý nghĩa nào đó, có thể nói thành phố là một cộng đồng đặc thù thu hút sự quan tâm của xã hội.
+Dù quá trình hình thành thành phố diễn ra như thế nào, dù đó là thành phố đã có sẵn hay thành phố mới được quy hoạch và phát triển, thì thực tế vẫn luôn thu hút sự quan tâm của các tầng lớp xã hội.
+Đối với các thành phố đã có sẵn, một mặt, những giá trị quý báu tích lũy được từ khía cạnh lịch sử đô thị đã thu hút sự quan tâm khi chi phối tình cảm xã hội, mặt khác, thông qua chức năng bản chất của đô thị, nó thúc đẩy sự tập trung và phân tán dân số, vật chất cũng như các giá trị xã hội, hay sự luân chuyển giao dịch không ngừng, từ đó mức độ quan tâm hướng đến đô thị luôn cao.
+Hơn nữa, ngay cả trong quá trình phát triển các đô thị mới, sự quan tâm của xã hội cũng luôn tập trung.
+Bởi vì bản thân đô thị mới chính là thước đo rõ ràng cho triển vọng tương lai, khi làm nổi bật tính chất cơ bản của sự phát triển xã hội mới.
+Ví dụ, nếu có kế hoạch phát triển khu công nghiệp ven biển và thành phố ven biển tại một khu vực nào đó, tùy thuộc vào tính chất của ngành công nghiệp được xây dựng mà mức độ quan tâm trong lĩnh vực liên quan đến ngành sẽ tăng theo cấp số nhân, đồng thời xu hướng di chuyển lao động trong xã hội lao động cũng sẽ tăng cao, đây là điều chúng ta đã biết rõ qua kinh nghiệm trước đây.
+Nói cách khác, nếu thành phố rõ ràng là một khu vực thu hút sự quan tâm thì điều đó chắc chắn mang ý nghĩa xã hội chứ không phải ý nghĩa về không gian.
+Tính xã hội có nghĩa là hiện tượng tập thể hóa các mối quan hệ con người, do đó trọng tâm của sự quan tâm chính là lối sống của cư dân đô thị.
+Lối sống của cư dân đô thị không chỉ là yếu tố quy định tính cách của tập thể cư dân đô thị mà còn trở thành yếu tố cơ bản định hình nên bầu không khí xã hội do chính cư dân đô thị tạo ra. Không tồn tại cá nhân xã hội cũng như cá nhân đơn thuần, và xã hội là sự kết hợp và
 
 
 --- (p. 649) ---
@@ -14462,17 +14464,17 @@ Vì vậy, Phong trào Xã Hội Mới sẽ tiếp tục phát triển và phát
 
 --- (p. 660) ---
 
-동(動)이기 때문에 어느 시대(時代) 어느 장소(場所)에서나 변질(變質)될 수 없는 하나의 민족중흥(民族民族中興)을 위한 운동(運動)이 되기 때문이다.
-다만 그 기본정신(基本精神)과 방향(方向)에 있어서는 변(變)함이 없지만 그 추진방법(推進方法)에 있어서는 발전적(發展的)인 변화(變化)를 기대할 수 있을 것이다. 그 만큼 우리 사회(社會)가 변화하고 발전(發展)되고 있으며 국민(國民)의 사회의식(社會意識)도 성숙(成熟)되어 가고 있기 때문이라 하겠다.
-Saemaul Undong (運動)이 어느 특정(特定)의 정권(政權)이나 정치체제(政治體制)를 위한 운동(運動)이 아니라 바로 국가발전(國家發展)을 위한 범국민적(汎國民的)인 민족운동(民族運動)이자 초정권적(超政權的)인 차원(次元)의 운동(運動)이라 일컬어지는 까닭도 바로 여기에 있다 하겠다.
+sự vận động của các cá nhân, vì vậy đây sẽ là một phong trào không thể biến chất bất kể thời đại hay địa điểm nào, nhằm phục hưng dân tộc.
+Tuy nhiên, tinh thần cơ bản và phương hướng của phong trào có thể không thay đổi, nhưng phương pháp thúc đẩy có thể kỳ vọng sẽ có những thay đổi mang tính phát triển. Điều này cho thấy xã hội của chúng ta đang thay đổi và phát triển, ý thức xã hội của người dân cũng ngày càng trưởng thành.
+Lý do Phong trào Saemaul được gọi là phong trào dân tộc mang tính toàn dân nhằm phát triển đất nước, vượt trên cả chính quyền hay thể chế chính trị cụ thể, chính là ở điểm này.
 
-② 앞으로의 Saemaul Undong (運動)은 국민(國民)이 주도(主導)하며 정부(政府)는 지원(支援)하는 체제(體制)로 활성화(活性化)될 것이다. 그리하여 점진적(漸進的)으로 민간주도운동(民間主導運動)으로 발전(發展)케 될 것이다.
-그 동안의 Saemaul Undong (運動)을 통해 우리는 많은 경험(經驗)을 체득(體得)하게 되었다. 그리하여 많은 자발적(自發的)인 농촌새마을, 공장새마을, 직장새마을, 학교새마을운동(運動)의 지도자(指導者)를 발굴(發掘)하게 되었고 또한 교육(敎育)과 실천(實踐)을 통해 성장(成長)을 보게 되었다. 그들은 민주적(民主的)인 방법(方法)으로 주민(住民)의 잠재능력(潛在能力)을 조직화(組織化)하고 활성화(活性化)할 수 있게 되었다.
-주민(住民)들의 교육수준(敎育水準)도 많이 향상(向上)되고 경험(經驗)도 쌓게 되었다. 그리고 Saemaul Undong (運動)을 통해 많은 이득(利得)과 보람이 주어진다는 사실(事實)도 체득(體得)하게 되었다. 뿐만 아니라 최소(最小)의 투입(投入)을 통해 최대(最大)의 산출(産出)을 얻어 낼 수있는 방법(方法)도 깨닫게 되었다.
+② Trong tương lai, Phong trào Saemaul sẽ được thúc đẩy theo cơ chế người dân chủ đạo và chính phủ hỗ trợ. Từ đó, phong trào sẽ dần phát triển thành phong trào do tư nhân chủ đạo.
+Thông qua Phong trào Saemaul Undong trong thời gian qua, chúng ta đã tích lũy được nhiều kinh nghiệm. Nhờ đó, chúng ta đã phát hiện ra nhiều nhà lãnh đạo tự nguyện của các phong trào Nông thôn Saemaul, Nhà máy Saemaul, Cơ quan Saemaul và Trường học Saemaul, đồng thời chứng kiến sự trưởng thành của họ thông qua giáo dục và thực tiễn. Họ đã có thể tổ chức và kích hoạt năng lực tiềm tàng của người dân bằng phương pháp dân chủ.
+Trình độ giáo dục của người dân cũng được nâng cao đáng kể và kinh nghiệm cũng được tích lũy. Ngoài ra, họ còn nhận thức được rằng thông qua Phong trào Saemaul Undong, nhiều lợi ích và niềm vui đã được mang lại. Không những thế, họ còn nhận ra phương pháp để đạt được đầu ra tối đa với đầu vào tối thiểu.
 이같이 지도자(指導者)의 능력(能力)과 경험(經驗)의 향상(向上), 주민(住民)들의 자발적(自發的)인 참여(參與)와 협동(協同)이 뭉쳐져 앞으로의 Saemaul Undong (運動)은 점차(漸次) 민간주도적(民間主導的)인 운동(運動)으로 발전(發展)하게 될 것이다.
 
-③ 지난날 70년대(年代)의 Saemaul Undong (運動)은 주로(主로) 환경개선(環境改善)과 소득증대사업(所得增大事業)에 주력(注力)하였다. 특히 농촌새마을운동(運動)에 있어서 그러했다. 그러기에 생(生)로 지붕을 고치고 다리를 놓고 도로(道路)를 닦는 등의 일에 주력(注力)하고 증산(增産)에 힘을 기울였다. 그러나 앞으로의 Saemaul Undong (運動)을 물질위주(物質爲主)의 운동으로부터 정신적(精神的)으로도 건전(健全)히 살아갈 수 있는 운동으로 이끌어져야 할 것이다. 그리하여 이 땅에 정의로운 사회(社會)가 건설(建設)되도록 지금 진행(進行)되고 있는 정직(正直), 질서(秩序), 창조(創造)를 위한 사회정화(社會淨化)운동(運動)과 연계시켜 발전(發展)되도록 이끌어져야 할 것이다.
-그런 뜻에서 앞으로 Saemaul Undong (運動)은 국민(國民)들의 확고(確固)한 가치관(價値觀)과 올바른 윤리도덕(倫理道德)과 생활규범(生活規範)을 정립(定立)하는 운동(運動)으로 승화(昇華)시켜 나가야 할 것이다.
+③ Trong những năm 70, Phong trào Saemaul Undong chủ yếu tập trung vào cải thiện môi trường và các dự án tăng thu nhập. Đặc biệt là trong phong trào Nông thôn Saemaul. Do đó, họ đã nỗ lực sửa mái nhà tranh, xây cầu, làm đường và tăng sản lượng. Tuy nhiên, Phong trào Saemaul Undong trong tương lai cần phải chuyển từ phong trào thiên về vật chất sang phong trào giúp con người sống lành mạnh về mặt tinh thần. Nhờ đó, một xã hội công bằng sẽ được xây dựng trên mảnh đất này, và phong trào thanh lọc xã hội hiện đang tiến hành vì sự chính trực, trật tự và sáng tạo cần được liên kết và phát triển.
+Với ý nghĩa đó, Phong trào Saemaul Undong trong tương lai cần phải được nâng lên thành phong trào thiết lập giá trị quan vững chắc, đạo đức và quy tắc sống đúng đắn cho người dân.
 
 
 --- (p. 661) ---
@@ -14575,16 +14577,16 @@ Hơn nữa, chúng ta sẽ chuẩn bị kế hoạch hoạt động cho phong tr
 
 --- (p. 666) ---
 
-지원(支援)하되 무리(無理)한 목표설정(目標設定)이나 또는 그 조성(造成)을 독촉(督促)치 말아야 할 것이며 계속(繼續)하여 국민생활(國民生活)의 안정(安定)과 이익(利益)을 줄 수 있는 사업(事業)을 개척(開拓)해 나가야 할 것이다.
+Cần hỗ trợ nhưng không nên đặt ra những mục tiêu quá sức hoặc thúc ép việc hình thành chúng, và phải tiếp tục khai phá những dự án có thể mang lại sự ổn định và lợi ích cho đời sống người dân.
 
-우리 국민(國民)들은 모름지기 새마을운동(運動)에 대한 일부(一部)의 종래(從來)의 그릇된 선입감(先入感)이나 고정관념(固定觀念)을 버리고 모든 국민(國民)이 우선 이 운동(運動)에 참여(參與)하여 그 속에서 생산적(生産的)이고 건설적(建設的)인 비판(批判)과 창조적(創造的)인 협동(協同)을 하는 자세(姿勢)를 가다듬어야 할 것이다. 그리하여 우리는 새마을운동(運動)을 통하여
-O 80년대(年代)의 산업사회(産業社會)에 대응하여 물질문명(物質文明)에 조화(調和)될 수 있는 정신문화(精神文化)를 창달(暢達)해 가는데 더욱 노력(努力)을 경주(傾注)해야 할 것이다.
-모든 국민(國民)들이 다 함께 살아가는 공원의식(公願意識)을 배양(培養)하고 개인(個人)의 이익(利益)과 국가(國家)의 발전(發展)을 조화(調和)시키는 확고(確固)한 국가관(國家觀)의 정립(定立)은 물론(勿論), 모든 것을 주체적(主體的)으로 판단(判斷)하고 자주적(自主的)으로 선택(選擇)하는 강한 민족(民族)의 자각의식(自覺意識)을 계발(啓發)하며, 전통(傳統)과 진보(進步)의 조화(調和)속에서 새 가치관(價値觀)을 정립(定立)함으로써 우리의 생활(生活)이 풍요속에서도 건전(健全)하고 정직(正直)하고 명랑(明朗)함을 잃지 않도록 발전(發展)시켜 나가야 할 것이다.
-그것이 곧 우리들 스스로가 물질적(物質的) 풍요(豊饒)속에서 정신적(精神的) 건전(健全)함을 누릴 수 있는 조화(調和)된 문화(文化)의 창조(創造)와 창달(暢達)이 될 것이다. 새마을운동(運動)은 바로 그것을 위한 수단(手段)이 되고 방편(方便)이 되어야 할 줄 안다.
-O 우리는 새마을운동(運動)을 통해 성장(成長)과 안정(安定)을 조정(調整)시켜 나가야 할 것이다. 우리가 갖고 있는 잠재력(潜在力)과 가능성(可能性)을 총동원(總動員)하여 지역간(地域間) • 산업간(產業間) • 계층간(階層間)의 격차(隔差)를 제도적(制度的) • 구조적(構造的)으로 줄여 국민(國民) 모두가 정당(正當)한 노력(努力)에 대한 응분(應分)의 대가(代價)를 얻고 그것을 통해 삶의 질(質)을 향상(向上)시키고 삶의 보람을 만끽(滿喫)할 수 있는 운동(運動)으로 발전(發展)시켜 나가야 할 것이다.
-그리하여 사회정의(社會正義)가 이 땅에 꽃을 피우고 찬란한 민족문화(民族文化)의 바탕 위에서 모두가 긍지(矜持)와 자부심(自負心)을 간직할 수 있는 문화민족(文化民族)이 되도록 새마을운동(運動)은 그 기반운동(基盤運動)이 되어야 하며 선도운동(先導運動)의 역할(役割)과 기능(機能)을 다할 것이다.
-그 길만이 우리 모두의 염원(念願)인 이 땅에서 가난을 몰아내고 전쟁(戰爭)의 불씨를 몰아냄으로써 우리 모두가 오손도손 살아갈 수 있는 우리에게 주어진 유일(唯一)한 생존(生存)을 위한 국민적(國民的)인 대로(大路)라고 믿고 있다.
-새마을운동(運動)이 민족중흥(民族中興)의 운동(運動)이며 근대화(近代化)를 위한 능률적(能率的)인 운동이며 민족사(民族史)의 빛나는 전진(前進)을 위한 운동(運動)이라는 까닭도 바로 여기에 있다 하겠다.
+Người dân chúng ta nhất định phải loại bỏ những định kiến sai lầm và quan niệm cố hữu từ trước đến nay về Phong trào Saemaul, và tất cả mọi người trước hết cần tham gia vào phong trào này, trau dồi thái độ phê bình mang tính xây dựng, sáng tạo và hợp tác trong quá trình đó. Qua đó, chúng ta sẽ thông qua Phong trào Saemaul
+O Trong những năm 80, để đối phó với xã hội công nghiệp, chúng ta cần nỗ lực hơn nữa trong việc phát triển văn hóa tinh thần hài hòa với văn minh vật chất.
+Tất cả người dân cần cùng nhau nuôi dưỡng ý thức cộng đồng để cùng chung sống trong công viên, đồng thời thiết lập một quan điểm quốc gia vững chắc nhằm dung hòa lợi ích cá nhân và sự phát triển của đất nước. Ngoài ra, cần phát huy ý thức tự giác mạnh mẽ của dân tộc, biết tự chủ trong phán đoán và lựa chọn mọi việc, đồng thời xây dựng hệ giá trị mới trong sự hài hòa giữa truyền thống và tiến bộ. Qua đó, cuộc sống của chúng ta dù giàu có vẫn luôn giữ được sự lành mạnh, chính trực và vui tươi.
+Điều đó chính là việc chúng ta tự mình tận hưởng sự lành mạnh về tinh thần trong sự giàu có về vật chất, đồng thời sáng tạo và phát triển một nền văn hóa hài hòa. Phong trào Làng mới (Saemaul Undong) phải trở thành phương tiện và cách thức để đạt được điều đó.
+Chúng ta cần thúc đẩy phong trào Saemaul Undong để điều hòa giữa tăng trưởng và ổn định. Bằng cách huy động toàn bộ tiềm năng và khả năng hiện có, chúng ta phải giảm thiểu khoảng cách giữa các vùng, ngành nghề và tầng lớp một cách có hệ thống và cấu trúc, để mọi người dân đều có thể nhận được phần thưởng xứng đáng với những nỗ lực chính đáng của mình. Từ đó, nâng cao chất lượng cuộc sống và tận hưởng ý nghĩa của cuộc sống, phát triển phong trào này thành một phong trào mang lại sự phát triển bền vững.
+Vì vậy, phong trào Saemaul phải trở thành phong trào nền tảng để công bằng xã hội (社會正義) nở hoa trên mảnh đất này, và trên cơ sở nền văn hóa dân tộc (民族文化) rực rỡ, tất cả mọi người đều có thể giữ gìn niềm tự hào (矜持) và lòng tự tôn (自負心), trở thành một dân tộc văn hóa (文化民族). Đồng thời, phong trào này sẽ hoàn thành vai trò và chức năng của một phong trào tiên phong (先導運動).
+Con đường duy nhất đó chính là niềm mong ước của tất cả chúng ta, xóa bỏ nghèo đói và dập tắt mầm mống chiến tranh trên mảnh đất này, để tất cả chúng ta có thể sống hòa thuận, và đó là con đường duy nhất để sinh tồn của dân tộc chúng ta.
+Phong trào Saemaul chính là phong trào phục hưng dân tộc, phong trào hiệu quả cho hiện đại hóa và là phong trào cho sự tiến bộ rực rỡ của lịch sử dân tộc, lý do cũng nằm ở đây.
 
 
 --- (p. 667) ---

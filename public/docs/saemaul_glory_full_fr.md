@@ -729,26 +729,26 @@ Après avoir consulté des experts, les travaux préparatoires, incluant le tra�
 
 --- (p. 39) ---
 
-군대에서 불도저와 콤프레서, 페이로더 등 각종 중장비의 지원은 결정적인 도움을 주었다.
-○ 드디어 350m 고지의 험난한 산에 폭 6m, 총연장 6km의 도로를 냈다. 이제 버스가 다니게 되었고, 험난한 산길을 걷거나 4개 읍면(邑面)을 돌아 42km를 우회하던 불편은 말끔히 가셨다.
-○ 73년 1월 13일 돗재도로 개설이 논의된 이래 무려 4년 8개월, 실질적인 작업(作業)을 시작한 2월 9일부터 9월 30일까지 234일 만에 연인원 45,000여 명과 총 공사비 164,887,245원 (지원금(支援金) 106,118,000원, 주민부담 58,769,245원)을 투입하여 꿈에 그리던 준공식을 가짐으로써 새마을 사업(事業)의 새로운 금자탑을 세웠다.
+Le soutien décisif des forces armées avec divers engins lourds tels que des bulldozers, des compacteurs et des chargeuses a été d'une aide cruciale.
+○ Enfin, une route de 6 mètres de large et d'une longueur totale de 6 km a été construite sur la montagne escarpée de 350 mètres d'altitude. Désormais, des bus peuvent y circuler, et les désagréments liés à la marche sur des chemins montagneux difficiles ou au détour de 42 km en contournant quatre bourgs et cantons (邑面) ont complètement disparu.
+○ Depuis la discussion sur l'ouverture de la route de Dotjae le 13 janvier 1973, après pas moins de 4 ans et 8 mois, et en seulement 234 jours à partir du début des travaux effectifs le 9 février jusqu'au 30 septembre, avec plus de 45 000 hommes-jour et un coût total de 164 887 245 wons (dont 106 118 000 wons de subventions et 58 769 245 wons à la charge des habitants), la cérémonie d'inauguration tant rêvée a eu lieu, érigeant un nouveau monument doré pour le mouvement Saemaul.
 
 ### 3) 돗재도로 개설(開設)의 효과
 
-○ 돗재도로 개설로 영외(嶺外) 5개리 8개 자연부락 2,300여 주민이 각종 증명서 한장 발급받기 위하여 20리나 되는 천운산 350고지의 험한 돗재를 걸어 넘거나 버스를 3번이나 갈아 타고서 100여 리 길을 돌아서 가야 일을 보았던 번거로움이 없어졌다.
-○ 더구나 영내(嶺內)에 있는 많은 광업소(鑛業所)에서 채광된 석탄수송의 원활은 물론 영외(嶺外) 주민(住民)이 손쉽게 일자리를 구할 수 있게 되어 농외소득(農外所得)을 증대(增大)시킬 수 있는 계기가 마련되었다.
-○ 이 사업(事業)을 통하여(通하여) 주민들은 많은 것을 배우고 깨달았다. 뜻이 있는 곳에 길이 있다는 평범한 교훈을 체험했고, 협동(協同)과 단결의 힘이 얼마나 위대한가를 실감했고, 또 현세의 우리가 후손들에게 영광스런 유산을 남겼다는 뿌듯한 긍지를 스스로 갖게 되었다.
-그리하여 천운산 중턱 돗재 고개 마루에 비석을 세워 다음과 같은 “새마을의 의지”를 심었다.
+○ Grâce à l'ouverture de la route de Dotjae, les 2 300 habitants des cinq villages et huit hameaux naturels situés en dehors de la crête n'ont plus à traverser à pied le col escarpé de Dotjae, haut de 350 mètres sur le mont Cheonun, sur une distance de 20 ri, ou à changer trois fois de bus pour parcourir plus de 100 ri afin d'obtenir un simple certificat.
+○ De plus, cela a non seulement facilité le transport du charbon extrait des nombreuses mines situées à l'intérieur de la crête, mais a également permis aux habitants de l'extérieur de trouver plus facilement un emploi, créant ainsi une opportunité d'augmenter leurs revenus non agricoles.
+○ À travers ce projet, les habitants ont beaucoup appris et compris. Ils ont expérimenté la leçon simple que là où il y a une volonté, il y a un chemin, ont ressenti la puissance formidable de la coopération et de la solidarité, et ont éprouvé une fierté légitime en laissant un héritage glorieux aux générations futures.
+Ainsi, une stèle a été érigée au col de Dotjae, sur le flanc du mont Cheonun, portant l'inscription suivante : « La volonté de Saemaul ».
 
 ### 새마을의 의지(意志)
 
-험준한 돗재 때문에 한많은 설움과 말할 수 없는 불편을 겪어야 했던 우리들 한천면민(寒泉面民)은 이 도로를 뚫기 위해 근면(勤勉), 자조(自助), 협동(協同)의 새마을 정신(精神)으로 굳게 뭉쳐 이른 새벽부터 밤늦게까지 횃불을 밝혀 들고 힘을 모아 열심히 일했습니다. 이에 박정희(朴正熙) 대통령(大統領) 각하께서 하사금을 내려 주셨고 고건(高建) 도지사(道知事)님께서는 직접 현지를 찾아 저희들을 격려하여 주셨습니다. 우리들 한천면민(寒泉面民)은 우리를 도와주신 모든 분들께 진정으로 감사를 드리면서 온 면민(面民)이 새마을 푸른 의지로 쌓아올린 이 영광의 금자탑을 길이 전하기 위해 여기에 이 뜻을 새겨 돗재도로 개설(開設) 기념비를 세웁니다.
+Nous, les habitants de Hancheon, avons enduré de nombreuses souffrances et des inconvénients indicibles à cause du col escarpé de Dotjae. Pour percer cette route, nous nous sommes fermement unis dans l'esprit de Saemaul, fait d'assiduité, d'entraide et de coopération, travaillant dur du petit matin jusqu'à tard dans la nuit, torches à la main. En reconnaissance, le Président Park Chung-hee nous a octroyé une subvention, et le gouverneur Ko Kun s'est rendu sur place pour nous encourager. Nous, habitants de Hancheon, exprimons notre profonde gratitude à tous ceux qui nous ont aidés et érigeons cette stèle commémorative de l'ouverture de la route de Dotjae pour transmettre à jamais ce monument doré, construit par la volonté verte de tout un village.
 
 1977. 9. 30 한천면민 일동
 
-### 4) 새마을 협동권(協同圈) 사업(事業)에 대한 격려 및 지원
+### 4) Encouragements et soutien aux projets de cercles de coopération Saemaul
 
-○ 숙원사업(宿願事業) 추진(推進)은 진정이나 특정인의 공약사업(公約事業)으로 이루어지는 것이 관례(貫例)이나 돗재 도로(道路) 개설(開設) 사업(事業)은 전(全) 주민(住民)이 총(總) 궐기(蹶起)하여 분연히 일어선 새마을의 의지(意志)로서 이룩하였다.
+○ Bien que la réalisation des projets tant désirés soit généralement l'affaire d'une promesse politique ou de quelques individus, l'ouverture de la route de Dotjae a été accomplie grâce à la volonté collective de Saemaul, où tous les habitants se sont levés d'un seul élan.
 ○ 면민대회(面民大會)는 물론 1,200여 명이 참여(參與)한 작업(作業) 현장(現場)에 본면(本面) 출신(出身) 국회의원(國會議員)(문형태(文亨泰) 장군(將軍)) 및 화순(和順) 군수(郡守)(문병우(文炳宇))를 비롯한 각(各) 기관(機關) 단체(團體) 기관장(機關長)이 위로(慰勞) 격려와 현지지도(現地指導)를 하여 주었으며 전남매일(全南每日)신문, 전남일보(全南日報), 문화방송(文化放送) 및 기독교방송 등 각 매스컴에서도 공사(工事) 추진(推進)에 대한 모습을 생생(生生)하게 보도(報道)하여 주었으며 계속해서 MBC-TV와 KBS-TV에서도 방송(放送)되었다.
 
 
@@ -2107,11 +2107,11 @@ O Il a d'abord rendu visite individuellement à plusieurs reprises aux personnes
 --- (p. 81) ---
 
 지(地) 1,000평(坪)을 희사(喜捨)하는 데 동의(同意)했고.
-- O 진삼섭(陳三燮)은 마을안길 확장(擴張)에 따라 철거(撤去)될 주택(住宅) 등(等) 건물(建物) 2동(楝)을 자진철거(自進撤去)할 것을 약속(約束)함으로써
+- M. Jin Sam-seop a promis de démolir volontairement deux bâtiments, dont sa maison, qui devaient être retirés pour l'élargissement des chemins dans le village.
 - O 1977년(年) 4월(月) 20일(日) 역사적(歷史的)인 마을 개혁사업(改革事業)에 착수(着手)하게 되었고
 - O 4월(月) 말(末)부터 240만원(萬원)에 상당(相當)하는 시비지원자재(市費支援資材)가 도착(到着)되었으며 주민(住民)들은 각반별(各班別)로 작업반(作業班)을 편성(編成), 연일 고된 작업(作業)을 추진(推進)한 끝에
 - O 11월(月) 말(末) 현재(現在) 총사업비(總事業費) 975만원(萬원) (지원(支援) 240만원(萬원) 주민부담(住民負擔) 735만원(萬원))을 투입(投入)하고 연인원(延人員) 2,100여명(餘名)이 동원(動員)되어
-- O 계획사업(計劃事業)을 모두 마무리짓고, 각(各) 가정별(家庭別) 개인사업(個人事業)과 환경미화작업(環境美化作業)을 계속 추진(推進)하고 있다.
+- Après avoir achevé tous les projets planifiés, chaque foyer poursuit ses propres initiatives ainsi que les travaux d'embellissement de l'environnement.
 
 5) 토지(土地) 및 현금희사상황(現金喜捨狀況)
 
@@ -2136,7 +2136,7 @@ O Il a d'abord rendu visite individuellement à plusieurs reprises aux personnes
 
 〈제1화(第1話)〉
 - O 1976년(年) 5월(月) 마을 주민(住民)들의 오랜 숙원사업(宿願事業)이던 간이상수도사업(簡易上水道事業)에 착공(着工)하여 전주민(全住民)이 총동원(總動員)되어 작업(作業)을 추진(推進)하고 있던 중(中)
-- O 배관공사(配管工事)를 위한 굴착작업장(掘鑿作業場)에 뜻하지 않았던 암반(暗盤)이 나타나 작업(作業)을 중단(中斷)하게 되자
+- En raison de la découverte inattendue d'un substrat rocheux sur le site de creusement pour les travaux de canalisation, les opérations ont dû être interrompues.
 - O 조(趙) 지도자(指導者)를 비롯한 마을 주민(住民)들이 당시(當時) 부시장(副市長)인 유원형(柳沅衡) 씨(氏)를 방문(訪問)하여 딱한 사정(事情)을 호소(呼訴)했다.
 
 
@@ -3358,25 +3358,25 @@ Dans les années 1980, si le lait est produit dans chaque foyer, le revenu par f
 
 --- (p. 120) ---
 
-입하여 78년까지 기르면 약 30만(萬)원 정도가 되니 그때 가서 젖송아지로 교체하는 방법이 어떻겠습니까?
-정재봉: 한우 송아지는 지금 얼마나 값이 나갑니까?
-오의경: 그거야 가격의 차이가 있겠지만 내가 보니까 16만(萬)원 정도면 보통으로 구입할 수 있겠습니다.
-박동수: 그러면 부담이 20만원에서 6만원으로 적게 드니 그 방법이 좋을 것 같습니다.
-사회자: 여러분의 말씀을 종합해 보면 10만(萬)원에 6만원을 보태서 16만원짜리 한우송아지를 사서 1년 동안 사육한 후 젖소로 교체하자는 방안이군요. 여기에 이의가 없으신지요.
+Si on l'élève jusqu'en 1978, cela pourrait valoir environ 300 000 wons. Que penseriez-vous de l'échanger contre un veau laitier à ce moment-là ?
+Jeong Jae-bong : Quel est le prix actuel d'un veau de race Hanwoo ?
+Oh Uigyeong : Bien qu'il y ait une différence de prix, d'après ce que je vois, on peut normalement l'acheter pour environ 160 000 wons.
+Park Dongsu : Dans ce cas, comme la charge passe de 200 000 wons à 60 000 wons, cette méthode semble bonne.
+Animateur : En résumant vos propos, il s'agit de proposer d'ajouter 60 000 wons à 100 000 wons pour acheter un veau de bœuf Hanwoo à 160 000 wons, de l'élever pendant un an, puis de le remplacer par une vache laitière. Personne n'a d'objection à cette proposition, n'est-ce pas ?
 회원일동: 좋습니다.
-사회자: 그러면 사육하실 분을 선정합시다.
-김창수: 신청자 순서대로 결정합시다.
-사회자: 송아지 사육하실 분을 말씀드리면 박동수, 정운양, 송몽용, 정봉양, 정묵양, 김창수 오의영, 정태원, 박동현, 정재수, 박영식, 조무웅, 박시용, 강대호, 정창섭 이상 15명으로 결정하겠습니다.
-사육하실 분은 다음 사항(事項)을 준수하여야 합니다.
-가. 78년대에는 젖소를 교체하는 데 이의 없어야 한다.
-나. 교체 후 80년까지는 임의(任意) 판매할 수 없다.
-다. 80년에 생산(生産)된 송아지는 부락(部落)에 반환(返還)하고 성우(成牛)는 사육자 소유(所有)가 된다.
-라. 사육 도중 불의(不意)로 질병(疾病)이나 폐사(斃死)할 경우 손해액(損害額) 책임(責任)은 사육자가 부담하며 지원분(支援分) 원금(元金)은 반환(返還)하여야 한다.
-마. 생산(生産)된 우유는 마을 공동출하(共同出荷) 원칙(原則)으로 한다.
-사회자: 그러면 이것으로써 본 부락(部落) 총회(總會)를 전부 마치겠습니다.
+Animateur : Désignons maintenant la personne qui va l'élever.
+Kim Changsu : Décidons dans l'ordre des candidats.
+Animateur : Voici les personnes désignées pour élever le veau : Park Dongsu, Jeong Unyang, Song Mongyong, Jeong Bongyang, Jeong Mookyang, Kim Changsu, Oh Uiyeong, Jeong Taewon, Park Donghyeon, Jeong Jaesu, Park Yeongsik, Jo Muung, Park Siyong, Kang Daeho, Jeong Changseop, soit un total de 15 personnes.
+Les personnes chargées de l'élevage doivent respecter les points suivants :
+a. En 1978, il ne doit pas y avoir d'objection au remplacement de la vache laitière.
+b. Après le remplacement, la vente arbitraire ne sera pas autorisée jusqu'en 1980.
+c. En 1980, les veaux produits seront restitués au village (部落) et les bœufs adultes (成牛) deviendront la propriété de l'éleveur.
+d. En cas de maladie imprévue ou de décès pendant l'élevage, l'éleveur assumera la responsabilité du montant des dommages et devra rembourser le capital de la partie subventionnée (支援分).
+e. Le lait produit sera soumis au principe d'expédition collective du village.
+Animateur : Sur ce, nous allons clore cette assemblée générale du village (部落).
 <회의(會議) 참석자(參席者)>
-이길수, 정희철, 박영식, 정재건, 최의목, 신일선, 정재봉, 유문성, 신사용, 김수복,
-정희범, 김복출, 정운양, 정묵양, 원용주, 송동용, 김창수, 조무웅, 정주양, 박동수, 김찬규,
+Lee Gilsu, Jeong Huicheol, Park Yeongsik, Jeong Jaegeon, Choi Uimok, Shin Ilseon, Jeong Jaebong, Yu Munseong, Shin Sayong, Kim Subok,
+Jeong Huibeom, Kim Bokchul, Jeong Unyang, Jeong Mookyang, Won Yongju, Song Dongyong, Kim Changsu, Jo Muung, Jeong Juyang, Park Dongsu, Kim Changyu
 윤태식, 조태언, 강대호, 조태일, 정의양, 이희숭, 정봉정, 정태원, 정태영, 정재문, 오의경,
 박운하, 양희문, 박동연, 노영기, 박봉출, 박일득, 김해곤, 임성규, 이항노, 강종철, 전동근,
 정재수, 안일준, 전용철, 정재언, 정우양.
@@ -4246,8 +4246,8 @@ O 농가(農家) 소득(所得) 현황(現況)
 ![도식: 마을 조직도](/images/page_146_img_1.png)
 
 마을 조직도는 다음과 같은 계층 구조를 가지고 있다:
-*   최상위에는 '새마을 지도자(指導者)'와 '이장(里長)'이 나란히 위치한다.
-*   이들의 아래에 '마을 개발(開發) 위원회(委員會)'가 있다.
+*   Au sommet se trouvent côte à côte le 'leader du Saemaul (指導者)' et le 'chef de village (里長)'.
+*   En dessous d'eux se trouve le 'Comité de développement (開發) du village (委員會)'.
 *   마을 개발(開發) 위원회(委員會) 아래로는 '청년회(青年會)', '부녀회(婦女會)', '4-H', '노년(老年) 봉사대(奉仕隊)'의 네 조직이 분화되어 있다.
 
 
@@ -4287,14 +4287,14 @@ Le chef de village(里長) présidant l'assemblée(司會) : Nous allons procéd
 
 --- (p. 148) ---
 
-이 회의를 진행하기 위해서는 임시 새마을지도자(指導者)를 이영섭씨께 위임(委任)하여 진행하겠습니다.
+Pour mener cette réunion, nous allons confier temporairement le rôle de leader du Saemaul (指導者) à Monsieur Lee Young-seop afin de la diriger.
 주민 여러분 어떻습니까?
 유재민 : Bonne parole. Y a-t-il des objections parmi vous, chers habitants ?
 주민일동: C'est d'accord.
 결의안(決議案): Le guide du nouveau village (指導者) a été élu par vote (投票結果) M. Lee Young-seop.
 
 ### Participants à la réunion (會議參席者)
-문재수, 김춘식, 김동원, 김선표, 최병욱, 김장식, 권흥수, 김선문, 조성준, 안철진, 정방한, 하상학, 성낙중, 한재헌, 원명희, 김동윤, 김정호, 김도일, 최민구, 박노윤, 하갑진, 최봉용, 원두희, 최두영, 최병무, 김권식, 권상일, 원종철, 정양조, 이종석, 최영수, 최명학, 이효순, 장교선, 남기복, 강대원, 양준용, 원부희, 강명원, 이상설, 이상설, 송병근, 최병수, 권영필, 조성옥, 김학삼, 허인용, 최윤식, 김도식
+Mun Jae-su, Kim Chun-sik, Kim Dong-won, Kim Seon-pyo, Choi Byeong-uk, Kim Jang-sik, Kwon Heung-su, Kim Seon-mun, Jo Seong-jun, Ahn Cheol-jin, Jeong Bang-han, Ha Sang-hak, Seong Nak-jung, Han Jae-heon, Won Myeong-hui, Kim Dong-yun, Kim Jeong-ho, Kim Do-il, Choi Min-gu, Park No-yun, Ha Gap-jin, Choi Bong-yong, Won Du-hui, Choi Du-yeong, Choi Byeong-mu, Kim Gwon-sik, Kwon Sang-il, Won Jong-cheol, Jeong Yang-jo, Lee Jong-seok, Choi Yeong-su, Choi Myeong-hak, Lee Hyo-sun, Jang Gyo-seon, Nam Gi-bok, Kang Dae-won, Yang Jun-yong, Won Bu-hui, Kang Myeong-won, Lee Sang-seol, Lee Sang-seol, Song Byeong-geun, Choi Byeong-su, Kwon Yeong-pil, Jo Seong-ok, Kim Hak-sam, Heo In-yong, Choi Yun-sik, Kim Do-sik
 
 ♦ Procès-verbal (會議錄) (2)
 
@@ -4586,15 +4586,15 @@ De cette manière, la cohésion et la coopération des résidents acquises lors 
 
 --- (p. 157) ---
 
-소 등 많은 새마을 사업의 실적을 거양하였으며 농촌주택 개량 자금 325만원을 지원받아 20여 동의 주택을 개량하기도 하였다.
-O 도내에서 우수마을로 평가받게 된 이 마을에서는 76 전국새마을지도자대회에서 각하(閣下) 특별지원금 150만원을 지원받았으며, 이 특별지원금으로는 마을 공동(共同) 소득사업인 인삼포 600칸을 설치하였고 효과연도(效果年度)인 80년도에는 500만원의 공동소득을 목표로 하고 있으며 모든 작업을 공동으로 실시하고 있어 주민들의 협동심(協同心)은 더 한층 굳게 다져질 수 있는 계기가 되기도 하다.
+Ils ont accompli de nombreux résultats dans les projets Saemaul, notamment l'élevage de bovins, et ont reçu un financement de 3,25 millions de wons pour l'amélioration des logements ruraux, permettant la rénovation de plus de 20 maisons.
+Ce village, évalué comme un village modèle dans la province de O, a reçu un soutien spécial de 1,5 million de wons de la part de Son Excellence (閣下) lors de la 76e Conférence nationale des leaders du Saemaul. Ce fonds spécial a été utilisé pour installer 600 cadres de culture de ginseng, un projet de revenu communautaire. Pour l'année d'effet 1980, l'objectif est d'atteindre un revenu communautaire de 5 millions de wons. Toutes les activités étant réalisées en commun, cela a permis de renforcer encore davantage l'esprit de coopération (協同心) parmi les habitants.
 
 ## 2) 지도자(指導者)의 활동상황(活動狀況)
 
-O 70년 박대통령(朴大統領) 각하(閣下)께서 새마을운동을 제창(提唱)하신 이래 71년 이 마을에서도 새마을사업 추진 계획 및 새마을지도자 선정에 따른 마을총회를 개최하였으며, 앞으로의 새마을 사업을 협의하기로 하였다.
-O 71. 10. 28. 마을총회를 개최하고 시멘트 335포 사용에 대한 사업계획을 수립하기에 이르렀으며 이날 총회에서 공동(共同)우물 3개소와 하수구, 암거 등을 각각 실시하기로 결정하였으며, 처음으로 개최한 이날 마을총회에는 주민 62명이 참석, 각자 사업을 제시하기로 하였다.
-O 새마을지도자 선출에 따른 71. 11. 13일 마을총회에서 주민들은 각각 마을의 지도자가 될 가장 유능하고 지도력이 강한 몇 사람을 추천하여 무기명투표로 4-H자원지도자 경험이 있으며 젊은 청년 중 가장 활동성이 많고 지도력이 강한 정영채씨를 최초 이 마을 새마을 지도자로 선출하였다.
-O 이날 총회에서 새마을지도자로 선출된 정영채 지도자는 본적(本籍)은 강화(江華)로서 강화(江華)의 고등학교를 졸업하였으며, 이 마을 예비군 소대장(小隊長)을 역임(歷任)한 바 있어 가장 적임자(適任者)로 다음과 같이 절대(絶對) 다수표(多數票)로 선임된 것이다.
+Depuis que Son Excellence (閣下) le Président Park (朴大統領) a lancé le mouvement Saemaul en 1970, ce village a également tenu une assemblée générale en 1971 pour discuter du plan de promotion des projets Saemaul et de la sélection des leaders du Saemaul, afin de délibérer sur les futurs projets Saemaul.
+Le 28 octobre 1971, une assemblée générale du village a été organisée pour établir un plan d'utilisation de 335 sacs de ciment. Lors de cette réunion, il a été décidé de réaliser trois puits communautaires (共同), des égouts et des canalisations souterraines. Lors de cette première assemblée générale du village, 62 habitants ont participé et chacun a proposé des projets.
+Lors de l'assemblée générale du village du 13 novembre 1971 suivant l'élection du leader du Saemaul, les habitants ont recommandé plusieurs personnes parmi les plus compétentes et dotées d'un fort leadership pour devenir le leader du village. Par un vote à bulletin secret, ils ont élu M. Jeong Yeong-chae, un jeune homme très actif et doté d'un fort leadership, ayant une expérience de leader des ressources 4-H, comme premier leader du Saemaul de ce village.
+Lors de cette assemblée, le leader du Saemaul élu, M. Jeong Yeong-chae, originaire de Ganghwa (江華) et diplômé du lycée de Ganghwa (江華), avait précédemment occupé le poste de chef de peloton des forces de réserve du village. Il a été désigné comme le candidat le plus approprié (適任者) et a été nommé avec une majorité absolue (絶對多數票).
 
 <새마을지도자 투표(投票) 결과(結果)>
 
@@ -4602,10 +4602,10 @@ O 이날 총회에서 새마을지도자로 선출된 정영채 지도자는 본
 | :--------- | :----- | :------- | :------- | :------- | :------- |
 | 득표수(得票數) | 32     | 22       | 8        | 7        | 4        |
 
-O 초대 새마을 지도자로 결정된 정영채 지도자는 새마을사업추진은 물론 마을구판사업까지 도맡아 열과 성을 다하여 부락(部落) 발전에 노력하였으나 마을에 있는 소매상과의 문제가 대두되었고 결단성 없는 이장(里長)과의 협조결여로 73. 10. 14일 지도자직(指導者職)을 내놓기도 하였다. 이후 현재까지 5회에 걸쳐 새마을지도자를 교체하면서도 모든 계획된 새마을사업을 계획보다 앞당겨 추진해 온 마을이다.
+Le premier leader du Saemaul, M. Jeong Yeong-chae, s'est investi corps et âme non seulement dans la promotion des projets Saemaul mais aussi dans les travaux d'infrastructure du village. Cependant, des problèmes avec les commerçants locaux et un manque de coopération avec le chef de village (里長), qui manquait de décision, l'ont conduit à démissionner de son poste de leader (指導者職) le 14 octobre 1973. Depuis lors, le village a changé de leader du Saemaul à cinq reprises, tout en avançant plus rapidement que prévu dans la réalisation de tous les projets Saemaul planifiés.
 
 <현(現) 새마을지도자(指導者)의 활동상황(活動狀況)>
-주소 김포군 월곳면 고양리 177번지
+Adresse : 177, Goyang-ri, Wolgot-myeon, Gimpo-gun
 성명(姓名) 이 우 상
 생년월일 1948. 10. 25
 학력(學歷) 중졸(中卒)
@@ -5552,13 +5552,13 @@ Le leader du Saemaul Undong : Bien que le chef du village (里長) ait déjà ex
 
 --- (p. 188) ---
 
-하여 읍내(邑內)에 볼일이 있어서 갔을 때는 사비(私費)를 써서 갔다왔습니다.
+Ainsi, lorsqu'il y avait des affaires à régler au bourg (邑內), j'y allais à mes propres frais (私費).
 Et pour les affaires en ville, j'ai utilisé mes propres fonds pour m'y rendre.
 
-그리고 광산(鑛山)에서 차(車)를 내주어 자재(資材) 운반(運搬)이 용이(容易)하였습니다. 이 자리를 빌려 광산(鑛山) 측에 감사를 드
+De plus, la mine (鑛山) a fourni un véhicule (車) pour faciliter le transport (運搬) des matériaux (資材). Je profite de cette occasion pour remercier la direction de la mine (鑛山).
 De plus, la mine a fourni un véhicule pour le transport des matériaux, ce qui a grandement facilité les choses. Je saisis cette occasion pour exprimer ma gratitude envers la mine.
 
-며 마을 복지관(福祉館)을 지을 때 목수(木手) 일을 30일간(日間)이나 무료(無料) 봉사(奉仕)한 박(朴)노인(老人)에게 거듭 감사를 드립니다.
+Je tiens également à remercier encore une fois M. Park (朴), un aîné, qui a offert bénévolement (無料奉仕) ses services de charpentier (木手) pendant 30 jours (日間) pour la construction du centre de bien-être (福祉館) du village.
 Et je tiens à remercier à nouveau M. Park, qui a offert 30 jours de travail gratuit en tant que charpentier pour la construction du centre communautaire.
 
 엄화자 : 이렇게 마을 복지회관(福祉會館)을 짓기까지 사업(事業) 지도(指導)와 작업(作業) 지도(指導)에 애써 주신 새마을 지도자와 이장(里長)님께 감사를 드립니다.
@@ -7213,7 +7213,7 @@ Je vous demande donc de discuter librement de la manière dont nous pourrions ut
 
 --- (p. 238) ---
 
-가 어디 땅을 내놓을 사람이 있으면 말해 보라구.
+Si quelqu'un a un terrain à céder, qu'il le dise.
 **Transmis par le fer**: Si nous élargissons la route, jusqu'où iriez-vous ? Si nous élargissons jusqu'à la maison du vieux Kim le long de la nouvelle route (新作路), cela ferait au moins 200 mètres.
 **Animateur (司會者)**: Comme l'a dit M. Transmis par le fer, la longueur serait de 200 mètres et la largeur de la route (路幅) devrait être d'environ 5 mètres. Vous avez tous exprimé diverses opinions. Profitons de cette occasion pour élargir l'accès au village (進入路). La dernière fois, nous avons cultivé des choux et il nous a fallu toute la journée pour charger la voiture (車) sur la nouvelle route (新作路). Le chauffeur a dit que cela lui avait pris beaucoup de temps (時間) et a demandé 3 000 wons de plus. Nous avons finalement transigé (妥協) à 1 500 wons.
 Pour élargir la route, il y a des réticences en raison des terres à intégrer (編入用地), mais nous devons d'abord nous mettre d'accord sur le principe (原則) d'élargir la route du village de 200 mètres à 5 mètres et résumer (集約) les opinions (意見) des habitants (里民).
@@ -7523,7 +7523,7 @@ Dans ces conditions difficiles, le Saemaul Undong (새마을운동) est devenu p
 
 --- (p. 248) ---
 
-하고 마을 앞 800m 지점(地點)에 공동(共同) 급수정(給水井)을 만들어 사용(使用)하여왔으며,
+et, jusqu'à présent, ils ont utilisé un puits commun d'approvisionnement en eau situé à 800 mètres devant le village,
 En 1976, chaque foyer a pu bénéficier d'un approvisionnement en eau grâce à un réservoir de collecte de 50 tonnes et à un système de distribution d'eau de 5,5 km, acheminant l'eau depuis un puits de distribution construit par les femmes du village à 250 m du sommet de la montagne, où elles avaient transporté 40 charges de sable sur 6 km en dehors du village. Ainsi, le vieux rêve de 500 ans des habitants de ce village, qui avaient souffert quotidiennement de problèmes d'eau, a enfin été réalisé. La construction d'un système d'eau potable simplifié a permis aux dirigeants et aux habitants de prendre conscience des possibilités infinies du Mouvement Saemaul et du pouvoir mystérieux de l'unité. Ils ont alors réalisé que la raison pour laquelle leur village était en retard sur le plan historique était due à leur résignation face aux défis naturels, et ils ont décidé de surmonter ces obstacles pour vivre mieux.
 
 Le plus grand souhait de ce village était de construire une route de 12 km à travers les montagnes pour relier le marché de Samcheok et le siège de Nogok-myeon.
@@ -7685,7 +7685,7 @@ O Les enfants de l'école primaire de Yeosam (閭三分校) ont formé des équi
 
 # O 76년도(年度) 사업(事業) 실적(實績)
 
-| 사업명 | 사업량 | 계 | 지원 | 주민 | 착공 | 준공 |
+| Nom du projet | Volume des travaux | Total | Subvention | Résidents | Début des travaux | Achèvement |
 |---|---|---|---|---|---|---|
 | 산간(山間) 도로(道路) 개설(開設) | 2km | 12,212 | 4,222 | 7,990 | 2.25 | 7.30\* |
 | 진입로(進入路) 포장(鋪裝) | 294m | 3,534 | 2,467 | 1,067 | 4. 5 | 6.27 |
@@ -7710,7 +7710,7 @@ O Les enfants de l'école primaire de Yeosam (閭三分校) ont formé des équi
 
 # O 77년도(年度) 사업(事業) 실적(實績)
 
-| 사업명 | 사업량 | 계 | 지원 | 주민 | 착공 | 준공 |
+| Nom du projet | Volume des travaux | Total | Subvention | Résidents | Début des travaux | Achèvement |
 |---|---|---|---|---|---|---|
 | 산간(山間) 도로(道路) 보수(補修) | 12km | 6,500 | | 6,500 | 3.10 | 년 중 |
 | 복지회관 건립(建立) | 1동(50평) | 7,500 | 5,000 | 2,500 | 76.12.15 | 77. 7. 8 |
@@ -7804,7 +7804,7 @@ Park Jae-myeong (朴載明) : Comme l'a dit le chef de village (里長), discuto
 
 --- (p. 256) ---
 
-# 리(里) 장(長) : 여러분 의견(意見)은 어떻습니까?
+# Chef du village (里 長) : Quel est votre avis, mesdames et messieurs ?
 **Kim Jun-seok** : Élargir la route est une bonne idée, mais il y a un problème dans la manière de le faire. Discutons d'abord de la méthode.
 **Ri(里) 장(長)** : Alors, considérons qu'il n'y a pas d'objection à l'élargissement de la route et discutons de la méthode.
 **Jeong Yeon-mo (鄭然模)** : Si nous élargissons la route, ma terre sera considérablement affectée. Je ne peux pas simplement donner ma terre. Si nous calculons la valeur de la terre au prix du marché, peut-être.
@@ -8590,21 +8590,21 @@ Je m'excuse de vous en parler, mais il s'agit d'une affaire importante pour l'av
 
 --- (p. 282) ---
 
-헐고 담헐고 터들여서 나만 손해를 보라는 말이요. 나는 그렇게는 못 하겠소.
-권재하: 어른 말씀도 지 당하십니다만 우리 마을이 지금까지 낙후(落後)되고 발달(發達)하지 못했던 과거(過去)를 생각해서라도 토지(土地)가 들어가는 분이나 집이 헐리는 분께서 넓은 아량으로 희사(喜捨)해 주시지 않으면 우리 마을은 계속 낙후(落後)성을 면치 못할 것입니다. 모쪼록 우리 마을의 발전(發展)을 위해서 적극(積極) 협조(協助)하여 주실 것을 당부드립니다.
-마을안길 확장(擴張)으로 인해 헐린 담장은 우리 마을 청년(靑年) 회원(會員)들이 전부(全部) 고쳐 드리도록 하겠습니다.
-사회자: 네, 권재하(權在夏) 청년(靑年) 회장(會長) 말씀과 같이 땅 들어가고, 담장 헐고, 집 고치는 것은 각기 어른들께서 허락해 주신다면 우리 마을을 새로운 동네로 만들겠습니다.
-서봉삼: 잘 알겠소. 지도자하고 청년회장이 이끄는 대로 우리는 일만 할 것이니 제발 내 땅이 다 들어가더라도 동네만 잘 만들어 주면 고맙겠소.
-서규석: 이 사람아 무슨 소린가? 내 70평생 여기서 살아왔네만 골목 좁아 짐 못 날라 농사 못 짓지 않았네 그대로 두고도 얼마든지 잘 살 수 있겠네. 나는 반대한다고, 반대야 반대.
-이범섭: 아저씨 그게 무슨 말씀입니까. 우리 이웃 동네들은 길을 넓히고 경운기가 집집마다 무사통과(無事通過)로 들어가는데 비료나 사료를 싣고 집 앞까지 차가 들어오면 얼마나 좋겠습니까? 아저씨가 젊었을 때 못한 일들을 지금 젊은이들이 해내겠다는데 거들지는 못할망정 반대야 할 수 없지 않겠습니까.
+On veut tout démolir et m'obliger à subir seul les pertes. Je ne peux pas accepter cela.
+Kwon Jae-ha : Ce que vous dites, Monsieur, est tout à fait juste, mais en pensant au passé où notre village est resté en retard et n'a pas pu se développer, ceux dont les terres seront utilisées ou dont les maisons seront démolies devraient faire preuve de générosité et faire un don pour éviter que notre village ne reste en retard. Je vous demande instamment de coopérer activement pour le développement de notre village.
+Les murs de clôture démolis en raison de l'élargissement des chemins dans le village seront tous réparés par les membres jeunes de notre village.
+Animateur : Comme l'a mentionné le président des jeunes, Kwon Jae-ha, si les aînés donnent leur accord pour les terrains utilisés, les murs démolis et les maisons réparées, nous transformerons notre village en un nouveau quartier.
+Seo Bong-sam : Je comprends bien. Nous suivrons les dirigeants et le président des jeunes, nous n'avons qu'à travailler. S'il vous plaît, même si tout mon terrain est utilisé, faites juste en sorte que le village soit bien aménagé, je vous en serais reconnaissant.
+Seo Gyu-seok : Mais qu'est-ce que tu racontes ? J'ai vécu ici pendant 70 ans, et nous n'avons jamais eu de problèmes pour transporter des charges ou cultiver à cause des ruelles étroites. Nous pouvons très bien continuer à vivre ainsi. Je m'y oppose, je m'y oppose catégoriquement.
+Lee Beom-seop : Monsieur, que dites-vous là ? Dans les villages voisins, ils ont élargi les chemins et les motoculteurs passent sans problème jusqu'à chaque maison. Ne serait-ce pas formidable si les camions pouvaient apporter les engrais et les aliments pour animaux jusqu'à notre porte ? Les jeunes veulent accomplir ce que vous n'avez pas pu faire dans votre jeunesse, au lieu de les contredire, ne devriez-vous pas les soutenir ?
 주민 일동: 옳소.
-사회자: 그러면 전부 찬동(贊同)하시는 것으로 알고 당장 내일부터라도 사업(事業)을 실시(實施)하겠습니다. 그러면 다음으로 마을 기금(基金) 조성(造成)에 대하여 말씀드리겠습니다. 지금 동네 쌀이 10가마가 있는데 이중에 5가마만 떼어서 안길 확장(擴張)하고 하수구 등 새마을사업 기금(基金)으로 사용(使用)코자 하는데 여러분 의향(意向)은 어떤지요?
-김갑규: 이 사람아 그 쌀은 우리 조상(祖上)들로부터 대대로 모아온 쌀인데 그걸 어째서 쓸랴고 하는가? 더 모두지는 못할망정 잘라 먹으면 조상(祖上)들에게 미안하단 생각도 안 드는가? 안되네 안 돼.
-사회자: 어른께서 하시는 말씀도 일리(一理)는 있습니다만 언젠가 우리 마을이 잘 살 수 있도록 하기 위하여 모은 쌀이니 이번 기회(機會)에 이 사업(事業)에 쓰면 일이 잘되면 더 많은 기금(基金)도 확보(確保)될 수 있다고 봅니다. 그러니 동네 어른들께서 심사숙고(深思熟考)하시어서 이 기금(基金)을 쓰도록 해주시면 고맙겠습니다.
-김석근: 이제 내 70고령(高齡)에 동네 잘 살게 되는 모습도 보고 우리가 못한 일들을 젊은이들에게 맡기는 이상 동네 일만 맡길 것이 아니라 경제권(經濟權)도 젊은이들에게 넘겨주어 젊은이들 맘대로 운영(運營)하도록 하는 것이 옳겠네.
-서규석: 그럼 젊은 사람들 멋대로들 하게 우리는 모르겠네. 나중 잘못됐을 때 우리에게 혼날 줄 알게. 우리 늙은이들은 가겠네.
-이범주: 좋습니다. 우리 젊은이에게 모두 위임(委任)하시고 어른들은 돌아가시기 바랍니다.
-젊은이 일동: 우리 젊은이들에게 맡기십시오.
+Animateur : Donc, si tout le monde est d'accord, nous commencerons les travaux dès demain. Maintenant, parlons de la constitution du fonds du village. Nous avons actuellement dix sacs de riz dans le village, et nous souhaitons en prélever cinq pour élargir la rue principale et financer les égouts ainsi que d'autres projets de développement du village. Quel est votre avis à ce sujet ?
+Kim Gab-gyu : Écoutez-moi bien, ce riz a été accumulé de génération en génération depuis nos ancêtres. Pourquoi voudriez-vous l'utiliser ? Même si nous ne pouvons pas en ajouter, le réduire serait manquer de respect envers nos ancêtres. Non, c'est hors de question.
+Animateur : Ce que vous dites, Monsieur, est compréhensible, mais ce riz a été accumulé pour que notre village puisse prospérer un jour. En l'utilisant pour ce projet maintenant, si tout se passe bien, nous pourrons obtenir encore plus de fonds. Je vous demande donc, chers aînés du village, de bien réfléchir et de nous permettre d'utiliser ce fonds. Merci.
+Kim Seok-geun : Maintenant, à mon âge avancé de 70 ans, voyant notre quartier prospérer et devant confier aux jeunes les tâches que nous n’avons pas pu accomplir, il ne faudrait pas seulement leur confier les affaires du quartier, mais aussi leur céder le pouvoir économique pour qu’ils puissent l’exploiter à leur guise.
+Seo Gyu-seok : Alors, laissons les jeunes faire comme ils l’entendent, nous ne nous en mêlerons pas. Mais sachez que si quelque chose tourne mal, ce sera à nous de les réprimander. Nous, les anciens, allons partir.
+Lee Beom-ju : Très bien. Confiez-nous tout et nous espérons que les aînés rentreront chez eux.
+Tous les jeunes : Confiez-nous cela.
 노인 일동: 잘들 해보게.
 
 
@@ -8857,23 +8857,23 @@ Un soir, ils virent un de ces jeunes avoir perdu tout son riz, reçu en salaire 
 
 --- (p. 291) ---
 
-이 절골(折骨)되어 경찰지서(警察支署)의 호출(呼出)을 당한 적도 있었다.
-- 그러나 지서장(支署長)의 따뜻한 온정(溫情)으로 훈계(訓戒)받고 돌아온 김지도자(金指導者)는 우선(優先) 마을의 주점(酒店)부터 없애야 하겠다고 생각하여 부녀회(婦女會)의 협조(協助)를 얻어 술집 주인(主人)으로부터 자진폐점(自進閉店)토록 하는데 성공(成功)하였다.
-- 하늘은 스스로 돕는 자를 돕는다는 말과는 달리 대대(代代)로 내려온 숙원사업(宿願事業)인 교량가설(橋梁架設)에 때아닌 봄장마로 거푸집과 양회(洋灰) 50포가 물에 떠내려가는 변을 당하고 실의(失意)에 빠진 일도 있었다.
-- 또한 마을 중앙(中央)을 흐르는 소하천(小河川)에는 각종(各種) 오물(汚物)과 쓰레기로 모기, 파리, 구더기로 들끓고 있어도 방관(傍觀)만하고 있는 마을 주민(住民)들을 일깨우기 위하여
-- 김지도자(金指導者)는 학림국민학교(鶴林國民學校) 교장(校長)을 찾아가 향우반(鄕友班)을 조직(組織) 새벽청소(淸掃)를 하도록 부탁(付託)한 것이 성공(成功)이 되어
-- 지도자(指導者)는 새벽 일찍 일어나 징을 치고 골목에 다니며 학생(學生)들을 일깨워 함께 청소(淸掃)를 하던 어느 날 한 부모(父母)가 새마을에 미칠 거라면 당신(當身) 혼자만 미칠 것이지 우리 아이 공부도 못하게 청소(淸掃)는 왜 시키느냐고 걱정을 들은 일도 있었다.
-- 이와 같이 어렵게 불붙기 시작(始作)한 주민(住民)들의 협동심(協同心)과 농사개량구락부(農事改良俱樂部) 부녀회(婦女會)의 조직(組織)된 힘을 소득증대사업(所得增大事業)에 주력할 것을 결심하고
-- 외지인(外地人) 대전(大田)에서 높은 가격(價格)으로 공급(供給)되는 속리산(俗離山)의 각종(各種) 접객업소(接客業所)의 고등채소(高等蔬菜)를 우리 마을에서 공급(供給)하도록 하여
-- 개인(個人) 토지(土地)(전(田)) 1,200평(坪)을 임대(賃貸)받아 수익성(收益性)이 높은 상치, 오이, 토마토, 고추 등(等)을 정성껏 재배(栽培)하던 중(中) 때아닌 강풍(强風)으로 비닐 하우스가 부서지면서 모든 작물(作物)이 일시(一時)에 냉해(冷害)가 들어 마을 전주민(全住民)들은 또 한 번 실의(失意)에 잠긴 일도 있었다.
-- 이러한 어려움을 극복(克服)하면서 새마을사업(事業)을 이끌어 나가던 김지도자(金指導者)는 이 집 저 집을 찾아다니며
-- 이 마을은 우리 조상(祖上)들의 뼈가 묻혀 있고 우리가 묻혀야 하고 우리의 후손(後孫)들이 살아야 하는 보금자리라며 마을 개발(開發)에 총화참여(總和參與)하자고 호소(呼訴)하고 설득(說得)을 계속(繼續)하였다.
-- 이것이 한 지도자(指導者)의 끈질긴 집념(執念)이며 불가능(不可能)을 가능으로 연결(連結)하는 길임을 차츰 알게 되었으며
-- 나날이 발전(發展)하고 잘살아가는 이웃 마을 이웃 사람들을 선망(羨望)의 눈초리로 바라만 보았던 이곳 주민(住民)들의 염원(念願)이 한 매듭씩 풀려나는 새 역사(歷史)의 장(章)을 여는 순간이기도 하였다.
+Il est même arrivé que je me fasse casser un os et que je sois convoqué au poste de police local.
+- Cependant, après avoir reçu une réprimande empreinte de bienveillance du chef de poste, le leader Kim, de retour, a d’abord pensé qu’il fallait éliminer les débits de boissons du village. Avec la coopération de l’association des femmes, il a réussi à obtenir la fermeture volontaire des propriétaires de bars.
+- Contrairement au dicton « Le ciel aide ceux qui s’aident eux-mêmes », un projet ancestral de construction d’un pont, transmis de génération en génération, a subi un revers lorsque des pluies printanières inattendues ont emporté les coffrages et 50 sacs de ciment, plongeant tout le monde dans le désarroi.
+- De plus, pour éveiller les habitants du village qui restaient indifférents face à la petite rivière traversant le centre du village, grouillante de divers déchets, de mouches, de moustiques et d’asticots,
+- Le leader Kim s’est rendu chez le directeur de l’école primaire Hakrim pour organiser une classe d’anciens élèves et demander de nettoyer tôt le matin. Cette initiative a réussi,
+- Le leader se levait tôt le matin pour frapper le gong et parcourir les ruelles afin de réveiller les élèves et nettoyer ensemble. Un jour, un parent lui a reproché : « Si vous voulez améliorer le village, faites-le vous-même, mais pourquoi empêcher nos enfants d’étudier en les faisant nettoyer ? »
+- Ainsi, après avoir difficilement éveillé l’esprit de coopération des habitants et organisé les forces des clubs d’amélioration agricole et de l’association des femmes pour se concentrer sur l’augmentation des revenus,
+- Ils ont décidé de fournir depuis leur village les légumes de haute qualité, normalement approvisionnés à des prix élevés depuis Daejeon par divers établissements d’accueil du mont Songnisan,
+- Après avoir loué 1 200 pyeong (environ 4 000 m²) de terres individuelles pour cultiver avec soin des légumes à haut rendement comme la laitue, les concombres, les tomates et les piments, une tempête inattendue a détruit les serres en plastique, provoquant des dégâts dus au froid sur toutes les cultures. Les villageois ont de nouveau sombré dans le désespoir.
+- En surmontant ces difficultés pour poursuivre le projet du Nouveau Village, le leader Kim allait de maison en maison,
+- Il appelait et persuadait sans relâche les habitants en disant : « Ce village est le foyer où reposent les os de nos ancêtres, où nous devons être enterrés et où nos descendants doivent vivre. Participons tous ensemble à son développement. »
+- C'est peu à peu que j'ai compris que cela représentait la persévérance tenace d'un **leader (指導者)**, et le chemin reliant l'**impossible (不可能)** au possible ;
+- Ce fut aussi le moment où les **vœux (念願)** des **habitants (住民)** de ce lieu, qui n'avaient longtemps observé qu'avec des regards envieux (羨望) leurs voisins des villages voisins prospérer et s'épanouir jour après jour, commencèrent à se dénouer, ouvrant ainsi un nouveau chapitre (章) de l'**histoire (歷史)**.
 
 ## 4) 새마을사업(事業)의 발전적(發展的) 추진(推進)
-- 이 마을 주민(住民)은 근면(勤勉) 자조(自助) 협동(協同)의 새마을정신(精神)을 통(通)하여 시련(試錬)과 고난(苦難)을 극복(克服)할 줄 아는 용기(勇氣)를 얻게 되었고 침체(沈滯)와 가난을 헤쳐나갈 수 있는 신념(信念)을 갖게 되었으며 밝은 내일 희망(希望)의 새역사(歷史)를 내다보는 힘찬 약진(躍進)의 도정(途程) 위에서 아래와 같은 사업(事業)을 착실히 추진(推進)하였다.
-- 한많은 보청천(報靑川) 교량(橋梁) 57m를 성공적(成功的)으로 가설(架設)한데 힘입어
+- Grâce à l'esprit du **Saemaul (새마을精神)**, fondé sur la **diligence (勤勉)**, l'**entraide (自助)** et la **coopération (協同)**, les **habitants (住民)** de ce village ont acquis le **courage (勇氣)** de surmonter les **épreuves (試錬)** et les **difficultés (苦難)**, et ont développé la **foi (信念)** nécessaire pour sortir de la **stagnation (沈滯)** et de la pauvreté. Ils ont ainsi pu envisager un avenir radieux et **plein d'espoir (希望)**, et ont entrepris avec vigueur les **projets (事業)** suivants sur la voie d'une **progression dynamique (躍進)** :
+- Encouragés par la réussite de la construction du **pont (橋梁)** de **Bocheongcheon (報靑川)**, long de 57 mètres,
 - 73년도(年度)에 마을 진입로(進入路) 1,200m, 농로(農路) 1,600m, 마을 안길 1,500m을 개설(開設)하여 영농(營農)의 기계화(機械化)는 물론 교통(交通)의 편리를 도모했으며
 
 
@@ -9196,7 +9196,7 @@ La. Situation de l'aide gouvernementale
 **Guide (指導者)** : Si nous travaillons dur en suant sang et eau, nous irons au niveau du comté (面) ou du district (郡) pour plaider notre cause (村莊事情) et nous obtiendrons certainement leur soutien (支援).
 **임동수(林東洙)** : Mais que ferons-nous si le district (郡) dit qu'il n'a pas d'argent et refuse de nous soutenir (支援) ?
 **Guide (指導者)** : Le Président (大統領) a dit que les villages qui unissent leurs forces pour bien vivre recevraient un soutien prioritaire (優先支援) par rapport aux autres. Alors, mettons-nous au travail. Cela conclura notre réunion de ce soir. Selon la résolution de l'assemblée des habitants (住民總會), veuillez signer et apposer votre sceau, membres du comité de développement (開發委員) et chefs de section (班長).
-임철수, 임학철, 임준수, 최기환, 송석주, 장재혁, 임헌상, 이재하, 이종락, 김월련, 최학봉, 임헌상, 임준철, 김기종, 임동수.
+Im Cheol-su, Im Hak-cheol, Im Jun-su, Choi Gi-hwan, Song Seok-ju, Jang Jae-hyeok, Im Heon-sang, Lee Jae-ha, Lee Jong-rak, Kim Wol-ryeon, Choi Hak-bong, Im Heon-sang, Im Jun-cheol, Kim Gi-jong, Im Dong-su.
 
 ## ♦Procès-verbal (會議錄) (2)
 Date (日) et heure (時) : 72. 1.3
@@ -9272,7 +9272,7 @@ Participants : Choi Hak-bong, Im Heon-man, Im Cheol-su, Jang Jae-hyuk, Im Euk-su
 # Guide (지도자) : Alors, la présidente de l'association des femmes (부녀회장) va prendre l'initiative et s'occuper du désherbage pour l'élevage de plants villageois (마을양묘). N'est-ce pas une excellente nouvelle ? Travaillons tous dur selon le plan de travail pour augmenter nos revenus. Cela conclut notre réunion de ce soir. Merci.
 
 <Signature et sceau des participants (參席者 署名捺印)>
-임철수, 임익수, 임학철, 임영수, 임헌만, 임금수, 임윤철, 송석주, 임헌창, 이재하, 송광영 임재만, 강충근, 황수창, 김월연
+Im Cheol-su, Im Ik-su, Im Hak-cheol, Im Yeong-su, Im Heon-man, Im Geum-su, Im Yun-cheol, Song Seok-ju, Im Heon-chang, Lee Jae-ha, Song Gwang-yeong, Im Jae-man, Kang Chung-geun, Hwang Su-chang, Kim Wol-yeon
 
 
 --- (p. 302) ---
@@ -10081,24 +10081,24 @@ Malgré l'indifférence des habitants, le chef du village et le secrétaire resp
 
 --- (p. 325) ---
 
-해(解)와 설득(說得)을 시켜 나갔으나
+en procédant à des **explications (解)** et à de la **persuasion (說得)** ;
 
--   주민(住民)들은 고래(古來)로 고질화(固疾化)된 어른으로서 아집(我執)으로 견제(牽制)당하기가 일수고 혹(或) 회의(會議)를 소집(召集)하고 새마을 운동(運動)의 참뜻을 설명(說明)하고 협동심(協同心)과 참여의식(參與意識)을 유발(誘發)키 위하여(爲하여) 노력하였으나 돌아앉아 불평불만(不平不滿)으로 소득(所得)은 전무(全無)였다.
--   이러한 무지(無智)의 마을 환경 속에서 중등학교(中等學校)를 나온 신진(新進)들의 모임인 4-H클럽의 자원지도자(自願指導者)가 되어 새로운 영농기술(營農技術)로써 소득증대사업(所得增大事業)을 기하고
--   이·동(里洞) 공동농장(共同農場)을 조성(造成)하고 특수작물(特殊作物)을 재배(栽培)하여 수익(收益)을 높이는 일과 4-H 경진대회에 출품(出品)하여 입상하게 되는 일 등(等)은 주민(住民)들의 인식(認識)을 달리하게 되었으며
--   점차 새로운 영농방법(營農方法)에 물들기 시작(始作)하게 되었으며 이러한 주민(住民)들의 움직임에 호응(呼應)하여 이 마을을 보다 「이상적(理想的)인 새마을로 만들어 보겠다」는 굳은 각오(覺悟)로 지도자(指導者)를 자원(自願)하게 되었다.
+-   Les **habitants (住民)**, depuis toujours entravés par l'**obstination (我執)** des aînés ancrée (固疾化) depuis des **temps anciens (古來)**, voyaient leurs efforts de contrôle (牽制) se répéter quotidiennement. Malgré les réunions (會議) organisées (召集) pour expliquer le véritable sens du **mouvement Saemaul (運動)**, et les efforts déployés pour éveiller l'**esprit de coopération (協同心)** et la **conscience participative (參與意識)**, ils restaient assis à exprimer des **mécontentements (不平不滿)**, sans aucun **résultat (所得)**.
+-   Dans ce contexte d'**ignorance (無智)** du village, un **leader bénévole (自願指導者)** issu d'un groupe de jeunes ayant fréquenté le **collège (中等學校)**, membre du **club 4-H**, a initié des **projets d'augmentation des revenus (所得增大事業)** en introduisant de **nouvelles techniques agricoles (營農技術)** ;
+-   La création d'une **ferme collective (共同農場)** au niveau du **hameau (里洞)**, la culture de **cultures spéciales (特殊作物)** pour augmenter les **revenus (收益)**, ainsi que la participation à des **concours 4-H** avec des récompenses à la clé, ont commencé à changer la **perception (認識)** des **habitants (住民)** ;
+-   Peu à peu, les habitants ont commencé à s'imprégner de ces **nouvelles méthodes agricoles (營農方法)**. En réponse à cette dynamique, avec la ferme **résolution (覺悟)** de faire de ce village un **village Saemaul idéal (理想的)**, j'ai décidé de me porter **volontaire (自願)** comme **leader (指導者)**.
 
 ### 3) 애로극복상황(隘路克服狀況)
 
--   새마을 지도자(指導者)를 자원(自願)한 뒤 군(郡) 지도소(指導所)나 면(面)으로부터 새로운 영농방법(營農方法)에 관한 서적(書籍)이나 잡지(雜誌)를 구매(購入)하여
--   주민(住民)들이 잘 모이는 사랑방이나 가정(家庭)을 방문(訪問)하여 새로운 농사방법(農事方法)이나 뉴스 등(等)으로 주민(住民)들의 인식(認識)을 새롭게 하며
--   과거(過去) 재래식(在來式) 농사방법(農事方法)에서 오는 여러 가지 폐단과 가까운 일본(日本)이 전후(戰後) 폐허를 딛고 일어나 새롭게 부흥하게 된 일인(日人)들의 농촌생활상(農村生活像) 등(等)을 실례(實例)로 들어가며 설득(說得)을 꾀하였으나
--   주민(住民)들의 반응(反應)은 무관심(無關心) 그대로였으며 오히려 「그렇게 똑똑하면 면장(面長)이나 국회의원(國會議員)이나 하지」하는 무지(無知)의 호형이었다. 이러던 중 이 마을에서도 중류층에 속하는 지씨(池氏)가 소침한 심정으로 방문(訪問)해 왔다.
--   아랫 마을 청천면(靑川面) 대전리(大田里) 마을 지도자(指導者)가 「상의(相議)할 일이 있으니 와달라」는 기별을 받고 가 보았더니 「새마을 농로(農路)를 축조하는데 당신 땅이 들어가니 당신 마을로도 이 길이 이어지니 토지(土地)를 희사하라」는 말이어서 하루 종일 「희사해 달라」 「안된다」 다투고 왔으니 「이 일을 어찌하면 좋겠느냐?」하는 것이었다. 분을 이기지 못하는 지씨(池氏)는 「명일(明日)은 온 집안을 대동(帶同)하여 가서 패싸움이라도 해야겠다」는 말이며 이 마을에서도 청년들이 협조해 줄 것을 종용차 온 것이다.
--   이러한 상황(狀況)하에서 온 마을에 이것이 화제가 되고 다음날 농경지(農耕地)가 인접해 있는 수십명(數十名)의 주민(住民)들이 지원(支援)겸 참관(參觀)도 하기 위하여(爲하여) 대전리(大田里) 부락(部落)으로 모여들게 되었다.
--   여기서 쌍방간 시비곡절(是非曲折)을 논하게 됨에 따른 주장(主張)은 어디까지나 아전인수격(我田引水格)이었다.
-거듭되는 논란 끝에 이들은 덕평(德坪)을 기점(起點)으로 방성리(方城里) 마을까지 5km 지점(地點)에 이르는 곳까지 그 전(前)에 없던 대로(大路)가 생기게 됨으로써
--   우마차(牛馬車)나 택시가 무난히 통행(通行)할 수 있다는 점(點)과 대전리(大田里) 마을 주민(住民)들 중(中)에 방성리(方城里) 마을 쪽으로 농경지(農耕地)를 소유(所有)하고 있는 자(者)가 많다는 점(點)을 감안하여 서로가 소요(所要)되는 농경지희사문제(農耕地喜捨問題)가 대(大)
+-   Après s'être porté **volontaire (自願)** comme **leader Saemaul (指導者)**, j'ai acheté des **livres (書籍)** et des **magazines (雜誌)** sur les **nouvelles méthodes agricoles (營農方法)** auprès du **centre de guidance (指導所)** du **district (郡)** ou de la **commune (面)** ;
+-   En visitant les **salles de séjour (사랑방)** ou les **foyers (家庭)** où les **habitants (住民)** se réunissaient souvent, j'ai renouvelé leur **compréhension (認識)** en discutant des **nouvelles méthodes agricoles (農事方法)** et des **actualités (ニュース)** ;
+-   J'ai tenté de les persuader en citant des **exemples concrets (實例)**, comme les divers **problèmes (弊端)** liés aux **méthodes agricoles traditionnelles (在來式 農事方法)** du **passé (過去)**, ou encore la manière dont les **Japonais (日人)**, après les **ruines de l'après-guerre (戰後 廢墟)**, ont su se relever et revitaliser leur **vie rurale (農村生活像)** ;
+-   Cependant, la **réaction (反應)** des **habitants (住民)** est restée marquée par l'**indifférence (無關心)**. Pire encore, certains ont répondu avec **ignorance (無知)** : « Si tu es si malin, deviens donc chef de commune (面長) ou député (國會議員) ! ». C'est alors qu'un membre de la classe moyenne de ce village, un certain **M. Ji (池氏)**, est venu me rendre visite, l'air abattu.
+-   Le chef du village de Daejeon-ri (大田里), dans le district de Cheongcheon-myeon (靑川面) du village voisin, m'a fait parvenir un message disant : « Nous avons une affaire à discuter, venez s'il vous plaît. » En m'y rendant, j'ai appris qu'ils souhaitaient construire une nouvelle route agricole pour le mouvement Saemaul, et que mon terrain était concerné. Comme cette route devait également desservir mon village, ils m'ont demandé de faire don de ma terre. Après une journée entière de disputes, alternant entre « donnez-la » et « c'est impossible », je suis revenu en me demandant : « Que faire dans cette situation ? » Incapable de contenir sa colère, M. Ji (池氏) a déclaré : « Demain, j'emmènerai toute ma famille pour une bagarre si nécessaire. » Les jeunes de mon village sont également venus pour encourager leur soutien dans cette affaire.
+-   Dans cette situation, cela est devenu le sujet de conversation dans tout le village. Le lendemain, des dizaines d'habitants (數十名) dont les terres agricoles (農耕地) étaient adjacentes se sont rassemblés dans le hameau de Daejeon-ri (大田里) pour apporter leur soutien et aussi pour observer.
+-   Les discussions entre les deux parties pour déterminer les torts et les raisons (是非曲折) se sont révélées être, en fin de compte, un cas typique de « tirer l'eau à son moulin » (我田引水格).
+Après des débats répétés, il a été décidé que cette route, inexistante auparavant, serait construite sur une distance de 5 km, reliant Deokpyeong (德坪) comme point de départ jusqu'au village de Bangseong-ri (方城里).
+-   Compte tenu du fait que les charrettes à bœufs (牛馬車) et les taxis pourraient circuler sans difficulté (通行) et que de nombreux habitants de Daejeon-ri (大田里) possèdent des terres agricoles (農耕地) du côté de Bangseong-ri (方城里), la question du don des terres agricoles nécessaires (農耕地喜捨問題) est devenue majeure.
 
 
 --- (p. 326) ---
@@ -10424,7 +10424,7 @@ Ji Jang-hun : Je suis d'accord (贊同). Pour la répartition des bénéfices (�
 
 --- (p. 336) ---
 
-개발위원회(開發委員會)에서 결정하도록 위임하고 낮에 일들을 하고 고단한데 이렇게 결정짓고 헤어지는 것이 어떻소?
+Le comité de développement (開發委員會) a été mandaté pour prendre une décision. Après une journée de travail épuisante, ne serait-il pas préférable de clore ainsi les discussions et de se séparer ?
 일 동: 좋습니다.
 사회자: Aujourd'hui, la réunion a décidé de la création du complexe caprin, et les détails du plan seront déterminés et exécutés par le comité de développement(開發委員會). Je tiens à remercier M. Cho, l'assistant en chef(助主事) de l'association Saemaul(契) de la mairie(郡廳), qui a assisté à notre réunion et nous a apporté son soutien et sa coopération. Veuillez, s'il vous plaît, lui exprimer votre gratitude par des applaudissements.
 조확태(趙確泰)(군청(郡廳) 새마을계(契)): Je me lève pour répondre. Quelques mots d'encouragement et de réconfort...
@@ -11033,14 +11033,14 @@ Chef du village (里長) : Si vous avez des commentaires sur le rapport final de
 --- (p. 355) ---
 
 랍니다.
-송창식: 예 감사합니다. 그동안 창고(倉庫) 건립(建立)에 전력을 다하여 애써주신 새마을 지도자(指導者)와 리장(里長)님께 감사를 드립니다. 드릴 말씀은 이제 우리 동네에 창고를 건립하였으니 금년 가을 추수기부터는 양곡(糧穀)을 보관(保管)할 수 있는지요?
-사회자: 예 좋으신 말씀을 해 주셨읍니다. 그렇지 않아도 그 문제를 말씀드리려던 참입니다. 창고(倉庫)에 양곡(糧穀)을 보관(保管)하는 문제는 우선 내일부터라도 면장(面長)님과 상의(相議)를 해서 금년 추수기에는 보관(保管)이 될 수 있도록 이장(里長)님과 제가 힘써 보겠읍니다.
-송진옥: 힘을 쓴다는 것보다는 꼭 보관(保管)이 되도록 해야겠읍니다. 창고를 지어 놓았으면 유효(有效)하게 활용(活用)을 해야 될 것이 아닙니까?
-이장: 알겠읍니다. 어떠한 일이 있어도 꼭 유효(有效)하게 활용(活用)할 계획(計劃)입니다.
-사회자: 다른 분들은 하실 말씀이 없으신지요?
+Song Chang-sik : Oui, merci. Je tiens à remercier les leaders du mouvement Saemaul et le chef du village (里長) pour leurs efforts acharnés dans la construction de l'entrepôt (倉庫). Une question se pose : maintenant que l'entrepôt est construit dans notre quartier, pourrons-nous y stocker (保管) les céréales (糧穀) dès cette saison des récoltes d'automne ?
+Animateur : Merci pour cette excellente question. Nous allions justement aborder ce sujet. La question du stockage (保管) des céréales (糧穀) dans l'entrepôt (倉庫) sera discutée dès demain avec le chef de district (面長). Nous ferons en sorte, avec le chef du village (里長), que cela soit possible dès cette saison des récoltes.
+Song Jin-ok : Il ne s'agit pas seulement de faire des efforts, il faut absolument que le stockage (保管) soit effectif. Puisque l'entrepôt est construit, ne doit-il pas être utilisé de manière efficace (有效) ?
+Chef du village : Compris. Quoi qu'il arrive, nous avons l'intention de l'utiliser de manière efficace (有效).
+Animateur : D'autres personnes ont-elles quelque chose à dire ?
 주민일동: 없읍니다.
-사회자: 저의 부락(部落) 창고가 건립(建立) 됨으로서 주민들의 큰 불편을 해소시켰을 뿐 아니라 관리만 잘하고 활용(活用)만 잘 한다면 약간 약 400천 원의 마을 소득(所得)이 있을 것 같습니다. 그동안 여러분들이 적극 협조(協助)하여 주신 덕분이라 생각합니다. 감사합니다.
-이상으로 오늘 회의를 마치겠읍니다. 결산보고서(決算報告書) 1부는 면장(面長)에게 보고하겠읍니다. 안녕히 돌아가십시오.
+Animateur : Grâce à la construction de cet entrepôt (倉庫) dans notre hameau (部落), non seulement nous avons résolu un grand inconvénient pour les habitants, mais si la gestion et l'utilisation (活用) sont bien faites, cela pourrait générer un revenu (所得) d'environ 400 000 wons pour le village. Je pense que cela est possible grâce à la coopération active de chacun. Merci.
+Sur ce, je déclare close la réunion d'aujourd'hui. Un exemplaire du rapport financier (決算報告書) sera remis au chef de district (面長). Bonne soirée à tous.
 
 ### 4. Pour les développements futurs (發展構想)
 
@@ -13051,12 +13051,12 @@ O Après avoir reçu la donation, le dirigeant (指導者) Choi Seong-hee a attr
 
 ### 바. 새마을사업(새마을事業)의 성과(成果)
 
-*   지도자(指導者)를 중심(中心)으로 융화(融和) 단결(團結)되어 상부상조(相扶相助)하는 정신(精神)이 확립(確立)되어 총회석상(總會席上)에서도 민주적(民主的)인 방법(方法)으로 모든 일을 처리(處理)하고,
-*   야산개발(野山開發) 농사기술(農事技術)의 개혁(改革), 종자갱신특용작물재배(種子更新特用作物栽培)의 성공(成功) 등으로 소득(所得)이 높아짐에 따라,
-*   통일계통(統一系統)벼 재배확대(栽培擴大)와 야산(野山)을 개발(開發), 특용작물(特用作物)인 옥수수 등을 재배(裁培)하고 고등채소(高等蔬菜), 원예작물축산(園藝作物畜産)을 비롯 곡수림재배(穀樹林栽培)에 이르기까지 소득증대(所得增大)에 심혈(心血)을 기울여 주민소득(住民所得)을 배가(倍加)하고 있다.
+*   Avec les leaders (指導者) comme noyau central, un esprit d'harmonie (融和), de solidarité (團結) et d'entraide (相扶相助) a été établi, permettant de traiter toutes les affaires de manière démocratique (民主的) lors des assemblées générales (總會席上).
+*   Grâce à l'aménagement des collines (野山開發), à la réforme des techniques agricoles (農事技術), au renouvellement des semences et à la culture réussie de cultures spéciales (種子更新特用作物栽培), les revenus (所得) ont augmenté.
+*   Expansion de la culture du riz du système unifié (통일계통) et développement des montagnes sauvages (野山), culture de plantes spéciales comme le maïs, ainsi que des légumes de haute qualité, de l'horticulture et de l'élevage, allant jusqu'à la culture des arbres à grains et des forêts, mettant tout leur cœur et leur énergie pour augmenter les revenus des habitants et les doubler.
 *   통일계통(統一系統)벼 20.3ha로 계획면적(計劃面積)의 126%를 달성(達成)하여 반당(反當) 700kg수확(收穫)을 목표(目標)하며,
 *   맥류(麥類) 22.3ha 식부(食附)로 계획면적(計劃面積)의 108%를 달성(達成) 반당수확량(反當收穫量) 350kg를 특용작물(特用作物) 17.2ha와 야산(野山) 중(中) 비닐하우스 10ha, 야산에 옥수수 등을 재배(裁培)하고,
-*   1 농가(農家) 1 가축(家畜) 기르기로 집집마다 소 1두, 돼지 1두 이상 없는 집이 없고,
+*   Avec l'initiative « 1 foyer agricole (農家), 1 animal d'élevage (家畜) », il n'y a pas une seule maison sans au moins une vache ou un porc,
 *   곡수림(穀樹林)인 밤나무 600본을 식재(植栽) 80년대(80年代)는 주당(株當) 10,000원의 수입(收入)을 예상(豫想), 총수익(總收益) 6천만(千萬)원 이 기대(期待)되어
 
 
@@ -13368,7 +13368,7 @@ Oh Se-jong, Choi Seong-hee, Woo Chang-hoon, Lee Young-seop, Lee Jong-cheol, Lee 
 사(社) 会(会): Alors, nous allons décider de prêter (貸與) l'argent aux membres de la communauté (部落民). L'argent sera gardé par le guide. Ceux qui en ont besoin peuvent le emprunter (貸與) en fournissant deux garanties (保證人). La réunion (會議) est maintenant levée.
 
 ### \<Signature et sceau(署名捺印)>
-오세종, 최성희, 이종철, 이순환, 우창훈, 나학석, 김무홍, 명노헌, 최종진 외 38명.
+O Se-jong, Choi Seong-hui, Lee Jong-cheol, Lee Sun-hwan, Woo Chang-hoon, Na Hak-seok, Kim Mu-hong, Myeong No-heon, Choi Jong-jin et 38 autres.
 
 
 --- (p. 422) ---
@@ -13538,20 +13538,20 @@ De plus, le fumier (堆肥) provenant des étables a été utilisé pour la cult
 
 --- (p. 428) ---
 
-하여 연간 2백만원(百萬圓) de revenus(所得)을 올린 바도 있으며 또한 이것이 인근(隣近) 신암면(新岩面)에까지 파급(波及)되고 있어 지역적(地域的)인 소득증대(所得增大)에 크게 기여하고 있다.
-O 오직 이 부락(部落) 발전(發展)을 위해 헌신적(獻身的)으로 일하고 있는 박삼신씨의 머릿속에는 할 일이 너무도 많았다. 그러나 제일 시급(時急)한 것은 부락(部落)의 중심부(中心部)를 흐르고 있는 소하천(小河川) 정비사업(整備事業)이었다.
-80mm 정도(程度)의 비만 와도 홍수(洪水)로 하천(河川)이 범람(氾濫)하여 농경지(農耕地)가 매몰(埋沒)되고 침수(浸水)되며 인근(隣近)에 있는 집 25동(棟)이 침수(浸水)되는 물난리를 겪어야 했다.
-주민(住民)들에게 소하천(小河川)을 정비(整備)하자고 하였다. 노년층(老人層) 어른들은 그 큰 개천을 어떻게 개발(開發)하느냐는 등 미친 짓이라고 말리기도 하였다. 그러나 청장년(靑壯年)들과 합심(合心)하여 창소천(倉所川) 일부(一部)인 400m를 연 참여(參與) 인원(人員) 2,800여명(餘名)이 동원(動員)되어 순수(純粹)한 주민(住民) 자력(自力)으로 말끔하게 가꾸어 놓았다.
-박삼신 자원(自願) 지도자(指導者)는 “한 알의 밀알이 썩어서 수많은 열매를 남긴다”는 오로지 마을 발전(發展)만을 위(爲)한 헌신적(獻身的)인 지도(指導) 이념(理念)을 더욱 굳게 다짐하고
-O 가난한 마을 주민(住民)들의 환경개선(環境改善)을 촉진(促進)하기 위해서 예산군청(禮山郡廳)으로부터 덤프트럭을 지원받아 주민(住民)들을 동원(動員)하여 모래와 자갈 등을 마을의 광장(廣場)에 산더미처럼 쌓아놓고 양회(洋灰)를 사재(私財)로 사서 지원(支援)하여 블록 제작(製作), 환경개선(環境改善) 사업(事業)에 박차를 가하였다. 박삼신씨는 또한 부락(部落)의 '공동광장(共同廣場)'을 사재(私財)로 마련한 것이다. 이 마을에 사는 김현갑씨의 땅 520평을 30만원(萬圓)을 주고 사서 여기에서 환경개선(環境改善)을 위한 블록 제작(製作) 및 공동작업(共同作業)을 하게 됐던 것이다. 이렇게 하여 박삼신 자원(自願) 지도자(指導者)는 180여만원(餘萬圓)을 투입(投入)하였던 것이다. 앞에서도 서술(敍述)한 바와 같이 오직 가난하고 메마른 이 부락(部落)을 위해서 헌신(獻身)할 것을 일찍부터 다짐하였던 박삼신씨였기에 이와 같은 일을 할 수가 있었다.
-마을의 주민(住民)들은 누구도 이에 감동(感動)되지 않을 수 없었다. 이 마을이 생기면서부터 일찌기 없었던 일이었기에 더욱 그러하였다. 이러한 사실(事實)은 이 마을이 존속(存續)하는 한 후손(後孫)들에게 길이 남겨질 것이다.
-O 이렇게 무명(無名)의 농민(農民) 아들이 숨어서 일하고 있다는 소식(消息)이 전(傳)하여지자 1670년 11월 11일에는 대통령(大統領) 각하(閣下)로부터 직접(直接) 산업포장(産業褒章)을 수여(受與)받는 눈물 어린 영광(榮光)을 맞기도 하였다.
-세상 사람들에게 알리기 위해서가 아니고 상(賞)을 타기 위해서가 아닌 진정한 마을의 발전(發展)만을 위해서 박삼신 지도자(指導者)는 헌신(獻身)하였고 주민(住民)들은 무지(無知)의 잠에서 깨어나 열심(熱心)히 일할 뿐이었다.
-가난에 찌들었던 빈곤(貧困)의 헐벗음 속에서 태평(太平)스럽게도 술과 도박(賭博)의 퇴폐(頹廢)한 허송세월(虛送歲月)에서 방황(彷徨)하였던 이 마을의 지난날은 이제는 이 마을 역사(歷史)에 얼룩진 한 장의 기록(記錄)이 되고 있다.
+ayant ainsi généré un revenu annuel de 2 millions de wons (所得), et cet effet s'est également propagé aux villages voisins de Sinam-myeon (新岩面), contribuant grandement à l'augmentation des revenus au niveau régional (地域的).
+O Dans l'esprit de Park Sam-sin, qui travaillait avec dévouement pour le développement de ce village, les tâches à accomplir étaient innombrables. Cependant, la priorité absolue était l'aménagement du petit cours d'eau traversant le centre du village (部落).
+Dès qu'il pleuvait environ 80 mm, les inondations provoquaient le débordement du cours d'eau (河川), ensevelissant et inondant les terres agricoles (農耕地), et 25 maisons voisines étaient submergées, causant des dégâts considérables.
+Il proposa aux habitants d'aménager le petit cours d'eau. Les aînés le dissuadaient, disant que c'était une folie de vouloir aménager un si grand ruisseau. Cependant, en s'unissant avec les jeunes et les adultes, ils mobilisèrent environ 2 800 personnes pour aménager 400 mètres d'une partie du ruisseau Changsocheon (倉所川), uniquement par leurs propres moyens.
+Park Sam-sin, le leader bénévole, réaffirma fermement son idéal de leadership dévoué uniquement au développement du village, inspiré par la phrase : « Un seul grain de blé pourrit pour donner de nombreux fruits ».
+O Pour accélérer l'amélioration de l'environnement des habitants pauvres du village, Park Sam-sin obtint un camion-benne du bureau du district de Yesan (禮山郡廳) et mobilisa les habitants pour entasser du sable et du gravier sur la place du village comme une montagne. Il acheta du ciment avec ses propres fonds pour soutenir la fabrication de blocs et accélérer les travaux d'amélioration de l'environnement. Park Sam-sin utilisa également ses économies personnelles pour créer une « place commune » (共同廣場) pour le village. Il acheta 520 pyeong de terrain appartenant à Kim Hyeon-gap, un habitant du village, pour 300 000 wons, afin d'y fabriquer des blocs et d'y effectuer des travaux communs pour l'amélioration de l'environnement. Ainsi, Park Sam-sin, le leader bénévole, investit plus de 1,8 million de wons. Comme mentionné précédemment, Park Sam-sin, qui s'était engagé très tôt à se dévouer pour ce village pauvre et aride, était capable d'accomplir de telles actions.
+Les habitants du village ne pouvaient qu'être profondément émus par ces actes. Rien de tel ne s'était jamais produit depuis la création du village, ce qui rendait ces événements encore plus marquants. Ces faits resteront gravés dans la mémoire des générations futures tant que ce village existera.
+O Lorsque la nouvelle de ce fils de paysan inconnu travaillant dans l'ombre se répandit, le 11 novembre 1970, il reçut directement des mains de Son Excellence le Président (大統領) la décoration industrielle (産業褒章), une gloire émouvante.
+Ce n'était pas pour se faire connaître du monde ni pour obtenir des récompenses que Park Sam-sin, le leader, se dévouait, mais uniquement pour le véritable développement du village. Les habitants, sortis de leur ignorance, ne faisaient que travailler avec ardeur.
+Les jours passés de ce village, autrefois rongés par la pauvreté et l'indigence, où l'on errait dans une oisiveté décadente faite d'alcool et de jeux de hasard, ne sont plus désormais qu'une page sombre de l'histoire du village.
 
 ## 2) 초년도(初年度) 시험사업(試驗事業) 성과(成果)
-1970년도 박정희(朴正熙) 대통령(大統領) 각하(閣下)께서 제창(提唱)하신 새마을 가꾸기 운동(運動)이 전국(全國)의 방방곡곡에 펼쳐지기 시작(始作)하였다. 이 마을에도 처음으로 정부(政府)에서 지원(支援)되는 새마을 가꾸기 양회(洋灰) 335포대를 지원받을 수 있는 기회(機會)를 갖게 된 것이다.
-그러나 정부(政府)로부터 지원(支援)되는 양회(洋灰)를 어떻게 효율적(効率的)으로 사용(使用)할 것인가에 대하여는 주민(住民) 전체(全體)의 뜻을 모아서 실시(實施)하여야 사업추진(事業推進)에 만전(萬全)을 기할 수 있으리라 생각하고 당시 이 마을의 이장(里長)이었던 김기종씨와 협의(協議)하여 마을 총회의(總會議)를 개최(開催)키로 하였다.
+En 1970, le mouvement « Embellissons nos villages » lancé par Son Excellence le Président Park Chung-hee (朴正熙) commença à se déployer dans tout le pays. Ce village eut également l'opportunité de recevoir pour la première fois 335 sacs de ciment du gouvernement pour ce mouvement.
+Cependant, pour utiliser efficacement le ciment fourni par le gouvernement, il fut décidé de consulter l'ensemble des habitants afin de garantir le bon déroulement des projets. À cette époque, le chef du village, Kim Gi-jong, et Park Sam-sin décidèrent de convoquer une assemblée générale du village pour en discuter.
 
 
 --- (p. 429) ---
@@ -17552,21 +17552,21 @@ Sociateur : Alors, je vais annoncer la sélection des fonds (資金). Gang Daech
 
 --- (p. 542) ---
 
-강판술, 강대영, 이상호, 이시우, 강철수 이상과 같이 선정(選定)하여 발표(發表)합니다. 여러분께서 다시 검토(檢討)하여 주시기 바랍니다.
-김판용: 잘 선정(選定)하였다고 봅니다.
-김민식: 나도 잘 선정(選定)하였다고 봅니다.
+**Kang Pan-sul, Kang Dae-young, Lee Sang-ho, Lee Si-woo et Kang Cheol-su** ont été sélectionnés et annoncés comme suit. Nous vous prions de bien vouloir les réexaminer.
+**Kim Pan-yong** : Je pense qu'ils ont été bien sélectionnés.
+**Kim Min-sik** : Je pense également qu'ils ont été bien sélectionnés.
 사회자(社會者): 더 이상(以上) 타의(他意) 없습니까?
 일동(一同): 없습니다.
-사회자(社會者): 그러면 이것으로서 회의(會議)를 전부(全部) 마치겠습니다.
-참석자(參席者) 대표(代表): 강대용, 강대근, 강성준, 이상은, 강대영, 이봉우, 정도순
+**Animateur** : Sur ce, nous allons clore entièrement cette réunion.
+**Représentant des participants** : Kang Dae-yong, Kang Dae-geun, Kang Seong-jun, Lee Sang-eun, Kang Dae-young, Lee Bong-woo, Jeong Do-sun
 
 ### 4. 앞으로의 발전구상(發展構想)
 
-*   78년도(78年度)에는 경영소득사업(經營所得事業) 시범마을(示範마을) 육성책(育成策)의 일환(一環)으로 구매판매사업(購販事業)을 더욱 확대(擴大)하여 생필품의 저렴한 공급(供給)은 물론 농산물(農產物)의 유통개선(流通改善) 등 구매판매사업(購販事業)과 연계(連繫)를 할 것이며
-*   비육우(肥肉牛)를 30두(頭) 더 입식(入殖)시키고 젖소를 시험사육(試驗飼育)하여
-*   79년도(79年度)에는 젖소를 10두(頭) 입식(入殖) 사육(飼育)함으로써 낙농을 증대(增大)시켜 임실(任實) 치즈 공장(工場)에 우유(牛乳)를 공급(供給)하고 수리안전답화(水利安全沓化)하기 위하여 소유지(小溜池)를 1개소(個所) 신설(新設)할 계획(計劃)이다.
+*   En **1978**, dans le cadre de la politique de développement des villages pilotes pour les activités de revenus de gestion, le projet d'achat et de vente sera encore élargi afin d'assurer un approvisionnement abordable en produits de première nécessité et d'améliorer la distribution des produits agricoles, entre autres, en lien avec les activités d'achat et de vente.
+*   Trente têtes de bovins d'engraissement supplémentaires seront introduites et des vaches laitières seront élevées à titre d'essai.
+*   En **1979**, dix vaches laitières seront introduites et élevées afin d'augmenter la production laitière et de fournir du lait à la fromagerie d'Imsil. Un petit réservoir sera également construit pour assurer la sécurité hydraulique.
 *   80년도(80年度)에는 젖소를 50두(頭)로 증대(增大)시키고
-*   소형(小型) 트럭을 구입(購入)하며 농기구(農機具)를 완전(完全) 기계화(機械化)하여 영업(營業)을 과학화(科學化)함으로써 농촌(農村)의 근대화(近代化)와 복지농촌건설(福祉農村建設)을 기필코 달성(達成)하여 이를 유산(遺產)으로 후손(後孫)에게 물려줄 것이다.
+*   L'achat d'un petit camion et la mécanisation complète des outils agricoles permettront de moderniser les opérations, contribuant ainsi à la modernisation des zones rurales et à la construction de villages de bien-être, que nous transmettrons en héritage à nos descendants.
 
 ![Image/Illustration: 76년 대통령 각하에게 우수 새마을로 보고 후 귀향한 지도자를 환영하는 주민들](/images/page_542_img_1.png)
 
@@ -17963,7 +17963,7 @@ c. Réalisation du mouvement Saemaul par année (年度別)
 
 --- (p. 555) ---
 
-| 연도 | 사업명 | 단위/규격 | 총사업비 | 자담 | 타자 | 착공년월일 | 준공년월일 |
+| Année | Nom du projet | Unité/Spécification | Coût total du projet | Autofinancement | Autres financements | Date de début des travaux | Date d'achèvement |
 |---|---|---|---|---|---|---|---|
 | | Toiture (塗色) | 10 unités | 350 | 200 | 150 | | |
 | | Cuisine collective (共同) (炊事場) | 1/10 평 | 550 | 200 | 350 | 3.15 | 4.20 |
@@ -18878,7 +18878,7 @@ Président de séance : Cette réunion a été convoquée pour établir un plan 
 
 --- (p. 579) ---
 
-터 착공을 할 수 있다고 합니다. 전화를 가설하실 분은 거수하여 주시기 바랍니다.
+Il paraît que les travaux de terrassement pourront commencer bientôt. Ceux qui souhaitent installer une ligne téléphonique provisoire sont priés de lever la main.
 (23 personnes)
 Alors, je vais passer à la question de la mise en place des téléphones. Veuillez lever la main si vous souhaitez en installer.
 (23 personnes)
@@ -19428,7 +19428,7 @@ Le 7 avril 1966, quelques jeunes du village ont fondé l'Association pour le dé
 
 --- (p. 595) ---
 
-도모(圖謀)코자 일종(一種)의 계(契)의 형식(形式)을 지니고 발족(發足)하게 되었다. 발기인(發起人)을 5명(名)으로 하는 이 모임은 회원(會員)의 조직(組織)을 규약(規約)으로 정(定)하였다.
+Dans le but de se structurer, ce groupe a pris la forme d'une sorte d'association et a été lancé. Composé de cinq membres fondateurs, ce rassemblement a défini l'organisation de ses membres par des statuts.
 <기룡(起龍)마을 향상(向上)발전(發展)회(會) 규약(規約)>
 
 ## Chapitre 1 Dispositions générales
@@ -19643,9 +19643,9 @@ Au 15 février 1968, il y a 900 won en espèces et 200 pyeong de terres.
 사업(事業) 등을 실시(實施)했다.
 O 1973.12. 30 초기(初期)의 모든 사업(事業)을 성공리(成功裡)에 끝냈다.
 <성과(成果)>
-O 이와 같은 사업(事業)들을 순식간(順息間)에 끝낸 마을은 당초(當初) 기초마을에서 발돋움하던 것이 자조마을을 건너뛰어 자립마을로 일약(一躍) 승급(昇級)하게 되었다.
-O 700m에 이르는 확 트인 마을진입로(마을進入路)는 커다란 트럭이 거침없이 들어오도록 만들어졌고 30평(坪)의 회관(會舘)은 온 주민(住民)들의 사랑방이 되어 그들의 땀과 노고(勞苦)를 풀도록 하였으며 마을 공동창고(共同倉庫)는 비좁은 가옥(家屋)에 쌓았던 농용자재(農用資材)가 질서(秩序) 정연(整然)하게 쌓이게 되었다.
-O 특히 암흑(暗黑)속에서 지내오던 그들에게 눈을 밝혀 주는 전화사업(電化事業)이 이루어졌을 때 온 주민(住民)들은 환호성(歡呼聲)을 지르면서 기뻐했다.
+O En un clin d'œil, ce village a mené à bien ces projets, passant directement d'un village de base à un village autonome, sautant ainsi l'étape du village d'entraide.
+O La route d'accès au village, large et dégagée sur 700 mètres, permet désormais aux gros camions de circuler sans encombre. La salle communautaire de 30 pyeong est devenue un lieu de détente pour tous les habitants, où ils peuvent se reposer de leurs peines et de leurs efforts. Le hangar communautaire offre désormais un espace ordonné pour stocker les équipements agricoles, autrefois entassés dans des maisons étroites.
+O En particulier, lorsque le projet d'électrification a été réalisé, apportant la lumière à ceux qui vivaient dans l'obscurité, tous les habitants ont poussé des cris de joie.
 
 2) 지도자(指導者)의 선출(選出)과 애로(隘路)극복(克服)사항(事項)
 
@@ -20715,7 +20715,7 @@ O ce résultat, bien qu'il n'ait pas été possible d'éradiquer les mauvaises h
 
 --- (p. 628) ---
 
-| 년월일 | 성명 | 구분 | 수량 | 계 | 사업명 |
+| Date | Nom | Catégorie | Quantité | Total | Nom du projet |
 |---|---|---|---|---|---|
 | 73. 3. 10 | 김동연 | Terrain (沓) | 20 평 | 70 | Extension d'An-gil (安吉擴張) |
 | " | 이종길 | " | 24 | 84 | " |
@@ -20744,7 +20744,7 @@ O ce résultat, bien qu'il n'ait pas été possible d'éradiquer les mauvaises h
 
 <Situation des dons en espèces>
 
-| 년월일 | 성명 | 금액 | 직업 | 주거지 |
+| Date | Nom | Montant | Profession | Lieu de résidence |
 |---|---|---|---|---|
 | 73. 4. 10 | 황금영 (黃金榮) | 30,000 | Agriculture (農業) | Pyonganbuk-do (平北) |
 | 73. 5. 10 | 남계영 (南啓榮) | 15 sacs de ciment | Élevage (畜産) | Pyonganbuk-do (平北) |
@@ -21211,7 +21211,7 @@ O Pour organiser une réunion afin de discuter des affaires du village, il falla
 
 --- (p. 640) ---
 
-모이며 그 중에는 마지기나 있고 돈이 있는 몇몇 사람이 목소리를 크게 하여 이야기하면 가난한 채무자는 옳소로 통하는 주민의 회의였으니 단합(團合)이 있을 수 없으며 맹목적으로 살아가는 내일 없는 생활상태(生活狀態)였다.
+Ils se rassemblaient, et parmi eux, quelques personnes possédant des terres ou de l'argent parlaient à haute voix, alors que les débiteurs pauvres, dans ce qui était une réunion des habitants où le « oui » dominait, ne pouvaient former aucune union (團合) et vivaient aveuglément dans un état de vie sans lendemain.
 
 ### 4) Vie culturelle (文化生活)
 O Deux radios constituaient l'essentiel de la vie culturelle. Il n'y avait pas d'installations électriques et il était impossible de vivre dignement à la lueur des lampes à huile. Les quelques journaux que l'on pouvait obtenir en allant au village ou au district étaient la seule lecture disponible. Il n'y avait pas de place pour une salle d'étude pour enfants, si bien que l'ardeur des parents pour l'éducation était sincère, mais limitée. Les enfants emportaient leurs manuels d'école, souvent en mauvais état, enveloppés dans un tissu, et cela constituait l'essentiel de leur éducation.
@@ -21819,8 +21819,8 @@ Sa passion pour l'éducation, qui l'a amené à occuper le poste de président d
 
 --- (p. 660) ---
 
-상태로 몰고 갔으며, 가정(家庭)을 돌볼 여유를 갖지 못하고 또 사재(私財)를 아낌없이 털어놓는 그의 행동(行動)을 참을 수만은 없는 부인(婦人)의 투정에 그의 정신적(精神的) 타격(打擊)은 크지 않을 수 없었다.
-그렇지만 주민(住民)들에게는 조금도 표출(表出)시키지 않는 여유를 가진 그 이야말로 상록수(常綠樹) 새마을 지도자(指導者)였다.
+Cette situation l’avait conduit à ne plus avoir le temps de s’occuper de sa famille (家庭) et, alors qu’il sacrifiait sans compter ses biens personnels (私財), il ne pouvait supporter les reproches de son épouse (婦人), dont l’impact psychologique (精神的) était inévitablement grand.
+Cependant, c’est précisément lui, qui ne montrait jamais le moindre signe de cette pression aux habitants (住民), qui incarnait le leader (指導者) du village de *Sangnoksu* (常綠樹), toujours vert.
 
 ### 4) Surmontement des difficultés
 
@@ -22367,7 +22367,7 @@ Secrétaire : Jeong Jeong-chae
 
 --- (p. 677) ---
 
-박봉규, 정용기, 임춘재, 박봉상, 최용선
+Park Bong-gyu, Jeong Yong-gi, Lim Chun-jae, Park Bong-sang, Choi Yong-seon
 Les cinq membres ont été élus.
 
 Il était 14h30, l'heure du déjeuner.
@@ -23555,33 +23555,33 @@ Président de séance (司會): Alors, nous allons clore cette réunion. Merci.
 ### 마을 식수(植樹) 500본(本)
 ### 진입로(進入路) 확장(擴張) 150m
 
-의 사업(事業)을 확정(確定)하였는데 여러분의 의견(意見)은 어떠한지요?
+a été décidé concernant ce projet (事業). Qu’en pensez-vous ?
 
-**곤철용(袞哲容):** 지난번 회의(會議)에서 가결(可決)된 사항(事項)으로 별이의(別異議)는 없으나 주택(住宅) 개량(改良)할 분들의 경제적(經濟的) 부담(負擔)이 걱정이 됩니다.
+**Gon Cheol-yong (袞哲容) :** Concernant les points adoptés lors de la dernière réunion (會議), je n’ai pas d’objection particulière (別異議), mais je m’inquiète du fardeau économique (經濟的 負擔) pour ceux qui souhaitent améliorer leur logement (住宅 改良).
 
-**곤광웅(袞光雄):** 이번에 우리 집 (호텔(酒店))을 철거(撤去) 대상(對象)에서 빼 주어야 하겠습니다. 사실(事實) 갈 데도 없고 나의 생계수단(生計手段)이 막히면 죽을 수밖에 없으니 고려(考慮)하시요.
+**Gon Gwang-ung (袞光雄) :** Cette fois, je demande que ma maison (en fait, mon hôtel (酒店)) soit retirée de la liste des démolitions (撤去 對象). En vérité (事實), je n’ai nulle part où aller, et si mon moyen de subsistance (生計手段) est bloqué, je n’aurai d’autre choix que de mourir. Je vous prie d’y réfléchir (考慮).
 
-**곤웅기(袞雄基):** 광웅(光雄) 씨의 입장(立場)은 아나 마을 전체(全體)의 일이니 소수(小數)가 희생(犧牲)해야 합니다.
+**Gon Ung-gi (袞雄基) :** Je comprends la position (立場) de Gwang-ung, mais il s’agit d’une affaire concernant tout le village (全體). Une minorité (小數) doit parfois se sacrifier (犧牲).
 
 *(이때 광웅(光雄)과 웅기(雄基) 간(間)에 입씨름)*
 
-**지도자(指導者):** 조용히 하시오. 광웅(光雄) 씨의 생계(生計)를 박탈(剝奪)한다는 것은 아니니 우리가 새로 신축(新築)하는 구매판매장(購販場)을 임차(賃借)하여 장사를 하면 어떨까 구상(構想) 중에 있으니 어떠신지요.
+**Le leader (指導者) :** Calmez-vous. Il n’est pas question de priver Gwang-ung de ses moyens de subsistance (生計 剝奪). Nous envisageons (構想) de lui proposer de louer (賃借) le nouveau centre d’achat-vente (購販場) que nous allons construire (新築) pour y poursuivre son commerce. Qu’en pensez-vous ?
 
-**배전용:** 그러면 마을과의 계약(契約)이 성립(成立)되어야 하지 않겠습니까?
+**Bae Jeon-yong :** Dans ce cas, ne faudrait-il pas établir un contrat (契約) avec le village pour que cela soit valable (成立) ?
 
-**지도자(指導者):** 물론(勿論) 그래야 합니다. 그것은 집이 완성(完成)되어야 하니 그때 가서 상의(相議)하기로 하고 의견(意見)만 모아 주면 좋겠습니다. *(참석자(參席者) 동의(同意)하다)*
+**Le leader (指導者) :** Bien sûr (勿論), cela doit être fait. Mais comme la maison doit d’abord être achevée (完成), nous en discuterons (相議) à ce moment-là. Pour l’instant, il serait bon de recueillir vos avis. *(Les participants (參席者) acquiescent (同意))*.
 
-**배광웅:** 나는 대답(對答)할 수 없으니 “알아서 하시오” 하고 퇴장(退場)한다.
+**Bae Gwang-ung :** Je ne peux pas répondre maintenant. Je vous dis « faites comme bon vous semble » et je quitte la salle (退場).
 
 **지도자(指導者):** 그러면 본사업(本事業) 결정(決定)에 이의(異議) 없는가요.
 
-**배풍태랑(배豊太郎)(이장(里長)):** 확실(確實)히 대답(對答)하십시오. 나중에 다른 말하면 안 됩니다.
+**Bae Pung-tae-rang (Bae Toyotaro) (里長, chef du village) :** Répondez clairement (確實 對答). Il ne faudra pas revenir sur vos paroles plus tard.
 
-**금태랑(金太郎):** 제가 생각(生覺)하기로는 가옥(家屋) 개축(改築)이 문제(問題)인데 개축(改築)한 분에 대하여 지원금(支援金)에서 지원(支援)함이 좋겠는데 어떠십니까.
+**Kim Taerang (金太郎) :** Selon moi, le problème réside dans la rénovation des habitations. Il serait bon d'accorder une subvention aux personnes qui entreprennent ces rénovations. Qu'en pensez-vous ?
 
 **지도자(指導者):** 가옥(家屋) 개축(改築)분은 동(楝)당 5만(萬) 원, 철거(撤去)분은 40만(萬) 원 지급(支給)케 되었습니다.
 
-**김영태:** 사실(事實) 내가 가장 곤란(困難)한 사람이나 마을 전체(全體)를 위해 개축(改築)하겠습니다.
+**Kim Yeong-tae :** En vérité, bien que je sois la personne la plus en difficulté, je vais rénover pour le bien de tout le village.
 
 *(이때 다 하기로 합의(合意))*
 
@@ -23589,9 +23589,9 @@ Président de séance (司會): Alors, nous allons clore cette réunion. Merci.
 
 **지도자(指導者):** 다음 순서(順序)로 새마을 금고(金庫) 운영(運營)을 위해 조직(組織) 정비(整備)를 해야 하겠으니 먼저 이사진(理事陣)을 선출(選出)해 주십시오. 이사진(理事陣)은 이사장(理事長) 1명, 부이사장(副理事長) 1명, 여신위원(與信委員) 2명, 운영위원(運營委員) 2명, 교도위원(敎導委員) 2명, 감사(監査) 2명, 회계원(會計員) 1명으로 구성(構成)할 계획(計劃)입니다.
 
-**배순용:** 누가 해도 마찬가지이나 그래도 이사장(理事長)은 지도자(指導者)가 되어야 합니다. *(전원(全員) 박수(拍手))*
+**Bae Sun-yong :** Peu importe qui le fait, mais le président du conseil d'administration doit se comporter en leader. *(Tous applaudissent)*
 
-**배진영:** 그럴 것이 아니라 지도자(指導者), 이장(里長), 개발위원(開發委員)들이 진영(陣營)을 짜서 발표(發表)하면 그대로 따르겠습니다. *(전원(全員) 찬성(贊成) 이때 구수회담(鳩首會談))*
+**Bae Jin-young :** Plutôt que cela, si les dirigeants, le chef du village et les membres du comité de développement forment un groupe et présentent une proposition, nous la suivrons. *(Tous approuvent, discussion à l'unisson à ce moment-là)*
 
 **지도자(指導者):** 그럼 이사진(理事陣)을 발표(發表)하겠습니다. 이사장(理事長) 곤석준(袞錫俊), 부이사장(副理事長) 곤순룡(袞順龍), 여신위원장(與信委員長) 곤금남(袞錦南), 운영위원장(運營委員長) 배풍태랑(배豊太郎), 교도위원장(敎導委員長) 곤웅기(袞雄基), 감사(監査) 곤융태(袞융태), 곤철용(袞哲容), 회계원(會計員) 곤석채(袞錫彩)로 정(定)했습니다.
 
@@ -24370,10 +24370,10 @@ Cette usine peut s'auto-approvisionner en matières premières et la plupart des
 
 --- (p. 732) ---
 
-며 확장(擴張)된 시설(施設)과 정관 내용(內容)은 다음과 같다.
+Les installations élargies et le contenu des statuts sont les suivants.
 
-O 정관 내용(內容)을 간략(簡略)히 소개(紹介)하면
-한지(韓紙) 공장(工場)을 주식화(株式化)하여 효율적(効率的)으로 관리(管理) 운영(運營)하므로서 주민(住民)의 협동심(協同心) 앙양(昂揚)과 총화체제(總和體制)를 구축(構築)하고 재산(財產)을 증식(增殖)하여 마을 소득(所得)을 향상(向上)시키는데 목적(目的)을 두었으며,
+Pour présenter brièvement le contenu des statuts :
+En transformant l'usine de papier coréen en société par actions et en la gérant de manière efficace, nous visons à renforcer l'esprit de coopération des résidents, à établir un système de solidarité, à accroître les biens et à améliorer les revenus du village.
 본(本) 공장(工場)의 자산(資產)은 77.3.21 한국감정원(韓國鑑定院) 광주지점(光州支店)의 평가(評價) 결과(結果)에 따라 현(現) 지도자(指導者) 김명수(金明洙) 소유(所有)
 
 | 항목 | 면적/수량 | 금액 |
@@ -24390,10 +24390,10 @@ O 정관 내용(內容)을 간략(簡略)히 소개(紹介)하면
 
 O 하사금(下賜金) 사업(事業)으로 시행(施行)된 한지(韓紙) 공장(工場)의 시설확장(施設擴張)은 77.4.19 착공(着工) 77.7.1 완료(完了)되었는데, 15마력(馬力)의 동력선(動力線) 가설(架設)과 지통(紙桶) 7개 증설(個增設), 탈수기(脫水機) 1대(臺), 보일러 시설(施設)에 의한 건조시설(乾燥施設) 23평(坪), 그리고, 원료(原料) 저장고 등(等)을 시설(施設)하므로서 한지(韓紙) 생산(生產)의 능률화(能率化)를 도모하였다.
 3) 토지희사(土地喜捨) 및 융로극복상황(隆路克服狀況)
-O 71년(年) 김명수(金明洙) 지도자(指導者)가 개발위원(開發委員)과 마을 주민(民)을 겨우 설득(說得)시켜 마을과 농경지(農耕地)를 연결(連結)하는 농로(農路) 1,000m를 개설(開設)하는데 이웃 마을에 거주(居住)하는 편입토지주(編入土地主)(상오(上蜈) 2구(區))의 강력(强力)한 반대(反對)로 누차(累次) 설득(說得)을 해 보았으나 단 한 사람의 반대(反對)로 사업(事業)을 이룩하지 않을 수 없어 강행(强行)한 결과(結果), 지도자(指導者)가 뭇매를 맞는 소동까지 일어났으나, 이에 굴하지 않고 “두 마을의 발전(發展)을 위해(爲해) 조금씩만 양보하고 이해(理解)한다면 마을 주민(民) 전체(全體)가 큰 혜택을 받을 수 있을 뿐만 아니라 후손(後孫)들에게도 떳떳한 일이 아닐 수 없다”고 간곡히 설득(說得)하므로서 드디어 지도자(指導者)의 끈질긴 집념(執念)에 감동(感動), 편입토지(編入土地)를 희사(喜捨)하게 되어 농로개설(農路開設)을 성공(成功)으로 이끌었고
-O 74년(年) 각하(閣下) 특별지원(特別支援) 100만원(萬원)으로 굴곡이 심한 마을 안 소하천(小河川)을 바로잡고 소하천(小河川)을 따라 안길을 신설(新設)함에 있어 편입토지주(編入土地主)의 완강한 반대(反對)로 한때 중단(中斷) 상태까지 이르렀으며, 개발위원(開發委員)으로 있던 마을 주민(民) 김종인(金鍾仁) 씨가 편입토지주(編入土地主)와 절충, 자기(自己) 토지(土地)를 대토(代土)로 주고 반대(反對)하던 편입토지(編入土地) 주(主)의 부지 90평(坪)을 마을에 희사(喜捨)하므로서 마을 주민(民)의 가슴을 뭉클하게 한 사례(事例)는 이 마을 역사(歷史)가 존재(存在)하는 한(限) 영원(永遠)히 잊지 못할 아름다운 추억(追憶)과 애로를 슬기롭게 극복(克服)한 사례(事例)라 하겠다.
+En 1971, le dirigeant Kim Myeong-su, avec les membres du comité de développement et les résidents du village, a finalement réussi à convaincre pour ouvrir une route agricole de 1 000 mètres reliant le village et les terres cultivées. Cependant, en raison de la forte opposition des propriétaires terriens intégrés (du 2ᵉ quartier de Sang-o), malgré plusieurs tentatives de persuasion, un seul opposant a empêché la réalisation du projet. Le dirigeant a donc agi avec fermeté, ce qui a même conduit à une altercation où il a été malmené. Sans se décourager, il a insisté : « Si chacun fait un petit compromis et cherche à comprendre pour le développement des deux villages, non seulement tous les résidents en bénéficieront grandement, mais ce sera aussi une fierté pour nos descendants. » Grâce à cette persuasion sincère, les propriétaires terriens intégrés, émus par la persévérance du dirigeant, ont finalement fait don de leurs terres, permettant ainsi le succès de l'ouverture de la route agricole.
+En 1974, grâce à un soutien spécial de 1 million de wons de Son Excellence, le cours sinueux du petit ruisseau du village a été redressé et un chemin intérieur a été créé le long de ce ruisseau. Cependant, en raison de l'opposition farouche des propriétaires terriens intégrés, les travaux ont failli être interrompus. Kim Jong-in, un résident du village et membre du comité de développement, a négocié avec les propriétaires terriens intégrés et a échangé ses propres terres pour obtenir les 90 pyeong de terrain appartenant aux opposants, qu'il a ensuite offerts au village. Cet acte a profondément touché les résidents et restera à jamais un beau souvenir et un exemple de la manière dont les difficultés ont été surmontées avec sagesse dans l'histoire de ce village.
 4) 미담가화(美談佳話)
-O 72년(年) 새마을 운동(運動)의 거센 물결이 일 때 상오(上蜈) 마을에서도 안길을 넓히고 담장을 개량(改良)하는
+En 1972, alors que le mouvement Saemaul Undong battait son plein, dans le village de Sang-o, des travaux ont été entrepris pour élargir les chemins intérieurs et améliorer les clôtures.
 
 
 --- (p. 733) ---
@@ -25235,7 +25235,7 @@ Kim Maeng-ho (金孟鎬) : L'opinion de Kim Dong-seon est bonne, mais à mon avi
 사 회 : Y a-t-il d'autres opinions ? Alors, nous allons distribuer le ciment de manière égale à chaque foyer. Alors, venez demain au magasin pour le prendre, et jusqu'à la fin du mois, tout le monde doit construire un mur. Alors, la réunion est terminée.
 
 ### Participants
-김익로, 김재혁, 김상술, 김시동, 권오봉, 김학병, 이춘보, 김홍로, 김근대, 김성태, 김동환, 김남호, 김시웅, 김시성, 김시완, 김노진, 박재선, 김노춘, 이재원, 김희대, 이춘화, 김위석, 김형식, 김성구, 김형박, 김동식, 김우봉, 김예환, 이원목, 조규환, 이원학, 김노식, 김영달, 홍근표, 김지원, 김시창, 김경로, 김흥병, 김시갑, 김기수.
+Kim Ik-ro, Kim Jae-hyeok, Kim Sang-sul, Kim Si-dong, Kwon O-bong, Kim Hak-byeong, Lee Chun-bo, Kim Hong-ro, Kim Geun-dae, Kim Seong-tae, Kim Dong-hwan, Kim Nam-ho, Kim Si-ung, Kim Si-seong, Kim Si-wan, Kim No-jin, Park Jae-seon, Kim No-chun, Lee Jae-won, Kim Heui-dae, Lee Chun-hwa, Kim Wi-seok, Kim Hyeong-sik, Kim Seong-gu, Kim Hyeong-bak, Kim Dong-sik, Kim U-bong, Kim Ye-hwan, Lee Won-mok, Jo Gyu-hwan, Lee Won-hak, Kim No-sik, Kim Yeong-dal, Hong Geun-pyo, Kim Ji-won, Kim Si-chang, Kim Gyeong-ro, Kim Heung-byeong, Kim Si-gap, Kim Gi-su.
 
 ### Procès-verbal de la réunion (2)
 *   **Date** : 25 octobre 1972.
@@ -25944,7 +25944,7 @@ O Superficie cultivable (耕地面積)
 
 --- (p. 777) ---
 
-군내에서도 가장 산간 오지의 마을로서 춘궁기에는 장리벼마저 얻기 힘든 마을이었다.
+C'était un village parmi les plus reculés et montagneux du district, où même le riz de prêt était difficile à obtenir pendant la période de soudure printanière.
 
 # Niveau de revenu dans les années 70
 
@@ -26212,12 +26212,12 @@ Si quelqu'un a des objections concernant les points ci-dessus, qu'il n'hésite p
 **Président de séance:** Pour clarifier les décisions prises lors de cette assemblée générale, je vous prie de bien vouloir signer ce document. Merci.
 
 **Participants:**
-변수환, 백원기, 김기수, 우병재, 채종해, 김윤태, 윤재영
-김병원, 박근희, 오호생, 우병택, 전천돌, 김계홍, 김진구
-백한수, 채갑돌, 홍잠수, 채종복, 김계동, 이원희, 김태석
-김실경, 석태원, 이술이, 우갑용, 채정기, 우종만, 윤종석
-문판석, 백갑생, 김명곤, 김두상, 오호생, 이재옥, 이봉석
-정판점, 정갑술, 김재경, 이봉구
+Byeon Su-hwan, Baek Won-gi, Kim Gi-su, Woo Byeong-jae, Chae Jong-hae, Kim Yun-tae, Yun Jae-yeong
+Kim Byeong-won, Park Geun-hui, Oh Ho-saeng, Woo Byeong-taek, Jeon Cheon-dol, Kim Gye-hong, Kim Jin-gu
+Baek Han-su, Chae Gap-dol, Hong Jam-su, Chae Jong-bok, Kim Gye-dong, Lee Won-hui, Kim Tae-seok
+Kim Sil-gyeong, Seok Tae-won, Lee Sul-i, Woo Gab-yong, Chae Jeong-gi, Woo Jong-man, Yun Jong-seok
+Mun Pan-seok, Baek Gab-saeng, Kim Myeong-gon, Kim Du-sang, O Ho-saeng, Lee Jae-ok, Lee Bong-seok
+Jeong Pan-jeom, Jeong Gab-sul, Kim Jae-gyeong, Lee Bong-gu
 
 ---
 
@@ -26243,9 +26243,9 @@ Y a-t-il des objections?
 Dans ce cas, considérant qu'il n'y a pas d'objections, nous allons clore cette assemblée générale de bilan des travaux. Merci.
 
 **Participants à l'assemblée générale:**
-우병재, 이원희, 김병원, 변수환, 윤재영, 우종만, 윤종석, 백갑생
-백한수, 우갑용, 석태원, 김진구, 김계동, 채종복, 박조희, 김태석
-채종해, 김계, 이봉석, 채갑문, 이재옥, 김명곤, 채정기, 김두상
+Woo Byeong-jae, Lee Won-hui, Kim Byeong-won, Byeon Su-hwan, Yun Jae-yeong, Woo Jong-man, Yun Jong-seok, Baek Gab-saeng
+Baek Han-su, Woo Gab-yong, Seok Tae-won, Kim Jin-gu, Kim Gye-dong, Chae Jong-bok, Park Jo-hui, Kim Tae-seok
+Chae Jong-hae, Kim Gye, Lee Bong-seok, Chae Gab-mun, Lee Jae-ok, Kim Myeong-gon, Chae Jeong-gi, Kim Du-sang
 
 
 --- (p. 785) ---
@@ -26331,10 +26331,10 @@ Si vous n'avez aucune objection au rapport financier, veuillez décider par vote
 
 ### Participants
 
-우삼택 우달쇠 우병택 전태수 채갑들 김실경 김형도
-김의웅 문용진 김명곤 우문이 우병택 채종해 오호생
-우종윤 변수환 박근희 김택석 김개동 백한수 김재수
-박철희 김두상 오한주 정갑술 석진옥 우종완 전이돌
+Woo Sam-taek Woo Dal-soe Woo Byeong-taek Jeon Tae-su Chae Gab-deul Kim Sil-gyeong Kim Hyeong-do
+Kim Ui-ung Mun Yong-jin Kim Myeong-gon Woo Mun-i Woo Byeong-taek Chae Jong-hae O Ho-saeng
+Woo Jong-yun Byeon Su-hwan Park Geun-hui Kim Taek-seok Kim Gae-dong Baek Han-su Kim Jae-su
+Park Cheol-hui Kim Du-sang O Han-ju Jeong Gab-sul Seok Jin-ok Woo Jong-wan Jeon I-dol
 김진구 우종태 전칠석
 
 
@@ -27583,7 +27583,7 @@ Tous: D'accord.
 Le guide (指導者): Dans ce cas, nous déciderons d'acheter les outils agricoles (農機具) de M. Choi Yong-soon, d'utiliser le solde restant pour les accessoires (附屬品) en obtenant un prêt (融資) de la coopérative agricole (農協), et de rembourser ce prêt (融資金) avec les bénéfices (利益金). Nous conclurons d'abord l'achat des outils agricoles (農機具). Après l'achat, nous tiendrons une nouvelle assemblée des résidents (住民總會) pour présenter un rapport financier détaillé (決算報告).
 
 ### Liste des représentants présents (參席者 代表)
-고근환, 고봉림, 이동희, 고영조, 고두원, 고재인, 고호림, 고연환, 고영봉, 고덕환, 고영필, 고철림, 강상원, 고재완, 고국림, 이재희, 고재구, 고병모, 고시환, 고영하, 고언필, 정명진, 최용순.
+Ko Geun-hwan, Ko Bong-rim, Lee Dong-hui, Ko Yeong-jo, Ko Du-won, Ko Jae-in, Ko Ho-rim, Ko Yeon-hwan, Ko Yeong-bong, Ko Deok-hwan, Ko Yeong-pil, Ko Cheol-rim, Kang Sang-won, Ko Jae-wan, Ko Guk-rim, Lee Jae-hui, Ko Jae-gu, Ko Byeong-mo, Ko Si-hwan, Ko Yeong-ha, Ko Eon-pil, Jeong Myeong-jin, Choi Yong-sun.
 
 ## Procès-verbal (會議錄) (3)
 
@@ -27633,7 +27633,7 @@ Animateur : Alors, nous allons clore (마치) le bilan (決算). En raison de la
 
 --- (p. 822) ---
 
-고진환, 신원철, 신원달, 고언필, 고봉림, 고영봉, 이재희, 고시환, 권복성, 정성진, 고병모, 고승환, 고국림, 고경환, 권근하, 고봉환, 신태섭, 신원철, 정태원, 고재완, 이동희, 고두원, 고영복.
+Ko Jin-hwan, Sin Won-cheol, Sin Won-dal, Ko Eon-pil, Ko Bong-rim, Ko Yeong-bong, Lee Jae-hui, Ko Si-hwan, Gwon Bok-seong, Jeong Seong-jin, Ko Byeong-mo, Ko Seung-hwan, Ko Guk-rim, Ko Gyeong-hwan, Gwon Geun-ha, Ko Bong-hwan, Sin Tae-seob, Sin Won-cheol, Jeong Tae-won, Ko Jae-wan, Lee Dong-hui, Ko Du-won, Ko Yeong-bok.
 
 ## Procès-verbal (會議錄)(4)
 
@@ -27687,7 +27687,7 @@ Il reste un problème (問題). Doit-on continuer à louer (賃貸) les équipem
 Même si vous venez me chercher, faisons en sorte de ne pas avoir honte en commençant par embellir nos propres maisons. Permettez-moi de partager une belle histoire. La plupart des résidents du village le savent déjà, mais pour l'opération de la salle d'étude pour enfants, l'association unitaire de Jeomchon a fait don de 15 bureaux et 40 chaises que vous utilisez actuellement. Cela vaut environ 84 000 won (quatre mille won supplémentaires). Nous devrions au moins être reconnaissants en notre for intérieur.
 
 ### Représentants des participants
-고두원, 고영봉, 고운환, 고재인, 정성진, 고영조, 고진환, 고재완, 고근환, 김난현, 고득환, 변일필, 고시환, 고상환, 고경환, 고명원, 정명진, 신원철, 김일천, 고연환, 고봉환, 고보림, 고봉림, 고백림, 고영하, 고영목, 고휘림, 고필환, 전동섭, 유숙희, 이윤우, 고수림, 이동희, 고승환, 최순만.
+Ko Du-won, Ko Yeong-bong, Ko Un-hwan, Ko Jae-in, Jeong Seong-jin, Ko Yeong-jo, Ko Jin-hwan, Ko Jae-wan, Ko Geun-hwan, Kim Nan-hyeon, Ko Deuk-hwan, Byeon Il-pil, Ko Si-hwan, Ko Sang-hwan, Ko Gyeong-hwan, Ko Myeong-won, Jeong Myeong-jin, Sin Won-cheol, Kim Il-cheon, Ko Yeon-hwan, Ko Bong-hwan, Ko Bo-rim, Ko Bong-rim, Ko Baek-rim, Ko Yeong-ha, Ko Yeong-mok, Ko Hwi-rim, Ko Pil-hwan, Jeon Dong-seob, Yu Suk-hui, Lee Yun-u, Ko Su-rim, Lee Dong-hui, Ko Seung-hwan, Choi Sun-man.
 
 ### 4. Plan de développement futur (發展構想)
 
@@ -27900,7 +27900,7 @@ Les habitants de ce village, qui ont travaillé dur, ont reçu des encouragement
 
 --- (p. 831) ---
 
-| 년월일 | 인적사항 | 금액 | 개요 | 비고 |
+| Date | Informations personnelles | Montant | Résumé | Remarques |
 | :----- | :------- | :--- | :--- | :--- |
 | 77. 7.28 | Association des personnes âgées de Yeongju (支會) | 50,000 | | Yeongju (榮州) |
 | 77. 8. 3 | Directeur de département de l'administration de Yeongju (榮州郡廳) | 30,000 | | " |
@@ -27931,7 +27931,7 @@ b) Deuxième histoire (第二話)
 
 6) Visites de personnalités (要人訪問狀況)
 
-| 년월일 | 직위 | 성명 | 위로 및 격려사항 |
+| Date | Poste | Nom | Messages de réconfort et d'encouragement |
 | :----- | :--- | :--- | :----------- |
 | 71. 2. 7 | Administrateur de district (郡守) | Lee Woo-taek (李禹澤) | |
 | 72. 4.10 | " | Kim Byeong-won (金炳元) | Guidage du mouvement du Saemaul (事業指導) |
@@ -28304,23 +28304,23 @@ Président de séance : Park Dal-dae, chef du village
 
 --- (p. 842) ---
 
-도자 직위(職位)에 있는 동장 새마을지도자(指導者)를 제외하고 선출(選出)이 되어야 좋겠읍니다. 그런 뜻에서 오랫동안 이곳 마을에서 살았고 일정시(一定市) 중학교를 졸업(卒業)하셨으며, 국가관(國家觀)이 투철(透徹)하신 김영진(金永鎭)씨를 위원장(委員長)으로 추천(推薦)합니다.
+À l'exception des chefs de village (동장) et des leaders du mouvement Saemaul (새마을지도자) en poste, il serait préférable que le choix soit fait par élection (選出). Dans cet esprit, je recommande (推薦) Monsieur Kim Yeong-jin (金永鎭), qui vit dans ce village depuis longtemps, a obtenu son diplôme d'un collège d'enseignement secondaire (一定市) et possède une vision nationale (國家觀) très claire (透徹), pour le poste de président du comité (委員長).
 
-**권응하(權應夏)**: 동감(同感)입니다. 54세의 장년(壯年)이시고 마을발전(發展)에 전부터 공헌(貢獻)이 많으신 분에게 어려운 책임(責任)을 드려 죄송스럽지만 앞서서 행정기관(行政機關)과 마을과의 유대(紐帶)를 같이하여 한번 정말 마을 역사(歷史)의 혁신적(革新的)인 일을 추진(推進)하는 위원장직(委員長職)을 맡아 주시면 감사하겠읍니다.
+**Kwon Eung-ha (權應夏)** : Je suis tout à fait d'accord (同感). Bien qu'il soit désolant de confier une responsabilité (責任) aussi lourde à une personne de 54 ans dans la force de l'âge (壯年) qui a déjà beaucoup contribué au développement (發展) du village, si cette personne, en collaboration avec les institutions administratives (行政機關), pouvait assumer le rôle de président du comité (委員長職) pour véritablement promouvoir (推進) une innovation historique (革新的) pour notre village, nous lui en serions très reconnaissants.
 
-**읍장(邑長)**: 이 중요한 시점(時點)에서 한가지 말씀드리고 싶은 것은 추진위원장(推進委員長) 직위(職位)가 매우 중요하지만 특히 동민(洞民) 여러분의 적극적(積極的)인 협조(協助)가 있어야 됨을 잊지 마시고 비상(非常)한 각오(覺悟)로서 마을의 일대 변혁(變革)을 가져오는 취락구조개선(聚落構造改善) 사업(事業)에 능동적(能動的)인 자세(姿勢)로 임해 주시기 바랍니다.
+**Chef de canton (邑長)** : À ce moment crucial (時點), je voudrais souligner une chose : bien que le poste de président du comité de promotion (推進委員長) soit très important, n'oubliez pas que votre coopération active (積極的 協助) en tant que villageois (洞民) est indispensable. Je vous demande d'aborder avec une détermination exceptionnelle (非常 覺悟) et une attitude proactive (能動的 姿勢) le projet d'amélioration de la structure des hameaux (聚落構造改善), qui apportera une transformation majeure (一大 變革) à notre village.
 
-**이원재(李源宰)**: 읍장님의 좋은 말씀 잘 들었고 아직도 이야기는 들었지만 취락구조개선(聚落構造改善)이라면 과연 어떻게 되는 것인지 확실(確實)히 몰라 시간을 보내면서 결정사항(決定事項)을 추진(推進)해 가도록 하고 오늘 회의 안건(案件)인 추진위원장(推進委員長)은 저도 김영진(金永鎭)씨를 적극(積極) 찬성(贊成)합니다.
+**Lee Won-jae (李源宰)** : J'ai bien écouté les sages paroles du chef de canton, et bien que j'aie encore des questions, concernant l'amélioration de la structure des hameaux (聚落構造改善), je ne suis pas tout à fait sûr de ce que cela implique exactement. Nous devrions prendre le temps de bien comprendre avant de mettre en œuvre les décisions (決定事項). Pour l'ordre du jour (案件) d'aujourd'hui, à savoir le poste de président du comité de promotion (推進委員長), je soutiens (積極 贊成) également activement Monsieur Kim Yeong-jin (金永鎭).
 
-**동장(洞長)**: 그럼 동민(洞民)의 의견(意見)을 듣겠읍니다. 추진위원장(推進委員長)으로 다른 분을 추천(推薦)하실 분은 없읍니까? ………………없으면 김영진(金永鎭)씨를 좋다고 생각하시는 분 거수(擧手)를 하여 주십시요. (동민(洞民) 전원(全員) 거수(擧手)) 그럼 추진위원장(推進委員長)은 김영진(金永鎭)씨로 선출(選出)하고 추진위원(推進委員)을 또 선출(選出)하여야 우선 김영진(金永鎭)씨를 환영(歡迎)하는 뜻에서 뜨거운 박수(拍手)로 격려(激勵)하여 주십시다. ……박수(拍手)……
+**Chef de village (洞長)** : Nous allons maintenant écouter les opinions des villageois (洞民). Y a-t-il quelqu'un qui souhaite recommander une autre personne pour le poste de président du comité de promotion (推進委員長) ? ……………… Personne ? Dans ce cas, que ceux qui sont favorables à Monsieur Kim Yeong-jin (金永鎭) lèvent la main, s'il vous plaît. (Tous les villageois (洞民) lèvent la main (全員 擧手)) Ainsi, Monsieur Kim Yeong-jin (金永鎭) est élu (選出) président du comité de promotion (推進委員長). Nous devons maintenant élire les membres du comité de promotion (推進委員). Commençons par applaudir chaleureusement (拍手) Monsieur Kim Yeong-jin pour le soutenir (激勵) et lui souhaiter la bienvenue. …… Applaudissements (拍手)……
 
-**김영진(金永鎭)**: 무력(無力)하고 무능(無能)한 자(者)에게 이런 무거운 책임(責任)을 맡아 암담(暗澹)할 뿐입니다. 저의 솔직(率直)한 심정(心情)으로는 거절(拒絶)하고 싶지만 동민(洞民)의 뜻이 그렇다니 추진(推進)을 하다가 제 몸이 산산조각이 나는 한이 있드라도 우선 동민(洞民)의 뜻을 승낙(承諾)하고 최선(最善)을 다해 보겠읍니다. 그리고 추진위원(推進委員)은 실질적(實質的)으로 동네 일을 앞장서서 하고 있는 동장(洞長), 새마을지도자(指導者), 개발위원(開發委員)으로 하도록 하면 좋겠읍니다.
+**Kim Yeong-jin (金永鎭)** : Je me sens accablé (暗澹) par cette lourde responsabilité (責任) qui m'est confiée, moi qui suis si impuissant (無力) et incompétent (無能). Sincèrement (率直 心情), j'aurais voulu refuser (拒絶), mais puisque c'est la volonté des villageois (洞民), je l'accepte (承諾) et ferai de mon mieux (最善), même si cela doit me briser. Pour les membres du comité de promotion (推進委員), il serait bon qu'ils soient composés des personnes qui s'impliquent concrètement (實質的) dans les affaires du village, à savoir le chef de village (洞長), les leaders du mouvement Saemaul (新마을지도자) et les membres du comité de développement (開發委員).
 
 **윤재관(尹在寬)**: 좋습니다.
 
 **박영오(朴永伍)**: 재청(再請)합니다.
 
-**동장(洞長)(박달대(朴達大))**: 다른 의견(意見)은 없읍니까? 없으면 추진위원장(推進委員長) 의견(意見)대로 결정(決定)짓도록 하겠읍니다.
+**Chef de village (洞長) (Park Dal-dae (朴達大))** : Y a-t-il d'autres opinions (意見) ? Non ? Dans ce cas, nous allons suivre l'avis du président du comité de promotion (推進委員長 意見) et prendre une décision (決定).
 
 | 역할   | 이름     | 나이   | 이름     | 나이   |
 | :----- | :------- | :----- | :------- | :----- |
@@ -28330,7 +28330,7 @@ Président de séance : Park Dal-dae, chef du village
 | 위원   | 김수강(金洙康) | (53")  | 이경재(李京宰) | (51")  |
 | 위원   | 권응하(權應夏) | (41")  | 권기하(權基夏) | (41")  |
 
-폐회(閉會): 그럼 이것으로서 오늘 회의(會議)를 모두 마치겠읍니다. 감사합니다.
+Clôture (閉會) : Sur ce, nous allons mettre fin à cette réunion (會議) d'aujourd'hui. Merci.
 
 ♦ **회의록(會議錄) (7)**
 일시(日時) : 77. 6. 22.
@@ -28447,7 +28447,7 @@ Village chief: Thank you very much.
 
 --- (p. 846) ---
 
-m당 계약을 하도록 해야 될 줄 믿습니다.
+Je crois qu'il faut conclure un contrat avec le parti m.
 백만수: Pour des raisons financières, procédons progressivement et, si possible, au cas par cas.
 읍장(邑長): Je tiens à vous exprimer ma profonde gratitude pour vos efforts incessants dans le cadre de l'amélioration des logements (住宅改良). Bien que ce soit mon devoir, je vous remercie sincèrement pour votre coopération avec les organismes administratifs (行政機關). Malgré les difficultés actuelles, je vous demande de redoubler d'efforts afin d'achever, dès demain, les travaux entamés et de parachever (有終)의 미(美) cette tour déjà bien construite.
 권응하: Demain, convoquons quelques entrepreneurs (業者) pour signer des contrats.
@@ -29292,7 +29292,7 @@ d. Pour les non-participants(未出役者), une indemnité de travail(勞賃) se
 **Président de séance (司會者):** Tout sera mis en œuvre selon vos décisions. Je vous demande de continuer à coopérer et à participer. La séance est levée.
 
 **Signatures et sceaux des représentants (代表者)**
-이용암, 송명봉, 서해수, 이병화, 김광련, 김중학, 김종성, 김해동, 김북학, 이춘성, 박병령
+Yong-am Lee, Myeong-bong Song, Hae-su Seo, Byeong-hwa Lee, Gwang-ryeon Kim, Jung-hak Kim, Jong-seong Kim, Hae-dong Kim, Buk-hak Kim, Chun-seong Lee, Byeong-ryeong Park
 
 
 --- (p. 867) ---
@@ -30314,7 +30314,7 @@ O Grâce à la création de parcs d'élevage (畜産) et de vergers (果樹) (�
 
 --- (p. 894) ---
 
-립에 써서 소득증대(所得增進)를 꾀해 봄이 좋다고 생각합니다.
+Je pense qu'il serait bon d'essayer d'augmenter les revenus (所得增進) en l'écrivant sur du papier de riz.
 **Leader of Saemaul:** Jusqu'à présent, l'idée de Kim Su-kyung de construire un club-house (회관(會館)) et la proposition de Ku Yong-bum de construire une salle commune de sériciculture (공동(共同) 잠실(蠶室)) ont été avancées.
 Y a-t-il d'autres opinions?
 **Byun Jae-u:** Toutes les opinions sont bonnes, mais voici la mienne.
@@ -30367,7 +30367,7 @@ Kim Jong-tae, Kim Chung-woong, Nam Il-am, Kim Ho-kyung, Lee Heung-yeol, Kim In-k
 |---|---|
 | 일시 | 1976. 4. 5. 19:20~21:40 |
 | 장소 | 신안 마을 회관 |
-| 의제 | 특별 지원금 사용 결산 |
+| Ordre du jour | Clôture des comptes de l'utilisation des subventions spéciales |
 
 Chef du Saemaul : Merci à tous. Aujourd'hui, je vois que tout le monde a le visage bronzé. Vous avez beaucoup travaillé pour la construction de la salle communautaire et pour la promotion du village de la Révolution. Grâce à la générosité du Président et à notre sueur et à nos efforts, nous avons pu construire cette magnifique salle communautaire. Aujourd'hui, nous allons vous présenter les résultats de vos efforts.
 
@@ -30467,7 +30467,7 @@ Kim Jong-tae, Kim Chung-woong, Nam In-am, Kim Ho-kyung, Lee Hong-yeol, Kim In-ky
 **Leader du Saemaul Undong** : Alors, pour mener à bien ce projet, le chef de village sera le président du comité de promotion et Kim Chung-woong et Kim Soo-kyung seront les membres. Commençons les travaux dès demain. Merci pour vos bonnes paroles pendant cette longue réunion.
 
 **Liste des participants**
-오용문, 김효원, 최동규, 남인암, 오만곤, 이태호, 박재홍, 박충걸, 양태선, 김종열, 박덕출, 구용범, 권의하, 김윤경, 유상근, 남석규, 우덕용, 김충길, 우상용, 김영곤, 진정봉, 김소이, 손정언, 최풍시, 김종태, 김수경, 김흥출, 안상도, 이경원, 이홍순, 김충웅, 양상윤, 김흥규, 강자용, 진경봉, 김인경, 손임익, 이원석, 진운철, 신종찬, 최풍렬.
+Yong-mun O, Hyo-won Kim, Dong-gyu Choi, In-am Nam, Man-gon O, Tae-ho Lee, Jae-hong Park, Chung-geol Park, Tae-seon Yang, Jong-yeol Kim, Deok-chul Park, Yong-beom Gu, Ui-ha Kwon, Yoon-gyeong Kim, Sang-geun Yu, Seok-gyu Nam, Deok-yong Woo, Chung-gil Kim, Sang-yong Woo, Yeong-gon Kim, Jeong-bong Jin, So-i Kim, Jeong-eon Son, Pung-si Choi, Jong-tae Kim, Su-gyeong Kim, Heung-chul Kim, Sang-do An, Gyeong-won Lee, Hong-sun Lee, Chung-ung Kim, Sang-yun Yang, Heung-gyu Kim, Ja-yong Kang, Gyeong-bong Jin, In-gyeong Kim, Im-ik Son, Won-seok Lee, Un-cheol Jin, Jong-chan Shin, Pung-ryeol Choi.
 
 **Procès-verbal (會議錄) (4)**
 
@@ -30537,10 +30537,10 @@ Ceci conclut le bilan total de la porcherie. Si vous avez des questions, n'hési
 동민(同民)일동(一同) : Bien.
 이장(里長)(안상호) Vous avez tous travaillé dur pendant longtemps. Si personne n'a d'autres opinions, je vais clore la réunion.
 <Liste des participants(參席者)>
-김종태, 안상도, 김중웅, 최풍시, 김윤경, 이홍순, 김흥출, 이경원, 남석규, 박충걸, 김효원
-남일암, 박덕출, 김실근, 권의하, 진운철, 박창관, 신종찬, 김흥규, 양태선, 이원석, 손정언
-진정봉, 김인경, 신복이, 최해원, 구용범, 오용문, 손임익, 최동규, 우석관, 우덕용, 박재홍
-박득준, 진경봉, 강자용, 최풍열, 양상윤, 김영곤, 우상용, 김수경.
+Jong-tae Kim, Sang-do An, Jung-ung Kim, Pung-si Choi, Yoon-gyeong Kim, Hong-sun Lee, Heung-chul Kim, Gyeong-won Lee, Seok-gyu Nam, Chung-geol Park, Hyo-won Kim
+Il-am Nam, Deok-chul Park, Sil-geun Kim, Ui-ha Kwon, Un-cheol Jin, Chang-gwan Park, Jong-chan Shin, Heung-gyu Kim, Tae-seon Yang, Won-seok Lee, Jeong-eon Son
+Jin Jeong-bong, Kim In-gyeong, Sin Bog-i, Choe Hae-won, Gu Yong-beom, O Yong-mun, Son Im-ik, Choe Dong-gyu, Woo Seok-gwan, Woo Deok-yong, Park Jae-hong
+Park Deuk-jun, Jin Gyeong-bong, Gang Ja-yong, Choe Pung-yeol, Yang Sang-yun, Kim Yeong-gon, Woo Sang-yong, Kim Su-gyeong.
 
 ### 4. Vision pour le développement futur(發展)
 
@@ -30795,13 +30795,13 @@ Lorsque la caisse du village a commencé à être reconnue par les résidents (�
 
 ### 가) 즐거웠던 일
 
-*   이웃 마을에서 물을 빼앗기면 마을운세(運勢)를 빼앗는 것이라 하면서 반대하던 간이상수도(簡易上水道)를 6회(回)의 사정 끝에 완공(完工)되어 수도꼭지에서 수도물이 나왔을 때와
-*   1977년 5월 경제동향(經濟動向)보고(報告)시(時) 동시 보고 마을로 선정되어 300만원의 특별지원금(特別支援金)을 받았을 때이다.
+*   Lorsqu'après six tentatives, l'adduction d'eau simplifiée (簡易上水道), à laquelle ils s'opposaient en disant que voler l'eau du village voisin équivalait à voler la chance (運勢) du village, fut enfin achevée (完工) et que l'eau coula des robinets,
+*   En mai 1977, lorsque le village fut sélectionné pour être rapporté simultanément lors du rapport sur les tendances économiques (經濟動向報告時), recevant ainsi une subvention spéciale (特別支援金) de 3 millions de wons.
 
 ### 나) 슬펐던 일
 
-*   다같이 잘 살기 위해 마을금고(金庫) 육성(育成)을 위해 반별(班別)로 출자(出資)를 권유하기 위하여 호별(戶別) 방문(訪問)할 때와
-*   회계원(會計員)이나 지도자(指導者)가 돈을 떼어 먹고 도망이나 갈 사람처럼 불신(不信)을 당했을 때이다.
+*   Lorsqu'ils visitaient chaque foyer (戶別訪問) pour encourager les contributions (出資) par groupe (班別) afin de promouvoir la caisse villageoise (村金庫) dans le but de mieux vivre ensemble,
+*   Lorsqu'ils étaient victimes de méfiance (不信), comme si le comptable (會計員) ou le dirigeant (指導者) allait s'enfuir avec l'argent.
 
 ### 다. 연도별(年度別) 사업(事業) 추진(推進) 실적(實績)
 
@@ -30967,8 +30967,8 @@ Cependant, nous avons appris une leçon importante grâce à ce projet : il est 
 
 --- (p. 911) ---
 
-고 솔선하여 주시기를 바랍니다. 늦게까지 대단히 죄송합니다.
-본회의록에는 편의상 개발위원이 주민을 대표하여 날인토록 하겠읍니다.
+Nous vous prions de bien vouloir prendre les devants. Nous sommes désolés pour cette heure tardive.
+Pour des raisons pratiques, le procès-verbal de cette réunion sera signé par le comité de développement au nom des habitants.
 1974. 5. 20
 김동봉(金東鳳) 최순호(崔順鎬) 김종환(金鍾煥)
 이상식(李相植) 최원호(崔元鎬) 최규원(崔圭元)
@@ -31479,31 +31479,31 @@ Président de séance : Alors, nous allons commencer les répétitions des jeux 
 
 --- (p. 924) ---
 
-하여 추진 위원을 회장이 임명하겠습니다. 농악대 대장으로 김종찬씨를 임명하겠습니다. 우리의 숙원인 마을회관 건립을 위하여 성공리에 끝날 수 있도록 회원 여러분의 많은 협조를 바랍니다. 감사합니다.
+Afin de nommer les membres du comité de pilotage, le président fera les désignations. Je nomme M. Kim Jong-chan chef de l'ensemble de musique traditionnelle. Pour que la construction de notre salle communale, un vœu cher depuis longtemps, se termine avec succès, je compte sur la coopération de tous les membres. Merci.
 
 ## 폐회선언
-상기 회의 내용을 더욱 명확히 하기 위하여 서명인 서명 날인함.
-서명인 : 김동찬, 김수성, 오수옥, 차종문, 곽근석외 주민(住民) 36명
+Afin de clarifier davantage le contenu de cette réunion, les soussignés apposent leur signature et leur sceau.
+Soussignés : Kim Dong-chan, Kim Su-seong, O Su-ok, Cha Jong-mun, Gwak Geun-seok et 36 autres habitants (住民)
 
 ## 회의록(會議錄) (2)
 일 시 : 1971년 4월 1일
 장 소 : 마을회관
-회의안건 : 새마을 지도자 선출
+Ordre du jour de la réunion : Élection des leaders du mouvement Saemaul
 회의구분: 임시총회
 참석인원 : 73명
 사 회 자 : 이장 이현주
 
-사회자 : 여러분 안녕하십니까? 금년부터 시작되는 새마을 사업을 보다 능률적이고 성공리에 소기의 목적(目的)을 달성하기 위해서 각 부락(部落)별로 새마을 남녀 지도자를 선출하게 되었읍니다. 새마을 사업의 모든 계획(計劃)과 추진(推進)은 이장(里長)이 아닌 새마을 지도자가 책임(責任)을 지고 수행(遂行)하게 되어 있사오니 오늘 회의(會議)에 참석(參席)하신 분은 잘 생각해서 남녀 지도자를 선출해 주시기 바랍니다.
-신갑조 : 잘 알겠습니다. 새마을 지도자는 첫째 덕망이 있고 또 역량이 있고 활동력이 있어야 합니다. 그러니 각자 소신을 말씀해 주십시오.
-백수일 : 찬성합니다. 신갑조씨의 의견에 따라 아무래도 동네 사정을 잘 알고 있는 전직 이장(里長) 출신이 적격이라고 생각합니다.
-김재일 : 찬성합니다. 제 생각으로서는 김학준씨가 적임자라고 생각합니다. 여러분 의사대로 말씀해 주십시오.
-이현욱 : 우리 청년층에서도 김학준씨를 절대 선정해 주시기를 청년회원을 대표해서 말씀드립니다.
-사회자 : 감사합니다. 앞으로 새마을 사업을 성공리에 마무리 하려면은 아무래도 역량도 있고 활동력이 있는 김학준씨가 적임자라고 생각하는데 여러분의 의견을 묻겠습니다.
-김금률 : 이의 없습니다. 일동 찬성
-사회자 : 그러면 일동 이의가 없다고 하니 거수를 해서 가부를 결정하겠습니다. 김학준씨를 선출하는데 찬성하는 분은 거수를 해 주시기 바랍니다. 일동 찬성, 만장일치로 가결함.
-사회자: 그러면 여자 지도자도 같이 선출해 주시기 바랍니다.
-신두언: 부녀 지도자는 현 부녀회장 문순자씨가 적임자라고 생각합니다. 일동 찬성으로 가결함.
-사회자: 감사합니다. 이상 선출된 남녀 지도자를 받들어 주민 모두 잘 협조하여 주시기 바랍니다.
+Animateur : Bonjour à tous. Afin de rendre le mouvement Saemaul, qui commence cette année, plus efficace et de réussir à atteindre nos objectifs (目的), nous allons élire des leaders masculins et féminins du mouvement Saemaul pour chaque hameau (部落). Toutes les planifications (計劃) et la mise en œuvre (推進) du mouvement Saemaul seront désormais sous la responsabilité (責任) des leaders du mouvement Saemaul et non du chef du village (里長). Je vous demande donc de bien réfléchir et d'élire des leaders masculins et féminins lors de cette réunion (會議).
+Shin Gap-jo : Je comprends. Un leader du mouvement Saemaul doit avant tout avoir une bonne réputation, des compétences et de l'énergie. Je vous invite donc à exprimer librement vos opinions.
+Baek Su-il : Je suis d'accord. Selon l'avis de M. Shin Gap-jo, il me semble que les anciens chefs de village (里長), qui connaissent bien la situation locale, seraient les plus qualifiés.
+Kim Jae-il : Je suis favorable. À mon avis, M. Kim Hak-jun est la personne idéale. Veuillez exprimer votre opinion, s'il vous plaît.
+Lee Hyeon-uk : En tant que représentant des jeunes membres, je demande instamment que M. Kim Hak-jun soit absolument sélectionné par notre groupe de jeunes.
+Animateur : Merci. Pour mener à bien le projet Saemaeul, il me semble que M. Kim Hak-jun, qui possède à la fois les compétences et l’énergie nécessaires, est la personne idéale. Je souhaite connaître votre avis.
+Kim Geum-ryul : Aucune objection. Tout le monde est d’accord.
+Animateur : Puisqu’il n’y a aucune objection, nous allons procéder à un vote à main levée pour prendre une décision. Ceux qui sont en faveur de l’élection de M. Kim Hak-jun, veuillez lever la main. Tout le monde est d’accord, adopté à l’unanimité.
+Animateur : Nous allons maintenant élire une dirigeante.
+Shin Du-eon : Je pense que Mme Moon Soon-ja, l’actuelle présidente des femmes, est la personne idéale pour le poste de dirigeante des femmes. Adopté à l’unanimité.
+Animateur : Merci. Je demande à tous les habitants de bien soutenir les dirigeants hommes et femmes ainsi élus.
 
 
 --- (p. 925) ---
@@ -32379,10 +32379,10 @@ e) Cinquième histoire (제5話)
 
 --- (p. 950) ---
 
-업완공시까지 무료로 제공하여 인근부락의 모범이 되었다.
+Jusqu’à l’achèvement des travaux, il a été offert gratuitement, devenant un exemple pour les villages voisins.
 바) 제6화(第6話)
 
-*   1963년(年)도 서울 거주 이천훈(李千勛) 사장(社長)은 향리 방문 중 공동창고(共同倉庫)가 한 동도 없음을 알고 리사무소(里事務所) 옆에 40평(坪)짜리 창고(倉庫)를 견고하게 건립(建立)하여 주었다.
+*   En 1963, M. Lee Cheon-hun, président résidant à Séoul, lors d’une visite dans son village natal, constatant qu’il n’y avait aucun entrepôt collectif, a fait construire solidement un entrepôt de 40 pyeong (environ 132 m²) à côté du bureau du village.
     ＜기타(其他)＞
 *   1971년도(年度) 용해동(龍海洞) 조남상(趙南祥) 창고(倉庫) 부지 200평(坪)
 *   1974년도(年度) 대전동(大田洞) 양기숙(梁基淑) 농협창고(農協倉庫) 부지 160평(坪)
@@ -32407,16 +32407,16 @@ e) Cinquième histoire (제5話)
 
 ### 가) 즐거웠던 일
 
-*   고구마 다목적(多目的) 저장고를 완성(完成)하여 종감(種甘) 30톤을 보관(保管), 이듬해 3월에 열어보니 하나도 부패하지 않고 저장에 성공(成功)하였을 때
-*   1975년도(年度) 자조(自助) 마을에서 자립(自立) 마을로 승급되었을 때
+*   Après avoir achevé la construction d’un entrepôt polyvalent pour les patates douces, 30 tonnes de semences de patates douces ont été stockées. En les ouvrant en mars de l’année suivante, aucune n’était pourrie, ce qui a marqué un succès de conservation.
+*   En 1975, lorsque le village est passé du statut de village d’entraide à celui de village autonome
 *   1977년도(年度) 상반기(上半期) Saemaul Undong (새마을운동) 가꾸기 결산(決算) 결과 도내(道內) 최우수(最優秀) 부락(部落)으로 선정(選定)되어 내무부장관(內務部長官) 표창(表彰) 및 상금(賞金) 2,000천(千)원을 받았을 때
 *   1974년(年), 75년(年), 76년(年) 각하(閣下) 특별(特別) 지원(支援) 사업비(事業費)를 받았을 때
 *   1976년(年) 전국(全國) Saemaul Undong (새마을운동) 지도자(指導者) 대회(大會) 시(時) 국무총리(國務總理) 표창(表彰) 및 77년도(年度) Saemaul Undong (새마을운동) 지도자(指導者) 대회(大會) 시(時) Saemaul Undong (새마을운동) 포장을 받았을 때
 
 ### 나) 괴로웠던 일
 
-*   74년(年) 농로(農路) 개설(開設) 사업(事業) 및 안길 확장(擴張) 사업(事業)을 시행(施行)함에 있어서 일부(一部) 토지주(土地主)들의 강력한 반발로 2~3개월(個月) 동안 사업(事業) 시공(施工)을 하지 못하여 밤잠을 이루지 못한 때
-*   76년(年) 1종(種) 공동어장(共同漁場)에 불법(不法) 어선(漁船)들이 침범(侵犯)하여 해산물(海産物)을 무단 채취하고 있으나 동력선(動力船) 부족(不足)으로 배척하지 못하던 때
+*   En 1974, lors de la réalisation des projets d’aménagement des chemins agricoles et d’élargissement des ruelles, certains propriétaires terriens se sont fortement opposés, empêchant les travaux pendant 2 à 3 mois, au point de ne pas pouvoir dormir la nuit
+*   En 1976, des bateaux de pêche illégaux ont envahi la zone de pêche collective de première catégorie, récoltant illégalement des produits de la mer, mais faute de bateaux motorisés suffisants, il n’a pas été possible de les repousser
 
 
 --- (p. 951) ---
@@ -32562,49 +32562,49 @@ Président de séance (司會者) : Malgré la chaleur, je vous remercie tous d'
 
 # 개회하겠습니다.
 
-각하께서 지원하여 주시는 지원자금(支援資金)이기에 신중(愼重)을 기하고 본 부락(部落)에 알맞는 사업(事業)으로 선정(選定)하여 주시기 바랍니다.
+Nous vous prions de bien vouloir sélectionner des projets adaptés à notre village avec la plus grande prudence, car il s’agit de fonds de soutien que Votre Excellence nous accorde.
 
-**이원택(李元澤)** : 저의 부락(部落)은 환경개선사업(環境改善事業)은 어느 정도 진척(進陟)을 나타내고 있기 때문에 소득증대(所得增大)에 기여할 수 있는 사업(事業)으로 선정(選定), 주민(住民) 소득증대(所得增大)에 이바지하여야 하겠습니다.
+**Lee Won-taek (李元澤)** : Mon village a montré un certain progrès dans le projet d'amélioration environnementale (環境改善事業). Il convient donc de sélectionner des projets qui peuvent contribuer à l'augmentation des revenus (所得增大) des habitants et de s'efforcer d'y parvenir.
 
-우선 고구마를 안전(安全)하고 다목적으로 저장(貯藏)할 수 있는 저장고 시설(施設)이 어떠한지요.
+Tout d'abord, qu'en est-il des installations de stockage permettant de conserver les patates douces de manière sûre et polyvalente ?
 
-**이성훈(李性勛)**: 좋은 발언(發言)입니다. 이에 동의(同意)합니다.
+**Lee Seong-hun (李性勛)** : C'est une bonne intervention. Je suis d'accord.
 
 (참석자(參席者) 만장일치(滿場一致)로 동의(同意)를 표하다.)
 
-**사회자(司會者)** : 다음에는 본 사업(事業)을 보다 효율적(效率的)으로 추진(推進)할 수 있는 방안(方案)을 말씀하여 주시기 바랍니다.
+**Animateur (司會者)** : Ensuite, veuillez proposer des mesures pour promouvoir ce projet (事業) de manière plus efficace (效率的).
 
-**조남상(趙南祥)** : 본 공사(工事)는 시공(施工)과 기술(技術)이 필요하고 특별지원사업(特別支援事業)이기 때문에 신중(愼重)을 기해야 할 줄 압니다.
+**Jo Nam-sang (趙南祥)** : Ce chantier (工事) nécessite une mise en œuvre (施工) et une technologie (技術) particulières, et comme il s'agit d'un projet de soutien spécial (特別支援事業), il faut faire preuve de prudence (愼重).
 
-우선 사업추진(事業推進)에 책임(責任)지고 일할 수 있는 사업집행책임자(事業執行責任者)와 집행추진위원(執行推進委員)을 선출(選出)하고 이들로 하여금 전담(專擔)케 하는 게 어떻습니까?
+Tout d'abord, ne serait-il pas judicieux d'élire un responsable d'exécution du projet (事業執行責任者) et des membres du comité de promotion (執行推進委員) qui prendront la responsabilité de la mise en œuvre (事業推進) et leur confier cette tâche de manière exclusive (專擔) ?
 
 **고창문(高昌文)** : 동의(同意)합니다.
 
 (참석자(參席者) 전원(全員) 동의(同意)하다.)
 
-**사회자(司會者)** : 그러면 추진(推進) 방법을 말씀하여 주시기 바랍니다.
+**Animateur (司會者)** : Veuillez alors nous expliquer la méthode de promotion (推進).
 
-**이성훈(李性勛)** : 집행책임자(執行責任者)는 이장(里長)과 새마을 지도자(指導者)로 하고 추진위원(推進委員)은 개발위원(開發委員)으로 하는 게 좋을 것 같습니다.
-
-(참석자(參席者) 전원(全員) 동의(同意)하다.)
-
-**사회자(司會者)** : 이 사업(事業)을 추진(推進)하기 위하여는 각하(閣下) 하사금(下賜金) 1,000천원만으로는 도저히 완공(完工)치 못할 것입니다.
-
-자체자금(自體資金)이 무엇보다도 필요한데 조달방법(調達方法)을 말씀하여 주십시오.
-
-**이순신(李淳信)** : 부족(不足)되는 자금(資金) 950천원 중 150천원은 주민(住民) 노력시공(努力施工)으로 충당(充當)하고 800천원은 현금(現金)으로 부락기금(部落基金)과 주민각출(住民醵出) 방법(方法)으로 하는 게 좋겠습니다.
+**Lee Seong-hun (李性勛)** : Il serait bon que le responsable de l'exécution (執行責任者) soit le chef du village (里長) et un leader du mouvement Saemaul (새마을 指導者), et que les membres du comité de promotion (推進委員) soient les membres du comité de développement (開發委員).
 
 (참석자(參席者) 전원(全員) 동의(同意)하다.)
 
-**사회자(司會者)** : 감사합니다. 본 사업(事業)은 어떠한 일이 있더라도 이달 착공(着工)하여 10월까지는 완공(完工), 금년(今年) 산 종감은 안전(安全)하게 저장(貯藏)할 수 있도록 우리 전리민(全里民)은 일심동체(一心同體)가 되어야겠습니다.
+**Animateur (司會者)** : Pour promouvoir ce projet (事業), la somme de 1 000 000 wons allouée par Son Excellence (閣下 下賜金) ne suffira en aucun cas à l'achever (完工).
 
-무더운 날씨에 장시간(長時間) 동안 수고들 많았습니다.
+Les fonds propres (自體資金) sont avant tout nécessaires. Veuillez nous indiquer les méthodes de financement (調達方法).
+
+**Lee Sun-sin (李淳信)** : Sur les 950 000 wons manquants, 150 000 wons pourraient être couverts par les efforts des habitants (住民 努力施工), et les 800 000 wons restants pourraient être collectés en espèces (現金) via le fonds du village (部落基金) et les contributions des habitants (住民醵出).
+
+(참석자(參席者) 전원(全員) 동의(同意)하다.)
+
+**Animateur (司會者)** : Merci. Quoi qu'il arrive, ce projet (事業) doit commencer ce mois-ci (着工) et être achevé (完工) d'ici octobre, afin que les récoltes de patates douces de cette année (今年) puissent être stockées (貯藏) en toute sécurité (安全). Tous les habitants du village (全里民) doivent s'unir comme un seul homme (一心同體).
+
+Merci pour votre dur labeur par cette chaleur étouffante et pendant cette longue réunion (長時間).
 
 (폐회(閉會) 선언(宣言)하다. 참석자대표(參席者代表)하여 서명(署名) 날인(捺印)하다.)
 
-김성남 이창식 조익현 임세화 이원택 유명국 구돈현 이성훈
-천세완 이순신 이북순 이신훈 조남상 고창문 유계홍 이영식
-김봉필 김용삼 김봉민 이종호
+Kim Seong-nam, Lee Chang-sik, Jo Ik-hyeon, Lim Se-hwa, Lee Won-taek, Yu Myeong-guk, Gu Don-hyeon, Lee Seong-hun
+Cheon Se-wan, Lee Sun-sin, Lee Buk-sun, Lee Sin-hun, Jo Nam-sang, Go Chang-mun, Yu Gye-hong, Lee Yeong-sik
+Kim Bong-pil Kim Yong-sam Kim Bong-min Lee Jong-ho
 
 
 --- (p. 955) ---
@@ -33454,7 +33454,7 @@ Président de séance(司會者): Nous avons terminé la discussion sur les équ
 Participants(參席者): Aucun(全員).
 Président de séance(司會者): Dans ce cas, je déclare la séance close(閉會).
 <Signature et sceau des représentants des participants(參席者代表署名捺印)>
-송순웅, 안제문, 안석호, 김영훈, 현봉효, 김상도, 오병남, 강갑진, 김영길, 오순홍, 고윤중, 오근환, 김광추, 강성용, 현태호, 고강윤, 송경호, 정공남, 송기운, 오국정, 오문선, 송경조
+Song Sun-ung, Ahn Je-mun, Ahn Seok-ho, Kim Young-hoon, Hyeon Bong-hyo, Kim Sang-do, Oh Byeong-nam, Kang Gab-jin, Kim Young-gil, Oh Sun-hong, Ko Yoon-joong, Oh Geun-hwan, Kim Gwang-chu, Kang Seong-yong, Hyeon Tae-ho, Ko Kang-yun, Song Gyeong-ho, Jeong Gong-nam, Song Gi-un, Oh Guk-jeong, Oh Mun-seon, Song Gyeong-jo
 
 # Procès-verbal(會議錄) (5)
 
