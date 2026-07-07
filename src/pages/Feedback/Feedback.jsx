@@ -20,7 +20,8 @@ import {
   Clock, 
   ShieldAlert, 
   ArrowLeft,
-  CheckCircle2
+  CheckCircle2,
+  RotateCw
 } from 'lucide-react';
 import './Feedback.css';
 
@@ -252,21 +253,32 @@ const Feedback = () => {
                   />
                 </div>
 
-                {/* 🤖 스팸 방지 수식 캡챠 */}
+                {/* 스팸 방지 수식 캡챠 (모바일 최적화 & 새로고침 기능 탑재) */}
                 <div className="flex flex-col gap-1.5 bg-slate-900/40 p-3.5 rounded-xl border border-slate-800/60">
-                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1">
-                    🤖 스팸 방지 보안 질문
+                  <label className="text-xs font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
+                    스팸 방지 보안 질문
                   </label>
-                  <div className="flex items-center gap-3">
-                    <span className="text-sm font-black text-amber-500 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800">
-                      {captchaNum1} + {captchaNum2} = ?
-                    </span>
+                  <div className="flex flex-col xs:flex-row items-stretch xs:items-center gap-2 md:gap-3">
+                    <div className="flex items-center gap-2 flex-shrink-0">
+                      <span className="text-sm font-mono font-black text-amber-500 bg-slate-900 px-3.5 py-2.5 rounded-xl border border-slate-850 min-w-[95px] text-center select-none shadow-inner">
+                        {captchaNum1} + {captchaNum2} = ?
+                      </span>
+                      <button
+                        type="button"
+                        onClick={generateCaptcha}
+                        title="보안 질문 변경"
+                        className="p-2.5 text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-750 rounded-xl border border-slate-700/60 transition-all flex items-center justify-center flex-shrink-0 cursor-pointer feedback-captcha-refresh-btn"
+                      >
+                        <RotateCw size={14} />
+                      </button>
+                    </div>
                     <input 
                       type="number"
                       placeholder="계산 결과 입력"
                       value={captchaAnswer}
                       onChange={(e) => setCaptchaAnswer(e.target.value)}
-                      className="form-input flex-1 bg-slate-900 border border-slate-800 rounded-xl px-4 py-1.5 text-sm text-slate-200 focus:outline-none focus:border-saemaul-green transition-all"
+                      className="form-input flex-1 bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-saemaul-green transition-all"
                       required
                     />
                   </div>

@@ -56,6 +56,15 @@ const Typewriter = ({ text, speed = 20, onComplete }) => {
 
 const RELEASE_NOTES = [
   {
+    version: "v1.3.6",
+    date: "2026-07-07",
+    patches: [
+      "피드백 캡챠 레이아웃 깨짐 수정 및 **모바일 뷰포트 최적화**",
+      "보안 캡챠 수식을 새로 생성해 볼 수 있는 **새로고침(🔄) 동작** 연동",
+      "다국어 eBook 파일(vi, es, fr, zh 등) 내 미번역 한글 단락 일괄 번역 및 보정을 위한 **Mistral AI 번역 유틸리티(translate_with_mistral.py)** 탑재"
+    ]
+  },
+  {
     version: "v1.3.5",
     date: "2026-07-02",
     patches: [
