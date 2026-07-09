@@ -15,6 +15,7 @@ import {
   Clock, 
   Send, 
   X, 
+  Menu,
   Loader2,
   FileText,
   User,
@@ -641,6 +642,12 @@ const BookReader = () => {
   
   // 미승인 정정 메모 가시성 상태
   const [showMemos, setShowMemos] = useState(false);
+  
+  // 우측 햄버거 메뉴 열기 상태 및 목차 페이지 도출
+  const [menuOpen, setMenuOpen] = useState(false);
+  const getTocPageNum = () => {
+    return activeBookId === 'glory' ? 25 : 9;
+  };
   
   // 사용자 정보 및 권한
   const [currentUser, setCurrentUser] = useState(null);
@@ -1405,7 +1412,7 @@ const BookReader = () => {
   });
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col pt-20">
+    <div className="h-screen bg-slate-900 text-slate-100 flex flex-col pt-20 overflow-hidden">
       
       {/* eBook Header */}
       <header className="bg-slate-950 border-b border-slate-800 px-4 py-3 md:px-6 md:py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-3 md:gap-4 z-10 flex-shrink-0">
@@ -1427,83 +1434,138 @@ const BookReader = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-1.5 md:gap-2 flex-wrap w-full md:w-auto justify-start md:justify-end">
-          <div className="flex items-center gap-1 bg-slate-800 border border-slate-700/50 rounded-xl px-2 py-1.5 md:px-3 md:py-2 text-slate-350">
-            <Globe size={12} className="text-slate-400 md:w-[14px] md:h-[14px]" />
-            <select
-              value={bookLanguage}
-              onChange={(e) => setBookLanguage(e.target.value)}
-              className="bg-transparent text-[11px] md:text-xs font-black text-slate-200 focus:outline-none cursor-pointer pr-1"
-            >
-              <option value="ko" className="bg-slate-900 text-slate-200">한국어 (정제본)</option>
-              <option value="ko_hanja" className="bg-slate-900 text-slate-200">한국어 (한자 병기)</option>
-              {config.hasMultilang && (
-                <>
-                  <option value="en" className="bg-slate-900 text-slate-200">English (EN)</option>
-                  {activeBookId === '10years' && (
-                    <>
-                      <option value="es" className="bg-slate-900 text-slate-200">Español (ES)</option>
-                      <option value="zh" className="bg-slate-900 text-slate-200">中文 (ZH)</option>
-                      <option value="fr" className="bg-slate-900 text-slate-200">Français (FR)</option>
-                      <option value="vi" className="bg-slate-900 text-slate-200">Tiếng Việt (VI)</option>
-                    </>
-                  )}
-                  {activeBookId === 'glory' && (
-                    <>
-                      <option value="es" className="bg-slate-900 text-slate-200">Español (ES)</option>
-                      <option value="zh" className="bg-slate-900 text-slate-200">中文 (ZH)</option>
-                      <option value="fr" className="bg-slate-900 text-slate-200">Français (FR)</option>
-                      <option value="vi" className="bg-slate-900 text-slate-200">Tiếng Việt (VI)</option>
-                    </>
-                  )}
-                </>
-              )}
-            </select>
-          </div>
+        <div className="relative flex items-center gap-2">
+          {/* 햄버거 메뉴 토글 버튼 */}
+          <button 
+            onClick={() => setMenuOpen(!menuOpen)}
+            className={`p-2.5 rounded-xl transition-all border flex items-center justify-center cursor-pointer ${
+              menuOpen 
+                ? 'bg-indigo-600 border-indigo-500 text-white' 
+                : 'bg-slate-800 border-slate-700/40 text-slate-200 hover:bg-slate-700 hover:text-white'
+            }`}
+            aria-label="메뉴 열기"
+          >
+            {menuOpen ? <X size={16} /> : <Menu size={16} />}
+          </button>
 
-          {/* 본문 검색 버튼 */}
-          {pageNum > 0 && (
-            <button
-              onClick={() => setSearchOpen(!searchOpen)}
-              className={`flex items-center gap-1 px-2.5 py-1.5 md:px-4 md:py-2 text-[11px] md:text-xs font-black rounded-xl transition-all cursor-pointer ${
-                searchOpen 
-                  ? 'bg-indigo-650 text-white shadow-lg shadow-indigo-500/20' 
-                  : 'bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white'
-              }`}
-            >
-              <Search size={12} className="md:w-[14px] md:h-[14px]" />
-              {ui.searchText}
-            </button>
-          )}
+          {/* 드롭다운 메뉴 */}
+          {menuOpen && (
+            <>
+              {/* Click Outside overlay */}
+              <div className="fixed inset-0 z-20 cursor-default" onClick={() => setMenuOpen(false)}></div>
+              
+              <div className="absolute right-0 top-full mt-2 w-64 bg-slate-950/95 backdrop-blur-lg border border-slate-800 rounded-2xl p-4 shadow-2xl z-30 flex flex-col gap-3.5 animate-fadeIn">
+                
+                {/* 1. 언어 설정 */}
+                <div className="flex flex-col gap-1.5 border-b border-slate-900 pb-3">
+                  <span className="text-[10px] font-black text-slate-500 uppercase tracking-wider flex items-center gap-1.5 select-none">
+                    <Globe size={11} className="text-slate-400" />
+                    언어 설정
+                  </span>
+                  <select
+                    value={bookLanguage}
+                    onChange={(e) => {
+                      setBookLanguage(e.target.value);
+                      setMenuOpen(false);
+                    }}
+                    className="w-full bg-slate-900 border border-slate-850 rounded-xl px-3 py-2 text-xs font-black text-slate-200 focus:outline-none cursor-pointer"
+                  >
+                    <option value="ko" className="bg-slate-900 text-slate-200">한국어 (정제본)</option>
+                    <option value="ko_hanja" className="bg-slate-900 text-slate-200">한국어 (한자 병기)</option>
+                    {config.hasMultilang && (
+                      <>
+                        <option value="en" className="bg-slate-900 text-slate-200">English (EN)</option>
+                        {activeBookId === '10years' && (
+                          <>
+                            <option value="es" className="bg-slate-900 text-slate-200">Español (ES)</option>
+                            <option value="zh" className="bg-slate-900 text-slate-200">中文 (ZH)</option>
+                            <option value="fr" className="bg-slate-900 text-slate-200">Français (FR)</option>
+                            <option value="vi" className="bg-slate-900 text-slate-200">Tiếng Việt (VI)</option>
+                          </>
+                        )}
+                        {activeBookId === 'glory' && (
+                          <>
+                            <option value="es" className="bg-slate-900 text-slate-200">Español (ES)</option>
+                            <option value="zh" className="bg-slate-900 text-slate-200">中文 (ZH)</option>
+                            <option value="fr" className="bg-slate-900 text-slate-200">Français (FR)</option>
+                            <option value="vi" className="bg-slate-900 text-slate-200">Tiếng Việt (VI)</option>
+                          </>
+                        )}
+                      </>
+                    )}
+                  </select>
+                </div>
 
-          {/* 오류 제안 버튼 */}
-          {pageNum > 0 && (
-            <button
-              onClick={handleOpenReportModal}
-              className="flex items-center gap-1 px-2.5 py-1.5 md:px-4 md:py-2 text-[11px] md:text-xs font-black bg-amber-500 hover:bg-amber-600 text-slate-950 rounded-xl transition-all shadow-lg shadow-amber-500/10 cursor-pointer"
-            >
-              <AlertTriangle size={12} className="md:w-[14px] md:h-[14px]" />
-              {ui.suggestCorrection}
-            </button>
-          )}
+                {/* 2. 본문 검색 */}
+                {pageNum > 0 && (
+                  <button
+                    onClick={() => {
+                      setSearchOpen(!searchOpen);
+                      setMenuOpen(false);
+                    }}
+                    className={`flex items-center gap-2.5 w-full text-left px-3 py-2 text-xs font-black rounded-xl transition-all cursor-pointer border ${
+                      searchOpen 
+                        ? 'bg-indigo-650/20 text-indigo-400 border-indigo-500/20' 
+                        : 'text-slate-300 hover:text-white hover:bg-slate-900 border-transparent'
+                    }`}
+                  >
+                    <Search size={14} className={searchOpen ? "text-indigo-400" : "text-slate-400"} />
+                    {ui.searchText}
+                  </button>
+                )}
 
-          {/* 대시보드로 가기 버튼 */}
-          {pageNum !== 0 ? (
-            <button
-              onClick={() => handlePageChange(0)}
-              className="flex items-center gap-1 px-2.5 py-1.5 md:px-4 md:py-2 text-[11px] md:text-xs font-black bg-indigo-650 hover:bg-indigo-700 text-white rounded-xl transition-all cursor-pointer"
-            >
-              <MessageSquare size={12} className="md:w-[14px] md:h-[14px]" />
-              {ui.dashboard0p}
-            </button>
-          ) : (
-            <button
-              onClick={() => handlePageChange(1)}
-              className="flex items-center gap-1 px-2.5 py-1.5 md:px-4 md:py-2 text-[11px] md:text-xs font-black bg-slate-800 hover:bg-slate-700 text-white rounded-xl transition-all cursor-pointer"
-            >
-              <BookOpen size={12} className="md:w-[14px] md:h-[14px]" />
-              {ui.readBook1p}
-            </button>
+                {/* 3. 오류 정정 제안 */}
+                {pageNum > 0 && (
+                  <button
+                    onClick={() => {
+                      handleOpenReportModal();
+                      setMenuOpen(false);
+                    }}
+                    className="flex items-center gap-2.5 w-full text-left px-3 py-2 text-xs font-black text-amber-500 hover:bg-amber-500/10 rounded-xl transition-all cursor-pointer border border-transparent"
+                  >
+                    <AlertTriangle size={14} />
+                    {ui.suggestCorrection}
+                  </button>
+                )}
+
+                {/* 4. 대시보드로 가기 / 1페이지 읽기 */}
+                {pageNum !== 0 ? (
+                  <button
+                    onClick={() => {
+                      handlePageChange(0);
+                      setMenuOpen(false);
+                    }}
+                    className="flex items-center gap-2.5 w-full text-left px-3 py-2 text-xs font-black text-indigo-400 hover:bg-indigo-500/10 rounded-xl transition-all cursor-pointer border border-transparent"
+                  >
+                    <MessageSquare size={14} />
+                    {ui.dashboard0p}
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => {
+                      handlePageChange(1);
+                      setMenuOpen(false);
+                    }}
+                    className="flex items-center gap-2.5 w-full text-left px-3 py-2 text-xs font-black text-slate-350 hover:text-white hover:bg-slate-900 rounded-xl transition-all cursor-pointer border border-transparent"
+                  >
+                    <BookOpen size={14} className="text-slate-400" />
+                    {ui.readBook1p}
+                  </button>
+                )}
+
+                {/* 5. 목차로 돌아가기 */}
+                <button
+                  onClick={() => {
+                    handlePageChange(getTocPageNum());
+                    setMenuOpen(false);
+                  }}
+                  className="flex items-center gap-2.5 w-full text-left px-3 py-2 text-xs font-black text-emerald-400 hover:bg-emerald-500/10 rounded-xl transition-all border-t border-slate-900/60 pt-3.5 cursor-pointer"
+                >
+                  <BookOpen size={14} />
+                  목차로 돌아가기
+                </button>
+              </div>
+            </>
           )}
         </div>
       </header>
@@ -1610,14 +1672,23 @@ const BookReader = () => {
                         {ui.dashboardDesc}
                       </p>
                     </div>
-                    {isAdmin && (
+                    <div className="flex gap-2 flex-wrap w-full md:w-auto">
                       <button
-                        onClick={handleStartEdit}
-                        className="px-5 py-3 text-xs font-black bg-indigo-650 hover:bg-indigo-700 text-white rounded-xl transition-all cursor-pointer shadow-lg shadow-indigo-500/20"
+                        onClick={() => handlePageChange(getTocPageNum())}
+                        className="px-5 py-3 text-xs font-black bg-emerald-650 hover:bg-emerald-700 text-white rounded-xl transition-all cursor-pointer shadow-lg shadow-emerald-500/20 flex items-center gap-1.5"
                       >
-                        이 페이지 직접 편집 (관리자)
+                        <BookOpen size={12} />
+                        목차로 돌아가기
                       </button>
-                    )}
+                      {isAdmin && (
+                        <button
+                          onClick={handleStartEdit}
+                          className="px-5 py-3 text-xs font-black bg-indigo-650 hover:bg-indigo-700 text-white rounded-xl transition-all cursor-pointer shadow-lg shadow-indigo-500/20"
+                        >
+                          이 페이지 직접 편집 (관리자)
+                        </button>
+                      )}
+                    </div>
                   </div>
 
                   {/* 2중 필터바 (처리 상태 필터 + 언어 필터) */}
