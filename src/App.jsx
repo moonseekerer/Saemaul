@@ -224,9 +224,9 @@ const TEAM_DATA = {
     role: '팀장',
     dept: '국제개발새마을학과',
     year: '3학년',
-    studentId: '22321562',
-    tel: '010-3365-0480',
-    email: 'rnjsehrud08@naver.com',
+    studentId: import.meta.env.VITE_TEAM_MEMBER_1_STUDENT_ID || '',
+    tel: import.meta.env.VITE_TEAM_MEMBER_1_TEL || '',
+    email: import.meta.env.VITE_TEAM_MEMBER_1_EMAIL || '',
     activities: [
       { period: '2025 ~ 2026', desc: '포스코비욘드 18기 (인도네시아 현지 사회문제 해결 프로젝트)' },
       { period: '2024 ~ 2025', desc: '굿네이버스 한빛 7-8기 유아 성폭력예방인형극단 (우수활동팀)' },
@@ -247,9 +247,9 @@ const TEAM_DATA = {
     role: '팀원',
     dept: '국제개발새마을학과',
     year: '2학년',
-    studentId: '22521411',
-    tel: '010-5723-3567',
-    email: 'ysy79999@naver.com',
+    studentId: import.meta.env.VITE_TEAM_MEMBER_2_STUDENT_ID || '',
+    tel: import.meta.env.VITE_TEAM_MEMBER_2_TEL || '',
+    email: import.meta.env.VITE_TEAM_MEMBER_2_EMAIL || '',
     activities: [],
     education: [
       { period: '2025.3 ~ 현재', desc: '영남대학교 국제개발새마을학과 재학 (2학년)' }
@@ -261,9 +261,9 @@ const TEAM_DATA = {
     role: '팀원',
     dept: '새마을국제개발학과',
     year: '박사1기',
-    studentId: '22650117',
-    tel: '010-4286-3104',
-    email: 'plbm521@ynu.ac.kr',
+    studentId: import.meta.env.VITE_TEAM_MEMBER_3_STUDENT_ID || '',
+    tel: import.meta.env.VITE_TEAM_MEMBER_3_TEL || '',
+    email: import.meta.env.VITE_TEAM_MEMBER_3_EMAIL || '',
     intro: '박문식 팀원은 학술적 전문성과 글로벌 현장 실무 경험을 겸비한 국제개발협력 전문가입니다. 에티오피아 섬유 테크노파크 조성 지원사업, 우즈베키스탄 IT Park PMC 사업 등 공적개발원조(ODA) 프로젝트를 성공적으로 이끌며 개발도상국의 산업 경쟁력 강화와 SDGs 달성에 앞장서고 있습니다. 특히 우즈베키스탄 IT Park PMC 사업을 탁월하게 수행하여 2025년 KOICA 이사장 명의 감사패(우수 파트너상)를 수상하며 사업 관리 및 실무 기획 역량을 공식 인정받았습니다. 미얀마, 라오스, 인도네시아 등 다양한 현장에서 쌓아온 깊은 통찰력을 바탕으로 실효성 있는 글로벌 상생 협력을 실천하고 있습니다.',
     activities: [
       { period: '2023.07 ~ 현재', desc: '경북테크노파크 글로벌협력실 전임연구원 (국제개발협력 사업 기획/실무)' },
@@ -695,7 +695,7 @@ function App() {
       if (currentUser) {
         try {
           await ensureUserProfile(currentUser.uid, currentUser.displayName, currentUser.email);
-          if (currentUser.email === 'anstlr6665@gmail.com') {
+          if (currentUser.email === import.meta.env.VITE_ADMIN_EMAIL && import.meta.env.DEV) {
             await seedMockUsers();
           }
         } catch (e) {

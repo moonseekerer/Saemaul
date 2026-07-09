@@ -72,10 +72,10 @@ function getKstTodayString() {
 
 // Groq API setup matching chatbot
 const apiKeys = [
-  ['gsk', '_XCKaq0PD3u7', 'duHNinDt9WGdyb3FYVUJZxrcUSTnly8CWzh8qBYJ7'].join(''),
-  ['gsk', '_TOWuCA4SAdw9', 'CB7TEkslWGdyb3FYEUbhYLSpUDQ4uOBVHtepJzfo'].join(''),
-  ['gsk', '_It1ugFiXU9GaLczvuxx4', 'WGdyb3FYLRv92Fu1RLdH6fymEYoxLQbR'].join('')
-];
+  import.meta.env.VITE_GROQ_API_KEY_1 || '',
+  import.meta.env.VITE_GROQ_API_KEY_2 || '',
+  import.meta.env.VITE_GROQ_API_KEY_3 || ''
+].filter(Boolean);
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
 // UN 6 official languages map (+ Korean)
@@ -337,6 +337,16 @@ const Community = ({ onSelectUser }) => {
   const [commentTexts, setCommentTexts] = useState({});
   const [expandedComments, setExpandedComments] = useState({});
   const [nickname, setNickname] = useState('');
+
+  useEffect(() => {
+    if (currentUserData) {
+      setNickname(currentUserData.displayName || currentUserData.email || '익명의 주민');
+    } else if (user) {
+      setNickname(user.displayName || user.email || '익명의 주민');
+    } else {
+      setNickname('');
+    }
+  }, [currentUserData, user]);
 
 
   const defaultTrends = [

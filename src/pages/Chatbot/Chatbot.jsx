@@ -26,9 +26,10 @@ import UserListModal from '../../components/UserListModal';
 import UserProfileModal from '../../components/UserProfileModal';
 
 const apiKeys = [
-    ['gsk', '_TOWuCA4SAdw9', 'CB7TEkslWGdyb3FYEUbhYLSpUDQ4uOBVHtepJzfo'].join(''),
-    ['gsk', '_It1ugFiXU9GaLczvuxx4', 'WGdyb3FYLRv92Fu1RLdH6fymEYoxLQbR'].join('')
-];
+    import.meta.env.VITE_GROQ_API_KEY_1 || '',
+    import.meta.env.VITE_GROQ_API_KEY_2 || '',
+    import.meta.env.VITE_GROQ_API_KEY_3 || ''
+].filter(Boolean);
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
 const Typewriter = ({ text, speed = 20, onComplete }) => {
@@ -553,17 +554,19 @@ const Chatbot = () => {
       } catch (e) {
         console.error("Failed to parse chat history");
       }
-    } else {
-      // Add initial greeting only if we have a nickname
-      if (nickname) {
-        setChatHistory([{
-          id: Date.now().toString(),
-          text: t.greet(nickname),
-          type: 'bot',
-          isGreeting: true,
-          time: new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'})
-        }]);
-      }
+    }
+  }, []);
+
+  useEffect(() => {
+    // Add initial greeting only if we have a nickname and history is empty
+    if (nickname && chatHistory.length === 0) {
+      setChatHistory([{
+        id: Date.now().toString(),
+        text: t.greet(nickname),
+        type: 'bot',
+        isGreeting: true,
+        time: new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'})
+      }]);
     }
   }, [nickname]);
 
@@ -725,9 +728,9 @@ const Chatbot = () => {
             let tempHistory = [...newHistory, newBotMsg];
             setChatHistory(tempHistory);
             
-            // 전체 길이에 맞춘 타이핑 대기 시간 설정 (최대 속도로 최적화)
-            const typingDuration = answer.length * 15; 
-            await new Promise(resolve => setTimeout(resolve, typingDuration + 500));
+            // 전체 길이에 맞춘 타이핑 대기 시간 설정 (최대 1.5초 대기 가드 추가)
+            const typingDuration = Math.min(answer.length * 15, 1500); 
+            await new Promise(resolve => setTimeout(resolve, typingDuration + 300));
             
             // 타이핑 완료 처리 (버튼 등 활성화를 위해)
             tempHistory = tempHistory.map(m => m.id === botMsgId ? { ...m, isNew: false } : m);

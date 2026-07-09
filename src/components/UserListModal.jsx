@@ -68,7 +68,7 @@ export default function UserListModal({ isOpen, onClose, currentUser, onSelectUs
       setIsLoading(true);
       try {
         let q;
-        if (currentUser && currentUser.email === 'anstlr6665@gmail.com') {
+        if (currentUser && (currentUser.role === 'admin' || currentUser.email === import.meta.env.VITE_ADMIN_EMAIL)) {
           q = collection(db, "users");
         } else {
           q = query(collection(db, "users"), where("isProfilePublic", "==", true));

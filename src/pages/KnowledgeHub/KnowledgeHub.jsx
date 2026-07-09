@@ -139,14 +139,21 @@ const KnowledgeHub = () => {
       setUser(currentUser);
     });
 
+    let seedingStarted = false;
+
     const unsubscribeVideos = onSnapshot(collection(db, "videos"), async (snapshot) => {
       let videoList = [];
       snapshot.forEach((doc) => {
         videoList.push({ docId: doc.id, ...doc.data() });
       });
 
+      if (snapshot.metadata.hasPendingWrites || seedingStarted) {
+        setVideos(videoList);
+        return;
+      }
+
       if (videoList.length === 0 && !snapshot.metadata.fromCache) {
-        console.log("Seeding default videos to Firestore...");
+        seedingStarted = true;
         try {
           for (const vid of defaultVideos) {
             await addDoc(collection(db, "videos"), vid);
@@ -168,7 +175,7 @@ const KnowledgeHub = () => {
     };
   }, []);
 
-  const isAdmin = user && user.email === 'anstlr6665@gmail.com';
+  const isAdmin = user && user.email === import.meta.env.VITE_ADMIN_EMAIL;
 
   const handleAddVideo = async (e) => {
     e.preventDefault();

@@ -25,6 +25,15 @@ import {
 } from 'lucide-react';
 import './Feedback.css';
 
+const hashPassword = async (rawPassword) => {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(rawPassword.trim());
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  return hashHex;
+};
+
 const Feedback = () => {
   const navigate = useNavigate();
   
@@ -138,13 +147,14 @@ const Feedback = () => {
     setIsSubmitting(true);
 
     try {
+      const hashedPassword = await hashPassword(password);
       await addDoc(collection(db, 'feedbacks'), {
         content: content.trim(),
         isPrivate: isPrivate,
         writerName: finalWriterName,
         writerUid: currentUser ? currentUser.uid : null,
         writerPhotoURL: currentUser ? currentUser.photoURL : null,
-        password: password.trim(), // 암호 저장
+        password: hashedPassword, // 암호 저장
         createdAt: new Date(),
       });
 

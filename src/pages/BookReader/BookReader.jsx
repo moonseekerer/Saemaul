@@ -33,10 +33,12 @@ import {
   query, 
   orderBy, 
   doc, 
+  getDoc,
   updateDoc, 
   deleteDoc, 
   onSnapshot,
   setDoc,
+  serverTimestamp,
   Timestamp 
 } from 'firebase/firestore';
 import { onAuthStateChanged } from 'firebase/auth';
@@ -642,7 +644,7 @@ const BookReader = () => {
   
   // 사용자 정보 및 권한
   const [currentUser, setCurrentUser] = useState(null);
-  const isAdmin = currentUser && currentUser.email === 'anstlr6665@gmail.com';
+  const isAdmin = currentUser && (currentUser.role === 'admin' || currentUser.email === import.meta.env.VITE_ADMIN_EMAIL);
   
   // 오류 보고 상태
   const [errorReports, setErrorReports] = useState([]);
@@ -1183,16 +1185,13 @@ const BookReader = () => {
   // 13. 포인트 추가 API 모방 함수
   const addPoint = async (uid, type) => {
     try {
-      const userSnap = await getDocs(query(collection(db, 'users')));
-      let targetDoc = null;
-      userSnap.forEach(d => {
-        if (d.id === uid) targetDoc = d;
-      });
+      const userRef = doc(db, 'users', uid);
+      const userDoc = await getDoc(userRef);
 
       let currentPoint = 0;
       let currentTitles = [];
-      if (targetDoc) {
-        const dData = targetDoc.data();
+      if (userDoc.exists()) {
+        const dData = userDoc.data();
         currentPoint = dData.points || 0;
         currentTitles = dData.titles || [];
       }
@@ -1218,10 +1217,10 @@ const BookReader = () => {
         }
       });
 
-      await setDoc(doc(db, 'users', uid), {
+      await setDoc(userRef, {
         points: newPoint,
         titles: currentTitles,
-        updatedAt: Timestamp.now()
+        updatedAt: serverTimestamp()
       }, { merge: true });
 
       return { newPoint, unlockedTitles };

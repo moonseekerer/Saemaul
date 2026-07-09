@@ -106,7 +106,7 @@ export async function checkAndProcessAttendance(uid, displayName, email) {
       uid,
       displayName: displayName || "익명의 주민",
       email: email || "",
-      role: email === 'anstlr6665@gmail.com' ? 'admin' : 'user', // 관리자 지정 이메일 예외 처리
+      role: email === import.meta.env.VITE_ADMIN_EMAIL ? 'admin' : 'user', // 관리자 지정 이메일 예외 처리
       points: POINT_VALUES.attendance,
       totalPoints: POINT_VALUES.attendance,
       attendanceCount: 1,
@@ -726,7 +726,6 @@ export async function addPointForTest(uid, testId) {
   
   const snapshot = await getDocs(q);
   if (!snapshot.empty) {
-    console.log(`[Points] Test ${testId} already rewarded for user ${uid}.`);
     return { success: true, pointsEarned: 0, unlockedTitles: [], alreadyRewarded: true };
   }
 
@@ -760,8 +759,9 @@ export async function addPointForTest(uid, testId) {
       timestamp: serverTimestamp()
     });
 
+    return { success: true, pointsEarned: points, alreadyRewarded: false };
   }).then(async (result) => {
-    if (result.success) {
+    if (result && result.success) {
       const unlocked = await checkAndUnlockTitles(uid);
       return { ...result, unlockedTitles: unlocked };
     }
@@ -778,20 +778,11 @@ export async function ensureUserProfile(uid, displayName, email) {
   const userDoc = await getDoc(userRef);
 
   if (!userDoc.exists()) {
-    // KST 오늘 날짜 구하기
-    const d = new Date();
-    const utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-    const kst = new Date(utc + (3600000 * 9));
-    const yyyy = kst.getFullYear();
-    const mm = String(kst.getMonth() + 1).padStart(2, '0');
-    const dd = String(kst.getDate()).padStart(2, '0');
-    const todayStr = `${yyyy}-${mm}-${dd}`;
-
     const defaultProfile = {
       uid,
       displayName: displayName || "익명의 주민",
       email: email || "",
-      role: email === 'anstlr6665@gmail.com' ? 'admin' : 'user',
+      role: email === import.meta.env.VITE_ADMIN_EMAIL ? 'admin' : 'user',
       points: 0,
       totalPoints: 0,
       attendanceCount: 0,
@@ -811,7 +802,6 @@ export async function ensureUserProfile(uid, displayName, email) {
       createdAt: serverTimestamp()
     };
     await setDoc(userRef, defaultProfile);
-    console.log(`[UserProfile] Created profile for user: ${uid}`);
   } else {
     // update profile if changed (to prevent sync mismatch)
     const existing = userDoc.data();
@@ -820,7 +810,6 @@ export async function ensureUserProfile(uid, displayName, email) {
         displayName: displayName || existing.displayName || "익명의 주민",
         email: email || existing.email || ""
       });
-      console.log(`[UserProfile] Updated profile fields for user: ${uid}`);
     }
   }
 }
