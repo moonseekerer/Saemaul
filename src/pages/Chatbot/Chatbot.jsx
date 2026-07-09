@@ -287,7 +287,91 @@ IMPORTANT: Only introduce yourself as the 'smart and cute Saemaul puppy, Saedaen
   }
 };
 
+// ---------------------- RAG UTILITIES ----------------------
+const parseMarkdownToMap = (text) => {
+  const sections = text.split(/--- \(p\. (\d+)\) ---/g);
+  const map = {};
+  for (let i = 1; i < sections.length; i += 2) {
+    const page = parseInt(sections[i], 10);
+    let content = sections[i + 1] || '';
+    content = content.replace(/^(#{1,6}\s+.*)$/gm, '\n\n$1\n\n');
+    content = content.replace(/\*\*([^\*]+?)\*\*(?=[가-힣a-zA-Z0-9])/g, '**$1**\u200B');
+    content = content.replace(/\n{3,}/g, '\n\n');
+    map[page] = content.trim();
+  }
+  return map;
+};
+
+const findRelevantPages = (query, map10years, mapGlory) => {
+  if (!query) return '';
+  
+  // 1. 특수기호 제거 및 2글자 이상 키워드 추출
+  const cleanQuery = query.replace(/[^\w\s가-힣]/g, ' ');
+  const keywords = cleanQuery.split(/\s+/)
+    .map(w => w.trim())
+    .filter(w => w.length >= 2);
+
+  if (keywords.length === 0) return '';
+
+  const scores = [];
+
+  // 새마을운동 10년사 맵 스캔
+  Object.entries(map10years).forEach(([page, content]) => {
+    let score = 0;
+    keywords.forEach(kw => {
+      // 키워드 빈도수 스코어링
+      const escapedKw = kw.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      const regex = new RegExp(escapedKw, 'gi');
+      const matches = content.match(regex);
+      if (matches) {
+        score += matches.length;
+      }
+    });
+    if (score > 0) {
+      scores.push({ book: '10years', page: parseInt(page), content, score });
+    }
+  });
+
+  // 영광의 발자취 맵 스캔
+  Object.entries(mapGlory).forEach(([page, content]) => {
+    let score = 0;
+    keywords.forEach(kw => {
+      const escapedKw = kw.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      const regex = new RegExp(escapedKw, 'gi');
+      const matches = content.match(regex);
+      if (matches) {
+        score += matches.length;
+      }
+    });
+    if (score > 0) {
+      scores.push({ book: 'glory', page: parseInt(page), content, score });
+    }
+  });
+
+  // 스코어가 높은 매칭 정렬
+  scores.sort((a, b) => b.score - a.score);
+
+  // 상위 3개 문단 슬라이싱
+  const topChunks = scores.slice(0, 3);
+  if (topChunks.length === 0) return '';
+
+  let context = `\n[관련 e-Book 본문 정보 검색 결과]\n`;
+  topChunks.forEach(chunk => {
+    const title = chunk.book === '10years' ? '새마을운동 10년사' : '영광의 발자취';
+    context += `\n- 출처: ${title} ${chunk.page}페이지\n`;
+    context += `"${chunk.content}"\n`;
+    context += `(이북 딥링크 주소: /reader/${chunk.book}?page=${chunk.page})\n`;
+  });
+
+  return context;
+};
+// -----------------------------------------------------------
+
 const Chatbot = () => {
+  const [koTextMap10years, setKoTextMap10years] = useState({});
+  const [koTextMapGlory, setKoTextMapGlory] = useState({});
+  const [loadingEbookDocs, setLoadingEbookDocs] = useState(false);
+
   const [user, setUser] = useState(null);
   const [showNameModal, setShowNameModal] = useState(false);
   const [tempNickname, setTempNickname] = useState('');
@@ -661,6 +745,38 @@ const Chatbot = () => {
     }
   };
 
+  // RAG용 eBook 한국어 텍스트 데이터 백그라운드 로드
+  useEffect(() => {
+    setLoadingEbookDocs(true);
+    const loadEbooks = async () => {
+      try {
+        const base = import.meta.env.BASE_URL;
+        
+        // 1. 새마을운동 10년사 로드
+        const res10 = await fetch(`${base}docs/saemaul_10years_full.md`);
+        if (res10.ok) {
+          const buf = await res10.arrayBuffer();
+          const txt = new TextDecoder('utf-8').decode(buf);
+          setKoTextMap10years(parseMarkdownToMap(txt));
+        }
+
+        // 2. 영광의 발자취 로드
+        const resGlory = await fetch(`${base}docs/saemaul_glory_full.md`);
+        if (resGlory.ok) {
+          const buf = await resGlory.arrayBuffer();
+          const txt = new TextDecoder('utf-8').decode(buf);
+          setKoTextMapGlory(parseMarkdownToMap(txt));
+        }
+      } catch (err) {
+        console.error("Failed to load eBook texts for Chatbot RAG:", err);
+      } finally {
+        setLoadingEbookDocs(false);
+      }
+    };
+
+    loadEbooks();
+  }, []);
+
   useEffect(() => {
     // Scroll to bottom on new message
     if (chatBoxRef.current) {
@@ -675,6 +791,10 @@ const Chatbot = () => {
   const handleSend = async (messageText) => {
     const text = messageText || inputMessage.trim();
     if (!text) return;
+
+    // RAG: 사용자의 질문에 맞춰 관련성이 가장 높은 eBook 텍스트 페이지를 동적으로 검색
+    const dynamicContext = findRelevantPages(text, koTextMap10years, koTextMapGlory);
+    const finalContext = documentsContext + "\n" + dynamicContext;
 
     const timeStr = new Date().toLocaleTimeString(currentLang === 'ko' ? 'ko-KR' : 'en-US', {hour: '2-digit', minute:'2-digit'});
     
@@ -716,7 +836,7 @@ const Chatbot = () => {
               messages: [
                 { 
                   role: 'system', 
-                  content: t.systemPrompt(nickname) + `\n\n[학습 문서 내용]\n` + documentsContext 
+                  content: t.systemPrompt(nickname) + `\n\n[학습 문서 내용]\n` + finalContext 
                 },
                 { role: 'user', content: text }
               ],
