@@ -1415,26 +1415,26 @@ const BookReader = () => {
     <div className="h-screen bg-slate-900 text-slate-100 flex flex-col pt-20 overflow-hidden">
       
       {/* eBook Header */}
-      <header className="bg-slate-950 border-b border-slate-800 px-4 py-3 md:px-6 md:py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-3 md:gap-4 z-10 flex-shrink-0">
-        <div className="flex items-center gap-3 w-full md:w-auto">
+      <header className="bg-slate-950 border-b border-slate-800 px-4 py-2.5 md:px-6 md:py-4 flex flex-row items-center justify-between gap-4 z-10 flex-shrink-0">
+        <div className="flex items-center gap-3 min-w-0 flex-1">
           <button 
             onClick={() => navigate('/hub')} 
             className="p-2 rounded-xl bg-slate-800/50 hover:bg-slate-800 text-slate-300 hover:text-white transition-all border border-slate-700/40 flex-shrink-0"
           >
             <ArrowLeft size={16} className="md:w-[18px] md:h-[18px]" />
           </button>
-          <div className="min-w-0 flex-1 md:flex-initial">
+          <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2 flex-wrap">
               <span className="text-[10px] md:text-xs font-black px-1.5 py-0.5 md:px-2 bg-saemaul-green/20 text-saemaul-green rounded border border-saemaul-green/30 flex-shrink-0">{ui.reader}</span>
-              <h1 className="text-sm md:text-base font-black text-slate-100 tracking-tight truncate max-w-[200px] xs:max-w-xs sm:max-w-none">{config.title}</h1>
+              <h1 className="text-xs md:text-base font-black text-slate-100 tracking-tight truncate max-w-[150px] xs:max-w-xs sm:max-w-none">{config.title}</h1>
             </div>
-            <p className="text-[11px] md:text-xs text-slate-400 mt-0.5 font-medium truncate">
+            <p className="text-[10px] md:text-xs text-slate-400 mt-0.5 font-medium truncate">
               {ui.currentSection}: <span className="text-amber-500 font-bold">{getPageSectionTitle(pageNum)}</span>
             </p>
           </div>
         </div>
 
-        <div className="relative flex items-center gap-2">
+        <div className="relative flex items-center gap-2 flex-shrink-0">
           {/* 햄버거 메뉴 토글 버튼 */}
           <button 
             onClick={() => setMenuOpen(!menuOpen)}
@@ -1452,9 +1452,9 @@ const BookReader = () => {
           {menuOpen && (
             <>
               {/* Click Outside overlay */}
-              <div className="fixed inset-0 z-20 cursor-default" onClick={() => setMenuOpen(false)}></div>
+              <div className="fixed inset-0 z-40 cursor-default" onClick={() => setMenuOpen(false)}></div>
               
-              <div className="absolute right-0 top-full mt-2 w-64 bg-slate-950/95 backdrop-blur-lg border border-slate-800 rounded-2xl p-4 shadow-2xl z-30 flex flex-col gap-3.5 animate-fadeIn">
+              <div className="absolute right-0 top-full mt-2 w-60 bg-slate-950/95 backdrop-blur-lg border border-slate-800 rounded-2xl p-4 shadow-2xl z-50 flex flex-col gap-3.5 animate-fadeIn max-w-[calc(100vw-2rem)]">
                 
                 {/* 1. 언어 설정 */}
                 <div className="flex flex-col gap-1.5 border-b border-slate-900 pb-3">
