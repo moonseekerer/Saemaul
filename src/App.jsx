@@ -39,6 +39,7 @@ import {
 } from 'firebase/auth';
 import { ensureUserProfile, seedMockUsers } from './utils/points';
 import AuthModal from './components/AuthModal';
+import { useSEO } from './hooks/useSEO';
 
 const NavItem = ({ label, to }) => (
   <NavLink
@@ -679,6 +680,9 @@ const TermsPage = () => (
 
 function App() {
   const location = useLocation();
+  // 동적 SEO 최적화 제어 훅 작동
+  useSEO();
+
   const [isScrolled, setIsScrolled] = useState(false);
   const [user, setUser] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false); // 모바일 메뉴 토글 상태

@@ -57,6 +57,15 @@ const Typewriter = ({ text, speed = 20, onComplete }) => {
 
 const RELEASE_NOTES = [
   {
+    version: "v1.4.5",
+    date: "2026-07-14",
+    patches: [
+      "검색엔진 최적화(SEO) 탑재: 구글 및 네이버 검색 노출을 위한 **[Client-side Dynamic SEO 훅(useSEO)]** 연동 완료",
+      "검색 봇 전용 인프라 이식: 수집 규약 파일 **[robots.txt]** 및 7대 핵심 메뉴 사이트 지도 **[sitemap.xml]** 구축 완료",
+      "소셜 메타 태그 최적화: 카카오톡, 페이스북 링크 공유 시 썸네일 카드가 깨지지 않는 **[한글화 Open Graph(OG) 메타태그]** 교정 완수"
+    ]
+  },
+  {
     version: "v1.4.0",
     date: "2026-07-09",
     patches: [
