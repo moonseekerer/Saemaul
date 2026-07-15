@@ -625,6 +625,52 @@ const BookReader = () => {
   const activeRenderTaskRef = useRef(null);
   const pdfContainerRef = useRef(null);
   
+  // PDF 드래그 패닝(Drag to Scroll) 관련 참조 Refs
+  const isDraggingRef = useRef(false);
+  const startXRef = useRef(0);
+  const startYRef = useRef(0);
+  const scrollLeftRef = useRef(0);
+  const scrollTopRef = useRef(0);
+  
+  // 패닝 제어용 상태 (마우스 커서 등 UI 바인딩용)
+  const [isPanning, setIsPanning] = useState(false);
+
+  // 1. 드래그 시작 (마우스 다운 및 터치 시작)
+  const handleDragStart = (e) => {
+    if (!pdfContainerRef.current) return;
+    
+    isDraggingRef.current = true;
+    setIsPanning(true);
+
+    const clientX = e.touches ? e.touches[0].pageX : e.pageX;
+    const clientY = e.touches ? e.touches[0].pageY : e.pageY;
+
+    startXRef.current = clientX;
+    startYRef.current = clientY;
+    scrollLeftRef.current = pdfContainerRef.current.scrollLeft;
+    scrollTopRef.current = pdfContainerRef.current.scrollTop;
+  };
+
+  // 2. 드래그 중 (마우스 무브 및 터치 무브)
+  const handleDragMove = (e) => {
+    if (!isDraggingRef.current || !pdfContainerRef.current) return;
+
+    const clientX = e.touches ? e.touches[0].pageX : e.pageX;
+    const clientY = e.touches ? e.touches[0].pageY : e.pageY;
+
+    const walkX = clientX - startXRef.current;
+    const walkY = clientY - startYRef.current;
+
+    pdfContainerRef.current.scrollLeft = scrollLeftRef.current - walkX;
+    pdfContainerRef.current.scrollTop = scrollTopRef.current - walkY;
+  };
+
+  // 3. 드래그 중지 (마우스 업, 리브 및 터치 엔드)
+  const handleDragEnd = () => {
+    isDraggingRef.current = false;
+    setIsPanning(false);
+  };
+  
   // 텍스트 상태 (static 마크다운 기반)
   const [pageTextMap, setPageTextMap] = useState({});
   const [koTextMap, setKoTextMap] = useState({});  // 한국어 원문 (fallback용)
@@ -1631,7 +1677,18 @@ const BookReader = () => {
               </div>
 
               {/* PDF Canvas Rendering Wrapper */}
-              <div className="flex-grow flex items-center justify-center p-6 bg-slate-900">
+              <div 
+                className={`flex-grow flex items-center justify-center p-6 bg-slate-900 select-none touch-none ${
+                  isPanning ? 'cursor-grabbing' : 'cursor-grab'
+                }`}
+                onMouseDown={handleDragStart}
+                onMouseMove={handleDragMove}
+                onMouseUp={handleDragEnd}
+                onMouseLeave={handleDragEnd}
+                onTouchStart={handleDragStart}
+                onTouchMove={handleDragMove}
+                onTouchEnd={handleDragEnd}
+              >
                 {loadingPdf && (
                   <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-slate-500 bg-slate-900/80 backdrop-blur z-10">
                     <Loader2 size={32} className="animate-spin text-saemaul-green" />
