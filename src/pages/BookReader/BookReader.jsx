@@ -1678,7 +1678,7 @@ const BookReader = () => {
 
               {/* PDF Canvas Rendering Wrapper */}
               <div 
-                className={`flex-grow flex items-center justify-center p-6 bg-slate-900 select-none touch-none ${
+                className={`flex-grow flex items-center justify-center min-w-max p-6 bg-slate-900 select-none touch-none ${
                   isPanning ? 'cursor-grabbing' : 'cursor-grab'
                 }`}
                 onMouseDown={handleDragStart}
@@ -1701,7 +1701,7 @@ const BookReader = () => {
                     <p className="text-xs text-slate-400 font-bold leading-relaxed">{pdfError}</p>
                   </div>
                 )}
-                <div className="shadow-2xl border border-slate-800/80 rounded-lg overflow-hidden bg-white">
+                <div className="shadow-2xl border border-slate-800/80 rounded-lg overflow-hidden bg-white flex-shrink-0">
                   <canvas ref={canvasRef}></canvas>
                 </div>
               </div>
