@@ -1641,13 +1641,12 @@ const BookReader = () => {
           {/* LEFT PANEL: PDF Viewer */}
           {pageNum > 0 && (
             <div 
-              ref={pdfContainerRef}
-              className={`flex-1 flex-col bg-slate-900 border-r border-slate-800 overflow-auto relative ${
+              className={`flex-grow flex-1 flex flex-col bg-slate-900 border-r border-slate-800 overflow-hidden relative ${
                 activeMobileTab === 'pdf' ? 'flex' : 'hidden md:flex'
               }`}
             >
-              {/* PDF Toolbar */}
-              <div className="sticky top-0 bg-slate-950/80 backdrop-blur border-b border-slate-800 px-4 py-2 flex items-center justify-between z-10 flex-shrink-0">
+              {/* PDF Toolbar (완벽 고정) */}
+              <div className="bg-slate-950/80 backdrop-blur border-b border-slate-800 px-4 py-2 flex items-center justify-between z-10 flex-shrink-0 w-full">
                 <span className="text-xs font-bold text-slate-400 select-none">PDF 원본 파일 (사본)</span>
                 <div className="flex items-center gap-1 bg-slate-900/60 p-0.5 rounded-lg border border-slate-800/40">
                   <button 
@@ -1676,18 +1675,10 @@ const BookReader = () => {
                 </div>
               </div>
 
-              {/* PDF Canvas Rendering Wrapper */}
+              {/* PDF Scrollable Container (실제 스크롤바가 작동하는 스크롤 영역) */}
               <div 
-                className={`flex-grow flex items-center justify-center min-w-max p-6 bg-slate-900 select-none touch-none ${
-                  isPanning ? 'cursor-grabbing' : 'cursor-grab'
-                }`}
-                onMouseDown={handleDragStart}
-                onMouseMove={handleDragMove}
-                onMouseUp={handleDragEnd}
-                onMouseLeave={handleDragEnd}
-                onTouchStart={handleDragStart}
-                onTouchMove={handleDragMove}
-                onTouchEnd={handleDragEnd}
+                ref={pdfContainerRef}
+                className="flex-grow overflow-auto relative flex bg-slate-900"
               >
                 {loadingPdf && (
                   <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-slate-500 bg-slate-900/80 backdrop-blur z-10">
@@ -1696,14 +1687,30 @@ const BookReader = () => {
                   </div>
                 )}
                 {pdfError && (
-                  <div className="max-w-xs text-center p-6 bg-slate-950 border border-slate-800 rounded-3xl animate-fadeIn">
+                  <div className="m-auto max-w-xs text-center p-6 bg-slate-950 border border-slate-800 rounded-3xl animate-fadeIn">
                     <AlertTriangle size={24} className="text-amber-500 mx-auto mb-3" />
                     <p className="text-xs text-slate-400 font-bold leading-relaxed">{pdfError}</p>
                   </div>
                 )}
-                <div className="shadow-2xl border border-slate-800/80 rounded-lg overflow-hidden bg-white flex-shrink-0">
-                  <canvas ref={canvasRef}></canvas>
-                </div>
+                {/* PDF Canvas Wrapper with drag events and m-auto centering */}
+                {!pdfError && (
+                  <div 
+                    className={`m-auto p-6 flex-shrink-0 select-none touch-none ${
+                      isPanning ? 'cursor-grabbing' : 'cursor-grab'
+                    }`}
+                    onMouseDown={handleDragStart}
+                    onMouseMove={handleDragMove}
+                    onMouseUp={handleDragEnd}
+                    onMouseLeave={handleDragEnd}
+                    onTouchStart={handleDragStart}
+                    onTouchMove={handleDragMove}
+                    onTouchEnd={handleDragEnd}
+                  >
+                    <div className="shadow-2xl border border-slate-800/80 rounded-lg overflow-hidden bg-white flex-shrink-0">
+                      <canvas ref={canvasRef}></canvas>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           )}
