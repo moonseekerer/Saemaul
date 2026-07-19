@@ -961,8 +961,8 @@ const Chatbot = () => {
     };
 
     // 모바일 백그라운드 잠금 화면 재생 제어 (Media Session API)
-    if ('mediaSession' in navigator) {
-      navigator.mediaSession.metadata = new MediaMetadata({
+    if ('mediaSession' in navigator && window.MediaMetadata) {
+      navigator.mediaSession.metadata = new window.MediaMetadata({
         title: title,
         artist: 'Saemaul-SDGs Platform',
         album: 'Saemaul 10-Year History Audiobook',

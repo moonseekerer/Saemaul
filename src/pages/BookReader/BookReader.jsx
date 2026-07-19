@@ -825,6 +825,10 @@ const BookReader = () => {
 
   // 실시간 다국어 본문 낭독 (Web Speech API)
   const speakCurrentPage = () => {
+    if (!window.speechSynthesis) {
+      console.warn("Speech Synthesis not supported in this browser.");
+      return;
+    }
     window.speechSynthesis.cancel(); // 진행 중인 낭독 전부 초기화
 
     const normLang = getLangPrefix(bookLanguage);
@@ -890,7 +894,7 @@ const BookReader = () => {
   };
 
   const pauseTTS = () => {
-    if (window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+    if (window.speechSynthesis && window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
       window.speechSynthesis.pause();
       setTtsPaused(true);
       releaseWakeLock();
@@ -898,6 +902,7 @@ const BookReader = () => {
   };
 
   const resumeTTS = () => {
+    if (!window.speechSynthesis) return;
     if (window.speechSynthesis.paused) {
       window.speechSynthesis.resume();
       setTtsPaused(false);
@@ -908,7 +913,9 @@ const BookReader = () => {
   };
 
   const stopTTS = () => {
-    window.speechSynthesis.cancel();
+    if (window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+    }
     setTtsPlaying(false);
     setTtsPaused(false);
     releaseWakeLock();
@@ -939,7 +946,9 @@ const BookReader = () => {
   // 4) 컴포넌트 언마운트 시 백그라운드 낭독 강제 종료 및 Wake Lock 릴리즈
   useEffect(() => {
     return () => {
-      window.speechSynthesis.cancel();
+      if (window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
       if (wakeLock) {
         wakeLock.release();
       }
