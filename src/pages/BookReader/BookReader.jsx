@@ -827,7 +827,7 @@ const BookReader = () => {
     }
   };
 
-  // 실시간 다국어 본문 낭독 (Web Speech API)
+  // 실시간 다국어 본문 낭독 (Web Speech API - 문장 분할 큐잉 방식)
   const speakCurrentPage = () => {
     if (!window.speechSynthesis) {
       console.warn("Speech Synthesis not supported in this browser.");
@@ -845,57 +845,76 @@ const BookReader = () => {
     const cleanText = cleanMarkdownForTTS(textToRead);
     if (!cleanText) return;
 
-    const utterance = new SpeechSynthesisUtterance(cleanText);
-    utteranceRef.current = utterance;
-    window.activeUtterance = utterance;
+    // 문장 단위로 쪼개기 (마침표, 물음표, 느낌표, 혹은 줄바꿈 기준)
+    const sentences = cleanText
+      .split(/(?<=[.?!])|\n+/)
+      .map(s => s.trim())
+      .filter(s => s.length > 0);
 
-    // 선택된 언어에 따른 타겟 국가 코드 할당
-    let langCode = 'ko-KR';
-    if (bookLanguage === 'en') langCode = 'en-US';
-    else if (bookLanguage === 'es') langCode = 'es-ES';
-    else if (bookLanguage === 'fr') langCode = 'fr-FR';
-    else if (bookLanguage === 'zh') langCode = 'zh-CN';
-    else if (bookLanguage === 'vi') langCode = 'vi-VN';
+    if (sentences.length === 0) return;
 
-    utterance.lang = langCode;
-    utterance.rate = ttsRate;
+    // GC 방지를 위한 글로벌 인스턴스 홀더 배열 초기화
+    window.activeUtterances = [];
 
-    // 목소리 매칭 (브라우저 지원 목록 검색)
-    const voices = window.speechSynthesis.getVoices();
-    const matchingVoice = voices.find(v => v.lang.startsWith(langCode) || v.lang.replace('_', '-').startsWith(langCode.substring(0, 2)));
-    if (matchingVoice) {
-      utterance.voice = matchingVoice;
-    }
-
-    utterance.onstart = () => {
-      setTtsPlaying(true);
-      setTtsPaused(false);
-      requestWakeLock();
-    };
-
-    utterance.onend = () => {
-      setTtsPlaying(false);
-      setTtsPaused(false);
-      releaseWakeLock();
+    sentences.forEach((sentence, index) => {
+      const utterance = new SpeechSynthesisUtterance(sentence);
       
-      // 자동 페이지 넘김 연동
-      if (autoPageFlip && pageNum < config.maxPage) {
-        // 자동 전환 후 약간의 딜레이 뒤 낭독 시작하도록 설정
-        const nextPage = pageNum + 1;
-        handlePageChange(nextPage);
-      }
-    };
+      // 선택된 언어에 따른 타겟 국가 코드 할당
+      let langCode = 'ko-KR';
+      if (bookLanguage === 'en') langCode = 'en-US';
+      else if (bookLanguage === 'es') langCode = 'es-ES';
+      else if (bookLanguage === 'fr') langCode = 'fr-FR';
+      else if (bookLanguage === 'zh') langCode = 'zh-CN';
+      else if (bookLanguage === 'vi') langCode = 'vi-VN';
 
-    utterance.onerror = (e) => {
-      if (e.error !== 'interrupted') {
-        console.error('TTS 재생 중 에러 발생:', e);
-        setTtsPlaying(false);
-        setTtsPaused(false);
-        releaseWakeLock();
-      }
-    };
+      utterance.lang = langCode;
+      utterance.rate = ttsRate;
 
-    window.speechSynthesis.speak(utterance);
+      // 목소리 매칭
+      const voices = window.speechSynthesis.getVoices();
+      const matchingVoice = voices.find(v => v.lang.startsWith(langCode) || v.lang.replace('_', '-').startsWith(langCode.substring(0, 2)));
+      if (matchingVoice) {
+        utterance.voice = matchingVoice;
+      }
+
+      // 첫 번째 문장 시작 시 재생 상태 설정
+      if (index === 0) {
+        utterance.onstart = () => {
+          setTtsPlaying(true);
+          setTtsPaused(false);
+          requestWakeLock();
+        };
+      }
+
+      // 마지막 문장 종료 시 정지 처리 및 자동 페이지 넘김
+      if (index === sentences.length - 1) {
+        utterance.onend = () => {
+          setTtsPlaying(false);
+          setTtsPaused(false);
+          releaseWakeLock();
+          
+          if (autoPageFlip && pageNum < config.maxPage) {
+            const nextPage = pageNum + 1;
+            handlePageChange(nextPage);
+          }
+        };
+      }
+
+      utterance.onerror = (e) => {
+        if (e.error !== 'interrupted') {
+          console.error('TTS 재생 중 에러 발생:', e);
+          setTtsPlaying(false);
+          setTtsPaused(false);
+          releaseWakeLock();
+        }
+      };
+
+      // GC 방지를 위해 글로벌 배열에 인스턴스 홀딩
+      window.activeUtterances.push(utterance);
+      
+      // 브라우저 낭독 큐에 순차 등록
+      window.speechSynthesis.speak(utterance);
+    });
   };
 
   const pauseTTS = () => {
