@@ -602,6 +602,10 @@ const getCustomPageDocId = (bookId, page, lang) => {
 const cleanMarkdownForTTS = (md) => {
   if (!md) return "";
   let text = md;
+  // 0. 제로 너비 공백 문자(\u200B) 및 특수 보이지 않는 유니코드 제거
+  text = text.replace(/\u200B/g, "");
+  text = text.replace(/[\u200b-\u200d\uFEFF]/g, "");
+  
   // 1. 이미지 제거
   text = text.replace(/!\[.*?\]\(.*?\)/g, "");
   // 2. 링크 텍스트만 남기기
@@ -843,6 +847,7 @@ const BookReader = () => {
 
     const utterance = new SpeechSynthesisUtterance(cleanText);
     utteranceRef.current = utterance;
+    window.activeUtterance = utterance;
 
     // 선택된 언어에 따른 타겟 국가 코드 할당
     let langCode = 'ko-KR';
