@@ -915,7 +915,11 @@ const Chatbot = () => {
   // Real HTML5 Audio Podcast Player
   const [isPlaying, setIsPlaying] = useState(false);
   const [podcastRate, setPodcastRate] = useState(1.0);
-  const [currentTrack, setCurrentTrack] = useState({ title: t.podcast.noTrack, desc: t.podcast.ready, file: '' });
+  const [currentTrack, setCurrentTrack] = useState({ 
+    title: t?.podcast?.noTrack || '선택된 트랙 없음', 
+    desc: t?.podcast?.ready || '재생 준비 완료', 
+    file: '' 
+  });
   const audioRef = useRef(null);
 
   // 1) 배속 변경 시 재생 속도 실시간 적용
@@ -1148,15 +1152,15 @@ const Chatbot = () => {
       {activeTab === 'podcast' && (
         <div className="chatbot-view-container">
           <div className="chatbot-podcast-content">
-            <h2 style={{ margin: 0, fontSize: '18px', color: 'var(--primary-color)' }}>{t.podcast.title}</h2>
-            <p style={{ margin: '0 0 10px 0', color: 'var(--text-light)', fontSize: '13px' }}>{t.podcast.subtitle}</p>
+            <h2 style={{ margin: 0, fontSize: '18px', color: 'var(--primary-color)' }}>{t?.podcast?.title || '새마을 10년사 팟캐스트'}</h2>
+            <p style={{ margin: '0 0 10px 0', color: 'var(--text-light)', fontSize: '13px' }}>{t?.podcast?.subtitle || '음성 오디오 파일 및 낭독 자료'}</p>
             
-            {t.podcast.tracks.map((track, idx) => (
-              <div key={idx} className="chatbot-podcast-item" onClick={() => playPodcast(track.title, track.desc, track.file)}>
+            {(t?.podcast?.tracks || []).map((track, idx) => (
+              <div key={idx} className="chatbot-podcast-item" onClick={() => playPodcast(track?.title, track?.desc, track?.file)}>
                 <div className="chatbot-podcast-img">{idx === 0 ? '🎙️' : '🎧'}</div>
                 <div className="chatbot-podcast-info">
-                  <div className="chatbot-podcast-title">{track.title}</div>
-                  <div className="chatbot-podcast-desc">{track.desc}</div>
+                  <div className="chatbot-podcast-title">{track?.title || ''}</div>
+                  <div className="chatbot-podcast-desc">{track?.desc || ''}</div>
                 </div>
                 <button style={{ border: 'none', background: 'none', fontSize: '18px', color: 'var(--primary-color)', cursor: 'pointer' }}>▶</button>
               </div>
@@ -1166,7 +1170,7 @@ const Chatbot = () => {
             <div style={{ flex: 1, minWidth: '150px' }}>
               <div style={{ fontSize: '13px', fontWeight: 'bold', color: 'var(--text-main)', marginBottom: '2px' }}>{currentTrack.title}</div>
               <div style={{ fontSize: '11px', color: 'var(--primary-color)', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                {isPlaying ? t.podcast.playing : t.podcast.ready}
+                {isPlaying ? (t?.podcast?.playing || '재생 중') : (t?.podcast?.ready || '재생 대기 중')}
                 {/* 댄싱 댄싱 웨이브바 */}
                 {isPlaying && (
                   <span className="flex gap-0.5 items-end h-2 w-3">
