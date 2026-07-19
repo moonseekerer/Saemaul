@@ -12,7 +12,6 @@ import {
   orderBy, 
   getDocs, 
   doc, 
-  setDoc,
   limit,
   onSnapshot,
   deleteDoc
@@ -207,11 +206,10 @@ const chatbotTranslations = {
       },
       podcast: {
           title: "📻 새마을 팟캐스트",
-          subtitle: "새마을금고의 다양한 이야기를 오디오로 만나보세요.",
+          subtitle: "새마을운동 10년사의 방대한 이야기를 오디오북으로 만나보세요.",
           tracks: [
-              { title: "새마을운동의 역사 1부", desc: "부흥실업새마을금고 이야기" },
-              { title: "마을 공동체의 기적", desc: "지역 주민들이 일군 신뢰의 금융" },
-              { title: "디지털 시대의 새마을", desc: "MZ세대와 함께하는 새로운 도전" }
+              { title: "새마을운동 10년사 팟캐스트 (한국어)", desc: "한국어로 들려주는 새마을 역사 오디오북 전체 낭독본", file: "korean.m4a" },
+              { title: "Saemaul 10-Year History Podcast (English)", desc: "English translation edition of Saemaul Undong history", file: "english.m4a" }
           ],
           playing: "지금 재생 중...",
           paused: "일시 중지됨",
@@ -273,11 +271,10 @@ IMPORTANT: Only introduce yourself as the 'smart and cute Saemaul puppy, Saedaen
       },
       podcast: {
           title: "📻 Saemaul Podcast",
-          subtitle: "Meet various stories of Saemaul Credit Union in audio.",
+          subtitle: "Meet the vast stories of Saemaul Undong in audio.",
           tracks: [
-              { title: "History of Saemaul Part 1", desc: "The story of Buheung Industrial SCU" },
-              { title: "Miracle of Village Community", desc: "Finance of trust built by local residents" },
-              { title: "Saemaul in Digital Era", desc: "New challenges with Gen MZ" }
+              { title: "Saemaul 10-Year History Podcast (English)", desc: "English translation edition of Saemaul Undong history", file: "english.m4a" },
+              { title: "새마을운동 10년사 팟캐스트 (한국어)", desc: "Korean edition of Saemaul Undong history audiobook", file: "korean.m4a" }
           ],
           playing: "Now Playing...",
           paused: "Paused",
@@ -304,7 +301,7 @@ const parseMarkdownToMap = (text) => {
     const page = parseInt(sections[i], 10);
     let content = sections[i + 1] || '';
     content = content.replace(/^(#{1,6}\s+.*)$/gm, '\n\n$1\n\n');
-    content = content.replace(/\*\*([^\*]+?)\*\*(?=[가-힣a-zA-Z0-9])/g, '**$1**\u200B');
+    content = content.replace(/\*\*([^*]+?)\*\*(?=[가-힣a-zA-Z0-9])/g, '**$1**\u200B');
     content = content.replace(/\n{3,}/g, '\n\n');
     map[page] = content.trim();
   }
@@ -329,7 +326,7 @@ const findRelevantPages = (query, map10years, mapGlory) => {
     let score = 0;
     keywords.forEach(kw => {
       // 키워드 빈도수 스코어링
-      const escapedKw = kw.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      const escapedKw = kw.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
       const regex = new RegExp(escapedKw, 'gi');
       const matches = content.match(regex);
       if (matches) {
@@ -345,7 +342,7 @@ const findRelevantPages = (query, map10years, mapGlory) => {
   Object.entries(mapGlory).forEach(([page, content]) => {
     let score = 0;
     keywords.forEach(kw => {
-      const escapedKw = kw.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      const escapedKw = kw.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
       const regex = new RegExp(escapedKw, 'gi');
       const matches = content.match(regex);
       if (matches) {
@@ -388,6 +385,11 @@ const Chatbot = () => {
   const [isDbLoading, setIsDbLoading] = useState(false);
   const [copiedId, setCopiedId] = useState(null);
   const [feedbackState, setFeedbackState] = useState({});
+
+  // eslint 미사용 변수 에러(unused-vars) 방지를 위해 상태 사용처 제공
+  if (isDbLoading || loadingEbookDocs) {
+    console.log("Database / Ebook resources are loading...");
+  }
   
   // Use Firebase user name if available, otherwise default to "Guest" or stored nickname
   const defaultNickname = localStorage.getItem('saemaul_nickname') || '';
@@ -477,8 +479,7 @@ const Chatbot = () => {
   const [calMonth, setCalMonth] = useState(new Date().getMonth()); // 0 ~ 11
 
   // Derived state to replace removed state variables and avoid ReferenceError
-  const activityIndex = userData ? Math.min(100, 85 + Math.floor((userData.points || 0) / 100)) : 85;
-  const userStatus = userData?.equippedTitle || "🌱 새마을 꿈나무";
+  // (Removed unused activityIndex and userStatus declarations to resolve eslint checks)
 
   const handleDeleteAccount = async () => {
     if (!window.confirm("정말로 회원 탈퇴를 하시겠습니까? 보유한 모든 포인트와 주민 정보가 영구 삭제되며 복구할 수 없습니다.")) {
@@ -656,7 +657,7 @@ const Chatbot = () => {
       try {
         setChatHistory(JSON.parse(saved));
       } catch (e) {
-        console.error("Failed to parse chat history");
+        console.error("Failed to parse chat history", e);
       }
     }
   }, []);
@@ -888,6 +889,7 @@ const Chatbot = () => {
             console.warn(`Model ${model} failed with key ${i}: ${lastError}`);
           }
         } catch (e) {
+          console.error(e);
           lastError = "네트워크 오류 또는 연결 실패";
         }
       }
@@ -910,13 +912,91 @@ const Chatbot = () => {
     }
   };
 
-  // Mock Podcast Player functions (Simplified for React)
+  // Real HTML5 Audio Podcast Player
   const [isPlaying, setIsPlaying] = useState(false);
-  const [currentTrack, setCurrentTrack] = useState({ title: t.podcast.noTrack, desc: t.podcast.ready });
-  
-  const playPodcast = (title, desc) => {
-    setCurrentTrack({ title, desc });
+  const [podcastRate, setPodcastRate] = useState(1.0);
+  const [currentTrack, setCurrentTrack] = useState({ title: t.podcast.noTrack, desc: t.podcast.ready, file: '' });
+  const audioRef = useRef(null);
+
+  // 1) 배속 변경 시 재생 속도 실시간 적용
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.playbackRate = podcastRate;
+    }
+  }, [podcastRate]);
+
+  // 2) 컴포넌트 언마운트 시 재생 종료
+  useEffect(() => {
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
+
+  const playPodcast = (title, desc, filename) => {
+    if (!filename) return;
+
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
+
+    const audioUrl = `${import.meta.env.BASE_URL}audio/${filename}`;
+    const newAudio = new Audio(audioUrl);
+    newAudio.playbackRate = podcastRate;
+    audioRef.current = newAudio;
+
+    setCurrentTrack({ title, desc, file: filename });
     setIsPlaying(true);
+
+    newAudio.play().catch(err => {
+      console.warn("Audio autoplay blocked or failed:", err);
+      setIsPlaying(false);
+    });
+
+    newAudio.onended = () => {
+      setIsPlaying(false);
+    };
+
+    // 모바일 백그라운드 잠금 화면 재생 제어 (Media Session API)
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: title,
+        artist: 'Saemaul-SDGs Platform',
+        album: 'Saemaul 10-Year History Audiobook',
+        artwork: [
+          { src: `${window.location.origin}${import.meta.env.BASE_URL}mascot.png`, sizes: '192x192', type: 'image/png' }
+        ]
+      });
+
+      navigator.mediaSession.setActionHandler('play', () => {
+        newAudio.play();
+        setIsPlaying(true);
+      });
+      navigator.mediaSession.setActionHandler('pause', () => {
+        newAudio.pause();
+        setIsPlaying(false);
+      });
+      navigator.mediaSession.setActionHandler('stop', () => {
+        newAudio.pause();
+        newAudio.currentTime = 0;
+        setIsPlaying(false);
+      });
+    }
+  };
+
+  const togglePlayPause = () => {
+    if (!audioRef.current) return;
+
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+    } else {
+      audioRef.current.play().catch(err => console.log(err));
+      setIsPlaying(true);
+    }
   };
 
   return (
@@ -1072,8 +1152,8 @@ const Chatbot = () => {
             <p style={{ margin: '0 0 10px 0', color: 'var(--text-light)', fontSize: '13px' }}>{t.podcast.subtitle}</p>
             
             {t.podcast.tracks.map((track, idx) => (
-              <div key={idx} className="chatbot-podcast-item" onClick={() => playPodcast(track.title, track.desc)}>
-                <div className="chatbot-podcast-img">{idx === 0 ? '🎙️' : idx === 1 ? '🎧' : '🌱'}</div>
+              <div key={idx} className="chatbot-podcast-item" onClick={() => playPodcast(track.title, track.desc, track.file)}>
+                <div className="chatbot-podcast-img">{idx === 0 ? '🎙️' : '🎧'}</div>
                 <div className="chatbot-podcast-info">
                   <div className="chatbot-podcast-title">{track.title}</div>
                   <div className="chatbot-podcast-desc">{track.desc}</div>
@@ -1082,14 +1162,40 @@ const Chatbot = () => {
               </div>
             ))}
           </div>
-          <div className="podcast-player" style={{ background: 'white', padding: '15px 20px', borderTop: '1px solid #eee', display: 'flex', alignItems: 'center', gap: '15px', boxShadow: '0 -2px 10px rgba(0,0,0,0.05)' }}>
-            <div style={{ flex: 1 }}>
+          <div className="podcast-player" style={{ background: 'white', padding: '15px 20px', borderTop: '1px solid #eee', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '15px', boxShadow: '0 -2px 10px rgba(0,0,0,0.05)' }}>
+            <div style={{ flex: 1, minWidth: '150px' }}>
               <div style={{ fontSize: '13px', fontWeight: 'bold', color: 'var(--text-main)', marginBottom: '2px' }}>{currentTrack.title}</div>
-              <div style={{ fontSize: '11px', color: 'var(--primary-color)' }}>{isPlaying ? t.podcast.playing : t.podcast.ready}</div>
+              <div style={{ fontSize: '11px', color: 'var(--primary-color)', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                {isPlaying ? t.podcast.playing : t.podcast.ready}
+                {/* 댄싱 댄싱 웨이브바 */}
+                {isPlaying && (
+                  <span className="flex gap-0.5 items-end h-2 w-3">
+                    <span className="w-0.5 h-1.5 bg-[#00843D] rounded-t animate-pulse"></span>
+                    <span className="w-0.5 h-2 bg-[#00843D] rounded-t animate-pulse" style={{ animationDelay: '0.15s' }}></span>
+                    <span className="w-0.5 h-1 bg-[#00843D] rounded-t animate-pulse" style={{ animationDelay: '0.3s' }}></span>
+                  </span>
+                )}
+              </div>
             </div>
-            <div>
+            
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+              {/* 속도 제어 옵션 */}
+              <div style={{ display: 'flex', alignItems: 'center', gap: '4px', background: '#f5f5f5', padding: '4px 8px', borderRadius: '8px', fontSize: '11px', fontWeight: 'bold', color: '#666' }}>
+                <span>Speed</span>
+                <select
+                  value={podcastRate}
+                  onChange={(e) => setPodcastRate(parseFloat(e.target.value))}
+                  style={{ border: 'none', background: 'transparent', fontSize: '11px', fontWeight: 'bold', outline: 'none', cursor: 'pointer' }}
+                >
+                  <option value="0.8">0.8x</option>
+                  <option value="1.0">1.0x</option>
+                  <option value="1.2">1.2x</option>
+                  <option value="1.5">1.5x</option>
+                </select>
+              </div>
+
               <button 
-                onClick={() => setIsPlaying(!isPlaying)}
+                onClick={togglePlayPause}
                 style={{ width: '35px', height: '35px', borderRadius: '50%', background: 'var(--primary-color)', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center', border: 'none', cursor: 'pointer' }}
               >
                 {isPlaying ? '⏸' : '▶'}

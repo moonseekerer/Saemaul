@@ -30,7 +30,6 @@ import { auth, db } from '../../firebase';
 import { 
   collection, 
   addDoc, 
-  getDocs, 
   query, 
   orderBy, 
   doc, 
@@ -599,6 +598,31 @@ const getCustomPageDocId = (bookId, page, lang) => {
   return `${bookId}_page_${normLang}_${page}`;
 };
 
+// 마크다운을 TTS용 일반 텍스트로 정제하는 함수
+const cleanMarkdownForTTS = (md) => {
+  if (!md) return "";
+  let text = md;
+  // 1. 이미지 제거
+  text = text.replace(/!\[.*?\]\(.*?\)/g, "");
+  // 2. 링크 텍스트만 남기기
+  text = text.replace(/\[(.*?)\]\(.*?\)/g, "$1");
+  // 3. 샵(#)으로 시작하는 제목 기호 제거
+  text = text.replace(/#{1,6}\s+/g, "");
+  // 4. 볼드 및 이탤릭 기호 제거
+  text = text.replace(/\*\*([^*]+?)\*\*/g, "$1");
+  text = text.replace(/\*([^*]+?)\*/g, "$1");
+  text = text.replace(/__([^_]+?)__/g, "$1");
+  text = text.replace(/_([^_]+?)_/g, "$1");
+  // 5. 인용 블록 기호 제거
+  text = text.replace(/^\s*>\s*/gm, "");
+  // 6. 표(Table) 포맷 기호 제거
+  text = text.replace(/\|/g, " ");
+  text = text.replace(/[-:]{3,}/g, " ");
+  // 7. 불필요한 공백 문자 및 여러 줄 줄바꿈 정리
+  text = text.replace(/\s+/g, " ");
+  return text.trim();
+};
+
 const BookReader = () => {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -615,6 +639,16 @@ const BookReader = () => {
   
   // 모바일 전용 뷰 탭 상태 ('text' | 'pdf')
   const [activeMobileTab, setActiveMobileTab] = useState('text');
+
+  // TTS 관련 상태 및 Refs
+  const [ttsPlaying, setTtsPlaying] = useState(false);
+  const [ttsPaused, setTtsPaused] = useState(false);
+  const [ttsRate, setTtsRate] = useState(1.0);
+  const [autoPageFlip, setAutoPageFlip] = useState(true);
+  const [showTtsController, setShowTtsController] = useState(false);
+  const [wakeLock, setWakeLock] = useState(null);
+  const utteranceRef = useRef(null);
+
   
   // PDF.js 및 문서 상태
   const [pdfDoc, setPdfDoc] = useState(null);
@@ -765,6 +799,179 @@ const BookReader = () => {
     setShowMemos(false); // 메모창 닫기
   };
 
+  // --- TTS 오디오북 핵심 비동기 제어 함수군 ---
+
+  // Screen Wake Lock API를 활용한 모바일 화면 꺼짐 방지
+  const requestWakeLock = async () => {
+    if ('wakeLock' in navigator) {
+      try {
+        const lock = await navigator.wakeLock.request('screen');
+        setWakeLock(lock);
+        console.log('Wake Lock acquired.');
+      } catch (err) {
+        console.warn('Wake Lock request failed:', err.message);
+      }
+    }
+  };
+
+  const releaseWakeLock = () => {
+    if (wakeLock) {
+      wakeLock.release().then(() => {
+        setWakeLock(null);
+        console.log('Wake Lock released.');
+      });
+    }
+  };
+
+  // 실시간 다국어 본문 낭독 (Web Speech API)
+  const speakCurrentPage = () => {
+    window.speechSynthesis.cancel(); // 진행 중인 낭독 전부 초기화
+
+    const normLang = getLangPrefix(bookLanguage);
+    
+    // Firestore 오버라이드 텍스트가 있으면 그것을, 없으면 마크다운 텍스트를 파싱하여 읽음
+    const textToRead = pageOverrides[normLang]?.[pageNum] !== undefined 
+      ? pageOverrides[normLang][pageNum] 
+      : (pageTextMap[pageNum] || '');
+
+    const cleanText = cleanMarkdownForTTS(textToRead);
+    if (!cleanText) return;
+
+    const utterance = new SpeechSynthesisUtterance(cleanText);
+    utteranceRef.current = utterance;
+
+    // 선택된 언어에 따른 타겟 국가 코드 할당
+    let langCode = 'ko-KR';
+    if (bookLanguage === 'en') langCode = 'en-US';
+    else if (bookLanguage === 'es') langCode = 'es-ES';
+    else if (bookLanguage === 'fr') langCode = 'fr-FR';
+    else if (bookLanguage === 'zh') langCode = 'zh-CN';
+    else if (bookLanguage === 'vi') langCode = 'vi-VN';
+
+    utterance.lang = langCode;
+    utterance.rate = ttsRate;
+
+    // 목소리 매칭 (브라우저 지원 목록 검색)
+    const voices = window.speechSynthesis.getVoices();
+    const matchingVoice = voices.find(v => v.lang.startsWith(langCode) || v.lang.replace('_', '-').startsWith(langCode.substring(0, 2)));
+    if (matchingVoice) {
+      utterance.voice = matchingVoice;
+    }
+
+    utterance.onstart = () => {
+      setTtsPlaying(true);
+      setTtsPaused(false);
+      requestWakeLock();
+    };
+
+    utterance.onend = () => {
+      setTtsPlaying(false);
+      setTtsPaused(false);
+      releaseWakeLock();
+      
+      // 자동 페이지 넘김 연동
+      if (autoPageFlip && pageNum < config.maxPage) {
+        // 자동 전환 후 약간의 딜레이 뒤 낭독 시작하도록 설정
+        const nextPage = pageNum + 1;
+        handlePageChange(nextPage);
+      }
+    };
+
+    utterance.onerror = (e) => {
+      if (e.error !== 'interrupted') {
+        console.error('TTS 재생 중 에러 발생:', e);
+        setTtsPlaying(false);
+        setTtsPaused(false);
+        releaseWakeLock();
+      }
+    };
+
+    window.speechSynthesis.speak(utterance);
+  };
+
+  const pauseTTS = () => {
+    if (window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+      window.speechSynthesis.pause();
+      setTtsPaused(true);
+      releaseWakeLock();
+    }
+  };
+
+  const resumeTTS = () => {
+    if (window.speechSynthesis.paused) {
+      window.speechSynthesis.resume();
+      setTtsPaused(false);
+      requestWakeLock();
+    } else {
+      speakCurrentPage();
+    }
+  };
+
+  const stopTTS = () => {
+    window.speechSynthesis.cancel();
+    setTtsPlaying(false);
+    setTtsPaused(false);
+    releaseWakeLock();
+  };
+
+  // 1) 페이지 이동 시 자동 이어서 읽기
+  useEffect(() => {
+    if (ttsPlaying) {
+      const timer = setTimeout(() => {
+        speakCurrentPage();
+      }, 600); // 본문 전환 딜레이를 고려한 부드러운 전환
+      return () => clearTimeout(timer);
+    }
+  }, [pageNum]);
+
+  // 2) 속도(ttsRate) 변경 시 낭독 재생 속도 즉시 반영
+  useEffect(() => {
+    if (ttsPlaying && !ttsPaused) {
+      speakCurrentPage();
+    }
+  }, [ttsRate]);
+
+  // 3) 도서 전환 및 언어 전환 시 기존 재생 정지
+  useEffect(() => {
+    stopTTS();
+  }, [bookLanguage, activeBookId]);
+
+  // 4) 컴포넌트 언마운트 시 백그라운드 낭독 강제 종료 및 Wake Lock 릴리즈
+  useEffect(() => {
+    return () => {
+      window.speechSynthesis.cancel();
+      if (wakeLock) {
+        wakeLock.release();
+      }
+    };
+  }, [wakeLock]);
+
+  // 5) 이퀄라이저 애니메이션 및 드롭다운 슬라이드 CSS 동적 주입
+  useEffect(() => {
+    const style = document.createElement('style');
+    style.innerHTML = `
+      @keyframes eqBarAnim {
+        0%, 100% { height: 4px; }
+        50% { height: 16px; }
+      }
+      .animate-eqBar {
+        animation: eqBarAnim 0.8s ease-in-out infinite;
+      }
+      @keyframes slideDownAnim {
+        from { transform: translateY(-10px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+      .animate-slideDown {
+        animation: slideDownAnim 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+    `;
+    document.head.appendChild(style);
+    return () => {
+      document.head.removeChild(style);
+    };
+  }, []);
+
+
   // 3. PDF.js 라이브러리 및 문서 로딩
   useEffect(() => {
     let active = true;
@@ -865,7 +1072,7 @@ const BookReader = () => {
       const page = parseInt(sections[i], 10);
       let content = sections[i + 1] || '';
       content = content.replace(/^(#{1,6}\s+.*)$/gm, '\n\n$1\n\n');
-      content = content.replace(/\*\*([^\*]+?)\*\*(?=[가-힣a-zA-Z0-9])/g, '**$1**\u200B');
+      content = content.replace(/\*\*([^*]+?)\*\*(?=[가-힣a-zA-Z0-9])/g, '**$1**\u200B');
       content = content.replace(/\n{3,}/g, '\n\n');
       map[page] = content.trim();
     }
@@ -1163,6 +1370,7 @@ const BookReader = () => {
       const translated = await translateText(originText, bookLanguage);
       setAutoTranslatedText(translated);
     } catch (err) {
+      console.error(err);
       alert('자동 번역 호출에 실패했습니다. 요청량이 많거나 네트워크 에러입니다.');
     } finally {
       setTranslatingText(false);
@@ -1181,6 +1389,7 @@ const BookReader = () => {
       const translated = await translateText(originText, bookLanguage);
       setEditText(translated);
     } catch (err) {
+      console.error(err);
       alert('번역 초안을 가져오는 도중 에러가 발생했습니다.');
     } finally {
       setTranslatingText(false);
@@ -1427,7 +1636,7 @@ const BookReader = () => {
     }
     
     if (searchQuery.trim()) {
-      const escapedQuery = searchQuery.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      const escapedQuery = searchQuery.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
       const regex = new RegExp(`(?<!\\*\\*)(${escapedQuery})(?!\\*\\*)`, 'gi');
       processed = processed.replace(regex, '**$1**');
     }
@@ -1481,6 +1690,22 @@ const BookReader = () => {
         </div>
 
         <div className="relative flex items-center gap-2 flex-shrink-0">
+          {/* 오디오북 TTS 활성화/제어기 열기 버튼 */}
+          <button 
+            onClick={() => setShowTtsController(!showTtsController)}
+            className={`p-2 rounded-xl transition-all border flex items-center justify-center cursor-pointer ${
+              showTtsController 
+                ? 'bg-saemaul-green border-saemaul-green text-white' 
+                : 'bg-slate-800 border-slate-700/40 text-slate-200 hover:bg-slate-700 hover:text-white'
+            }`}
+            title="오디오북으로 듣기 (TTS)"
+            aria-label="오디오북 재생기"
+          >
+            <span className="flex items-center gap-1.5 font-bold text-xs">
+              🎧 <span className="hidden xs:inline">오디오북</span>
+            </span>
+          </button>
+
           {/* 햄버거 메뉴 토글 버튼 */}
           <button 
             onClick={() => setMenuOpen(!menuOpen)}
@@ -1615,6 +1840,96 @@ const BookReader = () => {
           )}
         </div>
       </header>
+
+      {/* TTS 오디오북 미니 제어바 */}
+      {showTtsController && (
+        <div className="bg-slate-950 border-b border-slate-850 px-4 py-3 flex flex-wrap items-center justify-between gap-4 z-10 animate-slideDown flex-shrink-0">
+          <div className="flex items-center gap-3.5">
+            {/* 이퀄라이저 애니메이션: 재생 중일 때만 바들이 춤을 춤 */}
+            <div className="flex items-end gap-0.5 h-4 w-5">
+              {[1, 2, 3, 4].map((bar) => (
+                <span 
+                  key={bar} 
+                  className={`w-1 bg-saemaul-green rounded-t transition-all ${
+                    ttsPlaying && !ttsPaused ? 'animate-eqBar' : 'h-1'
+                  }`}
+                  style={{ 
+                    animationDelay: `${bar * 0.15}s`,
+                    height: ttsPlaying && !ttsPaused ? '100%' : '4px'
+                  }}
+                />
+              ))}
+            </div>
+            <div className="text-xs font-medium text-slate-350">
+              <span className="text-slate-500 font-bold mr-1.5">오디오북:</span>
+              {ttsPlaying ? (ttsPaused ? '일시 정지됨' : '낭독 중...') : '준비 완료 (재생 버튼을 눌러주세요)'}
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3">
+            {/* 배속 조절 */}
+            <div className="flex items-center gap-1 bg-slate-900 border border-slate-800 rounded-lg px-2 py-1">
+              <span className="text-[10px] font-bold text-slate-500 mr-1 select-none">배속</span>
+              <select
+                value={ttsRate}
+                onChange={(e) => setTtsRate(parseFloat(e.target.value))}
+                className="bg-transparent text-slate-300 border-none text-xs font-bold focus:outline-none cursor-pointer"
+              >
+                <option value="0.8" className="bg-slate-900">0.8x</option>
+                <option value="1.0" className="bg-slate-900">1.0x</option>
+                <option value="1.2" className="bg-slate-900">1.2x</option>
+                <option value="1.5" className="bg-slate-900">1.5x</option>
+                <option value="2.0" className="bg-slate-900">2.0x</option>
+              </select>
+            </div>
+
+            {/* 자동 페이지 넘김 토글 */}
+            <label className="flex items-center gap-1.5 cursor-pointer bg-slate-900 border border-slate-800 rounded-lg px-2 py-1 select-none">
+              <input
+                type="checkbox"
+                checked={autoPageFlip}
+                onChange={(e) => setAutoPageFlip(e.target.checked)}
+                className="accent-saemaul-green w-3 h-3 cursor-pointer"
+              />
+              <span className="text-[10px] font-bold text-slate-300">자동 페이지 넘김</span>
+            </label>
+
+            <span className="text-slate-800 select-none">|</span>
+
+            {/* 제어 버튼군 */}
+            {ttsPlaying && !ttsPaused ? (
+              <button
+                onClick={pauseTTS}
+                className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 transition-all flex items-center justify-center cursor-pointer font-bold text-xs"
+                title="일시 정지"
+              >
+                ⏸
+              </button>
+            ) : (
+              <button
+                onClick={resumeTTS}
+                className="p-1.5 rounded-lg bg-saemaul-green hover:bg-emerald-600 text-white transition-all flex items-center justify-center cursor-pointer font-bold text-xs"
+                title="낭독 시작"
+              >
+                ▶
+              </button>
+            )}
+
+            <button
+              onClick={stopTTS}
+              disabled={!ttsPlaying && !ttsPaused}
+              className={`p-1.5 rounded-lg transition-all flex items-center justify-center font-bold text-xs ${
+                ttsPlaying || ttsPaused
+                  ? 'bg-red-950/40 border border-red-900/40 text-red-400 hover:bg-red-900/50 cursor-pointer'
+                  : 'bg-slate-900 text-slate-600 cursor-not-allowed border border-transparent'
+              }`}
+              title="정지"
+            >
+              ⏹
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* 모바일 하단 탭 바 (모바일 크기 화면에서만 노출, 0페이지 대시보드 아닐 때만) */}
       {pageNum > 0 && (
