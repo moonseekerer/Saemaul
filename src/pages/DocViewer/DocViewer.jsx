@@ -76,7 +76,10 @@ const DocViewer = () => {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    setLoading(true); setError(false);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setLoading(true); 
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setError(false);
     fetch(`${import.meta.env.BASE_URL}docs/${filename}`)
       .then(r => { if (!r.ok) throw new Error(); return r.arrayBuffer(); })
       .then(buf => {
@@ -86,7 +89,7 @@ const DocViewer = () => {
         text = text.replace(/^(#{1,6}\s+.*)$/gm, '\n\n$1\n\n');
         
         // 2) 한국어 조사 접합 시 볼드(**) 처리 버그 방지 -> 닫기 볼드 뒤에 보이지 않는 제로 너비 공간(\u200B) 삽입 (한글/영문/숫자 등의 조사가 바로 붙는 경우에만 한함)
-        text = text.replace(/\*\*([^\*]+?)\*\*(?=[가-힣a-zA-Z0-9])/g, '**$1**\u200B');
+        text = text.replace(/\*\*([^*]+?)\*\*(?=[가-힣a-zA-Z0-9])/g, '**$1**\u200B');
         
         // 3) 불필요하게 반복된 3회 이상의 줄바꿈 정리
         text = text.replace(/\n{3,}/g, '\n\n');
@@ -149,7 +152,7 @@ const DocViewer = () => {
                   ol: ({children}) => <ol className="list-decimal pl-6 space-y-3 mb-8 text-slate-700">{children}</ol>,
                   li: ({children}) => <li className="text-slate-700 leading-7 pl-1">{children}</li>,
                   code(props) {
-                    const {children, className, node, ...rest} = props
+                    const {children, className, ...rest} = props
                     const match = /language-(\w+)/.exec(className || '')
                     return match && match[1] === 'mermaid' ? (
                       <MermaidRenderer chart={String(children).replace(/\n$/, '')} />
