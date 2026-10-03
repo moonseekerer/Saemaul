@@ -354,7 +354,7 @@ const KnowledgeHub = () => {
                       새마을운동 10년사 e-Book 뷰어 📖
                     </h2>
                     <div className="flex flex-wrap gap-2">
-                      {['한국어', 'English', 'Español', '中文', 'Français', 'Tiếng Việt'].map(lang => (
+                      {['한국어', 'English', 'Español', '中文', 'Français', 'Tiếng Việt', 'Русский', 'العربية'].map(lang => (
                         <span key={lang} className="text-[11px] font-bold px-2.5 py-1 bg-indigo-500/20 text-indigo-300 rounded-full border border-indigo-500/20">{lang}</span>
                       ))}
                     </div>
@@ -380,7 +380,7 @@ const KnowledgeHub = () => {
                       영광의 발자취 e-Book 뷰어 📖
                     </h2>
                     <div className="flex flex-wrap gap-2">
-                      {['한국어', 'English', 'Español', '中文', 'Français', 'Tiếng Việt'].map(lang => (
+                      {['한국어', 'English', 'Español', '中文', 'Français', 'Tiếng Việt', 'Русский', 'العربية'].map(lang => (
                         <span key={lang} className="text-[11px] font-bold px-2.5 py-1 bg-amber-500/20 text-amber-300 rounded-full border border-amber-500/20">{lang}</span>
                       ))}
                     </div>

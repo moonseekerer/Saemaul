@@ -6,6 +6,8 @@ import {
   ArrowLeft, 
   ChevronLeft, 
   ChevronRight, 
+  ChevronDown,
+  ChevronUp,
   BookOpen, 
   ZoomIn, 
   ZoomOut, 
@@ -126,6 +128,8 @@ const TRANSLATIONS = {
     langFr: "프랑스어",
     langZh: "중국어",
     langVi: "베트남어",
+    langRu: "러시아어",
+    langAr: "아랍어",
     originalTextReadOnly: "읽기 전용",
     correctedTextHelp: "이 창에서 직접 오타를 수정해 주세요",
     detailReasonHelp: "예: ~은 오타이며, 원문 한문 상 ~의 뜻이 맞기에 이를 건의합니다.",
@@ -195,6 +199,8 @@ const TRANSLATIONS = {
     langFr: "프랑스어",
     langZh: "중국어",
     langVi: "베트남어",
+    langRu: "러시아어",
+    langAr: "아랍어",
     originalTextReadOnly: "읽기 전용",
     correctedTextHelp: "이 창에서 직접 오타를 수정해 주세요",
     detailReasonHelp: "예: ~은 오타이며, 원문 한문 상 ~의 뜻이 맞기에 이를 건의합니다.",
@@ -641,6 +647,9 @@ const BookReader = () => {
   const [pageNum, setPageNum] = useState(startPage);
   const [pageInputValue, setPageInputValue] = useState(getDisplayPageStr(startPage, config));
   
+  // 네비게이션 바 접기/펼치기 상태
+  const [navCollapsed, setNavCollapsed] = useState(false);
+  
   // 모바일 전용 뷰 탭 상태 ('text' | 'pdf')
   const [activeMobileTab, setActiveMobileTab] = useState('text');
 
@@ -651,7 +660,6 @@ const BookReader = () => {
   const [autoPageFlip, setAutoPageFlip] = useState(true);
   const [showTtsController, setShowTtsController] = useState(false);
   const [wakeLock, setWakeLock] = useState(null);
-  const utteranceRef = useRef(null);
 
   
   // PDF.js 및 문서 상태
@@ -866,6 +874,8 @@ const BookReader = () => {
       else if (bookLanguage === 'fr') langCode = 'fr-FR';
       else if (bookLanguage === 'zh') langCode = 'zh-CN';
       else if (bookLanguage === 'vi') langCode = 'vi-VN';
+      else if (bookLanguage === 'ru') langCode = 'ru-RU';
+      else if (bookLanguage === 'ar') langCode = 'ar-SA';
 
       utterance.lang = langCode;
       utterance.rate = ttsRate;
@@ -1026,8 +1036,15 @@ const BookReader = () => {
         
         window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
         
-        const pdfUrl = `${import.meta.env.BASE_URL}${config.pdfName}`;
-        const loadingTask = window.pdfjsLib.getDocument(pdfUrl);
+        // 브라우저 디스크 캐시(과거 404 등) 방지 및 스트리밍 범위 요청 옵션 설정
+        const pdfUrl = `${import.meta.env.BASE_URL}${config.pdfName}?v=20261001_1`;
+        const loadingTask = window.pdfjsLib.getDocument({
+          url: pdfUrl,
+          cMapUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/cmaps/',
+          cMapPacked: true,
+          disableAutoFetch: true,
+          disableRange: false
+        });
         const doc = await loadingTask.promise;
         
         if (active) {
@@ -1035,9 +1052,10 @@ const BookReader = () => {
           setLoadingPdf(false);
         }
       } catch (err) {
-        console.error('PDF 로드 오류:', err);
+        console.error('PDF 로드 오류 상세:', err);
         if (active) {
-          setPdfError('PDF 원본 파일을 읽어오지 못했습니다. 파일 위치나 브라우저 환경을 확인해주세요.');
+          const detailMsg = err?.message ? ` (${err.message})` : '';
+          setPdfError(`PDF 원본 파일을 읽어오지 못했습니다${detailMsg}. 네트워크 상태나 브라우저 캐시를 확인해주세요.`);
           setLoadingPdf(false);
         }
       }
@@ -1141,6 +1159,10 @@ const BookReader = () => {
         fileName = 'saemaul_10years_full_fr.md';
       } else if (bookLanguage === 'vi') {
         fileName = 'saemaul_10years_full_vi.md';
+      } else if (bookLanguage === 'ru') {
+        fileName = 'saemaul_10years_full_ru.md';
+      } else if (bookLanguage === 'ar') {
+        fileName = 'saemaul_10years_full_ar.md';
       }
     } else if (activeBookId === 'glory') {
       if (bookLanguage === 'en') {
@@ -1153,6 +1175,10 @@ const BookReader = () => {
         fileName = 'saemaul_glory_full_vi.md';
       } else if (bookLanguage === 'zh') {
         fileName = 'saemaul_glory_full_zh.md';
+      } else if (bookLanguage === 'ru') {
+        fileName = 'saemaul_glory_full_ru.md';
+      } else if (bookLanguage === 'ar') {
+        fileName = 'saemaul_glory_full_ar.md';
       }
     }
     const textUrl = `${import.meta.env.BASE_URL}docs/${fileName}?v=${Date.now()}`;
@@ -1723,6 +1749,27 @@ const BookReader = () => {
         </div>
 
         <div className="relative flex items-center gap-2 flex-shrink-0">
+          {/* 언어 선택 드롭다운 토글 */}
+          <div className="flex items-center gap-1.5 bg-slate-900 border border-slate-800 hover:border-slate-700 rounded-xl px-2.5 py-1.5 transition-all shadow-sm">
+            <Globe size={13} className="text-indigo-400 flex-shrink-0" />
+            <select
+              value={bookLanguage}
+              onChange={(e) => setBookLanguage(e.target.value)}
+              className="bg-transparent text-xs font-black text-slate-200 focus:outline-none cursor-pointer pr-1"
+              aria-label="도서 열람 언어 선택"
+            >
+              <option value="ko" className="bg-slate-900 text-slate-200">한국어 (정제본)</option>
+              <option value="ko_hanja" className="bg-slate-900 text-slate-200">한국어 (한자 병기)</option>
+              <option value="en" className="bg-slate-900 text-slate-200">English (EN)</option>
+              <option value="es" className="bg-slate-900 text-slate-200">Español (ES)</option>
+              <option value="zh" className="bg-slate-900 text-slate-200">中文 (ZH)</option>
+              <option value="fr" className="bg-slate-900 text-slate-200">Français (FR)</option>
+              <option value="vi" className="bg-slate-900 text-slate-200">Tiếng Việt (VI)</option>
+              <option value="ru" className="bg-slate-900 text-slate-200">Русский (RU)</option>
+              <option value="ar" className="bg-slate-900 text-slate-200">العربية (AR)</option>
+            </select>
+          </div>
+
           {/* 오디오북 TTS 활성화/제어기 열기 버튼 */}
           <button 
             onClick={() => setShowTtsController(!showTtsController)}
@@ -1779,22 +1826,12 @@ const BookReader = () => {
                     {config.hasMultilang && (
                       <>
                         <option value="en" className="bg-slate-900 text-slate-200">English (EN)</option>
-                        {activeBookId === '10years' && (
-                          <>
-                            <option value="es" className="bg-slate-900 text-slate-200">Español (ES)</option>
-                            <option value="zh" className="bg-slate-900 text-slate-200">中文 (ZH)</option>
-                            <option value="fr" className="bg-slate-900 text-slate-200">Français (FR)</option>
-                            <option value="vi" className="bg-slate-900 text-slate-200">Tiếng Việt (VI)</option>
-                          </>
-                        )}
-                        {activeBookId === 'glory' && (
-                          <>
-                            <option value="es" className="bg-slate-900 text-slate-200">Español (ES)</option>
-                            <option value="zh" className="bg-slate-900 text-slate-200">中文 (ZH)</option>
-                            <option value="fr" className="bg-slate-900 text-slate-200">Français (FR)</option>
-                            <option value="vi" className="bg-slate-900 text-slate-200">Tiếng Việt (VI)</option>
-                          </>
-                        )}
+                        <option value="es" className="bg-slate-900 text-slate-200">Español (ES)</option>
+                        <option value="zh" className="bg-slate-900 text-slate-200">中文 (ZH)</option>
+                        <option value="fr" className="bg-slate-900 text-slate-200">Français (FR)</option>
+                        <option value="vi" className="bg-slate-900 text-slate-200">Tiếng Việt (VI)</option>
+                        <option value="ru" className="bg-slate-900 text-slate-200">Русский (RU)</option>
+                        <option value="ar" className="bg-slate-900 text-slate-200">العربية (AR)</option>
                       </>
                     )}
                   </select>
@@ -2069,7 +2106,7 @@ const BookReader = () => {
               activeMobileTab === 'text' || pageNum === 0 ? 'flex' : 'hidden md:flex'
             }`}
           >
-            <div className="p-6 sm:p-10 max-w-4xl mx-auto w-full flex-grow flex flex-col justify-between">
+            <div className="p-6 sm:p-10 pb-28 sm:pb-32 max-w-4xl mx-auto w-full flex-grow flex flex-col justify-between">
               
               {pageNum === 0 ? (
                 // 0페이지: 오류 제안 대시보드
@@ -2128,12 +2165,8 @@ const BookReader = () => {
                     <div className="flex items-center gap-2.5 flex-wrap pt-1.5 border-t border-slate-800/40">
                       <span className="text-[11px] font-black text-slate-500 uppercase tracking-wider">{ui.langFilterLabel}:</span>
                       <div className="flex gap-1.5 flex-wrap">
-                        {['all', 'ko', 'en', 'es', 'fr', 'vi', 'zh'].map(lang => {
+                        {['all', 'ko', 'en', 'es', 'fr', 'vi', 'zh', 'ru', 'ar'].map(lang => {
                           const count = errorReports.filter(r => r.language === lang).length;
-                          // glory 도서에 zh가 없고 vi가 있는 등 책 설정에 맞춰 옵션 표기
-                          if (activeBookId === 'glory' && lang === 'zh') return null;
-                          if (activeBookId === '10years' && lang === 'vi') return null;
-
                           return (
                             <button
                               key={lang}
@@ -2151,6 +2184,8 @@ const BookReader = () => {
                               {lang === 'fr' && `${ui.langFr} (${count})`}
                               {lang === 'zh' && `${ui.langZh} (${count})`}
                               {lang === 'vi' && `${ui.langVi} (${count})`}
+                              {lang === 'ru' && `Русский (${count})`}
+                              {lang === 'ar' && `العربية (${count})`}
                             </button>
                           );
                         })}
@@ -2472,7 +2507,10 @@ const BookReader = () => {
                       }
   
                       return (
-                        <div className="font-serif leading-relaxed text-slate-200 animate-fadeIn">
+                        <div
+                          className={`font-serif leading-relaxed text-slate-200 animate-fadeIn ${bookLanguage === 'ar' ? 'text-right' : ''}`}
+                          dir={bookLanguage === 'ar' ? 'rtl' : 'ltr'}
+                        >
                           {!isKorean && !dbContent && autoTranslatedText && (
                             <div className="mb-6 px-4 py-3 rounded-2xl bg-indigo-500/10 border border-indigo-500/20 flex items-start gap-3">
                               <span className="text-indigo-400 text-lg mt-0.5">🌐</span>
@@ -2508,20 +2546,20 @@ const BookReader = () => {
                               },
                               h1: ({children}) => <h1 className="text-2xl sm:text-3xl font-black text-slate-100 mb-6 leading-tight pb-3 border-b border-slate-800">{children}</h1>,
                               h2: ({children}) => <h2 className="text-xl sm:text-2xl font-black text-indigo-400 mt-8 mb-4">{children}</h2>,
-                              h3: ({children}) => <h3 className="text-lg sm:text-xl font-bold text-slate-200 mt-6 mb-3 border-l-4 border-saemaul-green pl-3">{children}</h3>,
+                              h3: ({children}) => <h3 className={`text-lg sm:text-xl font-bold text-slate-200 mt-6 mb-3 ${bookLanguage === 'ar' ? 'border-r-4 pr-3' : 'border-l-4 pl-3'} border-saemaul-green`}>{children}</h3>,
                               p: ({children}) => <p className="text-slate-300 text-sm sm:text-base leading-8 mb-5 break-keep font-medium whitespace-pre-line">{children}</p>,
                               strong: ({children}) => <strong className="text-amber-400 font-bold bg-amber-500/10 px-1 rounded border border-amber-500/10">{children}</strong>,
-                              blockquote: ({children}) => <blockquote className="border-l-4 border-indigo-500 bg-slate-950/60 px-5 py-3 rounded-r-xl my-6 text-slate-400 text-xs sm:text-sm font-medium">{children}</blockquote>,
-                              ul: ({children}) => <ul className="list-disc pl-5 space-y-2 mb-6 text-slate-300 text-sm">{children}</ul>,
-                              ol: ({children}) => <ol className="list-decimal pl-5 space-y-2 mb-6 text-slate-300 text-sm">{children}</ol>,
-                              li: ({children}) => <li className="pl-1">{children}</li>,
+                              blockquote: ({children}) => <blockquote className={`${bookLanguage === 'ar' ? 'border-r-4 rounded-l-xl' : 'border-l-4 rounded-r-xl'} border-indigo-500 bg-slate-950/60 px-5 py-3 my-6 text-slate-400 text-xs sm:text-sm font-medium`}>{children}</blockquote>,
+                              ul: ({children}) => <ul className={`list-disc ${bookLanguage === 'ar' ? 'pr-5' : 'pl-5'} space-y-2 mb-6 text-slate-300 text-sm`}>{children}</ul>,
+                              ol: ({children}) => <ol className={`list-decimal ${bookLanguage === 'ar' ? 'pr-5' : 'pl-5'} space-y-2 mb-6 text-slate-300 text-sm`}>{children}</ol>,
+                              li: ({children}) => <li className="px-1">{children}</li>,
                               table: ({children}) => (
                                 <div className="overflow-x-auto my-6 w-full border border-slate-800 rounded-xl bg-slate-950/40">
                                   <table className="min-w-full border-collapse divide-y divide-slate-800 text-xs sm:text-sm">{children}</table>
                                 </div>
                               ),
                               thead: ({children}) => <thead className="bg-slate-900 font-bold text-slate-200">{children}</thead>,
-                              th: ({children}) => <th className="px-4 py-2.5 border-b border-slate-800 text-left font-bold">{children}</th>,
+                              th: ({children}) => <th className={`px-4 py-2.5 border-b border-slate-800 font-bold ${bookLanguage === 'ar' ? 'text-right' : 'text-left'}`}>{children}</th>,
                               td: ({children}) => <td className="px-4 py-2.5 border-b border-slate-800/50 text-slate-300 font-medium bg-slate-950/20">{children}</td>,
                               img: () => null
                             }}
@@ -2761,55 +2799,84 @@ const BookReader = () => {
 
       {/* ==================== FLOATING PAGE NAVIGATION BAR ==================== */}
       {pageNum > 0 && (
-        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-30 bg-slate-950/85 backdrop-blur-md border border-slate-800/80 px-5 py-3 rounded-2xl flex items-center gap-4 shadow-2xl animate-fadeIn">
-          <button
-            type="button"
-            onClick={() => handlePageChange(pageNum - 1)}
-            disabled={pageNum <= 1}
-            className="p-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all border border-slate-850 cursor-pointer"
-            title="이전 페이지"
-          >
-            <ChevronLeft size={16} />
-          </button>
-          
-          <div className="flex items-center gap-2">
-            <input
-              type="text"
-              value={pageInputValue}
-              onChange={(e) => setPageInputValue(e.target.value)}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter') {
-                  const target = parseDisplayPage(pageInputValue, config);
-                  if (target !== null) {
-                    handlePageChange(target);
-                  } else {
-                    alert('Page range: 1~' + config.maxPage);
-                    setPageInputValue(getDisplayPageStr(pageNum, config));
-                  }
-                }
-              }}
-              onBlur={() => {
-                const target = parseDisplayPage(pageInputValue, config);
-                if (target !== null) {
-                  handlePageChange(target);
-                } else {
-                  setPageInputValue(getDisplayPageStr(pageNum, config));
-                }
-              }}
-              className="w-16 bg-slate-900 border border-slate-800 text-slate-100 text-center py-1 rounded-xl text-xs font-black focus:border-indigo-500 focus:outline-none"
-            />
-            <span className="text-xs text-slate-500 font-bold select-none">/ {getDisplayPageStr(config.maxPage, config)}</span>
-          </div>
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-30 transition-all duration-300">
+          {navCollapsed ? (
+            /* 축소된 미니 칩 (슬림 모드) - 마우스 클릭 또는 호버 시 펼침 */
+            <div 
+              className="bg-slate-950/90 hover:bg-slate-900 backdrop-blur-md border border-slate-800/90 text-slate-300 px-4 py-2 rounded-full flex items-center gap-2.5 shadow-2xl cursor-pointer group transition-all animate-fadeIn hover:scale-105 border-indigo-500/30"
+              onClick={() => setNavCollapsed(false)}
+              title="페이지 네비게이터 펼치기"
+            >
+              <BookOpen size={14} className="text-saemaul-green group-hover:scale-110 transition-transform" />
+              <span className="text-xs font-black tracking-tight text-slate-200">
+                {getDisplayPageStr(pageNum, config)} <span className="text-slate-500 font-normal">/ {getDisplayPageStr(config.maxPage, config)}p</span>
+              </span>
+              <ChevronUp size={14} className="text-indigo-400 group-hover:translate-y-[-1px] transition-transform" />
+            </div>
+          ) : (
+            /* 펼쳐진 네비게이터 바 */
+            <div className="bg-slate-950/90 backdrop-blur-md border border-slate-800/90 px-5 py-3 rounded-2xl flex items-center gap-3.5 shadow-2xl animate-fadeIn">
+              <button
+                type="button"
+                onClick={() => handlePageChange(pageNum - 1)}
+                disabled={pageNum <= 1}
+                className="p-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all border border-slate-850 cursor-pointer"
+                title="이전 페이지"
+              >
+                <ChevronLeft size={16} />
+              </button>
+              
+              <div className="flex items-center gap-2">
+                <input
+                  type="text"
+                  value={pageInputValue}
+                  onChange={(e) => setPageInputValue(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      const target = parseDisplayPage(pageInputValue, config);
+                      if (target !== null) {
+                        handlePageChange(target);
+                      } else {
+                        alert('Page range: 1~' + config.maxPage);
+                        setPageInputValue(getDisplayPageStr(pageNum, config));
+                      }
+                    }
+                  }}
+                  onBlur={() => {
+                    const target = parseDisplayPage(pageInputValue, config);
+                    if (target !== null) {
+                      handlePageChange(target);
+                    } else {
+                      setPageInputValue(getDisplayPageStr(pageNum, config));
+                    }
+                  }}
+                  className="w-16 bg-slate-900 border border-slate-800 text-slate-100 text-center py-1 rounded-xl text-xs font-black focus:border-indigo-500 focus:outline-none"
+                />
+                <span className="text-xs text-slate-500 font-bold select-none">/ {getDisplayPageStr(config.maxPage, config)}</span>
+              </div>
 
-          <button
-            type="button"
-            onClick={() => handlePageChange(pageNum + 1)}
-            disabled={pageNum >= config.maxPage}
-            className="p-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all border border-slate-850 cursor-pointer"
-            title="다음 페이지"
-          >
-            <ChevronRight size={16} />
-          </button>
+              <button
+                type="button"
+                onClick={() => handlePageChange(pageNum + 1)}
+                disabled={pageNum >= config.maxPage}
+                className="p-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all border border-slate-850 cursor-pointer"
+                title="다음 페이지"
+              >
+                <ChevronRight size={16} />
+              </button>
+
+              {/* 네비게이터 접기 버튼 */}
+              <div className="h-4 w-[1px] bg-slate-800 mx-0.5"></div>
+              <button
+                type="button"
+                onClick={() => setNavCollapsed(true)}
+                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-800/80 transition-all cursor-pointer"
+                title="시야 확보를 위해 바 접기"
+              >
+                <ChevronDown size={16} />
+              </button>
+            </div>
+          )}
         </div>
       )}
 

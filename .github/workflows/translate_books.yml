@@ -1,0 +1,70 @@
+name: Cloud H200 Auto Translation Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      book:
+        description: '번역 대상 도서 선택'
+        required: true
+        default: 'glory'
+        type: choice
+        options:
+          - 'glory'
+          - '10years'
+          - 'both'
+
+permissions:
+  contents: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360 # 최대 6시간 백그라운드 구동 보장
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python 3.10 환경 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 의존성 설치
+        run: pip install requests
+
+      - name: H200 4개 키 풀 병렬 번역 실행 (PC 꺼져도 자동 동작)
+        env:
+          TOKEN_POC_1: ${{ secrets.TOKEN_POC_1 }}
+          TOKEN_POC_2: ${{ secrets.TOKEN_POC_2 }}
+          TOKEN_DEV_1: ${{ secrets.TOKEN_DEV_1 }}
+          TOKEN_DEV_2: ${{ secrets.TOKEN_DEV_2 }}
+        run: |
+          python scripts/h100_master_dual_pipeline.py ${{ github.event.inputs.book }}
+
+      - name: 번역 결과물 및 캐시 자동 Git 커밋 & 푸시
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Cloud Translator"
+          git add public/docs/*.md public/docs/*.json
+          git commit -m "Auto: Completed H200 translation for ${{ github.event.inputs.book }} [skip ci]" || echo "No changes to commit"
+          git push origin main
+
+      - name: Node.js 20 환경 설정 및 빌드
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 프로덕션 빌드
+        run: |
+          npm ci || npm install
+          node build.js
+
+      - name: Firebase Hosting 자동 배포
+        if: env.FIREBASE_TOKEN != ''
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          npx firebase-tools deploy --only hosting:saemaul-sdgs --token "$FIREBASE_TOKEN"
