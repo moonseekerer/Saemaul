@@ -1037,7 +1037,7 @@ const BookReader = () => {
         window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
         
         // 브라우저 디스크 캐시(과거 404 등) 방지 및 스트리밍 범위 요청 옵션 설정
-        const pdfUrl = `${import.meta.env.BASE_URL}${config.pdfName}?v=20261001_1`;
+        const pdfUrl = `${import.meta.env.BASE_URL}${config.pdfName}?v=20261010_fresh`;
         const loadingTask = window.pdfjsLib.getDocument({
           url: pdfUrl,
           cMapUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/cmaps/',
